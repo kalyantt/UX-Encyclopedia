@@ -1,0 +1,674 @@
+{
+  "UX-001": {
+    "module": "M01",
+    "title": "What UX Actually Is",
+    "concepts": "UX, interaction design, quality of use",
+    "sources": "ID, UXB",
+    "ux_eye": "Find a product you used today; name the goal it helped or blocked."
+  },
+  "UX-002": {
+    "module": "M01",
+    "title": "Usability Is Not Aesthetic Taste",
+    "concepts": "effectiveness, efficiency, safety, utility",
+    "sources": "ID, MIM",
+    "ux_eye": "Compare a beautiful interface and a usable one; where do they differ?"
+  },
+  "UX-003": {
+    "module": "M01",
+    "title": "Experience Goals",
+    "concepts": "satisfaction, trust, delight, control",
+    "sources": "ID, UXB",
+    "ux_eye": "Notice one product emotion and identify the interaction that created it."
+  },
+  "UX-004": {
+    "module": "M01",
+    "title": "The Context Changes the Design",
+    "concepts": "context of use, constraints, environment",
+    "sources": "ID, JER",
+    "ux_eye": "Use a familiar app while distracted, moving, or one-handed; observe the breakdown."
+  },
+  "UX-005": {
+    "module": "M01",
+    "title": "Products Are Part of Services",
+    "concepts": "touchpoints, channels, ecosystem",
+    "sources": "UXB, GSV",
+    "ux_eye": "Trace one purchase from discovery to support; list every non-screen touchpoint."
+  },
+  "UX-006": {
+    "module": "M01",
+    "title": "The UX Quality Lens",
+    "concepts": "user, business, system, ethical trade-offs",
+    "sources": "ID, INS, DPT",
+    "ux_eye": "Choose a frustrating flow and explain whose goal it serves."
+  },
+  "UX-007": {
+    "module": "M02",
+    "title": "Your Brain Does Not See Everything",
+    "concepts": "selective perception, expectation",
+    "sources": "MIM",
+    "ux_eye": "Open a dense screen for three seconds; record what you missed."
+  },
+  "UX-008": {
+    "module": "M02",
+    "title": "Visual Structure Is a Language",
+    "concepts": "Gestalt, grouping, hierarchy",
+    "sources": "MIM, DI",
+    "ux_eye": "Screenshot a screen and draw the groups your eye sees first."
+  },
+  "UX-009": {
+    "module": "M02",
+    "title": "Attention Is a Scarce Resource",
+    "concepts": "salience, interruption, peripheral vision",
+    "sources": "MIM, ID",
+    "ux_eye": "Locate the most important action on three home screens; time yourself."
+  },
+  "UX-010": {
+    "module": "M02",
+    "title": "Recognition Beats Recall",
+    "concepts": "memory, cues, externalization",
+    "sources": "MIM, DI",
+    "ux_eye": "Find an interface that makes you remember something it could show."
+  },
+  "UX-011": {
+    "module": "M02",
+    "title": "Decisions Are Designed",
+    "concepts": "choice, defaults, framing, cognitive load",
+    "sources": "MIM, DPT",
+    "ux_eye": "Inspect a subscription decision; identify the default and its likely effect."
+  },
+  "UX-012": {
+    "module": "M02",
+    "title": "Error, Recovery, and Forgiveness",
+    "concepts": "slips, mistakes, undo, feedback",
+    "sources": "MIM, DI",
+    "ux_eye": "Intentionally make a harmless mistake in an app; evaluate its recovery path."
+  },
+  "UX-013": {
+    "module": "M03",
+    "title": "Goals, Tasks, and Actions",
+    "concepts": "goals, subgoals, workflows",
+    "sources": "ID, DI",
+    "ux_eye": "Break a real task into the user's goal and the interface's required actions."
+  },
+  "UX-014": {
+    "module": "M03",
+    "title": "Mental Models",
+    "concepts": "user expectation, learned conventions",
+    "sources": "MIM, ID",
+    "ux_eye": "Find an icon or label that violates your expectation; explain the cost."
+  },
+  "UX-015": {
+    "module": "M03",
+    "title": "Conceptual Models",
+    "concepts": "system explanation, object/action relationships",
+    "sources": "ID, UXB",
+    "ux_eye": "Describe how a product “thinks” in one sentence; then test your claim."
+  },
+  "UX-016": {
+    "module": "M03",
+    "title": "Metaphors: Helpful Until They Aren’t",
+    "concepts": "interface metaphors, transfer",
+    "sources": "ID, DI",
+    "ux_eye": "Identify a product metaphor and the moment it stops helping."
+  },
+  "UX-017": {
+    "module": "M03",
+    "title": "Task Analysis",
+    "concepts": "steps, information, exceptions, handoffs",
+    "sources": "ID, UXB",
+    "ux_eye": "Map every step in paying one bill or booking one appointment."
+  },
+  "UX-018": {
+    "module": "M03",
+    "title": "Requirements as Evidence",
+    "concepts": "user, business, quality, content requirements",
+    "sources": "ID, UXB",
+    "ux_eye": "Rewrite a feature request as a user need plus a testable quality requirement."
+  },
+  "UX-019": {
+    "module": "M04",
+    "title": "Research Starts With a Decision",
+    "concepts": "uncertainty, research question, decision",
+    "sources": "JER, USR",
+    "ux_eye": "Turn “users hate this” into a decision and a research question."
+  },
+  "UX-020": {
+    "module": "M04",
+    "title": "Assumptions Are Design Material",
+    "concepts": "assumptions, hypotheses, risk",
+    "sources": "JER, CDH",
+    "ux_eye": "List five assumptions behind a product feature you use."
+  },
+  "UX-021": {
+    "module": "M04",
+    "title": "Choosing the Right Method",
+    "concepts": "generative, evaluative, qualitative, quantitative",
+    "sources": "USR, ID",
+    "ux_eye": "Match three product questions to a suitable method and explain why."
+  },
+  "UX-022": {
+    "module": "M04",
+    "title": "Participants and Sampling",
+    "concepts": "behaviors, segments, recruitment, bias",
+    "sources": "USR, JER",
+    "ux_eye": "Identify who is missing from a study that only recruits colleagues."
+  },
+  "UX-023": {
+    "module": "M04",
+    "title": "Research Ethics",
+    "concepts": "consent, privacy, respect, data stewardship",
+    "sources": "ID, USR",
+    "ux_eye": "Review a sign-up flow: what would a participant need to know before agreeing?"
+  },
+  "UX-024": {
+    "module": "M04",
+    "title": "Evidence Has Confidence Levels",
+    "concepts": "observation, interpretation, inference, certainty",
+    "sources": "JER, ID",
+    "ux_eye": "Label three product-review claims as observation, opinion, or evidence."
+  },
+  "UX-025": {
+    "module": "M05",
+    "title": "Discovery Is a Habit",
+    "concepts": "continuous learning, product trio",
+    "sources": "CDH, UTO",
+    "ux_eye": "Notice one product that appears to learn from customers continuously."
+  },
+  "UX-026": {
+    "module": "M05",
+    "title": "Outcomes Over Outputs",
+    "concepts": "outcomes, outputs, product value",
+    "sources": "CDH, INS",
+    "ux_eye": "Convert “launch feature X” into a measurable user outcome."
+  },
+  "UX-027": {
+    "module": "M05",
+    "title": "Continuous Interviewing",
+    "concepts": "past behavior, interview cadence, listening",
+    "sources": "CDH, JER",
+    "ux_eye": "Write three questions about a recent real behavior, not a hypothetical preference."
+  },
+  "UX-028": {
+    "module": "M05",
+    "title": "Mapping the Opportunity Space",
+    "concepts": "opportunities, unmet needs, opportunity tree",
+    "sources": "CDH",
+    "ux_eye": "Build a mini opportunity tree for improving a daily task."
+  },
+  "UX-029": {
+    "module": "M05",
+    "title": "Testing Assumptions, Not Ideas",
+    "concepts": "desirability, viability, feasibility, usability",
+    "sources": "CDH, UXB",
+    "ux_eye": "Pick one solution and state its riskiest assumption."
+  },
+  "UX-030": {
+    "module": "M05",
+    "title": "Show Your Work",
+    "concepts": "research visibility, decisions, stakeholder trust",
+    "sources": "CDH, UTO, SX",
+    "ux_eye": "Find a decision at work/school; what evidence would make it easier to trust?"
+  },
+  "UX-031": {
+    "module": "M06",
+    "title": "From Notes to Themes",
+    "concepts": "coding, patterns, traceability",
+    "sources": "ID, JER",
+    "ux_eye": "Cluster five app-store reviews into tentative themes."
+  },
+  "UX-032": {
+    "module": "M06",
+    "title": "Insights Are Not Observations",
+    "concepts": "insight, implication, opportunity",
+    "sources": "JER, USR",
+    "ux_eye": "Turn one observation into an insight and a design implication."
+  },
+  "UX-033": {
+    "module": "M06",
+    "title": "Personas That Earn Their Keep",
+    "concepts": "behavioral archetypes, evidence",
+    "sources": "ID, UXB",
+    "ux_eye": "Spot a demographic-only persona and explain what behavior is missing."
+  },
+  "UX-034": {
+    "module": "M06",
+    "title": "Scenarios and Stories",
+    "concepts": "situated action, motivation, outcome",
+    "sources": "SX, ID",
+    "ux_eye": "Write a six-sentence scenario for a real task, including context and constraint."
+  },
+  "UX-035": {
+    "module": "M06",
+    "title": "Journey Maps and Blueprints",
+    "concepts": "journey, touchpoint, backstage",
+    "sources": "SDM, GSV",
+    "ux_eye": "Map one service failure and identify the backstage cause."
+  },
+  "UX-036": {
+    "module": "M06",
+    "title": "Telling a Research Story",
+    "concepts": "narrative, audience, evidence, advocacy",
+    "sources": "SX, UTO",
+    "ux_eye": "Explain one insight as a story without exaggerating its certainty."
+  },
+  "UX-037": {
+    "module": "M07",
+    "title": "Information Architecture",
+    "concepts": "users, content, context, systems",
+    "sources": "IA",
+    "ux_eye": "Choose a content-heavy site and identify its primary organizing principle."
+  },
+  "UX-038": {
+    "module": "M07",
+    "title": "Organization and Labels",
+    "concepts": "taxonomy, grouping, vocabulary",
+    "sources": "IA, WID",
+    "ux_eye": "Find a label that only an insider would understand."
+  },
+  "UX-039": {
+    "module": "M07",
+    "title": "Navigation and Wayfinding",
+    "concepts": "orientation, paths, local/global navigation",
+    "sources": "IA, DI",
+    "ux_eye": "Deep-link into a site; can you tell where you are and how to leave?"
+  },
+  "UX-040": {
+    "module": "M07",
+    "title": "Search and Information Scent",
+    "concepts": "query, results, filtering, findability",
+    "sources": "IA, AIX",
+    "ux_eye": "Search for an ambiguous term; inspect how the product helps you recover."
+  },
+  "UX-041": {
+    "module": "M07",
+    "title": "Content Is Interface",
+    "concepts": "clarity, intent, content strategy",
+    "sources": "WID, IA",
+    "ux_eye": "Replace one vague UI label with a clearer, action-specific alternative."
+  },
+  "UX-042": {
+    "module": "M07",
+    "title": "Writing for Stress and Error",
+    "concepts": "error content, tone, support, recovery",
+    "sources": "WID, DI",
+    "ux_eye": "Collect three error messages; rank them by usefulness under stress."
+  },
+  "UX-043": {
+    "module": "M08",
+    "title": "Interaction Types",
+    "concepts": "command, conversation, manipulation, exploration",
+    "sources": "ID, DI",
+    "ux_eye": "Identify the dominant interaction type in a product and whether it fits the task."
+  },
+  "UX-044": {
+    "module": "M08",
+    "title": "Actions and Controls",
+    "concepts": "affordance, signifier, constraints, shortcuts",
+    "sources": "DI, MIM",
+    "ux_eye": "Find a control whose behavior is unclear before you use it."
+  },
+  "UX-045": {
+    "module": "M08",
+    "title": "Forms That Respect People",
+    "concepts": "input, validation, defaults, progressive disclosure",
+    "sources": "DI, WID",
+    "ux_eye": "Complete a form and mark every moment it asks for unnecessary effort."
+  },
+  "UX-046": {
+    "module": "M08",
+    "title": "Feedback and System Status",
+    "concepts": "feedforward, feedback, state, latency",
+    "sources": "DI, MIM",
+    "ux_eye": "Watch a loading state; what information would reduce uncertainty?"
+  },
+  "UX-047": {
+    "module": "M08",
+    "title": "Visual Hierarchy and Layout",
+    "concepts": "density, typography, spacing, contrast",
+    "sources": "DI, MIM",
+    "ux_eye": "Blur a screen; identify whether its main hierarchy survives."
+  },
+  "UX-048": {
+    "module": "M08",
+    "title": "Responsive and Adaptive Design",
+    "concepts": "breakpoints, device context, priority",
+    "sources": "DI, ID",
+    "ux_eye": "Compare desktop and mobile versions of one flow; what should change and what should not?"
+  },
+  "UX-049": {
+    "module": "M09",
+    "title": "Why Design Systems Exist",
+    "concepts": "consistency, scale, shared language",
+    "sources": "DSS, DI",
+    "ux_eye": "Find two similar components in one product that behave inconsistently."
+  },
+  "UX-050": {
+    "module": "M09",
+    "title": "Foundations and Components",
+    "concepts": "tokens, components, states, patterns",
+    "sources": "DSS, DI",
+    "ux_eye": "List the states a button needs beyond “default.”"
+  },
+  "UX-051": {
+    "module": "M09",
+    "title": "Content in the System",
+    "concepts": "content standards, component language",
+    "sources": "WID, DSS",
+    "ux_eye": "Compare confirmation labels across a product; are they systematically clear?"
+  },
+  "UX-052": {
+    "module": "M09",
+    "title": "Start With a Pilot",
+    "concepts": "pilot, scope, adoption, evidence",
+    "sources": "DSS",
+    "ux_eye": "Choose one repeated UI problem that would make a good design-system pilot."
+  },
+  "UX-053": {
+    "module": "M09",
+    "title": "Governance and Contribution",
+    "concepts": "ownership, decision rights, contribution",
+    "sources": "DSS",
+    "ux_eye": "Identify who should decide when a product team needs a new component."
+  },
+  "UX-054": {
+    "module": "M09",
+    "title": "System Metrics and Evangelism",
+    "concepts": "adoption, quality, usage, communication",
+    "sources": "DSS, TCE",
+    "ux_eye": "Define one metric that proves a system improved quality, not just speed."
+  },
+  "UX-055": {
+    "module": "M10",
+    "title": "A Service Is More Than an App",
+    "concepts": "service system, actors, policies, channels",
+    "sources": "GSV, SDM",
+    "ux_eye": "Name every person/system involved in one food-delivery order."
+  },
+  "UX-056": {
+    "module": "M10",
+    "title": "Good Services Are Findable and Understandable",
+    "concepts": "service principles, entry, expectations",
+    "sources": "GSV",
+    "ux_eye": "Try to find the cancellation path for a service; assess how understandable it is."
+  },
+  "UX-057": {
+    "module": "M10",
+    "title": "Frontstage and Backstage",
+    "concepts": "customer experience, operations, dependencies",
+    "sources": "SDM, GSV",
+    "ux_eye": "Identify the invisible operation behind one visible service interaction."
+  },
+  "UX-058": {
+    "module": "M10",
+    "title": "Service Blueprints",
+    "concepts": "handoffs, failures, ownership, evidence",
+    "sources": "SDM",
+    "ux_eye": "Add backstage steps to the journey map you made in UX-035."
+  },
+  "UX-059": {
+    "module": "M10",
+    "title": "Co-creation and Facilitation",
+    "concepts": "participation, workshops, diverse expertise",
+    "sources": "SDM, INC",
+    "ux_eye": "Notice whose perspective is absent from a product decision you know about."
+  },
+  "UX-060": {
+    "module": "M10",
+    "title": "Prototype the Whole Service",
+    "concepts": "rehearsal, policy, people, environment",
+    "sources": "SDM, UXB",
+    "ux_eye": "Design a low-cost rehearsal for a service change without building software."
+  },
+  "UX-061": {
+    "module": "M11",
+    "title": "Prototypes Answer Questions",
+    "concepts": "fidelity, learning goal, representation",
+    "sources": "ID, UXB",
+    "ux_eye": "Choose paper, wireframe, or high-fidelity prototype for three different questions."
+  },
+  "UX-062": {
+    "module": "M11",
+    "title": "Generate Before You Judge",
+    "concepts": "divergence, alternatives, critique",
+    "sources": "UXB, SDM",
+    "ux_eye": "Sketch three different solutions to the same small problem before selecting one."
+  },
+  "UX-063": {
+    "module": "M11",
+    "title": "Usability Testing",
+    "concepts": "realistic task, behavior, observation",
+    "sources": "ID, JER",
+    "ux_eye": "Watch someone use a product without helping; record behavior before explanations."
+  },
+  "UX-064": {
+    "module": "M11",
+    "title": "Inspections and Walkthroughs",
+    "concepts": "heuristic evaluation, cognitive walkthrough",
+    "sources": "ID, DI",
+    "ux_eye": "Walk through a first-time task and predict the first confused moment."
+  },
+  "UX-065": {
+    "module": "M11",
+    "title": "Findings That Drive Change",
+    "concepts": "severity, frequency, confidence, priority",
+    "sources": "ID, UXB",
+    "ux_eye": "Rank three issues by user impact rather than visual annoyance."
+  },
+  "UX-066": {
+    "module": "M11",
+    "title": "Iterate and Validate",
+    "concepts": "change, retest, learning loop",
+    "sources": "ID, CDH",
+    "ux_eye": "After an interface change, state what new evidence would prove it worked."
+  },
+  "UX-067": {
+    "module": "M12",
+    "title": "Metrics Start With a Behavior Model",
+    "concepts": "metric, outcome, user value",
+    "sources": "TCE, LA",
+    "ux_eye": "Pick a metric you see often; describe the user behavior behind it."
+  },
+  "UX-068": {
+    "module": "M12",
+    "title": "The Overall Evaluation Criterion",
+    "concepts": "OEC, long-term value, trade-off",
+    "sources": "TCE",
+    "ux_eye": "Define a success criterion for a reading app that is not just “time spent.”"
+  },
+  "UX-069": {
+    "module": "M12",
+    "title": "Primary, Diagnostic, and Guardrail Metrics",
+    "concepts": "target, explanation, harm prevention",
+    "sources": "TCE",
+    "ux_eye": "Design guardrails for a feature intended to increase purchase conversion."
+  },
+  "UX-070": {
+    "module": "M12",
+    "title": "What an A/B Test Can Tell You",
+    "concepts": "randomization, causal effect, exposure",
+    "sources": "TCE, ID",
+    "ux_eye": "Identify one product decision that needs an experiment and one that needs interviews."
+  },
+  "UX-071": {
+    "module": "M12",
+    "title": "Why Experiments Lie",
+    "concepts": "validity, novelty, instrumentation, bias",
+    "sources": "TCE",
+    "ux_eye": "Find a metric result that could be wrong because tracking is incomplete."
+  },
+  "UX-072": {
+    "module": "M12",
+    "title": "Build a Learning Culture",
+    "concepts": "maturity, documentation, decisions, ethics",
+    "sources": "TCE, UTO",
+    "ux_eye": "Ask: where would your team store a failed experiment so others can learn?"
+  },
+  "UX-073": {
+    "module": "M13",
+    "title": "Design for Human Diversity",
+    "concepts": "inclusion, capability mismatch, exclusion",
+    "sources": "INC, ID",
+    "ux_eye": "Identify one temporary or situational barrier in your current environment."
+  },
+  "UX-074": {
+    "module": "M13",
+    "title": "Capability Demands and Exclusion",
+    "concepts": "sensory, motor, cognitive, situational demand",
+    "sources": "INC, MIM",
+    "ux_eye": "Audit one task for vision, motor, memory, and environmental demands."
+  },
+  "UX-075": {
+    "module": "M13",
+    "title": "Accessible Interaction",
+    "concepts": "keyboard, focus, target size, alternatives",
+    "sources": "ID, INC",
+    "ux_eye": "Navigate a website with only keyboard controls; record the first blocker."
+  },
+  "UX-076": {
+    "module": "M13",
+    "title": "Accessible Content and Visuals",
+    "concepts": "contrast, non-color cues, language, reading order",
+    "sources": "WID, MIM, INC",
+    "ux_eye": "Find information conveyed only by color and redesign the cue."
+  },
+  "UX-077": {
+    "module": "M13",
+    "title": "Deceptive Patterns",
+    "concepts": "obstruction, sneaking, interface interference, nagging",
+    "sources": "DPT",
+    "ux_eye": "Inspect a cancellation or consent flow; classify any deceptive mechanism."
+  },
+  "UX-078": {
+    "module": "M13",
+    "title": "Agency, Consent, and Accountability",
+    "concepts": "voluntary choice, reversal, harm analysis",
+    "sources": "DPT, HCA",
+    "ux_eye": "Rewrite a consent prompt so refusal is as understandable as acceptance."
+  },
+  "UX-079": {
+    "module": "M14",
+    "title": "When Is AI the Right Tool?",
+    "concepts": "use-case fit, prediction, data, error cost",
+    "sources": "MLS, AIX",
+    "ux_eye": "Evaluate an “AI feature” and ask whether simpler automation would solve the job."
+  },
+  "UX-080": {
+    "module": "M14",
+    "title": "Human Control and Automation",
+    "concepts": "oversight, autonomy, review, reversibility",
+    "sources": "HCA, AIX",
+    "ux_eye": "Find an automated decision; where can a person intervene or correct it?"
+  },
+  "UX-081": {
+    "module": "M14",
+    "title": "AI Mental Models and Trust",
+    "concepts": "expectation, explanation, calibration",
+    "sources": "AIX, HCA",
+    "ux_eye": "Read an AI product promise; identify what a new user may incorrectly expect."
+  },
+  "UX-082": {
+    "module": "M14",
+    "title": "AI Errors and Graceful Failure",
+    "concepts": "uncertainty, recourse, fallback, feedback",
+    "sources": "AIX, HCA",
+    "ux_eye": "Trigger or imagine an AI failure; what should the product say and offer next?"
+  },
+  "UX-083": {
+    "module": "M14",
+    "title": "AI Value and Model Evaluation",
+    "concepts": "confusion matrix, user cost, quality beyond accuracy",
+    "sources": "AIX, MLS, TCE",
+    "ux_eye": "Identify the costly false positive and false negative in an AI recommendation."
+  },
+  "UX-084": {
+    "module": "M14",
+    "title": "Data, Drift, and Governance",
+    "concepts": "data lifecycle, monitoring, accountability, risk",
+    "sources": "MLS, HCA",
+    "ux_eye": "Ask what could change after launch that would make an AI feature less reliable."
+  },
+  "UX-085": {
+    "module": "M15",
+    "title": "Product Opportunity Assessment",
+    "concepts": "customer problem, opportunity, constraints",
+    "sources": "INS, CDH",
+    "ux_eye": "Describe a product opportunity without naming a feature."
+  },
+  "UX-086": {
+    "module": "M15",
+    "title": "Product Principles",
+    "concepts": "decision criteria, coherence, strategy",
+    "sources": "INS, DSS",
+    "ux_eye": "Infer three product principles from a product you admire."
+  },
+  "UX-087": {
+    "module": "M15",
+    "title": "Discovery and Delivery Together",
+    "concepts": "dual-track work, collaboration, handoff",
+    "sources": "CDH, UXB, UTO",
+    "ux_eye": "Map where learning gets lost between discovery and development."
+  },
+  "UX-088": {
+    "module": "M15",
+    "title": "Influence Without Losing Evidence",
+    "concepts": "stakeholder alignment, storytelling, advocacy",
+    "sources": "UTO, SX",
+    "ux_eye": "Reframe one research finding for an executive, engineer, and designer."
+  },
+  "UX-089": {
+    "module": "M15",
+    "title": "Governance Is a Design Problem",
+    "concepts": "decision rights, accountability, organizational incentives",
+    "sources": "DSS, DPT, HCA",
+    "ux_eye": "Identify a product decision where unclear ownership creates inconsistent UX."
+  },
+  "UX-090": {
+    "module": "M15",
+    "title": "Designing for Long-Term Value",
+    "concepts": "strategy, sustainability, learning, ethics",
+    "sources": "INS, GSV, TCE",
+    "ux_eye": "Name one short-term metric that could damage long-term user trust."
+  },
+  "UX-091": {
+    "module": "M16",
+    "title": "Read a Product Like a Designer",
+    "concepts": "observation, evidence, system thinking",
+    "sources": "Entire corpus",
+    "ux_eye": "Conduct a 15-minute teardown using concepts from three earlier modules."
+  },
+  "UX-092": {
+    "module": "M16",
+    "title": "Frame a Complex Problem",
+    "concepts": "context, stakeholders, outcomes, uncertainty",
+    "sources": "ID, CDH, SDM",
+    "ux_eye": "Write a problem frame for a service you believe is broken."
+  },
+  "UX-093": {
+    "module": "M16",
+    "title": "Make a Research and Discovery Plan",
+    "concepts": "methods, assumptions, decisions, ethics",
+    "sources": "JER, USR, CDH",
+    "ux_eye": "Create a one-page plan for learning before designing a solution."
+  },
+  "UX-094": {
+    "module": "M16",
+    "title": "Design the System, Not Just the Screen",
+    "concepts": "content, interaction, service, design system",
+    "sources": "IA, DI, SDM, DSS",
+    "ux_eye": "Draw the system dependencies behind one key screen."
+  },
+  "UX-095": {
+    "module": "M16",
+    "title": "Evaluate Value, Risk, and Harm",
+    "concepts": "evidence, metrics, access, ethics, AI risk",
+    "sources": "TCE, INC, DPT, HCA",
+    "ux_eye": "Create three guardrails for a product intervention."
+  },
+  "UX-096": {
+    "module": "M16",
+    "title": "Present a Defensible Design Case",
+    "concepts": "rationale, trade-offs, references, next test",
+    "sources": "SX, UTO, Entire corpus",
+    "ux_eye": "Explain a product recommendation, its evidence, limits, and next experiment."
+  }
+}
