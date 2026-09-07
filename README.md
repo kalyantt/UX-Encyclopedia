@@ -5,8 +5,10 @@ This is the GitHub Pages publish folder for the UX Encyclopedia.
 ## Entry points
 
 - `index.html` - public home page
-- `course.html` - connected 96-lesson course player with the full chapter library
-- `course-data.js` - authoritative module and lesson routing
+- `course.html` - connected 204-lesson course player with the full chapter library
+- `case.html` - the 17-stage CarePath project that connects all 204 lessons
+- `assets/carepath-journey-hero.png` - original editorial illustration for the continuing case
+- `course-204-data.js` - authoritative compressed module, lesson, and chapter library
 - `lesson-data.js` - source-grounded lesson metadata
 
 ## GitHub Pages publishing
