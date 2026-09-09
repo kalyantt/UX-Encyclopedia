@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gunzipSync } from 'node:zlib';
@@ -32,11 +32,27 @@ for (const [id, markdown] of Object.entries(data.chapters)) {
   if (!/class="eye-head"/.test(rendered)) failures.push(`${id}: observation exercise was not rendered`);
   if (!/class="refs"/.test(rendered)) failures.push(`${id}: references were not rendered`);
   if (/^id:\s*UX-/m.test(visibleText)) failures.push(`${id}: internal frontmatter leaked into the lesson`);
+  if (/[—–]/.test(visibleText)) failures.push(`${id}: long dash remained in the public copy`);
+  if (/\b(?:rather than|not just|Senior practitioners)\b/i.test(visibleText)) failures.push(`${id}: formulaic wording remained in the public copy`);
   if (/\|\s*:?-{3,}/.test(visibleText)) failures.push(`${id}: Markdown table syntax leaked into the lesson`);
 }
 
 const indexed = Object.values(data.index).flatMap((module) => module.lessons);
 if (indexed.length !== 204 || Object.keys(data.chapters).length !== 204) failures.push('Course does not contain 204 indexed chapters');
+if (indexed.some(([, title]) => /[—–]|\b(?:rather than|not just)\b/i.test(title))) failures.push('A lesson title still uses formulaic or dash-heavy wording');
+if (!html.includes('function visualAnchor')) failures.push('Lesson visual anchor is missing');
+const moduleAssets = [
+  'module-01-foundations.jpg', 'module-02-perception.jpg', 'module-03-context.jpg',
+  'module-04-research.jpg', 'module-05-discovery.jpg', 'module-06-synthesis.jpg',
+  'module-07-information.jpg', 'module-08-content.jpg', 'module-09-interaction.jpg',
+  'module-10-systems.jpg', 'module-11-service.jpg', 'module-12-evaluation.jpg',
+  'module-13-metrics.jpg', 'module-14-inclusion.jpg', 'module-15-ai.jpg',
+  'module-16-strategy.jpg', 'module-17-capstone.jpg',
+];
+for (const name of moduleAssets) {
+  if (!existsSync(join(siteDir, 'assets', name))) failures.push(`Missing lesson illustration: ${name}`);
+  if (!html.includes(name)) failures.push(`Lesson illustration is not used: ${name}`);
+}
 
 console.log(JSON.stringify({
   lessons: Object.keys(data.chapters).length,

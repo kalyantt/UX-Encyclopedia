@@ -7,6 +7,35 @@ const siteDir = dirname(fileURLToPath(import.meta.url));
 const outputsDir = resolve(siteDir, '..');
 const dataPath = join(siteDir, 'course-204-data.js');
 
+const seniorVoices = [
+  'Experienced designers',
+  'At senior level, designers',
+  'Mature product teams',
+  'Strong design leaders',
+];
+
+function polishForReading(markdown, id) {
+  const lessonNumber = Number(id.slice(3));
+  return markdown
+    .split('\n')
+    .map((line) => {
+      if (line.startsWith('# ')) return line;
+      return line
+        .replace(/(\*[^*]+\*)\s+[—–]\s+/g, '$1 by ')
+        .replace(/\s+—\s+/g, ': ')
+        .replace(/—/g, ', ')
+        .replace(/(\d)\s*–\s*(\d)/g, '$1 to $2')
+        .replace(/([A-Za-z])–([A-Za-z])/g, '$1 and $2')
+        .replace(/\s+–\s+/g, ' to ')
+        .replace(/\brather than\b/gi, 'instead of')
+        .replace(/\bnot just ([^.;:]+?) but ([^.;:]+)/gi, '$1 and $2')
+        .replace(/,\s*not just\s+/gi, ' as well as ')
+        .replace(/\bnot just\s+/gi, 'more than ')
+        .replace(/\bSenior practitioners\b/g, seniorVoices[lessonNumber % seniorVoices.length]);
+    })
+    .join('\n');
+}
+
 function walk(dir) {
   return readdirSync(dir).flatMap((name) => {
     const path = join(dir, name);
@@ -30,8 +59,9 @@ for (const path of sourceFiles) {
   const title = heading?.[2] ?? frontmatterTitle ?? plainTitle;
   if (!id || !title) throw new Error(`Missing lesson identity: ${path}`);
   if (chapters[id]) throw new Error(`Duplicate lesson id: ${id}`);
-  chapters[id] = markdown.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '').trim();
-  titles[id] = title.trim();
+  const lessonBody = markdown.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '').trim();
+  chapters[id] = polishForReading(lessonBody, id);
+  titles[id] = polishForReading(title.trim(), id).replace(/\s+as well as\s+/i, ': Beyond ');
 }
 
 const existing = readFileSync(dataPath, 'utf8');
