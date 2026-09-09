@@ -10,6 +10,21 @@ This is the GitHub Pages publish folder for the UX Encyclopedia.
 - `assets/carepath-journey-hero.png` - original editorial illustration for the continuing case
 - `course-204-data.js` - authoritative compressed module, lesson, and chapter library
 - `lesson-data.js` - source-grounded lesson metadata
+- `build-course-data.mjs` - rebuilds the public lesson payload from the 204 Markdown source lessons
+- `audit-course.mjs` - checks lesson identity, teaching structure, CarePath continuity, depth signals, and references
+- `verify-render.mjs` - runs the actual site renderer across every lesson and checks for missing or leaked content
+
+## Rebuild and verification
+
+From the repository's parent project folder, run:
+
+```text
+node outputs/ux-encyclopedia-site/audit-course.mjs
+node outputs/ux-encyclopedia-site/build-course-data.mjs
+node outputs/ux-encyclopedia-site/verify-render.mjs
+```
+
+The generated `course-204-data.js` is committed so GitHub Pages can remain a static site with no server-side build.
 
 ## GitHub Pages publishing
 
