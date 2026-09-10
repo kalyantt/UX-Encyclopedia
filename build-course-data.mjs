@@ -36,57 +36,6 @@ function polishForReading(markdown, id) {
     .join('\n');
 }
 
-function plainText(markdown) {
-  return markdown
-    .split('\n')
-    .filter((line) => !/^\s*(?:\||[-*]\s+|\d+\.\s+)/.test(line) && !/:\s*$/.test(line))
-    .join('\n')
-    .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
-    .replace(/[*_`>#]/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function sentences(markdown) {
-  return plainText(markdown)
-    .match(/[^.!?]+(?:[.!?]+[”"']?|$)/g)
-    ?.map((sentence) => sentence.trim())
-    .filter(Boolean) ?? [];
-}
-
-function shorten(sentence, limit = 190) {
-  if (sentence.length <= limit) return sentence;
-  const clipped = sentence.slice(0, limit + 1);
-  const clean = clipped.slice(0, Math.max(clipped.lastIndexOf(' '), limit - 28)).replace(/[,:;\s]+$/, '');
-  return `${clean}…`;
-}
-
-function section(markdown, headingPattern) {
-  const match = markdown.match(new RegExp(`^##[ \\t]+${headingPattern}[ \\t]*\\r?\\n([\\s\\S]*?)(?=^##[ \\t]+|(?![\\s\\S]))`, 'im'));
-  return match?.[1].trim() ?? '';
-}
-
-function buildComic(markdown) {
-  const carePath = section(markdown, '[^\\n]*CarePath[^\\n]*');
-  const carePathSentences = sentences(carePath);
-  const usefulSentences = carePathSentences.filter((sentence) => sentence.length > 28 && !/:$/.test(sentence));
-  const scene = usefulSentences[0]
-    || 'A CarePath decision brings this lesson into the real service.';
-  const notice = usefulSentences.find((sentence) => sentence !== scene && /\bAlex\s+(?:asks|notices|finds|sees|realises|learns|traces|maps|tests|reviews)\b/i.test(sentence))
-    || usefulSentences.find((sentence) => sentence !== scene && /\bAlex\b/i.test(sentence))
-    || usefulSentences[1]
-    || 'Alex looks past the screen to understand what is shaping the experience.';
-  const change = usefulSentences.find((sentence) => sentence !== scene && sentence !== notice && /\b(?:team|decision|design|changes?|result|artifact|records?|replaces?|adds?|removes?|tests?|builds?|keeps?|moves?)\b/i.test(sentence))
-    || usefulSentences.find((sentence) => sentence !== scene && sentence !== notice)
-    || 'The finding changes the next CarePath design decision.';
-
-  return {
-    scene: shorten(scene),
-    notice: shorten(notice),
-    change: shorten(change),
-  };
-}
-
 function walk(dir) {
   return readdirSync(dir).flatMap((name) => {
     const path = join(dir, name);
@@ -99,7 +48,6 @@ const sourceFiles = [join(outputsDir, 'v1-lessons'), join(outputsDir, 'v2-lesson
   .filter((path) => /\/UX-\d{3}-.+\.md$/.test(path));
 
 const chapters = {};
-const comics = {};
 const titles = {};
 for (const path of sourceFiles) {
   const markdown = readFileSync(path, 'utf8').trim();
@@ -113,7 +61,6 @@ for (const path of sourceFiles) {
   if (chapters[id]) throw new Error(`Duplicate lesson id: ${id}`);
   const lessonBody = markdown.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '').trim();
   chapters[id] = polishForReading(lessonBody, id);
-  comics[id] = buildComic(chapters[id]);
   titles[id] = polishForReading(title.trim(), id).replace(/\s+as well as\s+/i, ': Beyond ');
 }
 
@@ -138,7 +85,7 @@ if (sourceIds.length !== 204 || indexedIds.length !== 204 || missingFromIndex.le
   throw new Error(JSON.stringify({ sourceCount: sourceIds.length, indexCount: indexedIds.length, missingFromIndex, duplicatedInIndex }));
 }
 
-const payload = JSON.stringify({ index: previous.index, chapters, comics });
+const payload = JSON.stringify({ index: previous.index, chapters });
 const compressed = gzipSync(Buffer.from(payload), { level: 9, mtime: 0 }).toString('base64');
 writeFileSync(dataPath, `window.course204Gzip="${compressed}";\n`);
 console.log(`Built ${sourceIds.length} complete lessons (${payload.length.toLocaleString()} source bytes).`);

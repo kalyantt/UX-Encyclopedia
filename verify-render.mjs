@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gunzipSync } from 'node:zlib';
@@ -8,11 +8,7 @@ const siteDir = dirname(fileURLToPath(import.meta.url));
 const html = readFileSync(join(siteDir, 'course.html'), 'utf8');
 const rendererSource = html.match(/(const esc=[\s\S]*?)function renderNav/)?.[1];
 if (!rendererSource) throw new Error('Could not extract the live Markdown renderer');
-const context = {
-  comics: {},
-  visuals: Object.fromEntries(Array.from({ length: 17 }, (_, i) => [`M${String(i + 1).padStart(2, '0')}`, ['test.jpg', '']])),
-  stages: Object.fromEntries(Array.from({ length: 17 }, (_, i) => [`M${String(i + 1).padStart(2, '0')}`, ['', '', '', '#efb72f']])),
-};
+const context = {};
 vm.createContext(context);
 vm.runInContext(`${rendererSource}\nglobalThis.renderLesson = markdown;`, context);
 
@@ -26,11 +22,7 @@ let renderedTables = 0;
 let renderedQuotes = 0;
 let minimumText = Infinity;
 for (const [id, markdown] of Object.entries(data.chapters)) {
-  const moduleEntry = Object.entries(data.index).find(([, module]) => module.lessons.some(([lessonId]) => lessonId === id));
-  const [mid, module] = moduleEntry;
-  const title = module.lessons.find(([lessonId]) => lessonId === id)[1];
-  context.comics[id] = data.comics[id];
-  const rendered = context.renderLesson(markdown, { id, mid, title });
+  const rendered = context.renderLesson(markdown);
   const visibleText = rendered.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   minimumText = Math.min(minimumText, visibleText.length);
   renderedTables += (rendered.match(/<table>/g) || []).length;
@@ -43,26 +35,12 @@ for (const [id, markdown] of Object.entries(data.chapters)) {
   if (/[—–]/.test(visibleText)) failures.push(`${id}: long dash remained in the public copy`);
   if (/\b(?:rather than|not just|Senior practitioners)\b/i.test(visibleText)) failures.push(`${id}: formulaic wording remained in the public copy`);
   if (/\|\s*:?-{3,}/.test(visibleText)) failures.push(`${id}: Markdown table syntax leaked into the lesson`);
-  if (!/class="lesson-comic"/.test(rendered)) failures.push(`${id}: contextual comic was not rendered`);
-  if (!data.comics[id] || ['scene', 'notice', 'change'].some((key) => !data.comics[id][key])) failures.push(`${id}: comic sequence is incomplete`);
 }
 
 const indexed = Object.values(data.index).flatMap((module) => module.lessons);
-if (indexed.length !== 204 || Object.keys(data.chapters).length !== 204 || Object.keys(data.comics || {}).length !== 204) failures.push('Course does not contain 204 indexed chapters and comics');
+if (indexed.length !== 204 || Object.keys(data.chapters).length !== 204) failures.push('Course does not contain 204 indexed chapters');
 if (indexed.some(([, title]) => /[—–]|\b(?:rather than|not just)\b/i.test(title))) failures.push('A lesson title still uses formulaic or dash-heavy wording');
-if (!html.includes('function comicStrip')) failures.push('Contextual lesson comic is missing');
-const moduleAssets = [
-  'module-01-foundations.jpg', 'module-02-perception.jpg', 'module-03-context.jpg',
-  'module-04-research.jpg', 'module-05-discovery.jpg', 'module-06-synthesis.jpg',
-  'module-07-information.jpg', 'module-08-content.jpg', 'module-09-interaction.jpg',
-  'module-10-systems.jpg', 'module-11-service.jpg', 'module-12-evaluation.jpg',
-  'module-13-metrics.jpg', 'module-14-inclusion.jpg', 'module-15-ai.jpg',
-  'module-16-strategy.jpg', 'module-17-capstone.jpg',
-];
-for (const name of moduleAssets) {
-  if (!existsSync(join(siteDir, 'assets', name))) failures.push(`Missing lesson illustration: ${name}`);
-  if (!html.includes(name)) failures.push(`Lesson illustration is not used: ${name}`);
-}
+if (/lesson-comic|function comicStrip|<img\s|module-\d{2}-.+\.jpg/i.test(html)) failures.push('Repeated lesson illustrations are still present');
 
 console.log(JSON.stringify({
   lessons: Object.keys(data.chapters).length,
