@@ -35,6 +35,23 @@ document.querySelector('#menu-toggle').onclick=()=>{const open=document.querySel
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.querySelector('#rail').classList.contains('mobile-open')){closeMobile();document.querySelector('#menu-toggle').focus()}});
 function exclusive(container,selector){
   const details=[...container.querySelectorAll(selector)],states=new WeakMap();
+  let anchorFrame=0;
+  function preserveAnchor(summary){
+    cancelAnimationFrame(anchorFrame);
+    const scrollContainer=container===nav?nav:null;
+    const top=summary.getBoundingClientRect().top;
+    const started=performance.now();
+    const follow=()=>{
+      if(!summary.isConnected)return;
+      const delta=summary.getBoundingClientRect().top-top;
+      if(Math.abs(delta)>.1){
+        if(scrollContainer)scrollContainer.scrollTop+=delta;
+        else window.scrollBy({top:delta,behavior:'instant'});
+      }
+      if(performance.now()-started<460)anchorFrame=requestAnimationFrame(follow);
+    };
+    anchorFrame=requestAnimationFrame(follow);
+  }
   function change(detail,open){
     const previous=states.get(detail),from=detail.getBoundingClientRect().height;
     if(previous?.animation)previous.animation.cancel();
@@ -44,7 +61,7 @@ function exclusive(container,selector){
     detail.open=true;
     const to=open?detail.getBoundingClientRect().height:summary.getBoundingClientRect().height;
     detail.style.overflow='hidden';
-    const animation=detail.animate([{height:from+'px'},{height:to+'px'}],{duration:240,easing:'cubic-bezier(.22,1,.36,1)'});
+    const animation=detail.animate([{height:from+'px'},{height:to+'px'}],{duration:380,easing:'cubic-bezier(.25,.8,.25,1)'});
     const state={open,animation};states.set(detail,state);
     animation.onfinish=()=>{if(states.get(detail)!==state)return;detail.open=open;detail.style.overflow='';states.set(detail,{open})};
   }
@@ -53,6 +70,7 @@ function exclusive(container,selector){
     detail.removeAttribute('name');states.set(detail,{open:detail.open});
     detail.querySelector(':scope > summary').addEventListener('click',event=>{
       event.preventDefault();const open=!states.get(detail).open;
+      preserveAnchor(detail.querySelector(':scope > summary'));
       if(open)details.forEach(other=>{if(other!==detail&&states.get(other).open)change(other,false)});
       change(detail,open);
     });
@@ -65,11 +83,13 @@ function renderNav(mid){
   exclusive(nav,'.nav-module');nav.scrollTop=position;updateProgress();
 }
 function section(title,body,number,{open=false,challenge=false,id=''}={}){return `<details class="reading-section ${challenge?'challenge-section':''}" name="lesson-sections" ${open?'open':''} ${id?`id="${id}"`:''}><summary aria-expanded="${open}"><span class="section-number">${challenge?'✎':String(number).padStart(2,'0')}</span><h2 class="section-title">${esc(title)}</h2><span class="chevron" aria-hidden="true"></span></summary><div class="section-body">${body}</div></details>`}
-function answer(id,field,label){const key=id+':'+field;return `<label for="answer-${field}">${esc(label)}</label><textarea class="answer" id="answer-${field}" data-note="${esc(key)}" placeholder="Write it in your own words…">${esc(saved.notes[key]||'')}</textarea><div class="note-status" id="status-${field}" role="status">${storageAvailable?'Saved on this device as you type.':'Browser storage is unavailable. Copy your notes before leaving.'}</div>`}
-function completion(id){return `<div class="challenge-actions"><button class="button" id="complete" aria-pressed="${!!saved.complete[id]}">${saved.complete[id]?'✓ Practised · mark unfinished':'Mark as practised'}</button><button class="button secondary" id="download-notes">Download my notes</button></div><div class="note-status" id="completion-status" role="status">Self-assessed practice. This is not a graded result.</div>`}
 function lessonChallenge(id,lesson){
-  const body=`<div class="challenge-kicker">01 · Recall</div><h3>Close the lesson. Keep the idea.</h3><p>${esc(lesson.recall)}</p>${answer(id,'recall','Your explanation')}<details class="feedback"><summary>Compare with the lesson</summary><div class="prose"><p>Check whether your explanation connects the situation, the mechanism, and the design decision. There can be more than one defensible answer.</p>${lesson.guidance.map(s=>'<h3>'+esc(s.title)+'</h3>'+markdown(s.body)).join('')}</div></details><div class="task-block"><div class="challenge-kicker">02 · Apply</div><h3>Make a design decision.</h3><div class="prose">${markdown(lesson.practice)}</div>${answer(id,'application','Your decision, sketch notes, and reasoning')}<details class="feedback"><summary>Review your reasoning</summary><div class="prose"><p>Point to the part of your answer that responds to the task. Explain why it should help, what could still fail, and what evidence would make you change it. Compare it with the relevant example in the lesson; matching its wording is not the goal.</p></div></details></div><div class="task-block"><div class="challenge-kicker">03 · Notice</div><h3>Train your UX eye.</h3><div class="prose">${markdown(lesson.observe)}</div></div>${completion(id)}`;
+  const body=`<div class="challenge-kicker">Put the idea to the test</div>${quiz(id,id)}<details class="feedback"><summary>Optional: try it in a real product</summary><div class="prose">${markdown(lesson.practice)}<h3>Train your UX eye</h3>${markdown(lesson.observe)}</div></details>`;
   return section('Your lesson challenge',body,0,{challenge:true,id:'lesson-challenge'});
+}
+function quiz(lessonId,scope,number=1){
+  const q=library.quizzes[lessonId],key=scope+':'+lessonId;
+  return `<form class="quiz" data-quiz="${lessonId}" data-scope="${scope}"><fieldset><legend><span class="challenge-kicker">Question ${number}</span>${esc(q.prompt)}</legend><div class="quiz-options">${q.options.map((option,i)=>`<label class="quiz-option"><input type="radio" name="${key}" value="${i}" required><span>${esc(option)}</span></label>`).join('')}</div></fieldset><button class="button quiz-submit" type="submit">Check answer</button><div class="quiz-result" role="status" aria-live="polite"></div><button class="button secondary quiz-retry" type="button" hidden>Try again</button></form>`;
 }
 function renderLesson(id){
   const x=find(id),lesson=library.reading[id];if(!x||!lesson)return false;
@@ -84,16 +104,42 @@ function renderChapter(mid){
   const module=library.modules[mid],m=library.index[mid];if(!module||!m)return false;
   const id=mid+'-challenge';currentId=id;const ids=Object.keys(library.index),next=ids[ids.indexOf(mid)+1];
   document.title=module.title+' · Chapter challenge';document.querySelector('#breadcrumb').textContent='Chapter '+Number(mid.slice(1))+' / '+m.name;document.querySelector('#reading-status').textContent='Put the chapter to work';
-  const deliver=`<div class="prose"><ol>${module.deliver.map(t=>'<li>'+esc(t)+'</li>').join('')}</ol></div>${answer(id,'application','Your response or a link to your working notes')}<details class="feedback"><summary>Check your work</summary><p>Use these criteria to review the reasoning. They are a guide, not an automatic score.</p>${module.review.map((t,i)=>`<div class="review-check"><input type="checkbox" id="review-${i}" data-check="${id}:${i}" ${saved.checks[id+':'+i]?'checked':''}><label for="review-${i}">${esc(t)}</label></div>`).join('')}</details><div class="twist"><strong>Now change one condition</strong>${esc(module.twist)}</div>${answer(id,'revision','What would you change, and why?')}${completion(id)}`;
-  page.innerHTML=`<div class="lesson"><header class="lesson-head"><div class="eyebrow">Chapter ${Number(mid.slice(1))} · The challenge</div><h1>${esc(module.title)}</h1><div class="lesson-meta"><span>Bring ${m.lessons.length} lessons together</span><span>·</span><span>Work at your own pace</span></div></header><div class="opening"><p>${esc(module.story)}</p></div><div class="chapter-brief">${esc(module.challenge)}</div>${section('Your brief & working notes',deliver,1,{open:true,challenge:true})}${section('Revisit a lesson',`<div class="chapter-reading">${m.lessons.map(([lid,t])=>`<a href="#${lid}">${esc(t)}</a>`).join('')}</div>`,2)}<nav class="footer-nav" aria-label="Chapter navigation"><a href="#${m.lessons.at(-1)[0]}"><small>← Back to the last lesson</small><strong>${esc(m.lessons.at(-1)[1])}</strong></a>${next?`<a href="#${library.index[next].lessons[0][0]}"><small>Next chapter →</small><strong>${esc(library.index[next].name)}</strong></a>`:`<a href="index.html"><small>Course home →</small><strong>Keep practising in real products</strong></a>`}</nav></div>`;
+  const reviewLessons=[m.lessons[0],m.lessons[Math.floor(m.lessons.length/2)],m.lessons.at(-1)];
+  const deliver=`<p>Three questions revisiting this chapter. Select one answer for each, then check your reasoning.</p>${reviewLessons.map(([lid],i)=>quiz(lid,id,i+1)).join('')}<p class="chapter-score" role="status"></p>`;
+  page.innerHTML=`<div class="lesson"><header class="lesson-head"><div class="eyebrow">Chapter ${Number(mid.slice(1))} · The challenge</div><h1>${esc(module.title)}</h1><div class="lesson-meta"><span>Review the chapter</span><span>·</span><span>Three multiple-choice questions</span></div></header><div class="opening"><p>${esc(module.story)}</p></div>${section('Check your understanding',deliver,1,{open:true,challenge:true})}${section('Revisit a lesson',`<div class="chapter-reading">${m.lessons.map(([lid,t])=>`<a href="#${lid}">${esc(t)}</a>`).join('')}</div>`,2)}<nav class="footer-nav" aria-label="Chapter navigation"><a href="#${m.lessons.at(-1)[0]}"><small>← Back to the last lesson</small><strong>${esc(m.lessons.at(-1)[1])}</strong></a>${next?`<a href="#${library.index[next].lessons[0][0]}"><small>Next chapter →</small><strong>${esc(library.index[next].name)}</strong></a>`:`<a href="index.html"><small>Course home →</small><strong>Keep practising in real products</strong></a>`}</nav></div>`;
   bindPage(id);renderNav(mid);return true;
 }
 function bindPage(id){
   exclusive(page,'.reading-section');
-  page.querySelectorAll('[data-note]').forEach(input=>input.addEventListener('input',()=>{saved.notes[input.dataset.note]=input.value;const ok=persist();document.getElementById('status-'+input.id.replace('answer-','')).textContent=ok?'Saved on this device.':'Could not save. Download your notes before leaving.'}));
-  page.querySelectorAll('[data-check]').forEach(input=>input.addEventListener('change',()=>{saved.checks[input.dataset.check]=input.checked;persist()}));
-  page.querySelector('#complete').onclick=e=>{saved.complete[id]=!saved.complete[id];const ok=persist();e.currentTarget.textContent=saved.complete[id]?'✓ Practised · mark unfinished':'Mark as practised';e.currentTarget.setAttribute('aria-pressed',String(!!saved.complete[id]));document.querySelector('#completion-status').textContent=ok?'Progress saved on this device.':'Progress could not be saved in this browser.';renderNav(id.startsWith('M')?id.slice(0,3):find(id).mid)};
-  page.querySelector('#download-notes').onclick=()=>{const notes=Object.entries(saved.notes).filter(([key])=>key.startsWith(id+':'));const text=[document.title,...notes.map(([key,value])=>'\n'+key.split(':')[1].toUpperCase()+'\n'+value)].join('\n');const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=id+'-practice.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+  const forms=[...page.querySelectorAll('.quiz')];
+  function refreshScore(){
+    const passed=forms.filter(form=>saved.checks['quiz:'+form.dataset.scope+':'+form.dataset.quiz]===true).length;
+    const score=page.querySelector('.chapter-score');if(score)score.textContent=passed+' of '+forms.length+' correct.';
+    if(passed===forms.length){saved.complete[id]=true;persist();renderNav(id.startsWith('M')?id.slice(0,3):find(id).mid)}
+  }
+  forms.forEach(form=>{
+    const q=library.quizzes[form.dataset.quiz],key='quiz:'+form.dataset.scope+':'+form.dataset.quiz;
+    if(saved.checks[key]===true)form.querySelector('.quiz-result').textContent='Previously answered correctly. You can practise again.';
+    form.addEventListener('submit',event=>{
+      event.preventDefault();const selected=form.querySelector('input:checked');if(!selected)return;
+      const correct=Number(selected.value)===q.correct;
+      form.querySelectorAll('input').forEach(input=>input.disabled=true);
+      selected.closest('label').classList.add(correct?'is-correct':'is-incorrect');
+      form.querySelector('.quiz-result').innerHTML=`<strong>${correct?'That’s right.':'Not quite.'}</strong><p>${esc(q.explanation)}</p>${correct?'':`<p><strong>Best answer:</strong> ${esc(q.options[q.correct])}</p>`}`;
+      form.querySelector('.quiz-submit').hidden=true;form.querySelector('.quiz-retry').hidden=false;
+      form.querySelector('.quiz-result').setAttribute('tabindex','-1');form.querySelector('.quiz-result').focus({preventScroll:true});
+      saved.checks[key]=correct;const ok=persist();refreshScore();
+      if(!ok)form.querySelector('.quiz-result').insertAdjacentHTML('beforeend','<p>Progress could not be saved in this browser.</p>');
+    });
+    form.querySelector('.quiz-retry').addEventListener('click',()=>{
+      form.reset();form.querySelectorAll('input').forEach(input=>input.disabled=false);
+      form.querySelectorAll('label').forEach(label=>label.classList.remove('is-correct','is-incorrect'));
+      form.querySelector('.quiz-result').innerHTML='';form.querySelector('.quiz-submit').hidden=false;form.querySelector('.quiz-retry').hidden=true;
+      form.querySelector('input').focus({preventScroll:true});
+    });
+  });
+  refreshScore();
+
 }
 function route(){
   const id=location.hash.slice(1)||'UX-001';
@@ -101,7 +147,7 @@ function route(){
   const valid=/^M\d{2}-challenge$/.test(id)?renderChapter(id.slice(0,3)):renderLesson(id);
   if(!valid){history.replaceState(null,'','#UX-001');renderLesson('UX-001')}
   closeMobile();window.scrollTo({top:0,behavior:'instant'});page.focus({preventScroll:true});
-  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){page.getAnimations().forEach(animation=>animation.cancel());page.animate([{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],{duration:220,easing:'ease-out'})}
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){page.getAnimations().forEach(animation=>animation.cancel());page.animate([{opacity:0},{opacity:1}],{duration:220,easing:'ease-out'})}
 }
 window.addEventListener('hashchange',()=>{if(library)route()});
 async function start(){const bytes=Uint8Array.from(atob(window.course204Gzip),c=>c.charCodeAt(0));library=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());route()}

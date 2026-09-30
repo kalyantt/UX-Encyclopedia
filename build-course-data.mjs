@@ -3,6 +3,7 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync, gunzipSync } from 'node:zlib';
 import { readingModel, modules } from './learning-design.mjs';
+import { quizzes } from './quiz-bank.mjs';
 
 const siteDir = dirname(fileURLToPath(import.meta.url));
 const outputsDir = resolve(siteDir, '..');
@@ -90,7 +91,7 @@ const reading = Object.fromEntries(sourceIds.map(id => [id, readingModel(chapter
 for (const [id, lesson] of Object.entries(reading)) {
   if (!lesson.opening || !lesson.practice || !lesson.observe || !lesson.refs || !lesson.recall || !lesson.sections.length) throw new Error(`Incomplete learning experience: ${id}`);
 }
-const payload = JSON.stringify({ index: previous.index, chapters, reading, modules });
+const payload = JSON.stringify({ index: previous.index, chapters, reading, modules, quizzes });
 const compressed = gzipSync(Buffer.from(payload), { level: 9, mtime: 0 }).toString('base64');
 writeFileSync(dataPath, `window.course204Gzip="${compressed}";\n`);
 console.log(`Built ${sourceIds.length} complete lessons (${payload.length.toLocaleString()} source bytes).`);

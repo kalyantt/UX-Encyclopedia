@@ -18,7 +18,7 @@ This is the GitHub Pages publish folder for the UX Encyclopedia.
 - `learning-design.mjs` - narrative openings, reading structure, and 17 chapter challenges
 - `recall-prompts.mjs` - 204 lesson-specific recall questions
 
-Practice notes and self-assessed completion are saved in local browser storage, not synced to an account. Learners can download their notes from each challenge. Clearing browser storage removes this local progress.
+Challenges use 204 authored multiple-choice questions in `quiz-bank.mjs`. Each chapter reviews three questions from its lessons. Answers include explanatory feedback and retry controls. `node verify-quizzes.mjs` checks coverage and answer-key structure. Practice progress is saved locally, not synced to an account. Earlier written notes remain in browser storage but are no longer part of the challenge interface. Clearing browser storage removes local progress.
 
 ## Rebuild and verification
 
