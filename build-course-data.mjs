@@ -2,6 +2,7 @@ import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync, gunzipSync } from 'node:zlib';
+import { readingModel, modules } from './learning-design.mjs';
 
 const siteDir = dirname(fileURLToPath(import.meta.url));
 const outputsDir = resolve(siteDir, '..');
@@ -27,7 +28,7 @@ function polishForReading(markdown, id) {
         .replace(/(\d)\s*–\s*(\d)/g, '$1 to $2')
         .replace(/([A-Za-z])–([A-Za-z])/g, '$1 and $2')
         .replace(/\s+–\s+/g, ' to ')
-        .replace(/\brather than\b/gi, 'instead of')
+        .replace(/\brather than\b/gi, match => /^[A-Z]/.test(match) ? 'Instead of' : 'instead of')
         .replace(/\bnot just ([^.;:]+?) but ([^.;:]+)/gi, '$1 and $2')
         .replace(/,\s*not just\s+/gi, ' as well as ')
         .replace(/\bnot just\s+/gi, 'more than ')
@@ -85,7 +86,11 @@ if (sourceIds.length !== 204 || indexedIds.length !== 204 || missingFromIndex.le
   throw new Error(JSON.stringify({ sourceCount: sourceIds.length, indexCount: indexedIds.length, missingFromIndex, duplicatedInIndex }));
 }
 
-const payload = JSON.stringify({ index: previous.index, chapters });
+const reading = Object.fromEntries(sourceIds.map(id => [id, readingModel(chapters[id], id, titles[id])]));
+for (const [id, lesson] of Object.entries(reading)) {
+  if (!lesson.opening || !lesson.practice || !lesson.observe || !lesson.refs || !lesson.recall || !lesson.sections.length) throw new Error(`Incomplete learning experience: ${id}`);
+}
+const payload = JSON.stringify({ index: previous.index, chapters, reading, modules });
 const compressed = gzipSync(Buffer.from(payload), { level: 9, mtime: 0 }).toString('base64');
 writeFileSync(dataPath, `window.course204Gzip="${compressed}";\n`);
 console.log(`Built ${sourceIds.length} complete lessons (${payload.length.toLocaleString()} source bytes).`);

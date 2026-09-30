@@ -8,12 +8,17 @@ This is the GitHub Pages publish folder for the UX Encyclopedia.
 - `course.html` - connected 204-lesson course player with the full chapter library
 - `case.html` - the 17-stage CarePath project that connects all 204 lessons
 - `assets/carepath-journey-hero.png` - original editorial illustration for the continuing case
-- `assets/module-*.jpg` - 17 original editorial illustrations, one for each module
+- `assets/module-*.jpg` - archived module illustrations, not displayed in lessons
 - `course-204-data.js` - authoritative compressed module, lesson, and chapter library
 - `lesson-data.js` - source-grounded lesson metadata
 - `build-course-data.mjs` - rebuilds the public lesson payload from the 204 Markdown source lessons
 - `audit-course.mjs` - checks lesson identity, teaching structure, CarePath continuity, depth signals, and references
 - `verify-render.mjs` - runs the actual site renderer across every lesson and checks for missing or leaked content
+- `course-reader.js` and `course-reader.css` - responsive reader, single-open sections, and local practice notes
+- `learning-design.mjs` - narrative openings, reading structure, and 17 chapter challenges
+- `recall-prompts.mjs` - 204 lesson-specific recall questions
+
+Practice notes and self-assessed completion are saved in local browser storage, not synced to an account. Learners can download their notes from each challenge. Clearing browser storage removes this local progress.
 
 ## Rebuild and verification
 

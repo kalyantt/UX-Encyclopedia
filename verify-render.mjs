@@ -6,7 +6,8 @@ import vm from 'node:vm';
 
 const siteDir = dirname(fileURLToPath(import.meta.url));
 const html = readFileSync(join(siteDir, 'course.html'), 'utf8');
-const rendererSource = html.match(/(const esc=[\s\S]*?)function renderNav/)?.[1];
+const readerSource = readFileSync(join(siteDir, 'course-reader.js'), 'utf8');
+const rendererSource = readerSource.split('let library,currentId;')[0];
 if (!rendererSource) throw new Error('Could not extract the live Markdown renderer');
 const context = {};
 vm.createContext(context);
@@ -28,9 +29,17 @@ for (const [id, markdown] of Object.entries(data.chapters)) {
   renderedTables += (rendered.match(/<table>/g) || []).length;
   renderedQuotes += (rendered.match(/<blockquote>/g) || []).length;
   if (visibleText.length < 5000) failures.push(`${id}: rendered content is suspiciously short (${visibleText.length} characters)`);
-  if (!/class="senior-head"/.test(rendered)) failures.push(`${id}: senior section was not rendered`);
-  if (!/class="eye-head"/.test(rendered)) failures.push(`${id}: observation exercise was not rendered`);
-  if (!/class="refs"/.test(rendered)) failures.push(`${id}: references were not rendered`);
+  const lesson=data.reading[id];
+  if (!lesson?.sections.some(s=>/Senior lens/i.test(s.title))) failures.push(`${id}: senior section missing`);
+  if (!lesson?.observe || !lesson?.practice || !lesson?.recall || !lesson?.guidance.length) failures.push(`${id}: practice incomplete`);
+  if (!lesson?.refs) failures.push(`${id}: references missing`);
+  if (lesson) {
+    const reconstructed=[lesson.opening,...lesson.sections.map(s=>s.body),lesson.thread,lesson.refs,lesson.practice,lesson.observe].join('\n');
+    for(const part of markdown.split(/(?=^## )/m).filter(p=>/^## /.test(p)&&!/^## Anchor case/.test(p))) {
+      const body=part.slice(part.indexOf('\n')+1).trim();
+      if(!reconstructed.includes(body)) failures.push(`${id}: lost source section ${part.split('\n')[0]}`);
+    }
+  }
   if (/^id:\s*UX-/m.test(visibleText)) failures.push(`${id}: internal frontmatter leaked into the lesson`);
   if (/[—–]/.test(visibleText)) failures.push(`${id}: long dash remained in the public copy`);
   if (/\b(?:rather than|not just|Senior practitioners)\b/i.test(visibleText)) failures.push(`${id}: formulaic wording remained in the public copy`);
@@ -39,6 +48,8 @@ for (const [id, markdown] of Object.entries(data.chapters)) {
 
 const indexed = Object.values(data.index).flatMap((module) => module.lessons);
 if (indexed.length !== 204 || Object.keys(data.chapters).length !== 204) failures.push('Course does not contain 204 indexed chapters');
+if(Object.keys(data.reading).length!==204||Object.keys(data.modules).length!==17) failures.push('Learning coverage is incomplete');
+for(const[mid,m]of Object.entries(data.modules))if(!m.challenge||m.deliver.length<3||m.review.length<3||!m.twist)failures.push(`${mid}: chapter challenge incomplete`);
 if (indexed.some(([, title]) => /[—–]|\b(?:rather than|not just)\b/i.test(title))) failures.push('A lesson title still uses formulaic or dash-heavy wording');
 if (/lesson-comic|function comicStrip|<img\s|module-\d{2}-.+\.jpg/i.test(html)) failures.push('Repeated lesson illustrations are still present');
 
