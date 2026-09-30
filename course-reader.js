@@ -33,7 +33,31 @@ function allLessons(){return Object.values(library.index).flatMap(m=>m.lessons)}
 function closeMobile(){document.querySelector('#rail').classList.remove('mobile-open');document.querySelector('#menu-toggle').setAttribute('aria-expanded','false');document.querySelector('#menu-toggle').textContent='Course contents'}
 document.querySelector('#menu-toggle').onclick=()=>{const open=document.querySelector('#rail').classList.toggle('mobile-open');document.querySelector('#menu-toggle').setAttribute('aria-expanded',String(open));document.querySelector('#menu-toggle').textContent=open?'Close contents':'Course contents'};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.querySelector('#rail').classList.contains('mobile-open')){closeMobile();document.querySelector('#menu-toggle').focus()}});
-function exclusive(container,selector){container.querySelectorAll(selector).forEach(detail=>{detail.addEventListener('toggle',()=>detail.querySelector(':scope > summary').setAttribute('aria-expanded',String(detail.open)));detail.querySelector(':scope > summary').addEventListener('click',()=>{if(!detail.open)container.querySelectorAll(selector).forEach(other=>{if(other!==detail)other.open=false})})})}
+function exclusive(container,selector){
+  const details=[...container.querySelectorAll(selector)],states=new WeakMap();
+  function change(detail,open){
+    const previous=states.get(detail),from=detail.getBoundingClientRect().height;
+    if(previous?.animation)previous.animation.cancel();
+    const summary=detail.querySelector(':scope > summary');
+    summary.setAttribute('aria-expanded',String(open));
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches){detail.open=open;detail.style.overflow='';states.set(detail,{open});return}
+    detail.open=true;
+    const to=open?detail.getBoundingClientRect().height:summary.getBoundingClientRect().height;
+    detail.style.overflow='hidden';
+    const animation=detail.animate([{height:from+'px'},{height:to+'px'}],{duration:240,easing:'cubic-bezier(.22,1,.36,1)'});
+    const state={open,animation};states.set(detail,state);
+    animation.onfinish=()=>{if(states.get(detail)!==state)return;detail.open=open;detail.style.overflow='';states.set(detail,{open})};
+  }
+  details.forEach(detail=>{
+    // Native disclosure still works without JavaScript; JS coordinates closing animations.
+    detail.removeAttribute('name');states.set(detail,{open:detail.open});
+    detail.querySelector(':scope > summary').addEventListener('click',event=>{
+      event.preventDefault();const open=!states.get(detail).open;
+      if(open)details.forEach(other=>{if(other!==detail&&states.get(other).open)change(other,false)});
+      change(detail,open);
+    });
+  });
+}
 function updateProgress(){const count=allLessons().filter(([id])=>saved.complete[id]).length;document.querySelector('#progress-label').textContent=count+' of 204 lesson challenges practised';document.querySelector('#progress-bar').style.width=(count/204*100)+'%'}
 function renderNav(mid){
   const position=nav.scrollTop;
@@ -77,6 +101,7 @@ function route(){
   const valid=/^M\d{2}-challenge$/.test(id)?renderChapter(id.slice(0,3)):renderLesson(id);
   if(!valid){history.replaceState(null,'','#UX-001');renderLesson('UX-001')}
   closeMobile();window.scrollTo({top:0,behavior:'instant'});page.focus({preventScroll:true});
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){page.getAnimations().forEach(animation=>animation.cancel());page.animate([{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],{duration:220,easing:'ease-out'})}
 }
 window.addEventListener('hashchange',()=>{if(library)route()});
 async function start(){const bytes=Uint8Array.from(atob(window.course204Gzip),c=>c.charCodeAt(0));library=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());route()}
