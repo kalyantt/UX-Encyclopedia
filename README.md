@@ -18,7 +18,13 @@ This is the GitHub Pages publish folder for the UX Encyclopedia.
 - `learning-design.mjs` - narrative openings, reading structure, and 17 chapter challenges
 - `recall-prompts.mjs` - 204 lesson-specific recall questions
 
-Challenges use 204 authored multiple-choice questions in `quiz-bank.mjs`. Each chapter reviews three questions from its lessons. Answers include explanatory feedback and retry controls. `node verify-quizzes.mjs` checks coverage and answer-key structure. Practice progress is saved locally, not synced to an account. Earlier written notes remain in browser storage but are no longer part of the challenge interface. Clearing browser storage removes local progress.
+Challenges use 816 multiple-choice questions across `quiz-bank.mjs` and `quiz-checks.mjs`: one scenario and three two-claim comparisons per lesson. Each chapter reviews six questions from its lessons. Feedback and retries keep the first-attempt score separate from current correct answers. `node verify-quizzes.mjs` checks coverage and answer-key structure. Practice progress is saved locally, not synced to an account. Earlier written notes remain in browser storage but are no longer part of the challenge interface. Clearing browser storage removes local progress.
+
+## Pip, the course companion
+
+`reading-pet.mjs` and `reading-pet.css` implement Pip, a small interactive SVG companion with a keyboard-operable leaf game. `pet-search.mjs` retrieves published course passages locally; it is not an LLM or a full-book search engine. It uses a conservative lexical match and abstains when no strong match exists. Results are labelled as passages, link to their lessons, and expose lesson-level references rather than claiming page-level book citations. The source books and their private extracts are not shipped. Questions are not sent to a third party or persisted. Run `node verify-pet.mjs` for retrieval and abstention checks.
+
+Accordion motion uses one interruptible animation loop for height, opacity, and scroll anchoring. Wheel or touch interaction releases the anchor. Reduced-motion users receive immediate state changes.
 
 ## Rebuild and verification
 

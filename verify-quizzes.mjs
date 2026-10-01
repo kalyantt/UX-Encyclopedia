@@ -6,12 +6,13 @@ const encoded=readFileSync(new URL('./course-204-data.js',import.meta.url),'utf8
 const data=JSON.parse(gunzipSync(Buffer.from(encoded,'base64')));
 let chapters=0;
 for(const [id] of Object.values(data.index).flatMap(m=>m.lessons)){
-  const q=quizzes[id];assert.ok(q,id);assert.equal(q.options.length,3);assert.equal(new Set(q.options).size,3);assert.ok(q.correct>=0&&q.correct<3);assert.ok(q.explanation.length>30);assert.deepEqual(data.quizzes[id],q);
+  const questions=quizzes[id];assert.ok(questions,id);assert.equal(questions.length,4);assert.equal(new Set(questions.map(q=>q.prompt)).size,4);
+  for(const q of questions){assert.ok(q.options.length>=2);assert.equal(new Set(q.options).size,q.options.length);assert.ok(q.correct>=0&&q.correct<q.options.length);assert.ok(q.explanation.length>30)}assert.deepEqual(data.quizzes[id],questions);
 }
 for(const m of Object.values(data.index)){
-  const ids=[m.lessons[0][0],m.lessons[Math.floor(m.lessons.length/2)][0],m.lessons.at(-1)[0]];
-  assert.equal(new Set(ids).size,3);ids.forEach(id=>assert.ok(quizzes[id]));chapters++;
+  const ids=Array.from({length:6},(_,i)=>m.lessons[Math.floor(i*(m.lessons.length-1)/5)][0]);
+  assert.equal(new Set(ids).size,6);ids.forEach(id=>assert.ok(quizzes[id]));chapters++;
 }
 assert.equal(Object.keys(quizzes).length,204);assert.equal(chapters,17);
 assert.ok(!readFileSync(new URL('./course-reader.js',import.meta.url),'utf8').includes('<textarea'));
-console.log('Verified 204 lesson questions, 17 three-question chapter reviews, answer keys, and no written-answer fields.');
+console.log('Verified 816 questions across 204 lessons, 17 six-question chapter reviews, answer keys, and no written-answer fields.');

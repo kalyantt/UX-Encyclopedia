@@ -1,6 +1,7 @@
 // Each row: lesson number | best answer | misconception | misconception | explanation.
 // Option order is rotated deterministically; the correct position is not fixed.
 import { recallPrompts } from './recall-prompts.mjs';
+import { extraChecks } from './quiz-checks.mjs';
 const rows = `
 001|Follow Maya’s goal, the service handoff, and whether she actually gets an appointment.|Judge the experience from the confirmation screen alone.|Treat a submitted request as the completed user goal.|A request is one system event. UX includes the whole attempt and the uncertainty left afterward.
 002|Observe representative people completing the same tasks in relevant contexts.|Ask the design team which screen looks more professional.|Choose the version with the fewest controls.|Usability depends on people, goals, and context. Visual preference and control count cannot establish task success.
@@ -208,7 +209,7 @@ const rows = `
 204|Evaluate correct and equitable outcomes, authoritative evidence, alternatives, appeal, and remedy.|Use completion as the main proof of safety.|Treat a polished interface and an explanation as sufficient accountability.|High-stakes services require reliable decisions and meaningful recourse, not just task completion.
 `;
 
-export const quizzes=Object.fromEntries(rows.trim().split('\n').map(line=>{
+const scenarioQuizzes=Object.fromEntries(rows.trim().split('\n').map(line=>{
   const [number,correct,wrong1,wrong2,explanation]=line.split('|');
   const offset=Number(number)%3;
   const options=[correct,wrong1,wrong2];
@@ -216,7 +217,8 @@ export const quizzes=Object.fromEntries(rows.trim().split('\n').map(line=>{
   const id='UX-'+number;
   return [id,{prompt:recallPrompts[id]+' Choose the strongest response.',options:ordered,correct:ordered.indexOf(correct),explanation}];
 }));
-for(const [id,q] of Object.entries(quizzes)){
+for(const [id,q] of Object.entries(scenarioQuizzes)){
   if(!q.prompt||q.options.length!==3||q.options.some(x=>!x)||!q.explanation||new Set(q.options).size!==3)throw new Error('Invalid quiz: '+id);
 }
+export const quizzes=Object.fromEntries(Object.entries(scenarioQuizzes).map(([id,scenario])=>[id,[scenario,...extraChecks[id]]]));
 if(Object.keys(quizzes).length!==204)throw new Error('Expected 204 authored quizzes');
