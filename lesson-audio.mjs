@@ -17,7 +17,7 @@ export function mountAudio(library){
   const sectionFor=position=>segments[position]?.section??0;
   function status(message){const node=player()?.querySelector('.audio-status');if(node)node.textContent=message}
   function paint(){
-    const root=player();if(!root)return;
+    const root=player();if(!root?.querySelector('.audio-play'))return;
     const label=sections[sectionFor(index)]?.label||'Opening';
     root.querySelector('.audio-play').textContent=playing?(paused?'▶ Resume':'Ⅱ Pause'):'▶ Listen';
     root.querySelector('.audio-play').setAttribute('aria-label',playing?(paused?'Resume lesson audio':'Pause lesson audio'):'Play lesson audio');
