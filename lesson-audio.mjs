@@ -11,8 +11,9 @@ function chunks(text,max=210){
 export function mountAudio(library){
   const supported='speechSynthesis' in window&&'SpeechSynthesisUtterance' in window;
   const synth=supported?window.speechSynthesis:null;
-  let id='',sections=[],segments=[],index=0,playing=false,paused=false,token=0,rate=1;
+  let id='',sections=[],segments=[],index=0,playing=false,paused=false,token=0,rate=1,voiceURI='';
   try{rate=Number(localStorage.getItem('ux-listen-rate'))||1}catch{}
+  try{voiceURI=localStorage.getItem('ux-listen-voice')||''}catch{}
   const player=()=>document.querySelector('#lesson-audio');
   const sectionFor=position=>segments[position]?.section??0;
   function status(message){const node=player()?.querySelector('.audio-status');if(node)node.textContent=message}
@@ -29,10 +30,19 @@ export function mountAudio(library){
     if(playing){const key=sectionFor(index);if(key>0)document.querySelectorAll('.reading-section')[key-1]?.classList.add('is-speaking')}
   }
   function stop(){token++;if(synth)synth.cancel();playing=false;paused=false;index=0;paint();status(supported?'Ready when you are.':'Listening is unavailable in this browser.')}
+  function availableVoices(){return supported?synth.getVoices().filter(voice=>/^en([_-]|$)/i.test(voice.lang)).sort((a,b)=>a.name.localeCompare(b.name)):[]}
+  function showVoices(){
+    const select=player()?.querySelector('.audio-voice select');if(!select)return;
+    const voices=availableVoices();
+    select.replaceChildren(new Option('System default',''),...voices.map(voice=>new Option(`${voice.name} (${voice.lang})`,voice.voiceURI)));
+    select.value=voices.some(voice=>voice.voiceURI===voiceURI)?voiceURI:'';
+    select.disabled=!supported||!voices.length;
+  }
   function speak(){
     if(!playing||paused||!segments[index])return;
     const current=token,utterance=new SpeechSynthesisUtterance(segments[index].text);
     utterance.rate=rate;utterance.lang=document.documentElement.lang||'en';
+    const chosen=availableVoices().find(voice=>voice.voiceURI===voiceURI);if(chosen)utterance.voice=chosen;
     utterance.onend=()=>{if(current!==token)return;index++;if(index>=segments.length){playing=false;index=0;paint();status('Finished listening. Ready to replay.');return}paint();speak()};
     utterance.onerror=event=>{if(current!==token||event.error==='interrupted'||event.error==='canceled')return;playing=false;paint();status('Audio stopped. Try playing again or choose another browser voice.')};
     synth.speak(utterance);paint();
@@ -56,8 +66,9 @@ export function mountAudio(library){
       return chunks(`${section.label}. ${plain}`).map(text=>({section:sectionIndex,text}));
     });
     const minutes=Math.max(1,Math.round(segments.reduce((sum,segment)=>sum+segment.text.split(' ').length,0)/160));
-    root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">LISTENING MODE</span><strong>Hear the story</strong><span class="audio-location"></span></div><div class="audio-controls"><button class="audio-prev" type="button" aria-label="Previous section">⏮</button><button class="audio-play" type="button"></button><button class="audio-next" type="button" aria-label="Next section">⏭</button><label class="audio-speed">Speed <select aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.4">1.4×</option></select></label></div><progress class="audio-progress" max="100" value="0" aria-label="Audio progress"></progress><p class="audio-status" role="status">${supported?`About ${minutes} min · Uses your browser’s voice · No recording or upload`:'Listening is unavailable in this browser.'}</p>`;
+    root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">LISTENING MODE</span><strong>Hear the story</strong><span class="audio-location"></span></div><div class="audio-controls"><button class="audio-prev" type="button" aria-label="Previous section">⏮</button><button class="audio-play" type="button"></button><button class="audio-next" type="button" aria-label="Next section">⏭</button><label class="audio-speed">Speed <select aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.4">1.4×</option></select></label></div><label class="audio-voice">Voice <select aria-label="Reading voice"></select></label><progress class="audio-progress" max="100" value="0" aria-label="Audio progress"></progress><p class="audio-status" role="status">${supported?`About ${minutes} min · Device voices vary · No recording or upload`:'Listening is unavailable in this browser.'}</p>`;
     root.querySelector('.audio-speed select').value=String(rate);
+    showVoices();
     root.querySelector('.audio-play').disabled=!supported;
     root.querySelector('.audio-prev').onclick=()=>jump(-1);
     root.querySelector('.audio-next').onclick=()=>jump(1);
@@ -65,6 +76,12 @@ export function mountAudio(library){
       rate=Number(event.target.value);
       try{localStorage.setItem('ux-listen-rate',String(rate))}catch{}
       if(playing){token++;synth.cancel();paused=false;speak()}
+    };
+    root.querySelector('.audio-voice select').onchange=event=>{
+      voiceURI=event.target.value;
+      try{localStorage.setItem('ux-listen-voice',voiceURI)}catch{}
+      if(playing){token++;synth.cancel();paused=false;status('Playing with the selected voice…');speak()}
+      else status('Voice selected. Press Listen to hear it.');
     };
     root.querySelector('.audio-play').onclick=()=>{
       if(!supported)return;
@@ -75,5 +92,6 @@ export function mountAudio(library){
     paint();
   }
   window.addEventListener('beforeunload',stop);
+  if(supported)synth.addEventListener('voiceschanged',showVoices);
   return {sync,stop};
 }
