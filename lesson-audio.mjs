@@ -29,7 +29,7 @@ export function mountAudio(library){
     document.querySelectorAll('.reading-section.is-speaking').forEach(node=>node.classList.remove('is-speaking'));
     if(playing){const key=sectionFor(index);if(key>0)document.querySelectorAll('.reading-section')[key-1]?.classList.add('is-speaking')}
   }
-  function stop(){token++;if(synth)synth.cancel();playing=false;paused=false;index=0;paint();status(supported?'Ready when you are.':'Listening is unavailable in this browser.')}
+  function stop(){token++;const recording=player()?.querySelector('.audio-recording');if(recording){recording.pause();recording.currentTime=0}if(synth)synth.cancel();playing=false;paused=false;index=0;paint();status(supported?'Ready when you are.':'Listening is unavailable in this browser.')}
   function availableVoices(){return supported?synth.getVoices().filter(voice=>/^en([_-]|$)/i.test(voice.lang)).sort((a,b)=>a.name.localeCompare(b.name)):[]}
   function showVoices(){
     const select=player()?.querySelector('.audio-voice select');if(!select)return;
@@ -60,6 +60,12 @@ export function mountAudio(library){
     stop();id=nextId;
     const root=player(),lesson=library.reading[id];
     if(!root||!lesson)return;
+    if(id==='UX-001'){
+      root.classList.add('recorded');
+      root.innerHTML='<div class="audio-copy"><span class="audio-kicker">OFFLINE NARRATION PILOT</span><strong>Hear the whole lesson</strong><span class="audio-location">A calm voice, generated once for every listener</span></div><audio class="audio-recording" controls preload="none" src="assets/audio/UX-001.m4a" aria-label="Narration of lesson UX-001"></audio><p class="audio-status">About 12 min · No per-play voice fee · Other lessons still use the browser reader while you review this voice.</p>';
+      return;
+    }
+    root.classList.remove('recorded');
     sections=[{label:'Opening',text:lesson.opening},...lesson.sections.map(section=>({label:section.label,text:section.body}))];
     segments=sections.flatMap((section,sectionIndex)=>{
       const plain=section.text.replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/[#*_`>|]/g,' ').replace(/\s+/g,' ');

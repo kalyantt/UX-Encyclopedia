@@ -14,7 +14,7 @@ This is the GitHub Pages publish folder for the UX Encyclopedia.
 - `build-course-data.mjs` - rebuilds the public lesson payload from the 204 Markdown source lessons
 - `audit-course.mjs` - checks lesson identity, teaching structure, CarePath continuity, depth signals, and references
 - `verify-render.mjs` - runs the actual site renderer across every lesson and checks for missing or leaked content
-- `course-reader.js` and `course-reader.css` - responsive reader, single-open sections, and local practice notes
+- `course-reader.js` and `course-reader.css` - responsive reader, continuous lessons, and single-open chapter navigation
 - `learning-design.mjs` - narrative openings, reading structure, and 17 chapter challenges
 - `recall-prompts.mjs` - 204 lesson-specific recall questions
 
@@ -24,7 +24,13 @@ Challenges use 816 multiple-choice questions across `quiz-bank.mjs` and `quiz-ch
 
 `reading-pet.mjs` and `reading-pet.css` implement Pip, a small interactive SVG companion with a keyboard-operable leaf game. `pet-search.mjs` retrieves published course passages locally; it is not an LLM or a full-book search engine. It uses a conservative lexical match and abstains when no strong match exists. Results are labelled as passages, link to their lessons, and expose lesson-level references rather than claiming page-level book citations. The source books and their private extracts are not shipped. Questions are not sent to a third party or persisted. Run `node verify-pet.mjs` for retrieval and abstention checks.
 
-Accordion motion uses one interruptible animation loop for height, opacity, and scroll anchoring. Wheel or touch interaction releases the anchor. Reduced-motion users receive immediate state changes.
+Chapter accordion motion uses one interruptible animation loop for height, opacity, and scroll anchoring. Wheel or touch interaction releases the anchor. Reduced-motion users receive immediate state changes.
+
+## Offline narration pilot
+
+`assets/audio/UX-001.m4a` is a pilot recording of the first lesson, generated once on a local Mac with the Apache-2.0-licensed Kokoro-82M voice model. Readers play the same static file; no text-to-speech request is made per listener. It narrates the lesson opening and teaching sections. Quizzes and references remain visual and interactive. Other lessons retain the browser voice as a temporary fallback, pending voice approval and audio quality review.
+
+`generate-narration.py` extracts the published lesson text and renders WAV audio locally. It does not bundle the model, upload course text, or include an API key. The model and voice files must be downloaded separately from the Kokoro release. The full batch needs table narration, pronunciation checks, listening QA, and compression before publication; do not run all 204 unattended with this pilot script. The final audio archive should be reviewed against the GitHub Pages site-size and bandwidth limits.
 
 ## Rebuild and verification
 
