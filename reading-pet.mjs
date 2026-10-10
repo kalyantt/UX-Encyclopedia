@@ -35,7 +35,9 @@ export function mountPet(library,getCurrentId){
     const id=getCurrentId(),lesson=library.reading[id];
     if(!lesson){answer.textContent='Open a lesson first, then ask me about its section.';express('sad','I need a lesson to read with you.');return}
     const title=Object.values(library.index).flatMap(m=>m.lessons).find(([lid])=>lid===id)?.[1]||id;
-    const heading=document.querySelector('.reading-section[open] .section-title')?.textContent;
+    const sections=[...document.querySelectorAll('.reading-section')];
+    const current=sections.filter(node=>node.getBoundingClientRect().top<innerHeight*.45).at(-1);
+    const heading=current?.querySelector('.section-title')?.textContent;
     const section=lesson.sections.find(s=>s.label===heading);
     show([{id,title,section:section?.label||'Lesson opening',text:plain(section?.body||lesson.opening),refs:plain(lesson.refs)}]);
   };

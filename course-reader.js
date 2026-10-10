@@ -30,8 +30,8 @@ try{const stored=JSON.parse(localStorage.getItem(storageKey)||'null');if(stored&
 function persist(){try{localStorage.setItem(storageKey,JSON.stringify(saved));return true}catch{storageAvailable=false;return false}}
 function find(id){for(const[mid,m]of Object.entries(library.index)){const pos=m.lessons.findIndex(l=>l[0]===id);if(pos!==-1)return{mid,m,pos,id,title:m.lessons[pos][1]}}return null}
 function allLessons(){return Object.values(library.index).flatMap(m=>m.lessons)}
-function closeMobile(){document.querySelector('#rail').classList.remove('mobile-open');document.querySelector('#menu-toggle').setAttribute('aria-expanded','false');document.querySelector('#menu-toggle').textContent='Course contents'}
-document.querySelector('#menu-toggle').onclick=()=>{const open=document.querySelector('#rail').classList.toggle('mobile-open');document.querySelector('#menu-toggle').setAttribute('aria-expanded',String(open));document.querySelector('#menu-toggle').textContent=open?'Close contents':'Course contents'};
+function closeMobile(){document.querySelector('#rail').classList.remove('mobile-open');document.body.classList.remove('contents-open');document.querySelector('#menu-toggle').setAttribute('aria-expanded','false');document.querySelector('#menu-toggle').textContent='Course contents'}
+document.querySelector('#menu-toggle').onclick=()=>{const open=document.querySelector('#rail').classList.toggle('mobile-open');document.body.classList.toggle('contents-open',open);document.querySelector('#menu-toggle').setAttribute('aria-expanded',String(open));document.querySelector('#menu-toggle').textContent=open?'Close contents':'Course contents'};
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.querySelector('#rail').classList.contains('mobile-open')){closeMobile();document.querySelector('#menu-toggle').focus()}});
 function exclusive(container,selector){
   const details=[...container.querySelectorAll(selector)],desired=new WeakMap();
@@ -91,9 +91,9 @@ function renderNav(mid){
   nav.innerHTML=Object.entries(library.index).map(([key,m],i)=>`<details class="nav-module" name="chapters" ${key===mid?'open':''}><summary aria-expanded="${key===mid}"><span class="module-number">${String(i+1).padStart(2,'0')}</span><span class="module-name">${esc(m.name)}<small>${m.lessons.length} lessons</small></span><span class="chevron" aria-hidden="true"></span></summary><div class="lesson-links">${m.lessons.map(([id,title])=>`<a class="lesson-link" href="#${id}" ${currentId===id?'aria-current="page"':''}><span class="lesson-dot" aria-hidden="true">${quizComplete(id)?'✓':'○'}</span><span>${esc(title)}</span></a>`).join('')}<a class="lesson-link chapter-link" href="#${key}-challenge" ${currentId===key+'-challenge'?'aria-current="page"':''}><span class="lesson-dot" aria-hidden="true">${saved.complete[key+'-challenge']?'✓':'↗'}</span><span>Chapter challenge</span></a></div></details>`).join('');
   exclusive(nav,'.nav-module');nav.scrollTop=position;updateProgress();
 }
-function section(title,body,number,{open=false,challenge=false,id=''}={}){return `<details class="reading-section ${challenge?'challenge-section':''}" name="lesson-sections" ${open?'open':''} ${id?`id="${id}"`:''}><summary aria-expanded="${open}"><span class="section-number">${challenge?'✎':String(number).padStart(2,'0')}</span><h2 class="section-title">${esc(title)}</h2><span class="chevron" aria-hidden="true"></span></summary><div class="section-body">${body}</div></details>`}
+function section(title,body,number,{challenge=false,id=''}={}){return `<section class="reading-section ${challenge?'challenge-section':''}" ${id?`id="${id}"`:''}><div class="section-heading"><span class="section-number" aria-hidden="true">${challenge?'✎':String(number).padStart(2,'0')}</span><h2 class="section-title">${esc(title)}</h2></div><div class="section-body">${body}</div></section>`}
 function lessonChallenge(id,lesson){
-  const body=`<div class="challenge-kicker">Four questions · check your understanding</div><p>One scenario and three concept comparisons. Choose the strongest answer. Your first-try score stays separate from practice retries.</p><p class="quiz-score" role="status"></p>${library.quizzes[id].map((_,i)=>quiz(id,id,i+1,i)).join('')}<details class="feedback"><summary>Optional: try it in a real product</summary><div class="prose">${markdown(lesson.practice)}<h3>Train your UX eye</h3>${markdown(lesson.observe)}</div></details>`;
+  const body=`<div class="challenge-kicker">Four questions · check your understanding</div><p>One scenario and three concept comparisons. Choose the strongest answer. Your first-try score stays separate from practice retries.</p><p class="quiz-score" role="status"></p>${library.quizzes[id].map((_,i)=>quiz(id,id,i+1,i)).join('')}<section class="feedback"><h3>Try it in a real product</h3><div class="prose">${markdown(lesson.practice)}<h3>Train your UX eye</h3>${markdown(lesson.observe)}</div></section>`;
   return section('Your lesson challenge',body,0,{challenge:true,id:'lesson-challenge'});
 }
 function quiz(lessonId,scope,number=1,question=0){
@@ -106,7 +106,7 @@ function renderLesson(id){
   document.title=x.title+' · UX Encyclopedia';document.querySelector('#breadcrumb').textContent='Chapter '+Number(x.mid.slice(1))+' / '+x.m.name;document.querySelector('#reading-status').textContent='Lesson '+(x.pos+1)+' of '+x.m.lessons.length;
   const previous=x.pos?x.m.lessons[x.pos-1]:at?all[at-1]:null;
   const next=x.pos<x.m.lessons.length-1?x.m.lessons[x.pos+1]:[x.mid+'-challenge','Chapter challenge'];
-  page.innerHTML=`<div class="lesson"><header class="lesson-head"><div class="eyebrow">The UX Encyclopedia · ${id}</div><h1>${esc(x.title)}</h1><div class="lesson-meta"><span>${Math.max(3,Math.round(words/210))} min read</span><span>·</span><span>${esc(library.modules[x.mid].title)}</span></div></header><div class="opening">${markdown(lesson.opening)}<div class="fiction-note">A fictional teaching case. Follow the reasoning and test it in your own work.</div></div><div class="section-intro"><strong>Read at your own pace</strong><span>One section open at a time</span></div><div class="reading-sections">${lesson.sections.map((s,i)=>section(s.label,`<div class="prose">${markdown(s.body)}</div>`,i+1,{open:i===0})).join('')}${lessonChallenge(id,lesson)}${section('Sources & further reading',`<div class="prose">${markdown(lesson.refs)}</div>`,lesson.sections.length+2)}</div>${lesson.thread?`<details class="continuity"><summary>How this connects to the course</summary><div class="prose">${markdown(lesson.thread)}</div></details>`:''}<nav class="footer-nav" aria-label="Lesson navigation">${previous?`<a href="#${previous[0]}"><small>← Previous lesson</small><strong>${esc(previous[1])}</strong></a>`:''}<a href="#${next[0]}"><small>${next[0].endsWith('challenge')?'Finish this chapter':'Next lesson'} →</small><strong>${esc(next[1])}</strong></a></nav></div>`;
+  page.innerHTML=`<div class="lesson"><header class="lesson-head"><div class="eyebrow">The UX Encyclopedia · ${id}</div><h1>${esc(x.title)}</h1><div class="lesson-meta"><span>${Math.max(3,Math.round(words/210))} min read</span><span>·</span><span>${esc(library.modules[x.mid].title)}</span></div></header><div id="lesson-audio" class="audio-player" aria-label="Listen to this lesson"></div><div class="opening">${markdown(lesson.opening)}<div class="fiction-note">A fictional teaching case. Follow the reasoning and test it in your own work.</div></div><div class="section-intro"><strong>Follow the story</strong><span>Read or listen at your own pace</span></div><div class="reading-sections">${lesson.sections.map((s,i)=>section(s.label,`<div class="prose">${markdown(s.body)}</div>`,i+1)).join('')}${lessonChallenge(id,lesson)}${section('Sources & further reading',`<div class="prose">${markdown(lesson.refs)}</div>`,lesson.sections.length+2)}</div>${lesson.thread?`<section class="continuity"><h2>How this connects to the course</h2><div class="prose">${markdown(lesson.thread)}</div></section>`:''}<nav class="footer-nav" aria-label="Lesson navigation">${previous?`<a href="#${previous[0]}"><small>← Previous lesson</small><strong>${esc(previous[1])}</strong></a>`:''}<a href="#${next[0]}"><small>${next[0].endsWith('challenge')?'Finish this chapter':'Next lesson'} →</small><strong>${esc(next[1])}</strong></a></nav></div>`;
   bindPage(id);renderNav(x.mid);return true;
 }
 function renderChapter(mid){
@@ -119,7 +119,6 @@ function renderChapter(mid){
   bindPage(id);renderNav(mid);return true;
 }
 function bindPage(id){
-  exclusive(page,'.reading-section');
   const forms=[...page.querySelectorAll('.quiz')];
   const keyFor=form=>`quiz-v2:${form.dataset.scope}:${form.dataset.quiz}:${form.dataset.question}`;
   function refreshScore(){
@@ -159,11 +158,13 @@ function bindPage(id){
 function route(){
   const id=location.hash.slice(1)||'UX-001';
   if(id==='page'){page.focus();return}
+  window.lessonAudio?.stop();
   const valid=/^M\d{2}-challenge$/.test(id)?renderChapter(id.slice(0,3)):renderLesson(id);
   if(!valid){history.replaceState(null,'','#UX-001');renderLesson('UX-001')}
+  window.lessonAudio?.sync(currentId);
   closeMobile();window.scrollTo({top:0,behavior:'instant'});page.focus({preventScroll:true});
   if(!matchMedia('(prefers-reduced-motion: reduce)').matches){page.getAnimations().forEach(animation=>animation.cancel());page.animate([{opacity:0},{opacity:1}],{duration:220,easing:'ease-out'})}
 }
 window.addEventListener('hashchange',()=>{if(library)route()});
-async function start(){const bytes=Uint8Array.from(atob(window.course204Gzip),c=>c.charCodeAt(0));library=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());route();import('./reading-pet.mjs?v=20261001b').then(({mountPet})=>mountPet(library,()=>currentId)).catch(error=>console.warn('Reading companion unavailable',error))}
+async function start(){const bytes=Uint8Array.from(atob(window.course204Gzip),c=>c.charCodeAt(0));library=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());route();import('./lesson-audio.mjs?v=20261010a').then(({mountAudio})=>{window.lessonAudio=mountAudio(library);window.lessonAudio.sync(currentId)}).catch(error=>console.warn('Lesson audio unavailable',error));import('./reading-pet.mjs?v=20261010a').then(({mountPet})=>mountPet(library,()=>currentId)).catch(error=>console.warn('Reading companion unavailable',error))}
 start().catch(error=>{page.innerHTML='<h1>The lesson could not open.</h1><p>Please reload the page in a current browser.</p><button class="button" onclick="location.reload()">Try again</button>';console.error(error)});
