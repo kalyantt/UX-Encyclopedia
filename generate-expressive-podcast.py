@@ -5,6 +5,7 @@ regenerating completed speech. The website receives only the final audio.
 """
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -20,9 +21,12 @@ def main():
     parser.add_argument("--references", type=Path, required=True)
     parser.add_argument("--cache", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--max-turns", type=int, default=0)
     args = parser.parse_args()
     episode = json.loads(args.script.read_text())
-    turns = episode["turns"]
+    turns = episode["turns"][: args.max_turns or None]
+    if not turns or turns[0].get("act") != "Before we begin":
+        raise ValueError("Every episode must begin with a spoken topic and learning preview")
     if {turn["speaker"] for turn in turns} != {"alex", "guide"}:
         raise ValueError("Episode must contain exactly Alex and Guide")
     args.cache.mkdir(parents=True, exist_ok=True)
@@ -32,7 +36,8 @@ def main():
     audio_parts = []
     previous_act = None
     for number, turn in enumerate(turns, 1):
-        path = args.cache / f"{number:03d}-{turn['speaker']}.wav"
+        fingerprint = hashlib.sha256(turn["text"].encode("utf-8")).hexdigest()[:12]
+        path = args.cache / f"{number:03d}-{turn['speaker']}-{fingerprint}.wav"
         if path.exists():
             audio, rate = sf.read(path, dtype="float32")
         else:

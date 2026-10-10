@@ -4,6 +4,10 @@
   "voices": {"guide": "af_heart", "alex": "am_michael"},
   "editorial_note": "A conversational adaptation of UX-001. Maya and CarePath are fictional teaching examples. The written lesson and challenges remain the source of truth.",
   "turns": [
+    {"speaker":"guide","act":"Before we begin","text":"Welcome to chapter one: What UX is. We'll learn what user experience means, how to recognize it beyond a screen, and why the whole journey matters."},
+    {"speaker":"alex","text":"And we'll use Maya's care journey to trace her goal, the actions she takes, what the system says back, and whether she actually makes progress."},
+    {"speaker":"guide","text":"By the end, you'll be able to ask a sharper question of any product: did it help the person do what they came to do? Let's start."},
+
     {"speaker":"guide","act":"The message","text":"Maya looks at her phone. Request received. She puts it away. Then she picks it up again. Alex, does she have an appointment?"},
     {"speaker":"alex","text":"I think so? Wait. No. The screen doesn't actually say that."},
     {"speaker":"guide","text":"Right. Her referral seemed to disappear between two services days ago. Now she has another message she can't act on."},

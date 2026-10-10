@@ -62,7 +62,7 @@ export function mountAudio(library){
     if(!root||!lesson)return;
     if(id==='UX-001'){
       root.classList.add('recorded');
-      root.innerHTML='<div class="audio-copy"><span class="audio-kicker">TWO-VOICE PODCAST</span><strong>Listen to Alex work it out</strong><span class="audio-location">A conversation about the same lesson and CarePath case</span></div><audio class="audio-recording" controls preload="none" src="assets/audio/UX-001-podcast.m4a?v=20261010f" aria-label="Two-voice podcast of lesson UX-001"></audio><p class="audio-status">Recorded once, so listening has no per-play voice fee. The written lesson and challenges remain below.</p><p class="audio-alt"><a href="podcast-UX-001.html?v=20261010f">Read the episode transcript</a><span aria-hidden="true">·</span><a href="assets/audio/UX-001.m4a">Prefer one narrator?</a></p>';
+      root.innerHTML='<div class="audio-copy"><span class="audio-kicker">TWO-VOICE PODCAST</span><strong>Listen to Alex work it out</strong><span class="audio-location">What UX is · What you will learn · Maya’s care journey</span></div><audio class="audio-recording" controls preload="none" src="assets/audio/UX-001-podcast.m4a?v=20261010g" aria-label="Two-voice podcast of lesson UX-001"></audio><p class="audio-status">Recorded once, so listening has no per-play voice fee. The written lesson and challenges remain below.</p><p class="audio-alt"><a href="podcast-UX-001.html?v=20261010g">Read the episode transcript</a><span aria-hidden="true">·</span><a href="assets/audio/UX-001.m4a">Prefer one narrator?</a></p>';
       return;
     }
     root.classList.remove('recorded');
