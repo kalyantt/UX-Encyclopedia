@@ -1,6 +1,6 @@
 import {readFileSync,writeFileSync} from 'node:fs';
 
-const script=JSON.parse(readFileSync(new URL('./podcast-scripts/UX-001.json',import.meta.url),'utf8'));
+const script=JSON.parse(readFileSync(new URL('./podcast-scripts/UX-001-v2.json',import.meta.url),'utf8'));
 const escape=text=>String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const acts=script.turns.reduce((result,turn)=>{
   if(turn.act)result.push({name:turn.act,turns:[]});
@@ -8,7 +8,7 @@ const acts=script.turns.reduce((result,turn)=>{
   result.at(-1).turns.push(turn);
   return result;
 },[]);
-const sections=acts.map(act=>`<section><h2>${escape(act.name)}</h2>${act.turns.map(turn=>`<p><strong>${turn.speaker==='alex'?'Alex':'Guide'}:</strong> ${escape(turn.text)}</p>`).join('\n')}</section>`).join('\n');
+const sections=acts.map(act=>`<section><h2>${escape(act.name)}</h2>${act.turns.map(turn=>`<p><strong>${turn.speaker==='alex'?'Alex':'Guide'}:</strong> ${escape(turn.text.replace(/\[[^\]]+\]/g,'').replace(/\s+/g,' ').trim())}</p>`).join('\n')}</section>`).join('\n');
 const html=`<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f6ed"><title>UX-001 podcast transcript · UX Encyclopedia</title><style>
 :root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#f8f6ed;color:#232622;font-family:Georgia,serif;font-size:18px;line-height:1.7}main{max-width:760px;margin:0 auto;padding:36px 24px 90px}a{color:#315443;text-underline-offset:3px}nav,.eyebrow,h2,strong{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}nav{font-size:14px}header{padding:54px 0 36px;border-bottom:1px solid #d7d2bd}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#a24732}h1{font-size:clamp(42px,7vw,72px);line-height:1.05;letter-spacing:-.04em;margin:16px 0}header p{color:#5d6259}section{padding:38px 0 24px;border-bottom:1px solid #e2dfd4}h2{font-size:28px;letter-spacing:-.03em}section p{margin:24px 0}section strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#a24732}footer{padding-top:28px;font-size:14px;color:#5d6259}
