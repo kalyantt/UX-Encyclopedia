@@ -16,11 +16,11 @@ for(const id of ids){
   if(id==='UX-001')continue;
   const script=JSON.parse(readFileSync(new URL(`./podcast-scripts/${id}-conversation-draft.json`,import.meta.url),'utf8'));
   if(JSON.stringify(script.voices)!==JSON.stringify(base.voices))failures.push(`${id}: speaker voice IDs differ from UX-001`);
-  if(!script.render_model?.includes('Chatterbox Nano')||!script.render_model?.includes('podcast-voices/guide.wav')||!script.render_model?.includes('podcast-voices/alex.wav'))failures.push(`${id}: original voice setup not documented`);
+  if(!version.note.includes('Same voice engine and voice IDs as the UX-001 full episode'))failures.push(`${id}: default does not use UX-001 voice setup`);
   if(script.turns[0]?.act!=='Before we begin')failures.push(`${id}: missing episode opening`);
   if(!version.note.includes('preview'))failures.push(`${id}: short recording is not identified as a preview`);
   const audio=new URL(version.src,import.meta.url);
   if(statSync(audio).size<100000)failures.push(`${id}: audio file too small`);
 }
 if(failures.length){console.error(failures.join('\n'));process.exitCode=1}
-else console.log(`Verified all ${ids.length} Chapter 1 lessons have fixed, matching-voice recordings.`);
+else console.log(`Verified all ${ids.length} Chapter 1 lessons have fixed recordings and UX-001 voice IDs as defaults.`);

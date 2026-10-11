@@ -2,7 +2,7 @@
   "lesson": "UX-006",
   "status": "recorded conversation preview; full episode not yet produced",
   "voices": {"guide": "af_heart", "alex": "am_michael"},
-  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
+  "render_model": "Version 1: Chatterbox Nano with local reference clips. Version 2: Kokoro with guide af_heart and Alex am_michael, matching UX-001 Version 1.",
   "title": "The UX quality lens",
   "source": "outputs/v1-lessons/module-01/UX-006-the-ux-quality-lens.md",
   "turns": [

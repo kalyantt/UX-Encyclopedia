@@ -20,13 +20,19 @@ export const podcastVersions={
     ],
   },
   ...Object.fromEntries(['UX-002','UX-003','UX-004','UX-005','UX-006','UX-097','UX-098'].map(id=>[id,{
-    defaultVersion:'v1',
+    defaultVersion:'v2',
     versions:[{
       id:'v1',
-      label:'Version 1 · Conversation preview',
+      label:'Version 1 · Earlier voice test',
       src:`assets/audio/${id}-v1-conversation-preview.m4a`,
       transcript:`podcast-${id}-conversation-preview.html`,
-      note:'Short Chapter 1 preview · Same Alex and guide voices as UX-001 · Full episode pending',
+      note:'Short preview · Different voice engine · Kept for comparison',
+    },{
+      id:'v2',
+      label:'Version 2 · UX-001 voices',
+      src:`assets/audio/${id}-v2-kokoro-preview.m4a`,
+      transcript:`podcast-${id}-conversation-preview.html`,
+      note:'Short preview · Same voice engine and voice IDs as the UX-001 full episode · Full episode pending',
     }],
   }])),
 };

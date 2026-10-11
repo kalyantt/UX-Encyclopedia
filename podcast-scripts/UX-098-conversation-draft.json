@@ -2,7 +2,7 @@
   "lesson": "UX-098",
   "status": "recorded conversation preview; full episode not yet produced",
   "voices": {"guide": "af_heart", "alex": "am_michael"},
-  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
+  "render_model": "Version 1: Chatterbox Nano with local reference clips. Version 2: Kokoro with guide af_heart and Alex am_michael, matching UX-001 Version 1.",
   "title": "UX Value, Product Risk, and What Not to Digitise",
   "source": "outputs/v2-lessons/module-01/UX-098-ux-value-product-risk-and-what-not-to-digitise.md",
   "turns": [

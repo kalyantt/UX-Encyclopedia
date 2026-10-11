@@ -1,5 +1,5 @@
 // A local, on-device listening mode for the published lessons. No audio or text is sent to a service.
-import {podcastVersions} from './podcast-versions.mjs?v=20261011e';
+import {podcastVersions} from './podcast-versions.mjs?v=20261011f';
 import {conversationPreviewIds} from './conversation-previews.mjs';
 const clean=text=>text.replace(/\s+/g,' ').trim();
 function chunks(text,max=210){

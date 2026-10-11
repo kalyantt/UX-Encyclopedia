@@ -68,7 +68,7 @@ def main():
         voice = episode["voices"][turn["speaker"]]
         pieces = list(chunks(turn["text"]))
         for number, piece in enumerate(pieces):
-            audio, sample_rate = model.create(piece, voice=voice, speed=SPEED[turn["mood"]], lang="en-us")
+            audio, sample_rate = model.create(piece, voice=voice, speed=SPEED[turn.get("mood", "warm")], lang="en-us")
             samples.append(audio)
             samples.append(np.zeros(int(sample_rate * (0.12 if number < len(pieces) - 1 else 0.38)), dtype=np.float32))
     args.output.parent.mkdir(parents=True, exist_ok=True)
