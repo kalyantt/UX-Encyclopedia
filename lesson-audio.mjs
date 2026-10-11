@@ -1,5 +1,6 @@
 // A local, on-device listening mode for the published lessons. No audio or text is sent to a service.
 import {podcastVersions} from './podcast-versions.mjs';
+import {conversationPreviewIds} from './conversation-previews.mjs';
 const clean=text=>text.replace(/\s+/g,' ').trim();
 function chunks(text,max=210){
   const words=clean(text).split(' '),parts=[];let part='';
@@ -90,6 +91,7 @@ export function mountAudio(library){
     });
     const minutes=Math.max(1,Math.round(segments.reduce((sum,segment)=>sum+segment.text.split(' ').length,0)/160));
     root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">LISTENING MODE</span><strong>Hear the story</strong><span class="audio-location"></span></div><div class="audio-controls"><button class="audio-prev" type="button" aria-label="Previous section">⏮</button><button class="audio-play" type="button"></button><button class="audio-next" type="button" aria-label="Next section">⏭</button><label class="audio-speed">Speed <select aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.4">1.4×</option></select></label></div><label class="audio-voice">Voice <select aria-label="Reading voice"></select></label><progress class="audio-progress" max="100" value="0" aria-label="Audio progress"></progress><p class="audio-status" role="status">${supported?`About ${minutes} min · Device voices vary · No recording or upload`:'Listening is unavailable in this browser.'}</p>`;
+    if(conversationPreviewIds.has(id))root.insertAdjacentHTML('beforeend',`<p class="audio-alt"><a href="podcast-${id}-conversation-preview.html">Preview the conversation rewrite (text only)</a></p>`);
     root.querySelector('.audio-speed select').value=String(rate);
     showVoices();
     root.querySelector('.audio-play').disabled=!supported;

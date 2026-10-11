@@ -1,0 +1,26 @@
+{
+  "lesson": "UX-004",
+  "status": "text preview; audio not recorded",
+  "title": "The context changes the design",
+  "source": "outputs/v1-lessons/module-01/UX-004-context-changes-design.md",
+  "turns": [
+    {"speaker":"alex","text":"We said CarePath should help Maya feel oriented and in control. I tested the appointment offer at my desk. It works."},
+    {"speaker":"guide","text":"Where is Maya when she opens it?"},
+    {"speaker":"alex","text":"On a train, between meetings. She has about ninety seconds. Ah. That's not my desk."},
+    {"speaker":"guide","text":"Today we'll test the same task in different contexts. The screen may stay the same while the conditions for success change."},
+    {"speaker":"alex","text":"Her connection drops just before she confirms. She comes back. Does the page tell her whether the first tap went through?"},
+    {"speaker":"guide","text":"It doesn't. She might tap twice or give up. What does she need?"},
+    {"speaker":"alex","text":"Saved state and an honest status. And a concise message she can understand at a glance."},
+    {"speaker":"guide","text":"Now George opens the same offer using magnification. He sees only part of the page at once."},
+    {"speaker":"alex","text":"If the meaning depends on two things being side by side, he misses it. We need structure that reflows, strong contrast, and labels that make sense without their position."},
+    {"speaker":"guide","text":"Aisha shares a family phone. Would you put the clinic name on the lock screen?"},
+    {"speaker":"alex","text":"No. A privacy-safe notice, then a secure way to resume. Same appointment, different social risk."},
+    {"speaker":"guide","text":"And Priya, the receptionist, is answering calls while two systems show different referral states."},
+    {"speaker":"alex","text":"She needs to know where a status came from and which record she's changing. An interruption must not send her back to the wrong patient."},
+    {"speaker":"guide","text":"So what belongs in a context scenario?"},
+    {"speaker":"alex","text":"Who is acting, their real goal, when and where it happens, device or assistive technology, time and privacy constraints, and what failure costs."},
+    {"speaker":"guide","text":"Are these four separate products?"},
+    {"speaker":"alex","text":"No. We look for a flow robust across variation, with another route where needed. But a short response deadline is a policy problem; responsive CSS can't fix it."},
+    {"speaker":"guide","text":"Exactly. In the next lesson we'll follow the service machinery behind that visible moment."}
+  ]
+}

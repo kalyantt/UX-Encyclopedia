@@ -1,0 +1,29 @@
+{
+  "lesson": "UX-003",
+  "status": "text preview; audio not recorded",
+  "title": "Experience goals",
+  "source": "outputs/v1-lessons/module-01/UX-003-experience-goals.md",
+  "turns": [
+    {"speaker":"guide","text":"What did we learn from Maya's booking test?"},
+    {"speaker":"alex","text":"A completed form isn't enough if she thinks a request is an appointment. We need the right outcome and the right understanding."},
+    {"speaker":"guide","text":"Good. Today we'll add another question: how should the experience leave her feeling, and what design choices would make that feeling justified?"},
+    {"speaker":"alex","text":"The team already has words. Simple, friendly, seamless… delightful."},
+    {"speaker":"guide","text":"And Maya just saw confetti after sending a request. What does she do?"},
+    {"speaker":"alex","text":"She calls reception. She still can't plan her day."},
+    {"speaker":"guide","text":"So is delight the right goal?"},
+    {"speaker":"alex","text":"No. The celebration is almost insulting. She needs to know where she stands."},
+    {"speaker":"guide","text":"That's the difference between an experience goal and a mood board. Pick the quality the activity calls for, then make it change the design."},
+    {"speaker":"alex","text":"Let's try ‘confident.’"},
+    {"speaker":"guide","text":"What would Maya need to see before that confidence was earned?"},
+    {"speaker":"alex","text":"Her actual status, who acts next, when she'll hear back, and how to get help if nothing happens."},
+    {"speaker":"guide","text":"Good. What about control?"},
+    {"speaker":"alex","text":"Let her review a consequential choice, save progress, and change the request without starting again. Don't make cancellation the only escape."},
+    {"speaker":"guide","text":"And respect?"},
+    {"speaker":"alex","text":"Plain language. No blame for a missing document. Don't expose a sensitive clinic name in a notification. Offer a human route if the digital one fails."},
+    {"speaker":"guide","text":"Now each feeling has evidence. How would you know we'd missed?"},
+    {"speaker":"alex","text":"If people call just to ask what's happening, abandon when they need to change something, or apologise because they don't understand our terms."},
+    {"speaker":"guide","text":"Exactly. Usability asks whether people can do the task effectively and safely. Experience goals ask what qualities the journey should have. They overlap, but one doesn't replace the other."},
+    {"speaker":"alex","text":"So if a bank transfer works, confetti might still be wrong. I would rather see the amount, recipient, timing, and a way to recover."},
+    {"speaker":"guide","text":"And we should test these goals in different conditions. That's where we're going next."}
+  ]
+}

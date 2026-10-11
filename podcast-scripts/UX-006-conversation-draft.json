@@ -1,0 +1,28 @@
+{
+  "lesson": "UX-006",
+  "status": "text preview; audio not recorded",
+  "title": "The UX quality lens",
+  "source": "outputs/v1-lessons/module-01/UX-006-the-ux-quality-lens.md",
+  "turns": [
+    {"speaker":"alex","text":"The team wants everyone to create an account before seeing appointments. They say it will make the journey easier to track."},
+    {"speaker":"guide","text":"For whom?"},
+    {"speaker":"alex","text":"For the organisation, certainly. It could also help patients manage requests. But I haven't checked what it costs to get in."},
+    {"speaker":"guide","text":"That's our question today. A promising metric can show one kind of success while concealing another kind of failure. We'll use six lenses to decide what quality means here."},
+    {"speaker":"alex","text":"First: outcome. Are more people reaching appropriate care, not just finishing registration?"},
+    {"speaker":"guide","text":"Yes. Usability?"},
+    {"speaker":"alex","text":"Can they get through identity checks, recover a password, and fix a mismatch without losing the request?"},
+    {"speaker":"guide","text":"Context?"},
+    {"speaker":"alex","text":"Someone may need care urgently, have weak connectivity, or not control an email address."},
+    {"speaker":"guide","text":"Inclusion?"},
+    {"speaker":"alex","text":"Test assistive technology, language, digital confidence, and an equivalent route to a person who can help."},
+    {"speaker":"guide","text":"Agency and trust?"},
+    {"speaker":"alex","text":"Explain why identity is needed and what data is collected. Don't require an account just to learn whether the service can help."},
+    {"speaker":"guide","text":"And service value?"},
+    {"speaker":"alex","text":"Can staff keep the records accurate? What happens to support demand, duplicate identities, and maintenance?"},
+    {"speaker":"guide","text":"So, ban accounts?"},
+    {"speaker":"alex","text":"No. Let people browse services and broad availability first. Ask for identity when they submit or manage a request, explain why, and keep a phone route."},
+    {"speaker":"guide","text":"How will you know that choice holds up?"},
+    {"speaker":"alex","text":"Measure access to care, not only sign-ups. Watch abandonment, account recovery, support calls, identity errors, and differences across groups. Record who owns the trade-off and when we review it."},
+    {"speaker":"guide","text":"That's the foundation we've built: the experience brief, usability scorecard, experience goals, context scenarios, service blueprint, and quality decision log. Next we'll look at human perception, which complicates every one of them."}
+  ]
+}

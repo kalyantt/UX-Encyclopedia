@@ -1,0 +1,29 @@
+{
+  "lesson": "UX-002",
+  "status": "text preview; audio not recorded",
+  "title": "Usability is not aesthetic taste",
+  "source": "outputs/v1-lessons/module-01/UX-002-usability-is-not-aesthetic-taste.md",
+  "turns": [
+    {"speaker":"alex","text":"Yesterday we asked whether Maya's whole attempt worked. Today the team wants me to choose between two booking screens. One is beautiful."},
+    {"speaker":"guide","text":"And the other?"},
+    {"speaker":"alex","text":"Also beautiful. That's the problem. What am I comparing?"},
+    {"speaker":"guide","text":"Try rescheduling Maya's appointment on each one. Tell me what happens."},
+    {"speaker":"alex","text":"On the first, I can check a new time before I give up the old one. On the second… wait, tapping the new slot cancels the original."},
+    {"speaker":"guide","text":"Would Maya know that before she tapped?"},
+    {"speaker":"alex","text":"No. Both screens look calm. Only one lets her act safely."},
+    {"speaker":"guide","text":"That's our chapter: usability. We'll look at whether someone can reach the right result, how much work it takes, whether they understand it, and how they recover when things go wrong."},
+    {"speaker":"alex","text":"So not, ‘Which one do you like?’"},
+    {"speaker":"guide","text":"Not as your first test. Set the task and context. Who is using it? What are they trying to do? What would count as a serious mistake?"},
+    {"speaker":"alex","text":"Maya is changing an appointment on her phone between meetings. The right result is a slot she can attend, without losing the old one by accident."},
+    {"speaker":"guide","text":"Now watch, without helping her. Did she choose the right clinic and time? That's effectiveness."},
+    {"speaker":"alex","text":"How long she spent, what she reread, and whether she had to call for help: efficiency."},
+    {"speaker":"guide","text":"And if she chose wrongly?"},
+    {"speaker":"alex","text":"Recovery. She needs a safe way back. I can't call a flow usable just because it was fast on the happy path."},
+    {"speaker":"guide","text":"Exactly. Ask what she believes happened, too."},
+    {"speaker":"alex","text":"She submitted the change. The screen says ‘Request received.’ If she thinks that means confirmed, our completion metric flatters us."},
+    {"speaker":"guide","text":"What would you change?"},
+    {"speaker":"alex","text":"Show requested, under review, confirmed, or action required as different states. Name who acts next. Keep the information she's entered and let her change course."},
+    {"speaker":"guide","text":"Good. A plain screen that gets that right may be more usable than a polished one that hides the risk."},
+    {"speaker":"alex","text":"And next lesson we ask how that working journey should leave her feeling."}
+  ]
+}

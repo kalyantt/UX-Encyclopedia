@@ -1,0 +1,25 @@
+{
+  "lesson": "UX-005",
+  "status": "text preview; audio not recorded",
+  "title": "Products are part of services",
+  "source": "outputs/v1-lessons/module-01/UX-005-products-are-part-of-services.md",
+  "turns": [
+    {"speaker":"guide","text":"Maya says her referral vanished. CarePath says it was sent. The clinic says it never arrived. Which screen would you redesign?"},
+    {"speaker":"alex","text":"I was going to make the status clearer. But I don't know what happened to the referral."},
+    {"speaker":"guide","text":"Good catch. Today we'll follow a product promise through the people, systems, and rules that must keep it. That's service design."},
+    {"speaker":"alex","text":"All right. The doctor creates the referral. Then?"},
+    {"speaker":"guide","text":"Secure transport sends it to an intake queue. Staff check eligibility and completeness. A clinician may triage it. Capacity determines the offer."},
+    {"speaker":"alex","text":"And the notification is at the very end. A lovely status page can't make those earlier steps happen."},
+    {"speaker":"guide","text":"Where would you draw Maya on the map?"},
+    {"speaker":"alex","text":"Above the line: what she does and waits through. On the line: the app, messages, and conversations she can see. Below it: queues, staff, policies, and data moving between systems."},
+    {"speaker":"guide","text":"Follow the referral itself. Where does it change state?"},
+    {"speaker":"alex","text":"Wait. The intake system calls it returned, but CarePath only knows pending. No one recorded why it came back."},
+    {"speaker":"guide","text":"Now why is the message vague?"},
+    {"speaker":"alex","text":"Because the service doesn't have a shared answer. Better copy alone would pretend to know more than it does."},
+    {"speaker":"guide","text":"What needs to change besides the page?"},
+    {"speaker":"alex","text":"Shared referral states, a reason for exceptions, staff access to the missing information, a real time expectation for Maya, and someone responsible when a referral stalls."},
+    {"speaker":"guide","text":"Do you own every operational process now?"},
+    {"speaker":"alex","text":"No. The blueprint makes the dependencies visible so clinical, operations, policy, and engineering can decide together."},
+    {"speaker":"guide","text":"Exactly. A customer sees one experience even when our organisation sees separate teams. Next we'll test whether a proposed improvement helps that whole experience."}
+  ]
+}
