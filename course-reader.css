@@ -28,6 +28,8 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
 .audio-voice{grid-column:1/-1;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted)}.audio-voice select{min-width:0;max-width:100%;border:1px solid #cbd4c7;border-radius:6px;background:white;color:var(--ink);font:inherit;padding:5px 8px}.audio-voice select:disabled{opacity:.55}
 .audio-player.recorded{grid-template-columns:1fr;background:#f8f6ed;border-color:#d7d2bd}.audio-recording{display:block;width:100%;min-width:0;height:44px}.audio-player.recorded .audio-status{font-size:11px}
 .audio-alt{display:flex;flex-wrap:wrap;gap:8px;margin:0;font-size:12px}.audio-alt a{color:#315443;text-decoration:underline;text-underline-offset:3px}.audio-alt a:hover{color:#a24732}
+.audio-version{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:650;color:var(--green)}.audio-version select{max-width:100%;padding:8px 10px;border:1px solid #b8c7b7;border-radius:8px;background:#fffefa;color:var(--ink);font:inherit}.audio-player.recorded .audio-status{font-size:12px}
+@media(max-width:560px){.audio-version{align-items:flex-start;flex-direction:column;gap:5px}.audio-version select{width:100%}}
 .topline-actions{display:flex;align-items:center;gap:13px}.topline-actions button{border:1px solid #b7c6b6;border-radius:999px;background:#eaf0e7;color:var(--green);font-size:12px;font-weight:700;padding:7px 13px;white-space:nowrap}.topline-actions button:hover{background:#d9e7d5}#lesson-audio{scroll-margin-top:90px}
 @media(max-width:760px){.topline-actions #reading-status{display:none}}
 @media(max-width:1100px){.section-body{padding-left:0}}

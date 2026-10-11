@@ -7,3 +7,7 @@ The rest of the episode can vary in structure. Preserve the written lesson's cla
 ## Character continuity
 
 Alex is the designer learning through the course. Maya is the person seeking care in the CarePath teaching case. Do not swap their roles or use either name as a generic stand-in for the other. Every script should declare its named characters and be checked against the corresponding written lesson before audio is rendered. If a later lesson changes the case or introduces another person, document that explicitly rather than silently changing who Alex or Maya is.
+
+## Version rule
+
+Never overwrite an approved audio version. Give each new render a new `vN` ID, a separate audio file, a matching transcript, and an entry in `podcast-versions.mjs`. Keep the prior version playable. Make a new version the default only after review. UX-001 Version 1 is the complete, calmer episode; Version 2 is a faster 32-second experiment and is not the default. Git commits preserve the corresponding site changes.

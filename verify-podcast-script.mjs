@@ -1,7 +1,7 @@
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 
-const episode=JSON.parse(readFileSync(new URL('./podcast-scripts/UX-001-v2.json',import.meta.url),'utf8'));
+const episode=JSON.parse(readFileSync(new URL('./podcast-scripts/UX-001-v1.json',import.meta.url),'utf8'));
 const encoded=readFileSync(new URL('./course-204-data.js',import.meta.url),'utf8').match(/course204Gzip="([^"]+)"/)[1];
 const library=JSON.parse(gunzipSync(Buffer.from(encoded,'base64')));
 const lesson=library.reading[episode.lesson];

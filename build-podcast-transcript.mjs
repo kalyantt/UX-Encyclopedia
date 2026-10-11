@@ -1,6 +1,6 @@
 import {readFileSync,writeFileSync} from 'node:fs';
 
-const script=JSON.parse(readFileSync(new URL('./podcast-scripts/UX-001-v2.json',import.meta.url),'utf8'));
+const script=JSON.parse(readFileSync(new URL('./podcast-scripts/UX-001-v1.json',import.meta.url),'utf8'));
 const escape=text=>String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const acts=script.turns.reduce((result,turn)=>{
   if(turn.act)result.push({name:turn.act,turns:[]});

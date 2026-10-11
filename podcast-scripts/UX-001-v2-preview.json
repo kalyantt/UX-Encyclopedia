@@ -1,0 +1,17 @@
+{
+  "lesson": "UX-001",
+  "version": "v2",
+  "status": "preview",
+  "title": "What UX is — expressive test",
+  "model": "Chatterbox standard, exaggeration 1.15, CFG weight 0.45",
+  "note": "A faster 32-second experiment. Not a replacement for the full Version 1 episode.",
+  "characters": {"alex": "the designer", "maya": "the person seeking care"},
+  "turns": [
+    {"speaker":"guide","text":"Maya looks at her phone. Request received. She puts it away. Then she picks it up again. Alex, does she have an appointment?"},
+    {"speaker":"alex","text":"I think so? Wait. No. The screen doesn't actually say that."},
+    {"speaker":"guide","text":"Right. Her referral seemed to disappear between two services days ago. Now she has another message she can't act on."},
+    {"speaker":"alex","text":"Oh... I was about to polish that confirmation screen. I hadn't followed what happened before it."},
+    {"speaker":"guide","text":"The copy matters. But start with Maya's attempt. What did she come here to do?"},
+    {"speaker":"alex","text":"Get care. Without chasing the system or retelling her story at every step."}
+  ]
+}

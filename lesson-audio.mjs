@@ -1,4 +1,5 @@
 // A local, on-device listening mode for the published lessons. No audio or text is sent to a service.
+import {podcastVersions} from './podcast-versions.mjs';
 const clean=text=>text.replace(/\s+/g,' ').trim();
 function chunks(text,max=210){
   const words=clean(text).split(' '),parts=[];let part='';
@@ -60,9 +61,25 @@ export function mountAudio(library){
     stop();id=nextId;
     const root=player(),lesson=library.reading[id];
     if(!root||!lesson)return;
-    if(id==='UX-001'){
+    if(podcastVersions[id]){
+      const catalog=podcastVersions[id];
+      const initial=catalog.versions.find(version=>version.id===catalog.defaultVersion);
       root.classList.add('recorded');
-      root.innerHTML='<div class="audio-copy"><span class="audio-kicker">TWO-VOICE PODCAST</span><strong>Listen to Alex work it out</strong><span class="audio-location">Alex is the designer · Maya is the person seeking care</span></div><audio class="audio-recording" controls preload="none" src="assets/audio/UX-001-podcast.m4a?v=20261011a" aria-label="Two-voice podcast of lesson UX-001"></audio><p class="audio-status">Recorded once, so listening has no per-play voice fee. The written lesson and challenges remain below.</p><p class="audio-alt"><a href="podcast-UX-001.html?v=20261011a">Read the episode transcript</a><span aria-hidden="true">·</span><a href="assets/audio/UX-001.m4a">Prefer one narrator?</a></p>';
+      root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">TWO-VOICE PODCAST</span><strong>Listen to Alex work it out</strong><span class="audio-location">Alex is the designer · Maya is the person seeking care</span></div><label class="audio-version">Choose a version <select aria-label="Podcast version">${catalog.versions.map(version=>`<option value="${version.id}">${version.label}</option>`).join('')}</select></label><audio class="audio-recording" controls preload="none" aria-label="Two-voice podcast of lesson ${id}"></audio><p class="audio-status" role="status"></p><p class="audio-alt"><a class="audio-transcript" href="${initial.transcript}">Read this version’s transcript</a><span aria-hidden="true">·</span><a href="assets/audio/UX-001.m4a">Prefer one narrator?</a></p>`;
+      const selector=root.querySelector('.audio-version select');
+      const recording=root.querySelector('.audio-recording');
+      const transcript=root.querySelector('.audio-transcript');
+      const selectVersion=version=>{
+        recording.pause();
+        recording.src=version.src;
+        recording.setAttribute('aria-label',`${version.label} of lesson ${id}`);
+        recording.load();
+        transcript.href=version.transcript;
+        status(`${version.note}. Recorded once; no per-play voice fee.`);
+      };
+      selector.value=initial.id;
+      selector.onchange=()=>selectVersion(catalog.versions.find(version=>version.id===selector.value));
+      selectVersion(initial);
       return;
     }
     root.classList.remove('recorded');
