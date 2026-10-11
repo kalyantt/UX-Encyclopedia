@@ -19,4 +19,14 @@ export const podcastVersions={
       },
     ],
   },
+  ...Object.fromEntries(['UX-002','UX-003','UX-004','UX-005','UX-006','UX-097','UX-098'].map(id=>[id,{
+    defaultVersion:'v1',
+    versions:[{
+      id:'v1',
+      label:'Version 1 · Conversation preview',
+      src:`assets/audio/${id}-v1-conversation-preview.m4a`,
+      transcript:`podcast-${id}-conversation-preview.html`,
+      note:'Short Chapter 1 preview · Same Alex and guide voices as UX-001 · Full episode pending',
+    }],
+  }])),
 };

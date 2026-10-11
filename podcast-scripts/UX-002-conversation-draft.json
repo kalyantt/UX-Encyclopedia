@@ -1,10 +1,12 @@
 {
   "lesson": "UX-002",
-  "status": "text preview; audio not recorded",
+  "status": "recorded conversation preview; full episode not yet produced",
+  "voices": {"guide": "af_heart", "alex": "am_michael"},
+  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
   "title": "Usability is not aesthetic taste",
   "source": "outputs/v1-lessons/module-01/UX-002-usability-is-not-aesthetic-taste.md",
   "turns": [
-    {"speaker":"alex","text":"Yesterday we asked whether Maya's whole attempt worked. Today the team wants me to choose between two booking screens. One is beautiful."},
+    {"speaker":"alex","act":"Before we begin","text":"Yesterday we asked whether Maya's whole attempt worked. Today the team wants me to choose between two booking screens. One is beautiful."},
     {"speaker":"guide","text":"And the other?"},
     {"speaker":"alex","text":"Also beautiful. That's the problem. What am I comparing?"},
     {"speaker":"guide","text":"Try rescheduling Maya's appointment on each one. Tell me what happens."},

@@ -1,10 +1,12 @@
 {
   "lesson": "UX-003",
-  "status": "text preview; audio not recorded",
+  "status": "recorded conversation preview; full episode not yet produced",
+  "voices": {"guide": "af_heart", "alex": "am_michael"},
+  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
   "title": "Experience goals",
   "source": "outputs/v1-lessons/module-01/UX-003-experience-goals.md",
   "turns": [
-    {"speaker":"guide","text":"What did we learn from Maya's booking test?"},
+    {"speaker":"guide","act":"Before we begin","text":"What did we learn from Maya's booking test?"},
     {"speaker":"alex","text":"A completed form isn't enough if she thinks a request is an appointment. We need the right outcome and the right understanding."},
     {"speaker":"guide","text":"Good. Today we'll add another question: how should the experience leave her feeling, and what design choices would make that feeling justified?"},
     {"speaker":"alex","text":"The team already has words. Simple, friendly, seamless… delightful."},

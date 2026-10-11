@@ -1,10 +1,12 @@
 {
   "lesson": "UX-004",
-  "status": "text preview; audio not recorded",
+  "status": "recorded conversation preview; full episode not yet produced",
+  "voices": {"guide": "af_heart", "alex": "am_michael"},
+  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
   "title": "The context changes the design",
   "source": "outputs/v1-lessons/module-01/UX-004-context-changes-design.md",
   "turns": [
-    {"speaker":"alex","text":"We said CarePath should help Maya feel oriented and in control. I tested the appointment offer at my desk. It works."},
+    {"speaker":"alex","act":"Before we begin","text":"We said CarePath should help Maya feel oriented and in control. I tested the appointment offer at my desk. It works."},
     {"speaker":"guide","text":"Where is Maya when she opens it?"},
     {"speaker":"alex","text":"On a train, between meetings. She has about ninety seconds. Ah. That's not my desk."},
     {"speaker":"guide","text":"Today we'll test the same task in different contexts. The screen may stay the same while the conditions for success change."},

@@ -1,0 +1,29 @@
+{
+  "lesson": "UX-098",
+  "status": "recorded conversation preview; full episode not yet produced",
+  "voices": {"guide": "af_heart", "alex": "am_michael"},
+  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
+  "title": "UX Value, Product Risk, and What Not to Digitise",
+  "source": "outputs/v2-lessons/module-01/UX-098-ux-value-product-risk-and-what-not-to-digitise.md",
+  "turns": [
+    {"speaker":"guide","act":"Before we begin","text":"Last time, evidence changed CarePath's plan. Now the team has three new proposals: mandatory digital booking, automatic symptom triage, and no phone support after launch."},
+    {"speaker":"alex","text":"That sounds efficient on a roadmap. Today we're asking whether any of it creates real value, and for whom?"},
+    {"speaker":"guide","text":"Exactly. Start with the phone line. What happens if it disappears?"},
+    {"speaker":"alex","text":"Straightforward requests may move faster. But someone in crisis, or without reliable access, loses the help that makes the task possible."},
+    {"speaker":"guide","text":"So whose cost did the saving remove?"},
+    {"speaker":"alex","text":"It may have shifted work to patients and hidden failures from the product dashboard. Staff could still spend more time handling exceptions elsewhere."},
+    {"speaker":"guide","text":"How would you assess the automatic triage idea?"},
+    {"speaker":"alex","text":"The possible error is serious. A confident wrong answer could delay care. We'd need clinical evidence, oversight, a clear boundary on what it may do, and recourse."},
+    {"speaker":"guide","text":"Could technology help without taking that authority?"},
+    {"speaker":"alex","text":"Yes. Show service criteria, broad availability, preparation, and referral status. Assist staff with structured matching, but keep unusual cases and clinical urgency with accountable people."},
+    {"speaker":"guide","text":"And mandatory accounts?"},
+    {"speaker":"alex","text":"Let people understand the service before asking them to register. Require identity when it's actually needed to submit or manage a request."},
+    {"speaker":"guide","text":"Notice the choice isn't ‘build it’ or ‘do nothing.’"},
+    {"speaker":"alex","text":"We could repair information, support human work, automate one bounded step, or change the service rule itself."},
+    {"speaker":"guide","text":"Which risk would you investigate first?"},
+    {"speaker":"alex","text":"The one with high consequence and weak evidence. Not the harmless preference that's easiest to test."},
+    {"speaker":"guide","text":"Good. What does the first release do?"},
+    {"speaker":"alex","text":"Improve discovery, referral visibility, preparation, and reuse of information. Keep phone support connected to the same status. Treat symptom triage as a research question, not a promise."},
+    {"speaker":"guide","text":"That's the end of our foundation: use digital tools where they make a worthwhile outcome more reachable, and keep human judgment where it protects that outcome."}
+  ]
+}

@@ -1,10 +1,12 @@
 {
   "lesson": "UX-005",
-  "status": "text preview; audio not recorded",
+  "status": "recorded conversation preview; full episode not yet produced",
+  "voices": {"guide": "af_heart", "alex": "am_michael"},
+  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
   "title": "Products are part of services",
   "source": "outputs/v1-lessons/module-01/UX-005-products-are-part-of-services.md",
   "turns": [
-    {"speaker":"guide","text":"Maya says her referral vanished. CarePath says it was sent. The clinic says it never arrived. Which screen would you redesign?"},
+    {"speaker":"guide","act":"Before we begin","text":"Maya says her referral vanished. CarePath says it was sent. The clinic says it never arrived. Which screen would you redesign?"},
     {"speaker":"alex","text":"I was going to make the status clearer. But I don't know what happened to the referral."},
     {"speaker":"guide","text":"Good catch. Today we'll follow a product promise through the people, systems, and rules that must keep it. That's service design."},
     {"speaker":"alex","text":"All right. The doctor creates the referral. Then?"},

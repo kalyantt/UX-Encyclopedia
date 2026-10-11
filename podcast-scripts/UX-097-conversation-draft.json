@@ -1,0 +1,27 @@
+{
+  "lesson": "UX-097",
+  "status": "recorded conversation preview; full episode not yet produced",
+  "voices": {"guide": "af_heart", "alex": "am_michael"},
+  "render_model": "Chatterbox Nano, using podcast-voices/guide.wav and podcast-voices/alex.wav",
+  "title": "Human-Centered Design Is an Evidence Practice",
+  "source": "outputs/v2-lessons/module-01/UX-097-human-centered-design-is-an-evidence-practice.md",
+  "turns": [
+    {"speaker":"alex","act":"Before we begin","text":"We have an experience brief, a usability scorecard, and a service map. Is that what makes CarePath human-centered?"},
+    {"speaker":"guide","text":"Only if they can change a decision. In this lesson, we'll test the team's favorite explanation for why people abandon booking."},
+    {"speaker":"alex","text":"They say the form is too long. I can cut fields."},
+    {"speaker":"guide","text":"Maybe. What else could explain the drop-off?"},
+    {"speaker":"alex","text":"People might not know which service they need. Their referral might be missing. The available times might not fit work. Or they may be afraid to submit the wrong information."},
+    {"speaker":"guide","text":"Good. Which evidence would tell those explanations apart?"},
+    {"speaker":"alex","text":"The funnel shows where people leave, not why. I should watch real attempts and ask what people believed was happening."},
+    {"speaker":"guide","text":"And talk with staff. They see what happens after an incomplete referral enters the service."},
+    {"speaker":"alex","text":"When I watch Maya, she keeps moving between the form, her referral message, a calendar, and an insurance document. The fields aren't the only work."},
+    {"speaker":"guide","text":"What do staff see?"},
+    {"speaker":"alex","text":"Calls, mismatched referrals, and manual re-entry. The form isn't just long; information is fragmented."},
+    {"speaker":"guide","text":"Could a shorter form still help?"},
+    {"speaker":"alex","text":"Yes, but I shouldn't make it the whole intervention. I'd test clearer evidence requirements, referral status, saved progress, and a staff view that shares the same state."},
+    {"speaker":"guide","text":"Write down the decision, the assumption, the evidence, and what would change your mind. What's missing from your evidence so far?"},
+    {"speaker":"alex","text":"People who cannot begin online at all. We need offline recruitment, or we'll call the service improved while leaving them out."},
+    {"speaker":"guide","text":"That's the practice: evidence and participation while choices are still changeable, then learning again after release."},
+    {"speaker":"alex","text":"So ‘human-centered’ isn't a workshop label. It's whether what we learn can reshape the work."}
+  ]
+}

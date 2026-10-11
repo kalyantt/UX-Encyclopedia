@@ -11,3 +11,7 @@ Alex is the designer learning through the course. Maya is the person seeking car
 ## Version rule
 
 Never overwrite an approved audio version. Give each new render a new `vN` ID, a separate audio file, a matching transcript, and an entry in `podcast-versions.mjs`. Keep the prior version playable. Make a new version the default only after review. UX-001 Version 1 is the complete, calmer episode; Version 2 is a faster 32-second experiment and is not the default. Git commits preserve the corresponding site changes.
+
+## Chapter 1 voice continuity
+
+UX-001 Version 1 and the conversation previews for UX-002 to UX-006 plus UX-097 and UX-098 use Chatterbox Nano with the same local `podcast-voices/guide.wav` and `podcast-voices/alex.wav` reference clips. These are all eight lessons in the published Chapter 1 navigation. Do not replace a Chapter 1 recording with a browser/system voice or a different synthesis model while calling it the same voice. The seven new recordings are short previews of their conversations, not full-lesson audio adaptations. Their transcripts and the complete written lessons remain available.
