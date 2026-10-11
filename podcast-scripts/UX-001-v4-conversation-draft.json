@@ -1,0 +1,22 @@
+{
+  "lesson": "UX-001",
+  "version": "v4-conversation-draft",
+  "status": "script review only; no audio rendered or published",
+  "title": "What UX is — conversation-first opening",
+  "editorial_note": "Keep the lesson's meaning, but let Alex and the guide discover the point together. Direction cues are for a human performer or context-aware model, not spoken text. Preserve the chapter opening and learning promise.",
+  "turns": [
+    {"speaker":"alex","intent":"genuinely asking, not introducing a show","text":"Before we start... what do people actually mean by UX? Is it the screen?"},
+    {"speaker":"guide","intent":"warm, unhurried; answer him directly","text":"That's what we're going to find out in this chapter. We'll follow Maya as she tries to get an appointment, then see why a working screen can still leave her stuck."},
+    {"speaker":"alex","intent":"small laugh of recognition","text":"That sounds uncomfortably familiar."},
+    {"speaker":"guide","intent":"invite him into the scene","text":"Look at her phone with me. It says, Request received."},
+    {"speaker":"alex","intent":"initial assumption","text":"Great. So she's booked."},
+    {"speaker":"guide","intent":"gentle challenge; let a beat land","text":"Does it say she's booked?"},
+    {"speaker":"alex","intent":"looks again; realizes his mistake","text":"...No. Just that they got the request."},
+    {"speaker":"guide","intent":"concern for Maya, not a lecture","text":"And she's already waited days for the referral. Imagine putting the phone down now."},
+    {"speaker":"alex","intent":"thinking aloud","text":"I'd wonder whether to wait, call, or start over. I wouldn't feel done."},
+    {"speaker":"guide","intent":"connect his observation to the lesson","text":"Exactly. The screen gave feedback. Maya still doesn't know if she's closer to care."},
+    {"speaker":"alex","intent":"the thought clicks; no performative excitement","text":"So the experience isn't just that message. It's the whole attempt to get help."},
+    {"speaker":"guide","intent":"affirm, then widen the view","text":"Yes. What she needed, what she tried, what happened next, and what she could trust. That's the question we'll carry through the course."},
+    {"speaker":"alex","intent":"quietly personal","text":"I was ready to improve the confirmation screen. I hadn't asked what it was confirming."}
+  ]
+}
