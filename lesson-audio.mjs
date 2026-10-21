@@ -18,7 +18,7 @@ export function mountAudio(library){
   let activeRecording=null,activeRecordingId='',audioObserver=null,forcedDock=false;
   const dock=document.createElement('aside');
   dock.className='podcast-dock';dock.hidden=true;dock.setAttribute('aria-label','Floating podcast player');
-  dock.innerHTML='<div class="podcast-dock-head"><span class="podcast-dock-label">Now listening</span><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><div class="podcast-dock-actions"><button type="button" class="podcast-dock-toggle" aria-label="Pause podcast">Pause</button><button type="button" class="podcast-dock-back" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" class="podcast-dock-forward" aria-label="Go forward 15 seconds">15 sec ↷</button></div><button type="button" class="podcast-dock-return">Back to lesson</button>';
+  dock.innerHTML='<div class="podcast-dock-head"><span class="podcast-dock-label">Now listening</span><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><button type="button" class="podcast-dock-return">Back to lesson</button>';
   document.body.append(dock);
   const dockSlot=dock.querySelector('.podcast-dock-recording');
   const lessonTitle=lessonId=>Object.values(library.index).flatMap(module=>module.lessons).find(([key])=>key===lessonId)?.[1]||lessonId;
@@ -46,18 +46,13 @@ export function mountAudio(library){
   }
   function updateDock(){
     if(!activeRecording)return;
-    const paused=activeRecording.paused;
-    dock.querySelector('.podcast-dock-toggle').textContent=paused?'Play':'Pause';
-    dock.querySelector('.podcast-dock-toggle').setAttribute('aria-label',paused?'Play podcast':'Pause podcast');
+    dock.setAttribute('aria-label',`${activeRecording.paused?'Paused':'Playing'} podcast: ${lessonTitle(activeRecordingId)}`);
   }
   dock.querySelector('.podcast-dock-close').onclick=closeDock;
   dock.querySelector('.podcast-dock-return').onclick=()=>{
     if(location.hash.slice(1)!==activeRecordingId)location.hash=activeRecordingId;
     else{forcedDock=false;restore();player()?.scrollIntoView({behavior:'smooth',block:'center'})}
   };
-  dock.querySelector('.podcast-dock-toggle').onclick=()=>{if(!activeRecording)return;if(activeRecording.paused)activeRecording.play();else activeRecording.pause();updateDock()};
-  dock.querySelector('.podcast-dock-back').onclick=()=>{if(activeRecording)activeRecording.currentTime=Math.max(0,activeRecording.currentTime-15)};
-  dock.querySelector('.podcast-dock-forward').onclick=()=>{if(activeRecording&&Number.isFinite(activeRecording.duration))activeRecording.currentTime=Math.min(activeRecording.duration,activeRecording.currentTime+15)};
   function watchAudio(root,recording,lessonId){
     audioObserver?.disconnect();
     audioObserver=new IntersectionObserver(entries=>{
