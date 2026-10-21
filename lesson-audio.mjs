@@ -107,7 +107,12 @@ export function mountAudio(library){
   }
   function stopLegacy(){token++;if(synth)synth.cancel();playing=false;paused=false;index=0;paint();status(supported?'Ready when you are.':'Listening is unavailable in this browser.')}
   function stop(){stopLegacy();audioObserver?.disconnect();closeDock()}
-  function beforeRoute(){audioObserver?.disconnect();park(true);stopLegacy()}
+  function beforeRoute(){
+    audioObserver?.disconnect();
+    const current=player()?.querySelector('.audio-recording');
+    if(current?.dataset.mainSrc&&!current.paused){activeRecording=current;activeRecordingId=id}
+    park(true);stopLegacy();
+  }
   function availableVoices(){return supported?synth.getVoices().filter(voice=>/^en([_-]|$)/i.test(voice.lang)).sort((a,b)=>a.name.localeCompare(b.name)):[]}
   function showVoices(){
     const select=player()?.querySelector('.audio-voice select');if(!select)return;
@@ -142,10 +147,9 @@ export function mountAudio(library){
       const episode=editorialPodcastVersions[id];
       if(episode){
         root.classList.add('recorded');
-        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong><button class="audio-minimize" type="button" aria-label="Minimize podcast player">Minimize ↘</button></div><audio class="audio-recording" controls preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-ending" role="status">At the end, we’ll point you to the lesson questions and what comes next.</p>`;
+        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong></div><audio class="audio-recording" controls preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-ending" role="status">At the end, we’ll point you to the lesson questions and what comes next.</p>`;
         const recording=root.querySelector('.audio-recording');
         recording.dataset.mainSrc=episode.src;recording.dataset.phase='main';
-        root.querySelector('.audio-minimize').onclick=()=>{if(recording.paused)recording.play().then(()=>park(true)).catch(()=>{});else park(true)};
         root.querySelectorAll('[data-seek]').forEach(button=>button.onclick=()=>{
           const target=activeRecordingId===id&&dock.contains(activeRecording)?activeRecording:recording;
           if(!Number.isFinite(target.duration))return;

@@ -46,8 +46,8 @@ const compressed=gzipSync(Buffer.from(JSON.stringify(course)),{level:9,mtime:0})
 writeFileSync(new URL('./course-204-data-editorial-preview.js',import.meta.url),`window.course204Gzip="${compressed}";\n`);
 const html=readFileSync(new URL('./course.html',import.meta.url),'utf8')
   .replace('course-204-data.js?v=20261001b','course-204-data-editorial-preview.js?v=editorial-all1')
-  .replace(/course-reader\.js\?v=[^"]+/,'course-reader.js?v=editorial-all7')
-  .replace(/course-reader\.css\?v=[^"]+/,'course-reader.css?v=20261021v6')
+  .replace(/course-reader\.js\?v=[^"]+/,'course-reader.js?v=editorial-all8')
+  .replace(/course-reader\.css\?v=[^"]+/,'course-reader.css?v=20261021v7')
   .replace(/reading-pet\.css\?v=[^"]+/,'reading-pet.css?v=20261021v6')
   .replace('<a href="case.html">The CarePath story ↗</a>','')
   .replace('<title>UX Encyclopedia · The course</title>','<title>Editorial preview · UX Encyclopedia</title>');
