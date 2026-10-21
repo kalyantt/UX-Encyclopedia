@@ -1,0 +1,192 @@
+{
+  "lesson": "UX-177",
+  "title": "Experimentation Maturity and Decision Quality",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Experimentation Maturity and Decision Quality. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An organisation may be advanced in one dimension and immature in another:"
+    },
+    {
+      "speaker": "host",
+      "act": "Maturity has several independent dimensions",
+      "mood": "curious",
+      "text": "What changes when we look at maturity has several independent dimensions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Infrastructure: persistent assignment, exposure, ramping, telemetry, automated analysis, quality monitoring, and rollback. Statistical practice: power planning, uncertainty, multiple testing, clustering, variance reduction, and specialist review. Metric meaning: causal models, stable definitions, validated OECs, diagnostics, guardrails, and trust checks."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Decision integration: hypotheses linked to strategy, pre-agreed rules, owners, roadmap authority, and outcome follow-up. Institutional memory: searchable configurations, results, nulls, failures, definitions, and later consequences. Ethical governance: equipoise, consent and privacy, accessibility, safety, fairness, exposure limits, and independent stop authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Learning culture: willingness to report invalid, negative, and surprising results and change direction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Experiment count and win rate are poor maturity measures. High win rates may indicate cherry-picking, weak controls, or testing only safe ideas. Mature portfolios include null and harmful results because most plausible ideas do not create meaningful improvement."
+    },
+    {
+      "speaker": "host",
+      "act": "Build capability in sequence",
+      "mood": "thinking",
+      "text": "What changes when we look at build capability in sequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with trustworthy assignment, event semantics, A/A testing, quality checks, and reversible ramping. Add shared metric definitions and guardrails before scaling self-service. Establish review for consequential experiments and training for interpretation. Then create institutional memory and portfolio governance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Self-service should democratise safe decisions, not eliminate expertise. Use risk tiers. A low-risk layout change may use a standard template and automated guardrails. A change affecting clinical routing, pricing, identity, or vulnerable populations needs domain, ethical, accessibility, statistical, and operational review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ramping trades speed, quality, and risk. Start with internal or tiny exposure to find gross defects, expand after quality checks, move to the allocation needed for inference, then decide long-term rollout. Small ramps are safety checks, not necessarily powered evidence. Rollback must preserve user and service state."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: mature tools, immature judgement",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: mature tools, immature judgement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A company runs thousands of tests through reliable infrastructure, but teams optimise local clicks, cannot find prior results, and never measure long-term effect. Another runs fewer experiments with clear hypotheses, guarded exposure, reproducible analysis, and roadmap consequences. Scale is a capability; maturity is the quality of decisions that capability enables."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate decision quality",
+      "mood": "thinking",
+      "text": "What changes when we look at evaluate decision quality?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Judge a decision using what was knowable at the time, not only whether the outcome later happened to be favourable. Ask whether alternatives were considered, assumptions surfaced, evidence matched risk, uncertainty interpreted correctly, harms anticipated, and review triggers honoured. A well-reasoned decision can have an unlucky outcome; a reckless decision can get lucky."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Useful maturity indicators include recurrence of known data defects, time from question to trustworthy decision, share of consequential experiments with preplanned guardrails, invalidation detection, reuse of prior evidence, follow-up completion, and changes in outcome—not raw test volume."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Experiment factory: throughput replaces consequential learning. Platform solutionism: tooling is expected to fix weak hypotheses and incentives. Win-rate theatre: teams avoid nulls or reframe them as success. Local optimisation: variants compete while strategy and service constraints remain fixed. Self-service without governance: complex risks receive template analysis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No institutional memory: contradictory tests repeat without context. Ethics as final approval: harm is considered after exposure and momentum."
+    },
+    {
+      "speaker": "host",
+      "act": "Build maturity across the whole decision system",
+      "mood": "thinking",
+      "text": "What changes when we look at build maturity across the whole decision system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Experimentation maturity includes trustworthy telemetry, randomisation infrastructure, ethical review, statistical practice, qualitative explanation, operational readiness, documentation, and leadership behaviour. Running many tests is activity. Maturity is the ability to choose when an experiment is appropriate, learn from nulls and failures, and act on results."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Pre-analysis plans record estimand, primary outcome, guardrails, exclusions, duration, subgroup hypotheses, and decision thresholds. Results include deviations, uncertainty, practical effect, and mechanism evidence. A repository makes null and negative tests visible so teams do not repeat them or selectively present wins."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Leadership determines whether this system survives. Teams need permission to stop a favoured idea, publish inconclusive evidence, and protect long-term or hard-to-measure outcomes. Portfolio review watches interaction among simultaneous tests, local gains that harm the service, and opportunity cost."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sometimes observational research, service rehearsal, or expert review is the more mature method."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: recommendation feed",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: recommendation feed?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A company can run hundreds of ranking tests while optimising only short-term engagement. Mature experimentation includes satisfaction, diversity, creator impact, harmful content, long-term return, and qualitative understanding—and can decide not to optimise a metric that distorts value."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior leaders create independence for quality and harm review, reward invalidation, and give evidence authority over sunk cost. They also know when not to experiment. Randomisation is inappropriate when a variant is knowingly harmful, rights should be universal, exposure cannot be recovered, or the causal question is not worth participant risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an e-commerce team. Early tests change many elements at once and stop when a promising chart appears. A mature practice records hypotheses, protects randomisation, defines decision rules in advance, watches guardrails, and shares null or harmful results. The goal is not more experiments; it is decisions that improve as the evidence accumulates."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Read an organisation’s experimentation claim. Does it report tests run and wins, or evidence of invalid results caught, decisions reversed, long-term outcomes reviewed, and harms prevented? The latter reveals maturity."
+    }
+  ]
+}

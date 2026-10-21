@@ -1,0 +1,167 @@
+{
+  "lesson": "UX-121",
+  "title": "The Discovery Cadence: Customer Contact as Operating Rhythm",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about The Discovery Cadence: Customer Contact as Operating Rhythm. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Continuous discovery requires a cadence: regular contact with relevant customers, a predictable synthesis habit, and a route from evidence to decisions. Frequency matters because product questions emerge continuously. A steady rhythm keeps the team close to changing behaviour, language, and context while delivery proceeds."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make the cadence realistic. Maintain consented recruitment relationships, reserve time for interviews and synthesis, track opportunities and assumptions, and share learning as it happens. Quality does not mean rushing every decision through a weekly call; high-risk or complex questions may require more rigorous work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The habit means that evidence is available before a roadmap hardens."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the rhythm as an organisational capability",
+      "mood": "thinking",
+      "text": "What changes when we look at design the rhythm as an organisational capability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Weekly contact is not a magic number. The rhythm matches decision pace and supplements longitudinal, quantitative, and operational research. Teams record whose perspective is absent and when repeated sessions stop producing new decision value. Discovery becomes normal product work rather than a research event."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked contrast: speed without accumulation",
+      "mood": "curious",
+      "text": "What changes when we look at worked contrast: speed without accumulation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "One team conducts four weekly calls and produces four unrelated summaries. Another conducts two interviews, one field observation, and one instrumentation review against the same opportunity model. The second team has less customer contact but stronger continuous discovery because each source updates an accumulating explanation and changes the next question."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interview treadmill: the same method and participant type repeat regardless of question. Calendar as success: sessions happen even when no decision can change. No strategic reset: local tests continue after the outcome or opportunity has shifted. Participant exhaustion: recruiting speed overrides contact burden and consent quality."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Insight evaporation: rapid contact has no protected synthesis or repository update."
+    },
+    {
+      "speaker": "host",
+      "act": "Design a sustainable rhythm",
+      "mood": "curious",
+      "text": "What changes when we look at design a sustainable rhythm?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with decisions and risk, then plan regular evidence contact. A weekly rhythm might include recruitment, one or more sessions, immediate debrief, repository update, and a trio review that selects the next question. Mix methods and sources; interview cadence alone can overrepresent articulated experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create sampling intentions over time: behaviours, roles, experience levels, capabilities, markets, and edge contexts. Monitor repeated participants and burden. Use accessible scheduling, fair incentives, consent, privacy, and safe handling. Research operations protect quality as volume increases."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Share emerging evidence with caveats rather than waiting months for one report, but reserve deeper synthesis for questions requiring it. Distinguish signal from decision: one severe event can trigger investigation without becoming prevalence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluate cadence by whether evidence arrives before decisions, changes assumptions, broadens contact, and improves outcomes. If sessions become a calendar target that cannot challenge the roadmap, stop and redesign the operating rhythm."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect cadence to the portfolio of uncertainty",
+      "mood": "thinking",
+      "text": "What changes when we look at connect cadence to the portfolio of uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Every contact has a lightweight plan, consent, immediate debrief, and source record. Patterns are updated across sessions rather than waiting for a large report. The team protects deeper studies when longitudinal, sensitive, or causal questions cannot be answered in the weekly rhythm. Continuous does not mean shallow or hurried."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The cadence is evaluated by decision quality: assumptions changed, opportunities refined, risky work stopped, instrumentation improved, or delivery adapted. Counting sessions rewards activity. A mature team can explain when contact produced no new decision value and change its sample or method rather than performing ritual interviews."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: collaborative software",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: collaborative software?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Weekly interviews with administrators may optimise setup while missing invited members who never participate. Reviewing the whole outcome and sample matrix redirects contact to the absent part of the collaboration system."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cadence is useful only when authority and planning can respond to evidence. Senior practitioners fund recruitment and synthesis, protect research ethics, and audit whose experience the convenient weekly sample systematically excludes."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The team conducts a large study every six months. Between studies, decisions multiply, assumptions become facts, and recruiting begins again from zero. Learning is treated as an event, not an operating capability."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Review a recent product decision. Identify the last direct customer evidence available when it was made and how quickly the team could obtain a contradictory case."
+    }
+  ]
+}

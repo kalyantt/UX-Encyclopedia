@@ -1,0 +1,201 @@
+{
+  "lesson": "UX-012",
+  "title": "Error, Recovery, and Forgiveness",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Error, Recovery, and Forgiveness. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People make slips and mistakes. A slip occurs when the intention is right but the action is wrong: tapping the adjacent control, selecting the wrong row, or entering a value in the wrong field. A mistake begins with an incorrect plan or understanding: choosing an option whose consequence was misunderstood."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good design addresses both: prevent likely slips through spacing, constraints, and clear feedback; prevent mistakes through understandable models, labels, previews, and consequences."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When prevention is impossible, recovery must be fast and proportionate. A good recovery path preserves context, explains what happened in plain language, offers a meaningful next action, and avoids blaming the person. Irreversible actions deserve stronger confirmation before commitment; routine reversible actions should not be buried beneath warnings."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked example: the forgiving system",
+      "mood": "thinking",
+      "text": "Can you walk me through the forgiving system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map action → system feedback → reversible state → undo or correction → restored confidence. Beside it, show the punitive alternative: ambiguous error, lost data, support escalation. The contrast makes the recovery mechanism visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism: prevent the error you can predict, preserve recovery for the rest",
+      "mood": "curious",
+      "text": "How does prevent the error you can predict, preserve recovery for the rest actually work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Errors are not one category. A slip occurs when the intention is appropriate but execution goes wrong, such as selecting the adjacent appointment. A mistake arises from an inaccurate goal or model, such as believing “request received” means confirmed. A mode error occurs when the same action has a different effect because the system is in an unnoticed state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "System failures, policy contradictions, and missing capacity should not be relabelled as user error at all."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The diagnosis determines the control. Increase target separation or provide undo for slips. Improve the conceptual model, labels, examples, or review for mistakes. Make modes visible or remove them when their benefit does not justify the risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use constraints and forcing functions only where the prevented consequence warrants loss of flexibility; an unnecessary block can create workarounds and new harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recovery has several layers: detect the problem, contain its effect, preserve valid work, explain current state, offer proportionate options, and confirm restoration. “Try again” is insufficient when repetition can duplicate payment or overwrite data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Error messages require operational truth: whether the action happened, what remains safe, what the person can do, and who owns escalation. Undo is powerful when it restores the previous state reliably; confirmation is useful when the person can still understand and change the consequential choice."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Review incident patterns as design evidence. Count repeated attempts, abandonment, reversals, support transfers, and downstream correction—not only displayed error codes. A forgiving system learns which conditions recur and redesigns them upstream."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The ethical boundary is clear: the organisation should absorb predictable complexity rather than repeatedly charging people time, anxiety, or access for its own fragmented processes."
+    },
+    {
+      "speaker": "host",
+      "act": "Put it to work",
+      "mood": "thinking",
+      "text": "What would you do with that in a real product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "List the foreseeable errors in a flow, their severity, and the recovery cost. Prevent high-severity errors upstream. Preserve work when network, validation, or authentication fails. Use error messages that identify the field or state, explain the problem, and make the repair obvious. Test recovery deliberately, not only the happy path."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recovery design is a trust strategy. Support volume, repeat attempts, abandonment, and complaints often reveal a recovery problem disguised as user error. A senior team treats exceptions as first-class journeys and connects the UI's recovery promise to the actual authority, data, and policy behind it."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Error handling starts before submission and continues after the immediate fix. A person needs to understand what state the system is in, what has been preserved, which action is safe, and whether anyone else has been affected."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For a form, this may mean retaining valid fields, locating the issue near the field, describing the repair in plain language, and restoring focus appropriately. For an asynchronous process, it may mean showing pending status, a realistic time expectation, what not to do twice, and how to obtain help."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Distinguish validation, system failure, and policy refusal. “Something went wrong” gives the same diagnosis to a typo, an outage, a permissions problem, and a declined transaction—situations that require different recovery. Avoid blaming language. The person may have followed the interface exactly and still encountered a data, network, or organisational failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Constraints, sensible defaults, review steps, and confirmation can prevent harm, but they can also slow routine work and encourage people to dismiss warnings automatically. Put prevention near the point where it can still change the outcome. Offer Undo for common reversible operations."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use confirmation for actions that are difficult to reverse or have serious consequences, and make the warning specific about what will happen."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Data loss: an error discards work the person cannot reconstruct. Dead end: the system identifies a problem but offers no path to resolve it. Generic messages: one vague alert covers multiple causes and hides the repair. False success: the interface confirms completion before the underlying service has actually succeeded."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Support as the only recovery: a routine, foreseeable exception forces people into an expensive human channel."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person archives an important message with one accidental swipe. The product can either punish the slip with a buried recovery path, or acknowledge the action and offer a visible, time-bound Undo. Forgiveness is designed before the error happens."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 11 showed that choices are shaped by design. This lesson ensures those choices remain recoverable when attention, memory, or understanding fails. Module 3 will move from individual perception to goals, tasks, and the mental models behind action."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Make a harmless mistake in an app. Evaluate whether the product prevents it, explains it, preserves your work, and gives you a usable way back."
+    }
+  ]
+}

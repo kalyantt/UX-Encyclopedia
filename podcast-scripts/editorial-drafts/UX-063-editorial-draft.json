@@ -1,0 +1,221 @@
+{
+  "lesson": "UX-063",
+  "title": "Usability Testing",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Usability Testing. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Usability testing is an evaluative method in which representative participants attempt realistic activities with a product or prototype while researchers observe what happens. It reveals how the interface, content, system behaviour, and context support or obstruct action."
+    },
+    {
+      "speaker": "host",
+      "act": "What usability testing reveals",
+      "mood": "curious",
+      "text": "What changes when we look at what usability testing reveals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The unit of analysis is not whether a person “likes the design.” It is the encounter between a person, a goal, and a designed system. Evidence includes where participants begin, what they expect, which information they use, hesitations, wrong turns, recovery, completion, time where meaningful, assistance needed, confidence, and interpretation after the task."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Testing can expose defects in comprehension, navigation, feedback, control mapping, workflow, content, and recovery. It cannot by itself establish market demand, long-term retention, the prevalence of a problem in the whole population, clinical effectiveness, or why non-users never arrived."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A small qualitative study is particularly good at discovering and diagnosing breakdowns; it is generally poor at estimating how common each breakdown is."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not call it “testing users.” The participant is not being graded. The design and its assumptions are under examination."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the study around decisions and tasks",
+      "mood": "thinking",
+      "text": "What changes when we look at design the study around decisions and tasks?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A useful test begins before recruitment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. State the decision and research questions. Separate broad questions from observable behaviours. “Is it intuitive?” is vague. “Can participants explain why this specialist was recommended and identify the unknown cost before committing?” is testable. 2. Define relevant participants."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recruit for behaviours, knowledge, access needs, and circumstances that affect the task—not convenient demographics alone. Include people commonly excluded by the service. 3. Choose the test object. Existing product, competitor, paper flow, clickable prototype, coded slice, or whole service. Document its limitations. 4. Write scenarios, not instructions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Give a believable motivation without naming controls or revealing the route. “Your GP has referred you and you need an appointment compatible with work and step-free access” is better than “open Filters and select Accessibility.” 5. Select tasks and order. Prioritise consequential, uncertain tasks. Avoid making an earlier task teach the answer to a later one."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include a boundary or recovery path. 6. Define evidence in advance. Note what counts as success, partial success, failure, assistance, critical misunderstanding, and abandonment. Decide which measures are useful without pretending they are more precise than the study allows. 7. Pilot."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A pilot catches broken links, leading wording, unrealistic data, timing problems, and prototype gaps before participant time is wasted."
+    },
+    {
+      "speaker": "host",
+      "act": "Moderate without teaching the interface",
+      "mood": "curious",
+      "text": "What changes when we look at moderate without teaching the interface?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Begin with consent, recording choices, confidentiality, the participant’s right to stop, and reassurance that the product—not the person—is being tested. Establish context before the tasks. During the session, invite participants to think aloud when that will help, but recognise that verbalising can change pace and attention."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use neutral prompts: “What are you thinking?” “What did you expect?” “What does that mean to you?” Avoid praise that signals a correct answer, questions that contain the desired interpretation, and rapid rescue."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When a participant becomes stuck, observe long enough to understand the breakdown, then use a pre-planned assistance ladder: repeat the scenario, ask what they would do outside the study, offer a small neutral prompt, and only then move them forward. Record the level of help."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Moderation is not passive silence. In sensitive settings it includes care. Stop or redirect if the scenario causes distress, avoid collecting unnecessary health information, and debrief simulated consequences clearly."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse behaviour without flattening it",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse behaviour without flattening it?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Debrief after each session while context is fresh. Separate observation (“participant opened clinic details after choosing”) from interpretation (“important access information may arrive too late”) and recommendation (“surface step-free status in the option”). Triangulate recordings, notes, interaction data, and participants’ explanations."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Look for patterns, but do not use frequency alone. One rare failure can be critical if it risks missed care, money, privacy, or exclusion. Conversely, repeated hesitation may be low consequence. Judge findings through consequence, reach, recoverability, confidence, and strategic relevance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include successful strategies too; they reveal what should not be damaged during iteration."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: changing a flight",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: changing a flight?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A participant successfully selects a new flight but does not realise the change is unconfirmed until payment. Task completion alone would mark success; the mental model reveals risk. A good protocol observes whether the traveller understands fare difference, connection impact, and finality, and includes recovery when a seat disappears."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The important outcome is not clicks completed but a correct, confident, recoverable change."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes and limits",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes and limits?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Scripted tasks: wording tells participants where to click and masks findability problems. Convenience recruiting: colleagues or confident digital users stand in for affected people. Moderator rescue: help arrives before the breakdown becomes visible. Opinion collection: discussion replaces attempted behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Prototype blindness: missing data or interactions alter behaviour but are ignored in analysis. Count as prevalence: five sessions are used to make population estimates. Happy-path testing: recovery, accessibility, delay, and consequential edge states disappear. Finding inflation: every hesitation becomes a defect without considering consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practice connects test scope to decision risk. Use formative studies early to improve a concept; use summative or benchmark studies only when the design, measures, sample, and conditions support comparison. Combine usability evidence with analytics, accessibility evaluation, operational data, field research, and outcome measures when the decision requires them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make observation a team capability, but protect participant dignity. Stakeholders should receive behaviour-focused note templates and ground rules, not a spectacle. Track which populations and contexts have not been represented."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For healthcare, finance, government, and other consequential services, define escalation routes for safety or safeguarding concerns before sessions begin."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an account-recovery flow. Give participants a realistic reason to regain access, not an instruction to click “Forgot password.” Watch where they hesitate, what they believe has happened after requesting a link, and whether they can recover from an expired one."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A completed task matters, but so do confidence, wrong turns, and the moderator's influence on behaviour."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Watch someone use a familiar product without coaching them. Record the first moment their expectation and the system response diverge. What did they expect, what evidence did the interface provide, how did they recover, and what would you need to learn before recommending a change?"
+    }
+  ]
+}

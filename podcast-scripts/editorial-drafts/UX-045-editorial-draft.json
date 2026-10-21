@@ -1,0 +1,197 @@
+{
+  "lesson": "UX-045",
+  "title": "Forms That Respect People",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Forms That Respect People. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Forms convert human information into system state. Respectful forms ask only for information needed now, explain why sensitive data is needed, use appropriate defaults, preserve work, support varied inputs, and validate in a way that helps a person recover. Progressive disclosure prevents a long form from becoming an interrogation."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Group fields by the user’s task, not by back-end data tables. Make required status clear without relying only on colour. Validate early when it prevents wasted work, late when early validation interrupts natural entry, and always with specific repair guidance."
+    },
+    {
+      "speaker": "host",
+      "act": "Treat every question as a cost and a promise",
+      "mood": "thinking",
+      "text": "What changes when we look at treat every question as a cost and a promise?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A form converts a person’s situation into structured data that a service can act on. Each question creates cognitive, emotional, privacy, accessibility, and completion cost. It is justified only when the answer supports a known decision, fulfils a legitimate obligation, or prevents a meaningful failure. “We may need it later” is not a sufficient purpose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The sequence follows the user’s reasoning: purpose and consequence, current appointment, desired change, relevant constraints, reviewed request, and evidence of submission. Related questions are grouped; optionality is explicit; examples clarify expected format; and labels remain visible after entry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validation helps at the moment it can be acted upon but does not punish harmless formatting. Cross-field and server validation preserve input and explain what changed."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: job application",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: job application?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A hiring form that asks candidates to retype a résumé shifts parsing work to applicants and may introduce accessibility barriers. The organisation should distinguish information required for fair assessment from data convenient for its system, accept alternative formats, and postpone unnecessary demographic or payroll questions until the relevant stage."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the information relationship",
+      "mood": "thinking",
+      "text": "What changes when we look at design the information relationship?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask only what is needed now, explain unusual requests, and use familiar labels and formats. Group fields by the person’s task rather than the database. Preserve entered data, support paste and autofill, accept reasonable variation, and avoid splitting information unless it improves entry or verification."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validate at a useful moment without interrupting every keystroke. Identify the field and problem, explain how to fix it, and retain context. Summarise errors for long forms and move focus appropriately. Make optionality, constraints, privacy, and consequences clear before submission."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test real data, translation, keyboard, screen reader, zoom, slow connection, interruption, and recovery. Completion rate alone can hide wrong information or support dependence."
+    },
+    {
+      "speaker": "host",
+      "act": "Treat every question as a demand on the person",
+      "mood": "curious",
+      "text": "What changes when we look at treat every question as a demand on the person?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The form follows the person's task rather than the database schema. Related questions are grouped, optionality is explicit, formats are explained before error, and examples clarify without becoming placeholders that disappear. Defaults are used only when they are safe and genuinely likely; a preselected consent or accessibility answer can manufacture false data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sensitive questions explain purpose and access before collection."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validation is timed to help. Immediate feedback works for locally checkable formats but can interrupt incomplete answers; server-side eligibility may need a later response and clear waiting state. Errors preserve valid work, identify the exact problem, and explain correction in text as well as colour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conditional questions remain understandable to keyboard and screen-reader users, and progress indicators reflect meaningful steps rather than arbitrary pages."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Every field is a trade-off among user effort, privacy, data quality, operations, and business value. Challenge inherited fields; many exist because of organisational habit rather than user need."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A form is a conversation between a person’s real-world situation and an organisation’s data model. Start with the user task and decision, then request the minimum information necessary at the moment it is needed. Explain sensitive or surprising requests in context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use input types, labels, examples, defaults, formatting, and grouping to reduce avoidable effort without making assumptions that change a person’s meaning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design the full state model: first visit, partial completion, validation, unavailable option, save and return, system interruption, review, submission, pending result, and correction after submission. Validate with the right timing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inline validation can prevent wasted effort when a rule is clear; it can become noise when it interrupts normal entry or reports a problem before the person has finished. Preserve data whenever possible and ensure errors are announced and reachable for assistive technology."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Back-end grouping: fields follow a database schema rather than the person’s task. Interrogation form: unnecessary collection creates effort, distrust, and privacy risk. Error scatter: problems are separated from their fields or only identified by colour. Lost progress: a timeout, error, or failed submission erases work."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A checkout asks for an account, full address, marketing consent, and a phone number before showing delivery options. Some fields may be useful to the business; not all are necessary for the person’s next step."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Controls make action possible; forms combine many controls into a consequential conversation. lesson 46 explains the feedback that tells a person whether that conversation succeeded."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Complete a form and mark every moment it asks for unnecessary effort, unclear information, or irreversible commitment."
+    }
+  ]
+}

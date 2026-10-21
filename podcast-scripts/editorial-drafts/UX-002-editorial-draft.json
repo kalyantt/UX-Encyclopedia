@@ -1,0 +1,210 @@
+{
+  "lesson": "UX-002",
+  "title": "Usability is not aesthetic taste",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Usability is not aesthetic taste. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Two interfaces can look equally clear and produce very different results. Usability asks whether people can complete the intended task accurately, with reasonable effort, and recover when the path breaks."
+    },
+    {
+      "speaker": "host",
+      "act": "What this moment reveals",
+      "mood": "curious",
+      "text": "What changes when we look at what this moment reveals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Usability asks whether specified people can achieve specified goals effectively, efficiently, and with acceptable satisfaction in a specified context. It is a property of use, not a vote on visual taste."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An elegant interface can be unusable for a first-time user. A visually busy tool can be highly usable for an expert who needs dense information. The question is always: for whom, doing what, under what conditions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Usability is not a single trait. A product can be easy to learn yet slow for expert work; efficient on a desktop yet difficult to operate on a moving bus; safe in routine use yet unforgiving when something goes wrong. A serious evaluation therefore describes the user group, the task, the environment, and the criteria for acceptable performance before anyone tests a screen."
+    },
+    {
+      "speaker": "host",
+      "act": "Follow the mechanism",
+      "mood": "thinking",
+      "text": "Can we follow the mechanism step by step?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a four-part scorecard for a clearly specified task:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Effectiveness: Did the person reach the right result, not merely finish the flow? Efficiency: How much time, attention, help, and backtracking did the task require? Confidence: Could the person predict the consequence before acting and understand the state afterward? Recovery: If they made a mistake or the system failed, could they return to a safe state?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not add these into one unexplained score. A fast task with a dangerous wrong result is not redeemed by its speed. Record the important observations and set acceptable thresholds according to the people, context, and consequences involved."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A practical usability model"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Effectiveness asks whether people complete the right task accurately and completely. Completion alone is not enough if they select the wrong date, transfer to the wrong person, or misunderstand the result."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Efficiency asks what resources the task consumes: time, attention, steps, physical effort, memory, help requests, and recovery work. Fewer steps are not automatically more efficient if a compressed flow forces people to reread dense choices."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Safety asks whether the design prevents serious errors and helps people recover from ordinary ones. Reversible actions, meaningful warnings, confirmation at consequential moments, and a usable undo path contribute to safety."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Learnability and memorability matter when people are new, intermittent, or returning after a long gap. Familiar conventions can reduce the learning burden; consistent structure helps people reorient."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Satisfaction is the person's comfort, confidence, and willingness to use the product again. It is not a beauty score. Someone may find a tool visually plain and still be satisfied because it is reliable, respectful, and predictable."
+    },
+    {
+      "speaker": "host",
+      "act": "Apply the method",
+      "mood": "curious",
+      "text": "What changes when we look at apply the method?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "How to test the claim"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Give representative people a realistic goal, not a feature tour. Observe what they do before explaining anything. Record success, time, error patterns, hesitation, requests for help, and the strategies people invent when the interface does not make the next action clear. Afterwards, ask what they believed was happening and how certain they felt."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "That combination shows both performance and understanding."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Why perception matters to usability"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Usability depends on what people notice and how they interpret it. A control that resembles a static label may never enter the person's set of possible actions. A vague heading makes people scan and infer. A modal that interrupts the task may be read as a warning even when it is only an upsell. Human attention and working memory are limited, especially under interruption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Designers therefore use meaningful labels, visible hierarchy, familiar patterns, sensible defaults, and timely feedback to reduce unnecessary interpretation work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This does not mean every interface should look identical. It means novelty must pay for itself. A novel interaction is justified when it makes an important activity clearer, safer, more expressive, or genuinely easier. It is not justified merely because the team can describe it as innovative."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When you identify a usability issue, describe its mechanism. “The page is confusing” is too vague to fix. Prefer: “People cannot distinguish the primary action from a promotional link,” or “People interpret the final button as a preview, then discover it sends the transfer.” This language connects observed behaviour to an actionable design decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Equating usability with minimalism. Testing only successful completion and ignoring hesitation, errors, and recovery. Asking “Do you like it?” before observing whether people can use it. Optimizing speed for experts while making first use impossible—or the reverse."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not turn usability into a checklist score divorced from the task. A fast interaction that leads to a costly wrong result is not good usability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners define acceptable performance with domain, operational, accessibility, and affected-user input. They separate severe error from harmless hesitation, novice learning from expert throughput, and laboratory success from real service outcome. They use measures to diagnose and decide, not to turn usability into one universal score."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: password reset. A person cannot access an important account and tries to reset a password on a small screen. The flow appears short, but the email is delayed and the person does not know whether the first request worked. Sending repeated requests may invalidate earlier links or create confusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Test whether the person can identify the correct route, understand where the message was sent, safely request another link, and recognise when access is restored. Measure wrong turns and recovery alongside completion time. The example is hypothetical; the point is that a minimal-looking screen is not evidence of usability. Successful, understandable recovery is."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 1 defined UX as the quality of an attempt. lesson 2 makes its practical criteria visible; lesson 3 adds the experience qualities that make an interaction feel trustworthy or in control."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "When you see a “clean” interface, do not ask whether it looks simple. Ask: Which decisions has it removed, and which decisions has it merely hidden?"
+    }
+  ]
+}

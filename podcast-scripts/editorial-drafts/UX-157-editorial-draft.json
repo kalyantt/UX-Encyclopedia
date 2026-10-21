@@ -1,0 +1,184 @@
+{
+  "lesson": "UX-157",
+  "title": "Ecosystem and Stakeholder Maps: Value, Power, and Handoffs",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Ecosystem and Stakeholder Maps: Value, Power, and Handoffs. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ecosystem and stakeholder maps show the people, organisations, systems, policies, resources, relationships, and exchanges surrounding a service. They reveal where value, information, money, responsibility, and power move—and where a visible experience depends on an invisible decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with a real service question. Include affected people, not only official stakeholders. Draw relationships and flows, then annotate dependencies, conflicts, incentives, and unintended consequences. The purpose is not an exhaustive poster; it is to locate leverage points and risks before designing a local interface fix."
+    },
+    {
+      "speaker": "host",
+      "act": "Map influence and burden, not only actors",
+      "mood": "thinking",
+      "text": "What changes when we look at map influence and burden, not only actors?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An ecosystem map identifies actors, organisations, systems, value exchanges, information, authority, incentives, and dependencies around an outcome. A stakeholder map adds interest, influence, impact, and relationships. Both become misleading when every actor is drawn as an equal circle connected by neutral lines."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The map highlights critical handoffs and misaligned incentives. A clinic may improve its queue target by declining complex cases, worsening the whole service. A digital self-service route may reduce contact-centre volume while increasing unpaid helper work. These tensions inform research priorities and ownership rather than being hidden under “stakeholder alignment.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: food delivery",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: food delivery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Customer, restaurant, courier, platform, payment provider, and regulator exchange money, data, time, and risk. Optimising dispatch speed can shift waiting and safety burden to couriers. An ecosystem view makes the trade-off visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Map relationships, not logos",
+      "mood": "thinking",
+      "text": "What changes when we look at map relationships, not logos?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with the person’s desired outcome and identify actors who enable, constrain, decide, supply, regulate, pay, support, or experience consequences. Draw flows of value, information, authority, money, risk, and responsibility. Direction matters: a partner can receive data without returning status; a frontline team can carry responsibility without decision power."
+    },
+    {
+      "speaker": "host",
+      "act": "Add power and incentive",
+      "mood": "curious",
+      "text": "What changes when we look at add power and incentive?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each actor, record goals, measures, resources, authority, dependencies, and potential conflicts. Include affected non-users and informal supporters. A map that centres only the organisation’s partners can omit the people who absorb failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trace key handoffs. What object changes hands, how is state communicated, who owns the next step, and what happens when acceptance fails? Mark gaps, duplicated work, latency, and ambiguous accountability. Overlay evidence and confidence so assumptions do not look factual."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the map to choose research and intervention. A UI issue may require a changed data agreement, policy owner, partner incentive, or escalation. Revisit the map as relationships change; ecosystems are dynamic, especially after automation or channel shifts redistribute work."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked example",
+      "mood": "thinking",
+      "text": "What changes when we look at worked example?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For home delivery, map customer, merchant, platform, courier, address provider, payment service, support, and regulator. A failed delivery is not one actor’s event: incentives, data quality, contact permissions, and recovery authority determine the outcome. The map makes the missing owner visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Make relationships operationally specific",
+      "mood": "curious",
+      "text": "What changes when we look at make relationships operationally specific?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Critical handoffs receive a mini-contract: sender, receiver, object, required fields, acceptance evidence, clock, owner in transit, and recovery. This connects the ecosystem map to a service blueprint and data model. Fragile single points, conflicting incentives, duplicated authority, and unrepresented affected groups become explicit research or governance work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The map is used to design engagement. High-power actors do not define the problem alone; high-impact groups receive accessible and compensated participation; frontline staff can describe work without surveillance; absent partners are represented as uncertainty, not guessed. The output is a set of decisions, owners, and hypotheses rather than a colourful stakeholder poster."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: food delivery",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: food delivery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A platform links customer, restaurant, courier, payment provider, map service, insurer, and regulator. Dispatch speed may improve while couriers wait unpaid and restaurants receive impossible preparation times. Mapping value and power reveals why a customer-only journey cannot explain the service."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Ask who is missing from the map and who bears the cost of friction. The absence often reveals the most important design risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A delivery app seems to connect a customer and a restaurant. A closer map reveals drivers, dispatch systems, payment providers, local rules, support agents, packaging suppliers, and neighbourhood effects. A change that helps one actor can shift cost to another."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Decision use After mapping, select one broken exchange and write its redesign as a contract: what each actor supplies, receives, may decide, and must do when the normal path fails. Name the accountable owner and measure on both sides. This prevents “better collaboration” from becoming an unowned aspiration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Revisit the contract with the affected actors; a map made only by the central product team will reproduce its blind spots. M10 made shared interface infrastructure visible. M11 broadens the system to service actors and operations. lesson 158 investigates these dependencies through service research."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Map a familiar service with at least six actors. Draw one flow of value and one flow of information, then identify a handoff where trust can break."
+    }
+  ]
+}

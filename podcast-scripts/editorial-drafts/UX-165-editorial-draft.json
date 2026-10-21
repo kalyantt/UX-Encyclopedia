@@ -1,0 +1,192 @@
+{
+  "lesson": "UX-165",
+  "title": "Critique Is a Decision Practice",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Critique Is a Decision Practice. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Critique evaluates how well a design supports a stated purpose. It differs from feedback, which can include any reaction, and from approval, which grants organisational permission. Good critique improves the team’s model of the problem, reveals risk, compares alternatives, or identifies evidence needed for a decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Critique is structured reasoning",
+      "mood": "curious",
+      "text": "What changes when we look at critique is structured reasoning?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The presenter supplies the frame:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "person, context, and scenario; intended outcome and decision; research and constraints; maturity of the work; known assumptions and prototype limitations; specific questions where critique is useful."
+    },
+    {
+      "speaker": "host",
+      "act": "Facilitate the room, not just the artifact",
+      "mood": "thinking",
+      "text": "What changes when we look at facilitate the room, not just the artifact?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Invite people whose expertise can expose the decision’s risks: research, content, engineering, accessibility, operations, clinical or legal specialists, and frontline staff as relevant. More attendees do not guarantee more insight. Clarify who decides and who advises."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with silent inspection so senior voices do not anchor the group. Ask reviewers to connect comments to a scenario, principle, evidence source, or explicit assumption. Ban “I like” only as shorthand; aesthetic judgement is legitimate when aesthetic intent matters, but it must be explained."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a response format:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For person and context, this may affect outcome because mechanism. The basis is evidence, principle, expertise, or assumption. A way to learn or respond is next step."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The design owner does not implement every suggestion. They synthesize comments, resolve contradictions against goals and evidence, and record decisions. Critique ends with changed understanding, decision, owner, or experiment—not a cloud of annotations."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: fraud warning",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: fraud warning?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A review comment says a warning “needs more red.” A decision-focused critique asks whether the account holder recognises the threat, understands the irreversible consequence, and can stop safely without habituation. Security may want urgency, content may want comprehension, and accessibility may reject colour-only meaning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The result could be hierarchy, language, timing, confirmation, or a changed transaction policy—not merely a shade."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Taste review: preference replaces intent and evidence. Design defence: the presenter explains away every observed ambiguity. Solution pile: suggestions arrive before the mechanism is understood. Authority bias: seniority converts opinion into fact. Late theatre: critique occurs after scope and implementation are fixed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Annotation without closure: comments have no decision, owner, or follow-up. Pleasant silence: psychological safety is confused with avoiding consequential disagreement."
+    },
+    {
+      "speaker": "host",
+      "act": "Structure the critique around claims",
+      "mood": "curious",
+      "text": "What changes when we look at structure the critique around claims?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feedback follows a chain: observation, effect on the user or system, principle or evidence, severity, and question or option. “The review looks busy” becomes “The protection of the original appointment competes with secondary clinic metadata, so a patient may submit without understanding the consequence.” The revised statement can be evaluated and acted upon."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The facilitator separates blocking risk, evidence need, design exploration, and optional refinement. Clinical, accessibility, content, technical, data, and operational expertise enter where their standards apply. Decision authority is named; the group need not pretend consensus when an accountable owner accepts or rejects a trade-off."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outputs include decisions, rationale, unresolved questions, owners, and next evidence. Repeated comments are analysed for a system problem rather than merely fixed screen by screen. Later review checks whether the change addressed the underlying issue. Critique complements customer and production evidence; it does not replace them."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: enterprise dashboard",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: enterprise dashboard?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Make it simpler” can mean fewer measures, clearer grouping, different audience scope, or a changed decision. A claim-based critique identifies which judgment is failing and protects necessary complexity from aesthetic preference."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners design critique as governance. They determine which decisions deserve recurring review, which disciplines must attend, how dissent is preserved, and when evidence rather than debate should settle disagreement. They make power visible: a junior designer should not have to defend research against an unexplained executive preference."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Critique quality is measured by better decisions and earlier risk discovery, not volume of comments. Review the system as well as the surface—data, policy, operations, accessibility, and downstream effects. If every critique ends in pixel edits, the organisation is using designers as production labour rather than design thinkers."
+    },
+    {
+      "speaker": "host",
+      "act": "Critique against intent, evidence, and consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at critique against intent, evidence, and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The facilitator separates blocking risks, open questions, and optional refinements; records decisions and owners; and protects dissent from hierarchy. Critique does not replace user research or specialist review. It improves the design team’s reasoning and chooses what needs evidence next."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a mobile checkout review. Instead of asking whether the screen “looks clean,” the critique names the customer task and design decision. Reviewers identify evidence, assumptions, competing options, and consequences. The team leaves with a decision, owner, and next test rather than a collection of taste-based comments."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Review one screen without using “like,” “clean,” or “intuitive.” Write three observations tied to a task, one causal interpretation, one consequence, and the evidence that would test it."
+    }
+  ]
+}

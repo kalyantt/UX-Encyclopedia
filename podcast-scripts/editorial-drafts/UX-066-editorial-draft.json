@@ -1,0 +1,180 @@
+{
+  "lesson": "UX-066",
+  "title": "Iterate and Validate",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Iterate and Validate. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Iteration means revising a design in response to evidence, then evaluating the revision. It is not endless polishing or a ritual cycle of stakeholder preference. Each iteration should contain a change hypothesis:"
+    },
+    {
+      "speaker": "host",
+      "act": "Iteration is controlled learning",
+      "mood": "curious",
+      "text": "What changes when we look at iteration is controlled learning?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Because we observed evidence, we believe changing mechanism for people and conditions will improve behaviour or outcome. We will look for success evidence, monitor possible harms, and reconsider if threshold or observation occurs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This format connects a change to an explanation. It also exposes when a team has only a solution. If the finding is that recommendation language creates unearned authority, changing corner radius has no causal relationship to the problem."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validation is bounded confidence that a claim holds under specified conditions. It is never a permanent approval stamp. Different evidence validates different layers:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "concept work can test whether a proposed service is understandable and valuable; usability studies can test task performance and interpretation; accessibility reviews can test conformance and use with assistive technology; technical experiments can test feasibility, latency, and reliability; pilots can test operations, demand, and cross-channel handoffs; production experiments and longitudinal measures can test real behaviour and durable outcomes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A positive result at one layer cannot be carried automatically to another. Six people understanding a prototype does not prove clinics can maintain its data or that completion will improve at population scale."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose the next iteration by risk",
+      "mood": "thinking",
+      "text": "What changes when we look at choose the next iteration by risk?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with the finding register from lesson 65. For each candidate response, state the mechanism, consequence if wrong, uncertainty, dependencies, and cheapest credible evaluation. Repair known standards violations directly; do not repeatedly test whether inaccessible controls inconvenience people. Prototype competing responses when the mechanism is uncertain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritise structural causes and critical blockers before surface symptoms. Limit simultaneous changes where causal learning matters, but do not demand artificial isolation when components form one inseparable experience. Maintain a change log that explains what changed and why."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before evaluation, predict:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "intended improvement; leading behavioural signal; user or service outcome; guardrail metrics and qualitative harms; boundary conditions; duration or sample needed for the claim; rollback or recovery plan."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Retest the altered task and adjacent paths. A clearer default can improve speed but reduce informed choice. A shorter form can increase completion by omitting information operations need later. Regression coverage should include critical states, content, devices, assistive technology, performance, privacy, and service handoffs."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: account deletion",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: account deletion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A product adds a confirmation dialog after accidental deletions. Fewer deletions may look successful, but the dialog may also obstruct intentional account closure. Validation must distinguish accidental from intended outcomes and guard against deceptive friction. A safer iteration could include a reversible grace period, durable confirmation, and restoration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The relevant outcome is control and recoverability, not simply a lower deletion rate."
+    },
+    {
+      "speaker": "host",
+      "act": "Decide when evidence is enough",
+      "mood": "thinking",
+      "text": "What changes when we look at decide when evidence is enough?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence is proportionate when residual uncertainty and consequence are acceptable for the next reversible step. A low-risk copy change may advance after a small study and monitoring. A medication, credit, identity, or safety decision needs domain assurance, inclusive evaluation, stronger technical evidence, and controlled rollout."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Stop iterating when the current question is answered well enough to make the next decision—not when every preference is satisfied. Continue monitoring because people, technologies, operations, and contexts change. Set explicit review triggers such as rising error rates, a policy change, new excluded populations, or data staleness."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Change pile: simultaneous edits erase causal learning. Approval mindset: one study becomes permanent sign-off. Local repair: one screen improves while another state or channel regresses. Metric substitution: a convenient click measure stands in for the actual outcome. No harm prediction: success is defined without guardrails."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validation mismatch: prototype comprehension is presented as market or operational proof. No outcome follow-up: observation stops at release."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior designers build learning into delivery. They negotiate decision thresholds with product, engineering, research, accessibility, operations, and domain owners before results arrive. They preserve failed experiments and residual uncertainty so organisations do not repeat mistakes or overclaim certainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Validation also has ethical limits. Do not expose people to avoidable harm merely to obtain clean causal evidence. Use staged releases, simulation, expert assurance, monitoring, and rollback according to consequence. Segment results to identify who benefits and who bears new friction; an average improvement can conceal exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a tax-filing service. A revised review screen reduces submission mistakes in a usability test, but participants now overlook an optional deduction. The team does not declare the iteration finished. It records what improved, what regressed, which people and conditions were tested, and what evidence would justify release or another round."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a recently changed feature. Infer the outcome the team probably expected. Identify one adjacent behaviour it could worsen and one production signal that would distinguish true improvement from abandonment or displaced workload."
+    }
+  ]
+}

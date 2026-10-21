@@ -1,0 +1,197 @@
+{
+  "lesson": "UX-178",
+  "title": "Exclusion Audits: Where Demands Exceed Capability",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Exclusion Audits: Where Demands Exceed Capability. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An exclusion audit makes the interaction between design demand and available capability visible across an end-to-end outcome. It examines sensory, motor, cognitive, linguistic, technical, financial, temporal, geographic, and social demands, plus the consequence of mismatch."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit exclusion as a chain of demands",
+      "mood": "curious",
+      "text": "What changes when we look at audit exclusion as a chain of demands?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not add estimated exclusion percentages mechanically across steps; the same people may encounter several barriers and conditions interact. Quantitative estimates can compare options or show scale when population and capability data are appropriate, but they cannot replace lived evidence or represent every intersection."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use three levels:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "component: can a control be perceived and operated? journey: can a person preserve understanding and progress across states, channels, and time? service system: can policy, staff, vendors, physical access, and support fulfil an equivalent outcome?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "At each level record not only inability, but extra effort, dependence, privacy loss, uncertainty, cost, and delayed recovery. “Completed with daughter’s help” is not independent success if the person did not choose that assistance."
+    },
+    {
+      "speaker": "host",
+      "act": "Build an exclusion register",
+      "mood": "thinking",
+      "text": "What changes when we look at build an exclusion register?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trace preparation, entry, authentication, primary task, waiting, fulfilment, exception, support, and recovery. For each demand record:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "legitimate purpose and whether it is necessary; conditions that intensify it; affected people and intersections; evidence and confidence; workaround, helper, and transferred burden; severity, duration, and reversibility of consequence; remove, reduce, support, alternative, or policy response; owner, dependency, due point, and verification; residual exclusion after action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritise through consequence, reach, recurrence, equity, and structural leverage. A component repair can remove barriers across many journeys; a policy change can remove the need for an inaccessible interaction entirely. Do not let implementation effort determine whether a right or essential service is provided."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validate alternative-route equivalence across availability, time, money, privacy, dignity, information, decision authority, and final outcome. A staffed phone line available two hours per week is not equivalent to a continuous digital route."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: public-benefit application",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: public-benefit application?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A claimant may individually manage identity proof, a long form, evidence upload, and deadline. Combined with low bandwidth, variable work, unfamiliar legal language, and fear of error, the journey becomes impossible. Reducing each screen’s friction is inadequate if policy still requires unavailable documents or support cannot decide exceptions."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Screen-bound audit: physical, human, policy, and vendor barriers disappear. Barrier arithmetic: overlapping estimates become false population precision. Completion-only evidence: coerced help and privacy loss count as success. Bottleneck migration: one demand falls while the next becomes dominant. Inferior fallback: the alternative has less authority, inventory, or quality."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Heat-map theatre: coloured cells replace owner, action, and verification."
+    },
+    {
+      "speaker": "host",
+      "act": "Convert mismatch into an owned intervention",
+      "mood": "curious",
+      "text": "What changes when we look at convert mismatch into an owned intervention?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The audit uses representative states rather than a perfect screen. Clinic comparison includes long content, unknown access data, map alternatives, zoom, keyboard, screen reader, and interruption. Transfer includes consequence, session expiry, network uncertainty, and assisted completion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each mismatch records affected conditions, consequence, existing workaround, evidence, severity, owner, dependency, and verification."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interventions can remove demand, provide an equivalent route, support adaptation, change policy or data, preserve state, add human assistance, or redesign the service. The team avoids mechanically counting estimated exclusion across steps because the same people face several barriers and conditions interact."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Priority follows access to the core outcome and consequence, not the easiest conformance fix."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The audit remains connected to production. Findings become acceptance criteria, design-system changes, service interventions, and monitoring. Temporary exceptions have mitigation and expiry. Disabled people help interpret and evaluate the system without being asked to represent everyone or repeatedly prove the same known barrier."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: identity verification",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: identity verification?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Requiring a sharp photo, precise head movement, recent document, private room, and stable connection creates interacting demands. An exclusion audit can lead to alternative evidence, assisted verification, resumable flow, and accountable review rather than a more encouraging camera animation."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners use exclusion audits to change roadmaps, contracts, service levels, and outcome definitions. They preserve critical cases even when population evidence is incomplete and publish residual exclusions honestly. The audit is repeated after change because capability, technology, policy, and the service ecosystem evolve."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit the mismatch at every step",
+      "mood": "thinking",
+      "text": "What changes when we look at audit the mismatch at every step?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The audit links every mismatch to evidence, affected conditions, existing alternative, severity, owner, and verification method. Teams prioritise by exclusion and consequence, not ease of fixing. The resulting backlog includes component repair, content change, alternative route, data improvement, service policy, and research at the edge."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a passport-renewal service. An audit follows the complete task and compares demands—reading, memory, fine motor control, document access, time, and travel—with varied capabilities and situations. A route may technically pass a screen-level accessibility check while still excluding someone who cannot obtain or upload the required file."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Follow a service beyond its digital “success” screen. What document, call, journey, payment, or human approval is still required? Identify who can complete the interface yet remain excluded from the outcome."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lesson": "UX-198",
+  "title": "MVP: The Smallest Ethical Test of Value",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about MVP: The Smallest Ethical Test of Value. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before choosing a format, state what must be learned. A useful contract contains five parts:"
+    },
+    {
+      "speaker": "host",
+      "act": "Begin with a learning contract",
+      "mood": "curious",
+      "text": "What changes when we look at begin with a learning contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Person and situation: who has the problem, in what context, and what progress are they trying to make? 2. Value hypothesis: what change do we believe our intervention will create for them? 3. Riskiest assumption: what would make the whole idea untrue, harmful, or commercially unworkable? 4."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence threshold: what observation would strengthen, weaken, or invalidate the hypothesis? 5. Non-negotiable boundaries: what must not be compromised while learning—safety, accessibility, privacy, informed consent, legal duties, trust, or recoverability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Without this contract, “MVP” becomes an argument for scope reduction rather than learning. A thin feature can produce a high click-through rate while teaching nothing about whether it solves a meaningful problem."
+    },
+    {
+      "speaker": "host",
+      "act": "Match the test to the uncertainty",
+      "mood": "thinking",
+      "text": "What changes when we look at match the test to the uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The smallest useful test depends on the question. Use a sketch, scenario, or interview when you need to learn whether a problem is real and important. Use a concept prototype when you need to learn whether the proposed value makes sense. Use a task prototype when you need to learn whether people can operate an interaction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a concierge or Wizard-of-Oz service when the experience requires human judgement but the automated system is not ready. Use a limited real release only when the value, usability, operational capacity, and safeguards are sufficiently understood."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The format is not a maturity ladder. A manual service may be the most honest way to learn whether people value a result before investing in automation. A high-fidelity prototype may be necessary when the risk lies in timing, trust, or complex interaction. The test is “minimum” only if removing more would make the evidence misleading."
+    },
+    {
+      "speaker": "host",
+      "act": "Viability includes quality boundaries",
+      "mood": "curious",
+      "text": "What changes when we look at viability includes quality boundaries?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The word viable has three dimensions. The experience must plausibly create value for a person; the organisation must be able to sustain or learn from it; and the intervention must be safe enough for the context in which it is offered. Accessibility, privacy, clear communication, and recovery are not enhancements to defer until scale."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They determine whether the evidence comes from a representative group and whether people can participate without unjustifiable burden."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For a financial-advice concept, an ethical early test might explicitly position the output as educational, keep the recommendation narrowly scoped, show uncertainty, provide a route to qualified help, avoid acting automatically on behalf of a customer, and recruit only people for whom that limited experience is appropriate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team should be able to explain what the system cannot do as clearly as what it can."
+    },
+    {
+      "speaker": "host",
+      "act": "Decide before the result arrives",
+      "mood": "thinking",
+      "text": "What changes when we look at decide before the result arrives?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Precommit to the decision logic. Write down what would lead to iteration, expansion, a different hypothesis, or withdrawal. Include guardrails as well as success signals. A test may meet its engagement target and still stop if it creates confusion, unequal access, excessive support demand, privacy concerns, or a consequence the team did not anticipate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This discipline prevents post-hoc storytelling. If the team only decides what counts after seeing a result, every outcome can be rationalised as progress. Lean learning works when a result can genuinely change the next action."
+    },
+    {
+      "speaker": "host",
+      "act": "Minimum scope must preserve the causal mechanism",
+      "mood": "curious",
+      "text": "What changes when we look at minimum scope must preserve the causal mechanism?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Remove features that do not affect the learning question, but retain the chain needed to produce the outcome. A prototype of a provider form can test comprehension; it cannot test whether routing reaches the correct owner or whether fresher information prevents patient failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A concierge can test service value, but manual expertise and response time must be included when interpreting scalability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Name what is real, simulated, omitted, and supported manually. Otherwise stakeholders compare pilot performance with a future system that lacks the very humans who made it work."
+    },
+    {
+      "speaker": "host",
+      "act": "Recruit and expose proportionately",
+      "mood": "thinking",
+      "text": "What changes when we look at recruit and expose proportionately?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An early test should involve people for whom the boundaries and fallback are appropriate. Do not target those with the least power to refuse simply because recruitment is easy. Use staged exposure, informed participation where research is involved, monitoring, stop authority, and support proportional to consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Some product releases are experiments on behaviour even when not labelled research. Ethical responsibility does not disappear because the feature is called beta. Clarify limitations without transferring risk to users through a blanket disclaimer."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: cash-flow guidance",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: cash-flow guidance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A small-business tool wants to test automated cash-flow recommendations. The smallest ethical test may be a reviewed educational scenario with historical or synthetic data, clear uncertainty, no automatic movement of funds, and access to a qualified route. A live lightly tested score with authoritative language is small in functionality but large in consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feature-minimum instead of evidence-minimum. The team removes functionality but keeps a test that cannot answer the important question."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Fake certainty. A prototype or manual service presents itself as a mature automated capability, so participants make decisions on a false basis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unprotected experimentation. The organisation learns by shifting the cost of uncertainty to people with fewer choices or less ability to recover."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric theatre. A vanity signal such as sign-ups is treated as proof of value while the intended outcome remains unmeasured."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No operational reality. A promising prototype is tested without the support, data, policy, or staffing conditions needed for a live service, then interpreted as launch readiness."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Manual magic. Concierge staff silently supply data, judgement, and recovery that the proposed scaled system will not have."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Beta disclaimer: an early label is used to shift responsibility for foreseeable harm onto participants."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unrepresentative convenience: only easy-to-serve users or partners are included, so feasibility and access look stronger than they are."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When someone says “we can fix that after launch,” ask who will carry the consequence before the fix exists. If the answer is the person using the product, the scope may be small but the experiment is not ethically small."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners protect the possibility of a negative result. They prevent roadmap or investor commitments from making every outcome look like validation, distinguish manual pilot capability from scalable capability, and require stop authority close to the observed harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They know that a smaller population does not justify lower integrity when individual consequence remains high."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team wants to offer instant cash-flow advice to small businesses. To move quickly, it calls a lightly tested scoring model an MVP, gives it authoritative language, and releases it to customers who use it to decide whether they can pay suppliers. The scope is small, but the consequence is not."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A feature can be minimum without being viable; it can be viable for the organisation while exposing customers to risk they cannot see. An MVP is not a synonym for an unfinished product. It is the smallest responsible intervention that can test a meaningful value hypothesis."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 197 connected discovery and delivery. This lesson chooses the next learning increment inside that rhythm. lesson 199 will distinguish the different questions an MVP can answer so that a usable interaction is not mistaken for a validated opportunity."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose one planned feature. Write the five-part learning contract. Then design two possible tests: the cheapest test and the smallest test that would produce valid, ethically acceptable evidence. Compare what each fails to reveal."
+    }
+  ]
+}

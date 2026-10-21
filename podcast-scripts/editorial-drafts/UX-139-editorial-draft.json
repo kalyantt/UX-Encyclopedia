@@ -1,0 +1,193 @@
+{
+  "lesson": "UX-139",
+  "title": "Voice Is Stable; Tone Responds",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Voice Is Stable; Tone Responds. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Voice is the durable character and point of view a product expresses. Tone is the situational adjustment of that voice. A respectful product can be warm in a welcome message, direct in a warning, calm in a failure, and precise in a legal commitment without becoming inconsistent."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tone follows the person’s context: stakes, emotion, urgency, knowledge, power, and consequence. It should never obscure action, minimise harm, or pretend a serious failure is charming. Define boundaries and examples for high-risk states—not only marketing moments—so teams can apply the voice consistently."
+    },
+    {
+      "speaker": "host",
+      "act": "Derive tone from the user’s situation",
+      "mood": "thinking",
+      "text": "What changes when we look at derive tone from the user’s situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Voice is the durable character of product communication; tone is how that voice responds to context. Tone should vary with consequence, emotion, urgency, certainty, and the relationship between organisation and user. A playful success style can become cruel during loss; an apologetic style can feel evasive when the person needs ownership and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tone is reviewed across a journey so separate teams do not produce emotional whiplash between app, SMS, email, and support. It is tested with people under realistic conditions and across cultures and translations. lesson 140 extends this responsibility to inclusive alternatives and reading order."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: delayed delivery",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: delayed delivery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A cheerful “Oops!” may be acceptable for a harmless preference reset but not when medication is delayed. The appropriate tone names the failure, current location if known, immediate alternatives, and accountable next step."
+    },
+    {
+      "speaker": "host",
+      "act": "Separate character from situation",
+      "mood": "thinking",
+      "text": "What changes when we look at separate character from situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Voice expresses durable principles such as clear, direct, respectful, or knowledgeable. Tone adapts those principles to context, emotion, urgency, consequence, and relationship. Define voice through observable language decisions and counterexamples rather than adjectives alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map tone across the journey: invitation, learning, routine action, waiting, success, error, rejection, harm, and recovery. A celebratory tone suitable for progress may be insulting after payment failure. Under stress, reduce personality and lead with status and action. Never use warmth to obscure policy or transfer blame."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test whether people understand and trust the message, not whether it “sounds on brand.” Include languages and cultures where humour, directness, formality, and idiom differ. Give writers patterns and decision criteria, then allow contextual judgement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Voice consistency should create recognisable values across channels; it should not force every staff member and error state into the same synthetic personality."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a tone system from communication jobs",
+      "mood": "curious",
+      "text": "What changes when we look at build a tone system from communication jobs?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cross-channel review follows one journey. A restrained in-product state can be undermined by an upbeat email subject or a support script that blames the clinic. Tone variants share the same service event and promise while adapting to privacy, space, and attention. Localisation review focuses on relationship and consequence, not literal preservation of English personality."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests accurate interpretation, emotional effect, willingness and ability to act, and trust over time. Preference alone cannot settle tone. A warmer message that makes responsibility less clear is not an improvement. Tone findings can reveal a deeper service problem when writers are repeatedly asked to reassure people without evidence or recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: security incident",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: security incident?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A playful brand voice must narrow during account compromise. The message identifies the event, protection already applied, customer actions, evidence, and support. Stable character is expressed through clarity and accountability rather than humour."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Brand consistency is not repeating the same personality everywhere. It is preserving a coherent relationship with people while responding appropriately to what is happening."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Voice expresses the product’s durable character; tone adjusts to consequence, confidence, urgency, and relationship. A calm support tone after an error may be right, but it must not soften or hide the action someone needs to take."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define voice principles through observable language choices, then give writers state-specific guidance for success, warning, error, waiting, enforcement, and sensitive moments."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tone over truth: friendliness obscures a material limitation or consequence. Brand everywhere: one playful voice is used in serious, risky, or distressing contexts. Unusable guidance: a voice chart gives adjectives but no examples or constraints. Channel drift: product, support, and transactional messages teach different personalities and commitments."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A banking product uses playful language in a payment-failure message: “Oops! Money hiccup.” The brand voice is recognisable, but the person needs seriousness, clarity, and a safe route forward."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tone test Write the same product voice in three situations: routine success, delayed processing, and irreversible loss. Keep the principles—clear, candid, respectful—while changing emotional intensity and information order. In research, ask what happened, how serious it is, and what action is available before asking how the message feels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If personality reduces any answer’s accuracy, tone is interfering with the task. lesson 138 made the meaning clear. lesson 139 ensures the manner of saying it fits the situation. lesson 140 extends that responsibility to diverse language, access, and reading needs."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Collect three messages from one product: welcome, error, and high-stakes confirmation. Identify the voice, tone shift, and one place where the tone conflicts with the user’s likely state."
+    }
+  ]
+}

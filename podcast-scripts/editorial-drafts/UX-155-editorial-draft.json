@@ -1,0 +1,209 @@
+{
+  "lesson": "UX-155",
+  "title": "Versioning, Exceptions, and Contribution at Scale",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Versioning, Exceptions, and Contribution at Scale. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Versioning and contribution make a system changeable without becoming unstable. Teams need a clear route to propose, review, test, document, release, migrate, and deprecate system decisions. Exceptions should be visible and intentional: they may be valid context-specific needs, or evidence that the system lacks a capability."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define decision rights, compatibility expectations, release communication, and migration support. Treat a change as a product event for system users. A good process makes the supported path easier than copying, forking, or silently overriding."
+    },
+    {
+      "speaker": "host",
+      "act": "Make evolution safe and exceptions informative",
+      "mood": "thinking",
+      "text": "What changes when we look at make evolution safe and exceptions informative?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Versioning communicates compatibility and change; exceptions preserve legitimate context; contribution brings distributed learning back into the system. These mechanisms must cooperate. If upgrading is risky, teams pin old versions. If exceptions are forbidden, teams fork privately. If contribution is slow or opaque, useful adaptations never return."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An exception record names unmet need, evidence, affected users, why existing patterns fail, local adaptation, risks, owner, expiry, and review signal. Similar exceptions can reveal a missing shared capability. Contribution routes scale review by consequence: documentation fixes move quickly; new behavioural contracts require cross-disciplinary evidence and real implementation."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: enterprise table",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: enterprise table?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Three teams independently add pinned columns. Instead of absorbing every variant, the system compares task, density, accessibility, and performance, pilots a coherent capability, and supplies migration. The exceptions become discovery evidence rather than permanent forks."
+    },
+    {
+      "speaker": "host",
+      "act": "Version according to consumer impact",
+      "mood": "thinking",
+      "text": "What changes when we look at version according to consumer impact?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Distinguish fixes, compatible additions, and breaking changes. A visually small alteration can be breaking when it changes layout, semantics, behaviour, content capacity, or accessibility. Publish release notes with rationale, affected consumers, examples, migration steps, and support horizon."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Deprecate before removal. Warn in tools and code, provide an alternative, measure remaining use, and work with high-risk products. Avoid permanent support for every historical choice, but do not transfer migration cost without planning."
+    },
+    {
+      "speaker": "host",
+      "act": "Govern exceptions as evidence",
+      "mood": "curious",
+      "text": "What changes when we look at govern exceptions as evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Require a short record: need, context, explored system options, consequence, expected lifespan, owner, and review date. Approve legitimate domain variation without forcing a generic component. Analyse repeated exceptions; they may reveal missing capability, poor documentation, adoption friction, or a product pattern ready for contribution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scale contribution with templates, tests, review criteria, maintainers, and decision times. Federated contributors need clear quality and ownership. Forks should have an intentional path to converge, remain local, or retire. The aim is coherent evolution, not zero variation."
+    },
+    {
+      "speaker": "host",
+      "act": "Operate the lifecycle of change",
+      "mood": "thinking",
+      "text": "What changes when we look at operate the lifecycle of change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Exceptions are registered with problem, evidence, affected users, unmet need, local adaptation, risk, owner, expiry, and review trigger. Similar exceptions become discovery input. Some reveal a missing shared capability; some are genuine domain rules; some are unsupported preference. Governance makes that distinction without forcing teams to fork secretly."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Contribution routes scale by consequence. Documentation and defect corrections move quickly; compatible enhancements require demonstrated reuse; new behavioural patterns require evidence and a real adoption partner; semantic breaking changes require cross-disciplinary review. The contributor sees decision and reason."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The system can retire as well as add, preventing permanent contradiction."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: complex tables",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: complex tables?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Several teams pin columns for different tasks. Comparing the exceptions reveals common constraints around identity, horizontal scanning, keyboard use, and narrow widths. A tested shared capability replaces forks, while unsupported one-off styling remains local or is rejected."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Track exceptions as research data. Repeated workarounds can reveal a missing pattern, a flawed API, or a governance process that is too costly to use."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Versioning makes shared change legible. Record what changed, why, who is affected, migration path, compatibility, and deprecation window. Treat exceptions as valuable evidence: a one-off may be justified by context; repeated exceptions can reveal that a component, token, pattern, or governance rule is incomplete."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A contribution process should ask for problem evidence, accessibility and content impact, implementation, documentation, tests, and maintenance ownership."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Silent breaking change: shared behaviour shifts without migration or notification. Exception shadow system: local forks proliferate without central learning. Contribution gatekeeping: process is so heavy that teams bypass it. Variant explosion: every local preference becomes a permanent option."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A product team needs a new alert state. They duplicate an old component because the contribution path is unclear. Months later, five variants exist and no one knows which is current."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A product forks the table component to support frozen columns and dense keyboard navigation. Review shows the need is common to expert tools but not simple lists. The product team contributes the capability with performance, accessibility, documentation, and a maintainer."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Existing consumers remain compatible while a new major version handles changed focus behaviour. The exception became evidence and then a governed extension, rather than a permanent invisible fork. lesson 154 established the system’s building blocks. lesson 155 governs their evolution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 156 ensures accessibility quality is built into that evolution rather than audited after it breaks."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Pick a component change. Sketch the contribution path from request to release, including evidence, review, documentation, migration, and rollback."
+    }
+  ]
+}

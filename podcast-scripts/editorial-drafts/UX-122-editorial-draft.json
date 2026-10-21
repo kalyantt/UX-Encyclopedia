@@ -1,0 +1,192 @@
+{
+  "lesson": "UX-122",
+  "title": "ResearchOps and UX Practice Operations",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about ResearchOps and UX Practice Operations. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "ResearchOps and UX practice operations are the people, processes, tools, and governance that make quality work repeatable. They include participant management, consent and data handling, recruiting, repositories, planning, templates, vendor support, method guidance, sharing, and quality standards."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build the smallest system that removes recurring friction without turning research into bureaucracy. Centralise what benefits from consistency—participant care, ethics, discoverability, terminology, and evidence traceability—while leaving teams room to choose methods appropriate to their decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure the operational system by better learning and better participant experience, not merely more studies completed."
+    },
+    {
+      "speaker": "host",
+      "act": "Measure quality and reuse, not throughput alone",
+      "mood": "thinking",
+      "text": "What changes when we look at measure quality and reuse, not throughput alone?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Operational measures include time to reach relevant participants, representation against sampling plans, accessibility accommodation, consent comprehension, burden, incidents, secure deletion, reused evidence with valid context, duplicated studies avoided, and decisions influenced. “Studies completed” can rise while quality collapses."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The evidence repository preserves contradiction and expiry. Search results show the population, date, method, and decision boundary so old findings cannot become timeless facts. When a policy or product model changes, dependent claims are flagged for review."
+    },
+    {
+      "speaker": "host",
+      "act": "Build infrastructure that improves ethics and learning speed",
+      "mood": "curious",
+      "text": "What changes when we look at build infrastructure that improves ethics and learning speed?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Standardisation targets repeated administrative risk, not method judgment. Intake connects work to a decision; repository metadata records method, population, date, consent, and reuse limits; governance defines access and retention. Health metrics include recruitment equity, lead time, participant burden, evidence reuse, and decision impact—not only study volume."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Bureaucratic gate: central review blocks low-risk learning without improving safety. Template democracy: access to a script is treated as research competence. Repository graveyard: material is searchable but stripped of decision and validity. Throughput optimisation: more sessions increase burden and weak evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Invisible participant journey: internal efficiency improves while consent, access, payment, or withdrawal worsens."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the infrastructure for responsible scale",
+      "mood": "curious",
+      "text": "What changes when we look at build the infrastructure for responsible scale?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "ResearchOps coordinates participant recruitment, consent, privacy, incentives, scheduling, tools, data handling, repository, vendors, accessibility, and governance. Practice operations also supports staffing, methods, templates, quality, intake, prioritisation, and how evidence reaches decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map the end-to-end researcher and participant journey. Standardise high-risk repeatable work while preserving methodological judgement. Create approved tools and retention rules, accessible participant materials, screening quality, incident paths, and a source-traceable repository with permissions and expiry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Govern democratised research proportionally. Lightweight customer contact can broaden learning, but sensitive topics, vulnerable populations, high consequence, and complex methods require specialist leadership. Provide training, coaching, review triggers, and clear boundaries rather than unmonitored templates."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure time and equity of recruitment, participant burden, consent quality, data risk, repository reuse, duplicated studies, method support, and influence on decisions. Operations should increase research quality and reach—not merely throughput."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the operating model end to end",
+      "mood": "thinking",
+      "text": "What changes when we look at design the operating model end to end?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Research operations begins with demand. An intake should identify the decision, intended participants, sensitivity, deadline, and evidence already available. It routes requests to self-service, consultation, a full study, or a different discipline. This prevents the central research team becoming a queue for questions that are unclear or already answered."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The repository is designed for retrieval and responsible reuse. Every study records decision, question, method, population, context, date, source material, claims, confidence, reuse permission, and owner. A finding about patients who completed a digital transfer cannot silently be reused as evidence about people excluded before entry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Search and AI assistance respect permission and expose provenance instead of producing source-free summaries."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Enablement includes research planning, interviewing, observation, synthesis, ethics, accessibility, and evidence communication. Templates provide prompts and guardrails but do not turn an untrained facilitator into a specialist for high-risk work. Office hours, review, and communities of practice create a route to judgment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The operating model is measured through time to decision-quality evidence, sample inclusion, participant burden, recontact rate, repository usefulness, privacy incidents, and whether findings changed decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: distributed product teams",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: distributed product teams?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A company gives every product manager an interview script and calls research democratised. Teams recruit the same convenient customers, store recordings in personal drives, and publish incompatible findings. ResearchOps solves the system: common consent and storage, participant coordination, training, review proportional to risk, and a shared evidence model."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It enables more responsible research rather than merely more sessions."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Operations should reduce administrative and ethical risk without standardising away methodological judgment. Measure whether infrastructure improves representation, evidence quality, reuse, and decision speed—not how many studies pass through it."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Three teams recruit the same customers, store consent in different places, repeat the same studies, and cannot find prior evidence when a decision reopens. The problem is not lack of research skill. It is lack of an operating system for learning."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Trace what must happen before one interview can begin and after its recording is no longer needed. Find the step where participant burden or privacy depends on an informal habit."
+    }
+  ]
+}

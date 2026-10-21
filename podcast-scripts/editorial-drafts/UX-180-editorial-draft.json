@@ -1,0 +1,207 @@
+{
+  "lesson": "UX-180",
+  "title": "User-Centred, Universal, Participatory, and Inclusive Design",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about User-Centred, Universal, Participatory, and Inclusive Design. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "User-centred design (UCD) grounds iterative design in users’ goals, tasks, contexts, requirements, and evaluation. It asks whether a system fits use rather than internal assumptions. A team can be user-centred yet still recruit a narrow population or retain all decision power."
+    },
+    {
+      "speaker": "host",
+      "act": "Four related but distinct traditions",
+      "mood": "curious",
+      "text": "What changes when we look at four related but distinct traditions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Universal design seeks products and environments usable by the widest range of people, as far as possible without adaptation or specialised design. It challenges unnecessary special routes and values flexibility, perceptible information, tolerance for error, and low effort. “Universal” is an aspiration, not proof that one configuration serves every need."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Participatory design involves people affected by a system in design activity and influence. It recognises that people are experts in their own work and lives and that design redistributes power. Participation ranges in depth; presence does not guarantee authority or representation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inclusive design explicitly examines human diversity, mismatch, design exclusion, and the people at the edges of assumptions. It aims to improve mainstream design while acknowledging where specific accommodations or equivalent routes remain necessary."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility standards add a testable technical baseline. Disability justice, equity, and domain ethics add rights, structural analysis, and accountability not exhausted by usability or conformance."
+    },
+    {
+      "speaker": "host",
+      "act": "Combine approaches by decision",
+      "mood": "thinking",
+      "text": "What changes when we look at combine approaches by decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a matrix with decision, needed knowledge, affected people, influence, technical requirement, evaluation, and residual exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use UCD to understand context, model tasks, iterate, and evaluate. Use inclusive design to identify demands, edge conditions, and exclusions. Use participatory design when lived expertise and power should shape framing, rules, or selection. Use universal principles to reduce unnecessary specialisation and support flexibility in the core."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use standards and platform guidance to specify and verify implementation. Provide specific adaptations where broad design cannot meet an important need."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No approach grants permission to ignore the others. Co-designed software can be technically inaccessible. A conformant flow can embody an unjust policy. A broadly usable mainstream route can still require sign-language, easy-read, or human support options."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: public benefits",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: public benefits?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "UCD reveals claimant goals and administrative tasks. Inclusive research surfaces stress, evidence, language, device, and time demands. Participatory work lets claimants and advisers challenge policy and communication. Universal design reduces unnecessary special routes. Accessibility standards shape implementation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "None alone decides whether eligibility policy itself is equitable."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate both process and outcome",
+      "mood": "thinking",
+      "text": "What changes when we look at evaluate both process and outcome?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask whether people reach equivalent results, burdens decrease rather than move, adaptations remain available, and participation changes decisions. Evaluate the quality of participation: access, compensation, influence, feedback, and dissent. Evaluate technical conformance and real task performance separately. Record who remains underserved."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Label blending: distinct traditions become generic “human-centredness.” User-research proof: a few sessions are presented as inclusion. Universal overclaim: broad benefit erases specific needs. Participation theatre: contributors have no decision influence. Conformance substitution: technical success excuses policy or service exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Mainstream-only ideology: specific accommodations are treated as design failure rather than necessary equity."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose and combine the commitments explicitly",
+      "mood": "thinking",
+      "text": "What changes when we look at choose and combine the commitments explicitly?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The core transfer interaction follows robust universal principles: perceivable state, operable controls, understandable consequence, and resilient implementation. User research tests real tasks and context. Participatory work gives patients and staff influence over recovery and burden distribution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Inclusive edge research challenges assumptions around language, disability, delegated help, privacy, and connectivity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "One flexible route is preferred when it can serve diverse needs without compromise. Personalisation can support language, density, or notification preference when choice remains available and private. An equivalent route is necessary when the main medium cannot responsibly support a need."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Assisted service is not a neglected fallback; it shares state, outcome standards, and governance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team records who participated, what power they had, what evidence informed the decision, which groups remain absent, and who holds final accountability. Broad access claims require real evaluation. No framework removes trade-offs or transfers responsibility to participants."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: public voting information",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: public voting information?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research can improve comprehension, universal principles support broad access, participatory work includes affected communities, and inclusive design exposes language, literacy, disability, safety, and connectivity barriers. The service may still need digital, paper, telephone, and in-person routes."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners choose approaches based on decision, power, and risk—not fashion. They protect specialist disability expertise while building shared organisational capability. They write claims narrowly enough to be true and establish governance that survives beyond one inclusive-design champion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a municipal payment service. A user-centred team studies task goals; universal design seeks broad usability; inclusive design examines exclusion and variation; participatory design gives affected people influence over choices. These approaches overlap but make different commitments."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The service combines them by testing diverse contexts and sharing decision power over the most consequential rules."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a product described as universal, inclusive, accessible, participatory, or user-centred. What evidence would substantiate that exact word? Notice which responsibilities the label leaves unproven."
+    }
+  ]
+}

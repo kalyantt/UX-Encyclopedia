@@ -1,0 +1,197 @@
+{
+  "lesson": "UX-052",
+  "title": "Start With a Pilot",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Start With a Pilot. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start a design system with a focused pilot: a repeated problem, motivated product partners, measurable quality or efficiency benefit, and enough variation to teach the team what the system must support. A pilot creates evidence, vocabulary, and credibility before broad standardisation."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the problem, users of the system, success measures, contribution expectations, and boundaries. Deliver a usable slice, observe adoption, learn from exceptions, and expand only when the foundations are trustworthy."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the pilot as an experiment",
+      "mood": "thinking",
+      "text": "What changes when we look at design the pilot as an experiment?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A pilot is not a miniature launch or a showcase. It is a bounded test of the system’s value proposition and operating model. Its scope needs enough repetition to justify reuse, enough variation to reveal weak abstractions, an active product need, and partners willing to work in the open."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The easiest screen often teaches little; the largest migration makes it impossible to know why the effort succeeded or failed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The work proceeds in short loops. The system and product teams model states together, build one vertical slice, test it in design and production, observe real integration, and record every exception. Exceptions are evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A repeated exception may expose a missing capability; a unique policy may need a documented local extension; a preference may be rejected; and a confusing exception may reveal that the shared model is wrong. Each decision enters a log with owner and revisit condition."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "At the end, the team does not ask whether the components look polished. It compares outcomes with baseline, reviews the cost of maintenance and migration, and decides among expand, revise, narrow, or stop. Expansion includes an adoption partner, documentation, release route, support capacity, and a next pilot chosen to test a different source of variation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This prevents one successful context from being mistaken for universal validity."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: pilot selection in commerce",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: pilot selection in commerce?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A product team could pilot a design system on a static campaign page and report fast delivery. A checkout-address flow is a stronger learning environment: it contains structured content, validation, responsive behaviour, localisation, accessibility, analytics, and costly errors. The second pilot is harder, but it tests the capabilities the system claims to provide."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose a learning-rich pilot",
+      "mood": "thinking",
+      "text": "What changes when we look at choose a learning-rich pilot?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Select a product area with real repetition, engaged partners, manageable scope, and enough complexity to test the proposed system. Avoid the easiest page if it cannot reveal responsive, accessibility, content, state, and contribution needs. Define adoption and customer-quality outcomes before starting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build with the product team, not for them. Observe where assets, code, naming, documentation, and workflow diverge. Record exceptions and decide whether each reveals a missing reusable need, a domain requirement, or unjustified variation. The pilot tests the system’s operating model as much as its components."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "After release, measure implementation effort, defects, accessibility, consistency, support demand, and team confidence. Refine governance and contribution before scaling. A polished library without proven adoption and maintenance is a catalogue, not a system."
+    },
+    {
+      "speaker": "host",
+      "act": "Use the pilot to test the operating model",
+      "mood": "curious",
+      "text": "What changes when we look at use the pilot to test the operating model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The pilot includes tokens, a status pattern, code, content guidance, tests, migration support, and a contribution loop. One product team implements it in a live journey while the system team observes friction. Exceptions are not treated as disobedience; they reveal missing states, unclear documentation, integration cost, or a boundary the shared pattern should not cross."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not choose a pilot solely because it is easy. Choose one with repeated pain and visible value, while keeping scope small enough to learn quickly."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose a pilot where repetition and variation are both present. A single static page will not reveal component boundaries; an entire product migration will overwhelm learning. Define users of the system, current pain, scope, excluded areas, contribution model, success measures, and review path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Work with a product team that has a real delivery need so the pilot is tested in design, code, content, accessibility, and operational use."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observe where the pilot strains. Exceptions may reveal that a component is too narrow, a pattern lacks guidance, foundations are inconsistent, or the underlying product problem should not be standardised. Measure time-to-use, defects, accessibility quality, duplication, confidence, and customer outcomes where possible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the evidence to decide whether to extend, revise, or stop rather than treating the first component set as a platform commitment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Showcase pilot: work is selected for presentation value rather than repeated product need. Big-bang migration: teams wait for completeness before receiving any value or feedback. No adoption partner: a central team builds in isolation from delivery constraints. Pilot success claim: a fast demo is mistaken for evidence of maintainable system value."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A company tries to rebuild every component across every product at once. Adoption stalls because the system has no proven value, no clear scope, and no team that can learn from a contained result."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Components and content create potential. A pilot turns that potential into practice. lesson 53 defines who owns the decisions and contributions that follow."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose one repeated UI problem that would make a good design-system pilot. State the evidence of pain and the measure of improvement."
+    }
+  ]
+}

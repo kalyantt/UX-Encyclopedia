@@ -1,0 +1,176 @@
+{
+  "lesson": "UX-059",
+  "title": "Co-creation and Facilitation",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Co-creation and Facilitation. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Co-creation brings people with different forms of expertise into the design process: customers, frontline staff, operations, subject experts, engineers, and leaders. Facilitation creates the conditions for them to contribute, disagree productively, and make evidence visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose participants deliberately, provide accessible materials, state the purpose and decision boundary, and distinguish brainstorming from commitment. Inclusion is not inviting everyone into a room; it is ensuring relevant perspectives can shape the work."
+    },
+    {
+      "speaker": "host",
+      "act": "Design participation as carefully as the workshop",
+      "mood": "thinking",
+      "text": "What changes when we look at design participation as carefully as the workshop?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The session separates four modes. First, participants inspect shared evidence and correct the current-state model. Second, individuals map failures privately so hierarchy cannot set the opening frame. Third, mixed groups generate and rehearse alternatives."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Fourth, options are assessed against visible criteria: patient progress, safety, equity, capacity, feasibility, privacy, and recoverability. Voting can surface preference, but it does not settle a trade-off whose consequences fall unevenly."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: redesigning school enrolment",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: redesigning school enrolment?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Parents, administrators, teachers, accessibility specialists, and policy staff each hold a different part of enrolment. A productive workshop lets families expose evidence and timing burdens, staff explain exception work, and policy owners distinguish fixed rules from inherited habit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "It does not ask parents to design a form or pretend a majority vote can override safeguarding duties."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the participation",
+      "mood": "thinking",
+      "text": "What changes when we look at design the participation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "State the decision participants can influence, the evidence they bring, and what remains outside the session. Invite people across customer, frontline, operational, policy, technical, and partner perspectives without pretending unequal power disappears in a workshop. Make participation accessible and compensate lived expertise where appropriate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use individual reflection, structured sharing, mapping, scenario critique, and prioritisation tied to criteria. Prevent dominant voices from setting the frame; separate idea generation from evaluation. Surface disagreements and assumptions rather than forcing cheerful consensus."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Close with decisions, open questions, owners, and how outputs will be used. Return outcomes to participants. Facilitation is ethical when people understand why they are involved and can see their contribution influence work—not when sticky notes are extracted to legitimise a predetermined plan."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Workshops can reproduce hierarchy. Use facilitation methods that make quieter, distributed, or less powerful knowledge visible rather than rewarding the loudest participant."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Co-creation is useful when no single participant holds the whole picture. Customers bring lived context; frontline staff know workarounds and failure patterns; operations understand constraints; engineers understand technical possibilities; leaders hold strategic and policy choices."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Design the session around a defined question and decision boundary, then choose activities that let each form of expertise become visible without requiring people to perform design fluency."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Facilitation manages power as well as time. Provide accessible materials, clear language, pre-work where appropriate, individual reflection before group discussion, and multiple ways to contribute. Separate evidence sharing, idea generation, critique, and commitment so the loudest or most senior person does not convert a workshop into a disguised approval meeting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Capture dissent and unresolved questions, not only consensus."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Participation theatre: affected people are invited after the important decision is fixed. Status dominance: seniority or fluency determines the output rather than relevant experience. Workshop-as-decision: brainstorming is mistaken for evidence or a committed roadmap. Inaccessible format: language, timing, materials, or tools exclude the people needed."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Designers map a service without frontline staff. The map looks coherent but misses the workaround that staff use every day to protect customers from a policy gap."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example In an appointment workshop, residents map constraints and recovery, staff map policy and capacity, and technologists map system limits. Each group first works separately, then compares a shared scenario. The facilitator records conflicts rather than averaging them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Participants agree on principles and experiments, while a named service owner retains accountability for the final trade-off. The session changes the decision boundary instead of producing a wall of unactioned ideas. Blueprints reveal dependencies. Co-creation brings the knowledge needed to change them. lesson 60 tests the whole service before committing to a launch."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Notice whose perspective is absent from a product decision you know about. What risk does that absence create?"
+    }
+  ]
+}

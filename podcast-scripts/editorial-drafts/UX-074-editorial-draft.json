@@ -1,0 +1,191 @@
+{
+  "lesson": "UX-074",
+  "title": "Capability Demands and Exclusion",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Capability Demands and Exclusion. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every designed activity makes demands. Sensory demands concern seeing, hearing, or distinguishing information. Motor demands include reach, precision, strength, speech, and timed action. Cognitive demands include attention, memory, language, reading, planning, and interpreting uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Technical and social demands include a compatible device, data, identity, money, privacy, transport, and support."
+    },
+    {
+      "speaker": "host",
+      "act": "Exclusion is a demand–capability mismatch",
+      "mood": "curious",
+      "text": "What changes when we look at exclusion is a demand–capability mismatch?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Available capability varies with the person and situation. Exclusion occurs when the combined demand exceeds it. The same tiny target can exclude a person with tremor, someone on a moving bus, or a clinician wearing gloves."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This model does not erase disability or structural discrimination; it locates actionable responsibility in the design and service rather than blaming a body."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consequences differ. A barrier may cause extra effort, error, dependence, loss of privacy, money, delay, abandonment, or denial of care. Demand analysis must therefore be tied to task criticality and harm."
+    },
+    {
+      "speaker": "host",
+      "act": "Conduct an exclusion audit",
+      "mood": "thinking",
+      "text": "What changes when we look at conduct an exclusion audit?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trace a real journey, including entry, authentication, decision, waiting, error, recovery, and fulfilment. For each step record:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "intended progress; sensory, motor, cognitive, linguistic, technical, financial, temporal, and social demands; conditions that intensify them; people likely to be affected; workaround and who supplies it; consequence when unmet; current evidence and confidence; response, owner, and verification."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Respond in a useful order:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Remove demands without legitimate purpose. 2. Reduce necessary demand through clearer structure, tolerant interaction, or safe automation. 3. Support capability through guidance, extra time, preserved state, and compatible technology. 4. Offer equivalent alternatives when one route cannot serve the full range. 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Change policy or operations where the interface only exposes a structural barrier."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not calculate a population percentage as if it proves inclusion. Estimates can compare designs, but severe exclusion, intersectional effects, and non-market harms require qualitative and distributional judgement."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: payment approval",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: payment approval?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A bank asks a customer to memorise transaction details, switch to another app, approve within thirty seconds, then return without visible state. Reducing font complexity does not solve task switching, memory, time, and context loss. A better system carries transaction identity across channels, supports assistive technology, allows appropriate time, and confirms state durably."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capability blame: people are described as unable instead of the demand being questioned. Checklist substitution: individual controls pass while the complete task remains impossible. Demand displacement: automation removes work from one actor and adds it invisibly to another. Alternative in name only: fallback is slower, more expensive, or cannot reach the same outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Population averaging: a small group’s severe harm disappears in aggregate reach. Audit without authority: barriers have no owner, deadline, or verification."
+    },
+    {
+      "speaker": "host",
+      "act": "Measure the demand created by the design",
+      "mood": "curious",
+      "text": "What changes when we look at measure the demand created by the design?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each demand, he asks whether it is necessary, adjustable, redundant, or removable. Persistent comparison reduces memory demand. Text plus structure reduces dependence on colour or spatial position. Save-and-resume reduces time and attention demand."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A supported phone route may provide an alternative, but it does not excuse an inaccessible primary path if it creates delay or loss of privacy."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Demand analysis connects design to service policy. Senior practitioners challenge security, fraud, clinical, and legal demands presented as inevitable; the underlying objective may be legitimate while the chosen human burden is not. They use design-system and procurement leverage to remove recurring demands across products and track residual exclusion explicitly."
+    },
+    {
+      "speaker": "host",
+      "act": "Match task demands to varied capability and context",
+      "mood": "curious",
+      "text": "What changes when we look at match task demands to varied capability and context?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Clinic comparison demands reading, differentiating attributes, holding options in memory, and precise activation. The team reduces unnecessary memory, provides structured alternatives to maps, supports zoom and assistive technology, enlarges targets, avoids time pressure, and preserves work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It tests combinations because a low-vision user under stress on a poor connection faces interacting demands."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a medication-refill request. The flow demands precise reading, memory of an unfamiliar medicine name, and rapid typing before a timeout. An exclusion audit compares those demands with varied capabilities and circumstances."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The repair might include saved progress, clear identification, more time, and assisted completion—not a label saying the user should be more careful."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a task described as “just” doing something—just scan, remember, call, drag, or wait. Decompose the hidden capabilities and resources. Which demand has no necessary relationship to the intended outcome?"
+    }
+  ]
+}

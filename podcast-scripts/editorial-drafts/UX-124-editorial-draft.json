@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-124",
+  "title": "Triangulate Evidence, Do Not Average It Away",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Triangulate Evidence, Do Not Average It Away. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triangulation compares evidence across methods, populations, times, and sources. Agreement can strengthen confidence; disagreement can reveal a segment, an instrumentation flaw, a changing context, or a wrong question. The goal is not to average all evidence into one claim—it is to understand the difference."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Match evidence to claim. Analytics can locate patterns; interviews can explain a recent experience; observation can reveal context; experiments can estimate a comparative effect. State the limits, then choose the next evidence that can reduce the relevant uncertainty."
+    },
+    {
+      "speaker": "host",
+      "act": "Use disagreement to refine the model",
+      "mood": "thinking",
+      "text": "What changes when we look at use disagreement to refine the model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team builds a claim table with what each source can observe, its limitations, and whether it supports, qualifies, or contradicts the explanation. Disagreement can expose measurement error, selection, timing, or genuine variation. The output is a stronger bounded claim and a next evidence need, not a synthetic confidence score."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare what each source can know",
+      "mood": "curious",
+      "text": "What changes when we look at compare what each source can know?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For each source, record population, time, context, method, construct, strength, and limitation. Analytics may show where behaviour changes; interviews explain meaning and strategy; support reveals articulated failure; observation reveals workarounds; experiments estimate a particular causal effect. They are not interchangeable votes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Build a convergence table around claims. Mark agreement, complement, tension, and missing evidence. When sources conflict, investigate definition, selection, timing, measurement, or genuine segment difference. A survey saying people value privacy and behaviour showing broad sharing may reflect context and trade-offs rather than dishonesty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Weight evidence by fitness for the decision and consequence of error. Do not let a large weak dataset automatically overpower smaller direct evidence. State the resulting claim, confidence, counterevidence, and next discriminating question."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Triangulation produces a more bounded model. Its value is not certainty but fewer hidden assumptions and clearer reasons for action."
+    },
+    {
+      "speaker": "host",
+      "act": "Reconcile claims at the level they actually address",
+      "mood": "thinking",
+      "text": "What changes when we look at reconcile claims at the level they actually address?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team separates existence, mechanism, prevalence, and effect. Observation may show that a handoff loses context; interviews explain the patient’s response; logs estimate how often the event is recorded; an experiment tests a particular recovery. Evidence can converge on one part of the model and diverge on another."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A survey reporting high confidence does not negate behaviour showing repeated checking; it suggests the construct or context needs examination."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When sources disagree, the team generates explanations: selection, instrumentation, recall, timing, policy variation, or a real subgroup difference. It chooses the smallest additional evidence that can discriminate among them. The final synthesis states which claim is strengthened, qualified, segmented, or still unresolved."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Uncertainty is carried into the decision as a guardrail or test rather than hidden in an averaged confidence score."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription cancellation",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: subscription cancellation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analytics show most users finish cancellation quickly, while interviews describe obstruction. The instrument may begin only after people find the hidden route. Search logs, navigation paths, and research with people who failed before entry reconcile the denominator and reveal where the experience breaks."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When sources conflict, resist declaring a winner before checking definitions, samples, timing, and what each source actually measured."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triangulation does not mean every source must reach the same conclusion. Treat disagreement as diagnostic. An interview may reveal a barrier that telemetry cannot observe; a funnel may show scale without explaining intent; support data may expose failures that study participants did not encounter."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare scope, collection conditions, measurement quality, and likely blind spots before deciding whether evidence is genuinely contradictory or simply answering different questions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "False averaging: conflicting evidence is blended until its meaning disappears. Method hierarchy: quantitative data is treated as automatically more authoritative than contextual evidence. Scope mismatch: sources are compared as if they represented the same people and conditions. Confirmation triangulation: only evidence that supports the preferred narrative is included."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a digital bank. Analytics shows a spike in transfer retries, interviews reveal fear of duplicate charges, and support logs identify a status delay. These are different kinds of evidence about the same journey. A synthesis explains where they align and where they do not, then proposes a test of clearer state and safer retry behaviour."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 123 preserved the path from notes to themes. lesson 124 judges how much confidence a conclusion deserves. lesson 125 chooses stories that communicate that evidence without exaggerating it."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take one product claim and list one qualitative, quantitative, operational, and experimental source that could support or challenge it."
+    }
+  ]
+}

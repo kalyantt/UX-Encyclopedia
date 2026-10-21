@@ -1,0 +1,193 @@
+{
+  "lesson": "UX-172",
+  "title": "Funnels, Cohorts, Retention, and Conversion",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Funnels, Cohorts, Retention, and Conversion. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A funnel summarises movement through defined states or events. Specify the eligible population, entry event, required or optional steps, ordering rules, window, repeated attempts, and denominator at each transition."
+    },
+    {
+      "speaker": "host",
+      "act": "Funnels describe transitions, not inevitable journeys",
+      "mood": "curious",
+      "text": "What changes when we look at funnels describe transitions, not inevitable journeys?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Real journeys branch, loop, pause, switch channel, and recover. A strict linear funnel may classify a patient who calls a navigator as “drop-off” even though the service succeeded. State-transition analysis often represents services better: from referred to information needed, pending, accepted, rerouted, confirmed, attended, or unresolved."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A drop-off is a location, not a diagnosis. It may indicate confusion, healthy self-selection, ineligibility, interruption, delayed intent, offline completion, data loss, or deliberate refusal. Pair patterns with research and operational evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Cohorts preserve time and context",
+      "mood": "thinking",
+      "text": "What changes when we look at cohorts preserve time and context?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Aggregates mix people exposed to different versions, campaigns, policies, and service conditions. Cohorts group units by a meaningful shared starting point or characteristic—first referral week, product version, clinic, referral type, or first value event—and compare trajectories on equal time since entry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use mature cohorts for fair comparison. A referral created yesterday has not had fourteen days to resolve. Avoid survivorship bias: cohorts limited to people who reached activation exclude those the product failed before measurement began."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cohorts can reveal whether an apparent improvement comes from new mix rather than better experience. They do not create causality; cohort membership may still be confounded."
+    },
+    {
+      "speaker": "host",
+      "act": "Retention and conversion need value definitions",
+      "mood": "curious",
+      "text": "What changes when we look at retention and conversion need value definitions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Retention means returning to or sustaining a value-producing relationship at an appropriate cadence. Daily activity suits some communication products, not annual tax filing or episodic care. For a referral service, “retention” may be the wrong success concept; complete resolution and safe return for later care may matter more than habitual use."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Conversion is movement from an eligible state to another meaningful state within a defined window. Qualification matters. A purchase followed immediately by refund is not equivalent to durable value. A reservation rejected by the clinic is not a confirmed appointment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Choose calendar, rolling, or bounded windows deliberately. Report absolute counts with rates, because a stable percentage can conceal shrinking reach. Show uncertainty where sample sizes are small."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription conversion",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: subscription conversion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A redesigned trial raises paid conversion. Later cohorts show lower renewal and higher refund, especially from one acquisition campaign. The initial funnel result was correct for its horizon and misleading as a value claim. Cohorts connect entry source, offer comprehension, cancellation, and retained satisfied use."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Linear fiction: branches and recovery are counted as abandonment. Denominator drift: eligibility changes between versions or periods. Immature cohorts: groups have unequal time to produce outcomes. Activity retention: forced repetition is labelled recurring value. Conversion without quality: refund, rejection, or regret is ignored."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Survivor view: only activated users appear in analysis. Chart diagnosis: a bend in a curve is treated as an explanation."
+    },
+    {
+      "speaker": "host",
+      "act": "Model eligibility, exposure, and time",
+      "mood": "thinking",
+      "text": "What changes when we look at model eligibility, exposure, and time?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A funnel is not always linear. Patients may compare, seek help, return, revise, or change channel. The analysis can use state transitions, paths, and time-to-event rather than forcing one sequence. Drop-off may represent successful self-selection, exclusion, confusion, or changed need; product analytics alone rarely establishes which."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Cohorts share a starting event or condition and are followed consistently. Clinic operating model, referral complexity, access route, and start period may reveal different mechanisms. Retention is used only when recurring use represents value."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In healthcare, a person who completes care and leaves can be a success; repeated status checking may indicate uncertainty rather than engagement."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription trial",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: subscription trial?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trial-to-paid conversion needs eligibility, exposure, acquisition source, billing period, cancellation, refund, and later value. Comparing weekly sign-up cohorts without these conditions can turn campaign mix into a false product conclusion."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners choose representations that match the service. They resist standard SaaS retention dashboards for episodic products and insist that transitions include offline fulfilment, recovery, and non-digital routes. They audit identity and privacy: linking health journeys over time increases analytical value and data risk. Retain only what the decision justifies."
+    },
+    {
+      "speaker": "host",
+      "act": "Define meaningful stages and comparable groups",
+      "mood": "curious",
+      "text": "What changes when we look at define meaningful stages and comparable groups?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Cohorts group people by start period or relevant condition and follow outcomes over time. “Retention” means recurring value only where continued use is desirable; healthcare success may mean completing care and leaving. Conversion is interpreted with quality and equity guardrails rather than maximised blindly."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a fitness service. A funnel shows where registration stops; a cohort shows whether people who joined in March still use the service in April. Retention depends on who had a real need and what “use” means. Segment and define the denominator before interpreting a change as design success or failure."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a funnel chart. Ask whether each exit is failure, whether steps can be skipped or repeated, and whether later quality is visible. Redraw it as states if the journey is not truly linear."
+    }
+  ]
+}

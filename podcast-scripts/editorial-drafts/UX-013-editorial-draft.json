@@ -1,0 +1,134 @@
+{
+  "lesson": "UX-013",
+  "title": "Goals, Tasks, and Actions",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Goals, Tasks, and Actions. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Goals are desired outcomes. Tasks are organised activities undertaken to reach those outcomes. Actions are the individual operations a person performs in a particular interface. Confusing these levels creates feature-led design: a team optimises a click while losing the person’s actual purpose."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task analysis makes the work visible. Identify the trigger, subgoals, information needed, sequence, decision points, exceptions, handoffs, and completion evidence. Then distinguish what the person must do from what the system has accidentally made them do. A good design removes unnecessary actions without removing the information, control, or recovery needed for a safe outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Trace the hierarchy and breakdown",
+      "mood": "thinking",
+      "text": "What changes when we look at trace the hierarchy and breakdown?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Separate the person’s goal from tasks the situation requires and actions the interface enables. One goal can support several task strategies; forcing the product’s preferred sequence can remove legitimate flexibility. Include preparation, other tools, collaboration, waiting, and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "At each step, inspect the gulf of execution—can the person identify and perform an action? —and gulf of evaluation—can they perceive and interpret what happened? A completed click is not a completed task if the real-world outcome remains uncertain."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When a roadmap item is framed as a feature, translate it into a goal, task, and outcome before estimating work. That reframing surfaces hidden dependencies and prevents a local interface improvement from damaging the wider workflow."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The same task can serve different goals. A person booking a train may be trying to arrive reliably, minimise cost, coordinate with another person, avoid a difficult transfer, or retain flexibility if plans change. A flow that only optimises for the earliest departure can look efficient while frustrating the person’s real purpose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discover goals through context and behaviour, not only by asking which feature someone wants."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task analysis should expose normal flow and variation. Capture the trigger, desired outcome, preconditions, subgoals, information needed, decisions, physical and digital actions, handoffs, interruptions, errors, and evidence of completion. Then ask what is intrinsic to the person’s task and what is merely work imposed by the current service."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The distinction often reveals opportunities to remove a step, prefill information, clarify a decision, or coordinate channels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feature substitution: a requested control is accepted as the goal without investigation. Happy-path mapping: exceptions, handoffs, and recovery disappear from the task model. Activity without outcome: a team measures clicks and completion without knowing whether progress was achieved. Local optimisation: one screen is simplified while the overall journey gains work elsewhere."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“Add a calendar button” sounds like a requirement. The person’s goal is not to press a button; it is to avoid missing an appointment. The task may include choosing a time, checking conflicts, sharing the event, and getting a reminder. The interface action is only one small move inside that work."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Module 2 explained how attention and memory shape action. This lesson gives those actions a purpose and sequence. lesson 14 asks how people expect that sequence to work before they encounter the design."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Break one real task into the person’s goal, the task steps, and the interface actions required. Circle any action that exists only because the system has poor information or an awkward process."
+    }
+  ]
+}

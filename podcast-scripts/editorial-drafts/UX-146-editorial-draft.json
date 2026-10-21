@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-146",
+  "title": "Menus, Commands, and Safe Shortcuts",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Menus, Commands, and Safe Shortcuts. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Menus expose available commands and help people explore. Commands express direct action. Shortcuts accelerate actions people already understand. Strong systems let these forms reinforce one another: a visible command can reveal its shortcut, and a shortcut should produce clear feedback and an undo path where errors are costly."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design for frequency and consequence. Rare or dangerous actions need clear names, confirmation, and context. Frequent low-risk actions benefit from acceleration, customisation, and stable placement. Do not hide essential functions behind expert knowledge or fill a menu with vague verbs that force people to guess the outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Balance recognition, speed, and safety",
+      "mood": "thinking",
+      "text": "What changes when we look at balance recognition, speed, and safety?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Menus externalise available actions and support recognition; commands and shortcuts accelerate frequent work but require learning and reliable feedback. The right system lets expertise grow without making the novice route unusable. It also prevents speed from bypassing necessary review in high-consequence actions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Undo and confirmation follow consequence. Reversible reassignment can provide immediate action plus undo; declining a transfer requires explicit reason and review because it affects patient care. The system announces success, preserves selection, and logs actor and time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Shortcut help is discoverable in context and can be printed or searched; expertise is supported rather than assumed."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: email triage",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: email triage?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Single-key archive is valuable to expert users only when undo is reliable, focus is visible, and selection scope is clear. The same shortcut becomes dangerous in a shared compliance queue where removal has irreversible consequences."
+    },
+    {
+      "speaker": "host",
+      "act": "Match access to frequency and expertise",
+      "mood": "thinking",
+      "text": "What changes when we look at match access to frequency and expertise?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Menus make options visible and support recognition. Commands are compact and expressive but require syntax or discovery. Shortcuts accelerate repeated known actions. Offer a path from novice discovery to expert efficiency: stable menus, searchable command palette, visible shortcut hints, customisation where justified, and consistent scope."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Organise by user goals and domain language. Group meaningfully, order frequent or consequential items, and separate destructive actions. Show unavailable commands with explanation when their presence teaches capability; hide them when they are irrelevant or unsafe to reveal. Maintain keyboard navigation, focus, names, and state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Shortcuts need conflict checks, platform conventions, alternatives, and recovery. Consequential commands should reveal scope and effect. Support undo where possible and confirmation where consequence is irreversible, without adding repetitive friction that trains automatic acceptance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluate first-use findability and expert repeated performance. A shortcut that saves keystrokes but causes mode errors or is impossible to learn does not improve the workflow."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a coherent command model",
+      "mood": "curious",
+      "text": "What changes when we look at build a coherent command model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every command has a name, object, scope, preconditions, permission, effect, feedback, undo or recovery, and audit consequence. Menus expose that model through recognition; shortcuts and command search invoke it through faster routes. If the same shortcut means assign on one screen and approve on another, the system has no stable model for expertise to build upon."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scope remains visible. A bulk command states whether it affects the current row, selected visible rows, selected hidden rows, or all matching results. Before execution the system validates permissions and state; afterward it reports success and partial failure per item. Focus and selection remain predictable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Shortcut behaviour avoids conflicts with operating systems, browsers, assistive technology, and text entry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery is gradual. Menus show shortcut hints, command search accepts familiar synonyms, and contextual help explains scope. Telemetry can reveal low use, but it cannot prove discoverability or safety. The team observes learning over repeated sessions and reviews accidental activation, reversal, and error recovery alongside time saved."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: design software",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: design software?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An expert may duplicate, align, and group objects through shortcuts while a novice uses visible menus. Both routes should produce identical state and history. A hidden shortcut for permanent deletion, or one that changes with tool mode, trades speed for avoidable error."
+    },
+    {
+      "speaker": "host",
+      "act": "Balance efficiency with discoverability and safety",
+      "mood": "curious",
+      "text": "What changes when we look at balance efficiency with discoverability and safety?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every shortcut has an accessible alternative, visible discovery route, conflict check, and feedback. Keyboard sequences must not trap assistive-technology users or override common browser and platform conventions without strong reason. Destructive commands require confirmation or undo proportional to harm; repeated activation remains idempotent."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Acceleration changes operational risk as well as speed. Senior teams analyse frequency, scope, permissions, audit, and recovery before adding shortcuts, and monitor accidental activation rather than assuming expert users need no protection."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "An editor needs to repeat a formatting action hundreds of times. A menu makes the command discoverable; a shortcut makes repeated work viable. The shortcut is useful only if it is learnable, consistent, and recoverable."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Use a product’s command palette or keyboard shortcuts. Identify which commands remain discoverable elsewhere, whether scope is visible, and which action becomes dangerous without undo."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "lesson": "UX-199",
+  "title": "Validate Problem, Concept, Usability, and Outcome in Sequence",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Validate Problem, Concept, Usability, and Outcome in Sequence. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Product teams often use “validation” as though it were a single event. It is a chain of different questions:"
+    },
+    {
+      "speaker": "host",
+      "act": "Four questions, four forms of confidence",
+      "mood": "curious",
+      "text": "What changes when we look at four questions, four forms of confidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Problem validation: does a meaningful problem exist for identifiable people in a real context? How often, how costly, and how do they currently respond? Concept validation: do people understand the proposed promise, see it as relevant, and prefer it to their current alternative or another approach?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Usability validation: can people accomplish the intended task with the designed interaction, information, and recovery paths in a realistic setting? Outcome validation: after release, does the service create the intended behavioural or life outcome without unacceptable side effects?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These are not rigid gates. Teams revisit them as context changes. But they are different forms of confidence, and treating one as proof of another creates expensive certainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Add two enabling questions that frequently invalidate all four:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feasibility and operational validation: can data, technology, people, policy, security, support, and dependencies deliver the proposed experience under real conditions? Viability and responsibility: can the organisation sustain the service and its safeguards, and is it legitimate to create and distribute its benefits and harms?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These do not sit at the end. They enter whenever their uncertainty could make the current test misleading."
+    },
+    {
+      "speaker": "host",
+      "act": "Match evidence to the uncertainty",
+      "mood": "thinking",
+      "text": "What changes when we look at match evidence to the uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When the uncertainty is about a problem, start with exploratory evidence: interviews about past behaviour, observation of the current journey, support and search data, diary studies, service records, or contextual inquiry. Ask about concrete episodes, workarounds, constraints, and consequences—not whether someone “would use” a solution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When the uncertainty is about a concept, make the value proposition visible enough to react to. Compare alternative promises, interaction models, pricing or trust framing, and the existing behaviour people would need to change. Concept evidence is strongest when people can explain what they think the proposal does, why they would choose it, and what would stop them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When the uncertainty is about use, test tasks rather than opinions. Include incomplete data, mistakes, interruptions, accessibility needs, unfamiliar vocabulary, and recovery. A clean prototype can prove that the happy path is understandable while hiding the situations that determine whether a live service is usable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When the uncertainty is about outcome, observe the service in the world. Combine behavioural signals with qualitative follow-up and operational evidence. A metric can show that people clicked; it cannot necessarily show whether they benefited, became confused, shifted work to support, or experienced a harm that caused them to leave silently."
+    },
+    {
+      "speaker": "host",
+      "act": "Sequence by consequence and reversibility",
+      "mood": "curious",
+      "text": "What changes when we look at sequence by consequence and reversibility?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The right order depends on the cost of being wrong. A reversible, low-risk interface improvement can move through the loop quickly. A complex or consequential service may need substantial problem, policy, operational, and accessibility evidence before even a limited concept test is appropriate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use a simple risk rule: validate the assumption that is both most uncertain and most costly if false. A team may know the problem is real but not know whether an automated approach is trusted. Another may know that people like a concept but not know whether the data required is available. Do not follow a ceremony; follow the uncertainty that could invalidate the bet."
+    },
+    {
+      "speaker": "host",
+      "act": "Avoid false transfer of confidence",
+      "mood": "thinking",
+      "text": "What changes when we look at avoid false transfer of confidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A positive usability test does not prove demand. A concept test does not prove people can use the resulting interaction. A conversion lift does not prove the people who converted were better off. An experiment result does not prove it generalises to a different segment, season, device, or operational condition."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write these limits beside the result. “Participants could find and edit a bill split in a guided prototype” is a useful finding. It does not become “the feature is validated.” Naming the scope of evidence makes decisions more honest and highlights the next question."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a learning sequence",
+      "mood": "curious",
+      "text": "What changes when we look at build a learning sequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For a significant initiative, maintain a compact evidence map:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. State the desired outcome and the person’s progress it represents. 2. List the critical assumptions across problem, concept, use, and outcome. 3. Rate each assumption by consequence if wrong and current strength of evidence. 4. Choose the next smallest method that can change a decision. 5. Record what the result means, what it does not mean, and the next uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This lets a roadmap describe learning rather than merely feature production. It also prevents teams from defending a solution because they have already invested in polishing it."
+    },
+    {
+      "speaker": "host",
+      "act": "Design evidence to change a decision",
+      "mood": "thinking",
+      "text": "What changes when we look at design evidence to change a decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A study is not valuable merely because it produces findings. Before collecting data, specify:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "decision and owner; assumption and consequence if wrong; evidence needed to advance, narrow, change, or stop; population, context, and boundary; method and why it can answer the question; validity threats and counterevidence; outcome and guardrails; next question the result cannot answer."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Triangulate when the decision needs multiple views. Behavioural data can establish distribution while interviews explain mechanism; operational records can reveal queue burden while observation shows hidden work. Contradictions should change the model, not be averaged into “mixed feedback.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: household bill splitting",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: household bill splitting?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A clear and usable prototype proves that represented participants can operate the interaction. It does not prove a meaningful problem or acceptable social model. Problem research may show that informal agreements work for many households, while those with unequal financial power distrust shared automation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team may narrow the opportunity to transparent calculation without automatic collection."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validation as one status: a green label conceals which question and conditions were tested. Usability-to-demand leap: task success becomes evidence that people need or will adopt the feature. Concept-to-outcome leap: positive reaction becomes a claim about real benefit. Pilot-to-scale leap: manually supported performance is generalised to an automated or larger system."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Aggregate confidence: variation by context or group disappears. Evidence laundering: a weak study is repeated in many presentations until it sounds established. Sunk-cost sequence: polished craft makes the team unwilling to revisit problem evidence. No prohibited claim: limitations appear in an appendix while headlines overreach."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The more polished a solution becomes, the harder it is for a team to admit that the premise may be wrong. Senior practice protects the right to learn early, before craftsmanship turns into sunk-cost pressure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners create an evidence culture where saying “this study cannot establish that” improves credibility rather than appearing obstructive. They identify the most consequential weak layer, choose a method proportional to the decision, and preserve the ability to stop. They also revisit earlier layers when markets, policy, behaviour, or service conditions change."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team builds a beautiful feature for automatically splitting household bills. In usability sessions, participants successfully complete the flow and praise its clarity. After launch, adoption is low. Later interviews reveal that many people solve the underlying problem through informal agreements, while the people who need help most distrust the proposed model of shared money."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The usability work was real. It simply answered a later question before earlier questions were sufficiently understood. Good evidence at one layer does not prove the layers beneath it."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 198 selected the smallest responsible value test. This lesson makes the learning chain explicit. lesson 200 completes the sequence by treating launch, monitoring, rapid response, and recovery as part of validation rather than an afterthought."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take an active initiative and draw four columns: problem, concept, usability, and outcome. Put one assumption and one piece of evidence in each. Circle the assumption that is least evidenced and most consequential if wrong. Design the next test around that—not around the easiest research activity to schedule."
+    }
+  ]
+}

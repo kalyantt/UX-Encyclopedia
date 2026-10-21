@@ -1,0 +1,167 @@
+{
+  "lesson": "UX-017",
+  "title": "Task Analysis",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Task Analysis. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task analysis studies what people do to achieve an outcome. It documents triggers, goals, subgoals, actions, information, tools, decisions, exceptions, collaboration, and completion criteria. Its value is not producing a perfect diagram; it is revealing the assumptions hidden in a feature request or happy-path prototype."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analyse real activity before prescribing a new sequence. Watch for workarounds, handoffs, interruptions, repeated checks, and information that people create outside the product. Include exceptions deliberately. A task model that ignores failure, change of mind, or missing information is a model of the demo, not of the work."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse strategies and knowledge",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse strategies and knowledge?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observe representative people performing real or simulated work. Decompose goals, subtasks, decisions, information, objects, timing, dependencies, interruptions, errors, and recovery. Hierarchical task analysis reveals structure; cognitive task analysis exposes cues, expertise, judgement, and tacit knowledge."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare formal procedure with actual strategy. Do not automate every observed step: some workarounds compensate for system failure, while some checks preserve safety. Identify which demands can be removed, supported, or must remain visible. Validate the model with practitioners and use it to shape workflow, training, automation, and evaluation."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn analysis into design decisions",
+      "mood": "curious",
+      "text": "What changes when we look at turn analysis into design decisions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Classify demands as intrinsic, safety-preserving, or system-imposed. Comparing travel and appointment urgency is intrinsic. Confirming the patient understands preparation may preserve safety. Re-entering contact details held by the service is imposed work. Remove imposed work; support intrinsic judgment; keep safety checks visible and proportionate."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse both cognitive and service work",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse both cognitive and service work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observation reveals hidden tasks: interpret a letter, coordinate with work, consult a helper, verify clinic access, preserve evidence, and call when state is unclear. Staff reconcile identifiers and queues. The design can automate, support, remove, or reassign work, but it must assess who receives the resulting burden and risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse cognitive, coordination, and exception work",
+      "mood": "curious",
+      "text": "What changes when we look at analyse cognitive, coordination, and exception work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hierarchical task analysis can decompose a stable goal, while contextual observation and cognitive task analysis reveal expert cues, uncertainty, and adaptation. The methods answer different questions. A neat numbered flow may describe the intended procedure while missing how people recover when availability changes or when clinic and portal states disagree."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Task analysis prevents local optimisation. If shortening one screen moves verification, support work, or risk to another actor, the task has not become simpler; the cost has moved."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task analysis is an investigation of real activity, not a diagram of the interface today. It asks who performs the work, what triggers it, how often it happens, which information and tools are used, what constraints apply, where judgment is required, and how people know they have succeeded."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use observation, contextual inquiry, interviews about concrete past events, artefact review, and walkthroughs to build the model."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Represent the task at a level appropriate to the decision. A high-level workflow can show handoffs and opportunity areas; a detailed hierarchical task analysis can reveal operators, alternatives, and error-prone steps. Include exceptions and workarounds because they often expose the real operating conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validate the representation with people who do the work and separate observed behaviour from interpretation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "UI tracing: reproducing the current screen sequence rather than understanding the wider work. Missing handoffs: another person, channel, policy, or tool silently determines success. Idealised work: the model excludes interruptions, incomplete information, and time pressure. Over-detailing: a task map becomes so granular it obscures decisions and opportunities."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A bill-payment flow appears to have three screens. In reality the person must find the account, verify the payee, understand the amount, decide timing, authorize payment, recover from failure, and know whether it succeeded. The visible flow is not the whole task."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Goals, tasks, and actions (lesson 13) gave us the vocabulary. Task analysis turns that vocabulary into evidence for requirements in lesson 18."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Map every step in paying one bill or booking one appointment. Include information checks, waiting, errors, and any step outside the app."
+    }
+  ]
+}

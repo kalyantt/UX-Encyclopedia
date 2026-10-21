@@ -1,7 +1,7 @@
 export const recallPrompts = Object.fromEntries(`
-001|Maya receives “Request received” and calls reception. What would you inspect beyond the confirmation screen to understand her experience?
-002|Two booking screens look equally polished. What would you need to observe before judging which is more usable, and for whom?
-003|A booking flow is fast but leaves Maya anxious. Distinguish a usability goal from an experience goal, then propose evidence for each.
+001|An airline app says check-in is done, but the boarding pass is missing. What would you inspect beyond the confirmation screen to understand the experience?
+002|Two password-reset flows look equally polished. What would you observe before judging which is more usable, and for whom?
+003|A booking flow is fast but leaves the person anxious. Distinguish a usability goal from an experience goal, then propose evidence for each.
 004|The flow works at a desk but fails on a train. Which parts of the context changed, and how should they affect the design?
 005|The app says the referral was sent; the clinic cannot find it. Which service connections must you investigate?
 006|Completion rises while confused calls increase. Which dimensions of UX quality does that result leave unresolved?
@@ -11,12 +11,12 @@ export const recallPrompts = Object.fromEntries(`
 010|How would you replace unnecessary recall in clinic comparison without making every detail visible at once?
 011|An early appointment is selected by default. How could that change the decision, and what would make the default defensible?
 012|The connection drops after submission. What is known, what remains uncertain, and why might an immediate retry be unsafe?
-013|Distinguish Maya’s goal, a task that supports it, and an interface action. What changes if she chooses a different strategy?
-014|Maya and the clinic predict different next steps from the same status. How would you discover and repair that mismatch?
+013|Distinguish a person's goal, a task that supports it, and an interface action. What changes if they choose a different strategy?
+014|A patient and a clinic predict different next steps from the same status. How would you discover and repair that mismatch?
 015|What must a conceptual model specify about referrals and appointments before the team designs their screens?
-016|What useful expectations does a queue metaphor create? Name an expectation that could become misleading in CarePath.
-017|What work would a screen flow miss when Maya cannot find a suitable slot? Include a decision, handoff, and recovery.
-018|Why is “Maya phones after booking” insufficient to justify a dashboard? Give two interpretations and different requirements they imply.
+016|What useful expectations does a queue metaphor create? Name an expectation that could become misleading in an appointment service.
+017|What work would a screen flow miss when someone cannot find a suitable slot? Include a decision, handoff, and recovery.
+018|Why is “the person phones after booking” insufficient to justify a dashboard? Give two interpretations and different requirements they imply.
 019|What makes a research question capable of changing a decision? Include the owner, uncertainty, and possible response.
 020|Unpack “let patients choose another clinic” into assumptions. Which uncertain assumption could invalidate the whole idea?
 021|What different claims can an interview, observation, survey, and experiment support? Which would you use first here, and why?

@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-032",
+  "title": "Insights Are Not Observations",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Insights Are Not Observations. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An observation reports what happened. An interpretation proposes why or what it may mean. An insight connects a pattern to a deeper need, tension, or opportunity. A design implication states what the team should explore or change. Keeping these layers separate prevents a recommendation from masquerading as evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Useful insights are specific, evidence-backed, and consequential. They explain a behaviour in context and open a decision, rather than merely sounding memorable. Test whether an insight would change a product choice; if not, it may be an interesting description rather than a useful one."
+    },
+    {
+      "speaker": "host",
+      "act": "Build an insight that can survive challenge",
+      "mood": "thinking",
+      "text": "What changes when we look at build an insight that can survive challenge?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The insight record includes evidence, context, mechanism, affected groups, exceptions, confidence, consequence, and opportunity. The team actively seeks rival explanations: perhaps the call resulted from urgent symptoms rather than status ambiguity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An insight becomes stronger when it explains several cases, survives contradiction, and changes what the team would design or measure."
+    },
+    {
+      "speaker": "host",
+      "act": "The insight test",
+      "mood": "curious",
+      "text": "What changes when we look at the insight test?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“People need confidence” fails because it is vague and nearly universal. “When final state depends on several services, occasional users treat transient confirmation as unverified until they can retrieve matching clinic and referral evidence” passes more of the test. It guides state and recovery design while remaining testable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An implication can still be wrong. Persistent receipt, proactive reconciliation, or staff confirmation may all address the insight through different mechanisms and costs. Keeping the solution layer open is what makes the insight useful in discovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the inference chain",
+      "mood": "thinking",
+      "text": "What changes when we look at build the inference chain?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An observation states what occurred in a specific context. A pattern describes recurrence or meaningful contrast. An insight explains a mechanism or unmet need that changes how the team understands the problem. A recommendation proposes action and therefore adds value, feasibility, and risk judgement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep these layers separate and linked. “Three participants missed the fee” is observation; “fees appear after commitment and conflict with expected total” is a pattern and mechanism; “people need cost certainty before choosing” may be insight. “Move fees earlier” is one possible response, not the insight itself."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test interpretations against counterexamples and other evidence. State affected context, confidence, and what would falsify the claim. A memorable sentence is not an insight if nobody can trace or challenge the reasoning behind it."
+    },
+    {
+      "speaker": "host",
+      "act": "Test the explanation behind the insight",
+      "mood": "curious",
+      "text": "What changes when we look at test the explanation behind the insight?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An insight record includes population and context, evidence, negative cases, confidence, structural cause, consequence, decision, and evidence that would disprove it. A vivid quote can illustrate the pattern but cannot carry the claim alone. The insight earns its name only when it changes what the team would build, operate, or measure."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not reward insight theatre. A concise sentence is only valuable when its evidence, limitations, and product implication can survive challenge."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a clear chain: observation—what was seen or heard; interpretation—a possible explanation; insight—a consequential pattern about need, behaviour, or tension; implication—what the team should explore or decide. For example, “four participants reopened their bank app after submitting a transfer” is observation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“They lacked confidence that it had gone through” is interpretation. “In high-consequence transactions, people need confirmation that supports later verification, not only momentary reassurance” is insight. “Design a persistent, inspectable receipt and test it” is implication."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An insight earns its place by changing a decision. It should identify who experiences the pattern, when it occurs, what evidence supports it, what remains uncertain, and why it matters. Resist treating an articulate sentence as insight if it merely repeats a complaint or contains an untested cause."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Quote inflation: a memorable statement is relabelled as an insight. Causal leap: an observed behaviour is assigned a cause without enough evidence. Vague opportunity: “make it easier” offers no tension or direction. Recommendation disguised as research: a solution is presented as if participants proved it."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“Users abandon the form” is an observation. “Applicants stop when asked for documents they cannot access until after employment” identifies mechanism and points toward sequencing or policy change."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Themes identify repeated patterns. Insights explain why they matter. lesson 33 turns such behavioural evidence into durable design archetypes."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Turn one observation into an insight and a design implication. Mark what evidence supports each step."
+    }
+  ]
+}

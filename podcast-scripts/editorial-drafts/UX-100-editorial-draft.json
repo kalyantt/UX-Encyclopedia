@@ -1,0 +1,175 @@
+{
+  "lesson": "UX-100",
+  "title": "Reading Interfaces: Type, Scan Paths, and Density",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Reading Interfaces: Type, Scan Paths, and Density. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People are highly capable language users, but reading on an interface is effortful. They do not inspect every word in an even sequence. They scan for headings, familiar terms, quantities, consequences, and the next action; then they slow down where the task demands certainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interface typography and layout either support that switching or make people spend attention merely locating the meaning."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Legibility is the ability to distinguish characters. Readability is the ability to understand connected language. Scanability is the ability to locate what matters before committing to a full read."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A screen can have attractive typography and still fail all three if its hierarchy is flat, its line lengths are exhausting, its labels are vague, or the highest-priority information competes with decoration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use structure as a reading aid. Give content a purposeful title, short descriptive headings, grouped related details, meaningful labels, adequate spacing, and a visible primary action. Put the consequence near the decision that creates it. Do not use size, weight, or colour as decoration alone; they should reveal the page’s information hierarchy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Dense screens are not automatically bad—expert tools can require density—but their density needs a stable grid, predictable grouping, and clear priorities."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design for the actual reading context. A person comparing plans on a wide desktop can tolerate tables and side-by-side detail. A person checking a delivery update one-handed needs a short status, a clear date or location, and a next action. Under stress, plain language and a visible recovery path matter more than brand voice flourishes."
+    },
+    {
+      "speaker": "host",
+      "act": "Visual comparison: policy block versus decision hierarchy",
+      "mood": "thinking",
+      "text": "What changes when we look at visual comparison: policy block versus decision hierarchy?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare two versions of a cancellation screen. The first has one undifferentiated policy block and an unclear action. The second uses a clear title, a consequence summary, a grouped “what changes” list, a direct primary action, and visible help. The words may be equally accurate, but the second supplies landmarks for legibility, readability, scanability, and task priority."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism and boundaries",
+      "mood": "curious",
+      "text": "What changes when we look at mechanism and boundaries?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Reading alternates between visual sampling and language comprehension. Eyes move through saccades and pause in fixations; attention selects words and structures relevant to the current goal. Familiar vocabulary and predictable grammar allow rapid processing, while unfamiliar terms, ambiguous references, and broken line flow require rereading."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "People scan when deciding whether and where to read, then read closely where consequences demand it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This is why universal scan-pattern diagrams are weak design rules. An F-shaped trace may describe some reading on some text-heavy pages, but goals, language direction, content type, expertise, screen size, and visual hierarchy change the path. Design around information priority and test questions, not a fashionable eye-tracking shape."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Typography supports the mechanism through distinguishable characters, adequate size and spacing, manageable line length, consistent alignment, and clear hierarchy. Content supports it through front-loaded meaning, descriptive headings, concrete labels, short syntactic relationships, and proximity between a decision and its consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Plain language is not childish language; it removes avoidable decoding while preserving necessary precision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Density is a trade-off. Spreading related evidence across many screens can increase memory and navigation work. Compressing everything into a wall of text can hide priority. Expert interfaces may benefit from stable, information-rich views; anxious or intermittent tasks may need stronger layering."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Evaluate retrieval time, comprehension, rereading, errors, and zoom—not aesthetic cleanliness. A page is readable when the right person can find and understand the information needed for the next decision under the real conditions of use."
+    },
+    {
+      "speaker": "host",
+      "act": "Design density around comparison and consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at design density around comparison and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Responsive layouts use progressive disclosure carefully. Essential constraints do not disappear behind identical “more” links, and collapsed content remains discoverable and operable. Real data, translation, zoom, fatigue, and screen-reader navigation reveal whether the information architecture survives."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior decisions about density are tied to task accuracy, time, comprehension, and omission risk."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not settle a hierarchy debate by asking which version “looks cleaner.” Give people a realistic task, a time constraint, and a question whose answer changes their action. Observe what they locate, skip, misread, and re-check."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person opens a cancellation screen while anxious and short on time. The page contains six paragraphs of policy language, a large promotional panel, a small muted link, and a confirmation button. The required information exists, but it has not been arranged for reading under pressure."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 99 established that a signal must remain perceptible across conditions. Reading is the next signal system: the learner must be able to locate, distinguish, and understand the words that change a decision. lesson 101 will separate useful task effort from cognitive burden imposed by the interface."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Open a dense settings, checkout, or policy page. In five seconds, identify its title, current state, consequence, and next action. Anything you cannot find becomes a candidate for a hierarchy or content change."
+    }
+  ]
+}

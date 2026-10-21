@@ -1,0 +1,184 @@
+{
+  "lesson": "UX-064",
+  "title": "Inspections and Walkthroughs",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Inspections and Walkthroughs. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A heuristic evaluation compares an interface with recognised interaction principles: visibility of system status, match with users’ language and world, control and freedom, consistency, error prevention, recognition over recall, efficiency, minimalist presentation, recovery support, and help. Evaluators inspect independently, then combine findings."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Multiple evaluators matter because each notices different problems."
+    },
+    {
+      "speaker": "host",
+      "act": "Three complementary inspection methods",
+      "mood": "curious",
+      "text": "What changes when we look at three complementary inspection methods?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A cognitive walkthrough follows a specific task from the perspective of a person learning by exploration. At each step, ask:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Will the person form the right goal here? 2. Will they notice the available action? 3. Will they associate that action with the outcome they want? 4. After acting, will feedback show that progress was made?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The walkthrough is especially useful for first-use and unfamiliar tasks. It forces evaluators to model knowledge at each step instead of relying on their own expertise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An accessibility inspection examines structure, semantics, keyboard operation, focus, labels, contrast, reflow, motion, error communication, and compatibility with assistive technology."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automated checks can find some detectable failures, but cannot decide whether the reading order makes sense, alternative text communicates purpose, instructions are understandable, or a workflow is usable with assistive technology. Standards inspection and disabled-user research complement each other."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Other reviews may focus on content, privacy, safety, policy, or domain accuracy. The lens must match the risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Plan and conduct an inspection",
+      "mood": "thinking",
+      "text": "What changes when we look at plan and conduct an inspection?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with scope. Name the people, task, states, devices, and consequences being reviewed. A generic tour of screens encourages superficial comments. Give evaluators realistic scenarios and necessary user knowledge."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For heuristic evaluation, choose a documented set of principles and calibrate what they mean in this product. Each evaluator works independently to avoid group anchoring. Record the location, principle, observed condition, plausible consequence, affected users, evidence, and proposed severity. Aggregate only after independent review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For a walkthrough, define the correct action sequence but do not assume it is visible to the novice. At every step, write the user’s likely goal, cues available, knowledge required, action, system response, and possible failure. Include alternate paths and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Severity should combine more than frequency. Consider impact, persistence, reach, recoverability, and consequence. A rare inaccessible failure that blocks urgent care can outrank a frequent cosmetic inconsistency. Confidence should be separate from severity: a potentially severe issue may still require user evidence or technical verification."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: password recovery",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: password recovery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An expert can complete password recovery because they recognise an email delay and know to check spam. A cognitive walkthrough asks whether a first-time user expects an email, notices which address received it, and understands whether requesting another link invalidates the first."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A heuristic review may flag weak status feedback; an accessibility check may find that validation errors are not announced. A user test then reveals how real people interpret and recover. Each method contributes a different layer."
+    },
+    {
+      "speaker": "host",
+      "act": "What inspection cannot establish",
+      "mood": "thinking",
+      "text": "What changes when we look at what inspection cannot establish?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inspections predict plausible problems; they do not observe actual behaviour. Evaluators can project their own knowledge, over-report principle violations, or miss context-dependent workarounds. A design can satisfy a checklist and still fail people. Conversely, not every heuristic violation produces meaningful harm in context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Common failures include:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Checklist pass: principles are mentioned but not applied to scenarios and consequences. Single-expert certainty: one perspective is treated as exhaustive. Expert projection: evaluators assume novices share terminology and system knowledge. Severity by irritation: visual inconsistency outranks task failure or exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility automation only: detectable code rules stand in for human usability. Inspection substitution: teams avoid research with affected people when it is feasible and necessary."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build an evaluation portfolio around risk. Inspections are fast and repeatable, useful before expensive studies and across large interfaces. They can become quality gates when criteria, reviewer competence, ownership, and remediation are explicit. They should also cover design systems: one inaccessible component can reproduce failure across the service."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Protect disagreement in consolidation. Two evaluators may agree on the interface condition but disagree about consequence because they model different users or contexts. Record that uncertainty rather than forcing false consensus. For consequential services, include domain, policy, security, and operations reviewers so “usable” does not mean merely easy to click."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an insurance claim form. An expert review flags that a required document type is revealed only after upload fails. A cognitive walkthrough asks what a first-time claimant would expect at each step; a heuristic inspection checks visibility, error prevention, and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "These methods identify plausible problems quickly, but observed use is still needed to learn their actual consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a workflow you already know well. Imagine a person who does not know its vocabulary or consequences. Locate one step where your expertise supplies a missing cue. Then test whether the interface itself makes the goal, action, and result understandable."
+    }
+  ]
+}

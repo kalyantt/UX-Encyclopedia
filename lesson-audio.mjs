@@ -1,5 +1,6 @@
 // A local, on-device listening mode for the published lessons. No audio or text is sent to a service.
 import {podcastVersions} from './podcast-versions.mjs?v=20261011f';
+const {editorialPodcastVersions}=await import(`./editorial-podcast-versions.mjs?v=${Date.now()}`);
 import {conversationPreviewIds} from './conversation-previews.mjs';
 const clean=text=>text.replace(/\s+/g,' ').trim();
 function chunks(text,max=210){
@@ -62,6 +63,28 @@ export function mountAudio(library){
     stop();id=nextId;
     const root=player(),lesson=library.reading[id];
     if(!root||!lesson)return;
+    if(lesson.example&&/(?:course-editorial-preview|course-podcast-v1)\.html$/.test(location.pathname)){
+      const episode=editorialPodcastVersions[id];
+      if(episode){
+        root.classList.add('recorded');
+        root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">TWO-VOICE PODCAST · ${episode.version}</span><strong>Listen to this lesson</strong><span class="audio-location">${episode.note} Recorded offline; no per-listen fee.</span></div><audio class="audio-recording" controls preload="metadata" src="${episode.src}" aria-label="Two-voice podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-alt"><a href="${episode.transcript}">Read the episode transcript</a></p>`;
+        const recording=root.querySelector('.audio-recording');
+        root.querySelectorAll('[data-seek]').forEach(button=>button.onclick=()=>{
+          if(!Number.isFinite(recording.duration))return;
+          recording.currentTime=Math.max(0,Math.min(recording.duration,recording.currentTime+Number(button.dataset.seek)));
+        });
+        return;
+      }
+      root.classList.remove('recorded');
+      root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">PODCAST STATUS</span><strong>Recorded episode not available yet</strong><span class="audio-location">This revised lesson does not have a matching two-voice recording. Where older recordings exist, they use the removed story and are not presented as this lesson’s podcast.</span></div>`;
+      return;
+    }
+    if(lesson.example&&podcastVersions[id]){
+      const catalog=podcastVersions[id],older=catalog.versions.find(version=>version.id===catalog.defaultVersion)||catalog.versions[0];
+      root.classList.add('recorded');
+      root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">EARLIER EDITION AUDIO</span><strong>Listen to the previous version</strong><span class="audio-location">This recording still uses the older fictional story. It does not match the revised lesson below.</span></div><audio class="audio-recording" controls preload="none" src="${older.src}" aria-label="Earlier-edition recording of lesson ${id}"></audio><p class="audio-alt"><a href="${older.transcript}">Read the recording’s transcript</a></p>`;
+      return;
+    }
     if(podcastVersions[id]){
       const catalog=podcastVersions[id];
       const initial=catalog.versions.find(version=>version.id===catalog.defaultVersion);
@@ -90,7 +113,7 @@ export function mountAudio(library){
       return chunks(`${section.label}. ${plain}`).map(text=>({section:sectionIndex,text}));
     });
     const minutes=Math.max(1,Math.round(segments.reduce((sum,segment)=>sum+segment.text.split(' ').length,0)/160));
-    root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">LISTENING MODE</span><strong>Hear the story</strong><span class="audio-location"></span></div><div class="audio-controls"><button class="audio-prev" type="button" aria-label="Previous section">⏮</button><button class="audio-play" type="button"></button><button class="audio-next" type="button" aria-label="Next section">⏭</button><label class="audio-speed">Speed <select aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.4">1.4×</option></select></label></div><label class="audio-voice">Voice <select aria-label="Reading voice"></select></label><progress class="audio-progress" max="100" value="0" aria-label="Audio progress"></progress><p class="audio-status" role="status">${supported?`About ${minutes} min · Device voices vary · No recording or upload`:'Listening is unavailable in this browser.'}</p>`;
+    root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">LISTENING MODE</span><strong>${lesson.example?'Listen to this lesson':'Hear the story'}</strong><span class="audio-location"></span></div><div class="audio-controls"><button class="audio-prev" type="button" aria-label="Previous section">⏮</button><button class="audio-play" type="button"></button><button class="audio-next" type="button" aria-label="Next section">⏭</button><label class="audio-speed">Speed <select aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.4">1.4×</option></select></label></div><label class="audio-voice">Voice <select aria-label="Reading voice"></select></label><progress class="audio-progress" max="100" value="0" aria-label="Audio progress"></progress><p class="audio-status" role="status">${supported?`About ${minutes} min · Device voices vary · No recording or upload`:'Listening is unavailable in this browser.'}</p>`;
     if(conversationPreviewIds.has(id))root.insertAdjacentHTML('beforeend',`<p class="audio-alt"><a href="podcast-${id}-conversation-preview.html">Preview the conversation rewrite (text only)</a></p>`);
     root.querySelector('.audio-speed select').value=String(rate);
     showVoices();

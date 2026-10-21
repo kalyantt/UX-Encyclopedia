@@ -1,0 +1,282 @@
+{
+  "lesson": "UX-091",
+  "title": "Read a Product Like a Designer",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Read a Product Like a Designer. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A product teardown reconstructs how an experience works for specific people under specific conditions. It is an evidence-generating activity, not proof of user intent, organisational motive, or redesign success."
+    },
+    {
+      "speaker": "host",
+      "act": "A teardown is structured inquiry, not aesthetic judgement",
+      "mood": "curious",
+      "text": "What changes when we look at a teardown is structured inquiry, not aesthetic judgement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the scope before opening screens:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "actor and context; desired progress; journey start and end; device, channel, account, market, and state; access needs and constraints; evidence available and unavailable; comparison products or alternate services; ethical boundary of inspection."
+    },
+    {
+      "speaker": "host",
+      "act": "Observe before interpreting",
+      "mood": "thinking",
+      "text": "What changes when we look at observe before interpreting?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep an evidence ledger with four layers:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Observation: what visibly happened—words, order, state, response, time, requirement. 2. Interpretation: what that may mean for understanding, effort, trust, or action. 3. Hypothesis: the mechanism or organisational cause that could explain it. 4. Question/evidence: what would confirm, distinguish, or overturn the hypothesis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Example:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid motive certainty. A late fee may be deceptive, a technical limitation, a policy decision, or a side effect of missing data. Harmful effect matters even without malicious intent, but a teardown should not invent internal purpose."
+    },
+    {
+      "speaker": "host",
+      "act": "Trace the experience through ten lenses",
+      "mood": "curious",
+      "text": "What changes when we look at trace the experience through ten lenses?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Goal and job"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "2. Journey and continuity"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Where does the experience begin before the product and continue after it? Inspect handoffs, waits, notifications, return visits, memory, and repeated explanation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "3. Information and mental model"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "What must the person know? Which labels, hierarchy, provenance, comparison, and status help them predict what will happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "4. Interaction and state"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Inspect affordance, feedforward, feedback, defaults, validation, loading, empty, error, offline, partial completion, undo, and interruption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "5. Perception and cognition"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "What competes for attention? What requires recall, calculation, interpretation, or high-stakes decision under stress?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "6. Accessibility and inclusion"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Can people perceive, operate, understand, and robustly use the journey across assistive technology, language, mobility, cognition, bandwidth, device, and support contexts?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "7. Service and operations"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Which staff, queues, policies, tools, capacities, and informal workarounds make the frontstage promise true?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "8. Data and technology"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "What is collected, inferred, retrieved, shared, stored, updated, and deleted? Who owns accuracy? What dependencies and failure modes exist?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "9. Value, incentives, and metrics"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "How does the organisation benefit? Which metric may shape the interface? What cost or risk is shifted to people, staff, partners, or later stages?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "10. Agency, ethics, and recovery"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Can the person understand, choose, correct, contest, leave, and obtain remedy? Who is accountable after harm?"
+    },
+    {
+      "speaker": "host",
+      "act": "Inspect alternatives and counterfactuals",
+      "mood": "thinking",
+      "text": "What changes when we look at inspect alternatives and counterfactuals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare another product only after identifying the underlying task and system. A pattern successful in ecommerce may fail in healthcare because authority, reversibility, or service capacity differs. Ask what constraint the alternative solves and which new cost it introduces."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use counterfactual questions:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "What happens without the feature? What if the data is missing or wrong? What if the person chooses no option? What if staff capacity halves? What if the business incentive changes? Who benefits or disappears under a different default?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These reveal causal hypotheses and boundary conditions rather than decorating a competitor matrix."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn findings into an investigation backlog",
+      "mood": "curious",
+      "text": "What changes when we look at turn findings into an investigation backlog?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Rank hypotheses by consequence if true, uncertainty, reach, and ability to learn. For each, define evidence from people, behaviour, content, data, operations, policy, or experiments. Some observations justify immediate accessibility or safety correction; others require research before redesign."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep quick wins separate from systemic opportunities. A clearer status label may reduce confusion now while booking/referral reconciliation remains a service transformation."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: food delivery",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: food delivery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A dinner journey extends beyond restaurant cards: dietary information, substitution, fees, payment, kitchen acceptance, courier assignment, arrival, missing item, refund, and trust afterward. A late substitution may reflect restaurant inventory, platform policy, or data timing. The teardown should trace that system before prescribing a larger label."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Screenshot critique: a visible surface stands in for the end-to-end journey. Taste masquerading as expertise: visual preference becomes a usability claim. Motive certainty: interface effect is treated as proof of organisational intent. Happy-path capture: error, empty, edge, accessibility, and recovery states disappear."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Competitor cargo cult: another product’s pattern is imported without system context. User-only boundary: staff, partners, data, policy, and affected non-users are omitted. Redesign reflex: solutions appear before the mechanism is investigated. No research bridge: observations never become testable questions."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners see both the immediate interaction and the system producing it. They distinguish a correct critique from a supported causal claim, identify power and incentives without inventing motive, and know when visible polish would merely conceal operational debt. Their teardown prioritises consequential uncertainty, not the number of issues found."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a transit app. Follow one commuter from deciding to travel through route selection, ticket purchase, platform change, boarding, and recovery after a delay. Record what the interface says, what the service actually does, and what the person can infer."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Reading a product like a designer means tracing the whole attempt rather than collecting screenshots of attractive screens."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Use a familiar product and follow one action beyond the confirmation screen. What staff, data, policy, partner, or later state must make that confirmation true? Find one label that presents an attempted action as a completed outcome. That gap is often more important than the most visibly awkward screen."
+    }
+  ]
+}

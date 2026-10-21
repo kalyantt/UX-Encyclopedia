@@ -1,0 +1,166 @@
+{
+  "lesson": "UX-108",
+  "title": "Scenarios, User Stories, Use Cases, and Specifications",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Scenarios, User Stories, Use Cases, and Specifications. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These artifacts have different jobs. A scenario is a situated narrative: a particular person, context, motivation, obstacle, action, and outcome. A user story is a compact planning prompt that helps a team discuss value and scope. A use case is a more formal interaction account with actors, preconditions, main flow, alternatives, and results."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A specification records agreed behaviour, constraints, and acceptance detail."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not substitute one for another. A story is intentionally incomplete; it invites collaboration. A scenario gives human context that a story often omits. A use case makes alternate paths explicit. A specification should follow learning, not replace it with a false impression of certainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose the lightest artifact that makes the current decision understandable. As stakes or coordination needs rise, add precision—while keeping the original user goal and evidence visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Give each artefact a clear job",
+      "mood": "thinking",
+      "text": "What changes when we look at give each artefact a clear job?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A scenario narrates person, context, goal, constraints, and outcome, supporting empathy and exploration. A user story is a small planning placeholder for a desired capability and reason; it needs conversation and acceptance evidence. A use case describes actor–system interactions, alternatives, preconditions, and postconditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A specification states testable behaviour, data, content, quality, constraint, and exception."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Connect them without treating one as a substitute for the rest. A scenario reveals why appointment recovery matters; a story enters the backlog; a use case exposes alternate routes; specifications define status, permissions, accessibility, and failure. Keep links to evidence and decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid fictional detail, solution-shaped stories, exhaustive documents nobody maintains, and acceptance criteria limited to the happy path. Include affected non-users and staff where the system changes their work. Version artefacts when evidence or policy changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose the lightest representation that preserves shared understanding for the decision and implementation risk. The artefact should reduce ambiguity, not satisfy ceremony."
+    },
+    {
+      "speaker": "host",
+      "act": "Quality rules for each artifact",
+      "mood": "curious",
+      "text": "What changes when we look at quality rules for each artifact?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A scenario should be specific enough to reveal decisions but avoid decorative biography. A user story should express value without smuggling in a chosen control. A use case should name alternate flows and postconditions, not describe pixel-by-pixel interface behavior. A specification should be testable and stateful, while distinguishing fact, policy, and assumption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Not every small change needs all four. Use more formality when failure is costly, behavior spans teams or systems, or state is difficult to reverse. For a low-risk copy improvement, an annotated scenario and acceptance examples may be enough. The goal is shared reasoning proportional to risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Use each artifact for its proper resolution",
+      "mood": "thinking",
+      "text": "What changes when we look at use each artifact for its proper resolution?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Examples use realistic content and boundary cases. Acceptance evidence includes comprehension and service state, not only UI response. Changes propagate through identifiers so a policy update revises the scenario consequence, workflow, requirements, and tests. The artifact set remains small enough to maintain and detailed enough to prevent implementation guessing."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: password recovery",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: password recovery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“As a user, I want to reset my password” hides device loss, unavailable email, fraud, rate limits, identity evidence, support escalation, and audit. A scenario and use case expose the variation; a specification makes the safe states implementable."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "If acceptance criteria only describe visible controls, ask what behaviour, state, data, content, access need, and recovery condition are missing."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“As a customer, I want to change my booking” appears on a backlog. It tells the team almost nothing about why the person needs the change, which conditions matter, what happens when a rule blocks it, or what a successful outcome feels like."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A scenario describes a renter disputing an unexpected charge under time pressure. The story records the capability to submit a dispute with evidence. The use case covers missing documents, partial save, agent follow-up, and withdrawal. Specifications define supported files, status, focus after error, retention, response time, and appeal."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each artefact preserves a different layer; together they connect human context to testable service behaviour. lesson 107 modelled work across people and systems. These artifacts capture different views of that work. lesson 109 turns them into complete requirements."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take one feature request. Write a scenario, a user story, and a use-case alternative path. Notice what each format exposes that the others hide."
+    }
+  ]
+}

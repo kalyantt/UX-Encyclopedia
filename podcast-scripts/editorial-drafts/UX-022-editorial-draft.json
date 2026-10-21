@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-022",
+  "title": "Participants and Sampling",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Participants and Sampling. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Participants should be selected for relevant behaviours, contexts, and constraints—not convenience alone. Sampling determines whose experience the evidence can speak about and whose it cannot. Recruit people who actually perform the activity, include meaningful variation, and document exclusions rather than pretending a small sample represents everyone."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Different decisions need different coverage. Early qualitative work seeks patterns and variation; quantitative work needs a sample appropriate to the estimate being made. In both cases, recruiting only enthusiasts, colleagues, or the easiest audience introduces bias. The goal is not statistical perfection in every study; it is an honest match between claim and evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Know what the sample can say",
+      "mood": "thinking",
+      "text": "What changes when we look at know what the sample can say?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "After eight interviews, repeated mechanisms may justify a task model while leaving prevalence unknown. For a survey estimate, the team defines the eligible population, sampling frame, expected nonresponse, desired precision, and subgroup analysis before deciding size. A large biased sample does not become representative through volume."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The report places a sample boundary beside every claim: who was included, absent, or unable to participate; what contexts were covered; and where findings diverged. “Five of eight participants misunderstood the status” describes this study. It does not mean 62. 5% of all patients will do so."
+    },
+    {
+      "speaker": "host",
+      "act": "Sample the conditions that could change the answer",
+      "mood": "curious",
+      "text": "What changes when we look at sample the conditions that could change the answer?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Qualitative sampling seeks information-rich contrast and stops when additional cases no longer change the working explanation for the decision. Quantitative sampling needs a defined population, recruitment frame, expected effect, and analysis plan."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Convenience samples, employee proxies, and self-selected enthusiasts are documented because they can systematically exclude people who abandon or cannot enter the service."
+    },
+    {
+      "speaker": "host",
+      "act": "Sample for the decision",
+      "mood": "thinking",
+      "text": "What changes when we look at sample for the decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define inclusion and exclusion from behaviour, role, context, knowledge, capability, and exposure—not convenient demographics alone. For generative work, seek variation and contrast; for evaluative work, recruit people who can realistically attempt the task; for quantitative estimation, use a sampling frame and size appropriate to inference."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Track who is absent. Customers reachable through product panels may exclude non-users, churned people, limited-access contexts, or those harmed before registration. Include edge and high-consequence situations deliberately without treating one person as representative of a group."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Screen respectfully, collect only necessary information, compensate fairly, and support accessibility. Report sample and limitations beside findings. Saturation is an analytic judgement about new meaning, not a magic participant count."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Representation is a product risk. If a group is missing from discovery, its needs often appear later as costly accessibility, support, trust, or market failures."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recruit from the activity and context, not a demographic label alone. Define eligibility around behaviours, role, experience, frequency, domain knowledge, device or channel, accessibility needs, and relevant constraints. Then decide which variation matters to the claim."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A study of a service used by staff and customers may need both; a study of a high-consequence edge case may deliberately focus on a small group most exposed to harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sampling also includes who cannot participate. Recruitment channels, incentive level, study language, schedule, technology, and consent process can systematically exclude people. Document these boundaries in the findings."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For qualitative work, seek enough diversity and repetition to understand meaningful patterns; for quantitative claims, define the population, sampling method, precision required, and sources of bias. Never imply representativeness the study cannot support."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Convenience sample: colleagues or enthusiasts stand in for real users. Demographic proxy: age or job title is used instead of relevant behaviour and context. Invisible exclusion: recruitment itself prevents people with access needs from participating. Overclaiming: a small exploratory sample is presented as a population estimate."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Testing a payroll product with office-based managers misses hourly workers, shared devices, limited time, and delegated access. Relevant operating conditions matter more than a generic label such as “employee.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 21 chose a method. Sampling makes its evidence credible. lesson 23 covers the duty of care owed to the people who provide that evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Identify who is missing from a study that recruits only colleagues. What behaviour, condition, or consequence might that omission hide?"
+    }
+  ]
+}

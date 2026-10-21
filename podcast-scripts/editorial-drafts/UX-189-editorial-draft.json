@@ -1,0 +1,243 @@
+{
+  "lesson": "UX-189",
+  "title": "LLM Search: Answers, Authority, Retrieval, and Recourse",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about LLM Search: Answers, Authority, Retrieval, and Recourse. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Generated text can translate, synthesise, compare, and adapt information to a person’s question. It should not silently become the source of truth. For each consequential claim, distinguish:"
+    },
+    {
+      "speaker": "host",
+      "act": "An answer is not the authoritative record",
+      "mood": "curious",
+      "text": "What changes when we look at an answer is not the authoritative record?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "the authoritative record or responsible owner; retrieved evidence used for this answer; the model’s synthesis or inference; applicability to this person, place, product, and time; missing, conflicting, or expired evidence; the formal process that ultimately decides the outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A citation proves only that a source was associated with an answer. It does not prove that the source supports the exact claim, is current, has authority, or applies to the case. Citations must be claim-level and usable: source title, relevant section, owner, effective date, jurisdiction or service scope, and a route to the original context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When sources conflict, expose the conflict or defer to an authorised process. Do not manufacture consensus for fluency."
+    },
+    {
+      "speaker": "host",
+      "act": "Retrieval quality begins with information governance",
+      "mood": "thinking",
+      "text": "What changes when we look at retrieval quality begins with information governance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An LLM cannot reliably repair an unmanaged content environment. Retrieval depends on content architecture:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "defined content types and authoritative owners; metadata for topic, audience, geography, speciality, eligibility, effective date, status, and sensitivity; controlled vocabulary plus real-world synonyms; versioning, supersession, expiry, and archive rules; structured relationships between policy, exception, procedure, and responsible service; accessible source formats and meaningful headings; permission enforcement before and after synthesis; review routes for stale, contradictory, or missing content."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Chunking documents into passages is not governance. A retrieved paragraph can lose definitions, exceptions, or scope stated elsewhere. Design retrieval around the content’s logic, not arbitrary token length. Preserve document hierarchy and link related clauses where interpretation depends on them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Permissions must survive generation. A person who cannot open a confidential record should not receive its facts through a summary, inference, citation title, or conversational follow-up. Test for indirect disclosure and combinations of individually harmless facts."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the question as part of the answer",
+      "mood": "curious",
+      "text": "What changes when we look at design the question as part of the answer?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Natural language lowers query-formulation effort but does not remove ambiguity. “Can I choose this clinic?” may depend on referral type, speciality, location, commissioning arrangement, age, provider status, and date. The system should identify the minimum missing fact that can change the conclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Offer refinement paths that reflect the information space: compare rules, view exceptions, restrict to a date or region, inspect the formal policy, or begin the actual eligibility check. Preserve the query and evidence when handing off to a person."
+    },
+    {
+      "speaker": "host",
+      "act": "Communicate kinds of uncertainty differently",
+      "mood": "thinking",
+      "text": "What changes when we look at communicate kinds of uncertainty differently?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“AI may make mistakes” collapses distinct states:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No evidence: the governed corpus contains nothing relevant. Incomplete evidence: some required fact or source is missing. Conflicting evidence: applicable sources disagree or versions overlap. Uncertain applicability: the rule exists, but the case context is ambiguous. Retrieval uncertainty: potentially relevant material may not have been found."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Synthesis uncertainty: evidence exists, but the generated interpretation is not dependable enough."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each implies a different next move: provide more context, inspect another source, resolve ownership, use a formal check, or escalate. A percentage rarely communicates this as well as naming the evidence boundary and resolution."
+    },
+    {
+      "speaker": "host",
+      "act": "Recourse belongs beside the answer",
+      "mood": "curious",
+      "text": "What changes when we look at recourse belongs beside the answer?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recourse means a person can inspect, correct, contest, and leave the automated path. Provide:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "claim-level source inspection; correction of assumptions and personal context; reporting of stale or contradictory content; an authoritative human or formal process for consequential decisions; transfer of the full evidence bundle; a record of the question and decision; a route to change an outcome already affected."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate answer quality as a task",
+      "mood": "thinking",
+      "text": "What changes when we look at evaluate answer quality as a task?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Build test cases from real questions and consequential variants. Evaluate:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "claim-level factual support and entailment; retrieval relevance, recall, ranking, and source authority; completeness of decisive conditions and exceptions; temporal, regional, audience, and product scope; freshness and conflict handling; permission and indirect-disclosure safety; clarity without erasing uncertainty; mental-model accuracy and calibrated reliance; successful next action and handoff; correction, recourse, and outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Include ambiguous queries, spelling and language variation, inaccessible documents, adversarial instructions embedded in sources, conflicting versions, missing policy, and questions that should not be answered. Evaluate citation presence separately from citation correctness."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: refund policy",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: refund policy?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A customer asks whether headphones can be returned after opening. The answer must establish market, seller, product category, purchase date, condition, and policy version. A useful result synthesises the applicable rule, puts the opened-product exception beside the claim, links the governing section, and starts the correct return or appeal path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A fluent “30-day returns” answer is worse than search if it conceals those conditions."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Answer-as-authority: generated prose replaces the formal record or decision-maker. Citation theatre: links exist but do not support, apply to, or contextualise the claim. Document-pile retrieval: unmanaged, duplicated, expired, or permission-mixed content is embedded and searched. Scope collapse: jurisdiction, date, audience, product, or pathway disappears in synthesis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hidden conversation assumptions: earlier context governs later answers without being visible or editable. Conflict smoothing: disagreement is rewritten as a single confident conclusion. Feedback-recourse confusion: reporting an answer offers no correction for the present case."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Navigation removal as success: fewer clicks are celebrated while verification and contestability vanish."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners treat AI search as an information-governance and service-design programme, not a chat feature. They establish authoritative ownership, permissions, lifecycle, evaluation, incident response, and formal decision boundaries before expanding coverage."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They measure whether generated answers improve resolved tasks and equitable access, not merely answer rate or conversational satisfaction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They also preserve epistemic humility: absence from retrieval is not proof of absence, a citation is not proof of applicability, and model confidence is not institutional authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an employee-policy search. An AI answer cites a travel-expense rule but uses an outdated policy version. Show the source, effective date, and uncertainty; allow people to open the underlying document and challenge the answer. Retrieval is useful only when authority and recourse travel with the response."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Ask an AI search tool a question with a regional, temporal, or product exception. For each sentence in its answer, inspect whether the cited source directly supports it and applies now. Look for missing assumptions, conflicting versions, and a formal next step."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "If verification requires reconstructing the entire search yourself, the answer has removed navigation without removing uncertainty."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "lesson": "UX-085",
+  "title": "Product Opportunity Assessment",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Product Opportunity Assessment. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A product opportunity describes a situation in which a defined group cannot make important progress well enough, and an organisation may be able to improve that outcome. It remains separate from the intervention so the team can compare content, policy, service, workflow, and technology responses."
+    },
+    {
+      "speaker": "host",
+      "act": "An opportunity is an unmet outcome, not a solution",
+      "mood": "curious",
+      "text": "What changes when we look at an opportunity is an unmet outcome, not a solution?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A useful opportunity frame names:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "people and context: who encounters the situation and under which conditions; desired progress: what they are trying to achieve; current barrier: what prevents or degrades that progress; present behaviour: workaround, alternative, delay, abandonment, or support; consequence: what the problem costs people and the service; evidence: observations, behaviour, operations, outcomes, and uncertainty; organisational ability: assets, authority, capability, access, and strategic fit; boundary: who, when, and what is not included; success: the human outcome and service/business outcome expected to change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Build a provider dashboard” is an output. “Directory owners cannot identify which consequential records are expiring before patients rely on them” is a possible opportunity. The second can be tested and may lead to a dashboard, an ownership process, an integration, or a different policy."
+    },
+    {
+      "speaker": "host",
+      "act": "Assess importance, not just expressed demand",
+      "mood": "thinking",
+      "text": "What changes when we look at assess importance, not just expressed demand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People request solutions using the products they know. Research should uncover the outcome beneath the request. Combine evidence:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "interviews and field observation reveal meaning, stakes, tacit work, and workarounds; behavioural and service data estimate frequency, sequence, abandonment, and variation; support and incident evidence reveal recovery cost and hidden journeys; market and alternative analysis show how people solve the problem elsewhere; operational and technical inquiry tests whether the organisation can intervene; accessibility, equity, privacy, safety, and policy review reveal who may be excluded or harmed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Frequency alone does not determine importance. A rare failure can be critical when harm is severe. A small interaction can be strategic when it blocks the entire journey. A common annoyance may not deserve investment if an acceptable workaround exists and the organisation has little ability to improve it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Distinguish problem evidence from solution evidence. Repeated referral failure supports the existence of a problem. Positive reaction to a concept supports one possible value proposition under test conditions. Neither proves usability, operational feasibility, adoption, or durable outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare opportunities as portfolio choices",
+      "mood": "curious",
+      "text": "What changes when we look at compare opportunities as portfolio choices?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use a consistent review rather than a single score that hides judgement. Examine:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. importance and consequence of the unmet outcome; 2. reach and distribution across relevant groups and contexts; 3. strength, recency, and triangulation of evidence; 4. severity and reversibility of harm; 5. alternatives and present satisfaction; 6. strategic fit and organisational legitimacy; 7. ability to create a differentiated or public-service value; 8."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "data, operational, policy, and technical feasibility; 9. dependencies, lifecycle cost, and time to meaningful learning; 10. uncertainty that could overturn the bet."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not collapse these into arithmetic too early. Weighting is a strategy decision. A visually precise score can obscure that evidence quality differs or that one non-negotiable safety condition has failed."
+    },
+    {
+      "speaker": "host",
+      "act": "State the bet and the evidence ladder",
+      "mood": "thinking",
+      "text": "What changes when we look at state the bet and the evidence ladder?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write the opportunity as a falsifiable bet:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If we enable this group in this situation to achieve this progress, we expect this user outcome and this service or business outcome, without violating these guardrails, because this evidence suggests this mechanism."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Then define an evidence ladder:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "problem relevance and context; current behaviour and alternatives; concept value and comprehension; interaction usability and accessibility; operational and technical feasibility; pilot adoption and workflow effect; real outcome, distribution, and durability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each rung answers a different uncertainty. Do not use concept enthusiasm to claim outcome or a successful build to claim value. Decide what evidence permits the bet to advance, narrow, pivot, or stop."
+    },
+    {
+      "speaker": "host",
+      "act": "Avoid local optimisation",
+      "mood": "curious",
+      "text": "What changes when we look at avoid local optimisation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An apparent product problem may originate in policy, incentives, staffing, content ownership, or another service stage. Map upstream causes and downstream consequences."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Improving one metric can move burden elsewhere: faster automated referral may increase clinic rejection; more reminders may increase support demand; richer provider forms may transfer maintenance effort without accountability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Opportunity assessment protects the whole journey by asking whether the organisation can change the mechanism producing the outcome, not merely add an interface near it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: expense management",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: expense management?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Build an AI receipt assistant” might conceal several opportunities: employees cannot understand policy before spending, extraction creates repetitive entry, managers cannot judge exceptions, or finance receives incomplete evidence. Research may show that late policy ambiguity causes most rework."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The best first intervention could be contextual policy guidance, not receipt generation."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Request as opportunity: a stakeholder solution enters the roadmap without an outcome frame. Market-size theatre: a large category number substitutes for reachable people and meaningful value. Frequency dominance: common low-impact friction displaces rare but severe exclusion or risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence blending: problem, concept, usability, feasibility, and outcome evidence are treated as interchangeable. Strategic wish: organisational desire is presented as user evidence. Feasibility blind spot: policy, data, staffing, or lifecycle constraints arrive after commitment. Scorecard false precision: weighted numbers hide uncertainty and non-negotiable guardrails."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Opportunity hoarding: branches remain “priorities” after evidence weakens them."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior product designers help decide what not to build. They make opportunity cost visible, expose the assumption that could overturn a bet, distinguish evidence strength from stakeholder confidence, and preserve high-consequence minority needs against roadmap averaging. They involve operations and policy early enough that desirability is not judged in an imaginary service."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An opportunity is ready for commitment when the team can name the affected outcome, mechanism, evidence, boundary, ability to intervene, next uncertainty, and conditions for stopping—not when every uncertainty has disappeared."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a restaurant booking product. The team proposes a waitlist feature. Opportunity assessment asks which diners and restaurants face the problem, how often it occurs, what alternatives they use, whether the service can honour a promised place, and what outcome would justify investment. A popular feature request is not yet evidence of a viable opportunity."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Open a product roadmap or release announcement. Replace each feature name with the human outcome it is supposed to improve. Can you identify the present barrier, affected group, evidence, and success signal? If several different features claim the same vague outcome, the roadmap may be organising outputs rather than opportunities."
+    }
+  ]
+}

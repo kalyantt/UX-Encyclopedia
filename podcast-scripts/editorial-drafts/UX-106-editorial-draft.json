@@ -1,0 +1,196 @@
+{
+  "lesson": "UX-106",
+  "title": "Latency, Progress, and the Feeling of Continuity",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Latency, Progress, and the Feeling of Continuity. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Time is part of interaction. Delays interrupt the link between action and outcome, producing uncertainty and duplicate actions. The appropriate response is not always “make it instant”; some work genuinely takes time. The design responsibility is to make delay legible and to preserve the person’s agency while the system works."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feedback should match the state. An immediate acknowledgement confirms that an action was received. A progress indicator shows meaningful advancement when the duration is knowable. A status message explains a long or uncertain operation. A completion state confirms the result and its consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Where possible, let people continue elsewhere and return to a durable status rather than trapping them in a waiting state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid fake progress or vague animation used only to make waiting feel active. They can destroy trust when the system later contradicts them. Timing also affects accessibility: timed transitions, disappearing messages, and auto-advancing screens can deny people the chance to perceive, understand, or act."
+    },
+    {
+      "speaker": "host",
+      "act": "Match response to human expectation",
+      "mood": "thinking",
+      "text": "What changes when we look at match response to human expectation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Very short delays should preserve directness; noticeable delays need acknowledgement; longer work needs progress, explanation, time expectation, and the ability to leave. Use optimistic response only where failure is low consequence and reversible. Never display success before a consequential operation is confirmed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Progress should represent real stages or work where possible. Fake precision erodes trust when it stalls. For indeterminate duration, explain what is happening and what the person can do. Preserve input and identity across retries; make operations idempotent so repeated taps do not duplicate payment or submission."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design for partial, offline, queued, cancelled, and failed states. Notify completion through an appropriate channel and provide a durable record. Measure perceived wait, abandonment, repeated action, error, and support—not backend duration alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A report takes minutes to generate. The system confirms the request, shows queued and processing states, lets the person continue working, sends an accessible notification, and retains the result. Failure explains whether to retry or contact support. Continuity comes from preserved purpose and state, not a spinner."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism and boundaries",
+      "mood": "curious",
+      "text": "What changes when we look at mechanism and boundaries?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "People experience an action and its response as one interaction only when timing preserves the causal link. As delay grows, uncertainty competes with the original goal: was the input received, is work continuing, did it succeed, and is another action safe? The relevant threshold varies with task, device, expectation, and consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Direct manipulation needs tighter feedback than a report explicitly described as a long-running job."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Design four layers of temporal feedback. Acknowledgement confirms receipt quickly. Activity indicates that work continues. Progress represents meaningful advancement when stages or quantity are knowable. Completion proves the resulting state and consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A spinner supplies only weak activity evidence; it should not stand in for status, time expectation, cancellation, or durable result."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Optimistic updates are appropriate only when failure is low-consequence, reversible, and reconciled transparently. Announcing a sent message before server confirmation may be recoverable; announcing a medical appointment or payment as complete before commitment is unsafe. Repeated submissions require idempotent system behaviour, not merely a disabled button."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For long work, let people leave, notify through a chosen accessible channel, and preserve a stable record. Progress should reflect real work rather than a fabricated percentage that stalls. When duration cannot be estimated, explain the current stage and next update threshold."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Evaluate perceived state, duplicate action, abandonment, checking, and support demand alongside backend latency. Performance engineering and interaction design share responsibility for continuity."
+    },
+    {
+      "speaker": "host",
+      "act": "Model latency as several clocks",
+      "mood": "thinking",
+      "text": "What changes when we look at model latency as several clocks?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Progress feedback answers what is happening, what has completed, whether the person may leave, what they can do, and how to recover. Determinate progress is used only when work and remaining quantity are known. Reassuring percentages are not invented. Notifications are sent when action or a material state changes, not to simulate movement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team measures perceived and actual time, abandonment, repeated submission, checking, task switching, recovery, and trust. It tests slow and lost connection, background completion, stale cache, delayed events, and out-of-order notification. Performance improvement includes reducing total service time as well as making necessary waiting understandable."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: file processing",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: file processing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Uploading bytes, virus scanning, transforming, and publishing are different phases. Showing 100% at upload can falsely imply availability. A phase model with safe leave and notification preserves continuity without lying about completion."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Instrument waiting states. Measure not only backend duration but repeat submission, abandonment, support contact, and whether people understand the current state. A technically fast system can still feel unreliable if its feedback is ambiguous."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a file upload. After a person selects a large document, the interface goes silent for twenty seconds. A progress indicator, continued ability to cancel, and a durable status help them understand whether work is advancing. Avoid fake precision; if timing is unknown, show meaningful stages and what remains safe to do."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "M02 has now moved from what people perceive to what they remember, decide, physically do, feel, and wait through. M03 applies these human constraints to tasks, workflows, and conceptual models."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Observe three loading or submission states. For each, answer: what happened, what is happening, how long might it take, can I leave, and what will prove completion?"
+    }
+  ]
+}

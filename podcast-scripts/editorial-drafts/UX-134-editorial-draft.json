@@ -1,0 +1,166 @@
+{
+  "lesson": "UX-134",
+  "title": "Information Scent Before Commitment",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Information Scent Before Commitment. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Information scent is the set of cues that helps a person predict where a link, label, result, or control will lead. Strong scent reduces wasted exploration by connecting the person’s current goal and vocabulary to a plausible next destination."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use descriptive labels, useful previews, visible attributes, and consistent terminology. Search results should show why an item matched; navigation labels should name a destination or task; cards should reveal enough consequence to make a choice. Do not over-promise: a label that sounds precise but leads to a broad or unrelated page damages trust."
+    },
+    {
+      "speaker": "host",
+      "act": "Treat every link as a prediction",
+      "mood": "thinking",
+      "text": "What changes when we look at treat every link as a prediction?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Information scent is the set of cues people use to estimate whether a route will move them closer to their goal. Labels, surrounding context, metadata, examples, source, and visual emphasis all contribute. Strong scent is not necessarily verbose; it exposes the distinction that matters for the next choice. Misleading scent can produce fast, confident failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests prediction directly. Participants describe what they expect after selecting a label, what information the destination will contain, and what consequence an action will create. It compares prediction with the actual destination and records confident mismatch."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analytics can show backtracking or pogo-sticking, but interviews explain whether scent, content, or changed intent caused it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: pricing plans",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: pricing plans?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A plan name such as “Pro” has weak scent without audience, limits, billing basis, and consequential exclusions. A user should not need to begin checkout to discover that collaboration or data export is unavailable."
+    },
+    {
+      "speaker": "host",
+      "act": "Design predictive cues",
+      "mood": "thinking",
+      "text": "What changes when we look at design predictive cues?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before a person clicks, opens, downloads, starts, or submits, provide enough cue to estimate value and cost. Labels, snippets, metadata, source, format, date, size, eligibility, price, duration, and consequence create scent. The right cues depend on the decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Strong scent is distinctive and honest. “Learn more” provides little prediction; “Refund eligibility and deadlines” narrows uncertainty. A card image may attract attention without explaining destination. Avoid clickbait or concealed conditions that create traffic while damaging task success."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test links and results in their surrounding set. Ask people where they expect each route to lead and what information supports the choice. Measure pogo-sticking, rapid backtracking, reformulation, abandonment, and downstream completion. Poor scent can look like navigation failure after the click."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Preserve scent across transitions: destination heading, state, and content should confirm the promise. When a route requires commitment, expose material prerequisites and alternatives beforehand so the person can choose without sunk effort."
+    },
+    {
+      "speaker": "host",
+      "act": "Engineer scent across the path",
+      "mood": "curious",
+      "text": "What changes when we look at engineer scent across the path?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unknown and negative evidence are part of scent. If step-free access is unverified, omitting the field encourages the optimistic inference that no problem exists. If an option cannot accept a particular referral type, showing it as available and revealing the exclusion later wastes work and may threaten care continuity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Strong scent can appropriately reduce clicks, because the person avoids an unsuitable route before investing effort."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests scent through prediction, first choice, destination confirmation, backtracking, and downstream outcome. Search analytics reveal repeated reformulation; rapid return can indicate weak scent or genuinely comparative behaviour. Interviews and controlled tasks distinguish the mechanisms."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The resulting evidence updates labels, summaries, metadata, ranking, and sometimes the underlying service promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: cloud pricing",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: cloud pricing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A “Business” plan card has weak scent if it omits billing basis, collaboration limits, support level, data residency, and the point at which charges grow. Users may enter checkout quickly and abandon later. Exposing decisive differences earlier can lower checkout starts while improving qualified completion and trust."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Stronger scent may reduce conversion by helping people avoid an unsuitable route. Senior practice protects this service value from teams that optimise entry clicks, and treats unknown or adverse evidence as part of an honest pre-commitment experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Two links sit beneath a billing question: “Account services” and “Change payment method.” The first sounds organisational; the second predicts the destination and consequence. The difference is information scent."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Before opening three links or product cards, write what you expect behind each. Compare the destination with your prediction and identify which cue created any confident mismatch."
+    }
+  ]
+}

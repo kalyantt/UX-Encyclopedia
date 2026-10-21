@@ -1,0 +1,197 @@
+{
+  "lesson": "UX-111",
+  "title": "Build a Research Plan That Can Change a Decision",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Build a Research Plan That Can Change a Decision. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A research plan connects a decision to evidence. State the decision, research question, assumptions, participants, method, stimuli, ethical protections, timing, analysis approach, owner, and how findings will be used. The plan is not a promise to answer everything; it is a disciplined choice about what uncertainty is worth reducing now."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Select methods by the evidence needed. Interviews reveal language and past behaviour; observation reveals context and workarounds; usability studies expose interaction difficulty; analytics reveals patterns; experiments compare effects. State what the method cannot establish so stakeholders do not overread the result."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define disconfirming evidence and a next action for each likely outcome. This keeps research from becoming a report that validates the original idea after a decision is already fixed."
+    },
+    {
+      "speaker": "host",
+      "act": "Pre-commit how results will change the choice",
+      "mood": "thinking",
+      "text": "What changes when we look at pre-commit how results will change the choice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team schedules analysis and a decision workshop before recruitment. Owners agree to attend and preserve option space. Deviations are logged: if one clinic withdraws, the resulting operational gap is visible rather than silently generalised away. The final output is a decision record with evidence links, unresolved risks, and next learning—not merely a slide deck."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "curious",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Template completion: sections are filled without a trace from decision to evidence. Unavailable option space: stakeholders approve research after committing to the solution. Session-heavy, analysis-light: recruitment is protected while synthesis time disappears. Confirmation threshold: only evidence supporting launch has a defined response."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Ethics appendix: participant risk is documented but does not alter method, data, or scope."
+    },
+    {
+      "speaker": "host",
+      "act": "Build every section from the decision",
+      "mood": "thinking",
+      "text": "What changes when we look at build every section from the decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Record background, decision, owner, date, options, risk, existing evidence, assumptions, research questions, method, participants, scenario, analysis, ethics, outputs, limitations, and how findings will be used. Each item should reduce ambiguity rather than fill a template."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the evidence threshold: what result would support, alter, delay, or stop the decision? Pre-plan important comparisons and claims while keeping qualitative work open to unexpected meaning. Include a route for urgent severe findings."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Estimate recruitment, accessibility, tools, consent, incentives, data handling, stakeholders, and analysis time. Pilot the guide or task. Do not compress synthesis to preserve session count; unanalysed contact is not research."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Share the plan with decision makers and relevant disciplines before fieldwork. Confirm they can still act. Afterward, compare intended and actual execution, document deviations, and link findings to decisions. The plan is a living quality and alignment artefact, not a permission form."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the plan as a chain of inference",
+      "mood": "curious",
+      "text": "What changes when we look at build the plan as a chain of inference?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The plan includes a sampling logic rather than a participant count alone. It covers patients with different appointment constraints, digital and assisted routes, access needs, prior transfer outcomes, and clinics with different operating models."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Methods are sequenced: desk and organisational work defines constraints; interviews and observation reveal the current mechanism; a content-rich prototype tests understanding; a service rehearsal tests the handoff. Later evidence can revise earlier questions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analysis is planned before collection. The team states the unit of analysis, how observations will be coded, how contradictions will be handled, what quantitative denominator applies, and who participates in interpretation. It separates evidence thresholds for reversible design details from a high-consequence clinical or policy assumption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Stop rules cover participant distress, unsafe interpretation, privacy failure, and evidence strong enough to abandon the idea."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The plan also states logistics as methodological conditions: consent, recording, accessibility, data handling, recruitment source, researcher role, stakeholder observation, timeline, and decision meeting. A study delivered after the product commitment cannot change it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The final section names possible outcomes—proceed, narrow, redesign, run another test, or stop—and the owner authorised to act on each."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: authentication redesign",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: authentication redesign?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A plan to “test the new login” is too vague. The decision may involve passkey adoption, account recovery, fraud, device sharing, or comprehension. Each needs a different population, evidence, risk threshold, and operational counterpart. Writing the inference chain prevents one usability session from being used to justify the entire security strategy."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The most expensive plan is often not the slowest one; it is the study that produces interesting findings nobody can use. Make the intended decision and possible change visible before recruiting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an education platform. Before interviewing learners about a proposed dashboard, the team names its decision: whether progress is unclear enough to justify building one. It lists alternative causes, selects participants who recently struggled, specifies what evidence would change the roadmap, and conducts the work before the implementation commitment."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plan example Decision: whether to require identity verification before account exploration. The plan examines when trust is earned, why verification is needed, who is excluded, technical and policy constraints, and the cost of fraud. It combines interviews, prototype tasks, capability sampling, and a technical review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Results can move verification, change its method, preserve it, or stop launch. The decision owner agrees to those possibilities before recruitment. lesson 19 framed research around a decision. lesson 111 turns that principle into an operational plan. lesson 112 widens the lens to the organisation that must act on the result."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a product question. Write one decision, two risky assumptions, one method per assumption, and the action you would take if each assumption is false."
+    }
+  ]
+}

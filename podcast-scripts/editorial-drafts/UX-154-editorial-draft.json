@@ -1,0 +1,208 @@
+{
+  "lesson": "UX-154",
+  "title": "Tokens, Components, Documentation, and Code Alignment",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Tokens, Components, Documentation, and Code Alignment. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design-system foundations connect design decisions to reusable implementation. Tokens express durable values such as colour, spacing, type, and motion. Components package structure, states, behaviour, and access requirements. Documentation explains purpose, anatomy, usage, variants, constraints, and examples."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Code alignment keeps the delivered system faithful to those decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The aim is not to create the maximum number of tokens or components. It is to make the right decisions reusable, inspectable, and evolvable. Include states, content rules, interaction behaviour, and accessibility expectations—not only default appearance."
+    },
+    {
+      "speaker": "host",
+      "act": "Maintain one contract across representations",
+      "mood": "thinking",
+      "text": "What changes when we look at maintain one contract across representations?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tokens encode named decisions, components encode behaviour, and documentation explains intent and conditions. Design assets and production code are representations of the same contract; neither is automatically authoritative for every question. Alignment requires shared naming, versioning, tests, ownership, and a release process that exposes drift."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contract tests cover allowed state combinations, keyboard and screen-reader behaviour, content constraints, responsive layout, themes, and visual regression. Documentation uses realistic edge cases and states when the component is inappropriate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automated checks catch mismatched tokens and APIs; human review catches a technically aligned implementation that communicates the wrong consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: date input",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: date input?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A design asset can show a calendar while code accepts locale-specific typing, validation, time zones, and screen-reader interaction. Alignment means all representations agree on the task and behaviour, not that they share a screenshot."
+    },
+    {
+      "speaker": "host",
+      "act": "Align layers through shared meaning",
+      "mood": "thinking",
+      "text": "What changes when we look at align layers through shared meaning?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tokens encode decisions from primitive values to semantic roles and component-specific application. Preserve the same names and intent across design tools, code, platforms, themes, and documentation where possible. Automated transformation reduces drift, but governance determines when a token changes meaning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map component anatomy, properties, variants, and states between design and implementation. Avoid design-only variants or code-only behaviour that makes handoff fictional. Test generated packages, visual regressions, semantics, accessibility, responsive behaviour, and content constraints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Documentation connects purpose to use. Include when to use, when not to, examples, anatomy, API, content, accessibility, states, responsive rules, known limitations, version, and migration. Executable examples reduce ambiguity, while rationale helps teams decide when the component does not fit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create traceability from token to component to shipped product. When a change occurs, teams should know impact, compatibility, owner, and required action. Alignment is a maintained pipeline, not a one-time naming exercise."
+    },
+    {
+      "speaker": "host",
+      "act": "Trace one decision through every representation",
+      "mood": "curious",
+      "text": "What changes when we look at trace one decision through every representation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tokens are named by durable purpose where possible. Primitive values support construction, semantic tokens express roles, and component tokens handle legitimate local detail. blue-500 exposes appearance; status-information-background records intended use, though the team must still prevent one semantic role from mixing urgency and uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Themes can change values while meaning and contrast obligations remain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Component APIs encode allowed contracts instead of arbitrary combinations. Content slots have required relationships and limits. State, action, accessibility, responsive behaviour, loading, empty, error, and data freshness are documented with realistic cases. Code, design, and documentation release together or visibly declare version difference."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automated checks catch token references, type mismatch, visual regression, semantic attributes, and unsupported combinations. Human and assistive-technology review catches meaning, composition, and task failure. Drift metrics identify detached assets, overrides, old versions, and undocumented APIs; governance determines which representation is authoritative for which decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: date entry",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: date entry?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A calendar screenshot cannot specify locale input, keyboard behaviour, parsing, time zone, unavailable ranges, validation, and screen-reader interaction. Alignment means each representation expresses the same behavioural contract, not that design and code look alike at rest."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When a team creates a one-off component, inspect whether the existing foundation is missing a capability, the product context is genuinely distinct, or documentation failed to make the intended path clear."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Alignment is a delivery contract. Foundations and tokens express semantic decisions; components package behaviour, state, and structure; documentation tells people when and how to use them; implementation keeps the behaviour real in code."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Connect design and code through shared names, versioning, examples, automated checks, and a review process that catches drift before it reaches many products."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Token literalism: raw values are renamed without a semantic model or usage rule. Design-code fork: the library looks consistent in design files but behaves differently in production. Happy-state documentation: loading, error, disabled, content, and responsive states are omitted. Stale examples: teams copy documentation that no longer matches current implementation."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A button looks identical in the design file and product, until an error state, long label, keyboard focus, or dark background appears. The component was documented visually, but its behaviour and implementation contract were incomplete."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 153 framed the system as a product for teams. lesson 154 defines its building blocks. lesson 155 addresses how those blocks change without breaking teams."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose one component. List its tokens, states, content constraints, interaction rules, access requirements, and how a developer would know it is implemented correctly."
+    }
+  ]
+}

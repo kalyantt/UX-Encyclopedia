@@ -1,0 +1,176 @@
+{
+  "lesson": "UX-028",
+  "title": "Mapping the Opportunity Space",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Mapping the Opportunity Space. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An opportunity space maps customer needs, pain points, desires, and behaviours that could contribute to a product outcome. An opportunity solution tree separates the desired outcome, the opportunities that may influence it, possible solutions, and assumptions to test. It keeps teams from jumping directly from a metric to a favourite feature."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use opportunities as a shared language for discovery. They should be evidence-backed and specific enough to investigate, but not prematurely framed as interface ideas. Revisit the map as new evidence arrives."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked contrast: three statements at three layers",
+      "mood": "thinking",
+      "text": "What changes when we look at worked contrast: three statements at three layers?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Patients abandon booking” is an observed product pattern, not yet an opportunity. “Patients cannot determine which offered appointment fits travel and clinical constraints” is a candidate opportunity grounded in episodes. “Add a comparison table” is a solution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keeping these layers separate lets the team challenge the mechanism and consider staff assistance, better defaults, saved comparison, or policy change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The map can also contain service opportunities that no patient explicitly requests. Stale availability causes distrust and rework, yet people experience only a slot disappearing. Triangulating system and staff evidence makes the upstream opportunity visible without pretending it came from a customer quote."
+    },
+    {
+      "speaker": "host",
+      "act": "Build opportunities from evidence",
+      "mood": "curious",
+      "text": "What changes when we look at build opportunities from evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Express opportunities as customer needs, pains, desires, or obstacles—not features. Connect each to observed situations and desired outcomes. Organise by causal or experiential relationship rather than a convenient brainstorm hierarchy, and allow evidence to move or split nodes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Assess importance, frequency, satisfaction with current alternatives, consequence, affected groups, strategic fit, and evidence strength. Avoid arithmetic that hides judgement. Map solution ideas separately so the team can compare multiple responses to one opportunity and one response across several needs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use the map to choose discovery, not to fill a roadmap automatically. Identify the most consequential uncertain branch, then test its assumptions. Keep source links, owners, and review dates. An opportunity space is a living model of what the team believes, not objective territory."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep opportunity, solution, and assumption distinct",
+      "mood": "thinking",
+      "text": "What changes when we look at keep opportunity, solution, and assumption distinct?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The tree records scope, affected contexts, confidence, and related opportunities. Prioritisation combines consequence, frequency, inequity, strategic relevance, and tractability; it does not turn a voting score into truth. Rare safety failures remain visible beside common inconvenience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each candidate solution carries desirability, usability, feasibility, viability, and ethical assumptions. Test results can revise the solution, the opportunity explanation, or the outcome itself. The map remains a living decision model rather than an approved roadmap."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An opportunity map is valuable when it changes prioritisation. Keep traceability from each branch to evidence and make unsupported branches visibly provisional."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An opportunity is a customer or service condition that may be worth improving, expressed independently of a particular solution. It should be grounded in behaviour, context, and consequence: for example, “people cannot predict whether an urgent request has been received” is an opportunity; “add tracking notifications” is a possible response."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This distinction keeps the team able to compare different ways to create value."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use an opportunity-solution tree or equivalent map to connect a desired outcome to evidence-backed opportunities, solution directions, and assumptions. The tree is a living decision artefact, not a decorative workshop output. It exposes gaps: outcomes without a mechanism, opportunities without evidence, solutions without tests, and tests that do not target the riskiest belief."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Prune branches when evidence weakens them and preserve the learning so they are not repeatedly rediscovered."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Feature-labelled opportunity: the map begins with the solution the team already wants. Flat backlog: unrelated needs are treated as equal without connection to an outcome. Evidence-free branches: a workshop idea becomes a strategic priority without customer evidence. No ownership: the map exists but does not influence prioritisation or experiments."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“Build favourites” is a solution. “Readers lose promising articles while comparing” is an opportunity that may be solved through history, tabs, saved lists, or better comparison."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interviews expose behaviours and unmet needs. This lesson organises them into choices. lesson 29 tests the assumptions beneath the chosen solution."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Build a mini opportunity tree for improving a daily task. Keep solutions separate from the underlying need."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "lesson": "UX-077",
+  "title": "Deceptive Patterns",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Deceptive Patterns. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Deceptive patterns steer, pressure, obstruct, or mislead people into actions they did not intend or would not choose with fair information and effort. Harm can arise through language, salience, defaults, timing, sequence, repetition, friction, hidden information, and service rules—not only obviously sinister visuals."
+    },
+    {
+      "speaker": "host",
+      "act": "Deception is a mechanism, not a visual style",
+      "mood": "curious",
+      "text": "What changes when we look at deception is a mechanism, not a visual style?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Common mechanisms include:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "sneaking: material cost, data use, or consequence appears late or is concealed; obstruction: cancellation, refusal, correction, or withdrawal takes disproportionate effort; interface interference: visual hierarchy favours the organisation’s choice and suppresses alternatives; forced action: unrelated data or behaviour is required for the desired service; nagging: repeated prompts wear down refusal; trick wording: questions or controls exploit expectation and linguistic ambiguity; preselection and defaults: inaction becomes agreement or the highest-value option; false scarcity or urgency: unsupported pressure shortens deliberation; disguised content: advertising or persuasion appears as neutral navigation or information."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The ethical test is not whether an option is technically visible. Ask whether a reasonable person in context can recognise alternatives, understand material consequences, refuse without unjustified penalty, and reverse where possible."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit choice architecture and incentives",
+      "mood": "thinking",
+      "text": "What changes when we look at audit choice architecture and incentives?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each consequential choice, record the person’s likely goal, organisation’s preferred outcome, alternatives, material information, default, salience, order, effort, timing, repetition, reversibility, and power imbalance. Compare effort and comprehension for acceptance versus refusal."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trace the business mechanism. Acquisition, consent, retention, booking, and revenue targets can reward manipulation when dashboards omit regret, reversal, complaint, chargeback, unsafe completion, and long-term trust. Deception often emerges from fragmented ownership: one team gains conversion while support, patients, or partners absorb harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test decision quality, not only selection. Ask people to explain what they chose, its cost or uncertainty, what happens next, and how to change it. Observe refusal, reversal, and recovery. Segment impact by familiarity, language, disability, urgency, and other relevant vulnerability."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription cancellation",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: subscription cancellation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A service makes “keep subscription” a bright button, cancellation a faint link, adds guilt wording, asks for repeated confirmation, and hides the end date. A cosmetic rewrite does not repair obstruction. Fair design shows consequences, offers pause without blocking cancellation, confirms timing, preserves data choices, and makes exit comparable in effort to entry."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric defence: short-term lift excuses reduced comprehension or agency. Taxonomy theatre: the pattern is named but incentive and service mechanism remain. Cosmetic repair: colour or copy changes while obstruction persists. Legal visibility: disclosure exists but arrives too late or is functionally hidden."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Vulnerability extraction: urgency, distress, low literacy, or unfamiliarity increases conversion. Experiment laundering: randomisation is used to legitimise an ethically unacceptable treatment."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit the choice architecture and incentive",
+      "mood": "curious",
+      "text": "What changes when we look at audit the choice architecture and incentive?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "He compares paths for accepting and declining, consenting and withholding, joining and leaving, sharing and limiting data. Unequal effort needs a user-benefit justification. Urgency must come from real availability with a truthful timestamp, not manufactured countdowns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Defaults are evaluated for expected benefit, risk, and ability to change, especially where vulnerability or health consequences raise the stakes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team documents business or operational incentives that could reintroduce deception: conversion targets, demand-shifting goals, or pressure to reduce support. Reviews include complaint and cancellation patterns, accidental actions, comprehension, and subgroup effects."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compliance is a floor; the ethical test is whether a reasonable person can understand the choice, consequences, and alternatives without being tricked or worn down."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Deceptive patterns are governance failures. Senior practitioners align OECs with durable value, monitor reversal and harm, review consequential defaults, and establish escalation for pressure from growth targets. Some variants should never enter an experiment because known manipulation is not made ethical by uncertainty about its conversion effect."
+    },
+    {
+      "speaker": "host",
+      "act": "Diagnose whose outcome the interaction optimises",
+      "mood": "curious",
+      "text": "What changes when we look at diagnose whose outcome the interaction optimises?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The test is not whether the pattern increases conversion. The team asks whether consequence is visible before commitment, refusal is comparable, defaults serve the person, claims are truthful, and recovery is practical. Short-term metrics are paired with complaints, reversal, harm, and trust. Clinical urgency is communicated when real, never manufactured to push adoption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a subscription checkout. The purchase button is prominent while the recurring price appears faintly below it, and cancellation requires a phone call. Each decision may look small in isolation. Together they steer people toward a commitment they may not understand or be able to leave."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Evaluate the full path, including exit and remedy, rather than the checkout conversion rate alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Compare the easiest path to say yes with the path to say no. Count steps, but also compare visual weight, language, information timing, anxiety, and consequences. Where does technical choice stop being practical agency?"
+    }
+  ]
+}

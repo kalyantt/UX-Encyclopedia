@@ -1,0 +1,206 @@
+{
+  "lesson": "UX-007",
+  "title": "Your Brain Does Not See Everything",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Your Brain Does Not See Everything. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A passenger opens a travel app to check a departure time. A small banner at the top says the gate has changed, but the passenger's eye goes straight to the large departure card they came to read. The message was on the screen. It never became part of the decision. This lesson explains why being visible is not the same as being noticed, understood, and acted on."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Perception is selective and expectation-led. People do not inspect every pixel and then decide what matters. They notice a small subset of what is available, guided by their goal, prior knowledge, location of attention, contrast, motion, and what they expect a screen like this to contain. The rest is filtered, interpreted quickly, or missed entirely."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This is why an important message cannot be made reliable by merely placing it on a screen. It needs to be in the person's path, distinguishable from surrounding material, expressed in language they can understand, and timed when it can change the next action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A bright element can attract attention but still fail if it looks like an ad, appears after the decision, or does not explain what to do."
+    },
+    {
+      "speaker": "host",
+      "act": "Follow the attention filter",
+      "mood": "thinking",
+      "text": "Can we follow the attention filter step by step?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Goal and expectation → attention lands on a few cues → interpretation → action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Imagine the screen has three competing elements: a large departure card, a small gate-change message, and a promotion. Someone checking the departure time is likely to start with the card. If the gate change sits outside that path, the person may act on an incomplete picture. The design question is not simply how bright to make the banner."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It is where the new information belongs in the task and what action it requires."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism: perception is an active prediction",
+      "mood": "curious",
+      "text": "How does perception is an active prediction actually work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Vision is not a complete recording that the mind inspects later. People direct their eyes through movements and brief fixations, while attention selects a fraction of available information for deeper processing. Top-down factors—goal, expectation, prior knowledge, and current question—make some signals likely to be sampled."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Bottom-up features—contrast, onset, motion, size, and novelty—can capture attention, but capture is not the same as correct interpretation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This distinction explains several apparently contradictory findings. A visually loud message can be ignored because it resembles advertising. A subtle change can be detected when it appears exactly where a person is monitoring. A person can look directly at an element without incorporating its meaning into the task."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Change blindness is especially likely when a change occurs during a transition or outside the attended object. Inattentional blindness occurs when attention is occupied by another demand. Neither is evidence that a person is careless."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Diagnose the missing stage. Did the eyes fail to reach the information? Was the signal seen but grouped as irrelevant? Was it read but misunderstood? Was it understood after the moment for action? Eye tracking may help with the first question but cannot answer all four. Combine brief exposure, observation, recall, comprehension, and action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The design response should match the failure: placement for sampling, visual form for discrimination, language for meaning, timing for usefulness, and persistent state for later verification."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The boundary is important: making every critical item larger or animated creates competition and habituation. Salience must express a priority model. In high-consequence work, the system may need to block or restructure an action; visual emphasis alone is not a reliable safety control."
+    },
+    {
+      "speaker": "host",
+      "act": "Put it to work",
+      "mood": "thinking",
+      "text": "What would you do with that in a real product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with the one thing a person needs to notice at this moment. Remove or subordinate competing signals. Do not rely only on colour: use position, clear language, shape, and persistent status. Test the screen with a brief exposure, then ask what people saw and what they think it meant. If they cannot report the critical information, it did not function as a message."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat “nobody noticed it” as a diagnosis problem. Was the information absent from the task path? Did it resemble low-value content? Did the team's visual system make everything equally loud? Did the message arrive when it could no longer change behaviour? These hypotheses lead to different fixes and different measures."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Selective perception creates a gap between availability and usability. A person’s current goal, previous experience, location of attention, expectations, and environmental distraction determine what becomes meaningful. Salience can attract a glance, but relevance and timing determine whether that glance changes action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Important information should be in the task path, distinguishable from low-value material, understandable at a glance, and present while the person can still respond."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Test perception rather than assuming it from implementation. Use brief-exposure studies, task observation, comprehension checks, and behavioural signals to see whether a message was noticed and correctly understood. Consider accessibility too: an alert conveyed only by colour, animation, or visual location may not reach everyone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The system needs redundant, appropriate cues matched to consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Technically present: a critical message exists but looks like advertising or background chrome. Too-late signal: information appears after the person can no longer alter their choice. Single-cue dependency: colour, motion, or position is the only way to perceive a meaningful change. Signal competition: every message uses the same urgency treatment, so none is credible."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a travel app. A time-sensitive gate change appears in a slim banner while the main departure card continues to show the old gate. A passenger who checks only the card leaves with the wrong information. A stronger design updates the card itself, makes the change distinguishable, and gives the passenger a way to confirm the current gate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "This is a hypothetical example, not a claim about a particular app."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 1 taught that an experience is an attempt to make progress. This lesson explains why a correct interface response can still fail to become part of that attempt. lesson 8 will show how grouping and hierarchy make the intended information easier to perceive."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Open a dense screen for three seconds. Close it and list what you noticed, what you missed, and what you assumed was important. Compare that with what the product actually needed you to do."
+    }
+  ]
+}

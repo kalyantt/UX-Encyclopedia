@@ -1,0 +1,182 @@
+{
+  "lesson": "UX-036",
+  "title": "Telling a Research Story",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Telling a Research Story. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research storytelling structures evidence so an audience can understand why it matters and what to do next. Start with the decision or tension, introduce the person and context, show representative evidence, explain the insight and confidence, then state the implication. Use stories to clarify, not manipulate."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tailor detail to the audience while preserving traceability and uncertainty. Executives may need decision implications; engineers may need edge cases and constraints; designers may need behavioural detail. The underlying evidence should remain available."
+    },
+    {
+      "speaker": "host",
+      "act": "Build narrative from evidence and choice",
+      "mood": "thinking",
+      "text": "What changes when we look at build narrative from evidence and choice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Different audiences need different depth, but the evidence remains traceable. Leaders see consequence and decision; delivery teams see behaviours and edge cases; operations see handoffs and capacity. Uncertainty, counter-evidence, and people who do not fit the dominant story remain visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The close names the decision, recommended next test, owner, and what would change the conclusion."
+    },
+    {
+      "speaker": "host",
+      "act": "Storyboard the reasoning, not just the drama",
+      "mood": "curious",
+      "text": "What changes when we look at storyboard the reasoning, not just the drama?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Numbers establish reach only when denominator and population match. A quote supplies meaning only with context. A blueprint explains system cause but does not estimate frequency. The presenter says which role each piece plays so stakeholders do not treat all visual evidence as interchangeable proof."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "After the playback, the owner records a decision, unresolved objection, action, and review trigger. If stakeholders remember only the dramatic patient and cannot state the mechanism or choice, the story has created sympathy without shared product judgment."
+    },
+    {
+      "speaker": "host",
+      "act": "Structure for a decision",
+      "mood": "thinking",
+      "text": "What changes when we look at structure for a decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with the audience, decision, stakes, and what they already know. Establish the person and context, show the evidence pattern, explain the mechanism, connect it to consequence, and present choices or next learning. Use selected stories to make a pattern concrete while preserving its limits."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Distinguish evidence, interpretation, and recommendation visually and verbally. Include counterevidence, uncertainty, sample and method limits, and source traceability. Quantitative scale and qualitative mechanism strengthen one another when their populations and definitions align."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tailor depth without changing truth. Leaders may need consequence and decision; delivery teams need scenarios and evidence; operational teams need handoffs and ownership. Provide access to supporting material. A persuasive story must not become advocacy that hides inconvenient evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Build an evidence spine that survives retelling",
+      "mood": "curious",
+      "text": "What changes when we look at build an evidence spine that survives retelling?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The story also makes alternatives legible. An interface-only confirmation is faster and cheaper but may mask disagreement. A durable receipt improves inspectability but still needs authoritative updates. Reconciliation monitoring adds operational cost while addressing the underlying failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Leadership is asked to choose the level of intervention and risk, not simply approve the research team's preferred screen."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Persuasion without calibrated confidence is advocacy theatre. State what is known, what is inferred, what remains uncertain, and what decision is justified now."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A strong evidence story makes its reasoning inspectable. Begin with the decision and why it matters. Place the audience in a representative context, show a small amount of direct evidence, explain the pattern and its confidence, then name the implication and unanswered questions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This structure gives a team enough human detail to care without allowing a single story to substitute for the whole evidence base."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Match form to purpose. A short playback may create shared context; a one-page decision brief can clarify action; a working session may help teams interpret evidence together; a repository preserves traceability for later use. Present uncertainty honestly. When evidence is early, say what would strengthen or challenge it rather than performing certainty to win approval."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Emotional manipulation: an exceptional story is used to force a predetermined decision. Evidence-free conclusion: the recommendation arrives without an inspectable chain. Audience mismatch: detailed research is delivered where a decision needs clear implications, or vice versa. No follow-through: a compelling presentation ends without owner, next test, or decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A dramatic quote can win attention but distort prevalence. Pairing one representative episode with distribution, exceptions, and source links creates a story that is memorable without becoming manipulation."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Synthesis creates patterns, personas, scenarios, and maps. This lesson turns them into influence. Module 7 applies the same clarity to information, language, navigation, and findability."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Explain one insight as a short story without exaggerating its certainty. Include the audience, context, evidence, implication, and limitation."
+    }
+  ]
+}

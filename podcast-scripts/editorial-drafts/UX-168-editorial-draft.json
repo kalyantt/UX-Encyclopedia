@@ -1,0 +1,211 @@
+{
+  "lesson": "UX-168",
+  "title": "Fitts’ Law, GOMS, and Responsible Early Estimates",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Fitts’ Law, GOMS, and Responsible Early Estimates. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Predictive interaction models estimate aspects of skilled physical and procedural performance. They are useful because teams can compare alternatives early and identify avoidable work. They are limited because human activity also includes perception, comprehension, learning, uncertainty, emotion, collaboration, error, interruption, disability, and meaning."
+    },
+    {
+      "speaker": "host",
+      "act": "Models reduce a bounded kind of uncertainty",
+      "mood": "curious",
+      "text": "What changes when we look at models reduce a bounded kind of uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Fitts’ Law models pointing time as a function of distance to a target and its effective width in the direction of movement. A common form is:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "MT = a + b × log₂(D / W + 1)"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "MT is movement time, D is distance, W is target width, and a and b are empirically fitted for a device and context. The logarithmic term is an index of difficulty. Larger targets and shorter travel generally support faster selection."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Screen edges can act as effectively deep targets for a pointer because the cursor cannot overshoot—but that advantage does not automatically transfer to touch, eye gaze, switch control, or spatially separated devices."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Fitts’ Law does not tell whether the target is noticed, understood, safe, or reachable by keyboard. Visual size may differ from effective interactive size. Nearby destructive actions may increase errors even if movement is fast."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "GOMS represents routine work through Goals, Operators, Methods, and Selection rules. A goal such as “resolve missing referral data” can have several methods; selection rules describe when an experienced user chooses each."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The Keystroke-Level Model (KLM) estimates a learned, error-free method using operators such as keystrokes, pointing, homing between devices, mental preparation, and system response."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These models are strongest for stable, frequent, skilled tasks with known methods. They are weak for discovery, learning, interpretation, variable AI output, collaboration, error recovery, and situations where people invent strategies as they go."
+    },
+    {
+      "speaker": "host",
+      "act": "Conduct a responsible comparison",
+      "mood": "thinking",
+      "text": "What changes when we look at conduct a responsible comparison?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Define the user, expertise, device, environment, task, starting state, and successful end state. 2. Write each plausible method as an observable sequence. Include system waits and device switching. 3. Apply only the model whose assumptions fit. Use locally measured constants where precision matters. 4."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Report a range and relative difference rather than false universal precision. 5. Mark model boundaries—decision, search, interruption, error, collaboration, or interpretation. 6. Predict side effects such as accidental activation, reduced discoverability, accessibility barriers, or increased training. 7."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validate consequential changes with representative people and realistic work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analytical models can eliminate obviously inefficient options or direct attention. They cannot establish desirability, safety, or outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: creative software",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: creative software?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A keyboard shortcut may outperform a menu in a KLM estimate for expert repetition. Novices may not discover it, users with motor impairments may find the chord inaccessible, and accidental activation may be costly. A responsible design can provide menu visibility, remapping, undo, and progressive shortcut discovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The model supports an expert accelerator; it does not justify removing the learnable path."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Click-count simplification: all actions are treated as equal. False constants: textbook timings are presented as local measurements. Model beyond boundary: search, judgement, error, or collaboration is squeezed into precise estimates. Average operator: capability, device, expertise, and context variation disappears."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Speed as outcome: faster interaction is assumed to be better despite errors or reduced deliberation. Optimisation trap: one local task improves while the end-to-end service worsens."
+    },
+    {
+      "speaker": "host",
+      "act": "Use models to compare designs, not certify them",
+      "mood": "curious",
+      "text": "What changes when we look at use models to compare designs, not certify them?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The estimates exclude many decisive factors: learning, visual search, comprehension, emotion, collaboration, fatigue, accessibility, error recovery, system latency, and service consequence. A faster shortcut can be unsafe; a larger target can encourage premature action; a predicted time saving may disappear under real queue interruptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Models narrow design candidates and identify questions for evaluation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team verifies with observation and performance data across relevant input methods and people. Prediction error is recorded and the model updated or discarded. Senior practice reports both estimated benefit and the conditions under which it holds rather than presenting a precise number as scientific certainty."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: warehouse picking",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: warehouse picking?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Movement modelling can compare scanner controls and item confirmation, but cannot capture aisle congestion, packaging variation, fatigue, or exception judgment. Combining the estimate with field observation prevents a locally faster interface from slowing the whole operation."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners decide where efficiency is ethical. Faster is valuable for high-volume clerical work, but deliberation may protect informed consent, safety, or financial judgement. Document model version, assumptions, constants, task method, excluded behaviour, and sensitivity to changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Where an estimate influences staffing or investment, validate it under real conditions and include variability rather than a single impressive number."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a warehouse scanning tool. A smaller target farther from the user's thumb may increase selection effort; a long, branching flow adds steps to a repeated task. Fitts' Law and GOMS can help compare early options under stated assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Validate those estimates with real devices, gloves, movement, error recovery, and the actual work environment before treating them as performance facts."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Compare two ways to perform the same action. Identify distance, target size, device changes, mental preparation, and system wait. Then list three important aspects of the experience the estimate cannot represent."
+    }
+  ]
+}

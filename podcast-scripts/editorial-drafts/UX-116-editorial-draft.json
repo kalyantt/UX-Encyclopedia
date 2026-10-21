@@ -1,0 +1,166 @@
+{
+  "lesson": "UX-116",
+  "title": "Researching Experience Over Time",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Researching Experience Over Time. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Some questions cannot be answered in a single session. Diary studies, longitudinal research, and in-the-wild methods reveal habits, recurrence, learning, abandonment, changing context, and the difference between first impression and sustained value. They are useful when the product depends on a rhythm: health, money, travel, collaboration, notifications, or behaviour change."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse trajectories and attrition",
+      "mood": "curious",
+      "text": "What changes when we look at analyse trajectories and attrition?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Researchers build individual timelines before comparing cases. They distinguish product events, external changes, participant interpretation, and outcome. Patterns include stable monitoring, escalating contact, constraint change, successful alternative, and silent abandonment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People who stop contributing may be overburdened, unwell, dissatisfied, or simply resolved; attrition is both a validity issue and possible product evidence, investigated without pressure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accumulated diary data is highly identifying. The team minimises detail, limits access, reconfirms use, and defines deletion. Findings do not estimate prevalence; validated telemetry and survey evidence later examine reach."
+    },
+    {
+      "speaker": "host",
+      "act": "Capture change, waiting, and resumption",
+      "mood": "thinking",
+      "text": "What changes when we look at capture change, waiting, and resumption?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Time-based evidence reveals how understanding and trust change, where people create reminders, and which uncertainties become harmful only after delay. Attrition and missing entries are analysed rather than treated as neutral. Diary reports are compared with service events and follow-up interviews to interpret what occurred."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "curious",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Calendar-led cadence: prompts follow researcher convenience instead of meaningful events. Research-created habit: frequent reminders cause the behavior the study claims to observe. Survivor story: only diligent completers shape the conclusion. Smooth journey fiction: loops, regression, and changing goals are edited into one linear path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Accumulating exposure: sensitive longitudinal data grows without renewed minimisation or consent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Plan a manageable cadence. Ask people to record specific events close to when they occur, collect relevant artifacts where appropriate, and check in to clarify patterns without turning the study into a burden. Expect incomplete entries; design the study around meaningful incidents rather than constant reporting."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose a temporal method",
+      "mood": "thinking",
+      "text": "What changes when we look at choose a temporal method?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Journeys involving learning, habit, health, finance, waiting, trust, or repeated service use cannot be understood in one session. Use diaries, experience sampling, longitudinal interviews, repeated usability, telemetry, or cohort analysis according to the question. Define duration and prompt frequency around meaningful events without creating excessive burden."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capture episodes close to occurrence through short entries, media, artefacts, or event-triggered questions. Follow up to understand interpretation and change. Track context, interruptions, workarounds, adaptation, and dropout. Participants who remain may differ from those who stop, so attrition is evidence and a validity concern."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Protect privacy as data accumulates; longitudinal records can become highly identifying. Re-consent for changed use and allow participants to review or withdraw according to the plan."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analyse within-person change and between-person variation. Connect moments to stages and outcomes without forcing every journey into a smooth line. The value is seeing how experience evolves after novelty, before and after consequences, and across recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Design a longitudinal evidence system",
+      "mood": "curious",
+      "text": "What changes when we look at design a longitudinal evidence system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prompts are small enough to sustain: what changed, what the person believes now, what action they took, what remains uncertain, and any artefact they wish to share. Interviews at key stages reconstruct the trajectory and clarify diary entries. Service logs provide timing and state but are never assumed to represent the lived meaning of the event."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attrition is evidence and a validity threat. People who become unwell, lose access, resolve the problem quickly, or feel overburdened may stop responding for different reasons. The team minimises burden, offers flexible formats and compensation, records missingness, and avoids presenting only the most engaged diaries as the typical journey."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription trial",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: subscription trial?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A launch interview captures initial enthusiasm but not habit, perceived value, billing surprise, or cancellation. A diary tied to setup, first success, lapse, renewal reminder, and charge can reveal when the product’s promise diverges from experience."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Longitudinal research creates participant burden and sensitive data over time. Senior researchers justify every prompt, plan attrition and safeguarding, and avoid interpreting silence as success. They connect changing experience to service events rather than producing a diary of feelings without mechanism."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A budgeting app tests well in a 40-minute session. Three weeks later, people have stopped opening it because its alerts became noise and its categories no longer match changing life events. Adoption is a time-based experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a service that unfolds over several days. Track when your questions change, what you forget, which reminders you create, and when waiting becomes a different experience rather than simply more time."
+    }
+  ]
+}

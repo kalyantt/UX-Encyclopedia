@@ -1,0 +1,150 @@
+{
+  "lesson": "UX-021",
+  "title": "Choosing the Right Method",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Choosing the Right Method. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Methods are instruments for different kinds of uncertainty. Generative research explores needs, context, behaviours, and language before a solution exists. Evaluative research tests whether people can understand and use a proposed design. Qualitative methods explain how and why; quantitative methods estimate scale, frequency, or relationships. No method is universally “best.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose based on the decision, stage, risk, access to participants, and evidence required. Interviews reveal reported experience and past behaviour; observation reveals action in context; usability tests reveal interaction breakdowns; surveys can compare patterns across larger samples; experiments estimate causal effects under controlled conditions."
+    },
+    {
+      "speaker": "host",
+      "act": "Constraints change scope, not epistemology",
+      "mood": "thinking",
+      "text": "What changes when we look at constraints change scope, not epistemology?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If only one week is available, the team narrows the decision to whether the current “check again” state is dangerously misunderstood. It does not send a quick survey and pretend to have answered service redesign."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When direct observation is unsafe, researchers can use screen-sharing, artifact walkthroughs, retrospective reconstruction, and staff simulation while clearly naming what remains unseen."
+    },
+    {
+      "speaker": "host",
+      "act": "Match method to claim",
+      "mood": "curious",
+      "text": "What changes when we look at match method to claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Generative methods reveal context, goals, strategies, and unknown problems. Evaluative methods inspect a concept or implementation. Behavioural methods show action; attitudinal methods show reported belief or perception. Qualitative evidence explains mechanism and variation; quantitative evidence estimates pattern under defined measurement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Choose according to decision, maturity, consequence, available artefact, population, environment, and access. Observation may answer workflow; usability testing interaction; survey distribution of a well-defined construct; experiment causal effect. No method is inherently rigorous outside a fit question and execution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Combine methods when their limits are complementary, not to create an impressive list. State what each can and cannot support. Time pressure should narrow the decision or scope, not justify a method incapable of answering the question."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triangulate when the stakes justify it. One method can produce a misleading picture because it captures only one part of reality. Combine methods to challenge a convenient explanation, not to manufacture certainty."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Method choice is a fit problem. Ask whether the team needs discovery or evaluation, explanation or estimation, a controlled comparison or natural context, individual behaviour or organisational process. Then consider the consequences of error, access to relevant people, maturity of the design, time available, and whether a method could cause harm or false confidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Methods can be combined deliberately. Observation may reveal work people do not report; interviews may explain its meaning; a prototype study can test a proposed response; telemetry can show whether the released pattern persists at scale. Each method has blind spots. A survey can quantify self-report but cannot prove actual behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An A/B test can estimate a local causal effect but cannot tell the team why a result occurred or whether an outcome is good for every affected group."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Fashionable method: the team runs a method because it is familiar, not because it answers the question. False equivalence: qualitative and quantitative evidence are treated as interchangeable. Unrealistic task: an evaluation measures prototype navigation rather than meaningful work. Single-method certainty: one data source is asked to answer questions outside its scope."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A survey can estimate how many customers report delivery anxiety, but observation and support cases reveal where tracking fails, while an experiment can test whether a specific update changes behaviour. One method cannot substitute for the others."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assumptions tell us what is uncertain. This lesson matches uncertainty to evidence. lesson 22 asks whose behaviour that evidence must represent."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Match three product questions to a suitable method and explain why each method can answer that question."
+    }
+  ]
+}

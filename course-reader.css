@@ -27,6 +27,7 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
 .audio-progress{grid-column:1/-1;width:100%;height:4px;accent-color:var(--green)}.audio-status{grid-column:1/-1;color:var(--muted);font-size:10px;line-height:1.4;margin:0}
 .audio-voice{grid-column:1/-1;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted)}.audio-voice select{min-width:0;max-width:100%;border:1px solid #cbd4c7;border-radius:6px;background:white;color:var(--ink);font:inherit;padding:5px 8px}.audio-voice select:disabled{opacity:.55}
 .audio-player.recorded{grid-template-columns:1fr;background:#f8f6ed;border-color:#d7d2bd}.audio-recording{display:block;width:100%;min-width:0;height:44px}.audio-player.recorded .audio-status{font-size:11px}
+.audio-seek-buttons{display:flex;justify-content:flex-end;gap:8px}.audio-seek-buttons button{border:1px solid #c6d1c1;border-radius:999px;background:#fffefa;color:var(--green);padding:6px 12px;font-size:11px;font-weight:650}.audio-seek-buttons button:hover{background:#e8eee3}
 .audio-alt{display:flex;flex-wrap:wrap;gap:8px;margin:0;font-size:12px}.audio-alt a{color:#315443;text-decoration:underline;text-underline-offset:3px}.audio-alt a:hover{color:#a24732}
 .audio-version{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:650;color:var(--green)}.audio-version select{max-width:100%;padding:8px 10px;border:1px solid #b8c7b7;border-radius:8px;background:#fffefa;color:var(--ink);font:inherit}.audio-player.recorded .audio-status{font-size:12px}
 @media(max-width:560px){.audio-version{align-items:flex-start;flex-direction:column;gap:5px}.audio-version select{width:100%}}
@@ -34,4 +35,9 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
 @media(max-width:760px){.topline-actions #reading-status{display:none}}
 @media(max-width:1100px){.section-body{padding-left:0}}
 @media(max-width:760px){body.contents-open{overflow:hidden}.rail.mobile-open{overscroll-behavior:contain}.audio-player{top:61px;padding:11px 12px;gap:6px}.audio-copy strong{font-size:19px}.audio-controls{gap:4px}.audio-controls button{padding:6px;min-width:31px}.audio-controls .audio-play{min-width:69px}.audio-speed{margin-left:2px}.audio-speed select{padding:4px 2px}.section-heading{gap:8px}.section-heading .section-title{font-size:27px}.section-body{padding-left:0}.challenge-section{padding:20px 15px}}
+.product-example{margin:44px 0 34px;padding:30px 34px;background:#e9eee5;border:1px solid #ccd8c9;border-radius:18px;box-shadow:0 12px 30px #263e2710}
+.product-example-label{font:700 11px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#826039}
+.product-example h2{font:400 clamp(29px,3vw,40px)/1.15 Georgia,serif;letter-spacing:-.035em;margin:9px 0 20px;color:var(--green)}
+.product-example .prose{max-width:67ch}
+@media(max-width:760px){.product-example{padding:23px 21px;margin:32px 0 24px}}
 @media(max-width:430px){.audio-player{grid-template-columns:1fr}.audio-controls{justify-content:space-between}.audio-progress,.audio-status{grid-column:1}.audio-copy strong{font-size:18px}}

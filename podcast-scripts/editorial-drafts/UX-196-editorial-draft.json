@@ -1,0 +1,267 @@
+{
+  "lesson": "UX-196",
+  "title": "Product, Design, Research, and Engineering: Decision Rights",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Product, Design, Research, and Engineering: Decision Rights. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cross-functional product work fails when role labels are used as territory claims. No discipline owns the whole experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Product cannot decide the interaction in isolation; design cannot decide commercial priority alone; research cannot guarantee a strategy simply by finding an insight; engineering cannot be asked to “make it work” after a technical choice has already been implied."
+    },
+    {
+      "speaker": "host",
+      "act": "Separate accountability from expertise",
+      "mood": "curious",
+      "text": "What changes when we look at separate accountability from expertise?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Instead, distinguish four things that often get conflated:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Decision accountability: one named person is responsible for bringing the decision to closure and accepting its outcome. Expert contribution: people with relevant knowledge shape the decision before it is closed. Execution authority: people make the local decisions needed to implement the agreed direction safely and well."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consultation and communication: people who are affected, need to operationalise the decision, or must understand it afterward are included at the appropriate time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The accountable owner is not the person who has all the answers. Their job is to make the decision legible: state the question, desired outcome, constraints, evidence, alternatives, risks, and date by which a choice is needed. They ensure disagreement is resolved rather than silently carried into delivery."
+    },
+    {
+      "speaker": "host",
+      "act": "Start with the decision, not the org chart",
+      "mood": "thinking",
+      "text": "What changes when we look at start with the decision, not the org chart?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A RACI chart can be useful, but it becomes theatre when it is applied to vague activities such as “design the feature.” Name a concrete decision instead: “Should we disclose the total fee before or after address entry?” “What recovery option is available when payment verification fails?” “What outcome determines whether this rollout expands?”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Specificity reveals who needs to contribute."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each consequential decision, create a short decision record:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Decision statement: what must be chosen now? 2. Customer and business outcome: what progress should this make possible, and for whom? 3. Evidence: research, analytics, support signals, domain knowledge, technical investigation, and policy constraints. 4. Options and trade-offs: what are the viable alternatives and what does each sacrifice? 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Owner and contributors: who closes the decision; whose expertise is required before then? 6. Guardrails: what must not get worse—accessibility, safety, latency, error rate, trust, legal compliance, operational load? 7. Review point: what will be observed after implementation, and when will the team revisit the choice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This is deliberately light. It is not paperwork for its own sake; it preserves the rationale when team membership changes and lets people challenge the actual assumption rather than relitigating preferences."
+    },
+    {
+      "speaker": "host",
+      "act": "Bring disciplines in while they can still change the work",
+      "mood": "curious",
+      "text": "What changes when we look at bring disciplines in while they can still change the work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The value of a contributor depends on timing. Research is most valuable before the team has narrowed a problem into a familiar solution. Engineering is most valuable before a prototype makes an unexamined architectural promise. Content, accessibility, analytics, operations, and legal are most valuable before their requirements appear as late constraints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In practice, this means working around shared artefacts rather than staged handoffs. An opportunity map gives product and research a common view of unmet needs. A scenario makes design, engineering, content, and operations confront the same sequence of events. A prototype exposes interaction and technical assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A service blueprint connects the screen to support, policy, data, and staffing. A measurement plan prevents a launch metric from becoming an afterthought."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not invite everyone to every meeting. Invite the right expertise at the moment its question can still alter the decision. A short technical spike before committing to an interaction can save weeks. A 30-minute review with a support lead can expose an exception path no prototype participant would encounter. The purpose is not consensus; it is informed accountability."
+    },
+    {
+      "speaker": "host",
+      "act": "Handle disagreement as evidence work",
+      "mood": "thinking",
+      "text": "What changes when we look at handle disagreement as evidence work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Healthy teams disagree because they see different risks. A product manager may see opportunity cost; a designer may see comprehension risk; an engineer may see reliability or maintenance cost; a researcher may see a mismatch with real behaviour. Suppressing that difference is not alignment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make disagreement inspectable. Ask each person to name the assumption behind their recommendation, the evidence that would change their mind, and the consequence they are protecting against. If evidence is missing, turn the disagreement into a learning question."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If a decision cannot wait, choose explicitly under uncertainty, record the risk, and define the earliest review point."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Escalation should be about decision rights and consequence, not job seniority. Escalate when the impact crosses a team boundary, when there is no legitimate owner, when a guardrail is at risk, or when the organisation is choosing a value trade-off that an individual contributor should not be forced to carry alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: pricing disclosure",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: pricing disclosure?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A pricing change causes checkout abandonment. Product owns the commercial outcome, design owns interaction coherence, research interprets customer evidence, engineering owns reliable calculation, legal contributes applicable disclosure constraints, and support represents recovery. The concrete decision—when and how the final fee can be shown accurately—requires all of them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Product decides requirements” or “design decides the screen” would hide the coupled system."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Design as a service desk. Product writes requirements, design decorates them, and engineering implements them. The team loses the chance to question whether the proposed solution addresses the real need."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Research as a gate. Research is requested only to validate a predetermined direction. Evidence becomes a ceremonial approval step rather than a tool for changing the work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Engineering as feasibility police. Engineers are asked to reject impossible ideas late instead of shaping a broad set of viable approaches early."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Collaborative ambiguity. Everyone is consulted, nobody decides, and unresolved trade-offs surface as inconsistent experience details during delivery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Metric ownership without outcome ownership. Analytics reports a number but no one is empowered to change the product when the number reveals harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Consensus without accountability. Everyone must agree, so difficult value trade-offs remain unresolved or move into private escalation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "RACI wallpaper. Roles are assigned to broad activities but not to concrete choices, evidence, or consequences."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Executive override without record. A senior person changes direction while the accepted risk, dissent, and review condition disappear."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The real test of collaboration is not whether a workshop felt inclusive. It is whether the people with relevant knowledge were able to change the decision before it became a costly implementation detail—and whether somebody remains accountable for the consequences afterward."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners distinguish reversible local execution from cross-system or value decisions. They push authority toward the people closest to evidence where risk permits, while escalating decisions about safety, ethics, investment, or organisation-wide consequence to legitimate owners."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They design participation so affected people can influence choices without being made responsible for institutional risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A checkout drop-off appears after a pricing change. Product wants the revenue target recovered. Design sees that the new disclosure is hard to understand. Research has evidence that customers interpret the fee as a surprise. Engineering knows that the proposed “quick fix” cannot be calculated reliably for every market."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Support is absorbing angry contacts, and legal has constraints on the wording. If the meeting ends with everyone compromising on a screen, the team has not made a decision; it has hidden one. The useful question is: who is accountable for which decision, what evidence is relevant, and who must be involved before a choice becomes expensive to reverse?"
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "M15 showed that AI products make accountability and recourse especially visible. This module applies the same discipline to every product decision. lesson 197 turns clear roles into a repeatable discovery-and-delivery rhythm; lesson 198 will use that rhythm to choose the smallest responsible test of value."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a current product decision. Write a one-page decision record using the seven prompts above. Then ask one person from another discipline: “What risk or evidence would you add that this record does not yet represent?” Use the answer to identify who should have been involved earlier and whether they can still change the choice."
+    }
+  ]
+}

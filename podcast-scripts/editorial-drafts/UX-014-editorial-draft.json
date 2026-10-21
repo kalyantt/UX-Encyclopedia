@@ -1,0 +1,145 @@
+{
+  "lesson": "UX-014",
+  "title": "Mental Models",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Mental Models. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A mental model is a person’s working explanation of how something behaves. It is built from prior products, language, cultural conventions, feedback, and repeated use. People use mental models to predict consequences before acting. When an interface matches a useful model, it feels learnable; when it violates one without explanation, people make errors or hesitate."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Designers do not control every pre-existing expectation, but they can discover it and work with it. Use familiar labels where familiarity helps. Show the system state and consequence. Correct an inaccurate model through immediate feedback, examples, and a coherent conceptual model rather than through a long instruction manual."
+    },
+    {
+      "speaker": "host",
+      "act": "Research and repair the model",
+      "mood": "thinking",
+      "text": "What changes when we look at research and repair the model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Elicit mental models through explanation, prediction, sorting, drawing, and observation. Ask what people believe exists, what actions are possible, where information goes, and what caused a result. Compare novices, experts, and contexts; one audience can hold several models."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design can align with a useful existing model, teach a more accurate one through structure and feedback, or deliberately replace it when the old model creates harm. Avoid copying familiar appearance while changing consequence. Test prediction and recovery, not only successful completion."
+    },
+    {
+      "speaker": "host",
+      "act": "Choosing how to handle a mismatch",
+      "mood": "curious",
+      "text": "What changes when we look at choosing how to handle a mismatch?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "There are four legitimate responses. Align with an established, safe expectation. Reveal a hidden distinction when it affects decisions. Teach a new model through repeated language, structure, and feedback. Protect people from a persistent misconception through constraints, confirmation, or recovery. Familiarity alone is not the goal: an existing model may be wrong or unsafe."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Novel interaction should be earned. Ask what benefit outweighs the cost of teaching a new model, and how the product will reveal that model at the moment people need it."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Several models meet at an interface: the person’s working belief about the domain, the designer’s intended explanation, and the system’s actual behaviour. UX quality depends on the relationship between them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A person can succeed with an imperfect mental model if the system gives good feedback and supports recovery; problems become serious when the product allows a mistaken belief to produce an irreversible or high-cost action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research mental models through language, stories of past behaviour, artefacts people use, and observations of how they predict a system will behave. Listen for concepts, categories, causal explanations, and boundaries—not only for feature requests. Then use labels, structure, examples, previews, and feedback to make the product’s conceptual model legible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not assume convention is universal: prior experience, culture, role, and domain expertise shape what feels familiar."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Internal vocabulary: product or engineering terms replace the person’s domain language. Silent mismatch: the system behaves differently from the cue it presents. One-size familiarity: a convention that helps experts confuses new or occasional users. Instruction as repair: documentation is used to compensate for an incoherent interaction model."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person taps a trash icon expecting deletion. The product archives the item instead. Neither action is inherently wrong; the failure is the gap between what the person believes the product will do and what it actually does."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 13 separated goal, task, and action. Mental models explain why a person chooses one action rather than another. lesson 15 turns this into the product’s own coherent explanation of objects and relationships."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find an icon or label that violates your expectation. Describe the model you brought, the model the system appears to use, and the likely cost of the mismatch."
+    }
+  ]
+}

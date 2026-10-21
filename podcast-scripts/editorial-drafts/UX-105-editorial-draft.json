@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-105",
+  "title": "Emotion, Motivation, Trust, and Perceived Control",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Emotion, Motivation, Trust, and Perceived Control. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Emotion is not a decorative after-effect of visual style. It changes attention, memory, willingness to explore, and interpretation of uncertainty. Trust emerges when a product behaves predictably, communicates consequence, protects people from avoidable loss, and offers meaningful recovery. Perceived control comes from being able to understand, choose, reverse, and verify."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design for emotion by changing the interaction, not by adding cheerful language to a harmful flow. Show status before anxiety grows, make irreversible consequences explicit, preserve work, provide recourse, and make support humanly reachable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Motivation increases when progress is credible and the next action is understandable; it declines when a system nags, obscures, or shifts the goalposts."
+    },
+    {
+      "speaker": "host",
+      "act": "Design conditions, not feelings directly",
+      "mood": "thinking",
+      "text": "What changes when we look at design conditions, not feelings directly?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Emotion emerges from goal progress, consequence, prior experience, social context, and interpretation. Motivation can be intrinsic, extrinsic, social, or necessity-driven. Trust is domain-specific and dynamic: competence, predictability, honesty, benevolence, and recovery all contribute. Interfaces influence these conditions but cannot guarantee a feeling."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Support perceived and actual control through clear options, understandable consequences, progress, undo, consent, and recourse. Avoid fake choice or cheerful language when the system holds all authority. Calibrate trust by revealing limits and evidence; maximal trust is dangerous when reliability is bounded."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research episodes of confidence, hesitation, avoidance, and recovery. Observe behaviour and context alongside self-report. Measure long-term outcome, regret, complaint, and dependence, not engagement alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A finance app uses playful celebration after a loan application is submitted, although approval is uncertain. The redesign states status, expected review, evidence, and withdrawal route. Tone remains respectful but control and truth create trust more reliably than enthusiasm."
+    },
+    {
+      "speaker": "host",
+      "act": "How trust and control shape action",
+      "mood": "curious",
+      "text": "What changes when we look at how trust and control shape action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Emotion changes attention, interpretation, memory, and willingness to continue. Anxiety can make an ambiguous delay feel dangerous; prior service failure can make a technically accurate reassurance unconvincing. Motivation depends on the value of the goal, expected chance of progress, effort, and competing demands."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Perceived control grows when people can understand state, choose among real options, predict consequence, and recover."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The design builds calibrated trust. Provenance and data freshness show why an attribute is present; uncertainty is stated where the service does not know; commitments are followed by receipts and history; errors preserve context and name responsibility. Control is not an abundance of settings."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "It is the ability to make the meaningful decision, refuse optional data use, change course where permitted, and reach accountable help."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: fraud alert",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: fraud alert?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A bank earns trust by identifying the suspicious event, explaining what it has done, letting the customer secure the account, and providing a credible recovery path. Urgent colour and alarming language without actionable control may increase attention while reducing effective response."
+    },
+    {
+      "speaker": "host",
+      "act": "Diagnose the source of trust instead of decorating it",
+      "mood": "curious",
+      "text": "What changes when we look at diagnose the source of trust instead of decorating it?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Motivation is situated. The health goal matters, but time, fatigue, fear, work, and previous failure compete. The product reduces repeated entry and preserves state; it does not create streaks or artificial urgency. Honest progress helps when it represents actual service movement. Fake certainty can increase immediate action and damage long-term trust."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluation combines accurate prediction, comprehension, chosen action, perceived control, repeated checking, support, recovery, and longitudinal response. It samples people with different past service experiences. A calm self-report is not success if the person misunderstood the risk, and slower deliberation can be appropriate in a consequential choice."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: credit decision",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: credit decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Trust grows when the product explains the decision at the permitted level, shows the data source, provides correction and appeal, and identifies a responsible organisation. Friendly animation without recourse makes opacity feel more manipulative."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trust is a property of the service relationship, not a tone-of-voice score. If operations cannot fulfil the promise, reassuring language spends trust rather than building it. Senior designers connect emotional experience to policy, data quality, accountability, and the distribution of control."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "After a payment failure, one product says “Something went wrong” and removes the basket. Another identifies the state, preserves the order, explains the safe next options, and shows where help is available. Both have an error; only one gives the person a reason to continue."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a product that asks for a consequential commitment. Note how it earns confidence, where it pressures you, and whether you can inspect, reverse, or recover the decision."
+    }
+  ]
+}

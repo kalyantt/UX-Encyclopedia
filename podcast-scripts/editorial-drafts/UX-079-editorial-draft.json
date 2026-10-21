@@ -1,0 +1,236 @@
+{
+  "lesson": "UX-079",
+  "title": "When Is AI the Right Tool?",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about When Is AI the Right Tool?. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Add AI” is not a problem statement. AI systems are useful when a product must infer a likely output from incomplete or variable inputs: classify free text, rank alternatives, predict a future event, detect an unusual pattern, generate a draft, or adapt an experience. Unlike a deterministic rule, the same model can be useful without being correct in every instance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "That trade is acceptable only when the value of handling variability exceeds the cost and distribution of mistakes."
+    },
+    {
+      "speaker": "host",
+      "act": "Begin with a decision, not a technology",
+      "mood": "curious",
+      "text": "What changes when we look at begin with a decision, not a technology?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Frame the opportunity as a decision and an outcome:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Actor: who is trying to make progress? Decision: what must they or the service decide? Input: what evidence is available at that moment? Output: what action will the system inform or take? Value: what becomes materially better than the current baseline? Error: what false positive, false negative, omission, fabrication, or delay can occur?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Authority: may the output inform, recommend, decide, or act? Recovery: can a person detect, reverse, and remedy a poor result?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This prevents a common category error. A language model may be good at interpreting “after work,” but that does not make it an authority on clinical suitability or current clinic accessibility. One fluent answer can contain outputs with very different evidence and risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare interventions before selecting AI",
+      "mood": "thinking",
+      "text": "What changes when we look at compare interventions before selecting ai?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An AI option should compete against credible alternatives, not against doing nothing. Compare at least these intervention families:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Information repair. Correct the source data, terminology, instructions, or policy that creates confusion. 2. Deterministic rules. Use explicit conditions when inputs and outcomes are stable and auditable. 3. Search and filters. Let people retrieve and compare authoritative records without generating a new answer. 4. Workflow automation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Move known information or trigger known actions without probabilistic inference. 5. Human service. Use trained judgement where context, empathy, negotiation, or accountability is central. 6. AI assistance. Use inference for the variable part while preserving authoritative data and human responsibility."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not score these by novelty. Compare user value, coverage, speed, error types, harm severity, reversibility, data dependency, privacy, operational load, accessibility, and lifecycle cost. The simplest option that meets the need is often the strongest product decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "AI may be unsuitable when the rule can be stated clearly, the source of truth already contains the answer, mistakes are hard to detect or reverse, relevant data is absent or unlawfully usable, the environment changes faster than monitoring can respond, or the organisation cannot fund evaluation and incident handling."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“The model can produce an answer” is not evidence that the service can responsibly use it."
+    },
+    {
+      "speaker": "host",
+      "act": "Separate model capability from product value",
+      "mood": "curious",
+      "text": "What changes when we look at separate model capability from product value?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A model metric describes one component under defined test conditions. Product value describes whether the whole sociotechnical system helps people achieve a worthwhile outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "High classification accuracy may coexist with poor outcomes if the test data excludes important groups, the wrong label is being predicted, the interface encourages overreliance, clinic data is stale, or nobody can correct an error."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Establish three baselines:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Current-service baseline: time, completion, error, inequity, support demand, and outcome today. Non-AI baseline: what good content, filters, rules, or operations can achieve. Human-performance baseline: how trained people perform, including disagreement and workload."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Then define a meaningful improvement and guardrails. An average uplift can hide concentrated harm. Examine performance by consequential error type, relevant user group, context, input quality, and downstream outcome. Include abstention: a system that knows when not to answer may be safer and more useful than one optimised to answer everything."
+    },
+    {
+      "speaker": "host",
+      "act": "Prototype the outcome before the model",
+      "mood": "thinking",
+      "text": "What changes when we look at prototype the outcome before the model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a concierge, Wizard-of-Oz, scripted response, or rule-based prototype to test the proposed interaction. Conceal the implementation only where research ethics allow; never conceal a consequential real-world action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The point is to learn whether the output changes a useful decision, what evidence people need, when they correct the system, and which failures matter—before model performance narrows the team’s imagination."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A model prototype should follow, using representative and adversarial cases. Include sparse input, contradictory preferences, dialect and spelling variation, missing directory data, unusual access needs, policy changes, and cases that should produce no recommendation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Record not only whether the output looks plausible, but whether it is supported, actionable, contestable, and better than the baseline."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: support-ticket routing",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: support-ticket routing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A company wants generative AI to answer every customer message. Analysis shows that the expensive problem is not writing replies but sending account-security cases to the right trained team quickly. A classifier with an abstain-and-escalate route creates more value and less risk than an autonomous conversational agent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The intervention is smaller than the original vision and better aligned with the real bottleneck."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Capability-first framing: the team starts with what a model can demonstrate rather than a valuable decision. Automation inflation: AI recreates a reliable rule, filter, lookup, or workflow with added uncertainty. Data fantasy: available data is assumed to be accurate, representative, permitted, and relevant."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Average-metric blindness: aggregate performance hides a dangerous error type or affected group. Prototype theatre: a hand-curated demo is mistaken for operational performance. No abstention: the system must answer even when evidence is inadequate. Unowned lifecycle: nobody is funded to monitor drift, handle incidents, update sources, or retire the feature."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sunk-cost deployment: the system remains because it was built, even after a simpler option becomes better."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practice turns AI suitability into a portfolio and governance decision. Estimate total lifecycle cost—data rights and preparation, evaluation, integration, accessibility, security, monitoring, support, policy, vendor dependence, incident response, and retirement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make opportunity cost visible: maintaining an uncertain feature may displace the source-data or service repair users actually need."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define a kill criterion before launch. If the system cannot exceed the non-AI baseline, creates unacceptable group-level harm, cannot obtain reliable inputs, or cannot support meaningful recourse, the correct outcome of discovery is not to build it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a support queue. A team proposes an AI chatbot to answer delivery questions. Before building it, compare a clearer order-status page, better notifications, and improved staff tools. AI earns its place only if it solves a real uncertainty better than those baselines and can handle wrong or stale answers without trapping people."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find an AI feature in a product you use. Replace its label with the verb it performs: predicts, ranks, classifies, retrieves, generates, or acts. Can you identify the source of truth, the cost of a wrong output, a simpler alternative, and a way to decline or correct it? If not, the interface is advertising a technology without making its product contract legible."
+    }
+  ]
+}

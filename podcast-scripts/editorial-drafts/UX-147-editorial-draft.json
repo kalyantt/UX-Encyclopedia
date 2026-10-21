@@ -1,0 +1,183 @@
+{
+  "lesson": "UX-147",
+  "title": "Selecting, Filtering, Sorting, and Bulk Action",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Selecting, Filtering, Sorting, and Bulk Action. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Selection identifies the items an action applies to. Filters narrow a set by criteria; sorting changes order; bulk actions operate on multiple selected items. These patterns must make scope visible: what is included, what changed, what will happen, and how to recover."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep active filters, sort order, selected count, and result count legible. Preserve selection where reasonable across paging or view changes, but never conceal a scope expansion. Separate destructive actions, offer review or undo, and use language that names both action and affected items."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep collection operations explicit and reversible",
+      "mood": "thinking",
+      "text": "What changes when we look at keep collection operations explicit and reversible?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Selection identifies objects for action; filtering changes which objects are visible; sorting changes order; bulk action applies one operation to a set. Confusing these concepts causes severe errors—especially when “select all” means visible rows in one moment and the entire result set in another."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: photo management",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: photo management?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Applying a tag to hidden selected photos may be harmless; permanently deleting them is not. Selection persistence and filter changes need consequence-sensitive rules rather than one reusable toolbar behaviour."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve scope and state",
+      "mood": "thinking",
+      "text": "What changes when we look at preserve scope and state?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Selection answers “which objects will this action affect?” Make it persistent, visible, and distinguishable from focus or navigation. For paginated or filtered sets, state whether “select all” means visible items, current results, or the entire collection. Show count and allow review before consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Filters reduce the set by criteria; sorting changes order. Display active filters, result count, defaults, empty-state explanation, and a clear reset. Preserve useful state across navigation while avoiding stale hidden constraints. Design facets from the domain and actual decision, not merely available fields."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Bulk actions amplify efficiency and harm. Preview scope, identify exceptions, explain partial success, support permission differences, and provide undo or recovery. Keep a durable result record for long-running work. Test with realistic scale, keyboard, screen reader, latency, and conflicting updates."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure error and recovery beside speed. An expert tool that processes thousands of records needs confidence about scope more than visual minimalism."
+    },
+    {
+      "speaker": "host",
+      "act": "Model collection state explicitly",
+      "mood": "curious",
+      "text": "What changes when we look at model collection state explicitly?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Filter values derive from governed metadata and disclose unknowns. Counts state whether they are live, cached, or approximate. Sorting defines direction, tie-breaker, missing-value placement, and stability when data changes. Saved views record criteria rather than frozen results unless a snapshot is deliberately required for audit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Testing uses realistic volume, stale updates, role differences, long labels, keyboard and screen-reader table navigation, filter changes after selection, and failure midway through execution. Measures include wrong-scope action, recovery, time, repeated work, and operational consequence—not clicks saved alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: email management",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: email management?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Selecting all visible messages and selecting every result matching a search carry different risk. A clear banner, reversible operation, stable query, and partial-failure account prevent a fast cleanup from becoming irreversible data loss."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Bulk action risk grows with ambiguity, not only volume. A small accidental scope can be catastrophic when the items are permissions, payments, or records."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scope is the central design problem. Show selected count, filtered result count, applied criteria, sort order, and whether an action affects only visible items, all matching items, or a saved set. Require review or offer undo based on consequence, and preserve enough context after action for people to verify what changed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make keyboard and assistive-technology interaction equivalent to pointer-based selection."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hidden selection: scope appears only on hover or through colour. Scope surprise: an action affects items outside the person’s visible set. Destructive adjacency: irreversible action is too close to routine bulk action. Post-action loss: filters or selection reset before the person can verify the result."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person needs to archive 40 messages. The product hides selection until hover, changes the list after every action, and offers “Delete all” beside “Archive.” The task is possible, but control is fragile."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 146 made individual commands discoverable and efficient. lesson 147 applies command design to sets of information. lesson 148 moves from selecting existing objects to creating and preserving new work."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Use a list with filters or bulk actions. Record what is selected, what is filtered out, what action applies, and whether you can reverse it without guessing."
+    }
+  ]
+}

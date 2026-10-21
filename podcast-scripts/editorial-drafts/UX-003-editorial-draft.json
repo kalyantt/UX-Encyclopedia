@@ -1,0 +1,184 @@
+{
+  "lesson": "UX-003",
+  "title": "Experience goals",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Experience goals. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Imagine sending a large payment. The transfer succeeds in three taps, but the confirmation gives no recipient, date, or way to correct a mistake. The task may be complete; the experience is still anxious. This lesson separates getting something done from the quality of living through it."
+    },
+    {
+      "speaker": "host",
+      "act": "What this moment reveals",
+      "mood": "curious",
+      "text": "What changes when we look at what this moment reveals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Designers work with two connected kinds of goals. Usability goals concern successful use: effectiveness, efficiency, safety, learnability, and memorability. Experience goals concern the qualities a person should feel or perceive: calm, trust, competence, autonomy, connection, seriousness, or even delight."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Experience goals give interaction design a human direction. They prevent the team from treating emotion as decorative animation added at the end. They also stop teams from chasing “delight” when reassurance is the real need."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The two goal types overlap but should not be collapsed. Usability is often fundamental to a good experience: a product that is confusing or unsafe rarely produces trust. Yet the same usable interaction can feel calm, efficient, playful, serious, empowering, or invasive depending on its framing, feedback, consequences, and context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Experience goals must be chosen rather than borrowed from a trend or brand moodboard. A person paying a bill may want the process to disappear quickly. A person playing a game may want to savour it. A learner may need challenge without humiliation. A clinician using a high-stakes system may need clarity, accuracy, and calm control. “Delight” is neither universal nor neutral."
+    },
+    {
+      "speaker": "host",
+      "act": "Follow the mechanism",
+      "mood": "thinking",
+      "text": "Can we follow the mechanism step by step?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Two-lens model: examine the same action, “Submit application,” through usability and experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The first card is Usability: accurate, fast enough, recoverable, clear. The second is Experience: confident, respected, in control. Connect them with arrows: a visible review step supports both accuracy and confidence; an undo option supports both recovery and control."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The teaching point: experience goals should influence interaction choices, language, feedback, and service policy—not just visual mood."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Turning a feeling into a design decision"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An experience goal is useful only when it changes a decision. If the aim is confidence, show the person what data will be used, let them review consequential choices, and give proof of completion. If the aim is control, make the current state visible, avoid surprise commitments, and provide safe ways to change course."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If the aim is playfulness, make exploration low-risk and feedback expressive without concealing important rules."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write each goal in a testable form: “During [activity], [person] should be able to feel [quality] because the system makes [evidence] clear.” Then identify the behaviours or statements that would indicate the goal was or was not achieved."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose goals from the activity, not from fashion"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start by understanding the activity's stakes and tempo. Is it routine or rare? Voluntary or required? Private or public? Is failure merely inconvenient, financially costly, embarrassing, dangerous, or irreversible? Is the person exploring, deciding, creating, coordinating, recovering, or seeking help? The answers narrow the experience goals that are appropriate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For example, a service that helps someone report a lost card should not make them work for a sense of novelty. Its experience goal may be to reduce panic and restore control. That leads to concrete requirements: immediate acknowledgment, a plain explanation of what is protected, a clear next step, accessible support, and a record the person can return to."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A consumer music tool can appropriately place more weight on discovery and play; the same interaction style in an emergency flow would be misplaced."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Experience goals also expose conflicts. A highly engaging feed can be compelling while undermining a person's ability to stop. A frictionless choice can be fast while concealing commitment. The job is not to maximise a pleasant adjective; it is to make a defensible choice about the experience the activity deserves."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Naming vague goals such as “make it delightful” without describing the situation. Confusing brand adjectives with a user's emotional need. Treating trust as a visual style instead of earned evidence. Optimizing task completion while leaving people anxious or uncertain."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat desired feelings as hypotheses tied to observable interactions. “Trust” cannot be designed by adding a reassuring word while the system behaves unpredictably."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners negotiate experience goals against consequence, brand, task, and service reality. They distinguish justified confidence from emotional manipulation, test variation across contexts, and reject goals that hide necessary seriousness. They use the goal to resolve actual trade-offs in content, timing, state, and recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "In a banking transfer, a cheerful confetti animation after sending money could feel careless. A strong confirmation instead names the recipient, amount, timing, and recovery path. It can still feel reassuring and well-made—but its emotional job is trust, not celebration. In contrast, a beginner learning app may intentionally make early progress visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "That supports a different goal: “I can do this.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 2 showed that effective use is not aesthetic taste. lesson 3 adds the experiential outcomes people carry forward; lesson 4 asks why those outcomes change with context."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Look at the confirmation screen of a product you use. Ask: What feeling is this screen trying to create, and what concrete evidence—not decoration—earns that feeling?"
+    }
+  ]
+}

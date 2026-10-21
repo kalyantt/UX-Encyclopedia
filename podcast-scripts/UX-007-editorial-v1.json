@@ -1,0 +1,29 @@
+{
+  "lesson": "UX-007",
+  "title": "Your Brain Does Not See Everything",
+  "voices": {"guide": "af_heart", "host": "am_michael"},
+  "editorial_note": "Two-voice adaptation of the revised character-free lesson. The travel-app scenario is illustrative, not a claim about a specific product.",
+  "turns": [
+    {"speaker":"guide","act":"Before we begin","mood":"warm","text":"This is Your Brain Does Not See Everything. We will look at why a message can be right there on the screen and still fail to help someone. By the end, you will know how to distinguish noticing from understanding and acting."},
+    {"speaker":"host","mood":"curious","text":"Let's use a travel app. A passenger opens it to check a departure time. The gate has changed, but the update is in a slim banner above the big departure card."},
+    {"speaker":"guide","mood":"clear","text":"The passenger reads the card and leaves for the old gate. The update was visible. It did not become part of the decision."},
+    {"speaker":"host","mood":"surprised","text":"Wait. So the app technically showed the right information, and the experience still failed?"},
+    {"speaker":"guide","mood":"warm","text":"Exactly. People do not inspect every pixel. They bring a goal, a question, and expectations about where the answer should be. Here, the big departure card looks like the answer."},
+    {"speaker":"host","act":"The attention filter","mood":"thinking","text":"Then the first question isn't how bright the banner should be. It's where the person is likely to look while doing this task."},
+    {"speaker":"guide","mood":"clear","text":"Yes. Attention samples a small part of what's available. Goals, prior knowledge, and expectations guide that sampling. Contrast, size, motion, and novelty can pull the eye too, but catching a glance is not the same as being understood."},
+    {"speaker":"host","mood":"curious","text":"Could a loud warning actually be ignored?"},
+    {"speaker":"guide","mood":"clear","text":"It can, especially if it resembles an ad or looks unrelated to the task. A quieter change in the place someone is monitoring may work better. And even a person who looks straight at a message may not take its meaning into the next action."},
+    {"speaker":"host","mood":"thinking","text":"So there are several possible failures. The eyes never reached it. It looked irrelevant. It was read but misunderstood. Or it arrived too late."},
+    {"speaker":"guide","mood":"hopeful","text":"That's the useful diagnosis. Don't treat all four as a colour problem. Placement helps the first. Visual distinction helps the second. Clear words and consequences help the third. Timing helps the fourth."},
+    {"speaker":"host","mood":"concerned","text":"And change blindness or inattentional blindness doesn't mean the passenger was careless."},
+    {"speaker":"guide","mood":"clear","text":"Right. Attention is limited, especially during transitions or while another demand is taking it up. Design for that reality. An urgent change should sit in the task path, remain distinguishable, and tell the person what they need to do now."},
+    {"speaker":"host","act":"Putting it to work","mood":"curious","text":"For our travel app, I'd update the main departure card itself, mark the new gate clearly, and let the passenger confirm the current state. The banner could still help, but it shouldn't be the only source of truth."},
+    {"speaker":"guide","mood":"warm","text":"Good. And don't rely on colour alone. Use clear language, position, shape, and persistent status where the consequence calls for them. Accessibility is part of whether the message reaches people at all."},
+    {"speaker":"host","mood":"thinking","text":"How would we test whether the change worked?"},
+    {"speaker":"guide","mood":"clear","text":"Show the screen briefly. Observe the task. Ask what people noticed and what they think it means. Then watch whether the message changes the relevant action. Eye tracking can tell you where someone looked, but not whether they understood or acted correctly."},
+    {"speaker":"host","mood":"surprised","text":"Oh. Remembering a warning's colour isn't enough. The person has to make the right next move."},
+    {"speaker":"guide","mood":"clear","text":"Yes. Also resist making everything bigger and animated. If every item shouts, none has a credible priority. Use salience to express an actual priority model. For a high-consequence action, visual emphasis alone might not be a strong enough safeguard."},
+    {"speaker":"host","act":"Take it with you","mood":"warm","text":"Here's the question I'll carry forward: was the information merely present, or was it noticed, understood, and available in time to change the action?"},
+    {"speaker":"guide","mood":"warm","text":"Exactly. In the next lesson, we'll use grouping and hierarchy to make the intended information easier to perceive. For now, try opening a dense screen for three seconds. Close it. List what you noticed, what you missed, and what you assumed mattered. Then compare that with what the product actually needed you to do."}
+  ]
+}

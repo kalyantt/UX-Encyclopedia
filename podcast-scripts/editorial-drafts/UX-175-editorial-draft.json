@@ -1,0 +1,198 @@
+{
+  "lesson": "UX-175",
+  "title": "Power, Sensitivity, and Meaningful Effects",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Power, Sensitivity, and Meaningful Effects. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A statistical test can make two kinds of error. A Type I error declares an effect when the null condition holds. A Type II error fails to detect the specified effect when it exists. Power is one minus the Type II error probability for a particular effect, design, metric, and significance threshold."
+    },
+    {
+      "speaker": "host",
+      "act": "Power belongs to an effect size",
+      "mood": "curious",
+      "text": "What changes when we look at power belongs to an effect size?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Power is not an absolute label attached to a study. A design may have high power to detect a 10% relative change and low power for a 1% change. Required sample grows as the effect of interest becomes smaller, variance rises, clusters become more internally similar, guardrails are rarer, or many comparisons require stricter control."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The minimum effect of practical interest is set by product consequence: the smallest change that would alter the decision after cost, risk, and opportunity are considered. A minimum detectable effect describes what the planned study can detect with chosen power. Do not choose the decision-worthy effect simply because available traffic can detect it."
+    },
+    {
+      "speaker": "host",
+      "act": "Plan from the decision backward",
+      "mood": "thinking",
+      "text": "What changes when we look at plan from the decision backward?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before launch, define baseline, variance, allocation, significance level, desired power, minimum meaningful effect, unit, clustering, outcome delay, and duration needed to cover natural cycles. Plan critical guardrails and pre-specified segments too; they may need more data than the primary."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Improve sensitivity without changing the question:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "reduce instrumentation error and ambiguous metric definitions; use stable pre-treatment covariates and validated variance reduction; choose an outcome more closely tied to the mechanism; use trustworthy triggering to remove units that could not be affected; balance allocation for maximum power when risk permits; extend duration or combine preplanned replications appropriately."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not manufacture significance by excluding difficult populations, changing metrics after results, ignoring clustering, or repeatedly peeking. Sequential designs are valid only with methods and boundaries designed for repeated looks."
+    },
+    {
+      "speaker": "host",
+      "act": "Read estimates, not stars",
+      "mood": "curious",
+      "text": "What changes when we look at read estimates, not stars?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A p-value concerns compatibility with a statistical model under a null hypothesis; it is not the probability the hypothesis is true. A confidence interval communicates estimate precision under assumptions. Statistical significance can accompany a trivial effect in a huge sample. Practical importance can exist without significance in a small one."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Decisions combine effect estimate, interval, downside, cost, reversibility, prior evidence, and opportunity cost. “Ship,” “do not ship,” “continue learning,” and “contain harm” are different outcomes—not binary translations of p < . 05."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: serious payment error",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: serious payment error?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A rare duplicate-payment error may be too infrequent for an ordinary experiment to estimate precisely. That does not make it ignorable. Use formal verification where possible, failure injection, monitoring, incident evidence, and a zero-tolerance stop rule. Statistical power is not the only route to responsible assurance."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Power after results: observed effect determines the retrospective story. No-effect claim: non-significance is presented as equivalence. Tiny-win celebration: significance substitutes for practical value. Cluster blindness: correlated observations inflate apparent sample size. Guardrail underpower: primary is detectable while important harm is not."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sensitivity gaming: population or metric changes until a result appears."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect statistical design to the product decision",
+      "mood": "thinking",
+      "text": "What changes when we look at connect statistical design to the product decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Power calculations use baseline, variance, allocation, clustering, attrition, exposure, outcome window, and repeated measurement. Sensitivity analysis shows how required sample changes under plausible assumptions. The team improves event reliability and chooses a responsive valid measure before demanding more traffic."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "It does not peek and extend the test until significance appears."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Results report effect size and interval, not only a threshold. A wide interval compatible with benefit and harm means uncertainty remains. Practical significance considers customer outcome, equity, operational cost, and reversibility. Small subgroup estimates are not overinterpreted, but high-consequence signals can trigger safety investigation."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: accessibility improvement",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: accessibility improvement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A keyboard fix may affect a small measured segment but is still required for access and conformance. Power calculations should not decide whether the fix is justified; they may evaluate secondary performance outcomes after the obligation is met."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners make scarcity explicit. If the organisation cannot obtain informative evidence for a high-risk irreversible decision, the answer is not relaxed statistics. Reduce scope, choose a reversible pilot, combine methods, improve measurement, or decline the intervention."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Communicate ranges and scenarios in decision language so executives understand what remains plausible."
+    },
+    {
+      "speaker": "host",
+      "act": "Design for a decision-worthy effect",
+      "mood": "curious",
+      "text": "What changes when we look at design for a decision-worthy effect?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sensitivity analysis tests different baselines, attrition, clustering, and missing outcomes. When the required sample or duration is unrealistic, the team does not lower standards after seeing results; it changes the question, improves measurement, uses a more sensitive valid outcome, or chooses another design. Precision and practical consequence are reported together."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a cancellation flow. A team hopes a clearer explanation will reduce accidental renewals. It defines the smallest effect worth acting on, estimates sample needs, and accepts that a small test may remain inconclusive. “No significant difference” is not proof of no effect, especially when the experiment could not detect the change that matters."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a “not statistically significant” result. Ask what effect sizes its interval still permits. Could it rule out the benefit or harm that would matter to the product decision?"
+    }
+  ]
+}

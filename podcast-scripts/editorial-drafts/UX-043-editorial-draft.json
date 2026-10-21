@@ -1,0 +1,192 @@
+{
+  "lesson": "UX-043",
+  "title": "Interaction Types",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Interaction Types. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interaction types describe broad ways people engage with systems: instructing through commands and forms, conversing through dialogue, manipulating direct representations, exploring environments, and responding to prompts. Most products combine them, but one may dominate a task."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose the interaction that fits the user’s goal, expertise, frequency, risk, device, and context. Direct manipulation can make spatial change visible; structured forms can support accuracy; conversation can aid guidance but may hide state. The right choice reduces translation between intention and action."
+    },
+    {
+      "speaker": "host",
+      "act": "Match expression, visibility, and consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at match expression, visibility, and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each interaction type changes three things: how a person expresses intent, how much of the system is visible while acting, and how error is prevented or recovered. Commands are compact and repeatable but require recall. Forms externalise required structure but can force premature precision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Direct manipulation connects action to a visible object but becomes difficult with hidden relationships or many items. Conversation accepts flexible language but may hide choices and state. Exploration supports learning but can be inefficient when the goal is known."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The modes share one conceptual model. A clinic saved in conversation is the same object shown in the comparison list; changing a filter updates both; a request made through an assisted phone channel appears in the same status history. Without this unity, a hybrid interface becomes several inconsistent products."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility requires equivalent capability, not a visual imitation of the map or chat."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests mode switching, resumption, ambiguity, unavailable options, keyboard-only operation, screen reading, and high-consequence misunderstanding. The decision record states why each mode is used, the information it reveals or conceals, and where confirmation is required. The remaining uncertainty—how individual controls communicate action—continues into lesson 44."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: editing a data set",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: editing a data set?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A spreadsheet supports direct manipulation for visible values, commands for repeated transformations, and forms for structured import. A conversational request such as “clean this data” is insufficient unless the system previews the operations and preserves undo. The right hybrid keeps the data and transformation history inspectable."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose by activity and consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at choose by activity and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Instructing, conversing, manipulating, exploring, and responding to automation create different mental models and feedback needs. Direct manipulation gives visible continuous control; commands can accelerate expert work; conversation handles ambiguous language but can hide scope and state; navigation supports exploration; automation shifts work into supervision and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Select the type from goal, frequency, expertise, input and output constraints, uncertainty, reversibility, and risk. Combine types deliberately—a conversational request may produce a structured preview before a direct confirmation. Test whether people understand what the system can do, what state changed, and how to recover."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose an interaction style from the work",
+      "mood": "curious",
+      "text": "What changes when we look at choose an interaction style from the work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior interaction design also plans migration. Expert shortcuts cannot make the basic path inaccessible; new automation needs a visible fallback; channel changes must preserve state and accountability. The chosen interaction style is a service decision about control and responsibility, not a surface treatment."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Interaction mode is an architectural choice. It affects accessibility, error recovery, automation, content, data collection, and support—not just the screen layout."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interaction type is a decision about how a person expresses intent and how the system makes its state and capabilities visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Instructing is efficient for known commands; conversation can guide an uncertain person through a branching decision; direct manipulation makes objects and changes tangible; exploration supports learning in a space; forms capture structured information. Each type creates different strengths, errors, accessibility implications, and demands on memory and attention."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose by the work, not trend. A conversational interface may feel approachable but can hide choices, history, permissions, and error recovery. A form may feel formal but can make required information, review, and correction explicit. A spatial representation can reveal relationships but may exclude keyboard or screen-reader users if it lacks an equivalent operation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Combine modes where that reduces cognitive translation, but keep the conceptual model and state consistent across them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Novelty-first interaction: a mode is selected because it appears modern rather than because it fits the task. Hidden state: conversation or automation conceals what has happened or what can happen next. Mode mismatch: precise, high-risk work is forced through vague or irreversible interaction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No alternative path: an interaction type excludes people using different input methods or assistive technology."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Searching a huge catalogue, drawing on a canvas, and approving a transfer should not use the same interaction style. The activity determines whether command, conversation, manipulation, exploration, or response works best."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Module 7 made information findable. This module makes action possible. lesson 44 examines how individual controls communicate what can be done."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Identify the dominant interaction type in a product and judge whether it fits the task’s speed, precision, risk, and context."
+    }
+  ]
+}

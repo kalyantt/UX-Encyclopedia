@@ -1,0 +1,193 @@
+{
+  "lesson": "UX-119",
+  "title": "Product Trios: Shared Discovery, Shared Decisions",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Product Trios: Shared Discovery, Shared Decisions. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A product trio brings product, design, and engineering into discovery together. The purpose is not to make every person a researcher or dissolve expertise. It is to create shared contact with evidence, shared ownership of assumptions, and faster decisions about value, usability, feasibility, and risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Work from a common opportunity and decision. Review evidence together, generate more than one solution, name assumptions, and choose the cheapest credible test. Include the right additional voices when the work requires them: research, data, content, accessibility, operations, legal, or support."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Shared learning reduces the “telephone game” in which a participant’s reality becomes a slide, then a ticket, then a screen."
+    },
+    {
+      "speaker": "host",
+      "act": "Collaboration mechanics",
+      "mood": "thinking",
+      "text": "What changes when we look at collaboration mechanics?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before a session, roles agree on the question and observer behavior. Afterward, each writes observations before discussion to reduce anchoring. Weekly review moves through outcome, new evidence, changed opportunities, riskiest assumption, and next test. Success is earlier discovery of invalid premises and better patient outcomes, not the number of meetings attended."
+    },
+    {
+      "speaker": "host",
+      "act": "Share responsibility without erasing expertise",
+      "mood": "curious",
+      "text": "What changes when we look at share responsibility without erasing expertise?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The group observes research together, maintains one assumption and decision record, and separates recommendation from accountable decision rights. Disagreement is resolved through evidence or an explicit trade-off. Shared context reduces handoff loss while each discipline remains responsible for its standards and risks."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Three-person monopoly: the trio excludes domain and affected service expertise. Consensus by attendance: unclear authority turns every choice into a meeting. Observation without analysis: shared exposure is treated as automatic shared truth. Research dilution: cadence becomes permission for unskilled high-risk studies."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feasibility veto: current architecture is mistaken for the boundary of the opportunity."
+    },
+    {
+      "speaker": "host",
+      "act": "Share context without erasing disciplines",
+      "mood": "curious",
+      "text": "What changes when we look at share context without erasing disciplines?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A product trio commonly brings product, design, and engineering into the same customer and decision context. Product contributes outcome and strategic accountability, design the experience and representation, and engineering system possibilities and constraints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research, content, data, operations, accessibility, and domain experts join according to the decision; the trio is a collaboration nucleus, not a complete organisation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Work around shared artefacts: outcomes, opportunity map, assumptions, scenarios, prototypes, technical spikes, evidence, and decision log. Observe research together where appropriate, debrief separately before converging, and make disagreements explicit. Shared exposure does not grant automatic research competence or make one interview universally representative."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define decision rights. Name the owner, required contributors, evidence, guardrails, and review point. Avoid consensus screens that conceal trade-offs. Escalate value or risk conflicts to the person with legitimate authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure the practice by earlier risk discovery, quality of decisions, reduced handoff, and customer outcome—not meeting attendance. Healthy trios retain specialist craft while reducing fragmented understanding."
+    },
+    {
+      "speaker": "host",
+      "act": "Establish a shared decision practice",
+      "mood": "thinking",
+      "text": "What changes when we look at establish a shared decision practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The trio maintains one outcome, opportunity view, assumption register, and decision log. Members attend enough customer contact to share evidence rather than receive conclusions by handoff. Weekly review asks what was learned, what changed, which risk is now highest, and what the next smallest responsible test should be. Delivery evidence returns to the same loop."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Disagreement is recorded at the claim level. If engineering questions event reliability and design questions comprehension, both can be true and need different tests. If product accepts a risk for strategic reasons, the decision names the consequence, guardrail, owner, and revisit condition. Consensus is not required; accountable reasoning is."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The trio avoids becoming a mini hierarchy that performs discovery and hands requirements to the rest of the team. Designers and engineers who will build the work participate, researchers retain methodological authority, and operational partners can challenge a proposed service promise. Shared responsibility increases connection without erasing expertise."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: fraud controls",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: fraud controls?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A designer, product manager, and engineer cannot responsibly decide a new challenge flow alone. Fraud analysts, support, privacy, accessibility, and affected customers contribute evidence. The trio keeps the decision coherent while bringing those authorities into the right moments."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Collaboration is not achieved by inviting every role to every meeting. It is achieved when the people accountable for a decision encounter the evidence before they commit."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A researcher presents findings after the roadmap is fixed; an engineer sees feasibility problems after the prototype is approved; a designer receives a feature brief with no access to the original problem. Everyone is capable, but learning is arriving as a handoff."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A trio investigating failed onboarding watches sessions together. Product sees commercial urgency, design sees unclear identity language, and engineering sees a verification dependency. Research joins to improve sampling and interpretation; support adds recurring exception evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The trio records three assumptions, commissions a technical spike and a content prototype, and names the decision owner. Shared context creates different but connected contributions—not three people doing the same job. M04 established rigorous evidence. This lesson changes who holds it. lesson 120 gives the trio a structure for moving from outcomes to opportunities and tests."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose one feature decision. List who currently sees the evidence, who owns the technical constraint, and who owns the outcome. Identify the missing conversation."
+    }
+  ]
+}

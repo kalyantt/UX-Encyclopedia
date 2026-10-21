@@ -1,0 +1,193 @@
+{
+  "lesson": "UX-144",
+  "title": "Use Interaction Patterns Without Cargo Culting",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Use Interaction Patterns Without Cargo Culting. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An interaction pattern is a reusable response to a recurring problem in a particular context. It captures forces, trade-offs, and a structure that has worked before. A pattern is not a visual trend or a component to paste into every screen."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with the user goal, context, content, frequency, consequence, and constraints. Then ask what problem the pattern solves, what it assumes, and what it makes harder. Adapt or reject it when those assumptions do not hold. Test the behaviour in the actual task rather than treating convention as proof."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare pattern assumptions before choosing a shape",
+      "mood": "thinking",
+      "text": "What changes when we look at compare pattern assumptions before choosing a shape?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team creates realistic boundary cases: two and twelve clinics, missing access evidence, long names, an expired offer, narrow width, keyboard and screen reader, resumption after interruption, and a clinic that changes state during review. It evaluates comprehension, comparison accuracy, movement cost, recovery, and the risk of false equivalence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The resulting responsive comparison list borrows from several patterns while preserving labelled attributes and explicit action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The adaptation is documented as a pattern decision: problem, alternatives, evidence, intentional differences, and revisit signal. This prevents a later consistency cleanup from restoring a generic card grid that already failed the task. lesson 145 moves one level higher and asks which interaction medium should carry the work."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: audit history",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: audit history?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Infinite scroll supports casual discovery but undermines stable reference, total scope, and return position in an audit log. Pagination with persistent filters is less fashionable and more appropriate because the work demands defensible retrieval."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate the pattern’s contract",
+      "mood": "thinking",
+      "text": "What changes when we look at evaluate the pattern’s contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Name the problem the pattern solves, assumptions it makes, expected mental model, states, accessibility behaviour, content, data, and failure. Compare those with the current context. A familiar pattern reduces learning only when it preserves familiar meaning; copying its shape while changing behaviour creates negative transfer."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research how people currently solve the task and inspect platform conventions. Prototype realistic edge states and alternatives. Check whether the pattern fits frequency, expertise, consequence, device, and information complexity. Adapt deliberately and document the reason so later teams do not “correct” an intentional difference."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure task success, error, recovery, comprehension, and long-term efficiency—not novelty or stakeholder familiarity. Contribute repeated validated adaptations back to the system. Patterns are accumulated hypotheses, not universal laws."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate the forces the pattern balances",
+      "mood": "curious",
+      "text": "What changes when we look at evaluate the forces the pattern balances?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The pattern contract states problem, context, assumptions, anatomy, behaviour, states, accessibility, content and data requirements, failure modes, analytics, and exception criteria. Tests include realistic extremes: many options, missing values, long translation, stale state, keyboard and screen reader, narrow width, interruption, and simultaneous availability change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Adaptation has a decision record. Later teams can see why the library pattern changed and what evidence would justify convergence or further variation. Repeated validated exceptions can become a new shared pattern; one stakeholder preference does not. A design system that enforces appearance without preserving task fit converts reuse into cargo culting."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: activity history",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: activity history?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Infinite scroll suits casual feed discovery but undermines total scope, stable return, export, and defensible reference in an audit log. Pagination and persistent filters may feel less modern while satisfying the actual forces."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pattern libraries should document when not to use a pattern. The exception criteria are often more valuable than the screenshot."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assess patterns against the whole task: information density, user expertise, input method, frequency, error cost, access needs, device, collaboration, and service constraints. A familiar pattern may reduce learning cost while still harming comparison, speed, or recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Document rationale and exception criteria so a pattern library teaches judgment rather than enforcing visual imitation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trend transfer: a consumer pattern is copied into a high-density or high-risk workflow. Component-as-solution: a reusable UI element is selected before the underlying task is understood. Convention claim: familiarity is used as proof without testing task fit. No exception path: teams cannot adapt a pattern when its assumptions fail."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team copies a popular card layout into an enterprise workflow. It looks familiar, but hides comparison details, slows keyboard users, and makes bulk action difficult. Familiarity was mistaken for fit."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A team copies infinite scroll into an audit log because it feels modern. The pattern hides total scope, makes return position unstable, and prevents reliable referencing. The actual work requires comparison, date range, export, and defensible history, so pagination with persistent filters is stronger."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Familiarity was considered, but the domain contract overruled superficial trend. The decision and evidence are documented for future teams. M08 treated content patterns as system behaviour. M09 extends that discipline to interaction patterns. lesson 145 chooses the interaction medium before choosing the on-screen pattern."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a common pattern in a product. Name the recurring problem it solves, one assumption it makes, and a context where another pattern would work better."
+    }
+  ]
+}

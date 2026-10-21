@@ -1,0 +1,227 @@
+{
+  "lesson": "UX-192",
+  "title": "AI-Assisted Research Requires Human Judgement",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about AI-Assisted Research Requires Human Judgement. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "AI can support transcription, translation drafts, retrieval, formatting, candidate tags, clustering suggestions, comparison, contradiction search, and first-pass summaries. These are valuable when outputs are inspectable and correction is cheaper than manual production."
+    },
+    {
+      "speaker": "host",
+      "act": "Assistance does not transfer research responsibility",
+      "mood": "curious",
+      "text": "What changes when we look at assistance does not transfer research responsibility?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It cannot own:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "whether the sample represents the people and conditions relevant to the decision; whether participation, consent, privacy, and data use are appropriate; what an utterance means in the participant’s context; whether absence is a true pattern or a consequence of method and access; which contradiction, minority experience, or harm is significant; how evidence supports a product claim; what recommendation is ethical and proportionate; who remains accountable when the interpretation is wrong."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat generated analysis as a proposition to inspect against primary evidence, not as a finding. Fluency increases the need for discipline because uncertain interpretation arrives in the visual form of finished knowledge."
+    },
+    {
+      "speaker": "host",
+      "act": "Classify material before choosing a tool",
+      "mood": "thinking",
+      "text": "What changes when we look at classify material before choosing a tool?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research data often contains identity, health, finances, employment, location, emotion, third-party stories, organisational secrets, and combinations that can re-identify a person. Removing a name does not make a distinctive narrative anonymous."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before using an AI service, record:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "research purpose and participant expectation; sensitivity and potential consequence of exposure; consent and any restriction on secondary use; legal, contractual, client, and organisational requirements; provider access, retention, training use, deletion, region, and subprocessors; model/tool permissions and who can retrieve the output; minimum data required and whether a safer local or non-AI route exists; how outputs, logs, caches, and exports will be deleted or archived."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Separate permission to participate in research from permission to use material for model training or a new product purpose. If the team cannot explain data handling to a participant in plain language, it should not upload the material."
+    },
+    {
+      "speaker": "host",
+      "act": "Allocate tasks by inspectability and consequence",
+      "mood": "curious",
+      "text": "What changes when we look at allocate tasks by inspectability and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Create an assistance matrix. For each research task, assess sensitivity, output inspectability, cost of error, correction effort, context dependence, and decision consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Lower-risk candidates may include formatting non-sensitive notes, retrieving known passages, suggesting tags linked to sources, or drafting an interview guide that researchers review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Higher-risk uses include selecting participants, deciding saturation, scoring emotion, inferring hidden traits, replacing translation in sensitive research, evaluating participant credibility, or generating findings that directly govern high-consequence decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Automation can also deskill. A researcher who never reads full cases loses the contextual knowledge needed to notice a false theme. Design sampling of raw evidence, peer critique, and manual analysis into the process rather than assuming review of a final summary is sufficient."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve a chain of evidence",
+      "mood": "thinking",
+      "text": "What changes when we look at preserve a chain of evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A defensible synthesis connects:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Primary material: recording, transcript, observation, artifact, or event. 2. Evidence unit: exact passage or observed behaviour with participant and context. 3. Code: a descriptive or interpretive label. 4. Pattern: relationship across evidence, including variation and contradiction. 5. Finding: a claim bounded by sample and conditions. 6."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Implication: what the finding may mean for the decision. 7. Recommendation: proposed action, explicitly separated from evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "AI output must preserve these links. Verify quotations against the primary record; generated or mistranscribed quotations are especially dangerous because they appear to be evidence. Retain counterexamples, conditional cases, analyst memos, changes to the codebook, and disagreements between researchers."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate the research process, not only speed",
+      "mood": "curious",
+      "text": "What changes when we look at evaluate the research process, not only speed?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "transcription and retrieval error; false, unsupported, merged, and missed themes; preservation of minority and conditional experiences; quotation and source traceability; correction effort and time; researcher comprehension of complete cases; inter-analyst disagreement and resolution; privacy incidents or policy violations; stakeholder overconfidence caused by polished output; whether saved time is reinvested in deeper analysis and participant care."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An AI process that halves first-pass time but doubles verification, hides dissent, or weakens researcher understanding is not an improvement. Document tool, model, prompt, source set, and date because later reproduction may otherwise be impossible."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: support-call synthesis",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: support-call synthesis?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An AI tool clusters calls into “billing confusion” and “cancellation.” Reading full journeys shows that many cancellation calls begin with a failed accessibility or identity-verification step. Topic frequency alone would direct work toward cancellation copy. A chain-of-evidence analysis identifies the upstream interaction and the customers excluded before they can self-serve."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Summary-as-finding: compressed prose bypasses coding, contradiction, interpretation, and scope. Traceability theatre: a snippet link exists but omits surrounding context or disproving evidence. Minority erasure: low-frequency or differently worded experiences disappear during clustering. Actor collapse: needs of users, operators, and affected non-users merge into one theme."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sensitive-data convenience: material is uploaded before retention, training use, and permission are understood. Invented evidence: fluent quotations or factual claims are not present in the primary record. Deskilled review: researchers inspect outputs without building contextual familiarity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Volume inflation: faster synthesis produces more shallow “insights” rather than better decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior researchers define which judgements cannot be delegated, require source-linked evidence, and protect disagreement from pressure for a neat story. They audit vendor and internal data practices, train teams to recognise analytic failure, and ensure efficiency metrics do not reward less contact with participant context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also make the AI contribution visible in research reporting. Stakeholders should know which material and analytic steps were assisted, verified, contradicted, or uncertain. Accountability remains with the researchers and organisation making the claim."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an interview-analysis tool. It clusters research notes into themes, but a confident cluster may erase a rare accessibility problem or misread sarcasm. Researchers retain source links, inspect counterexamples, document prompts and limitations, and make the synthesis decision themselves."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "AI accelerates handling material; it does not become the participant or the analyst of record."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Inspect an AI-generated research summary. Select three claims and trace each to full primary context. Label every sentence observation, interpretation, implication, or recommendation. Search deliberately for one participant or case that does not fit. If the claim cannot survive that trace, it is polished synthesis—not dependable evidence."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "lesson": "UX-187",
+  "title": "Model the Real System Before the AI Intervention",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Model the Real System Before the AI Intervention. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before proposing AI, identify the real decision the intervention is meant to improve. “Predict delays” is an implementation description. Better questions are: Should a customer leave early to receive a parcel? Should an operator intervene in a routing exception? Should the organisation proactively offer a remedy? What would count as a better outcome for each person involved?"
+    },
+    {
+      "speaker": "host",
+      "act": "The unit of design is the decision system",
+      "mood": "curious",
+      "text": "What changes when we look at the unit of design is the decision system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Then model the decision system around it. At minimum, include:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "the actors who create, interpret, act on, and are affected by the information; their goals, incentives, authority, and practical constraints; the data sources, their meanings, quality, ownership, latency, and missing cases; the current workflow, including policy rules, handoffs, queues, tools, and informal workarounds; the action an AI output may trigger and the cost of acting wrongly or failing to act; the feedback that tells the system whether the intervention helped or caused harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This resembles a service blueprint, a stakeholder map, and a decision model used together. It is deliberately more expansive than a data-flow diagram. Data can travel correctly while responsibility, timing, and recourse are broken."
+    },
+    {
+      "speaker": "host",
+      "act": "Make the current system visible first",
+      "mood": "thinking",
+      "text": "What changes when we look at make the current system visible first?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with a current-state map. Follow a few real cases from signal to consequence, including one ordinary case, one exception, and one case that reaches support. Mark where data is generated, transformed, delayed, corrected, or simply assumed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Add the human interpretation at each step: a carrier scan might look like an objective fact but it could be absent, duplicated, or recorded after the useful moment for intervention."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The goal is not a perfect simulation. The goal is a shared representation that is detailed enough to surface choices. A useful map lets the team ask: where does uncertainty enter? Who notices it? Who has authority to respond? What work is shifted when the system appears confident? What happens to a person who does not fit the normal path?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This often reveals a more valuable non-AI intervention. The delivery team may need a reliable status taxonomy, clearer exception ownership, a better support handoff, or a customer-facing recovery promise before a model can create value. If the system cannot act on an accurate prediction, the prediction is not the product."
+    },
+    {
+      "speaker": "host",
+      "act": "Translate outputs into human action",
+      "mood": "curious",
+      "text": "What changes when we look at translate outputs into human action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For every proposed output, write a decision contract:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Input: what information is used, what is excluded, and what uncertainty remains? 2. Output: is it a prediction, recommendation, classification, alert, or automated action? 3. Recipient: who sees it and what do they understand it to mean? 4. Authority: what may they do, and what may they not do? 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Threshold: when is the output strong enough to change action, and when should it be withheld or sent for review? 6. Recourse: how can a person question, correct, override, or appeal it? 7. Feedback: what outcome returns to improve the service, and could that feedback itself be biased?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This prevents a familiar failure: treating a score as a decision. A “92% chance of delay” does not dictate an action without a threshold, a cost model, and a person or system authorised to act. In some contexts, it may be better to say less until the service can offer a useful option."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In others, uncertainty itself is essential information and should be communicated alongside the next action."
+    },
+    {
+      "speaker": "host",
+      "act": "Examine proxies and feedback loops",
+      "mood": "thinking",
+      "text": "What changes when we look at examine proxies and feedback loops?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "AI systems rarely optimise the thing people genuinely value. They optimise an available proxy: on-time scan events rather than a customer receiving the parcel when promised, handle time rather than resolution, predicted risk rather than fair treatment. The difference matters because a proxy can reward behaviours that damage the larger system."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask what historical patterns are embedded in the data. Were certain neighbourhoods, customer groups, languages, or exception types documented less accurately? Did staff previously intervene unevenly because of capacity, policy, or bias? If an AI system learns from those outcomes, it can stabilise old inequities under the appearance of objective prediction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Also map the feedback loop. An alert changes human behaviour; changed behaviour changes the data; the new data changes the model. If operators learn to trust a score too much, they may stop checking cases the model misses. If customers receive more warnings, they may contact support earlier, making volume look like a prediction problem rather than a communication effect."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Monitoring must include these second-order effects, not just model accuracy."
+    },
+    {
+      "speaker": "host",
+      "act": "Design for authority, handoff, and failure",
+      "mood": "curious",
+      "text": "What changes when we look at design for authority, handoff, and failure?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The interface must make the system’s limits operationally usable. Do not only show confidence; connect uncertainty to a next step. A low-confidence document classification may become “we could not read this clearly—review the highlighted fields or send another image,” rather than a mysterious rejection."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A high-confidence fraud flag may require a specialist review rather than a final customer-facing block. The correct handoff depends on the risk, the available expertise, and the reversibility of the decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define failure modes before implementation: stale data, unavailable sources, out-of-distribution cases, adversarial input, conflicting signals, ambiguous policy, model degradation, and a person who cannot use the intended channel. For each, specify the safe state. Does the system defer, ask for more information, route to a human, retain the current state, or stop the action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“The model will be wrong sometimes” is not a design decision; the recovery behaviour is."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: delivery prediction",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: delivery prediction?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A logistics team proposes “predict late deliveries.” Mapping shows that scan events are delayed, carriers define exceptions differently, support cannot reroute most parcels, and a warning without remedy increases contacts. The better intervention begins with a shared status taxonomy and exception ownership."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Prediction is introduced only where an operator can still act or the service can offer a meaningful choice. The output is not the product; the changed decision and recovery are."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Model-centred boundary: the map begins at input and ends at output, omitting service consequence. Data-as-fact: records are shown without meaning, provenance, latency, correction, or ownership. Score-as-decision: a probability crosses into action without threshold, authority, or cost trade-off. Proxy capture: the measurable target replaces the human or service outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hidden work transfer: saved interface effort becomes an unstaffed operations queue. Static-system assumption: the intervention’s effect on behaviour, demand, and future data is ignored. Non-user erasure: people affected by the decision are absent because they never touch the interface."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map without decision: complexity is documented but no scope, experiment, owner, or stop condition changes."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The dangerous AI project is not necessarily the one with the weakest model. It is the one that quietly delegates a consequential decision into a system with unclear authority, poor data meaning, no correction path, and nobody accountable for the result. Model the decision and its consequences before modelling the data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners use the map to challenge organisational readiness. If the only person who can correct an outcome sits outside the programme, the dependency is a product constraint. If a policy is ambiguous, the model must not resolve it by learning historical habit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If the feedback label is produced by the system’s own prior decision, independence and bias require explicit review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a housing-support service. A chatbot proposal promises faster answers, but the real bottleneck is policy ambiguity and missing case updates. Map the current service, data, staff authority, exceptions, and alternative fixes before adding AI. Otherwise the model may produce fluent explanations for a system that cannot deliver the promised outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 186 storyboarded the human–AI handoff. This lesson expands the frame: every handoff is produced by a living service system. lesson 188 will turn that system understanding into an appropriate interaction metaphor, and later lessons will test reliability, recourse, and the organisational feedback loop."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose an AI feature idea—real or imagined—and draw a decision-system map. Include the person affected, data sources, model output, recipient, action, authority, exception path, and feedback loop. Then identify one place where a process, policy, or content change could solve the underlying problem without AI."
+    }
+  ]
+}

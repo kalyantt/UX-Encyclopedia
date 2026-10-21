@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-184",
+  "title": "Equity, Power, and Harm in Product Decisions",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Equity, Power, and Harm in Product Decisions. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Equality applies the same resource or rule. Equity considers different starting conditions, exposure to harm, and what support is required for comparable opportunity and outcome. Identical treatment can preserve exclusion when people have unequal transport, documentation, technology, trust, or institutional power."
+    },
+    {
+      "speaker": "host",
+      "act": "Equity concerns distribution, history, and power",
+      "mood": "curious",
+      "text": "What changes when we look at equity concerns distribution, history, and power?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every product decision distributes:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "access, attention, convenience, and opportunity; time, cost, labour, surveillance, and uncertainty; false acceptance and false rejection; authority to define success and interpret evidence; ability to correct, appeal, or receive remedy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analyse historical and structural context. A request for more identity evidence is not experienced neutrally by groups subjected to disproportionate scrutiny. A digital-only route can look efficient while shifting unpaid work to families and community advisers."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a distributional impact assessment",
+      "mood": "thinking",
+      "text": "What changes when we look at build a distributional impact assessment?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map direct users, non-users, people denied entry, representatives, frontline staff, partners, and communities. For each group record intended benefit, participation requirements, plausible harms, error types, severity, duration, reversibility, transferred labour, data exposure, recourse, and evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Then map power:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "who framed the problem and selected the proxy; who supplied data and who is missing; who set thresholds and acceptable trade-offs; who benefits commercially or operationally; who can inspect, override, pause, appeal, and obtain remedy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Quantitative analysis needs denominators and error consequences. Compare false acceptance, false rejection, recovery time, appeal success, and downstream outcome—not aggregate accuracy alone. Small samples, missing identity data, and privacy constraints require humility. Qualitative and community evidence can reveal mechanism and serious harm without estimating prevalence."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: fraud prevention",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: fraud prevention?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A fraud model reduces loss while locking legitimate shared-device customers out. Overall accuracy obscures asymmetrical error: false rejection can block rent or medicine and require documents unavailable to the customer. The response must change the evidence threshold, automated authority, recovery route, and governance—not merely soften the error message."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Average success: aggregate gain conceals concentrated harm. Fairness by sameness: identical rules ignore unequal conditions. Proxy neutrality: a measurable variable is treated as value-free. Missing-group silence: absence from data is interpreted as absence of harm. Burden transfer: efficiency moves work to patients, families, or frontline staff."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recourse fiction: appeal exists but lacks authority, accessibility, or timely remedy. Fairness metric theatre: one numerical parity measure replaces contextual judgement."
+    },
+    {
+      "speaker": "host",
+      "act": "Run a distributional harm review",
+      "mood": "curious",
+      "text": "What changes when we look at run a distributional harm review?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team identifies mechanisms rather than stopping at group differences. Language, disability access, geography, clinic capacity, referral complexity, digital identity, and helper availability can change the pathway. Quantitative evidence shows distribution where measurement is appropriate; qualitative and operational evidence explain how the disparity is produced."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sensitive categories are used proportionately and governed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each harm scenario records affected people, severity, likelihood or uncertainty, evidence, reversibility, mitigation, owner, monitoring, and stop condition. Mitigation can change product, data, policy, operation, staffing, or channel. Averaging benefit across all users cannot cancel serious harm concentrated in a smaller group."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Participation informs criteria and consequences, especially for people with little institutional power. It does not transfer accountability to them. Leaders document the trade-off decision, dissent, evidence, and repair path. Launch is conditional when the team cannot yet rule out material harm."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: fraud detection",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: fraud detection?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A control can reduce losses while disproportionately blocking people with thin credit files or shared devices. Appeal, human review, monitoring, and distributional analysis are part of the product—not downstream support for an otherwise successful model."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners make value conflicts and decision power visible. They involve affected people before thresholds harden, give equity and safety guardrails real authority, and fund remedy. They do not promise perfect fairness; they document trade-offs, residual harm, and review triggers precisely enough for accountability."
+    },
+    {
+      "speaker": "host",
+      "act": "Put distribution and power inside the decision",
+      "mood": "thinking",
+      "text": "What changes when we look at put distribution and power inside the decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team conducts a harm review for misclassification, exclusion, privacy, workload shift, and false clinical implication. Mitigations have owners, measures, and stop conditions. Participation informs the decision but does not transfer accountability to affected people; leaders remain responsible for trade-offs and repair."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a school-enrolment portal. A “digital-first” policy saves staff time but shifts printing, scanning, and translation costs to families with the fewest resources. Evaluate who benefits and who pays across the whole service. Equity may require assisted routes, policy changes, and measures that reveal unequal completion rather than average success alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a product success claim. Ask who never entered its denominator, who needed assistance, and who absorbed failure. Rewrite the claim so the distribution and uncertainty are visible."
+    }
+  ]
+}

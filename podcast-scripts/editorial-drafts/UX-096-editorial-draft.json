@@ -1,0 +1,298 @@
+{
+  "lesson": "UX-096",
+  "title": "Present a Defensible Design Case",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Present a Defensible Design Case. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A defensible design case connects a recommendation to evidence and consequence. Its basic logic is:"
+    },
+    {
+      "speaker": "host",
+      "act": "A design case is an inspectable argument",
+      "mood": "curious",
+      "text": "What changes when we look at a design case is an inspectable argument?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "In this situation, these people are trying to make this progress. This evidence suggests this mechanism prevents it. We considered these alternatives under these constraints. We recommend this bounded system because it should produce these outcomes, while these controls address these risks."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These claims remain uncertain, so we will gather this evidence and make this next decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The case is not proof that the future will occur. It is a transparent record of why the organisation is justified in acting under present evidence and how it remains accountable when reality differs."
+    },
+    {
+      "speaker": "host",
+      "act": "Scale rigor to consequence and reversibility",
+      "mood": "thinking",
+      "text": "What changes when we look at scale rigor to consequence and reversibility?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A reversible content change may need a concise rationale, accessibility check, and outcome monitor. A health, money, identity, safety, employment, or autonomous-action system requires deeper participation, research, technical evidence, risk analysis, operational readiness, governance, recourse, and staged exposure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assess:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "potential severity and distribution of harm; reversibility and detectability; number and vulnerability of affected people; data sensitivity and authority; novelty and uncertainty; dependency and operational complexity; regulatory, ethical, and strategic consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not burden low-risk decisions with ceremonial paperwork while approving high-consequence systems through charismatic demos."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the argument from traceable parts",
+      "mood": "curious",
+      "text": "What changes when we look at build the argument from traceable parts?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Decision and boundary"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "State what must be approved now, by whom, and what is explicitly outside scope. Avoid “approve the redesign.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "2. People, context, and desired outcome"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Represent direct users, affected non-users, staff, partners, and variation that changes the mechanism. Show the end-to-end progress, not a demographic collage."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "3. Problem frame and evidence"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Separate observation, interpretation, causal hypothesis, value judgement, and unknown. Link claims to source and method. Include contradictory or missing evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "4. Alternatives"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Show credible options: no change, content or policy repair, process, service, rules, technology, narrow or broad scope. Explain why each was retained or rejected."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "5. Proposed system"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Show conceptual objects, information, states, permissions, interactions, channels, staff, policy, infrastructure, metrics, governance, and failure/recovery. Screens are evidence of this system, not the whole proposal."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "6. Trade-offs, value, risk, and harm"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Show who benefits, who carries burden, which risks arise from the value mechanism, controls, residual risk, dissent, and accountable acceptance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "7. Evidence and validation status"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Distinguish problem, concept, usability/accessibility, feasibility/operations, viability/responsibility, and outcome confidence. State supported and prohibited claims."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "8. Delivery and operating plan"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Name decision rights, smallest ethical increment, stages, support, monitoring, incident response, rollback, remediation, maintenance, and retirement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "9. Measures and next decision"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Define outcome, diagnostics, guardrails, qualitative listening, time horizon, owner, thresholds, and what leads to expand, adapt, narrow, pause, or stop."
+    },
+    {
+      "speaker": "host",
+      "act": "Present around decisions, not artifact chronology",
+      "mood": "thinking",
+      "text": "What changes when we look at present around decisions, not artifact chronology?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not narrate every workshop. Lead with the decision and consequence, then supply only artifacts that make a relationship materially easier to understand. A journey demonstrates sequence; a blueprint demonstrates service dependency; a state model demonstrates coherence; a prototype demonstrates behaviour; a risk table demonstrates distribution and control."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a claim–evidence table behind the story. Every important statement should identify evidence, method, population/context, strength, and limitation. Mark illustrative scenarios as illustration, not observed fact."
+    },
+    {
+      "speaker": "host",
+      "act": "Welcome challenge",
+      "mood": "curious",
+      "text": "What changes when we look at welcome challenge?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A defensible review is structured disagreement, not performance. Ask reviewers to challenge:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "problem mechanism; missing affected people or contexts; interpretation of evidence; feasibility and service capacity; alternative interventions; authority and risk controls; measurement and generalisation; accepted values and trade-offs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capture questions, decisions, dissent, new evidence, owner, and follow-up. If a serious unknown cannot be resolved before a deadline, narrow the commitment or record explicit risk and earliest review. Avoid answering uncertainty with presentation confidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve the case through delivery and launch",
+      "mood": "thinking",
+      "text": "What changes when we look at preserve the case through delivery and launch?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Link backlog, design decisions, tests, release stages, incidents, and outcome review to the case. Update claims as evidence changes. The case becomes organisational memory: why the system exists, what it must preserve, and when it should change or retire."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Avoid rewriting the past so every result appears planned. A decision record is valuable precisely because later teams can see which assumption failed and learn."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: notification preference",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: notification preference?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A low-risk reversible notification change needs less ceremony: user problem, behavioural evidence, accessibility/content rationale, alternatives, expected outcome, annoyance or opt-out guardrail, and review. The same argument structure applies, but documentation and approval are proportionate. Rigor means sufficient evidence for consequence, not maximum artifact volume."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Portfolio theatre: polished screens and a heroic story replace reasoning. Evidence collage: artifacts appear without a claim-to-recommendation chain. Happy-path system: states, backstage work, accessibility, and recovery are absent. Alternative tokenism: obviously weak options make the preferred direction look inevitable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Risk appendix: harm and residual risk sit outside the central decision. Certainty inflation: pilot or usability evidence becomes a scale/outcome claim. Review by hierarchy: objections are settled by seniority without evidence or recorded trade-off. Approval endpoint: no next measure, owner, or decision after release."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners make judgement legible without pretending design is value-free. They state the recommendation, the human and organisational values it protects, the evidence it rests on, and what would change it. They calibrate review to consequence, keep the narrative decisive, and keep the evidence deep enough for challenge."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The strongest case is not the one with the most artifacts. It is the one another capable team could inherit, question, operate, and revise responsibly."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a parcel-redirection proposal. A design case connects observed missed deliveries, competing causes, a tested prototype, operational feasibility, and a rollout guardrail. The presenter names which claims are evidence-backed and which remain assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A defensible case explains why this choice is better now and what result would change the recommendation."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Watch a design case study and note when it moves from observation to problem, from problem to solution, and from solution to claimed outcome. Is each transition supported? Look for rejected alternatives, failure/recovery, operational ownership, and post-launch evidence. The missing transition is usually where confidence exceeds the case."
+    }
+  ]
+}

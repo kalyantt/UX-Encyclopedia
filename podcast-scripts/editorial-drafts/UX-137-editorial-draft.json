@@ -1,0 +1,203 @@
+{
+  "lesson": "UX-137",
+  "title": "Content Strategy for Product UX",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Content Strategy for Product UX. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content strategy defines a content product’s purpose, audience, intent, ownership, lifecycle, relationships, and success criteria. In product UX, this applies to labels, instructions, system messages, help, notifications, transactional messages, and service handoffs—not just marketing pages."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with the user’s task and moment of need. Decide what the content must help someone understand, decide, do, or recover from; where it belongs; what information it depends on; who maintains it; and how it will be evaluated. Content without an owner or review trigger becomes a hidden source of product debt."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect content decisions to product behaviour",
+      "mood": "thinking",
+      "text": "What changes when we look at connect content decisions to product behaviour?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content strategy defines what information and language a product needs, why it exists, how it is structured, who produces and approves it, where it appears, and how it changes. It joins user need, business or service intent, content design, operations, and governance. A voice guide without a production model is branding; a collection of strings without purpose is inventory."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The strategy identifies content debt as product risk. Clinic access details have no reliable freshness owner; notification text is duplicated in three systems; support scripts use different state names; preparation PDFs cannot adapt after rescheduling. Priorities are based on consequence and reuse, not which page is most visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Some problems require new structured data or operational ownership before words can improve."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Success includes comprehension, correct next action, recovery, reduced contradiction, localisation quality, accessibility, and maintenance health. lesson 138 now turns the strategy into sentence-level interaction through plain language."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: tax filing",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: tax filing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A tax product needs more than friendly copy. It needs authoritative rule sources, explanations at decision points, reusable definitions, jurisdiction and effective dates, review workflow, and a plan for annual change. Content strategy makes those dependencies explicit."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the content system",
+      "mood": "thinking",
+      "text": "What changes when we look at build the content system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content strategy connects user need, organisational purpose, message, structure, production, governance, and lifecycle. Inventory content and decisions across journeys. Identify source of truth, audience, owner, format, channel, metadata, dependencies, risk, and review date. Remove duplication that creates contradictory states."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a model of reusable content types and relationships rather than writing pages independently. Define terminology, hierarchy, voice, accessibility, localisation, legal and policy review, and what changes across context. A status message may appear in product, email, support, and operations; shared meaning matters more than identical copy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritise high-consequence and high-change content. Establish creation, review, approval, publishing, measurement, correction, and retirement. Measure whether people understand and act successfully, plus search failure, support demand, outdated content, and maintenance effort."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Strategy is realised through operations. A style guide without ownership, tooling, and change paths cannot keep the experience coherent."
+    },
+    {
+      "speaker": "host",
+      "act": "Create a content strategy decision map",
+      "mood": "curious",
+      "text": "What changes when we look at create a content strategy decision map?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritisation combines customer consequence, reach, contradiction, maintenance risk, accessibility, and dependency. A frequently viewed welcome message may matter less than an outdated preparation instruction or a status with no accountable owner."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Some content debt cannot be fixed by writing: missing event semantics, unavailable data, and unresolved policy become product or service work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The roadmap includes governance and retirement. Each content type has request, creation, specialist review, localisation, implementation, measurement, update, and archive. Success measures include correct interpretation and action, contradiction rate, freshness, reuse, support demand, and change lead time. Publishing volume is an operating metric, not a customer outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: lending",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: lending?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A loan product needs a governed explanation system for eligibility, rate, repayment, evidence, and adverse decisions. A friendlier landing page cannot compensate for inconsistent calculations and support scripts. Content strategy connects the promise, data, decision, regulation, and lifecycle."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat every message as part of a system. A clever onboarding sentence that contradicts support content or a billing email can damage trust more than a bland but consistent one."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat content as a product system with audience, purpose, source of truth, lifecycle, governance, and success criteria. Map which content enables each task, who owns its accuracy, how it changes, and where it appears across channels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A strong strategy connects customer language and decisions to the underlying model, rather than treating words as a final layer of interface polish."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Copy-last workflow: content is added after structure and interaction have already constrained its meaning. Source-of-truth gap: competing channels offer different policy, status, or next steps. Unowned lifecycle: time-sensitive content remains after its validity expires. Template overreach: reusable copy hides material contextual differences."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A product team adds an onboarding tooltip, an empty state, a help article, and a reminder email. Each is reasonable alone. Together they repeat, contradict, and leave no one responsible for keeping the guidance current."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "M07 made the information system coherent. M08 focuses on content as active interface behaviour. lesson 138 makes that behaviour clearer through plain language."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Pick one product message. State its audience, task moment, intended action, owner, review trigger, and one signal that would show it is failing."
+    }
+  ]
+}

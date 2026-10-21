@@ -1,0 +1,208 @@
+{
+  "lesson": "UX-143",
+  "title": "Content Patterns Across States and Channels",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Content Patterns Across States and Channels. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content patterns are reusable structures for recurring product moments: empty states, loading, confirmation, error, permission, interruption, change, recovery, and handoff. A pattern includes the state, user need, necessary information, action, tone boundary, and channel-specific adaptation—not just a sentence template."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map the whole journey. A person may encounter a state in an app, notification, email, help page, or conversation with support. The core meaning should remain consistent while the detail adapts to channel and moment. Build patterns around tasks and recovery, then test them in realistic sequences."
+    },
+    {
+      "speaker": "host",
+      "act": "Reuse semantic structure, adapt expression",
+      "mood": "thinking",
+      "text": "What changes when we look at reuse semantic structure, adapt expression?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A content pattern captures a recurring communication problem, required meaning, sequence, variables, channel adaptations, and conditions of use. It is more than approved wording."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A status pattern may require event, object, present meaning, responsible actor, time evidence, next action, and recovery; each channel then expresses that structure within its attention, privacy, and length constraints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The pattern library includes examples for normal, delayed, missing-information, declined, withdrawn, and uncertain states; content limits; accessibility behaviour; localisation notes; prohibited claims; and when not to use the pattern."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Variables are typed and validated so a team cannot insert an appointment date into a request state or omit the responsible actor where recovery depends on it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Testing follows the pattern through transitions and channels. The team checks whether a user who reads an SMS and later opens the app encounters coherent state, whether translation preserves action, and whether updates arrive in causal order. This content-system foundation passes to interaction patterns in lesson 144."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: parcel tracking",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: parcel tracking?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Shipped,” “in transit,” “out for delivery,” and “delivered” require event definitions, location and time evidence, exception states, and recovery. Reusing one template while each carrier means something different creates consistency of style and inconsistency of truth."
+    },
+    {
+      "speaker": "host",
+      "act": "Model state before writing messages",
+      "mood": "thinking",
+      "text": "What changes when we look at model state before writing messages?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the service states—started, incomplete, pending, action required, approved, rejected, failed, expired, cancelled, and recovered—and the transitions among them. For each, specify what happened, who owns the next action, what the person must do, time expectation, and available support."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create content patterns with required elements and contextual variables rather than fixed sentences. An error pattern needs object, problem, retained state, resolution, and escalation. A confirmation needs completed action, important consequence, reference, and next step. Test missing and partial data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Coordinate channels by purpose. The product may show full current state, an email provide durable confirmation, a notification draw timely attention, and support explain exceptions. They should share terminology and source of truth without repeating sensitive information in unsafe channels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Audit cross-channel sequences for contradiction, timing, duplication, accessibility, and recovery. Content consistency is semantic: if one channel says submitted and another says approved, no style guide can restore trust."
+    },
+    {
+      "speaker": "host",
+      "act": "Write the pattern as a semantic contract",
+      "mood": "curious",
+      "text": "What changes when we look at write the pattern as a semantic contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Channel variants preserve the contract. A lock-screen notification exposes minimal sensitive detail and invites secure return. Email provides context but never becomes a second source of current state. Support receives provenance and diagnostic detail while communicating the same patient promise. The in-product history shows transitions and evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Out-of-order delivery is reconciled rather than presented as conflicting truth."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pattern testing covers realistic values, long translation, missing data, assistive technology, transitions, interruption, and service failure. Governance names owner, contribution route, versioning, and deprecation. A pattern is adopted when recurring behaviour and evidence justify it, not because several messages share a colour."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: parcel status",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: parcel status?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Shipped, in transit, delayed, out for delivery, delivery attempted, and delivered need event definitions and recovery. A shared template cannot compensate when each carrier uses the same word for a different operational moment."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When a message “works” in a component library but fails in a service journey, the missing pattern is usually the transition, ownership, or consequence—not the words alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define content patterns across the lifecycle of a task: entry, instruction, empty, loading, permission, error, success, pending, reminder, escalation, and recovery. Each pattern should identify the required information, action, channel-specific adaptation, accessible delivery, and source of truth."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consistency should preserve meaning while allowing the right level of detail for a notification, interface, email, staff script, or help article."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Happy-path copy: critical error and recovery states are improvised late. Channel contradiction: email, app, and staff messages give incompatible next steps. State-free template: a generic phrase hides timing, ownership, or consequence. Unreachable help: content names a recovery route that the service cannot actually provide."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A delivery is delayed. The app says “on its way,” the email says “action required,” and support says there is no issue. Each channel has content, but together they produce an incoherent service."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "M08 has treated content as strategy, language, tone, access, evidence, and operations. M09 applies the same system thinking to interaction patterns and interface craft."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Trace one product state across two channels. Compare what happened, what it means, next action, and recovery. Mark any contradiction."
+    }
+  ]
+}

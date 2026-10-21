@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-174",
+  "title": "Randomisation, Assignment, and Exposure",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Randomisation, Assignment, and Exposure. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The randomisation unit is assigned to a variant: user, account, household, clinician, clinic, region, or time period. Assignment should be probabilistic, persistent where needed, and independent between units."
+    },
+    {
+      "speaker": "host",
+      "act": "Four units that teams often confuse",
+      "mood": "curious",
+      "text": "What changes when we look at four units that teams often confuse?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The exposure unit encounters the treatment. A clinic may be assigned support but never activate it; a patient may belong to a treatment clinic before any updated data affects their referral."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The analysis unit is the level represented by observations in a metric: clinic, patient, referral, session, or event. Repeated events from one randomised unit are correlated. Treating them as independent creates overconfident uncertainty estimates."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The interference unit is the boundary within which one unit’s treatment can affect another’s outcome. Shared inventory, staff learning, network communication, and marketplace competition violate the simple assumption that one unit’s treatment does not influence others."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose randomisation at the same or a coarser level than important analysis and interference where feasible. Then use analysis that respects clustering and unequal exposure."
+    },
+    {
+      "speaker": "host",
+      "act": "Assignment is not exposure",
+      "mood": "thinking",
+      "text": "What changes when we look at assignment is not exposure?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Intention-to-treat analysis compares all assigned units and preserves randomisation. It estimates the effect of offering or assigning treatment, including non-use. This is often the most policy-relevant and trustworthy estimate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triggered analysis can improve sensitivity by focusing on units that could have been affected. But the trigger must be defined using conditions that do not depend differently on treatment. If treatment itself changes who reaches the trigger, conditioning can create selection bias. Log assignment and exposure separately and report trigger rates by variant."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Predefine eligibility, exclusions, persistence, identity, and cross-device behaviour. Post-hoc removal of inconvenient units breaks the comparison. Monitor sample-ratio mismatch, invariant pre-treatment characteristics, exposure parity, and variant switching before reading outcomes."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: a marketplace",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: a marketplace?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Randomising buyers to a recommendation can change which sellers receive demand, affecting control buyers through shared inventory. User-level assignment does not isolate effects. A market-level, geographic, switchback, or other clustered design may be needed, each with power and temporal assumptions. The unit is a property of the causal system, not a platform default."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assignment–exposure collapse: assigned people are assumed to have experienced treatment. Event independence: thousands of clicks from a few clinics are treated as thousands of independent units. Treatment-dependent trigger: analysis conditions on behaviour caused by the variant. Identity leakage: devices or accounts switch arms."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Shared-resource interference: treatment consumes capacity available to control. Post-hoc eligibility: units are removed after outcomes are known."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose the randomisation unit from the service topology",
+      "mood": "curious",
+      "text": "What changes when we look at choose the randomisation unit from the service topology?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Eligibility is determined before assignment. The system records assignment independently from exposure, repeated exposure, crossover, and outcome. Intention-to-treat estimates the effect of offering the variant under real compliance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Per-protocol or treatment-on-treated analyses answer different questions and require stronger assumptions; they do not replace the primary design because the result looks larger."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ethics limits experimentation. The team does not randomise a known accessibility fix or hide material transfer consequences. Uncertain safe alternatives can be tested with clinical and service guardrails, monitoring, and stop rules. The experiment report states the treatment, population, estimand, analysis, deviations, and interference."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: call-centre script",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: call-centre script?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Randomising customers fails if agents switch between scripts and carry learning across calls. Agent or shift clusters may be stronger, but scheduling, case mix, and small cluster count become part of the design."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unit choice determines what causal claim is possible and who bears experimental risk. Senior practitioners involve data science, engineering, operations, privacy, and domain owners before feature implementation, because randomisation is often baked into architecture."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They resist increased statistical power when it requires a unit that violates service reality or exposes people unsafely."
+    },
+    {
+      "speaker": "host",
+      "act": "Protect the comparison from assignment to analysis",
+      "mood": "thinking",
+      "text": "What changes when we look at protect the comparison from assignment to analysis?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Randomising individuals may create interference when staff serve both variants or learn a new workflow. Cluster or time-based designs have different power and confounding risks. Sample-ratio mismatch, missing exposure, and unequal latency are investigated before interpreting effect. The assignment design follows the causal question and service topology."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a checkout experiment. Customers are assigned to a new delivery-date display, but some never reach the screen. Analyse assignment separately from actual exposure and check that allocation, eligibility, and event logging worked as planned. Otherwise the apparent lift may reflect who saw the change rather than what the change did."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a published experiment. Ask whether assignment occurred by user, session, device, organisation, or geography; whether outcomes share resources; and whether “users who saw” is a randomised or selected group."
+    }
+  ]
+}

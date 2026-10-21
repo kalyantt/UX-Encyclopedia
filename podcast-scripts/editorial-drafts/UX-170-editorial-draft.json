@@ -1,0 +1,202 @@
+{
+  "lesson": "UX-170",
+  "title": "Metrics Have Roles: Inputs, Outputs, Outcomes, and Guardrails",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Metrics Have Roles: Inputs, Outputs, Outcomes, and Guardrails. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inputs describe resources, conditions, and capability available to the system: staffed navigator hours, proportion of clinics connected, research capacity, or referrals with complete data. Inputs enable work but do not prove benefit."
+    },
+    {
+      "speaker": "host",
+      "act": "A metric’s role comes from the decision",
+      "mood": "curious",
+      "text": "What changes when we look at a metric’s role comes from the decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outputs describe what the organisation or system produced: clinic records verified, accessibility defects repaired, notifications delivered, or navigator cases handled. Outputs demonstrate delivery, not what changed for people."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Behaviour and service-result measures describe what actors did and what the service fulfilled: patients requested help, clinics accepted referrals, or reroutes completed. They bridge output and outcome but may remain proxies."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outcomes describe changed states that matter: patients reach appropriate care sooner, staff avoid rework, or access gaps narrow. Outcomes may lag and depend on forces outside the product."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Guardrails protect non-target qualities and stakeholders from unacceptable trade-offs. They can cover safety, accessibility, privacy, trust, workload, latency, error, cost, and distributional harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A measure is not permanently one type. Time to appointment is an outcome for a scheduling programme and a guardrail for an explanation experiment. Label role, scope, and decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Construct a metric architecture",
+      "mood": "thinking",
+      "text": "What changes when we look at construct a metric architecture?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start from a theory of change:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If we invest in capability/input, we can deliver output, which changes behaviour or service state, which contributes to outcome, provided assumptions hold and guardrails remain acceptable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each link, document owner, population, unit, cadence, lag, source, target or threshold, and rival explanation. Distinguish measures teams can directly influence from outcomes they contribute to. Avoid using an input target as a performance substitute simply because the outcome is slow."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assign cadences by function. Operational queues may need hourly monitoring, experiment measures daily quality checks, and long-term outcomes quarterly review. Guardrails require an escalation route and authority; observation without response is decoration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Audit every dashboard tile: What role does it play? Which decision changes? Who owns interpretation? What population and horizon apply? What does it omit? Retire orphan metrics."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: a help centre",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: a help centre?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Articles published are output. Searches and opens are behaviour. Problems resolved without repeated effort are outcome. Failed search, inaccessible content, delayed urgent help, and displaced support labour are guardrails. If contact volume falls while unresolved complaints rise, the service has reduced a cost rather than resolved customer problems."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Activity promotion: research sessions or features shipped become “outcomes.” Role ambiguity: the same number is interpreted differently across teams. Outcome without agency: teams are held to distant results without controllable drivers. Local optimisation: one unit improves its target by transferring work or harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cadence mismatch: slow outcomes are judged daily or urgent guardrails quarterly. Ownerless guardrail: deterioration is visible but nobody can stop rollout."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a metric tree from a behavioural theory",
+      "mood": "curious",
+      "text": "What changes when we look at build a metric tree from a behavioural theory?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each metric has definition, population, denominator, event source, time window, segmentation, owner, expected relationship, and decision rule. Diagnostics explain movement; guardrails protect safety, equity, staff load, privacy, and channel shift. A metric without a response is information overhead. A metric with a target but no causal role invites gaming."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The tree represents tensions. Faster request processing can reduce delay while increasing unsuitable transfers; more self-service can reduce calls while excluding people. The team reviews distributions and cohorts, not averages alone, and pairs service data with qualitative evidence. Relationships remain hypotheses until tested."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric health is governed too. Instrumentation, definitions, missingness, ownership, and product changes are audited. When a status event changes, historical comparison is annotated or migrated. The dashboard cannot remain more stable than the service semantics beneath it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: learning platform",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: learning platform?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Lessons completed is an output. Demonstrated capability may be an outcome. Time spent can indicate engagement or confusion. A metric tree prevents one convenient event from becoming the educational goal."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric architecture is organisation design. It encodes who is accountable, who can act, and whose cost is visible. Senior practitioners resist cascading one metric mechanically through the hierarchy. They preserve shared outcomes while giving teams appropriate leading measures and counter-metrics."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also review incentives: once output targets affect performance, people will satisfy them even when the causal link to value breaks."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a causal measurement chain",
+      "mood": "thinking",
+      "text": "What changes when we look at build a causal measurement chain?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The chain prevents the team from celebrating activity disconnected from value. If comparison use rises while appropriate resolution does not, the missing link becomes a question. Measures are reviewed for gaming, lag, denominator, and burden before entering a dashboard."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a language-learning app. Push notifications and lesson starts are inputs; completed practice is an output; retained skill is an outcome. Guardrails watch fatigue, opt-outs, and accessibility. If notifications increase opens but not practice or learning, the team has improved a proxy, not necessarily the experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Open a public impact dashboard. Classify each measure. How many describe organisational activity versus changed human outcomes? Which absent guardrail could reverse the story?"
+    }
+  ]
+}

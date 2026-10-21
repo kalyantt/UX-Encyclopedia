@@ -1,0 +1,202 @@
+{
+  "lesson": "UX-041",
+  "title": "Content Is Interface",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Content Is Interface. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content is part of the interface because people use words to understand state, choose actions, recover from errors, and judge consequence. Good content is clear, specific, purposeful, concise where appropriate, and aligned with the person’s task rather than internal terminology."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat content as a design material from the beginning. Define intent, audience, action, constraints, and evidence. Test language in the flow where it appears; a sentence that reads well in a document can fail under time pressure on a small screen."
+    },
+    {
+      "speaker": "host",
+      "act": "Words participate in action",
+      "mood": "thinking",
+      "text": "What changes when we look at words participate in action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Product content names objects, sets expectations, requests information, explains consequence, expresses status, and enables recovery. It therefore changes behaviour in the same way that control placement and system feedback do. A label that says “Continue” while committing a transfer is an interaction defect, not merely a tone problem."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content must be designed with the state model and service capability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each sentence earns its place by supporting a decision. The team creates a content hierarchy: essential action and consequence first; supporting conditions next; legal or clinical detail available without obstructing the task. It replaces internal nouns with familiar language but preserves precise terms where ambiguity would be unsafe."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It tests actual names, missing data, translation, screen-reader order, and notification privacy—not a tidy lorem-ipsum state."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: identity verification",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: identity verification?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Verification failed” gives no usable model. A stronger interface distinguishes unreadable evidence, unmatched information, expired document, and pending manual review when it can safely do so. Each state has a different action and privacy boundary. The words are part of the verification mechanism."
+    },
+    {
+      "speaker": "host",
+      "act": "Design meaning and action together",
+      "mood": "thinking",
+      "text": "What changes when we look at design meaning and action together?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inventory what a person needs to know, decide, do, and verify at each state. Content includes names, labels, instructions, choices, status, errors, confirmation, policy, help, and absence—not only explanatory paragraphs. Change wording and interaction as one design because language determines the mental model and available action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the person’s vocabulary while preserving domain accuracy. Define controlled terms and avoid synonyms when they imply different states. Place information where it changes a decision, layer detail, and make material consequences visible before commitment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prototype with realistic content, translation, long values, uncertainty, and failure. Test comprehension by asking people to predict what happens and complete the task. Readability alone is insufficient if the words support the wrong decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Design content as stateful product behaviour",
+      "mood": "curious",
+      "text": "What changes when we look at design content as stateful product behaviour?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "He creates a content model for recurring objects and moments: referral status, clinic option, appointment, preparation task, interruption, failure, and recovery. Each has required fields, source, freshness, audience, tone constraints, and variants."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This makes content consistent across pages, notifications, support scripts, and assistive technology while allowing context-specific emphasis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content review asks more than whether copy is clear. Is the claim accurate for every underlying state? Does the person know why the information matters and what action is available? Are consequences visible before commitment? Can the message be translated without losing the distinction?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Does it still make sense when read alone by a screen reader or copied into a support conversation?"
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Content quality is systemic. Reusable components, product principles, legal constraints, localisation, and governance all influence whether language remains clear at scale."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content shapes action. It establishes what an object is, what state the system is in, what will happen after a choice, and how to recover. Treat each piece as a component with purpose, audience, trigger, hierarchy, source of truth, lifecycle, and owner."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A good content model supports reuse and consistency across screens, channels, and states while allowing tone and detail to adapt to context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write from the person’s task outward. Name the action or consequence, put critical information before secondary explanation, and use concrete words that match the surrounding interface. Content must work with layout, interaction, accessibility, and system behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test it where it appears: a clear paragraph may fail when it is truncated, announced by a screen reader, translated, delayed, or read while a person is anxious."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Copy-last handoff: content arrives after layout and behaviour have already constrained it. Internal language: teams expose system labels that users do not understand. State mismatch: the words promise an outcome the service cannot actually deliver. Ungoverned reuse: a sentence is copied into a new context where its meaning changes."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Two buttons perform the same operation: “Submit” and “Send payment.” The first names a technical action; the second helps a person predict the outcome. Content changes the interaction."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "IA gets people to content. Interface content helps them act on it. lesson 42 applies this responsibility to the moments when people are stressed or something has gone wrong."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Replace one vague UI label with a clearer, action-specific alternative. What belief or action does the new label support?"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "lesson": "UX-151",
+  "title": "Data Displays: Comparison, Trend, Uncertainty, Outlier",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Data Displays: Comparison, Trend, Uncertainty, Outlier. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose a data display by the question people need to answer: compare categories, follow change over time, locate an outlier, understand a distribution, or inspect uncertainty. Labels, scales, units, baselines, and annotations are part of the representation, not optional decoration."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid visual emphasis that implies precision the data does not have. Truncated axes, unexplained aggregation, colour-only categories, and unlabeled targets can change the story people infer. Where uncertainty or missingness matters, make it visible and explain what action remains appropriate."
+    },
+    {
+      "speaker": "host",
+      "act": "Start with the judgment, then encode the evidence",
+      "mood": "thinking",
+      "text": "What changes when we look at start with the judgment, then encode the evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A data display should support a particular comparison or decision: magnitude, ranking, distribution, trend, part-to-whole, relationship, or exception. Choosing a chart by visual novelty invites misinterpretation. Scale, baseline, aggregation, missingness, uncertainty, and annotation determine what the display actually claims."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Uncertainty is explicit. Small samples are not ranked confidently; changing definitions are annotated; unknown accessibility needs are not treated as none; and forecast ranges do not appear as precise promises. Colour is redundant with labels and shape. The team tests whether coordinators can identify a genuine outlier without concluding causation from the display."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: investment performance",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: investment performance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A line rising from a truncated baseline can exaggerate change. Users need period, comparison benchmark, fees, volatility, and uncertainty before treating the trend as evidence for a decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Begin with the decision",
+      "mood": "thinking",
+      "text": "What changes when we look at begin with the decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Specify who must compare what, across which period or category, and what action follows. Choose encodings that support that relationship: aligned position and length for comparison, lines for temporal continuity, distributions for variation, and direct annotation for consequential events. Do not choose a chart by fashion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Provide units, baseline, denominator, time zone, missing data, source, freshness, and filters. Show uncertainty when it affects judgement through ranges, intervals, scenarios, or explicit limitations. Explain outliers without deleting them; they may be errors, rare events, or the most important cases."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use colour redundantly and provide accessible structure, summaries, and data alternatives. Avoid truncated axes, dual scales, area distortions, and aggregation that hides subgroup differences. Test whether people reach the correct decision, not whether they like the graphic."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For dashboards, prioritise status and exception over decorative density. Connect each display to ownership and next action. A visualisation is an interface to evidence, not a neutral picture of reality."
+    },
+    {
+      "speaker": "host",
+      "act": "Specify the analytical question and visual claim",
+      "mood": "curious",
+      "text": "What changes when we look at specify the analytical question and visual claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scale and aggregation are part of the claim. A truncated axis can exaggerate difference; cumulative totals can hide current deterioration; dual axes invite false relationship; smoothing can erase incidents. Unknown is not zero. Forecasts and estimates use ranges and explanation rather than precise-looking points. Colour is redundant with text and shape."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: investment performance",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: investment performance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A rising line needs period, benchmark, fees, volatility, and uncertainty. A design that makes gain instantly visible while hiding risk supports persuasion, not an informed financial judgment."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask what decision the chart will change. If no decision exists, a visually rich display may be monitoring theatre rather than useful information."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every data display should support a decision. Identify the comparison, baseline, time window, unit, population, uncertainty, and action before selecting a chart or table. Use direct labels and accessible alternatives where they reduce interpretation work. Treat outliers and missing data as information to investigate, not visual noise to hide."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A display that communicates confidence and limitation can prevent false precision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Chart-first design: a familiar visual is chosen before the decision or data relationship is clear. False precision: tiny differences are emphasised without uncertainty, scale, or practical meaning. Context loss: date range, denominator, baseline, or segment is absent. Inaccessible encoding: essential meaning depends only on colour, position, or hover interaction."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A dashboard shows a smooth green line rising. The person cannot tell the period, baseline, sample size, target, or whether one sudden jump is an error. The chart looks reassuring while concealing the decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 150 used progressive disclosure to support learning. lesson 151 makes complex data interpretable enough for action. lesson 152 closes the interaction module with identity, presence, and collaboration."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a chart in a product. Write the question it answers, its unit, time range, baseline, and one uncertainty the design hides."
+    }
+  ]
+}

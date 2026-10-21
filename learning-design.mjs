@@ -67,7 +67,7 @@ Object.assign(openings, {
 });
 
 export const modules = {
-  M01: { title: 'Define what better means', story: 'Maya can complete a booking form and still struggle to get care. Alex starts by following the whole attempt, then asks what a better outcome would look like.', challenge: 'The booking team wants to remove the review step to increase completion. Reception thinks more patients will mistake a request for a confirmed appointment. Prepare a one-page recommendation.', deliver: ['Describe Maya’s goal and the evidence that would show she reached it.', 'Trace the interface, service handoff, and real-world outcome.', 'Compare keeping, changing, and removing the review step.', 'Choose one usability measure, one experience measure, and a condition that would change your recommendation.'], review: ['A completed form is distinguished from a confirmed appointment.', 'The proposal considers context, recovery, and the work passed to reception.', 'The recommendation names an uncertainty and a way to investigate it.'], twist: 'Reception cannot take extra calls during the pilot. Reconsider the recovery route before recommending a release.' },
+  M01: { title: 'Define what better means', story: 'A booking form can be completed while the person remains unsure whether an appointment exists. Follow the whole attempt before deciding what improvement means.', challenge: 'The booking team wants to remove the review step to increase completion. Reception thinks more patients will mistake a request for a confirmed appointment. Prepare a one-page recommendation.', deliver: ['Describe the person’s goal and the evidence that would show they reached it.', 'Trace the interface, service handoff, and real-world outcome.', 'Compare keeping, changing, and removing the review step.', 'Choose one usability measure, one experience measure, and a condition that would change your recommendation.'], review: ['A completed form is distinguished from a confirmed appointment.', 'The proposal considers context, recovery, and the work passed to reception.', 'The recommendation names an uncertainty and a way to investigate it.'], twist: 'Reception cannot take extra calls during the pilot. Reconsider the recovery route before recommending a release.' },
   M02: { title: 'Make the next action clear', story: 'The referral is waiting for information, but Maya keeps trying to book. Alex examines what the page asks her to notice, remember, and do.', challenge: 'Design CarePath’s returned-referral state for Maya, who is travelling, distracted, and unsure what information is missing.', deliver: ['Sketch the state and its most important action.', 'Explain the grouping, wording, non-colour cues, and information kept visible.', 'Show what survives interruption and a lost connection.', 'Plan a test of noticing, understanding, action, and recovery.'], review: ['The interface directs attention to the actual next step.', 'Important meaning survives colour loss and interruption.', 'The test observes behaviour instead of asking whether the screen looks clear.'], twist: 'The referral status changes while Maya is away. Show how she finds out on return without losing her work.' },
   M03: { title: 'Follow the work behind the tap', story: 'A referral, an appointment request, and a confirmed appointment sound similar until Maya needs to change one. Alex makes the objects and rules explicit.', challenge: 'Model what happens when Maya cannot find a suitable appointment and asks to move to another clinic.', deliver: ['Separate the goal, tasks, and interface actions.', 'Draw the objects, states, actors, and handoffs.', 'Write one scenario, one user story, and two testable requirements.', 'Identify a mismatch between what Maya believes and how the service works.'], review: ['Referral and appointment states remain distinct.', 'The model includes an exception and a recovery route.', 'Each requirement traces back to evidence or an explicit assumption.'], twist: 'The receiving clinic accepts the referral but has no available slots. Update the model and the promise shown to Maya.' },
   M04: { title: 'Investigate before choosing', story: 'The team proposes clinic comparison. Alex needs to know why people fail to find care before treating comparison as the answer.', challenge: 'Prepare a research plan for deciding whether CarePath should offer alternative clinics when no suitable slot is available.', deliver: ['Name the decision, owner, deadline, and competing explanations.', 'Match each question to a method and its limits.', 'Define a sample that includes people missing from product analytics.', 'Describe consent, data handling, analysis, and a result that would change the decision.'], review: ['Methods answer distinct questions rather than repeat preferences.', 'The sample reflects conditions that might change the finding.', 'The plan can still influence the decision before commitment.'], twist: 'You have half the time you expected. Narrow the claim and explain what the remaining evidence cannot establish.' },
@@ -98,17 +98,28 @@ const labels = { 'Core explanation': 'What this moment reveals', 'Core model': '
 export function readingModel(md, id, title) {
   const sections = splitSections(md);
   const take = pattern => sections.filter(s => pattern.test(s.title));
-  const opening = openings[id] || take(/^Anchor case$/i)[0]?.body || '';
+  const authoredOpening = take(/^Opening$/i)[0]?.body;
   const practice = take(/^Studio exercise$/i).map(s => s.body).join('\n\n');
   const observe = take(/^Train your UX eye$/i).map(s => s.body).join('\n\n');
   const thread = take(/^Course thread$/i).map(s => s.body).join('\n\n');
   const refs = take(/^References$/i).map(s => s.body).join('\n\n');
-  const excluded = /^(Anchor case|Studio exercise|Train your UX eye|Course thread|References)$/i;
+  const example = take(/^Product example$/i).map(s => s.body).join('\n\n');
+  const excluded = /^(Opening|Anchor case|Studio exercise|Train your UX eye|Course thread|References|Product example)$/i;
   const narrative = sections.filter(s => !excluded.test(s.title)).map(s => ({...s, label: labels[s.title] || s.title.replace(/^Illustration\s*[-:–]\s*/i, 'Worked example: ')}));
+  let opening = authoredOpening;
+  if(!opening && example && narrative.length){
+    const firstParagraph=narrative[0].body.split(/\n\s*\n/)[0]?.trim();
+    if(firstParagraph){
+      opening=firstParagraph;
+      narrative[0].body=narrative[0].body.slice(firstParagraph.length).trim();
+      if(!narrative[0].body)narrative.shift();
+    }
+  }
+  opening ||= openings[id] || take(/^Anchor case$/i)[0]?.body || '';
   // Keep authored order: moving explanations can break references to previous passages.
   const mechanism = narrative.find(s => /mechanism|essential idea|core (model|explanation)/i.test(s.title)) || narrative[0];
   const application = narrative.find(s => /^CarePath/i.test(s.title)) || mechanism;
-  return { opening, sections: narrative, thread, refs, practice, observe,
+  return { opening, sections: narrative, example, thread, refs, practice, observe,
     recall: recallPrompts[id],
     guidance: [mechanism, application].filter((s, i, arr) => s && arr.findIndex(x => x.title === s.title) === i).map(s => ({title:s.label,body:s.body})),
   };

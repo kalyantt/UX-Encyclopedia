@@ -1,0 +1,203 @@
+{
+  "lesson": "UX-160",
+  "title": "Measure Service Quality for Customers and Staff",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Measure Service Quality for Customers and Staff. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Service measurement must reflect the whole service, not one channel or short-term metric. Pair customer outcomes with employee experience, operational reliability, accessibility, cost, recovery, and longer-term trust. Use qualitative evidence to explain what metrics cannot: dignity, comprehension, effort, and the reason an exception became costly."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define a target outcome, diagnostic measures, and guardrails before changing a service. Segment results by the people and contexts most likely to be harmed by an average. Revisit the measures when policy, capacity, or channels change."
+    },
+    {
+      "speaker": "host",
+      "act": "Measure the outcome and the system producing it",
+      "mood": "thinking",
+      "text": "What changes when we look at measure the outcome and the system producing it?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Service measurement joins customer outcome, experience quality, operational performance, staff conditions, equity, and failure demand. A single satisfaction score cannot diagnose the service, and a fast handling-time target can worsen quality by encouraging premature closure or shifted work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team maps measures to the service blueprint and assigns owners. It reviews distributions and cohorts rather than averages alone, distinguishes leading signals from outcomes, and pairs quantitative change with case evidence. Guardrails catch apparent improvement created by declining complex requests or shifting effort to patients and helpers."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: call centre",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: call centre?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Reducing average call time can increase repeat calls and unresolved problems. First-contact resolution, customer outcome, agent authority, repeat demand, and quality review provide a more truthful system view."
+    },
+    {
+      "speaker": "host",
+      "act": "Create a two-sided outcome model",
+      "mood": "thinking",
+      "text": "What changes when we look at create a two-sided outcome model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For customers, measure successful outcome, time and effort, understanding, access, confidence, recovery, and repeated demand. For staff, measure workload, clarity, tool support, authority, error, rework, emotional burden, and ability to resolve. Add operational flow measures such as queue, handoff loss, first-contact resolution, backlog age, and capacity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Link the measures. Lower call volume may mean clearer service or inaccessible support. Shorter handling time may create more repeat contact. Higher digital completion may shift complex cases and emotional labour to staff. Examine the entire chain and segment by meaningful circumstances."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Combine telemetry, operational records, surveys, observation, research, and complaints. Define whose outcome each metric represents and what it cannot show. Frontline qualitative signals can reveal failure before aggregated dashboards move."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use guardrails for exclusion, unsafe delay, staff burnout, privacy, and unequal outcome. Review metrics with people who deliver and use the service, then assign owners to act. Measurement should improve the system, not turn staff or customers into targets to optimise."
+    },
+    {
+      "speaker": "host",
+      "act": "Create a measurement architecture around the blueprint",
+      "mood": "curious",
+      "text": "What changes when we look at create a measurement architecture around the blueprint?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Customer measures include progress, total elapsed time, understanding, effort, dignity, continuity, accessibility, and distribution across relevant groups. Operational measures include queue age and tail, acceptance, rework, missing information, notification failure, escalation, and capacity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Staff measures include workload, interruption, decision clarity, tool friction, emotional demand, and authority to recover. Failure demand counts contact caused by a service that did not work as expected."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measures have roles and relationships. Leading signals can support early action; outcomes confirm delivered value; guardrails protect safety, equity, staff sustainability, and channel shift. Definitions state eligibility, event source, time, missingness, segmentation, owner, and response."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A dashboard is paired with representative cases so movement can be interpreted rather than merely watched."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team anticipates gaming. Faster closure may mean premature rejection; lower call volume may mean support became inaccessible; higher digital completion may exclude complex cases. Balanced review examines the whole pathway and distribution. Each measure has a decision rule—investigate, intervene, stop, or learn—so collection does not become reporting theatre."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: contact centre",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: contact centre?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Average handle time can fall while repeat calls and unresolved problems rise. First-contact resolution, actual customer outcome, wait distribution, agent authority, quality review, and staff load reveal whether the service improved."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An efficient service is not necessarily a good service. Ask where time, effort, risk, and environmental cost have moved."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure both the experience people receive and the work required to produce it. Customer measures may include completion, understanding, confidence, time, error, recovery, and equity; staff measures may include workload, handoff quality, authority, rework, burnout risk, and ability to resolve exceptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use journey-level measures and qualitative evidence to connect an apparent frontstage improvement to backstage cost or failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Customer-only metric: digital conversion improves while staff workload or recovery failure grows. Average-only view: a good aggregate hides poor outcomes for a specific route or group. Survey substitution: satisfaction scores replace observation of actual service performance. No owner: a measure shows deterioration but nobody is responsible for acting."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "An appointment service reduces average wait time by directing complex cases away from the main queue. The headline metric improves, but the diverted people wait longer, staff handle more escalation, and access becomes less equitable."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 159 made policy and capacity visible. lesson 160 checks whether changes improve the system rather than shifting cost. lesson 161 completes the module with sustainability and equity."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Pick a service metric. Name the customer outcome it represents, a staff measure, an accessibility guardrail, and one way the metric could improve while the service worsens."
+    }
+  ]
+}

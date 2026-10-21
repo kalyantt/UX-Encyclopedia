@@ -1,0 +1,149 @@
+{
+  "lesson": "UX-101",
+  "title": "Cognitive Load: Necessary Work Versus Interface Burden",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Cognitive Load: Necessary Work Versus Interface Burden. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cognitive load is the mental effort required to perceive, remember, interpret, decide, and act. Some effort belongs to the task: comparing a financial commitment should require thought. Other effort is imposed by the interface: remembering a hidden rule, decoding jargon, re-entering data, recovering lost context, or guessing what a control will do."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good UX removes imposed burden without pretending consequential decisions are effortless. Externalise information people need again, group related choices, use familiar language, reveal complexity when it becomes relevant, and preserve prior inputs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not reduce load by hiding consequences or preselecting a choice that benefits the business; that relocates difficulty and risk to the person."
+    },
+    {
+      "speaker": "host",
+      "act": "Diagnose the source of load",
+      "mood": "thinking",
+      "text": "What changes when we look at diagnose the source of load?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Intrinsic complexity belongs to the domain; extraneous load is created by representation and interaction; germane effort helps people build a useful model. Do not claim to “remove cognitive load” universally. Identify what must be understood, what can be externalised, and what learning will pay off in repeated use."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Reduce memory dependence through visible options, comparison, examples, history, sensible grouping, and preserved state. Use progressive disclosure when deferred detail is genuinely secondary; hiding essential evidence creates repeated retrieval and uncertainty. Align terminology and sequence with the person’s task while retaining necessary domain distinctions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure through behaviour: errors, backtracking, hesitation, help, resumption, time, and explanation. Subjective effort and workload instruments can complement observation. Test novices and experts separately—an interface that over-explains every step can burden skilled use."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A benefits form asks people to remember eligibility rules while comparing plans. A summary table externalises differences, plain-language examples explain rules, and a persistent panel shows chosen information. The policy remains complex; the interface stops making people carry it in working memory."
+    },
+    {
+      "speaker": "host",
+      "act": "Why the burden grows",
+      "mood": "curious",
+      "text": "What changes when we look at why the burden grows?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Chunking helps only when the grouping is meaningful to the learner. Grouping clinics into “recommended” and “other” would reduce visible options but imply an authority the service does not have. Grouping information within each clinic as suitability, access, journey, timing, and evidence supports a real mental model."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Progressive disclosure follows the same rule: defer secondary explanation, never a condition that could reverse the decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: configuring cloud permissions",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: configuring cloud permissions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Permission design is inherently complex because scope, actor, resource, inheritance, and consequence matter. Replacing it with a single “Allow access” switch appears simple but conceals risk. A better interface visualises inherited access, uses examples, keeps affected people visible, and previews the effective permission."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The mental work remains, but the system helps the administrator reason accurately."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cognitive burden often originates in policy, data fragmentation, or organisation design. When people repeatedly re-enter a referral identifier, the senior response is not merely autofill; it is to ask why the service cannot preserve identity safely. Optimise the whole burden, including staff and helper work, without hiding consequential complexity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a tax form. Asking people to remember a reference number from a previous screen adds avoidable burden; deciding which income category applies may be necessary work. Preserve the reference and explain the category with examples. The goal is not zero thinking."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "It is to spend attention on the decision that matters rather than on the interface's memory demands."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Use a product that asks you to compare or configure something. Notice what you must remember between screens, what changes without explanation, and what the interface could keep visible."
+    }
+  ]
+}

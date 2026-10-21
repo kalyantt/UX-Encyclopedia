@@ -1,0 +1,157 @@
+{
+  "lesson": "UX-114",
+  "title": "Interviews: Evidence From Past Behaviour",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Interviews: Evidence From Past Behaviour. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interviews are strongest when they reconstruct concrete past behaviour. Invite a person to tell a recent story: what triggered the task, what did they do first, what tools did they use, what was difficult, what changed, and what happened next? Ask neutral follow-ups—“show me,” “what do you mean,” “what happened after that?” —rather than leading them toward a solution."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People are not lying when they predict inaccurately; preference questions simply produce weak evidence about future behaviour. Combine their account with artifacts, timestamps, workarounds, and observation where possible. Listen for language, goals, constraints, emotional stakes, and contradictions, then distinguish what was said from your interpretation."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse without quote mining",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse without quote mining?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Immediately after each session, the team logs observed artifacts, recalled actions, participant interpretations, future predictions, researcher hypotheses, and follow-up needs. Cross-case analysis looks for mechanisms and variation. A vivid quote illustrates an established pattern; it does not create one by rhetorical force."
+    },
+    {
+      "speaker": "host",
+      "act": "Reconstruct episodes rather than opinions",
+      "mood": "curious",
+      "text": "What changes when we look at reconstruct episodes rather than opinions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Analysis distinguishes what participants did, remember, infer, and recommend. Future claims and feature preferences are recorded as hypotheses, not behaviour. Interviews are strongest for meaning, motivation, and process; they need observation or system data when memory, prevalence, or operational mechanism matters."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Concept pitching: the moderator explains the idea until the participant approves it. Opinion harvesting: abstract preferences replace reconstructable episodes. Guide obedience: a revealing incident is cut off to finish every prepared question. Quote mining: vivid language substitutes for cross-case analysis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Memory as recording: recalled sequence is accepted without artifacts or other evidence where stakes require it."
+    },
+    {
+      "speaker": "host",
+      "act": "Elicit episodes, not forecasts",
+      "mood": "curious",
+      "text": "What changes when we look at elicit episodes, not forecasts?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask for the last relevant occasion: trigger, context, sequence, information, tools, other people, decisions, workarounds, outcome, and consequence. Follow the participant’s language and ask for artefacts or examples where appropriate. Specific past behaviour offers stronger evidence than abstract preference or prediction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid leading, compound, and solution-selling questions. Silence, neutral probes, and contrast help: “What happened next?” “How was that different last time?” Distinguish what the participant did, believes, remembers, and recommends. Memory is reconstructed, so triangulate consequential details."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build rapport without manufacturing agreement. Protect consent and sensitive disclosure. Debrief quickly, retain context, compare cases, and search for differences. Interviews reveal meaning and strategy; they do not directly observe behaviour or estimate prevalence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Translate evidence into bounded claims and next questions. A quote illustrates a finding only when the analytic pattern exists beyond its rhetorical power."
+    },
+    {
+      "speaker": "host",
+      "act": "Follow the episode deeply enough to find mechanism",
+      "mood": "thinking",
+      "text": "Can we follow the episode deeply enough to find mechanism step by step?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Interviewers avoid pitching, leading contrast, speculative feature evaluation, and asking participants to explain unconscious causes. They can explore meaning by comparing moments and decisions. Recommendations such as “add chat” are traced to the underlying need—immediate accountable verification—then treated as solution hypotheses."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: budgeting",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: budgeting?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Asking whether people want automatic categorisation produces opinion. Reconstructing the last time a transaction was miscategorised reveals when it was noticed, how it affected a decision, the repair attempted, and why trust changed. That episode can guide a review and correction model."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interview quality depends on the decisions built around it. Senior practitioners protect recruitment diversity, distinguish remembered behaviour from inference, and prevent vivid accounts from being treated as prevalence. They connect the episode to operational and quantitative evidence before recommending system change."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Asked “Would you use an AI trip planner?” , a participant says yes. Asked to describe the last complicated trip they planned, they reveal multiple spreadsheets, a trusted friend, anxiety about visa rules, and a point where automated advice would have been unsafe. The second answer is design material."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Listen to someone describe a recent frustrating product experience. Separate the event they recall, their explanation of why it happened, and the improvement they propose. Notice how easily those three forms of evidence blur."
+    }
+  ]
+}

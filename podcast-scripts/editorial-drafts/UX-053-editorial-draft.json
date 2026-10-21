@@ -1,0 +1,192 @@
+{
+  "lesson": "UX-053",
+  "title": "Governance and Contribution",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Governance and Contribution. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance defines how a system is owned, changed, funded, and kept trustworthy. Contribution models make it possible for product teams to propose improvements while preserving review, accessibility, documentation, and implementation quality. Good governance is clear enough to guide action and light enough not to become a bottleneck."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define what belongs in the system, who decides, how evidence is reviewed, how changes are versioned, and how teams can escalate disagreements. Treat consumers as contributors to learning, not merely users of a central team’s output."
+    },
+    {
+      "speaker": "host",
+      "act": "Governance is a designed path for change",
+      "mood": "thinking",
+      "text": "What changes when we look at governance is a designed path for change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance answers who may decide, what evidence a decision needs, how quickly it can be made, and how the consequences reach every implementation. A central team that approves everything becomes a queue; a fully open library becomes a collection of incompatible preferences."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Mature systems distribute authority according to risk and reversibility while keeping the reasoning visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every route has a service level, responsible role, decision record, and appeal or escalation path. Contributors can see why a proposal was accepted, adapted, deferred, or rejected. Deprecation is governed too: teams receive impact information, compatible alternatives, deadlines proportional to risk, and support for migration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A system that can add but cannot retire accumulates contradiction."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: governed flexibility",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: governed flexibility?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An enterprise table component needs a new column-pinning behaviour. One team can prove a high-frequency comparison need; another only wants its screen to resemble a competitor. Governance distinguishes evidence from preference, invites the first team to co-develop and test the extension, and documents the conditions for use."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The system becomes more capable without turning every request into a global option."
+    },
+    {
+      "speaker": "host",
+      "act": "Make change pathways explicit",
+      "mood": "thinking",
+      "text": "What changes when we look at make change pathways explicit?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define who owns foundations, component decisions, content, accessibility, code, documentation, release, and deprecation. Publish how teams request support, report defects, propose additions, and justify exceptions. Service levels and decision criteria prevent governance from becoming personal gatekeeping."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A contribution includes demonstrated need, reuse evidence, design and code, states, content guidance, accessibility behaviour, tests, documentation, migration impact, and a maintainer. Review with relevant disciplines and give a clear outcome: accept, revise, keep local, or reject with rationale."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Track exceptions. A repeated exception signals a system gap; a unique domain case may properly remain local. Version breaking changes, provide migration tools and deadlines, and support consuming teams. Governance balances coherence with learning—central control without contribution becomes a bottleneck, while uncontrolled forks dissolve the system."
+    },
+    {
+      "speaker": "host",
+      "act": "Make decisions and ownership explicit",
+      "mood": "curious",
+      "text": "What changes when we look at make decisions and ownership explicit?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Decision rights are visible. A central team may steward foundations, while federated product contributors bring domain patterns. Operations and clinical owners review claims that the interface cannot own; accessibility specialists help define behavior rather than inspect at the end. Service-level expectations state how quickly questions, defects, and urgent fixes are handled."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Governance exposes power. Make the decision process legible so a central system does not silently override domain expertise or so local expedience does not silently damage shared quality."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance creates predictable decisions about ownership, quality, contribution, versioning, and exceptions. Define maintainers, decision rights, review criteria, service-level expectations, funding, roadmap, and how teams can propose a new component or challenge an existing one."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contributions should include the problem and evidence, proposed design and implementation, accessibility and content considerations, documentation, test coverage, and migration impact."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Separate standards from recommendations where appropriate. Some foundations and accessible behaviours may be non-negotiable; other patterns can offer options based on context. Keep an exception record so local needs are visible and can either inform the system or be consciously accepted as one-off."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance works when it supports speed with quality, not when it centralises authority for its own sake."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Approval theatre: review occurs but criteria and decision rights are opaque. Shadow system: product teams fork components because contribution is too difficult. Unversioned change: a shared component shifts behaviour without migration or communication. Exception amnesia: repeated local variations never feed back into system learning."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "One team adds a new component locally; another modifies a shared component to fit a single use case. Without decision rights, both choices can fragment the system."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A pilot proves value. Governance lets value scale. lesson 54 measures whether the system is actually improving the product and the organisation."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Identify who should decide when a product team needs a new component. What evidence should that decision require?"
+    }
+  ]
+}

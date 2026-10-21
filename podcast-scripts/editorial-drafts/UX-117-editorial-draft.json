@@ -1,0 +1,182 @@
+{
+  "lesson": "UX-117",
+  "title": "Surveys: Useful Signals and Common Traps",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Surveys: Useful Signals and Common Traps. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Surveys collect structured self-report at scale. They can help describe attitudes, recall, priorities, terminology, or broad patterns when sampling and wording are appropriate. They are weak at predicting future behaviour, explaining causality, or uncovering context that a respondent does not remember."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the population before writing questions. Avoid double-barrelled wording, hidden assumptions, leading language, unbalanced response options, and scales without clear anchors. Pilot the questionnaire with people who resemble the intended sample; if they interpret a question differently, the numbers will only make ambiguity look precise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat response rate, missing responses, and sampling bias as part of the result. Pair a survey with interviews, observation, analytics, or testing when a decision depends on explanation."
+    },
+    {
+      "speaker": "host",
+      "act": "Report the denominator and uncertainty",
+      "mood": "thinking",
+      "text": "What changes when we look at report the denominator and uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The report shows invitations, eligibility, starts, completions, item missingness, recruitment channels, and differences between respondents and known population characteristics. Results are distributions with counts and uncertainty, not isolated percentages. A subgroup finding is interpreted only if the sample, measure, and privacy protection support it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Survey association does not establish cause. If people with longer travel are more likely to abandon, travel may be the mechanism, or clinic type and availability may confound it. Qualitative episodes and operational data help interpret the relationship; later intervention evidence tests change."
+    },
+    {
+      "speaker": "host",
+      "act": "Measure a defined construct in a defined population",
+      "mood": "curious",
+      "text": "What changes when we look at measure a defined construct in a defined population?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sampling frame, nonresponse, order effects, acquiescence, and social desirability limit inference. The team reports denominator and uncertainty, segments only where justified, and avoids turning ordinal ratings into false precision. Open text can reveal mechanisms but is analysed qualitatively rather than counted as a representative vote."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Questionnaire-first design: wording begins before the construct and population are defined. Hypothetical demand: intention to use is reported as future adoption. Large biased sample: volume hides opt-in and channel exclusions. Scale decoration: numeric labels imply equal intervals or shared interpretation without evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Percentage without denominator: missingness, invitations, eligibility, and uncertainty vanish."
+    },
+    {
+      "speaker": "host",
+      "act": "Design from construct to inference",
+      "mood": "curious",
+      "text": "What changes when we look at design from construct to inference?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the concept to measure and population to describe. Use validated instruments when appropriate; otherwise write one clear question at a time with exhaustive, mutually understandable response options. Avoid leading language, double-barrelled items, hidden assumptions, and scales whose endpoints or direction change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pilot through cognitive interviewing and a small field test. Check how people interpret questions, recall periods, options, order, device layout, accessibility, and completion. Randomise order only when it does not destroy meaning. Include “not applicable” where legitimate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sampling and nonresponse determine generalisability more than raw count. Report recruitment, denominator, completion, weighting, missingness, and subgroup uncertainty. Do not use opt-in product respondents as a universal customer voice."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analyse distributions and relationships with appropriate caution. A satisfaction score does not explain cause. Combine survey estimates with qualitative and behavioural evidence, and phrase claims within the population and construct actually measured."
+    },
+    {
+      "speaker": "host",
+      "act": "Build and validate the instrument",
+      "mood": "thinking",
+      "text": "What changes when we look at build and validate the instrument?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Questions use a clear reference period and one idea. Response options cover the real range, include not applicable or do not know where meaningful, and avoid agreement scales when a direct frequency or confidence question is stronger. Order is tested because an explanation shown first can teach the answer."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sensitive or demographic items appear only when necessary to interpret equity and are designed with privacy and self-description in mind."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Cognitive interviews reveal how people understand the question, retrieve an answer, judge it, and map it to a response. A small pilot checks completion, missingness, scale use, and technical access. The sampling frame and invitation determine who can respond; weighting cannot restore people who were never reachable or for whom the survey itself is inaccessible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Reporting includes wording, population, denominator, recruitment, response rate, uncertainty, missing data, and analysis choices. A statistically precise answer to a misunderstood question is still poor evidence. Survey patterns lead to further explanation or measurement; they do not automatically establish cause."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: customer effort",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: customer effort?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A single effort score after support may combine finding the route, repeating identity, waiting, conversation, and recovery resolution. Breaking the construct into meaningful episodes, then testing the items, produces information a service team can act on."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A survey is a measurement instrument, not a democratic vote. Senior practitioners challenge the construct, sampling frame, question interpretation, nonresponse, and decision threshold before discussing significance. They refuse false precision when the instrument cannot support the claim."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A survey reports that 82% of respondents “would use” a new feature. The team builds it. Usage is low because respondents interpreted the feature differently, the sample overrepresented enthusiasts, and the question measured optimism rather than a real task."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a product survey you receive. Identify the construct each question appears to measure, the recall period, one response option that may not fit, and one group unlikely to answer at all."
+    }
+  ]
+}

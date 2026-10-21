@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-173",
+  "title": "Correlation, Causation, and Confounding",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Correlation, Causation, and Confounding. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Correlation describes variables varying together. Causation claims that intervening on one would change the other, all else relevant being equal. Prediction can be useful without causation, but product decisions usually involve intervention: if we build, prompt, require, or remove X, will Y change?"
+    },
+    {
+      "speaker": "host",
+      "act": "Association is not intervention effect",
+      "mood": "curious",
+      "text": "What changes when we look at association is not intervention effect?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Confounding occurs when a common cause influences both the presumed cause and outcome. Reverse causation means the outcome or its precursor changes exposure. Selection bias appears when inclusion depends on variables related to both. Measurement changes, seasonality, regression to the mean, and simultaneous releases can create persuasive patterns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Draw a causal diagram before controlling for variables. Include treatment, outcome, common causes, mediators through which treatment works, and selection. Controlling for every available field is unsafe: adjusting for a mediator can remove part of the effect; conditioning on a common effect can create a spurious association."
+    },
+    {
+      "speaker": "host",
+      "act": "Match language to evidence",
+      "mood": "thinking",
+      "text": "What changes when we look at match language to evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observational data supports “associated with” unless a credible causal design and assumptions justify stronger wording. Temporal order, a plausible mechanism, consistency, dose-response, comparison groups, and negative controls can strengthen an inference but do not automatically eliminate confounding."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Randomisation is powerful because assignment breaks expected dependence on pre-treatment causes. When experimentation is impossible or unethical, designs such as interrupted time series, difference-in-differences, regression discontinuity, matching, instrumental variables, or natural experiments may help—with specialist analysis and explicit assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "None is a magical label."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Qualitative research contributes mechanism and context. It can reveal why clinics update data and how that affects work, but it does not alone estimate causal magnitude."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: help-widget use and retention",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: help-widget use and retention?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Customers who use a help widget renew more often. Heavy users may both encounter more questions and be more likely to renew. Forcing widget use could add friction rather than loyalty. Randomising a credible invitation estimates the effect of the invitation, not the effect of widget use among self-selecting users."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Post hoc story: a mechanism is invented after a chart moves. Control everything: mediators or colliders introduce bias. Predictive causality: model accuracy is mistaken for intervention evidence. Before/after certainty: time trends and concurrent changes are ignored. Selection blindness: only users who chose exposure are compared."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Aggregate reversal: segment composition drives the headline."
+    },
+    {
+      "speaker": "host",
+      "act": "Make the causal model inspectable",
+      "mood": "curious",
+      "text": "What changes when we look at make the causal model inspectable?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The diagram determines what to measure and what not to adjust away. Controlling for a mediator estimates a different question; adjusting for a variable caused by both exposure and outcome can introduce bias. Unmeasured confounding remains a limitation even when a regression includes many fields."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Predictive accuracy is not proof that changing the predictor will change the outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team combines design, natural variation, sensitivity analysis, negative controls where appropriate, and qualitative mechanism evidence. A randomised intervention can strengthen causal inference but may be unethical or suffer interference. Observational results use calibrated language and state population, timing, assumptions, and alternative explanations."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: premium support",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: premium support?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Customers using premium support may retain more because they are larger, have greater need, and receive more account attention. The correlation does not prove that offering support causes retention. A causal model identifies the selection and possible study designs."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners stop causal language from outrunning study design. They ask what changed besides the intervention, why units received exposure, whether groups were comparable before it, and which assumptions are untestable. They also distinguish the effect of offering, assigning, adopting, and complying—different questions that lead to different product decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Draw the causal story before interpreting the number",
+      "mood": "thinking",
+      "text": "What changes when we look at draw the causal story before interpreting the number?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team distinguishes prediction from intervention. Statistical control cannot repair unmeasured confounding or bad event definitions. Natural variation, experiments, and qualitative mechanism evidence strengthen inference, while results remain bounded to the population and conditions studied."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a retail app. People who use wish lists buy more often, but that does not prove wish lists cause buying. Committed shoppers may be more likely to save products in the first place. State the competing explanations, then choose an experiment or another design that can separate them before investing in a wish-list redesign."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a claim that “users who do X are more likely to Y.” List three reasons people select into X, one reverse-causal story, and the intervention the claim quietly recommends. Does the evidence support that intervention?"
+    }
+  ]
+}

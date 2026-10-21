@@ -1,0 +1,238 @@
+{
+  "lesson": "UX-191",
+  "title": "AI Discovery Changes the Team and the Research",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about AI Discovery Changes the Team and the Research. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conventional user research already studies context, goals, behaviour, and constraints. AI expands the required frame because probabilistic output depends on data and changes the work of people who create, review, act on, and are affected by it."
+    },
+    {
+      "speaker": "host",
+      "act": "Expand the unit of research",
+      "mood": "curious",
+      "text": "What changes when we look at expand the unit of research?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map at least:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "intended users and people who choose not to use the feature; affected non-users whose data or outcomes are influenced; domain experts who define correctness and exception; frontline operators and reviewers who absorb uncertainty; data creators, stewards, owners, and annotators; model, retrieval, evaluation, and infrastructure teams; content, accessibility, privacy, security, legal, policy, support, and incident roles; accountable leaders who can restrict, pause, fund, or retire the system."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each, record their decision, evidence, incentive, workload, authority, risk, and correction power. Stakeholder inclusion does not mean one workshop with every role. It means the research programme follows the system well enough that no critical consequence is represented only by assumption."
+    },
+    {
+      "speaker": "host",
+      "act": "Research the current decision before the AI concept",
+      "mood": "thinking",
+      "text": "What changes when we look at research the current decision before the ai concept?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observe how the work happens today. Follow ordinary cases, exceptions, failures, and workarounds. Ask:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "What judgement is tacit rather than documented? Which facts are authoritative, inferred, missing, or routinely corrected? Where do people disagree, and how is disagreement resolved? Which errors are visible, reversible, or silently absorbed? What queues, targets, policies, and power relationships shape behaviour? Which people receive lower-quality data or service?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "What is the non-AI baseline for outcome, effort, error, and equity?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This prevents historical output from being mistaken for neutral truth. A coordinator’s decision may reflect staffing, policy, missing information, or pressure—not the ideal label a model should reproduce. Research how the record was produced before treating it as training or evaluation data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It also keeps discovery open to non-AI responses. Better content ownership, structured data, policy clarification, workflow repair, or human service may solve the root problem more reliably."
+    },
+    {
+      "speaker": "host",
+      "act": "Separate the need from reaction to AI",
+      "mood": "curious",
+      "text": "What changes when we look at separate the need from reaction to ai?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Would you use AI for this?” asks people to imagine unfamiliar capability and predict future behaviour. Responses are shaped by novelty, fear, brand, current media, and whatever the prototype implies. Instead, establish:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. the recurring goal and present barrier; 2. the decision where assistance may help; 3. evidence and judgement required; 4. acceptable and unacceptable errors; 5. desired control, explanation, and recourse; 6. which implementation meets those conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When testing AI, compare plausible alternatives: improved search, structured filters, deterministic rules, human help, narrow AI assistance, and more agentic variants. A preference for the fastest demo does not settle lifecycle cost or harm."
+    },
+    {
+      "speaker": "host",
+      "act": "Prototype capability honestly",
+      "mood": "thinking",
+      "text": "What changes when we look at prototype capability honestly?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Concept research must include realistic strengths and limitations. A perfect scripted output teaches the wrong mental model and hides the work of correction. Represent:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "normal variability and latency; incomplete, stale, and conflicting source data; uncertainty and abstention; a plausible confident error; correction and disagreement; permission and action boundaries; human handoff with real response conditions; partial failure and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Wizard-of-Oz studies can reveal interaction needs before a model exists, but document which behaviour was simulated and by whom. Do not use deception for real consequential action. Test the proposed data and operations, not merely the response surface: if staff manually supply information a production system will not have, the prototype demonstrates theatre, not feasibility."
+    },
+    {
+      "speaker": "host",
+      "act": "Methods must match the uncertainty",
+      "mood": "curious",
+      "text": "What changes when we look at methods must match the uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use interviews for meaning and interpretation; observation and contextual inquiry for real work; diary or longitudinal study for change over time; content/data audits for source quality; participatory and co-design methods for power and alternatives; prototype studies for mental models and control; red-teaming for plausible misuse and failure; operational simulation for queues and handoffs; and quantitative analysis for prevalence and distribution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triangulate rather than vote. An operator may report that every alert is reviewed while observation shows systematic skipping under load. Model logs may show high completion while patients describe unresolved outcomes. Contradiction is a clue about the system, not noise to average away."
+    },
+    {
+      "speaker": "host",
+      "act": "Research ethics under AI conditions",
+      "mood": "thinking",
+      "text": "What changes when we look at research ethics under ai conditions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Explain what is simulated, what data is collected, how sensitive inputs will be handled, and whether research material may be used for model development. Do not quietly repurpose participant conversations as training data. Minimise collection, plan deletion and access, protect vulnerable participants, and give withdrawal and support routes appropriate to the study."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Avoid exposing participants to harmful generated content merely to test whether they notice it. Use proportional safeguards, trained facilitation, and stopping criteria. Compensate domain and lived-experience contribution; do not extract unpaid risk discovery from affected communities."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: complaint assistant",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: complaint assistant?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Customers may like faster replies, while support agents reveal that account history is unreliable, policy exceptions require specialist approval, and performance targets leave no time to verify drafts. Data stewards show that resolved-ticket labels encode inconsistent staffing decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery shifts the first release from autonomous replies to governed policy retrieval and unsupported-claim highlighting."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interface-only sample: intended users are studied while operators, data creators, and affected non-users disappear. Demand question: enthusiasm for “AI” substitutes for evidence about work and outcome. Perfect-prototype bias: scripted capability hides uncertainty, latency, and recovery. Historical-label innocence: past decisions are treated as objective ground truth."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feasibility after discovery: data rights, source quality, fallback capacity, and ownership arrive too late. Stakeholder theatre: roles attend a workshop but cannot influence scope or authority. Averaged contradiction: conflicting evidence is merged into a weak consensus instead of investigated."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Training-data creep: research data is reused beyond participant expectation or permission."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior researchers define evidence thresholds for narrowing, expanding, pausing, or rejecting the intervention. They preserve dissent, identify whose evidence is missing, and make organisational incapacity a product finding."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They ensure research independence when leadership is invested in an AI launch and resist turning participants into validators of a predetermined technology strategy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "AI discovery is successful when it improves the decision—even when the decision is to repair the service, reduce authority, or not deploy AI."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a call-centre assistant. Discovery must include agents, supervisors, customers, policy owners, and the people maintaining knowledge sources. Prototype the work with and without AI, observe how staff verify suggestions under pressure, and learn which errors they can catch. The team itself may need new evaluation and operational roles."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Read a case study about an AI feature. List every group whose data, work, decision, or outcome changes. Which groups were actually researched? Look for a perfect prototype, missing operational conditions, or historical labels treated as truth. The absent perspective often explains why a polished AI experience fails after launch."
+    }
+  ]
+}

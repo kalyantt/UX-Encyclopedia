@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-113",
+  "title": "Desk and Competitive Research Without Copying Solutions",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Desk and Competitive Research Without Copying Solutions. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Desk research uses existing sources—product documentation, reviews, support content, market reports, analytics, prior studies, policy, and public behaviour—to build context before primary research. Competitive research asks how comparable products frame a problem, what conventions people may already expect, and where alternatives leave unmet needs."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not turn comparison into feature copying. Record the user job, segment, context, business model, service capability, evidence of success, and apparent trade-off behind each observed design. A feature can be sensible in one operating model and harmful or pointless in another."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use desk research to sharpen questions, identify language, find hypotheses, and avoid rediscovering known facts. Validate claims that matter with primary evidence; a review, screenshot, or competitor page does not reveal the whole causal story."
+    },
+    {
+      "speaker": "host",
+      "act": "Produce questions, not copied screens",
+      "mood": "thinking",
+      "text": "What changes when we look at produce questions, not copied screens?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The evidence map ends with what is established, disputed, outdated, or missing. It sharpens field questions: Do patients understand that alternatives may differ clinically? What minimum comparison information supports a decision? Who must confirm a transfer? What happens if availability changes during choice? A screenshot cannot answer any of these."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "curious",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Screenshot benchmarking: appearance is compared without task, service, or consequence. Circular evidence: many articles repeat one unsupported original claim. Feature voting: prevalence among competitors is mistaken for effectiveness. Context stripping: regulation, business model, audience, and operations disappear."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Timeless repository: policy, product behavior, and evidence age without review dates."
+    },
+    {
+      "speaker": "host",
+      "act": "Build an evidence map before comparison",
+      "mood": "thinking",
+      "text": "What changes when we look at build an evidence map before comparison?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Review existing research, analytics, support, policies, standards, market reports, academic or professional literature, patents where relevant, and previous product decisions. Record source, date, population, method, incentive, claim, and limitation. Separate primary evidence from commentary that repeats it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For competitors and analogues, compare user promise, audience, business model, workflow, information, interaction, policy, pricing, accessibility, recovery, and observed outcome. Use a common scenario rather than screenshots. What appears elegant may depend on different regulation, data, operations, or customer risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Identify patterns and open questions, not “best practice” to import. A widespread solution may be convention, shared constraint, or copied weakness. Evaluate it against your evidence and context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a dated repository and synthesis showing confirmed knowledge, disagreement, gaps, and implications for research. Desk work reduces duplication and sharpens field questions; it does not replace contact with the people and system being designed."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare systems through scenarios and evidence",
+      "mood": "curious",
+      "text": "What changes when we look at compare systems through scenarios and evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Findings produce principles, risks, vocabulary, questions, and gaps. They do not produce a collage to copy. Where public claims conflict with reviews or observed behaviour, the contradiction becomes a research question. The final evidence map states what the team knows, what is inferred, what is outdated, and where primary research is necessary."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: guest checkout",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: guest checkout?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Competitors that remove account creation may show higher conversion, but the mechanism could be reduced commitment, fewer fields, better payment retrieval, or different fraud rules. Copying “Continue as guest” without studying fulfilment, support, and repeat access transfers a surface pattern without its service model."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A competitive matrix is weak when its rows are features and its columns are logos. Make the unit of comparison an outcome, a mechanism, a constraint, and a consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a meal-planning tool. Competitors all show recipe cards, but copying that layout would not reveal why people abandon plans. Desk research examines published nutrition guidance, market language, and existing solutions, then separates observed patterns from assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Field evidence is still needed about shopping, household coordination, and cooking constraints."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example Competitors all use a conversational onboarding assistant. The team maps what the pattern assumes: simple goals, reliable language input, low consequence, and available fallback. Reviews and accessibility evidence reveal failures hidden by screenshots. Current customers instead struggle with eligibility and document preparation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The research produces questions about information and service support, not a mandate to copy chat because it appears common. lesson 112 examined internal context. This lesson adds the external product landscape. lesson 114 then moves from secondary evidence to direct accounts of past behaviour."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Compare two products that support the same job. For one visible difference, write three possible strategic or operational reasons before deciding it is a “best practice.”"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-135",
+  "title": "Sitemaps, Wireflows, and Blueprinting Information",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Sitemaps, Wireflows, and Blueprinting Information. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Information architecture needs representations that let teams inspect the system before building every interface. A sitemap describes hierarchy and major destinations. A wireflow connects screens or states through a task. A service blueprint adds people, policies, systems, and backstage dependencies. Each makes a different question discussable."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose the artifact by uncertainty. Use a sitemap to test grouping and navigation breadth; use a wireflow to test task sequence and state; use a blueprint to test operational handoffs. Keep the representation at the lowest useful fidelity and update it when evidence changes."
+    },
+    {
+      "speaker": "host",
+      "act": "Select the map that answers the current question",
+      "mood": "thinking",
+      "text": "What changes when we look at select the map that answers the current question?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A sitemap represents places and structural relationships. A wireflow combines interface states with movement and decision. A content or object model represents reusable meaning. A service blueprint aligns customer action with operational production. These artefacts overlap, but substituting one for another hides important questions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A sitemap cannot express asynchronous state; a screen flow cannot show the source and lifecycle of content."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team maintains traceable identifiers across artefacts so a state or object can be followed from model to interface and operation. It annotates evidence, assumptions, owner, and version. When the wireflow says “request received,” the blueprint must name the event that proves it and the content model must contain the relevant timestamp and source."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contradiction becomes visible before implementation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Maps are kept only while they support decisions. A lightweight current-state view may be better than a comprehensive diagram no one can maintain. lesson 136 addresses the strategy and governance needed to keep the information system coherent through change."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: returns service",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: returns service?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A flowchart may show “return accepted,” while the blueprint exposes warehouse inspection and payment settlement and the model distinguishes return request, parcel, decision, and refund. Using the correct maps prevents one ambiguous box from concealing several states."
+    },
+    {
+      "speaker": "host",
+      "act": "Use each map for its question",
+      "mood": "thinking",
+      "text": "What changes when we look at use each map for its question?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A sitemap shows hierarchy and major relationships among destinations. A wireflow connects screens or states through actions and decisions. A content or information blueprint adds types, attributes, sources, rules, ownership, and delivery. Choose the artefact from the uncertainty rather than forcing all architecture into one diagram."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Represent alternate entry, search, permissions, states, errors, and recovery. Annotate evidence and assumptions. Use stable identifiers so maps connect to content inventories, prototypes, analytics, and implementation. A diagram of happy-path pages conceals the dynamic information system."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validate sitemaps with retrieval tasks, wireflows with realistic scenarios, and blueprints with authors, engineers, operations, and governance owners. Check whether the underlying model supports change, reuse, and multiple channels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Maintain maps only where they support decisions. Generate parts from source systems when possible and assign ownership. An outdated architecture diagram creates misplaced confidence; a smaller current model is more useful than comprehensive fiction."
+    },
+    {
+      "speaker": "host",
+      "act": "Maintain traceability across representations",
+      "mood": "curious",
+      "text": "What changes when we look at maintain traceability across representations?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team chooses granularity from the decision. A sitemap may group dozens of generated clinic pages under one template; a wireflow expands only the states relevant to transfer; a blueprint shows manual exception work invisible to either. Current and future states are never mixed without labels. Assumptions and evidence appear on the map rather than in forgotten meeting notes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contradiction becomes a review method. If the wireflow promises immediate receipt but the blueprint shows an unowned supplier handoff, the product cannot proceed with that status. If the sitemap provides preparation under the clinic while the content model relates it to appointment type, the team decides which relationship should govern retrieval."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Maps have owners and retirement conditions. They are updated when they support build, operations, testing, or governance; otherwise the team archives them with date and scope. Maintaining every diagram indefinitely would create another inconsistent information system."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: insurance claim",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: insurance claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A page map can show claim details and messages, a wireflow can show evidence submission and review states, and a blueprint can show assessor and payment queues. Linked identifiers let a defect reported in the status page be traced to the backstage event that produces it."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose artefacts by the decision they must support and the team that must maintain them. Senior designers connect identifiers across models so a screen state can be traced to an object, event, owner, and operational dependency."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team debates a polished checkout screen, but no one has mapped where delivery rules are introduced, which state changes after payment, or where recovery routes lead. The screen is detailed; the system is invisible."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take one multi-step service. Sketch its places, one user flow, the core objects, and one backstage handoff separately. Notice which facts disappear when all four are forced into one diagram."
+    }
+  ]
+}

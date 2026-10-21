@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-057",
+  "title": "Frontstage and Backstage",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Frontstage and Backstage. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Frontstage actions are visible to the customer: interfaces, communications, staff conversations, and physical environments. Backstage actions are the systems, people, policies, data, and operations that make them possible. A reliable experience needs alignment across both."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When something fails, trace the visible symptom to its enabling dependencies. This stops teams from repeatedly redesigning messages for an operational failure and helps them identify what must change at the correct layer."
+    },
+    {
+      "speaker": "host",
+      "act": "Trace each promise to an operational capability",
+      "mood": "thinking",
+      "text": "What changes when we look at trace each promise to an operational capability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Frontstage includes everything the customer encounters: interfaces, messages, environments, documents, and staff interactions. Backstage includes the work, rules, tools, data, and coordination that produce those encounters. The division is not a value judgment—backstage work can be central to experience even when it should remain invisible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The design task is to ensure each visible promise has a reliable operational mechanism and each important backstage event becomes visible when the customer must respond."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team records operational readiness beside interface readiness. Before release, it includes event reliability, staffing, permissions, training, service-level assumptions, manual fallback, and incident communication. A prototype that depends on backstage capabilities that do not yet exist is labelled as a future-state hypothesis, not presented as a finished experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: instant refunds",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: instant refunds?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An “instant refund” button is credible only when payment rails, merchant rules, fraud review, ledger state, and support tools can fulfil it. Where settlement takes days, the interface should distinguish refund authorised from funds available. Frontstage clarity depends on backstage state precision."
+    },
+    {
+      "speaker": "host",
+      "act": "Trace each visible promise backward",
+      "mood": "thinking",
+      "text": "What changes when we look at trace each visible promise backward?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For every frontstage moment, identify the backstage action, system, information, policy, capacity, and owner that makes it possible. A “real-time” status may depend on manual updates; an “instant” decision may create later review work. Exposing the dependency prevents copy from promising what operations cannot sustain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map staff experience alongside customer experience. Include tools, handoffs, queues, discretion, emotional labour, and workarounds. Frontline burden often predicts customer failure, while customer confusion creates avoidable backstage demand."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design the line of visibility deliberately. People need enough process and status to understand progress, uncertainty, and responsibility, but not internal complexity that provides no useful action. When a failure occurs, the backstage route must preserve context and authority so recovery is real."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Backstage work is often invisible in metrics and roadmaps. Make it visible enough to fund, staff, and govern; otherwise the frontstage promise becomes brittle."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Frontstage includes everything a customer can encounter: interfaces, physical spaces, mail, notifications, documents, and staff. Backstage includes workflows, systems, data, policies, contracts, staffing, training, and decision rights. The line between them matters because it shows where visibility, accountability, and evidence should exist."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A hidden process may still need a customer-facing status or explanation when it affects their ability to plan."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Trace an experience through both layers. Identify the customer action, visible response, supporting actor, system of record, policy constraint, handoff, and recovery route."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Then look for mismatches: a promise without operational capacity, an internal status that cannot be communicated, a frontline worker without authority to fix a known failure, or a data field that is collected but never improves the experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Frontstage polish: content and UI improve while a backstage bottleneck continues to fail people. Invisible workload: a new digital feature moves exception handling to staff without capacity. Broken evidence chain: no system can confirm what happened when a customer asks for help. Policy surprise: a rule appears only when it blocks someone at the frontstage."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“Your appointment is confirmed” appears frontstage. Behind it are availability rules, clinician schedules, reminders, records, payment checks, and staff authority to change a booking."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Service principles define what people should experience. Frontstage and backstage explain how that experience is produced. lesson 58 turns this view into a service blueprint."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Identify the invisible operation behind one visible service interaction. What data, rule, or person must be ready for it to work?"
+    }
+  ]
+}

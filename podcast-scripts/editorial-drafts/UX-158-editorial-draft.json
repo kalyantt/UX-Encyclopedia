@@ -1,0 +1,198 @@
+{
+  "lesson": "UX-158",
+  "title": "Service Research Across People, Policy, and Operations",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Service Research Across People, Policy, and Operations. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Service research examines the whole delivery system: people, channels, processes, policy, tools, environments, and backstage operations. Combine customer evidence with staff observation, service data, journey maps, blueprints, and stakeholder research to understand where an experience is produced."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Study work at its points of friction and handoff. Ask what people are trying to achieve, what staff need to do, what rules constrain them, and how an exception is resolved. Do not treat frontline workers as implementation detail; their knowledge often reveals the gap between designed policy and lived service."
+    },
+    {
+      "speaker": "host",
+      "act": "Research the service at several levels",
+      "mood": "thinking",
+      "text": "What changes when we look at research the service at several levels?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Service research combines lived experience with frontline practice, operational data, policy, systems, and environmental conditions. No single interview can reveal how the service works. The plan should follow a scenario across time and compare the official process, observed work, recorded data, and customer account."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contradictions are findings. Staff may report a 48-hour response while logs show a long tail; policy may require one evidence item while forms ask for three; patients may interpret “received” as clinical review. The team distinguishes policy constraint, local habit, system limitation, capacity, and workaround so recommendations target the cause."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: airport assistance",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: airport assistance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Passenger interviews explain uncertainty, but observation and operational records reveal handoffs between airline, airport, security, and contractor. Research must cross organisational boundaries to explain why a confirmed request still fails on arrival."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a multi-layer research plan",
+      "mood": "thinking",
+      "text": "What changes when we look at build a multi-layer research plan?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Follow cases end to end across customers, frontline staff, specialists, operations, policy owners, technology, suppliers, and records. Combine observation, interviews, document and policy review, support evidence, journey data, and service metrics. Sample successful, failed, delayed, exceptional, and recovered cases."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare stated process with actual practice. Staff workarounds reveal mismatches among policy, tools, capacity, and real situations. Observe emotional and coordination labour that process maps omit. Protect staff and customers when research surfaces rule-bending used to keep the service working."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map evidence on a shared timeline and distinguish fact, interpretation, and assumption. Look for causal distance: an error seen online may originate in a partner feed or approval rule. Triangulate explanations rather than allowing the loudest stakeholder to define the cause."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Turn findings into system choices—policy, information, tool, staffing, handoff, channel, or recovery—and identify the owner capable of changing each. Service research is complete only when organisational evidence can alter organisational decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Reconstruct the service case across evidence layers",
+      "mood": "curious",
+      "text": "What changes when we look at reconstruct the service case across evidence layers?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sampling includes success, ordinary delay, serious exception, abandonment before digital entry, assisted route, different clinic models, and access or language conditions. Researchers observe work where it occurs, interview across organisations, review artefacts, and analyse operational distributions. They do not treat one “end-to-end” workshop as evidence of real practice."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contradictions remain linked to their source. Policy may say clinics acknowledge within two days while queues show a long tail. Coordinators may report one workaround that managers do not know. Patients may interpret delivered as under clinical review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team distinguishes rule, implementation, capacity, data quality, incentive, and local adaptation before choosing an intervention."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ethics includes patient health information, staff vulnerability, partner confidentiality, cross-system identifiers, and the possibility that observation disrupts work. The final service-research report maps claims to cases and distributions, states boundaries, and routes product, policy, operations, data, and governance recommendations to people who can act."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: airport assistance",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: airport assistance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A confirmed request can fail across airline booking, airport operator, contractor, security, and gate. Passenger interviews show consequence; observation and operational records reveal the handoff. Service research must cross the organisational boundary that the passenger cannot see."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A service can improve a customer metric by transferring work or risk to staff. Include employee experience and operational load in the research frame."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research the service at its seams. Combine customer accounts with frontline observation, operational data, policy review, system constraints, and partner evidence. Compare intended policy with actual practice and identify where staff workarounds, missing information, or capacity shortages change the lived experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include people who abandon or cannot access the service, not only successful users."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Customer-only research: the visible journey is studied while staff and operations carry hidden failure. Policy as fact: written rules are assumed to describe real service delivery. Channel silo: evidence from one touchpoint is not connected to another. Success-sample bias: people who cannot complete the journey are absent from the study."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Customers report long waits at a public service counter. A screen redesign is proposed. Research shows the delay originates in eligibility policy, staff handoffs, missing documents, and a scheduling rule—not the kiosk alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 157 mapped the service ecosystem. lesson 158 gathers evidence across it. lesson 159 examines the policies and capacity decisions that turn evidence into a real experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a service encounter. Identify one customer touchpoint, one frontline role, one policy, one backstage system, and one question you would research for each."
+    }
+  ]
+}

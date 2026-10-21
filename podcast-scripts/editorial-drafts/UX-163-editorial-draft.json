@@ -1,0 +1,182 @@
+{
+  "lesson": "UX-163",
+  "title": "Sketching Makes Alternatives Visible",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Sketching Makes Alternatives Visible. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A sketch externalises a mental model cheaply enough to change. It can represent screens, but also sequences, states, relationships, spatial arrangements, conversations, rules, and handoffs. Its unfinished quality is functional: it invites correction before craft and commitment make critique socially expensive."
+    },
+    {
+      "speaker": "host",
+      "act": "Sketching is model-building",
+      "mood": "curious",
+      "text": "What changes when we look at sketching is model-building?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Drawing ability is irrelevant. Boxes, arrows, words, and rough figures are sufficient if the sketch exposes a decision. Annotate intent, evidence, assumptions, data, policy, and unanswered questions. Realistic content matters: blank rectangles hide vocabulary, hierarchy, length, and uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Different sketch forms answer different questions:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "thumbnail alternatives explore hierarchy and mechanism quickly; storyboards connect context, emotion, channel, and time; task flows reveal decisions, branches, and loops; state sketches show loading, empty, error, permission, interruption, and recovery; service scenes expose actors, props, frontstage interaction, and backstage response; concept diagrams make system relationships and responsibility visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Run a sketching session that produces evidence",
+      "mood": "thinking",
+      "text": "What changes when we look at run a sketching session that produces evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with one scenario, outcome, and constraint set. Participants sketch independently so the first confident speaker does not anchor the room. Ask for mechanisms before layouts: prevent, explain, recommend, escalate, recover. Require at least one non-screen response and one failure state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "During sharing, the author explains the problem and assumptions, not the beauty of the drawing. Reviewers first restate what they understand, then ask questions and identify risks. Cluster compatible mechanisms. Create hybrids deliberately rather than selecting the most polished sketch."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Convert promising sketches into a state inventory: entry conditions, user goal, available evidence, action, response, exception, recovery, exit, and data or operational dependency. Archive the question and decision with selected and rejected directions. Do not preserve every mark as sacred history."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription cancellation",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: subscription cancellation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Six sketches of a settings page may all preserve the same assumption. Broader sketches could place cancellation at billing notification, show a subscription timeline, offer a pause, schedule expiry, connect to support, or provide a grace-period reversal."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Adding failure and recovery reveals policy choices: when access ends, whether data survives, and how a mistaken cancellation is restored."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Screen tunnel: only interfaces are drawn when policy or service creates the experience. Blank-box safety: placeholder content postpones the hard information decisions. Art contest: visual confidence is mistaken for conceptual strength. Group anchoring: sketching begins after a senior person announces the answer. Happy-path strip: exceptions, delay, and recovery never appear."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Orphan sketch: the drawing loses its scenario, assumptions, and decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Match the sketch form to the question",
+      "mood": "curious",
+      "text": "What changes when we look at match the sketch form to the question?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Critique uses annotations: what the sketch assumes, what it deliberately omits, where the person may form the wrong model, and what evidence would distinguish it from another concept. The team does not count ideas as creativity. It looks for genuinely different mechanisms and recombines useful parts without erasing their trade-offs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sketches become traceable design history. Selected concepts carry their rationale into prototypes; rejected concepts retain the condition under which they might return. This reduces fixation on the first digital artifact and lets policy, content, operational, and technical collaborators contribute before implementation vocabulary dominates."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: account recovery",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: account recovery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A screen sketch can show identity questions. A storyboard can reveal that the customer lacks the old device; a service sketch can show agent escalation and evidence; a state sketch can expose lockout and retry. Together they open options a login-page sketch alone would miss."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use sketching to redistribute authorship. Operations, engineering, research, content, policy, and frontline staff possess different models of the service. Give them a common visual grammar and make dependencies visible early."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior designers know when to stop sketching: once the uncertain claim requires realistic behaviour, content, accessibility, or operations, choose a more credible prototype rather than adding detail to paper."
+    },
+    {
+      "speaker": "host",
+      "act": "Sketch relationships and states, not decoration",
+      "mood": "thinking",
+      "text": "What changes when we look at sketch relationships and states, not decoration?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team annotates what each representation assumes and tests the most different mechanisms before polishing. Sequential sketches show time and interruption; state sketches expose loading, unknown, failed, and changed conditions. Drawing skill is irrelevant when the artefact makes reasoning visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a train-ticket exchange. Three quick sketches place date selection, fare difference, and confirmation in different orders. The drawings expose a hidden question: when does the old ticket become invalid? Discussing that state while the ideas are cheap prevents a polished screen from concealing the risky interaction."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a familiar screen and sketch what happened before it, what occurs backstage, and what happens after failure. Which crucial design decision was invisible when you considered the screen alone?"
+    }
+  ]
+}

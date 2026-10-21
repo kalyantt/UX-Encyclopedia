@@ -1,0 +1,156 @@
+{
+  "lesson": "UX-112",
+  "title": "Research the Organisation, Not Only the User",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Research the Organisation, Not Only the User. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Products are made inside organisations. Stakeholder and organisational research examines goals, constraints, vocabulary, incentives, decision rights, workflows, policies, technical dependencies, and measures. It does not replace user research; it explains what the organisation can change and where a user problem is being produced."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interview people across roles, inspect artifacts and handoffs, and map where a decision becomes a rule, a system behaviour, or a support burden. Treat internal claims as evidence with a perspective, not as neutral truth. A leader’s target, an engineer’s constraint, and a support agent’s recurring issue can all be valid while pointing to different intervention points."
+    },
+    {
+      "speaker": "host",
+      "act": "Study how the service produces behaviour",
+      "mood": "thinking",
+      "text": "What changes when we look at study how the service produces behaviour?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interview and observe frontline staff, operations, policy, support, sales, data, engineering, risk, and leadership where relevant. Review process, incentives, targets, decision rights, tools, handoffs, capacity, and workarounds. Compare the official service with what people do to keep it working."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Organisational constraints are not automatically fixed facts. Ask which are legal, technical, strategic, historical, or incentive-created; who owns them; and what evidence could change them. A policy described as mandatory may be local interpretation. A manual workaround may contain valuable expertise or conceal unsafe dependence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map customer and organisational evidence together. Trace a visible friction backward to queue, data, authority, or metric. Protect staff confidentiality and avoid using research as performance surveillance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Translate findings into system choices and accountable owners. User research that repeatedly recommends clearer copy while internal rules create the confusion is scoped too narrowly."
+    },
+    {
+      "speaker": "host",
+      "act": "Study the system that produces the experience",
+      "mood": "curious",
+      "text": "What changes when we look at study the system that produces the experience?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team compares the official process with observed work. Workarounds are neither celebrated nor removed automatically: they may protect patients from a policy or tooling failure. Findings identify where a product change is possible, where operational change is required, and where leadership must resolve a constraint."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Constraint theatre: historical choices are described as immutable law. Leadership truth: senior stakeholder accounts are treated as neutral system facts. Staff surveillance: observation exposes individuals instead of diagnosing work conditions. Interface collapse: every organisational finding becomes a screen or copy request."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ownerless recommendation: the intervention sits outside the authority of anyone in the decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Trace the production of one customer-visible state",
+      "mood": "curious",
+      "text": "What changes when we look at trace the production of one customer-visible state?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The organisational study uses semi-structured interviews, job shadowing, artefact review, decision-right mapping, and service data. Role accounts are compared because each person sees a different slice. A clinic manager may describe official weekly release, while coordinators reserve capacity informally for complex cases and engineers see delayed supplier updates."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Contradiction is mapped to the workflow rather than resolved by seniority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The output is a constraint-and-change map. It distinguishes law, clinical rule, contract, policy, technical limitation, capacity, historical habit, and incentive. For each, the team records who can change it and what evidence is required. This turns “the business will not allow it” into a set of accountable decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: refund delay",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: refund delay?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Customers may understand a refund screen perfectly while finance batches approvals, fraud review lacks context, and support cannot see settlement. Organisational research reveals that clearer copy cannot fulfil the promise; the service needs event definitions, authority, and an escalation route."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Organisational research makes power and changeability visible. Distinguish a lawful or safety constraint from a local interpretation, a missing capability, or an incentive leaders could change. Protect staff evidence from becoming performance surveillance."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Customers complain that refunds take too long. Interviews reveal frustration, but the cause sits in a finance policy, a handoff between two teams, a legacy data field, and a service metric that rewards fast closure rather than resolution."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose one frustrating customer-facing rule. Trace who created it, who operates it, which system encodes it, what measure reinforces it, and who has authority to change it."
+    }
+  ]
+}

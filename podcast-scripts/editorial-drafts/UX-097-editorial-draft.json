@@ -1,0 +1,196 @@
+{
+  "lesson": "UX-097",
+  "title": "Human-Centered Design Is an Evidence Practice",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Human-Centered Design Is an Evidence Practice. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A team is asked to redesign an appointment form because people abandon it. Interviews and staff observation reveal another cause: the available slots disappear before the form is finished. If the team had polished the form first, it would have improved the wrong part of the experience. This lesson treats human-centred design as a way to make decisions changeable by evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Human-centred design is a decision discipline",
+      "mood": "curious",
+      "text": "What changes when we look at human-centred design is a decision discipline?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Human-centred design is a disciplined way to understand and improve people’s attempts to make progress. It begins with people’s goals, context, capabilities, constraints, and consequences—not the organisation’s preferred feature. It then makes assumptions visible, gathers appropriate evidence, creates and tests alternatives, and learns again after change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Human-centred does not mean that every request becomes a feature or that teams abandon business and technical constraints. It means trade-offs are made with a credible understanding of their human effect. Include people throughout the work: in problem framing, discovery, design, evaluation, rollout, and ongoing improvement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consider those directly using the product as well as people affected by it, staff supporting it, and communities bearing its costs."
+    },
+    {
+      "speaker": "host",
+      "act": "Run the cycle as disciplined inquiry",
+      "mood": "thinking",
+      "text": "What changes when we look at run the cycle as disciplined inquiry?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Human-centred design begins by understanding people, their goals, context, capabilities, current strategies, and the service system. It continues by framing opportunities, generating alternatives, representing them at useful fidelity, evaluating, and learning from field outcomes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The cycle is iterative because evidence changes both the solution and the definition of the problem."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence has different roles. Observation and interviews reveal context and mechanism; analytics estimates behaviour under measurement; evaluation finds interaction problems; experiments estimate particular causal effects; domain and operational evidence exposes feasibility and consequence. No one method grants a permanent “user voice.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include affected people and relevant disciplines while decisions remain changeable. Record assumptions, evidence, alternatives, decisions, and limits. Human-centred does not mean every preference becomes a requirement; it means choices are accountable to human goals, variation, rights, and outcomes rather than organisational convenience alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Evidence changes the design cycle",
+      "mood": "curious",
+      "text": "What changes when we look at evidence changes the design cycle?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Human-centred design is often drawn as a tidy sequence—understand, define, develop, evaluate—but real practice is a loop of increasingly consequential decisions. Early evidence may challenge the problem boundary. Prototype evidence may challenge the interaction. Operational evidence may show that a desirable experience cannot be delivered reliably."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Outcome evidence after launch may reveal exclusion or adaptation that was invisible in a study."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For each cycle, write down four things: the decision, the uncertainty that matters to it, the evidence appropriate to that uncertainty, and what the team will do if the evidence contradicts its belief. This prevents research from becoming general “learning” that arrives too late to change anything."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "It also prevents a usability test from being asked to prove market demand, or analytics from being asked to explain a motivation they cannot observe."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Participation must be connected to authority. Inviting people to a workshop is not meaningful involvement if the solution and constraints are already fixed. Decide which choices participants can influence, compensate them fairly, make the material accessible, protect their information, and report what changed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When a recommendation is rejected, record the reason and who accepted the resulting risk."
+    },
+    {
+      "speaker": "host",
+      "act": "When human-centred practice becomes theatre",
+      "mood": "thinking",
+      "text": "What changes when we look at when human-centred practice becomes theatre?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Watch for teams that collect quotes after the roadmap is fixed, use one persona to speak for everyone, test only visual preference, or call a choice “user-led” because participants selected among options the organisation preselected. Another warning sign is repeated discovery with no decision owner. Evidence cannot create accountability on its own."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners design the conditions around the method: access to participants, decision timing, cross-functional involvement, ethical review, a repository with provenance, and leadership expectations about changing course."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The practice becomes real when evidence can stop, reshape, or narrow work—and when the organisation learns after release rather than declaring the design process finished."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feature-first framing: the organisation’s preferred output defines the research boundary. Participation theatre: people contribute after the consequential choices are fixed. Method substitution: interviews, analytics, or usability tests are asked to support claims they cannot establish. Average user: variation in capability, context, power, and consequence disappears."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Insight without authority: evidence has no decision owner or route to change delivery. Release endpoint: the team stops learning when the interface ships."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“User-centred” is not a label for a workshop. Ask what evidence changed a decision, who was absent from the framing, and how the team will know whether the lived outcome improved."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team asked to digitise an appointment service first observes residents and staff. It finds that the central problem is not form completion but unavailable capacity and lost handoff context. The intervention combines clearer information, saved state, staff visibility, and a policy change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Evaluation covers customer and staff journeys; launch metrics include successful appointments, recovery, access, and workload. Evidence changed the system boundary."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 1 defined UX as the quality of a person’s whole attempt. This lesson makes the course’s operating method explicit: evidence and participation keep the team close to that attempt as it makes decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a product request. Write the assumed user problem, three assumptions embedded in it, the people affected beyond the direct user, and the cheapest evidence that could challenge the framing. Then add a decision date and owner. If the evidence arrived tomorrow, could it still change the work? If not, the research question is mistimed."
+    }
+  ]
+}

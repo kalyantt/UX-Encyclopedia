@@ -1,0 +1,166 @@
+{
+  "lesson": "UX-127",
+  "title": "Audit the Information You Already Have",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Automated dialogue draft from the revised lesson. Review spoken wording and meaning before publishing.",
+  "turns": [
+    {
+      "speaker": "guide",
+      "act": "Before we begin",
+      "mood": "warm",
+      "text": "Today we're talking about Audit the Information You Already Have. By the end, you'll know why this matters, how to use it, and what to notice in a real product."
+    },
+    {
+      "speaker": "host",
+      "mood": "curious",
+      "text": "What is the problem we are trying to understand?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A content audit creates an evidence base for information architecture. It records what exists, where it lives, who owns it, what it is for, how current it is, how it relates to other content, and what quality or lifecycle problems it has."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Without this inventory, teams often redesign the visible menu while leaving duplication, missing information, contradictory labels, and orphaned content untouched."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The audit does not need to catalogue every sentence first. Begin with the scope that affects the user goal: content types, key journeys, high-risk pages, search results, and recurring support topics. Add fields that can drive a decision—audience, owner, status, source of truth, last review, metadata, and relationship to a task."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn an inventory into an evidence base",
+      "mood": "thinking",
+      "text": "What changes when we look at turn an inventory into an evidence base?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team defines criteria before scoring. Accuracy and clinical safety outweigh visual consistency; findability and comprehension are judged through real tasks; maintenance risk considers owner and source; duplication distinguishes legitimate channel variants from contradictory copies. Items are not simply labelled keep, rewrite, or delete."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Some must be merged, redirected, archived with evidence, remapped to a canonical object, or retained because policy requires a historical record."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: policy intranet",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: policy intranet?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A crawler may find 4,000 pages, but the consequential question is which policy is authoritative by jurisdiction and effective date. An audit links duplicates, owners, and supersession before removing content, preventing a tidier intranet from destroying necessary evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a decision-ready inventory",
+      "mood": "thinking",
+      "text": "What changes when we look at build a decision-ready inventory?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define scope, sample strategy, and decisions the audit must support. Inventory URLs, screens, documents, messages, help, notifications, and staff scripts—not only website pages. Capture content type, purpose, audience, owner, source of truth, format, metadata, status, date, traffic or use, quality, risk, dependencies, and duplication."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Separate quantitative inventory from qualitative assessment. Use criteria such as accuracy, relevance, findability, comprehension, accessibility, consistency, freshness, and task support. Calibrate reviewers with examples. Sample large collections systematically while inspecting high-risk and high-change content in full."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Group patterns: redundant, outdated, trivial, missing, contradictory, orphaned, inaccessible, or unowned. Trace duplicated policy to its authority and channels. Content that nobody can own cannot remain reliable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Turn the audit into actions—keep, revise, combine, migrate, archive, create, or govern—with priority, owner, dependency, and validation. Measure removed duplication, improved success, reduced failed search and support, and future review health. The spreadsheet is evidence; the outcome is a changed information system."
+    },
+    {
+      "speaker": "host",
+      "act": "Move from spreadsheet rows to portfolio decisions",
+      "mood": "curious",
+      "text": "What changes when we look at move from spreadsheet rows to portfolio decisions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scoring uses explicit criteria with evidence: user need, accuracy and safety, source authority, findability, comprehension, accessibility, duplication, freshness, performance, and governance. Scores do not make the decision automatically."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A rarely visited emergency instruction can be critical; a high-traffic page may be popular because navigation repeatedly sends people there by mistake. The team records keep, improve, merge, re-model, redirect, archive, or remove, plus risk, owner, dependency, and validation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Deletion is designed. Redirects preserve known routes; records required for audit remain accessible under the right permissions; search and navigation stop surfacing obsolete items; downstream links and analytics are updated. The inventory becomes a maintained dataset with review triggers, not a one-time cleanup artifact."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: help centre consolidation",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: help centre consolidation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Twenty articles about password recovery may reflect several accounts, identity states, and permissions. Combining them into one “simple” article can erase necessary distinctions. An audit first models the authoritative recovery paths, then consolidates presentation where meaning truly overlaps."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A content audit is a portfolio decision with legal, operational, and historical consequences. Senior practitioners distinguish low traffic from low value, verify source authority before deletion, and assign ownership for the system that will otherwise recreate the same debt."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a university site. Programme details appear in a catalogue, department pages, PDFs, and email templates, with different deadlines in each. Before redrawing navigation, inventory the content, owners, update dates, duplication, and contradictions. The audit reveals a governance problem as well as an information-architecture problem."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find three pages or messages that describe the same product state. Compare their source, owner, date, terminology, and consequence. Decide whether they are legitimate variants or contradictory duplicates."
+    }
+  ]
+}
