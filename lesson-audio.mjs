@@ -15,6 +15,79 @@ export function mountAudio(library){
   const supported='speechSynthesis' in window&&'SpeechSynthesisUtterance' in window;
   const synth=supported?window.speechSynthesis:null;
   let id='',sections=[],segments=[],index=0,playing=false,paused=false,token=0,rate=1,voiceURI='';
+  let activeRecording=null,activeRecordingId='',audioObserver=null,forcedDock=false;
+  const dock=document.createElement('aside');
+  dock.className='podcast-dock';dock.hidden=true;dock.setAttribute('aria-label','Floating podcast player');
+  dock.innerHTML='<div class="podcast-dock-head"><span class="podcast-dock-label">Now listening</span><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><div class="podcast-dock-actions"><button type="button" class="podcast-dock-toggle" aria-label="Pause podcast">Pause</button><button type="button" class="podcast-dock-back" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" class="podcast-dock-forward" aria-label="Go forward 15 seconds">15 sec ↷</button></div><button type="button" class="podcast-dock-return">Back to lesson</button>';
+  document.body.append(dock);
+  const dockSlot=dock.querySelector('.podcast-dock-recording');
+  const lessonTitle=lessonId=>Object.values(library.index).flatMap(module=>module.lessons).find(([key])=>key===lessonId)?.[1]||lessonId;
+  function closeDock(){
+    if(!activeRecording)return;
+    const closedId=activeRecordingId;
+    activeRecording.pause();activeRecording.currentTime=0;activeRecording.remove();activeRecording=null;activeRecordingId='';forcedDock=false;dock.hidden=true;
+    if(closedId===id&&player()&&!player().querySelector('.audio-recording'))sync(id);
+  }
+  function park(force=false){
+    if(!activeRecording||activeRecording.paused||dock.contains(activeRecording))return;
+    const resume=!activeRecording.paused;
+    forcedDock=force;
+    dock.querySelector('.podcast-dock-title').textContent=lessonTitle(activeRecordingId);
+    dockSlot.append(activeRecording);dock.hidden=false;updateDock();
+    if(resume)activeRecording.play().then(updateDock).catch(updateDock);
+  }
+  function restore(){
+    const root=player();if(!activeRecording||!root||activeRecordingId!==id||!dock.contains(activeRecording))return;
+    const placeholder=root.querySelector('.audio-recording');
+    if(!placeholder)return;
+    const resume=!activeRecording.paused;
+    placeholder.replaceWith(activeRecording);dock.hidden=true;forcedDock=false;
+    if(resume)activeRecording.play().then(updateDock).catch(updateDock);
+  }
+  function updateDock(){
+    if(!activeRecording)return;
+    const paused=activeRecording.paused;
+    dock.querySelector('.podcast-dock-toggle').textContent=paused?'Play':'Pause';
+    dock.querySelector('.podcast-dock-toggle').setAttribute('aria-label',paused?'Play podcast':'Pause podcast');
+  }
+  dock.querySelector('.podcast-dock-close').onclick=closeDock;
+  dock.querySelector('.podcast-dock-return').onclick=()=>{
+    if(location.hash.slice(1)!==activeRecordingId)location.hash=activeRecordingId;
+    else{forcedDock=false;restore();player()?.scrollIntoView({behavior:'smooth',block:'center'})}
+  };
+  dock.querySelector('.podcast-dock-toggle').onclick=()=>{if(!activeRecording)return;if(activeRecording.paused)activeRecording.play();else activeRecording.pause();updateDock()};
+  dock.querySelector('.podcast-dock-back').onclick=()=>{if(activeRecording)activeRecording.currentTime=Math.max(0,activeRecording.currentTime-15)};
+  dock.querySelector('.podcast-dock-forward').onclick=()=>{if(activeRecording&&Number.isFinite(activeRecording.duration))activeRecording.currentTime=Math.min(activeRecording.duration,activeRecording.currentTime+15)};
+  function watchAudio(root,recording,lessonId){
+    audioObserver?.disconnect();
+    audioObserver=new IntersectionObserver(entries=>{
+      const visible=entries[0]?.isIntersecting;
+      if(activeRecording!==recording)return;
+      if(visible&&!forcedDock)restore();else if(!visible)park();
+    },{threshold:.08});
+    audioObserver.observe(root);
+    if(recording.dataset.watched==='yes')return;
+    recording.dataset.watched='yes';
+    recording.addEventListener('play',()=>{
+      if(activeRecording&&activeRecording!==recording)closeDock();
+      activeRecording=recording;activeRecordingId=lessonId;updateDock();
+      const visibleRoot=id===lessonId?player():null;
+      if(visibleRoot&&(visibleRoot.getBoundingClientRect().bottom<0||visibleRoot.getBoundingClientRect().top>innerHeight))park();
+    });
+    recording.addEventListener('pause',updateDock);
+    recording.addEventListener('ended',()=>{
+      if(recording.dataset.phase==='outro'){
+        recording.dataset.phase='main';recording.src=recording.dataset.mainSrc;recording.load();
+        const note=player()?.querySelector('.audio-ending');if(note&&id===lessonId)note.textContent='Episode complete. The four lesson questions are ready below.';
+        updateDock();return;
+      }
+      recording.dataset.phase='outro';
+      recording.src=`assets/audio/outros/${lessonId}-outro.m4a`;
+      recording.play().catch(()=>{
+        const note=player()?.querySelector('.audio-ending');if(note&&id===lessonId)note.textContent='The episode ended. Answer the four questions below, then continue to the next lesson.';
+      });
+    });
+  }
   try{rate=Number(localStorage.getItem('ux-listen-rate'))||1}catch{}
   try{voiceURI=localStorage.getItem('ux-listen-voice')||''}catch{}
   const player=()=>document.querySelector('#lesson-audio');
@@ -32,7 +105,9 @@ export function mountAudio(library){
     document.querySelectorAll('.reading-section.is-speaking').forEach(node=>node.classList.remove('is-speaking'));
     if(playing){const key=sectionFor(index);if(key>0)document.querySelectorAll('.reading-section')[key-1]?.classList.add('is-speaking')}
   }
-  function stop(){token++;const recording=player()?.querySelector('.audio-recording');if(recording){recording.pause();recording.currentTime=0}if(synth)synth.cancel();playing=false;paused=false;index=0;paint();status(supported?'Ready when you are.':'Listening is unavailable in this browser.')}
+  function stopLegacy(){token++;if(synth)synth.cancel();playing=false;paused=false;index=0;paint();status(supported?'Ready when you are.':'Listening is unavailable in this browser.')}
+  function stop(){stopLegacy();audioObserver?.disconnect();closeDock()}
+  function beforeRoute(){audioObserver?.disconnect();park(true);stopLegacy()}
   function availableVoices(){return supported?synth.getVoices().filter(voice=>/^en([_-]|$)/i.test(voice.lang)).sort((a,b)=>a.name.localeCompare(b.name)):[]}
   function showVoices(){
     const select=player()?.querySelector('.audio-voice select');if(!select)return;
@@ -60,19 +135,25 @@ export function mountAudio(library){
     if(playing){status('Playing…');speak()}else paint();
   }
   function sync(nextId){
-    stop();id=nextId;
+    stopLegacy();id=nextId;
     const root=player(),lesson=library.reading[id];
     if(!root||!lesson)return;
     if(lesson.example&&/(?:course-editorial-preview|course-podcast-v1)\.html$/.test(location.pathname)){
       const episode=editorialPodcastVersions[id];
       if(episode){
         root.classList.add('recorded');
-        root.innerHTML=`<div class="audio-copy"><span class="audio-kicker">TWO-VOICE PODCAST · ${episode.version}</span><strong>Listen to this lesson</strong><span class="audio-location">${episode.note} Recorded offline; no per-listen fee.</span></div><audio class="audio-recording" controls preload="metadata" src="${episode.src}" aria-label="Two-voice podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-alt"><a href="${episode.transcript}">Read the episode transcript</a></p>`;
+        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong><button class="audio-minimize" type="button" aria-label="Minimize podcast player">Minimize ↘</button></div><audio class="audio-recording" controls preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-ending" role="status">At the end, we’ll point you to the lesson questions and what comes next.</p>`;
         const recording=root.querySelector('.audio-recording');
+        recording.dataset.mainSrc=episode.src;recording.dataset.phase='main';
+        root.querySelector('.audio-minimize').onclick=()=>{if(recording.paused)recording.play().then(()=>park(true)).catch(()=>{});else park(true)};
         root.querySelectorAll('[data-seek]').forEach(button=>button.onclick=()=>{
-          if(!Number.isFinite(recording.duration))return;
-          recording.currentTime=Math.max(0,Math.min(recording.duration,recording.currentTime+Number(button.dataset.seek)));
+          const target=activeRecordingId===id&&dock.contains(activeRecording)?activeRecording:recording;
+          if(!Number.isFinite(target.duration))return;
+          target.currentTime=Math.max(0,Math.min(target.duration,target.currentTime+Number(button.dataset.seek)));
         });
+        if(activeRecordingId===id&&dock.contains(activeRecording)){
+          restore();watchAudio(root,activeRecording,id);
+        }else watchAudio(root,recording,id);
         return;
       }
       root.classList.remove('recorded');
@@ -141,5 +222,5 @@ export function mountAudio(library){
   }
   window.addEventListener('beforeunload',stop);
   if(supported)synth.addEventListener('voiceschanged',showVoices);
-  return {sync,stop};
+  return {sync,stop,beforeRoute};
 }

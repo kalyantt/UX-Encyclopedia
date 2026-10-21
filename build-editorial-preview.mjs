@@ -46,16 +46,16 @@ const compressed=gzipSync(Buffer.from(JSON.stringify(course)),{level:9,mtime:0})
 writeFileSync(new URL('./course-204-data-editorial-preview.js',import.meta.url),`window.course204Gzip="${compressed}";\n`);
 const html=readFileSync(new URL('./course.html',import.meta.url),'utf8')
   .replace('course-204-data.js?v=20261001b','course-204-data-editorial-preview.js?v=editorial-all1')
-  .replace(/course-reader\.js\?v=[^"]+/,'course-reader.js?v=editorial-all6')
-  .replace(/course-reader\.css\?v=[^"]+/,'course-reader.css?v=20261021v5')
-  .replace(/reading-pet\.css\?v=[^"]+/,'reading-pet.css?v=20261021v5')
+  .replace(/course-reader\.js\?v=[^"]+/,'course-reader.js?v=editorial-all7')
+  .replace(/course-reader\.css\?v=[^"]+/,'course-reader.css?v=20261021v6')
+  .replace(/reading-pet\.css\?v=[^"]+/,'reading-pet.css?v=20261021v6')
   .replace('<a href="case.html">The CarePath story ↗</a>','')
   .replace('<title>UX Encyclopedia · The course</title>','<title>Editorial preview · UX Encyclopedia</title>');
 writeFileSync(new URL('./course-editorial-preview.html',import.meta.url),html);
 const podcastEdition=html
-  .replace('<title>Editorial preview · UX Encyclopedia</title>','<title>Podcast edition V5 preview · UX Encyclopedia</title>')
+  .replace('<title>Editorial preview · UX Encyclopedia</title>','<title>Podcast edition · UX Encyclopedia</title>')
   .replace('Learn UX through connected stories, practical challenges, and the CarePath case.','Learn UX through connected lessons, product examples, challenges, and offline two-voice podcasts.')
   .replace('<a href="index.html">← Course home</a>','<a href="course.html">← Earlier course</a>')
-  .replace('Your practice progress stays in this browser. No account needed.','V5 preview · Your practice progress stays in this browser. No account needed.');
+  .replace('<p class="local-note">Your practice progress stays in this browser. No account needed.</p>','');
 writeFileSync(new URL('./course-podcast-v1.html',import.meta.url),podcastEdition);
 console.log(`Built local editorial preview for ${editorialReport.length} lessons; it is not the published course.`);

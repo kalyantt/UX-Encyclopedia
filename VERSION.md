@@ -1,5 +1,5 @@
-# UX Encyclopedia V5 preview
+# UX Encyclopedia V6
 
-This working edition follows the saved local V4 snapshot. It adds a seekable local podcast preview with 15-second skip controls and replaces Pip's leaf-clicker with a four-pair UX memory game. Pip now idles, hops on hover, and reacts to pats, matches, and mistakes; animations respect reduced-motion settings.
+V5 is preserved at Git commit `5877146`. This edition removes the redundant transcript link and recording-status copy, adds previous and next lesson controls, and keeps playing audio available in a floating mini-player while moving between lessons. Its close button stops playback. Pip's game is now a small jump-over-the-stones runner with keyboard, click, and touch controls.
 
-The podcast scripts generated in bulk remain editorial drafts. A complete recording count, audio decode check, and publication check are required before V5 can be described as released.
+Each of the 204 episodes has a separate offline-recorded closing announcement about the four lesson questions and the next lesson or chapter challenge. The main podcast scripts generated in bulk remain editorial drafts; the absence of a status label in the listening panel does not imply hand review.
