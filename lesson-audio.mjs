@@ -18,7 +18,7 @@ export function mountAudio(library){
   let activeRecording=null,activeRecordingId='',audioObserver=null,forcedDock=false;
   const dock=document.createElement('aside');
   dock.className='podcast-dock';dock.hidden=true;dock.setAttribute('aria-label','Floating podcast player');
-  dock.innerHTML='<div class="podcast-dock-head"><span class="podcast-dock-label">Now listening</span><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><button type="button" class="podcast-dock-return">Back to lesson</button>';
+  dock.innerHTML='<div class="podcast-dock-head" title="Drag to move"><span class="podcast-dock-label">Now listening</span><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><button type="button" class="podcast-dock-return">Back to lesson</button>';
   document.body.append(dock);
   const dockSlot=dock.querySelector('.podcast-dock-recording');
   const lessonTitle=lessonId=>Object.values(library.index).flatMap(module=>module.lessons).find(([key])=>key===lessonId)?.[1]||lessonId;
@@ -53,6 +53,32 @@ export function mountAudio(library){
     if(location.hash.slice(1)!==activeRecordingId)location.hash=activeRecordingId;
     else{forcedDock=false;restore();player()?.scrollIntoView({behavior:'smooth',block:'center'})}
   };
+  const dragHandle=dock.querySelector('.podcast-dock-head');
+  let drag=null;
+  dragHandle.addEventListener('pointerdown',event=>{
+    if(event.button!==0||event.target.closest('button'))return;
+    const bounds=dock.getBoundingClientRect();
+    drag={x:event.clientX-bounds.left,y:event.clientY-bounds.top};
+    dragHandle.setPointerCapture(event.pointerId);
+    dragHandle.classList.add('is-dragging');
+    event.preventDefault();
+  });
+  dragHandle.addEventListener('pointermove',event=>{
+    if(!drag)return;
+    const left=Math.max(8,Math.min(event.clientX-drag.x,innerWidth-dock.offsetWidth-8));
+    const top=Math.max(8,Math.min(event.clientY-drag.y,innerHeight-dock.offsetHeight-8));
+    dock.style.left=`${left}px`;
+    dock.style.top=`${top}px`;
+    dock.style.bottom='auto';
+  });
+  const stopDragging=()=>{drag=null;dragHandle.classList.remove('is-dragging')};
+  dragHandle.addEventListener('pointerup',stopDragging);
+  dragHandle.addEventListener('pointercancel',stopDragging);
+  addEventListener('resize',()=>{
+    if(!dock.style.top)return;
+    dock.style.left=`${Math.max(8,Math.min(parseFloat(dock.style.left),innerWidth-dock.offsetWidth-8))}px`;
+    dock.style.top=`${Math.max(8,Math.min(parseFloat(dock.style.top),innerHeight-dock.offsetHeight-8))}px`;
+  });
   function watchAudio(root,recording,lessonId){
     audioObserver?.disconnect();
     audioObserver=new IntersectionObserver(entries=>{

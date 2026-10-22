@@ -44,3 +44,10 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
 .product-example .prose{max-width:67ch}
 @media(max-width:760px){.product-example{padding:23px 21px;margin:32px 0 24px}}
 @media(max-width:430px){.audio-player{grid-template-columns:1fr}.audio-controls{justify-content:space-between}.audio-progress,.audio-status{grid-column:1}.audio-copy strong{font-size:18px}}
+.podcast-dock{width:min(278px,calc(100vw - 24px));padding:10px 12px;gap:5px;left:12px;bottom:12px;border-radius:15px}
+.podcast-dock-head{cursor:grab;touch-action:none;user-select:none;min-height:25px}
+.podcast-dock-head.is-dragging{cursor:grabbing}
+.podcast-dock-title{font-size:15px}
+.podcast-dock .audio-recording{display:block;width:100%;min-width:0;height:32px}
+.podcast-dock-return{padding:4px 8px;font-size:10px}
+@media(max-width:760px){.podcast-dock{width:min(278px,calc(100vw - 24px));left:12px;bottom:12px}}
