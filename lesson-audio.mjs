@@ -18,14 +18,15 @@ export function mountAudio(library){
   let activeRecording=null,activeRecordingId='',audioObserver=null,forcedDock=false;
   const dock=document.createElement('aside');
   dock.className='podcast-dock';dock.hidden=true;dock.setAttribute('aria-label','Floating podcast player');
-  dock.innerHTML='<div class="podcast-dock-head" title="Drag to move"><span class="podcast-dock-label">Now listening</span><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><button type="button" class="podcast-dock-return">Back to lesson</button>';
+  dock.innerHTML='<div class="podcast-dock-head" title="Drag to move"><span class="podcast-dock-label">Now listening</span><div class="podcast-dock-head-actions"><details class="podcast-dock-more"><summary aria-label="More player options" title="More options">⋯</summary><div class="podcast-dock-menu"><button type="button" class="podcast-dock-return">Back to lesson</button></div></details><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div>';
   document.body.append(dock);
   const dockSlot=dock.querySelector('.podcast-dock-recording');
+  const dockMore=dock.querySelector('.podcast-dock-more');
   const lessonTitle=lessonId=>Object.values(library.index).flatMap(module=>module.lessons).find(([key])=>key===lessonId)?.[1]||lessonId;
   function closeDock(){
     if(!activeRecording)return;
     const closedId=activeRecordingId;
-    activeRecording.pause();activeRecording.currentTime=0;activeRecording.remove();activeRecording=null;activeRecordingId='';forcedDock=false;dock.hidden=true;
+    activeRecording.pause();activeRecording.currentTime=0;activeRecording.remove();activeRecording=null;activeRecordingId='';forcedDock=false;dock.hidden=true;dockMore.open=false;
     if(closedId===id&&player()&&!player().querySelector('.audio-recording'))sync(id);
   }
   function park(force=false){
@@ -41,7 +42,7 @@ export function mountAudio(library){
     const placeholder=root.querySelector('.audio-recording');
     if(!placeholder)return;
     const resume=!activeRecording.paused;
-    placeholder.replaceWith(activeRecording);dock.hidden=true;forcedDock=false;
+    placeholder.replaceWith(activeRecording);dock.hidden=true;forcedDock=false;dockMore.open=false;
     if(resume)activeRecording.play().then(updateDock).catch(updateDock);
   }
   function updateDock(){
@@ -50,13 +51,20 @@ export function mountAudio(library){
   }
   dock.querySelector('.podcast-dock-close').onclick=closeDock;
   dock.querySelector('.podcast-dock-return').onclick=()=>{
+    dockMore.open=false;
     if(location.hash.slice(1)!==activeRecordingId)location.hash=activeRecordingId;
     else{forcedDock=false;restore();player()?.scrollIntoView({behavior:'smooth',block:'center'})}
   };
+  document.addEventListener('pointerdown',event=>{
+    if(dockMore.open&&!dockMore.contains(event.target))dockMore.open=false;
+  });
+  dockMore.addEventListener('keydown',event=>{
+    if(event.key==='Escape'){dockMore.open=false;dockMore.querySelector('summary').focus()}
+  });
   const dragHandle=dock.querySelector('.podcast-dock-head');
   let drag=null;
   dragHandle.addEventListener('pointerdown',event=>{
-    if(event.button!==0||event.target.closest('button'))return;
+    if(event.button!==0||event.target.closest('button,summary'))return;
     const bounds=dock.getBoundingClientRect();
     drag={x:event.clientX-bounds.left,y:event.clientY-bounds.top};
     dragHandle.setPointerCapture(event.pointerId);

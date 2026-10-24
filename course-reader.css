@@ -49,5 +49,12 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
 .podcast-dock-head.is-dragging{cursor:grabbing}
 .podcast-dock-title{font-size:15px}
 .podcast-dock .audio-recording{display:block;width:100%;min-width:0;height:32px}
-.podcast-dock-return{padding:4px 8px;font-size:10px}
+.podcast-dock-head-actions{display:flex;align-items:center;gap:6px}
+.podcast-dock-more{position:relative}
+.podcast-dock-more summary{display:grid;place-items:center;list-style:none;cursor:pointer;width:27px;height:27px;border-radius:50%;background:#e8eee3;color:var(--green);font-size:21px;line-height:1}
+.podcast-dock-more summary::-webkit-details-marker{display:none}
+.podcast-dock-more summary:hover,.podcast-dock-more[open] summary{background:#d9e5d7}
+.podcast-dock-menu{position:absolute;top:calc(100% + 7px);right:0;z-index:2;min-width:142px;padding:5px;border:1px solid #c6d1c1;border-radius:11px;background:#fffefa;box-shadow:0 9px 24px #1b3c322b}
+.podcast-dock-menu .podcast-dock-return{display:block;width:100%;border:0;background:transparent;text-align:left;padding:9px 10px;font-size:12px;white-space:nowrap}
+.podcast-dock-menu .podcast-dock-return:hover{background:#e8eee3}
 @media(max-width:760px){.podcast-dock{width:min(278px,calc(100vw - 24px));left:12px;bottom:12px}}
