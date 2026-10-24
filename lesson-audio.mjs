@@ -202,14 +202,9 @@ export function mountAudio(library){
       const episode=editorialPodcastVersions[id];
       if(episode){
         root.classList.add('recorded');
-        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong></div><audio class="audio-recording" controls controlsList="nodownload noplaybackrate noremoteplayback" disableRemotePlayback preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-ending" role="status">At the end, we’ll point you to the lesson questions and what comes next.</p>`;
+        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong></div><audio class="audio-recording" controls controlsList="nodownload noplaybackrate noremoteplayback" disableRemotePlayback preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio>`;
         const recording=root.querySelector('.audio-recording');
         recording.dataset.mainSrc=episode.src;recording.dataset.phase='main';
-        root.querySelectorAll('[data-seek]').forEach(button=>button.onclick=()=>{
-          const target=activeRecordingId===id&&dock.contains(activeRecording)?activeRecording:recording;
-          if(!Number.isFinite(target.duration))return;
-          target.currentTime=Math.max(0,Math.min(target.duration,target.currentTime+Number(button.dataset.seek)));
-        });
         if(activeRecordingId===id&&dock.contains(activeRecording)){
           restore();watchAudio(root,activeRecording,id);
         }else watchAudio(root,recording,id);
