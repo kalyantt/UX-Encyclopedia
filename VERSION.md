@@ -1,4 +1,4 @@
-# UX Encyclopedia V6.4
+# UX Encyclopedia V6.5
 
 V5 is preserved at Git commit `5877146`. This edition removes the redundant transcript link and recording-status copy, adds previous and next lesson controls, and keeps playing audio available in a floating mini-player while moving between lessons. Its close button stops playback. Pip's game is now a small jump-over-the-stones runner with keyboard, click, and touch controls.
 
@@ -11,3 +11,5 @@ V6.2 removes the redundant Play/Pause and both 15-second buttons from the floati
 V6.3 makes the floating player smaller and draggable by its header. V6.2 is preserved at Git commit `a3ca068`.
 
 V6.4 puts Back to lesson in the floating player's More menu rather than a separate button. V6.3 is preserved at Git commit `b24bbca`.
+
+V6.5 replaces the floating player's browser-supplied controls with a small custom set, removing the duplicate browser menu, playback-speed option, and download option there. Its single More menu contains Back to lesson. V6.4 is preserved at Git commit `70aefea`.

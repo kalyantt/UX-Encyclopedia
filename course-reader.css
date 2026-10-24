@@ -48,7 +48,16 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
 .podcast-dock-head{cursor:grab;touch-action:none;user-select:none;min-height:25px}
 .podcast-dock-head.is-dragging{cursor:grabbing}
 .podcast-dock-title{font-size:15px}
-.podcast-dock .audio-recording{display:block;width:100%;min-width:0;height:32px}
+.podcast-dock .audio-recording{display:none}
+.podcast-dock-player{display:flex;align-items:center;gap:7px;min-height:32px}
+.podcast-dock-player button{flex:none;display:grid;place-items:center;width:27px;height:27px;padding:0;border:0;border-radius:50%;background:#e8eee3;color:var(--green);cursor:pointer;font:600 15px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.podcast-dock-player button:hover{background:#d9e5d7}
+.podcast-dock-volume svg{width:17px;height:17px}
+.podcast-dock-volume .podcast-dock-muted,.podcast-dock-volume.is-muted .podcast-dock-sound{display:none}
+.podcast-dock-volume.is-muted .podcast-dock-muted{display:block}
+.podcast-dock-time{flex:none;min-width:65px;color:var(--green);font:11px/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-variant-numeric:tabular-nums}
+.podcast-dock-seek{flex:1;min-width:40px;accent-color:var(--green);cursor:pointer}
+.podcast-dock-seek:disabled{opacity:.5;cursor:default}
 .podcast-dock-head-actions{display:flex;align-items:center;gap:6px}
 .podcast-dock-more{position:relative}
 .podcast-dock-more summary{display:grid;place-items:center;list-style:none;cursor:pointer;width:27px;height:27px;border-radius:50%;background:#e8eee3;color:var(--green);font-size:21px;line-height:1}

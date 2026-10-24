@@ -18,11 +18,12 @@ export function mountAudio(library){
   let activeRecording=null,activeRecordingId='',audioObserver=null,forcedDock=false;
   const dock=document.createElement('aside');
   dock.className='podcast-dock';dock.hidden=true;dock.setAttribute('aria-label','Floating podcast player');
-  dock.innerHTML='<div class="podcast-dock-head" title="Drag to move"><span class="podcast-dock-label">Now listening</span><div class="podcast-dock-head-actions"><details class="podcast-dock-more"><summary aria-label="More player options" title="More options">⋯</summary><div class="podcast-dock-menu"><button type="button" class="podcast-dock-return">Back to lesson</button></div></details><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div>';
+  dock.innerHTML='<div class="podcast-dock-head" title="Drag to move"><span class="podcast-dock-label">Now listening</span><div class="podcast-dock-head-actions"><details class="podcast-dock-more"><summary aria-label="More player options" title="More options">⋯</summary><div class="podcast-dock-menu"><button type="button" class="podcast-dock-return">Back to lesson</button></div></details><button type="button" class="podcast-dock-close" aria-label="Close floating player">×</button></div></div><strong class="podcast-dock-title"></strong><div class="podcast-dock-recording"></div><div class="podcast-dock-player" role="group" aria-label="Podcast playback controls"><button type="button" class="podcast-dock-play" aria-label="Play podcast"><span aria-hidden="true">▶</span></button><span class="podcast-dock-time">0:00 / 0:00</span><input class="podcast-dock-seek" type="range" min="0" max="1000" value="0" aria-label="Seek podcast" disabled><button type="button" class="podcast-dock-volume" aria-label="Mute podcast"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path class="podcast-dock-sound" d="M16 8a5 5 0 0 1 0 8"/><path class="podcast-dock-muted" d="m17 9 4 6m0-6-4 6"/></svg></button></div>';
   document.body.append(dock);
   const dockSlot=dock.querySelector('.podcast-dock-recording');
   const dockMore=dock.querySelector('.podcast-dock-more');
   const lessonTitle=lessonId=>Object.values(library.index).flatMap(module=>module.lessons).find(([key])=>key===lessonId)?.[1]||lessonId;
+  const formatTime=seconds=>Number.isFinite(seconds)?`${Math.floor(seconds/60)}:${String(Math.floor(seconds%60)).padStart(2,'0')}`:'0:00';
   function closeDock(){
     if(!activeRecording)return;
     const closedId=activeRecordingId;
@@ -34,6 +35,7 @@ export function mountAudio(library){
     const resume=!activeRecording.paused;
     forcedDock=force;
     dock.querySelector('.podcast-dock-title').textContent=lessonTitle(activeRecordingId);
+    activeRecording.controls=false;
     dockSlot.append(activeRecording);dock.hidden=false;updateDock();
     if(resume)activeRecording.play().then(updateDock).catch(updateDock);
   }
@@ -42,13 +44,36 @@ export function mountAudio(library){
     const placeholder=root.querySelector('.audio-recording');
     if(!placeholder)return;
     const resume=!activeRecording.paused;
+    activeRecording.controls=true;
     placeholder.replaceWith(activeRecording);dock.hidden=true;forcedDock=false;dockMore.open=false;
     if(resume)activeRecording.play().then(updateDock).catch(updateDock);
   }
   function updateDock(){
     if(!activeRecording)return;
     dock.setAttribute('aria-label',`${activeRecording.paused?'Paused':'Playing'} podcast: ${lessonTitle(activeRecordingId)}`);
+    const play=dock.querySelector('.podcast-dock-play');
+    play.setAttribute('aria-label',activeRecording.paused?'Play podcast':'Pause podcast');
+    play.querySelector('span').textContent=activeRecording.paused?'▶':'Ⅱ';
+    const duration=activeRecording.duration;
+    const seek=dock.querySelector('.podcast-dock-seek');
+    seek.disabled=!Number.isFinite(duration)||duration<=0;
+    seek.value=seek.disabled?0:Math.round(activeRecording.currentTime/duration*1000);
+    dock.querySelector('.podcast-dock-time').textContent=`${formatTime(activeRecording.currentTime)} / ${formatTime(duration)}`;
+    const volume=dock.querySelector('.podcast-dock-volume');
+    volume.setAttribute('aria-label',activeRecording.muted?'Unmute podcast':'Mute podcast');
+    volume.classList.toggle('is-muted',activeRecording.muted);
   }
+  dock.querySelector('.podcast-dock-play').onclick=()=>{
+    if(!activeRecording)return;
+    if(activeRecording.paused)activeRecording.play().catch(updateDock);
+    else activeRecording.pause();
+  };
+  dock.querySelector('.podcast-dock-seek').oninput=event=>{
+    if(activeRecording&&Number.isFinite(activeRecording.duration))activeRecording.currentTime=activeRecording.duration*Number(event.target.value)/1000;
+  };
+  dock.querySelector('.podcast-dock-volume').onclick=()=>{
+    if(activeRecording)activeRecording.muted=!activeRecording.muted;
+  };
   dock.querySelector('.podcast-dock-close').onclick=closeDock;
   dock.querySelector('.podcast-dock-return').onclick=()=>{
     dockMore.open=false;
@@ -104,6 +129,7 @@ export function mountAudio(library){
       if(visibleRoot&&(visibleRoot.getBoundingClientRect().bottom<0||visibleRoot.getBoundingClientRect().top>innerHeight))park();
     });
     recording.addEventListener('pause',updateDock);
+    for(const event of ['timeupdate','loadedmetadata','durationchange','volumechange','seeked'])recording.addEventListener(event,updateDock);
     recording.addEventListener('ended',()=>{
       if(recording.dataset.phase==='outro'){
         recording.dataset.phase='main';recording.src=recording.dataset.mainSrc;recording.load();
@@ -176,7 +202,7 @@ export function mountAudio(library){
       const episode=editorialPodcastVersions[id];
       if(episode){
         root.classList.add('recorded');
-        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong></div><audio class="audio-recording" controls preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-ending" role="status">At the end, we’ll point you to the lesson questions and what comes next.</p>`;
+        root.innerHTML=`<div class="audio-copy"><strong>Listen to this lesson</strong></div><audio class="audio-recording" controls controlsList="nodownload noplaybackrate noremoteplayback" disableRemotePlayback preload="metadata" src="${episode.src}" aria-label="Podcast of lesson ${id}"></audio><div class="audio-seek-buttons" aria-label="Podcast navigation"><button type="button" data-seek="-15" aria-label="Go back 15 seconds">↶ 15 sec</button><button type="button" data-seek="15" aria-label="Go forward 15 seconds">15 sec ↷</button></div><p class="audio-ending" role="status">At the end, we’ll point you to the lesson questions and what comes next.</p>`;
         const recording=root.querySelector('.audio-recording');
         recording.dataset.mainSrc=episode.src;recording.dataset.phase='main';
         root.querySelectorAll('[data-seek]').forEach(button=>button.onclick=()=>{
