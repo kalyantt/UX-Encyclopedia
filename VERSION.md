@@ -1,4 +1,4 @@
-# UX Encyclopedia V6.7
+# UX Encyclopedia V6.8
 
 V5 is preserved at Git commit `5877146`. This edition removes the redundant transcript link and recording-status copy, adds previous and next lesson controls, and keeps playing audio available in a floating mini-player while moving between lessons. Its close button stops playback. Pip's game is now a small jump-over-the-stones runner with keyboard, click, and touch controls.
 
@@ -17,3 +17,5 @@ V6.5 replaces the floating player's browser-supplied controls with a small custo
 V6.6 removes the unnecessary 15-second buttons and status line from the lesson player. The podcast edition's lesson player no longer sticks over the reading text, and the page leaves room below the lesson when the floating player is present. V6.5 is preserved at Git commit `6b2dc22`.
 
 V6.7 adds a public prelaunch page and a selling-readiness review. Early-access requests open the visitor's email app; there is no payment flow or on-site email collection. V6.6 is preserved at Git commit `047c721`.
+
+V6.8 expands the course page under the working title “The Complete UX Designer,” with the 17-chapter curriculum, a real sample lesson and recording, a worked application, planned one-time pricing of ₹899 early bird and ₹1,899 regular, and an honest FAQ. No checkout or gated access has been added. V6.7 is preserved at Git commit `4cd7bbf`.
