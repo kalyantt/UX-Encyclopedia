@@ -10,8 +10,8 @@ from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.4.zip"
-PREFIX = "UX-Encyclopedia-Offline-V7.4/"
+OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.5.zip"
+PREFIX = "UX-Encyclopedia-Offline-V7.5/"
 
 
 def source(name: str) -> str:
@@ -87,7 +87,7 @@ def scripts() -> dict[str, str]:
         count=1,
     )
     reader = re.sub(
-        r"import\('\./reading-pet\.mjs\?v=20261027v7'\)\.then\(\(\{mountPet\}\)=>mountPet\(library,\(\)=>currentId\)\)\.catch\(error=>console\.warn\('Reading companion unavailable',error\)\)",
+        r"import\('\./reading-pet\.mjs\?v=20261027v8'\)\.then\(\(\{mountPet\}\)=>mountPet\(library,\(\)=>currentId\)\)\.catch\(error=>console\.warn\('Reading companion unavailable',error\)\)",
         "try{window.mountPet(library,()=>currentId)}catch(error){console.warn('Reading companion unavailable',error)}",
         reader,
         count=1,
@@ -123,7 +123,7 @@ def page() -> str:
     tags = "".join(f'<script src="assets/{name}"></script>' for name in ordered)
     html = replace_once(
         html,
-        '<script src="course-reader.js?v=editorial-all14"></script>',
+        '<script src="course-reader.js?v=editorial-all15"></script>',
         tags + '<script src="assets/offline-course-reader.js"></script>',
         "course reader script",
     )

@@ -19,7 +19,7 @@ export function mountPet(library,getCurrentId){
     express('calm',playing?'Let’s see what you remember.':'Let’s find a passage together.');
   });
   function show(entries){
-    answer.innerHTML=entries.map(entry=>`<article class="pip-source"><p class="pip-source-label">Course passage · ${escape(entry.id)}</p><blockquote>${escape(entry.text.length>950?entry.text.slice(0,950)+'…':entry.text)}</blockquote><a href="#${escape(entry.id)}">Read: ${escape(entry.title)} →</a><p class="pip-section-name">${escape(entry.section)}</p><details><summary>Lesson references</summary><p>${escape(entry.refs)}</p><p>These are the lesson’s references, not a verified page-level citation for this excerpt.</p></details></article>`).join('');
+    answer.innerHTML=entries.map(entry=>`<article class="pip-source"><p class="pip-source-label">Course passage · ${escape(entry.id)}</p><blockquote>${escape(entry.text.length>950?entry.text.slice(0,950)+'…':entry.text)}</blockquote><a href="#${escape(entry.id)}">Read: ${escape(entry.title)} →</a><p class="pip-section-name">${escape(entry.section)}</p></article>`).join('');
     answer.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>open(false)));
     status.textContent=`Found ${entries.length} relevant course passage${entries.length===1?'':'s'}.`;
     express('happy','I found something to read together. Check whether it answers your question.');
