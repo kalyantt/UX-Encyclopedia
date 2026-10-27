@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-183",
+  "title": "Meaningful Consent and Proportional Data",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Meaningful Consent and Proportional Data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Data minimisation means collecting, using, sharing, and retaining only what is proportionate to a specified purpose. It reduces breach exposure, security cost, explanation complexity, secondary-use temptation, and the power imbalance created by informational asymmetry."
+    },
+    {
+      "speaker": "host",
+      "act": "Begin with purpose, not collection",
+      "mood": "curious",
+      "text": "What changes when we look at begin with purpose, not collection?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each item complete a data-purpose record:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "user and organisational purpose; decision or service function it enables; necessity and less intrusive alternatives; applicable basis determined with legal/privacy specialists; source, accuracy, and correction; recipients, access, and onward sharing; retention and deletion; automated or human decisions influenced; consequence of collection, absence, error, or exposure; choice, withdrawal, objection, appeal, and evidence of enforcement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not use consent as a universal wrapper. Some processing may be necessary to deliver a requested service or meet obligations; other uses are optional. Bundling them makes refusal fictional. Legal requirements vary by jurisdiction and context, so the designer’s role is to make a governed decision usable, not invent the basis."
+    },
+    {
+      "speaker": "host",
+      "act": "Make consent meaningful where it applies",
+      "mood": "thinking",
+      "text": "What changes when we look at make consent meaningful where it applies?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consent should be specific, informed, freely given, understandable, and expressed through affirmative choice where required. Ask at a moment when relevance can be understood. Layer information: concise purpose and consequence first, with inspectable detail."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Acceptance and refusal need comparable visibility and effort. Avoid preselection, repeated pressure, broad future-use language, and avoidable loss of core service. Agency continues after choice: provide a record, review, correction, withdrawal, deletion or objection where applicable, and an explanation of what cannot be reversed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test comprehension rather than legal-text recall. Can people explain what is collected, why, who receives it, what happens if they decline, and how to change the decision? Monitor regret, withdrawal, complaints, accidental exposure, and unequal pressure."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: budgeting application",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: budgeting application?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A budgeting app requests transaction access. It distinguishes data needed to categorise spending from optional model improvement and marketing. Before connection, it names accounts, data types, provider, purpose, retention, and effect of decline. Afterwards, the person can revoke access and understand which stored records remain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Personalise my experience” would conceal several relationships."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Useful-someday collection: speculative value defeats necessity. Consent laundering: unavoidable processing is presented as voluntary, or optional use as required. Bundled purpose: care, analytics, marketing, and future training share one switch. Preference theatre: backend processing ignores the control. Withdrawal surprise: irreversible disclosure appears only afterward."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Equity paradox: sensitive data collected to measure fairness creates re-identification or surveillance risk. Retention inertia: data persists because deletion has no owner."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect consent to data architecture and service alternatives",
+      "mood": "curious",
+      "text": "What changes when we look at connect consent to data architecture and service alternatives?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The interface asks at the point where purpose is understandable, using specific language and balanced options. It states what data, who receives it, why, how long, and how to change the choice. Preselection, confirmshaming, repeated prompts, and service obstruction are excluded. Delegated helpers cannot consent beyond their authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consent state is a system object with version, time, source, scope, and withdrawal. Changes propagate to downstream use; retention exceptions are explained; deletion or anonymisation has an accountable process. The user can review and revise without navigating a harder path than acceptance. A receipt provides durable evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Minimisation precedes consent. The team removes data it cannot justify, reduces precision, delays collection, and uses local processing where appropriate. Consent does not make disproportionate collection ethical or safe. The service preserves a usable non-consenting route wherever the purpose is genuinely optional."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: fitness application",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: fitness application?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Location may support route mapping, social sharing, safety, or advertising—different purposes with different recipients and retention. One “allow location” screen cannot meaningfully authorise all future uses."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners treat deletion, access control, correction, and preference propagation as product capabilities with budgets and reliability measures. They require purpose review when datasets are combined, vendors change, models are trained, or strategy expands. Data value never exists without data liability and power."
+    },
+    {
+      "speaker": "host",
+      "act": "Design consent around purpose and lifecycle",
+      "mood": "thinking",
+      "text": "What changes when we look at design consent around purpose and lifecycle?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consent state is inspectable, changeable, and propagated through dependent systems. Withdrawal explains what stops, what must be retained and why, and what service remains available. Data minimisation reduces both user burden and organisational risk; “future use” is not a proportionate purpose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a grocery-loyalty app. It asks for precise location to display nearby offers even though a postcode would work. Proportional design requests only the data needed, explains its use, offers a meaningful choice, and lets people change it later. Consent is weakened when refusal blocks unrelated functions or uses confusing wording."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Open a permission request and replace every vague phrase—“better experience,” “partners,” “may use”—with the concrete data, purpose, recipient, duration, and consequence it conceals. Can the product genuinely make those statements?"
+    }
+  ]
+}

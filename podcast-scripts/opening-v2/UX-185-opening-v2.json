@@ -1,0 +1,197 @@
+{
+  "lesson": "UX-185",
+  "title": "Ethical Review, Dissent, Escalation, and Accountability",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Ethical Review, Dissent, Escalation, and Accountability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ethical review should occur while it can change whether, how, where, or for whom a system is built. Use explicit triggers rather than relying on individual courage."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Deeper review is warranted when decisions affect rights, essential access, safety, health, livelihood, children, vulnerable groups, sensitive data, surveillance, automated authority, or difficult-to-reverse outcomes."
+    },
+    {
+      "speaker": "host",
+      "act": "Scale review to consequence and reversibility",
+      "mood": "curious",
+      "text": "What changes when we look at scale review to consequence and reversibility?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A lightweight reversible copy change does not need the same forum as clinical routing. Proportionality avoids bureaucracy while preventing high-risk work from slipping through ordinary product review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The review asks:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "What benefit and legitimate purpose are pursued? Who is affected directly, indirectly, or by exclusion? What harms, misuse, errors, and feedback loops are plausible? How severe, durable, reversible, and distributed are they? What evidence exists and who is missing? What alternatives avoid or reduce harm? What safeguards, limits, recourse, and monitoring exist?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Who accepts residual risk, who can pause, and when is review renewed?"
+    },
+    {
+      "speaker": "host",
+      "act": "Make dissent operational",
+      "mood": "thinking",
+      "text": "What changes when we look at make dissent operational?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Dissent is information about risk, values, or evidence. A mature process defines confidential and named routes, recipients, response times, documentation, protection from retaliation, independent expertise, and appeal beyond the immediate chain of command."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The person raising concern should not bear responsibility for proving safety or designing the whole remedy. The accountable owner must investigate. Preserve the dissent and response in the decision record, including unresolved disagreement. Consensus can hide power rather than indicate safety."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Escalate when consequence crosses agreed thresholds, the team lacks authority or expertise, conflicts of interest compromise review, safeguards fail, or commercial pressure prevents proportionate response. Leaders—not individual designers—must own value conflicts involving strategy and risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: applicant ranking",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: applicant ranking?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A ranking tool may reduce recruiter effort while disadvantaging people with non-standard histories. Review must begin before vendor lock-in and ask what decision is automated, how labels were created, which applicants disappear, what evidence recruiters see, and how an applicant contests error."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "If review can only add disclosure after procurement, it arrived after the consequential decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Accountability includes remedy",
+      "mood": "thinking",
+      "text": "What changes when we look at accountability includes remedy?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Monitoring without response is surveillance of harm. Define acknowledgement, investigation, containment, correction, appeal, compensation or restoration where appropriate, communication, and learning. Audit overrides and review whether humans meaningfully change outcomes or merely rubber-stamp automation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Judge decision quality using evidence available at the time, not only whether the outcome was lucky. Accountability distinguishes honest uncertainty from ignored warning, and process failure from unforeseeable result."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Late ethics: review begins after contract, architecture, and launch are fixed. Advisory theatre: the forum can suggest wording but cannot change scope. Heroic dissent: safety depends on one person risking their career. Proof burden: the person raising harm must establish certainty before investigation. Consensus erasure: minority objection disappears from the record."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ownerless monitor: a threshold fires but nobody can pause or remedy. Documentation defence: records prove meetings occurred rather than harm being governed."
+    },
+    {
+      "speaker": "host",
+      "act": "Design review with authority and consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at design review with authority and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The review packet contains the decision, intended benefit, affected people, evidence, alternatives, harm scenarios, power analysis, consent and data plan, accessibility, operational capacity, mitigations, monitoring, dissent, and accountable owner. Reviewers can approve, require conditions, narrow scope, request evidence, pause, or reject."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Advice without decision authority is ethics theatre."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Dissent has protected routes. Team members can record concern without managerial permission, escalate outside the immediate roadmap, and receive a documented response. The process distinguishes unresolved evidence from a value conflict. Silence under hierarchy is not consensus. Retaliation protection and independent review matter when commercial pressure is strong."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Accountability continues after launch through incident response, audit, appeal, correction, communication, and remediation. Monitoring thresholds link to action and rollback. Decision records preserve who knew what and when without turning documentation into a shield. People affected by harm receive a route to resolution, not merely an internal retrospective."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: automated hiring",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: automated hiring?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An ethics checklist cannot legitimise a model if rejected candidates cannot understand, appeal, or obtain human review. Review needs authority over deployment, evidence of job relevance and distribution, data governance, accessibility, monitoring, and an accountable remedy."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior leaders create credible stop authority, independent escalation, anti-retaliation protection, and resources for remedy. They clarify when not to experiment or deploy. Ethics cannot promise zero risk, but it can prevent hidden risk, coerced acceptance, and unaccountable trade-offs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a lending-product review. A designer raises concern that a default repayment option may harm people with irregular income. Ethical governance gives the concern a documented route, a decision owner, evidence requirements, and authority to pause release. Dissent without a path to action is merely recorded discomfort."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "For a product controversy, identify when the consequential decision was actually made—metric, procurement, data collection, model threshold, or launch. Was ethical review still capable of changing it at that moment?"
+    }
+  ]
+}

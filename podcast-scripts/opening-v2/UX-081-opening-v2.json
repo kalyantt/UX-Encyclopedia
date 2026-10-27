@@ -1,0 +1,237 @@
+{
+  "lesson": "UX-081",
+  "title": "AI Mental Models and Calibrated Trust",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "AI Mental Models and Calibrated Trust."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A mental model is a person’s working explanation of how something behaves. It need not describe the technical architecture. It must be accurate enough to predict what the product can do, what information it uses, where it may fail, and what action the person should take."
+    },
+    {
+      "speaker": "host",
+      "act": "A mental model predicts behaviour",
+      "mood": "curious",
+      "text": "What changes when we look at a mental model predicts behaviour?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For an AI product, people form expectations about at least six things:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capability: which tasks it can and cannot perform. Competence: how reliably it performs them in this context. Knowledge and data: what sources it can access, how current they are, and what it remembers. Authority: whether it informs, recommends, decides, or acts. Uncertainty: which conditions make an output less dependable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accountability: who can explain, correct, and remedy a consequential outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People infer these from names, tone, avatars, examples, speed, explanations, defaults, past success, and visible behaviour. A disclaimer cannot neutralise a confident design that repeatedly acts like an expert. Every interaction trains the mental model."
+    },
+    {
+      "speaker": "host",
+      "act": "Trust is not the goal; appropriate reliance is",
+      "mood": "thinking",
+      "text": "What changes when we look at trust is not the goal; appropriate reliance is?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Teams often ask how to “increase trust.” That frames scepticism as a conversion problem. The design goal is calibrated reliance: people accept useful output when evidence supports it, verify or correct it when uncertainty matters, and refuse or escalate it when the system is outside its competence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Both directions can fail:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Over-reliance: a person follows an incorrect recommendation because the system appears authoritative, precise, personalised, or consistently successful. Under-reliance: a person ignores a useful system after an unexplained failure, poor onboarding, irrelevant warning, or lack of visible evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure behaviour: correct acceptance, justified rejection, appropriate verification, correction, abstention recognition, escalation, and recovery. High reported trust can be a danger signal if people cannot identify the system’s limits."
+    },
+    {
+      "speaker": "host",
+      "act": "Teach capability through staged experience",
+      "mood": "curious",
+      "text": "What changes when we look at teach capability through staged experience?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not explain the entire system in one onboarding page. People have little context before use, and generic warnings are quickly forgotten. Teach the mental model in stages:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Before first use: state the core job and decisive boundary in plain language. 2. During input: show what information is being used and let people correct interpretation. 3. At output: expose the evidence, source, uncertainty, alternatives, and system role relevant to the decision. 4. Before action: restate changed scope, new data access, or consequential commitment. 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When wrong: acknowledge the failure, preserve the person’s work, explain the recovery route, and update expectations. 6. Over time: surface meaningful changes in capability, data, policy, or permissions without repeatedly reteaching stable basics."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Examples are often better than abstract claims. “I can compare eligible clinics by travel, time, and recorded access features” is more precise than “I help with your healthcare journey.” A contrastive boundary—“I do not diagnose or decide clinical suitability”—prevents capability from expanding in the user’s imagination."
+    },
+    {
+      "speaker": "host",
+      "act": "Explanations should change a decision",
+      "mood": "thinking",
+      "text": "What changes when we look at explanations should change a decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An explanation is useful when it helps a person judge, act, correct, or contest. Technical detail that merely makes the system look transparent can increase misplaced confidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Match explanation to the question:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Why this option? Show the criteria and evidence that changed the ranking. Why not another? Show the decisive difference without claiming exhaustive causality. What did you use? Identify records, user inputs, permissions, source dates, and missing data. How certain is this? Describe the relevant uncertainty and what would reduce it. What can I do?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Offer correction, comparison, verification, another route, or human review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sources also need semantics. A citation can show provenance, but not that a source is current, applicable, complete, or authoritative. Design those distinctions explicitly."
+    },
+    {
+      "speaker": "host",
+      "act": "Do not anthropomorphise responsibility",
+      "mood": "curious",
+      "text": "What changes when we look at do not anthropomorphise responsibility?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conversational language can reduce effort, but human-like framing also imports expectations of understanding, empathy, memory, intention, and moral responsibility. Use personality only where it does not obscure role or inflate competence. In high-consequence contexts, institutional identity and accountable ownership should remain visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“The AI made a mistake” can hide organisational responsibility for selecting data, setting thresholds, designing authority, deploying the system, and providing recourse. The system may generate the output; the organisation owns the conditions under which that output affects people."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: financial anomaly alert",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: financial anomaly alert?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An app says, “We detected fraud,” causing customers to believe a transaction has been investigated. The system actually detected a statistical anomaly. Better language—“This payment differs from your usual pattern”—preserves uncertainty and invites the customer to confirm or report it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The useful explanation shows the unusual attributes and immediate controls, not a decorative account of the model."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Authority theatre: a confident voice, medical context, or singular answer implies expert judgement. Anthropomorphic inflation: names or emotional language imply memory, understanding, empathy, or responsibility. Buried boundary: critical limits live in help content rather than the decision moment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Generic disclaimer: repeated warnings become wallpaper and do not identify the present uncertainty. False transparency: explanations are plausible or technical but cannot support judgement or action. Confidence without meaning: a score appears without its reference class, source, or consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Success-induced overreliance: repeated correct outputs reduce verification when an unusual case arrives. Trust repair without remedy: reassuring copy replaces correction, escalation, and accountability."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners specify the target mental model as part of the product contract and evaluate it across first use, routine success, edge cases, failure, and product change. They challenge marketing, naming, anthropomorphism, and metrics that reward trust without calibration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They distinguish explanation for affected people, operators, auditors, and investigators; one surface cannot serve every question."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also treat model and data changes as experience changes. A new model, retrieval source, memory policy, or authority level can invalidate learned expectations even if the interface looks identical. Material changes require renewed evaluation and communication."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a meeting-summary tool. It produces fluent notes that omit a dissenting decision. If the interface presents the summary as authoritative, readers may trust it more than the evidence warrants. Show source links, mark uncertain passages, make editing easy, and teach users what the tool does and does not know. Trust should track reliability, not polish."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Read the first screen of an AI feature, then predict what a new user will assume it knows, remembers, and may do. Use the feature once and revisit your prediction. Which beliefs came from actual behaviour, and which came from the name, tone, animation, or marketing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find one cue that should be rewritten because it grants the system more competence or authority than its product contract supports."
+    }
+  ]
+}

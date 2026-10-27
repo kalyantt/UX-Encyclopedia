@@ -1,0 +1,156 @@
+{
+  "lesson": "UX-136",
+  "title": "IA Strategy, Governance, and Change",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "IA Strategy, Governance, and Change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "IA strategy defines the principles, priorities, ownership, and measures that guide an information system over time. Governance makes those choices operational: who can add or change content types, labels, metadata, navigation, and search rules; how exceptions are reviewed; and how quality is monitored."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good governance is not central control for its own sake. It gives contributors a clear route to make useful change while protecting shared vocabulary, findability, accessibility, and source-of-truth content. Define owners, decision rights, contribution standards, review intervals, and signals that show where the system is decaying."
+    },
+    {
+      "speaker": "host",
+      "act": "Make structure governable under change",
+      "mood": "thinking",
+      "text": "What changes when we look at make structure governable under change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "IA strategy connects the information model to product and organisational direction: which audiences and tasks matter, what content and data capabilities are required, what principles guide trade-offs, and how success will be observed. Governance makes that strategy executable through ownership, decision rights, standards, workflow, and review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Without governance, a sound launch architecture decays as teams add labels, states, and content independently."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: product catalogue expansion",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: product catalogue expansion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When a marketplace adds rentals beside sales, reusing “price,” “availability,” and “owner” without governance creates contradictions throughout search and checkout. IA strategy clarifies the new object relationships; governance coordinates taxonomy, content, analytics, and migration."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect architecture to strategy",
+      "mood": "thinking",
+      "text": "What changes when we look at connect architecture to strategy?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "State how information supports customer outcomes and organisational capability: find authoritative help, compare products, manage complex work, reuse content, or adapt across channels. Define principles and target capabilities, then sequence changes by value, risk, dependency, and migration—not by desire for a perfect future taxonomy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Govern content types, vocabulary, metadata, navigation, search, ownership, and lifecycle. Specify decision rights, contribution, review, exceptions, and quality measures. Distributed authors need tools and guidance; central architects need feedback and realistic service levels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plan migration as experience design. Map old to new concepts, preserve important URLs and records, redirect intentionally, communicate changed labels, and monitor failed search, broken links, support, and task outcome. Avoid changing structure and language simultaneously without a way to diagnose impact."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure findability, content quality, search success, reuse, freshness, governance flow, and customer outcome. Revisit the architecture as domain, products, audiences, and regulation change. IA is continuing organisational stewardship, not a launch deliverable."
+    },
+    {
+      "speaker": "host",
+      "act": "Operate IA as a product capability",
+      "mood": "curious",
+      "text": "What changes when we look at operate ia as a product capability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Change routes are proportionate. A synonym correction can move quickly with search review. A new taxonomy branch needs evidence of distinction, ownership, and downstream impact. A new lifecycle state requires service event, responsible actor, user meaning, recovery, analytics migration, component and content updates, and historical interpretation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The process prevents labels being added to conceal operational ambiguity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team maintains a semantic change log and dependency map. Owners receive alerts when policy, integration, clinic data, or product scope changes. Regular scenario audits run hard retrieval tasks across navigation, search, notifications, and support."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metrics include findability, wrong confident routes, zero-result recovery, orphan content, metadata freshness, version fragmentation, and time to resolve governance decisions."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: marketplace expansion",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: marketplace expansion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Adding services beside physical products changes seller, availability, location, fulfilment, cancellation, and price. Treating the change as a navigation update produces contradictions throughout search and checkout. IA strategy and governance coordinate the new model and migration."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "IA governance distributes semantic authority. Senior practitioners make change routes proportionate to consequence, include migration and historical meaning, and measure architecture health after launch rather than treating the sitemap as finished."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A help centre launches with clean categories. Six months later, every team has added its own label, content is duplicated, filters conflict, and nobody knows which page is authoritative. The architecture was designed; it was not governed."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find one label or category that has changed in a product. Trace where the old meaning survives—in search, URLs, analytics, help, notifications, or staff language—and who should own the migration."
+    }
+  ]
+}

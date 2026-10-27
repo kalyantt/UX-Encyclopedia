@@ -1,0 +1,170 @@
+{
+  "lesson": "UX-073",
+  "title": "Design for Human Diversity",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Design for Human Diversity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People differ from one another, and each person’s capabilities change across life and situation. Disability may be permanent, temporary, episodic, or situational. Pain, fatigue, medication, stress, glare, noise, a broken arm, poor connection, an unfamiliar language, or caring for a child can change what an interaction demands."
+    },
+    {
+      "speaker": "host",
+      "act": "Diversity is dynamic and contextual",
+      "mood": "curious",
+      "text": "What changes when we look at diversity is dynamic and contextual?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inclusive design frames exclusion as a relationship between people, context, and designed conditions—not a defect located in the person. This shifts the question from “How do we accommodate a special user?” to “Which assumptions make the mainstream route unavailable, costly, unsafe, or dependent on help?”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not flatten diversity into personas with demographic labels. Study the activity and the variations that affect it:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "sensory access to visual, auditory, and tactile information; movement, reach, dexterity, stamina, speech, and timing; attention, memory, reading, language, learning, and decision confidence; device, connectivity, assistive technology, and digital familiarity; money, transport, work schedule, care responsibilities, and geography; privacy, safety, identity, culture, trust, and availability of human support."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These dimensions intersect. A low-vision patient using magnification on an older phone with limited data does not experience three independent checkboxes; the combined conditions shape the task."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn variation into evidence and requirements",
+      "mood": "thinking",
+      "text": "What changes when we look at turn variation into evidence and requirements?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map the critical journey, then ask at each point: what must a person perceive, understand, remember, operate, provide, afford, and trust? Which environmental or service conditions intensify that demand? What happens if it cannot be met?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recruit around relevant experience and capability, not only diagnosis labels. Include people most affected by failure early enough to change the problem frame. Compensate expertise, support access needs, offer flexible formats and locations, and avoid making one participant represent a whole community."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observe adaptations and workarounds. Zooming, screenshots, asking relatives, switching channel, writing codes down, or abandoning and calling are design evidence. Translate findings into core requirements such as semantic structure, multiple input modes, preserved progress, adjustable time, understandable content, equivalent support, and transparent recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Universal benefit is possible, but avoid the claim that one solution works for everyone. Some needs conflict or require specific routes. The goal is equitable access to outcome with choice, dignity, and no avoidable penalty."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: identity verification",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: identity verification?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Document capture may assume steady hands, sharp vision, a modern camera, recognised documents, good lighting, literacy, a private location, and confidence sharing identity data. Adding instructions helps only some demands."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Inclusive redesign may require guided capture, image alternatives, saved progress, assisted verification, broader document policy, and a route that reaches the same outcome without penalty."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Average-user fiction: one affluent, confident, unimpaired context is treated as neutral. Persona decoration: diverse names and photos do not alter requirements. Single-axis research: capability and social conditions are studied separately despite interaction. Edge delegation: affected people appear only in final testing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "One solution for all: flexibility is replaced by a universal claim. Penalised alternative: support is slower, costlier, less private, or lower quality."
+    },
+    {
+      "speaker": "host",
+      "act": "Design from variation, not an imaginary average",
+      "mood": "curious",
+      "text": "What changes when we look at design from variation, not an imaginary average?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "He uses an exclusion analysis for each critical task: what sensory, physical, cognitive, language, technological, and social demands does the design create; who is excluded; and what alternative preserves the same outcome?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Designing a keyboard-operable comparison can help screen-reader users, power users, and someone with a broken trackpad, but shared benefit does not erase the specific needs of disabled people."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Inclusion is product strategy, research capability, procurement, and governance. Senior practitioners budget ongoing participation, diversify decision forums, and require teams to record who was not represented. They distinguish WCAG conformance from the broader work of equitable service access."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Standards establish testable requirements; lived experience reveals whether the whole journey supports progress."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a city-services application. People may use the same form with a screen reader, a shared phone, limited literacy, intermittent connectivity, or help from a family member. Designing only for a fluent, private, well-connected desktop user turns common variation into exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The team tests complete journeys across those conditions and preserves a dignified alternative route."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Use a product in a constrained situation: one hand, high zoom, muted audio, poor connection, or severe interruption. Record which difficulty comes from the person, environment, interface, policy, or service—and which of those the organisation can change."
+    }
+  ]
+}

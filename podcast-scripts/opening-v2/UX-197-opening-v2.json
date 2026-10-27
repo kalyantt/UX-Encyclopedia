@@ -1,0 +1,247 @@
+{
+  "lesson": "UX-197",
+  "title": "Agile and Lean UX: Keep Learning Inside Delivery",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Agile and Lean UX: Keep Learning Inside Delivery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An agile backlog is often written as a collection of outputs: screens, features, components, and tasks. A learning-oriented backlog retains the reason the work exists. For each meaningful item, make visible the intended outcome, the customer situation, the important assumption, the evidence already available, and the next uncertainty to reduce."
+    },
+    {
+      "speaker": "host",
+      "act": "Treat delivery as a sequence of hypotheses",
+      "mood": "curious",
+      "text": "What changes when we look at treat delivery as a sequence of hypotheses?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For example, “Add saved addresses” becomes: “People making repeat purchases abandon when re-entering addresses; we believe securely reusing an address will reduce effort without causing delivery errors; we need to learn whether people can recognise, edit, and trust the option.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The item is now something design, engineering, research, content, security, and operations can examine together."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This does not require turning every ticket into an essay. It requires enough context that implementation choices remain connected to the problem. A concise hypothesis, scenario, prototype, acceptance criteria, and measurement note are often more useful than a polished specification detached from current evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Run discovery and delivery as linked tracks",
+      "mood": "thinking",
+      "text": "What changes when we look at run discovery and delivery as linked tracks?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Teams need some work ahead of implementation: understanding the problem, mapping constraints, exploring alternatives, testing risky concepts, and resolving technical unknowns. They also need work alongside implementation: detailed interaction decisions, content, edge cases, accessibility, instrumentation, and verification."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Finally, they need work after release: measuring outcomes, listening to support and frontline staff, and deciding what to adapt."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Think of these as connected horizons rather than separate departments:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Next: delivery-ready work with known intent, resolved major risks, and enough shared understanding to build safely. Soon: questions being explored before a commitment: unmet needs, concepts, architecture, data, policy, or operational dependencies. Later: opportunities and strategic bets that are not yet ready for a delivery promise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The exact timing varies. A regulated flow, a design-system change, or a new technical platform needs more lead time than a small improvement to an understood journey. The danger is not being “one sprint ahead”; it is pretending a fixed distance makes work ready regardless of uncertainty."
+    },
+    {
+      "speaker": "host",
+      "act": "Make collaboration a working practice",
+      "mood": "curious",
+      "text": "What changes when we look at make collaboration a working practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Lean UX emphasises shared understanding because many design decisions cannot be captured usefully in a handoff. Use collaborative sketching, scenario walkthroughs, design critique, technical spikes, and prototype tests to expose assumptions early. The artefact is only valuable if it changes the conversation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "During planning, discuss the customer outcome and riskiest assumption, not only effort. During refinement, include the states engineering must make real: latency, absence of data, validation, error recovery, localisation, permissions, and assistive-technology behaviour. During review, look at evidence of progress rather than celebrating a completed ticket."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In retrospectives, inspect where learning arrived too late and what process created that delay."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Designers should not be a separate approval queue, and neither should researchers. A researcher can help the team frame a question, choose a method, and interpret the limitations of evidence. A designer can help the group reason through a scenario before pixels exist. Engineers can make trade-offs explicit and propose simpler ways to test a value hypothesis."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This is collaborative work, not the removal of specialist responsibility."
+    },
+    {
+      "speaker": "host",
+      "act": "Protect the quality work that speed tends to hide",
+      "mood": "thinking",
+      "text": "What changes when we look at protect the quality work that speed tends to hide?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Speed has a seductive metric: tickets completed. But a fast team can accumulate invisible debt when it postpones content design, accessibility, privacy, analytics, documentation, operational readiness, and error states. The debt eventually returns as support volume, rework, unequal access, fragile systems, or a product that nobody can explain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build quality into the definition of ready and done. “Ready” does not mean every decision is final; it means the team understands the outcome, the key scenario, unresolved risks, and the evidence needed before proceeding."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Done” includes appropriate accessibility checks, content, instrumentation, recovery paths, operational handoff, and a plan to observe the effect—not merely code merged or screens matched."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Lean means removing waste from learning. It does not mean removing the care owed to people. A test with too few relevant participants, a prototype that omits the real constraint, or an experiment without a harm guardrail is not efficient if it creates misleading confidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The research report arrives after scope is fixed. Bring research questions into planning earlier and share emerging evidence, with its limitations, instead of waiting for a polished report."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Final design” is sent to engineering. Replace finality with an explicit record of what is decided, what remains open, and how those questions will be resolved during build."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Delivery pressure removes discovery. Shrink the bet or delay the promise; do not pretend untested assumptions disappeared because the date is near."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Two-track becomes two teams. If discovery decisions are not visible to delivery, the tracks are disconnected. Share the same outcomes, artefacts, and decision owners."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A sprint review is a demo. Include outcome signals, support observations, failed assumptions, and next learning—not only visible output."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery capacity becomes optional. Delivery pressure consumes the people needed to challenge the next bet, so the team replenishes work with untested requests."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Quality is deferred into debt. Accessibility, content, instrumentation, security, recovery, and operations become “hardening” after exposure rather than conditions of a valid increment."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: saved addresses",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: saved addresses?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Add saved addresses” becomes a hypothesis about reducing repeat-entry effort without causing delivery or privacy errors. Discovery examines device sharing, recognition, editing, and trust while engineering tests secure storage and address validity. Delivery implements one coherent repeat-purchase path with recovery and instrumentation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Release evidence updates the opportunity rather than simply closing the epic."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not measure agility by how quickly a team can move a request to “done.” Measure it by how cheaply and responsibly the team can discover that it is solving the wrong problem, change direction, and still protect people from avoidable harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners manage the flow of decisions, not just design output. They keep discovery capacity available, prevent a speculative design inventory, and negotiate smaller commitments when evidence cannot arrive safely before a deadline. They ensure team rituals expose uncertainty and outcome rather than reproducing functional status reporting."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The team has a familiar cadence. Research is commissioned at the beginning of a quarter. Design works two sprints ahead. Engineering receives “final” screens that omit loading, errors, permissions, and awkward data. By the time a usability issue appears, the relevant decision has already been turned into estimates, tickets, dependencies, and a launch promise. Everyone is busy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Yet learning happens in one queue while decisions happen in another. Agile has become faster handoff rather than a way to reduce uncertainty while work is still changeable."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 196 established decision rights. This lesson creates the cadence in which those rights can be exercised while options are still open. lesson 198 will use that cadence to choose a smallest responsible test rather than a smallest feature set."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take one in-flight feature and draw its learning timeline: when did the problem become visible, when did technical and operational constraints enter, when did people see a prototype or release, and when will the team know whether the outcome improved? Mark one decision that was made before the evidence needed to support it existed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Design a smaller, earlier learning loop for the next iteration."
+    }
+  ]
+}

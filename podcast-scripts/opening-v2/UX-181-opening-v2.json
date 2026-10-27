@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-181",
+  "title": "Accessibility Conformance as Product Quality",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Accessibility Conformance as Product Quality."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "WCAG 2. 2 organises thirteen guidelines under four principles: perceivable, operable, understandable, and robust. Testable success criteria have levels A, AA, and AAA. Level AA conformance requires satisfying every applicable Level A and AA criterion; it is not achieved by an average score or percentage."
+    },
+    {
+      "speaker": "host",
+      "act": "Understand what WCAG conformance means",
+      "mood": "curious",
+      "text": "What changes when we look at understand what wcag conformance means?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conformance is for full web pages, including responsive variations, and complete processes must have all pages in the process conform at the claimed level. Non-conforming content cannot interfere with use of the rest of the page. A claim identifies version, level, scope, date, and technologies relied upon. W3C does not certify a site merely because it displays a logo."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "WCAG techniques and Understanding documents help interpretation but are informative; the success criteria are normative. WCAG is technology-oriented and testable by design, so it does not cover every cognitive, disability, service, or equity need. Conformance is necessary governance evidence, not a universal usability guarantee."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a layered evidence stack",
+      "mood": "thinking",
+      "text": "What changes when we look at build a layered evidence stack?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Translate criteria into requirements when work is framed. Each feature should include semantic structure, alternatives, keyboard and focus behaviour, zoom/reflow, target and gesture requirements, error and status communication, authentication, timing, media, and third-party dependencies as relevant."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use complementary evaluation:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. automated checks for detectable syntax and rule failures; 2. component tests and static analysis to prevent recurrence; 3. expert review of semantics, content, responsive states, and criterion interpretation; 4. manual keyboard, zoom, forced-colour, motion, and assistive-technology testing; 5. end-to-end testing across representative browser/AT combinations; 6."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "research with disabled people on meaningful tasks; 7. production feedback, monitoring, and remediation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automation finds only a subset and can produce false confidence. User research cannot substitute for systematic conformance testing because a sample will not encounter every criterion or state."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: checkout",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: checkout?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A checkout can pass a scanner while focus jumps after address validation, the updated total is not announced, a payment frame traps keyboard use, and error copy is incomprehensible. Layered evaluation connects criterion failure to task consequence and repairs the component, integration, and content—not only the individual page."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scanner conformance: zero automated findings is presented as accessibility. Percentage claim: partial criteria are averaged into “95% compliant.” Page isolation: a multi-step process fails outside the audited screen. User-test substitution: several successful sessions are treated as comprehensive criteria coverage."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Overlay dependence: remediation software promises to repair inaccessible foundations without evidence. Third-party erasure: essential embedded services are declared outside responsibility. Stale claim: a release changes the experience after evidence was collected."
+    },
+    {
+      "speaker": "host",
+      "act": "Build conformance into delivery evidence",
+      "mood": "curious",
+      "text": "What changes when we look at build conformance into delivery evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automated checks run continuously for detectable rules such as missing names, invalid structure, and some contrast issues. Manual review covers keyboard, focus, zoom and reflow, high contrast, screen readers, voice input, motion, forms, dynamic updates, and alternative representations."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research with disabled people evaluates whether the product actually supports understanding and outcome beyond technical criteria."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Defects are prioritised by blocked task, consequence, reach, workaround, recurrence, and distribution through shared systems. Release gates and exceptions are proportionate to risk. A waiver names affected users, evidence, temporary mitigation, owner, deadline, and validation; it is not a way to convert known exclusion into accepted quality."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence remains reproducible: environment, assistive technology, version, steps, expected result, actual result, and source criterion. Product, design-system, content, and service teams share ownership according to their layer. Conformance reports become inputs to improvement, procurement, and governance rather than ceremonial launch documents."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: modal form",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: modal form?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A dialog may meet component semantics but fail when it opens from another dialog, hides necessary context, announces errors late, or cannot reflow. Journey-level validation prevents a locally conformant part from certifying an inaccessible task."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conformance is a product-quality and risk-management system. Senior practitioners set policy and supported technologies, fund training and testing, require accessible procurement, assign stop-ship severity, maintain evidence, and publish accurate limitations."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They avoid promising Level AAA across an entire site as a simplistic policy; W3C notes that satisfying every AAA criterion is not possible for some content. Product-specific ambition should still exceed minimum compliance where users and risk require it."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect criteria to real product behaviour",
+      "mood": "thinking",
+      "text": "What changes when we look at connect criteria to real product behaviour?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence is attached to acceptance, severity, and ownership. Exceptions require documented impact and remediation, not a blanket waiver. Conformance is integrated into definition, design, code review, testing, and release so it becomes product quality rather than a late audit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an online exam. A page may meet contrast and label checks while the timed submission flow remains impossible for a keyboard user. Conformance criteria provide a necessary, testable baseline. Product quality also requires evaluating the complete task, assistive-technology behaviour, accommodations, errors, and the real consequences of failure."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "When a site says “accessible,” look for the stated standard, level, scope, date, known limitations, and contact/remediation route. Which parts of the claim are evidence and which are branding?"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "lesson": "UX-129",
+  "title": "Organisation Schemes: Exact, Ambiguous, Task, and Audience",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Organisation Schemes: Exact, Ambiguous, Task, and Audience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Organisation schemes are the logic used to group information. Exact schemes use stable facts such as date, place, or alphabet. Ambiguous schemes group by subject, task, audience, metaphor, or other meanings that require interpretation. Neither is inherently better: the right scheme depends on what people know, what they seek, and how the content changes."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use task schemes when people arrive to accomplish something. Use audience schemes when needs genuinely differ and people can recognise themselves. Use topic schemes when people explore a domain. Often a system needs more than one route: a traveller may browse destinations by region, search by name, or act through a task such as changing a booking."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test the scheme with representative language and items. If people cannot predict where something belongs, the system’s internal logic is not enough."
+    },
+    {
+      "speaker": "host",
+      "act": "Combine schemes without mixing their logic",
+      "mood": "thinking",
+      "text": "What changes when we look at combine schemes without mixing their logic?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Exact schemes—alphabet, chronology, geography, identifiers—have explicit membership rules. Ambiguous schemes—topic, task, audience, intent—depend on interpretation and are useful when people do not know an exact value. Hybrids are common, but each layer should have a clear purpose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Mixing clinic name, “urgent help,” and “for carers” as sibling categories creates options that overlap for different reasons."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team creates a scheme decision table: user situation, known information, desired comparison, change rate, ambiguity, and governance cost. A chronological history is excellent for reconstructing events but weak for finding preparation by purpose. Audience categories can offer useful entry points but create duplication when content applies to several groups."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task categories are intuitive only when labels reflect the language and granularity of actual work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluation includes items that belong in several places and people who switch roles. Multiple access paths are acceptable; conflicting canonical meaning is not. The output is a primary organisation rule, secondary facets, cross-link policy, and exceptions to test through vocabulary work in lesson 130."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: government benefits",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: government benefits?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Organising only by agency is exact for administration and opaque to residents. Life-event and task routes improve discovery, while programme identity, jurisdiction, and eligibility remain governed metadata. A hybrid works when the layers are explicit rather than being one miscellaneous mega-menu."
+    },
+    {
+      "speaker": "host",
+      "act": "Match scheme to knowledge and intent",
+      "mood": "thinking",
+      "text": "What changes when we look at match scheme to knowledge and intent?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Exact schemes work when the organising property is objective and known: alphabet, date, geography, sequence, or identifier. Ambiguous schemes—topic, task, audience, life event, or metaphor—support recognition but require maintained definitions. Hybrids serve multiple approaches when they do not mix logics inside one list."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research how people describe and seek information. Open card sorting can reveal candidate groups and language; closed sorting tests a proposed scheme; tree testing measures retrieval in hierarchy. Use realistic items and inspect disagreements as evidence of polyhierarchy, unclear labels, or different audience models."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid organising around internal departments unless users share that model. Audience schemes can duplicate content and force people to self-classify; task schemes can become vague verbs. Provide alternate routes and search where needs overlap."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Govern placement and review as the collection grows. Define category scope, examples, owners, and rules for multiple membership. Measure successful findability and recovery, not agreement with the architect’s taxonomy."
+    },
+    {
+      "speaker": "host",
+      "act": "Use a scheme decision matrix",
+      "mood": "curious",
+      "text": "What changes when we look at use a scheme decision matrix?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ambiguous categories are tested for overlap and exclusion. “Urgent” may mean clinical priority, a patient’s felt urgency, or a service-level breach. “For carers” can duplicate content and imply that patients never need it. The team defines scope notes, cross-listing rules, and canonical ownership."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Items that fit everywhere may expose a poor scheme or a missing relationship rather than a need for more duplication."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: media library",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: media library?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Alphabetical order is exact and useful for a known title, genre supports exploration, audience categories support a particular entry point, and recency supports current discovery. A single “Browse” hierarchy cannot serve all four equally; coordinated access paths can."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every scheme creates an exclusion. Inspect what is hard to classify, where concepts appear in multiple places, and who must learn internal language before they can begin."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A university groups support content by its internal departments. Students arrive with tasks—pay fees, change a course, get help—not knowledge of the organisation chart. The content is complete but its scheme belongs to the institution, not the visitor."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A financial-help site groups content by department. Customers look for “I lost my card,” “payment missing,” and “I think I was charged twice.” A task scheme improves entry, while product and account type remain facets and metadata. Tree testing exposes overlap between dispute and fraud; the team clarifies definitions and provides cross-routes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The structure follows seeking behaviour without discarding the domain distinctions operations require. lesson 128 defined what the information is. lesson 129 decides the lenses through which people can find it. lesson 130 makes the labels for those lenses understandable."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a content-heavy site. Identify its primary scheme, then propose a second route for a person with a different task or vocabulary."
+    }
+  ]
+}

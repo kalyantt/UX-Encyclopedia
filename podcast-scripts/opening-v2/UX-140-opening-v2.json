@@ -1,0 +1,166 @@
+{
+  "lesson": "UX-140",
+  "title": "Inclusive Content, Alternatives, and Reading Order",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Inclusive Content, Alternatives, and Reading Order."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inclusive content considers language, comprehension, alternatives, structure, and reading order from the beginning. Meaning should not depend on colour, visual position, sound, or specialist vocabulary alone. Headings, labels, instructions, media alternatives, link text, and error messages should make sense in the sequence people and assistive technologies encounter them."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write for the action a person must take, not for the organisation’s internal process. Use descriptive labels, direct instructions, and alternatives that preserve the essential information. Test with diverse people and technologies; simulation can reveal a risk, but it cannot replace lived experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Design one meaning through multiple representations",
+      "mood": "thinking",
+      "text": "What changes when we look at design one meaning through multiple representations?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inclusive content separates meaning from a single sensory or interaction form. Images need alternatives appropriate to their purpose; audio and video need captions, transcripts, and sometimes audio description; colour and position need textual or structural equivalents; reading and focus order must preserve relationship."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The goal is equivalent opportunity to understand and act, not identical presentation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "DOM order follows the conceptual sequence even when cards rearrange visually. Headings, lists, tables, and labels express relationships programmatically. Link and button names make sense out of context. Content survives 400% zoom, text spacing changes, translation expansion, high contrast, and screen-reader navigation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team checks that helper text and errors are associated with the correct field and announced at the useful moment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Alternative formats have owners and update together. A transcript that diverges from revised video or a PDF that cannot reflow is content debt. lesson 141 tests whether the words and alternatives actually produce intended behaviour."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: financial chart",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: financial chart?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Alt text saying “line chart” does not let a customer judge risk. A useful alternative names the measure, period, overall direction, important changes, and access to the underlying table without making an unsupported interpretation."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve the same purpose",
+      "mood": "thinking",
+      "text": "What changes when we look at preserve the same purpose?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Identify the information, relationship, or action conveyed through each visual, audio, spatial, or interactive element. Provide an alternative that serves the same purpose rather than mechanically describing appearance. Decorative media should be ignored; informative charts need key insight and data; controls need names that communicate action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Structure content semantically with meaningful headings, lists, labels, landmarks, table relationships, and logical source order. CSS layout should not create a different reading sequence. Pair colour and sound with additional cues. Provide captions, transcripts, audio description, and motion controls where relevant."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write for cognitive and linguistic access through predictable structure, explicit references, plain language, and manageable steps without removing necessary conditions. Test zoom, reflow, high contrast, non-visual reading, keyboard operation, translation, and real content."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ownership belongs in the publishing workflow. Require alternatives, provide guidance and preview, and prevent publication when essential meaning is missing. An accessibility field that accepts meaningless filler does not create inclusive content."
+    },
+    {
+      "speaker": "host",
+      "act": "Specify purpose before choosing an alternative",
+      "mood": "curious",
+      "text": "What changes when we look at specify purpose before choosing an alternative?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Reading order, visual order, and focus order express one conceptual structure. CSS reordering cannot make the call to action appear first visually while a screen reader encounters context much later. Headings, lists, tables, labels, and descriptions encode relationship."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Zoom, reflow, text spacing, high contrast, and translation should not detach an error from its field or a comparison value from its clinic."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Alternatives enter the content lifecycle. They have source, owner, review, localisation, and change triggers. Automatically generated descriptions can begin a draft but remain untrusted where context or consequence matters. The team tests with relevant assistive technologies and people, measuring successful understanding and action rather than the presence of an attribute."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: performance dashboard",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: performance dashboard?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A chart labelled “sales trend” is not equivalent access. A useful alternative names measure, time range, direction, material changes, uncertainty, and the underlying table. It avoids inventing a causal conclusion the visual itself cannot support."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Equivalent access is a production and governance commitment. Senior teams assign owners and update paths for alternatives, test the relationships between visual, reading, and focus order, and avoid treating autogenerated descriptions as verified meaning."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "An error state uses a red border, an icon without text, and a message visually placed above the field but announced after unrelated content. The issue is present, yet a person may not perceive, understand, or reach it in the intended order."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Navigate a content-rich page by headings and links without looking at its layout. Then zoom substantially and compare whether the same sequence and relationships remain understandable."
+    }
+  ]
+}

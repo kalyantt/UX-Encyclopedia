@@ -1,0 +1,188 @@
+{
+  "lesson": "UX-030",
+  "title": "Show Your Work",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Show Your Work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research visibility means making customer evidence, assumptions, decisions, and learning accessible while work is in progress. Share short clips, quotes in context, maps, decision logs, prototypes, and clear summaries of confidence. The aim is not to overwhelm stakeholders with raw notes; it is to let them see the chain from observation to implication."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Showing work creates shared understanding and makes it easier to challenge weak inference early. Tailor the format to the audience while preserving uncertainty and participant dignity."
+    },
+    {
+      "speaker": "host",
+      "act": "Expose the reasoning, uncertainty, and change",
+      "mood": "thinking",
+      "text": "What changes when we look at expose the reasoning, uncertainty, and change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sharing is designed for participation, not performance. Regular evidence reviews invite challenge while decisions are still reversible. Sensitive material is redacted and access controlled; transparency does not mean publishing participant data. Updates distinguish fact, interpretation, and commitment, and show what evidence would reverse the choice."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked contrast: visibility without inspectability",
+      "mood": "curious",
+      "text": "What changes when we look at worked contrast: visibility without inspectability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A wall of interview clips looks transparent but leaves colleagues unable to tell who participated, why the clips were selected, whether contradictory cases exist, or what decision they support. A short evidence card can be more inspectable when it links the bounded claim to episodes, sample, limitations, opportunity, and action."
+    },
+    {
+      "speaker": "host",
+      "act": "Make reasoning inspectable",
+      "mood": "thinking",
+      "text": "What changes when we look at make reasoning inspectable?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Share problem framing, alternatives, evidence, assumptions, constraints, decision, and unresolved risk—not only polished output. Use decision records and linked artefacts so colleagues can challenge the reasoning and understand changes without attending every meeting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tailor depth to audience while preserving truth. Mark what is observed, inferred, proposed, and decided. Include rejected directions and rationale where they may prevent repeated work. Protect participant confidentiality and sensitive strategy through proportionate access."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Showing work creates earlier contribution only when the team invites response while options remain open. Establish review moments, owners, and how feedback changes decisions. A public design file without context can create noise or surveillance rather than collaboration."
+    },
+    {
+      "speaker": "host",
+      "act": "Make the reasoning inspectable while it can still change",
+      "mood": "curious",
+      "text": "What changes when we look at make the reasoning inspectable while it can still change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Regular reviews distinguish fact, interpretation, and bet. Decisions include owner, rationale, dissent, guardrails, and revisit signal. Negative results and abandoned options remain visible so the organisation can learn rather than repeat a failed proposal under a new name."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Transparency is designed for action. Different audiences receive suitable resolution but the same evidence spine. Later, the team can trace whether learning changed roadmap, implementation, measurement, or governance."
+    },
+    {
+      "speaker": "host",
+      "act": "Expose the reasoning while it can still be challenged",
+      "mood": "thinking",
+      "text": "What changes when we look at expose the reasoning while it can still be challenged?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The artifact is layered for audience and privacy. A concise decision view links to de-identified evidence, method, uncertainty, and counterexamples. Sensitive patient details remain protected, and access follows purpose. Decisions record who accepted the risk, what would change the conclusion, and when it will be reviewed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Showing work also creates organisational memory. When the transfer feature is revisited months later, a new team can recover why state visibility mattered, what was not tested, and which service dependencies remained. Traceability reduces repeated research and prevents a confident design from becoming evidence merely because its origin was forgotten."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Visibility is governance. A visible decision trail reduces selective memory, makes dissent safer, and helps teams distinguish evidence from hierarchy."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence becomes useful when people can see enough of its provenance to reason with it. Make the decision question, participants and context, observations, interpretation, confidence, and implication visible together. A short research clip can build empathy; a journey map can show system relationships; a decision log can preserve why a trade-off was made."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use each artefact for its job rather than assuming a presentation deck is the only way to share learning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Adapt the level of detail without changing the claim. Executives may need decision and risk; delivery teams may need scenario, task, and acceptance implications; researchers may need raw material and analytic trail. Protect participant dignity by removing identifying detail and avoiding decontextualised “soundbites.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Invite challenge: a visible evidence chain allows others to question interpretation before it becomes product direction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Insight theatre: polished quotes create emotion but never alter a decision. Context stripping: a statement is shared without the conditions that qualify it. Evidence dumping: raw notes are published without a usable path to implication. Hidden uncertainty: a recommendation is presented as more certain than its evidence supports."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A roadmap slide that lists features hides reasoning. A short decision narrative—outcome, evidence, options, trade-off, chosen test, and next review—makes collaboration and later learning possible."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Testing produces learning. This lesson helps the organisation use it. Module 6 turns evidence into themes, models, stories, and persuasive artefacts."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a decision at work or school. What evidence and explanation would make it easier for another person to trust?"
+    }
+  ]
+}

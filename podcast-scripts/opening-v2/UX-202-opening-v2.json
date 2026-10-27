@@ -1,0 +1,278 @@
+{
+  "lesson": "UX-202",
+  "title": "Enterprise Case: Dense Information, Roles, and Workflow",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Enterprise Case: Dense Information, Roles, and Workflow."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Observe real cases from arrival to resolution. Ask experienced and less experienced staff to narrate what they notice, which signals change priority, which systems they consult, and where policy leaves room for judgement. Capture interruptions, copied identifiers, spreadsheets, personal notes, unofficial shortcuts, and the people contacted when the system is insufficient."
+    },
+    {
+      "speaker": "host",
+      "act": "Model the work before the interface",
+      "mood": "curious",
+      "text": "What changes when we look at model the work before the interface?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Distinguish the formal workflow from the effective workflow. A process diagram may say “review exception,” while the real work includes assessing credibility, reconstructing history, coordinating across time zones, and deciding whether an unusual action will be defensible later. These cognitive and social activities must shape the design."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a domain model of entities and relationships: shipment, order, item, customer, facility, carrier, event, exception, policy, action, person, and approval. Define status carefully. “Delayed” may describe a prediction, an event, or an operational classification, each with different consequences."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Weak domain language creates inconsistent filters, reports, automation, and decisions throughout the product."
+    },
+    {
+      "speaker": "host",
+      "act": "Design information around decisions",
+      "mood": "thinking",
+      "text": "What changes when we look at design information around decisions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Density is valuable when information is relevant, comparable, and structured. The aim is not minimum content; it is minimum unnecessary effort. Group evidence by the questions the analyst must answer: What changed? How urgent is it? What is affected? What options exist? What has already been tried? Who owns the next action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use hierarchy, alignment, typography, spacing, and persistent context to make scanning reliable. Keep critical identifiers and current status visible while people move between views. Support comparison without forcing memory. Show event history in temporal order, distinguish observed facts from predictions and human notes, and make stale or uncertain data visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Progressive disclosure should defer secondary detail without hiding evidence required for a safe decision. Before collapsing information, ask how frequently experts use it, how costly retrieval is, and whether its absence changes interpretation. A panel opened hundreds of times a day is not progressive disclosure; it is repeated friction."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the shipment-exception system",
+      "mood": "curious",
+      "text": "What changes when we look at build the shipment-exception system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Research reframes “simplify the dashboard” as:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When operations analysts must resolve time-sensitive shipment exceptions, evidence is fragmented across systems and roles, making it difficult to distinguish observed event, prediction, policy constraint, and attempted action. Analysts reconstruct state manually, increasing delay, inconsistent escalation, and decisions that are difficult to explain or recover."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The domain model separates:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "order and contractual promise; shipment, leg, container, item, facility, and carrier; observed scan event and its source/latency; predicted delay with model/time horizon; exception classification and severity; customer production impact; inventory and alternate route; proposed, approved, attempted, confirmed, failed, and reversed action; case owner, collaborator, approval, note, and evidence; policy, entitlement, escalation, and incident."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The target workspace is organised around the analyst’s decision:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. What changed? A chronological event stream separates observed facts, predictions, external messages, and human notes. 2. What is at risk? Customer commitment, item criticality, time horizon, and downstream dependency remain visible. 3. What is uncertain? Missing scan, stale inventory, conflicting carrier message, and prediction calibration are explicit. 4. What can be done?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Alternatives show feasibility, cost, required approval, deadline, and likely consequence. 5. What has happened already? Attempted versus confirmed actions, owners, and previous rationale prevent duplication. 6. Who decides next? Permission and escalation identify the authorised person and response expectation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team keeps critical identifiers and timeline position persistent. Analysts can compare routes and contracts without memorising values between pages. Saved views support recurring roles, but active filters, scope, time zone, and data age are always visible. Keyboard interaction, bulk triage, and command search have reversible actions and clear scope."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The artifact is an enterprise decision workspace specification: work model, domain language, state machine, evidence hierarchy, roles/permissions, collaboration, accelerators, audit, error/recovery, integration, and measures."
+    },
+    {
+      "speaker": "host",
+      "act": "Support expertise without abandoning learnability",
+      "mood": "thinking",
+      "text": "What changes when we look at support expertise without abandoning learnability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Novices need orientation, clear concepts, safe defaults, and explanations. Experts need speed, flexibility, stable layouts, keyboard interaction, saved views, bulk actions, and the ability to inspect detail. These needs can coexist when the system uses consistent patterns and exposes capability gradually."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design accelerators with safeguards. Keyboard shortcuts should be discoverable and reversible. Bulk actions must reveal scope, exceptions, and consequences before execution. Defaults should reflect a legitimate common case without silently overriding contextual judgement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search and filtering must show active constraints so that an apparently empty result is not mistaken for missing data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not treat training as a substitute for usable design. Some enterprise domains require knowledge, but the interface should still make system state, available action, feedback, and recovery legible. Conversely, do not remove necessary complexity merely because it requires learning."
+    },
+    {
+      "speaker": "host",
+      "act": "Make roles and collaboration explicit",
+      "mood": "curious",
+      "text": "What changes when we look at make roles and collaboration explicit?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Enterprise work crosses people. Show ownership, handoff state, timestamps, outstanding questions, and the rationale for consequential actions. Permissions should follow real responsibilities rather than broad job titles where possible. A person needs to know not only that an action is unavailable, but why and who can perform it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Auditability is part of experience quality. Record what changed, who changed it, what evidence was available, and whether an automated recommendation influenced the decision. This supports recovery, learning, compliance, and trust between colleagues. Avoid turning audit history into surveillance; collect what is proportionate to the decision and make governance clear."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use decision-level permissions rather than hiding disabled controls without explanation. An analyst may propose a reroute, a supervisor approve cost above a threshold, customs specialists resolve documentation, and customer leads communicate changed commitments. The handoff transfers evidence, uncertainty, action already attempted, deadline, and question—not merely case ID."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Collaboration needs conflict handling. If two people edit the same plan, show version and reconcile intentionally. Notes should distinguish fact, hypothesis, and rationale. Private scratch work may be useful but cannot become the only place critical service knowledge survives."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate with realistic complexity",
+      "mood": "thinking",
+      "text": "What changes when we look at evaluate with realistic complexity?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use representative data volume, long labels, incomplete records, interruptions, time pressure, permissions, and exceptions. Test novices and experts separately because averaging their performance conceals different problems."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Measure task success, error severity, time and effort where meaningful, recovery, confidence calibrated to correctness, and the quality of the resulting decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A happy-path prototype can validate navigation while missing the reason the tool exists. Include an ambiguous case, a conflicting signal, a handoff, and a recoverable mistake. Observe which external artefacts people recreate; each spreadsheet or private note may reveal information the product fails to support."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use representative volume and longitudinal sessions. First-use learnability and expert efficiency need separate evidence. Test:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "ordinary, urgent, ambiguous, and compound exceptions; long labels, sparse and stale data, different time zones and locales; interruption and resumption; role handoff and absent approver; keyboard, screen reader, zoom, and alternate input; bulk action with mixed eligibility; prediction disagreement and model outage; failed external action and rollback; audit reconstruction weeks later."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Measure decision correctness/quality where a defensible reference exists, serious error, time to detect and act, navigation and comparison effort, handoff completeness, rework, override, queue age, recovery, workload, and downstream customer outcome. Faster handling is not success if it increases unsafe reroutes or hides unresolved state."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consumer minimalism: necessary evidence is hidden to make the interface look simple. Legacy mirroring: every existing field and organisational silo becomes interface structure. Status collapse: observation, prediction, classification, and action share one label. Progressive-disclosure tax: experts repeatedly open information needed for routine decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Training excuse: domain complexity is used to defend poor feedback, navigation, or recovery. Role-title permission: broad job categories grant excessive access or block legitimate task authority. Bulk-action opacity: scope and exceptions are invisible before high-volume consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Audit surveillance: excessive logging monitors workers rather than supporting accountable decisions. Happy-path evaluation: clean sample data conceals the actual exception work."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The senior question is not “How do we simplify this dashboard?” It is “Which complexity belongs to the domain, which was created by the organisation, and which burden can the product responsibly remove without hiding evidence?”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners respect expertise without romanticising workarounds. They decide which complexity to represent, automate, standardise, or remove; negotiate permissions and incentives; and evaluate the joint human–system decision under real load. They recognise that dense information can be humane when it is structured around a consequential decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "An operations analyst must resolve a shipment exception before a customer’s production line stops. She compares live tracking events, contract terms, previous notes, inventory, customs status, and carrier messages. She may reroute the shipment, request evidence, escalate approval, or explain that no safe intervention is available."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A redesign hides most detail behind progressive disclosure to look cleaner. The screen photographs beautifully—and makes expert work slower and more dangerous. Enterprise UX is not consumer UX with more tables. It begins with the structure of work: decisions, roles, expertise, frequency, evidence, collaboration, permissions, handoffs, and the cost of error."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 201 traced a consumer outcome through the service that produces it. This case applies the same system view to expert work, drawing heavily on domain modelling, IA, interaction patterns, cognition, and evaluation. lesson 203 expands beyond the tool to policy, staffing, and multi-channel service recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a professional tool. Identify one critical decision, the evidence required, the user’s level of expertise, one handoff, one permission boundary, and one costly exception. Redesign the information hierarchy for that decision, then name what must remain visible even if it makes the screen denser."
+    }
+  ]
+}

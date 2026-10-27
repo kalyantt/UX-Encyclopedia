@@ -1,0 +1,170 @@
+{
+  "lesson": "UX-065",
+  "title": "Findings That Drive Change",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Findings That Drive Change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Raw observation is not yet a finding. “Three participants did not open the explanation” describes behaviour in sessions. “The chevron is too small” is a diagnosis, perhaps premature. “Make it a modal” is a solution, not a finding."
+    },
+    {
+      "speaker": "host",
+      "act": "A finding is an evidence-backed claim",
+      "mood": "curious",
+      "text": "What changes when we look at a finding is an evidence-backed claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A defensible finding connects:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "context: person, task, state, and conditions; observed evidence: behaviour, words, system data, inspection result, or operational fact; pattern and variation: what repeated and what contradicted it; interpretation: the mechanism that plausibly explains the evidence; consequence: what this changes for the person, service, or organisation; confidence: how strongly the evidence supports the interpretation; decision implication: what must be resolved, without presenting one design as proven."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This chain preserves the distinction between fact and inference. It also lets a sceptical reader inspect the basis of the claim without wading through every note."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse before reporting",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse before reporting?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Debrief soon after sessions, then break notes into atomic observations. Tag source, task, participant context, prototype state, assistance, and consequence. Group related observations through affinity analysis, but do not let the most memorable quote become a theme by itself."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Actively search for negative cases: participants who succeeded differently or evidence that challenges the emerging explanation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triangulation strengthens interpretation when different evidence types point to the same mechanism. If user behaviour, support contacts, analytics, and an inspection all indicate uncertainty after referral, confidence rises. Disagreement is useful too. High completion paired with low comprehension may mean the interface enables action while concealing risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Protect traceability. Give every finding an identifier and links to source notes, clips, metrics, screenshots, and relevant design states. Use short clips or quotes to make evidence concrete, but do not turn participants into entertainment or remove context."
+    },
+    {
+      "speaker": "host",
+      "act": "Prioritise consequence, not embarrassment",
+      "mood": "curious",
+      "text": "What changes when we look at prioritise consequence, not embarrassment?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Traditional severity often combines impact and frequency. That is a useful start, but responsible prioritisation also considers:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "reach and which populations are affected; whether the task is core or optional; reversibility and quality of recovery; financial, safety, privacy, legal, and equity consequences; confidence in the diagnosis; structural leverage—whether one cause creates many symptoms; time sensitivity and cost of delay; effort, dependencies, and the risk introduced by a change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Keep these dimensions visible rather than hiding them in one number. Frequency observed in a small formative sample is not population prevalence. A failure encountered once may still be urgent if it blocks screen-reader users or creates clinical harm. Effort informs sequencing; it does not make low-effort cosmetic fixes more important than high-consequence problems."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: payment status",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: payment status?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Suppose customers repeatedly retry a bank transfer. “Users click twice” is an observation. “The button needs disabling” is a solution. A stronger finding might be: after submission, the product returns to the form without a durable receipt or pending status, so customers cannot distinguish processing from failure and may send duplicate payments."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The implication is to make state and recovery trustworthy. Button disabling might help, but it does not resolve missing confirmation across sessions or channels."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Solution-labelled findings: recommendations masquerade as validated diagnoses. Flat backlog: evidence, consequence, confidence, and ownership disappear. Frequency worship: sampled counts overrule severity and exclusion. Quote theatre: vivid fragments replace systematic analysis. Theme compression: distinct populations or failure mechanisms are merged too early."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unowned insight: a report is presented but never enters a decision process. Research debt: findings lose links to evidence and cannot be revisited when conditions change."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners design the path from evidence to organisational action. Agree before research who owns which decisions and when they will be made. Tailor communication to that decision while preserving a durable evidence repository. Show how findings affect user outcomes, service operations, risk, strategy, and measurement—not merely screens."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not sanitise uncomfortable evidence to gain stakeholder acceptance. Also do not overstate certainty to create urgency. Name disagreement, unrepresented groups, prototype limitations, and what would falsify the interpretation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Track whether accepted findings were addressed and whether the resulting change improved the outcome; otherwise “research impact” is measured only by presentations delivered."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a grocery substitution flow. Five test participants miss the replacement preference, but the useful finding is not “make the button bigger.” The report shows when the preference matters, what people assumed, how often it occurred, and the cost of getting an unwanted item. It proposes options and a way to verify the chosen repair."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a public redesign case study. Separate each stated observation, inferred cause, and proposed solution. Where does the case jump from behaviour to a preferred feature? What evidence would make that causal claim stronger?"
+    }
+  ]
+}

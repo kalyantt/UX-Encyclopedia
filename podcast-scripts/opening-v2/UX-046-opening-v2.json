@@ -1,0 +1,167 @@
+{
+  "lesson": "UX-046",
+  "title": "Feedback and System Status",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Feedback and System Status."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feedforward helps people predict what an action will do. Feedback helps them interpret what happened. System status makes current progress, state, and uncertainty visible. Together they reduce anxiety, errors, and repeated actions."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Match feedback to consequence and latency. Immediate reversible actions may need subtle acknowledgement; high-stakes or delayed actions need durable, specific confirmation. Loading states should explain progress or waiting rather than merely animate. Preserve the evidence of completion when a person may need it later."
+    },
+    {
+      "speaker": "host",
+      "act": "Close the loop between action and reliable state",
+      "mood": "thinking",
+      "text": "What changes when we look at close the loop between action and reliable state?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feedback acknowledges an interaction; system status explains the state that now exists. A button press animation can show that input was received, but it cannot prove that a clinic accepted a transfer. Useful feedback is proportionate to latency and consequence, tied to the affected object, and clear about whether work is local, transmitted, processed, or complete."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests quick, delayed, partial, duplicated, and failed operations, plus background completion after the user leaves. It measures double submission, false belief, recovery, and support demand. The next lesson’s hierarchy work determines which status deserves attention without allowing urgency styling to outrun truth."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: file upload",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: file upload?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An upload can be selected, transferred, scanned, processed, and published. Showing 100% after bytes reach the server may falsely imply availability. A good status model distinguishes phases, permits safe cancellation where possible, and explains what happens if processing continues in the background."
+    },
+    {
+      "speaker": "host",
+      "act": "Match feedback to time and consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at match feedback to time and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Immediate actions need immediate acknowledgement. Longer work needs progress, meaningful stages, expectation, and a way to leave or cancel. Completion needs a clear outcome and next step. Errors need cause where useful, preserved effort, and recovery. Feedback should exist visually and programmatically without depending on colour or animation alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid false precision and theatrical loading. If duration is unknown, communicate activity and what the person can do. Distinguish queued, processing, completed, failed, and partially completed states. For consequential operations, provide an inspectable history and idempotent behaviour so retries do not duplicate action."
+    },
+    {
+      "speaker": "host",
+      "act": "Make status durable, truthful, and actionable",
+      "mood": "curious",
+      "text": "What changes when we look at make status durable, truthful, and actionable?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feedback uses multiple channels without multiplying contradiction: visible text, focus movement, live-region announcement, email or message, and support state all derive from the same source model. Motion or colour can reinforce a change but cannot carry it alone. Repeated notifications are governed so urgency remains meaningful."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Status design depends on real system observability. If the product cannot tell whether a payment succeeded, language alone cannot create trustworthy feedback."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feedback has a lifecycle. Before action, feedforward lets a person predict the consequence. During action, status indicates that work is accepted, pending, or blocked. After action, confirmation records what happened and what remains."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For asynchronous or high-consequence work, a temporary toast is not enough: people may need a durable receipt, history entry, status page, notification, or clear escalation path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design for uncertainty honestly. A progress indicator should not pretend to know an exact remaining time when the system cannot. Explain whether a person can leave, retry, cancel, or safely take another action. Distinguish local interface acknowledgement from successful service completion, especially when a payment, upload, approval, or sync continues in the background."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "False completion: an interface confirms before the underlying service has finished. Silent latency: a person cannot tell whether to wait, retry, or seek help. Ephemeral evidence: confirmation disappears before it can support later verification. Same feedback for every consequence: a low-risk toggle and an irreversible transfer receive equally weak acknowledgement."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "After pressing “Pay,” a button becomes disabled and nothing else changes. The person does not know whether the payment is processing, failed, duplicated, or complete."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A transfer flow first says “Done” when the request is queued. Customers assume money arrived and repeat the action. The redesign distinguishes submitted, processing, completed, and failed, shows recipient and amount, prevents duplicate submission, and provides a traceable reference. Status is available to screen readers and support staff."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Better feedback changed behaviour because it represented the real service state rather than the interface event. Forms collect input. Feedback closes the loop between action and outcome. lesson 47 makes the visual hierarchy of that loop legible at a glance."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Watch a loading or confirmation state. What information would reduce uncertainty about progress, outcome, or next action?"
+    }
+  ]
+}

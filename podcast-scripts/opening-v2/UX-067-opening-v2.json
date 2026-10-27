@@ -1,0 +1,181 @@
+{
+  "lesson": "UX-067",
+  "title": "Metrics Start With a Behaviour Model",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Metrics Start With a Behaviour Model."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A metric is a defined quantitative summary. A behavioural model explains why a change in that measure might represent value. Without the model, teams optimise what is easy to log."
+    },
+    {
+      "speaker": "host",
+      "act": "Metrics operationalise a theory",
+      "mood": "curious",
+      "text": "What changes when we look at metrics operationalise a theory?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write the causal chain in plain language:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "In situation, a person or actor encounters condition, interprets it as meaning, takes action, receives system or service response, and reaches near-term result, which contributes to longer-term outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Then add competing paths, friction, recovery, and external factors. Product telemetry observes only parts of this chain. A click records an interaction, not the person’s motivation, comprehension, or benefit. Operational records may reveal fulfilment. Interviews or surveys may reveal interpretation. Outcomes may occur days later or outside the product."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A good model distinguishes four layers:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "exposure: the person had a credible opportunity to experience the change; behaviour: they acted, avoided, repeated, or recovered; service result: the system and people fulfilled or failed the request; outcome: the person made meaningful progress."
+    },
+    {
+      "speaker": "host",
+      "act": "Define the measure so it can be challenged",
+      "mood": "thinking",
+      "text": "What changes when we look at define the measure so it can be challenged?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For every metric specify:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "construct being approximated; event or source and exact trigger; unit of analysis—event, session, patient, referral, clinic, or household; eligible population and denominator; inclusion and exclusion rules; identity and cross-device logic; time window and attribution window; deduplication, retries, missing data, and late-arriving events; properties required for segmentation; owner, version, and quality tests."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Conversion rate” is not a complete definition. Referral booking conversion might mean unique eligible referrals with a confirmed appointment within fourteen days divided by referrals shown at least one feasible option. Changing the denominator to all created referrals answers a different question."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: daily active users",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: daily active users?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Daily activity can rise because a messaging product is valuable, notifications are manipulative, a workflow is confusing, or failures cause repeated opening. A behavioural model asks which action produces user value, whether a successful session occurred, and what downstream evidence should follow. “Users opened the app” is exposure or activity, not proof of benefit."
+    },
+    {
+      "speaker": "host",
+      "act": "Test the model, not just the feature",
+      "mood": "thinking",
+      "text": "What changes when we look at test the model, not just the feature?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "After release, inspect whether links in the chain move together. If explanation views rise but correct understanding does not, exposure is not comprehension. If reservations rise while clinic acceptance falls, local conversion is damaging service quality. If accepted appointments rise only for digitally confident patients, the aggregate hides inequity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Update the model when evidence contradicts it. Measurement is not a scoreboard added after design; it is a way to test the team’s theory of value."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Available-event metric: instrumentation dictates strategy. Proxy collapse: an action is treated as the outcome it approximates. Undefined denominator: rates change because eligible populations differ. State compression: request, pending, confirmation, and fulfilment share one misleading event."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Competing-explanation blindness: movement is attributed to the feature without checking context. Instrumentation drift: a release changes event meaning without versioning the metric."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect product behavior to human and service outcomes",
+      "mood": "thinking",
+      "text": "What changes when we look at connect product behavior to human and service outcomes?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "He distinguishes user behavior, system state, service operation, and outcome. Repeated status checks may signal engagement, confusion, delayed processing, or a high-stakes task. The model predicts which supporting measures can separate those explanations: state latency, comprehension research, support contacts, duplicate actions, and unresolved cases."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team marks what instrumentation can and cannot observe, who is missing, and where privacy limits collection. Qualitative evidence tests the mechanism; operational and product data estimate pattern and change. Metrics are revised when the behavior model is disproved. This prevents an available dashboard event from becoming the definition of success."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metrics create incentives. Once a number becomes a target, teams discover ways to move it that may weaken the construct it represented. Senior designers participate in measurement design because event semantics encode the service model. They ask whose behaviour is observable, whose outcome is missing, and what labour or harm the dashboard excludes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat sensitive health data with purpose limitation, access controls, retention rules, and aggregation appropriate to risk. Do not collect a property merely because future analysis might be interesting. A trustworthy measurement system is selective as well as detailed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a learning app. “More sessions” sounds like success until the team maps the desired behaviour: learners practise a skill, get useful feedback, return when they need it, and improve. Session count is an input signal at best."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The model identifies the meaningful outcome, intermediate behaviours, and places where the product could increase activity without increasing learning."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a dashboard headline. Ask what human behaviour and outcome it claims to represent. Identify one repeated action, failed state, or population change that could move the number without increasing value."
+    }
+  ]
+}

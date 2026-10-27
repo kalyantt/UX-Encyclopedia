@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-169",
+  "title": "Prioritise Findings by Consequence, Confidence, and Effort",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Prioritise Findings by Consequence, Confidence, and Effort."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Finding priority concerns the importance of resolving a problem. Solution priority concerns which response deserves investment. A severe finding may have no safe solution yet; it should trigger containment and exploration rather than a rushed feature. A modest finding may have a low-cost systemic repair worth doing immediately."
+    },
+    {
+      "speaker": "host",
+      "act": "Prioritise problems before solutions",
+      "mood": "curious",
+      "text": "What changes when we look at prioritise problems before solutions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assess each finding across visible dimensions:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "consequence for the person and service; task criticality and persistence; reach, including populations disproportionately affected; recoverability and reversibility; safety, privacy, financial, legal, and ethical risk; confidence in the evidence and causal explanation; urgency and cost of delay; structural leverage and shared dependencies; effort, operational burden, and change risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not multiply these into a magical objective number. Scores can organise discussion, but weights embed values and uncertain inputs create fictional precision. Use bands, rationale, vetoes, and confidence. Keep “high consequence, low confidence” distinct from “low consequence, high confidence”; the former may need containment plus urgent investigation."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a decision sequence",
+      "mood": "thinking",
+      "text": "What changes when we look at build a decision sequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "First identify must contain items: failures with unacceptable consequence where exposure can be reduced before root cause is fully known. Next identify must fix items supported by strong evidence, including standards violations and critical blockers. Group structural causes whose repair resolves multiple symptoms. Route uncertain but consequential items to must learn."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Place low-consequence or weakly aligned items in monitor, defer, or reject."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Then assess candidate responses separately. Include expected effect, evidence, dependencies, effort ranges from implementing and operating disciplines, side effects, reversibility, verification, and owner. Sequence enabling work before dependent interface changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Priorities are decisions with expiry dates. Revisit them when evidence, exposure, policy, capacity, or consequence changes. After action, verify the original finding was reduced rather than merely that a ticket closed."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: payment recovery",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: payment recovery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A rare keyboard trap before payment may outrank a frequently disliked heading because it completely blocks a population. A repeated validation defect may come next because repairing a shared component removes several failures. A proposed redesign may be high effort and low confidence; the right next action is a smaller prototype, not automatic deferral or full implementation."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Effort-first roadmap: easy work crowds out consequential work. Frequency worship: majority inconvenience erases minority exclusion or severe harm. Solution scoring: attractive features are ranked before problems and mechanisms are understood. Single-number theatre: assumptions and contested values disappear into decimals."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No containment: teams wait for perfect diagnosis while people remain exposed. Local ownership: screen fixes proceed while policy and operational causes remain untouched. Closed-ticket success: delivery is measured without verifying the finding or outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn a finding into a risk and action decision",
+      "mood": "curious",
+      "text": "What changes when we look at turn a finding into a risk and action decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Consequence considers safety, lost progress, financial or privacy harm, exclusion, recovery cost, staff burden, and strategic risk. Confidence distinguishes direct repeated evidence from one ambiguous observation. Reach is not allowed to erase a rare catastrophic failure. Effort includes policy, data, operations, migration, and maintenance—not development estimates alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritisation happens with outcome and guardrails visible. Some findings require immediate mitigation before full explanation; others need more research; some can be grouped under a systemic cause; some are accepted with rationale and monitoring. The team avoids multiplying arbitrary scores that create false precision. Deliberation and accountable ownership remain visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: ecommerce returns",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: ecommerce returns?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Several small errors around labels, receipt, and support may share one ambiguous return-state model. Prioritising by isolated screen effort creates churn; grouping by causal system can produce a larger but more valuable intervention."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritisation is governance and ethics, not backlog administration. Senior practitioners make participation visible, especially whose account of consequence counts. Engineering effort, frontline burden, business exposure, and lived harm are seen by different people. They document disagreement and escalation rules rather than claiming consensus through arithmetic."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Protect capacity for accessibility, reliability, recovery, and research debt. These often lose feature competitions despite determining whether the service deserves trust. Use portfolio limits so urgent discoveries can displace lower-value work, and make the cost of not acting explicit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a prescription-order form. One finding is a misaligned icon; another is that people cannot tell whether an order was submitted. Prioritisation considers frequency, consequence, confidence in the evidence, and repair effort."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The second issue may deserve earlier action even if fewer participants encountered it, because a mistaken duplicate or missed order has a higher cost."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Inspect a public product backlog, changelog, or redesign. Which visible changes appear easy rather than consequential? Identify one reliability, accessibility, recovery, or policy issue that may be invisible in the release narrative and what evidence would justify prioritising it."
+    }
+  ]
+}

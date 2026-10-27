@@ -1,0 +1,202 @@
+{
+  "lesson": "UX-094",
+  "title": "Design the System, Not Just the Screen",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Design the System, Not Just the Screen."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A library app displays a “Renew” button, but the borrowing rules, waiting list, inventory record, and staff exceptions disagree about whether renewal is allowed. The screen cannot settle that contradiction by looking clearer. This lesson moves from visible controls to the connected models that make their promises true."
+    },
+    {
+      "speaker": "host",
+      "act": "A screen is a projection of connected models",
+      "mood": "curious",
+      "text": "What changes when we look at a screen is a projection of connected models?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "System-level experience design coordinates:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "goal and scenario model: people, contexts, desired progress, and constraints; conceptual model: objects, relationships, actions, and language people use to predict behaviour; information model: content types, metadata, source, lifecycle, search, and hierarchy; state model: every meaningful condition and permitted transition; interaction model: tasks, commands, feedback, error prevention, and recovery; permission and authority model: who may view, propose, decide, publish, act, correct, and appeal; service model: people, processes, policies, queues, capacity, and handoffs; technical/data model: systems of record, integrations, events, latency, failure, privacy, and security; measurement model: outcomes, diagnostics, guardrails, and learning; governance model: owners, standards, exceptions, incidents, and change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When these models conflict, visual polish hides unpredictability. A button labelled “Book” cannot compensate for a backend that only requests a slot. A “verified” badge cannot compensate for unknown provenance."
+    },
+    {
+      "speaker": "host",
+      "act": "Begin with objects, states, and transitions",
+      "mood": "thinking",
+      "text": "What changes when we look at begin with objects, states, and transitions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each object define:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "identity and ownership; attributes and source; possible states and who can change them; rules and permissions; relationships to other objects; timestamps, expiry, and version; failure, conflict, and recovery; representation across channels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A state is meaningful when it changes what someone knows or can do. “Pending” is too vague if it combines waiting for a borrower's response, a staff check, an inventory update, or approval of a renewal. State names should support action and accountability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a transition table: current state, event, precondition, actor, next state, feedback, side effect, failure state, undo/recovery, and audit. This becomes a bridge between interface, content, engineering, operations, and measurement."
+    },
+    {
+      "speaker": "host",
+      "act": "Design boundary and failure states first-class",
+      "mood": "curious",
+      "text": "What changes when we look at design boundary and failure states first-class?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Test:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "no eligible or confirmed option; missing, stale, conflicting, or malicious data; unauthorised edit and permission change; request assigned to the wrong clinic role; slow, offline, or inaccessible channel; duplicate, late, or out-of-order integration event; clinic closes or leaves the service; patient uses a proxy or switches channel; staff capacity is unavailable; partial action or rollback; source suppression after incident; returning later after the state changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Exceptions reveal the conceptual model. If every exception needs a local workaround, the object, authority, or state model may be wrong. Do not hide system ambiguity in generic error copy."
+    },
+    {
+      "speaker": "host",
+      "act": "Consistency is predictability, not identical screens",
+      "mood": "thinking",
+      "text": "What changes when we look at consistency is predictability, not identical screens?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Channels can adapt to context while preserving the same terms, state semantics, decision authority, and recovery promise. A phone agent may narrate evidence; a screen-reader interface may announce changes; a dashboard may compare many records. All must agree on what “confirmed” means and what action has actually occurred."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use shared components where behaviour truly repeats. A design system cannot solve incompatible service states; it can only render the incompatibility consistently."
+    },
+    {
+      "speaker": "host",
+      "act": "Prototype the riskiest connections",
+      "mood": "curious",
+      "text": "What changes when we look at prototype the riskiest connections?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose fidelity by uncertainty:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "diagram objects and states before visual detail; storyboard handoffs and time; service-role-play queue and authority; use data prototypes for source/conflict behaviour; use interactive prototypes for mental model and task; integrate a thin vertical slice for cross-system reliability; rehearse incident and fallback before exposure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test with realistic data, latency, missingness, and failure. A perfect scripted source set cannot evaluate whether the product handles uncertainty."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: ecommerce availability",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: ecommerce availability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A checkout screen says an item is in stock, but inventory, warehouse reservation, payment, substitution, and fulfilment have separate states. Designing the system means distinguishing available, reserving, reserved, backordered, substituted, dispatched, and failed—with feedback and recovery across customer, support, and warehouse channels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A polished “Order confirmed” page is harmful if stock was never reserved."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hero-screen design: the signature surface is polished while entry, exit, and recovery are undefined. State compression: one label combines conditions with different actions or owners. Channel divergence: people and staff see incompatible status or history. Component confidence: reusable UI masks an incoherent object or service model."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Frontstage-only scope: queues, policies, staff, data ownership, and capacity remain assumptions. Exception patching: local workarounds accumulate rather than revising the conceptual model. System-of-record ambiguity: several tools can change truth without reconciliation. Invisible owner: failure crosses boundaries and nobody can restore the end-to-end outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior designers work at multiple representations and know which one unlocks the current decision. They translate user evidence into objects, states, authority, operations, and measures without turning experience into technical determinism."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They use exceptions to challenge the system boundary and insist that cross-channel coherence is an organisational responsibility, not merely a consistency guideline."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a library lending service. The app can show “renew,” but the action depends on borrowing rules, waiting lists, inventory state, notifications, and staff exceptions. Map the objects, states, handoffs, and owners before refining the button. A clean screen cannot rescue a promise the underlying system cannot keep."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a confirmation in a product and trace the underlying object across customer screen, email, support, and external service. Do all channels agree on its state and authority? Find one generic word—pending, processed, verified, booked—that hides several transitions. Naming those states exposes the real design work."
+    }
+  ]
+}

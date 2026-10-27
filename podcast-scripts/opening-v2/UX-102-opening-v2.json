@@ -1,0 +1,151 @@
+{
+  "lesson": "UX-102",
+  "title": "Interruptions, Resumption, and Preserving Context",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Interruptions, Resumption, and Preserving Context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attention is not continuous. People are interrupted by notifications, other people, weak connectivity, fatigue, and the task itself. After an interruption, working memory no longer reliably contains the prior state. A resilient interface preserves context so the person can answer three questions quickly: where was I, what happened, and what can I do next?"
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Save meaningful progress, expose current status, keep a history of consequential actions, and make pending commitments unmistakable. If data is not saved, say so before the interruption becomes expensive. For long tasks, chunk work into recoverable milestones; for asynchronous tasks, use notifications that carry enough context to resume without starting a detective story."
+    },
+    {
+      "speaker": "host",
+      "act": "Design a resumption scaffold",
+      "mood": "thinking",
+      "text": "What changes when we look at design a resumption scaffold?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interruptions make people reconstruct goal, position, prior decisions, and next action. Preserve draft state, selection, filters, scroll, history, and meaningful timestamp. On return, show what changed, what remains incomplete, and the safest next step. Avoid resetting forms or presenting a generic home page after authentication."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Distinguish self-interruption, external interruption, system delay, and channel handoff. Each needs different support. Save automatically where safe, communicate save state, and protect sensitive information on shared devices. For long processes, provide a durable reference and realistic expiry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design notification timing and urgency to avoid causing unnecessary interruption. Batch low-value updates and give control. Test resume after minutes and days, on another device, after session timeout, and with changed underlying data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A loan application times out while a person retrieves evidence. The service preserves verified fields, clearly identifies expired information, explains why re-authentication is needed, and returns to the pending document rather than step one. Resumption protects effort without pretending security conditions are unchanged."
+    },
+    {
+      "speaker": "host",
+      "act": "Why interruption changes performance",
+      "mood": "curious",
+      "text": "What changes when we look at why interruption changes performance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Before an interruption, people hold a goal, a position in the sequence, unresolved subgoals, and details needed for the next action. Attention shifts before this state is safely encoded. On return, there is a resumption lag: the person must recognise the task, reconstruct what was done, and decide whether the world changed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Prospective memory—the need to remember an intended future action—is particularly fragile when the product provides no external cue."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: writing an expense claim",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: writing an expense claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An employee may pause to find a receipt, switch device to photograph it, and return after a manager changes the cost centre. A resilient flow preserves the draft, identifies the changed field, and asks for reconciliation. A wizard that merely remembers page three can still lose the actual decision context."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the resume surface around changed reality",
+      "mood": "curious",
+      "text": "What changes when we look at design the resume surface around changed reality?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Autosave is a state machine, not an icon. Local changes can be unsaved, saving, stored locally, stored on server, conflicted, expired, or submitted. Each has different privacy and recovery. The interface shows the last durable state and never calls a draft submitted. A request identifier and event history support service-side resumption after uncertain transmission."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests an interrupted journey by deliberately changing time, device, actor, connectivity, and service state. It observes reorientation, wrong repeated action, abandoned work, and understanding of change. Recovery is measured through the whole outcome, not whether the application reopened the right page."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: travel booking",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: travel booking?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A fare search resumed hours later must distinguish saved preferences from live price and inventory. Restoring the old screen without refreshing consequence creates continuity of pixels and discontinuity of truth."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Resumption depends on data models, authentication, versioning, notification, and service state. Treat it as architecture. A designer who adds “Save draft” without defining ownership, retention, conflict, privacy, and expiry has only named the problem."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person begins a travel rebooking flow, receives a phone call, returns twenty minutes later, and cannot tell whether their seat was held, their payment was submitted, or which option they had compared. The interaction did not fail at the button; it failed at resumption."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Leave a multi-step product halfway through and return later through a notification or another device. Record what helps you reconstruct intention and what you must rediscover."
+    }
+  ]
+}

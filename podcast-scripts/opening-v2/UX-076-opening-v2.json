@@ -1,0 +1,176 @@
+{
+  "lesson": "UX-076",
+  "title": "Accessible Content and Visuals",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Accessible Content and Visuals."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessible content is not a duplicate textual layer attached after visual design. It is information designed so its purpose and relationships remain perceivable and understandable through varied senses, technologies, languages, and conditions."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve purpose, structure, and consequence",
+      "mood": "curious",
+      "text": "What changes when we look at preserve purpose, structure, and consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use semantic structure—page title, landmarks, headings, lists, tables, labels, instructions, and relationships—rather than relying on size and position. Reading order should follow task meaning when CSS and spatial layout are removed. Link text should identify destination or purpose in context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not use colour as the only cue. Combine it with visible text, shape, pattern, icon, or position, and ensure those alternatives are also programmatically available. Contrast supports perception, but passing a contrast ratio cannot rescue tiny type, dense layout, glare, poor hierarchy, or confusing content."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Text alternatives depend on purpose:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "decorative images usually need to be ignored by assistive technology; functional images need an accessible name describing the action; informative images need the information they uniquely convey; complex diagrams may need a concise alternative plus structured detail, data table, or adjacent explanation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Image of chart” inventories an object but does not communicate its conclusion. Repeating a visible caption creates noise."
+    },
+    {
+      "speaker": "host",
+      "act": "Design meaning across transformations",
+      "mood": "thinking",
+      "text": "What changes when we look at design meaning across transformations?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Run transformation checks:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "remove colour—do statuses and selection survive? remove images—does essential instruction remain? remove sound—are speech and alerts captioned or otherwise available? remove spatial layout—does source and reading order still make sense? enlarge text and reflow—do relationships and actions remain usable? pause motion—does information persist and control remain?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "translate—do labels, lengths, grammar, and cultural assumptions hold? simplify language—are material details preserved rather than omitted?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plain language reduces unnecessary cognitive demand: familiar words, concrete verbs, informative headings, short purposeful sentences, and explanations near decisions. It does not mean childish tone or removal of medical consequence. Define essential specialist terms and layer detail so people can inspect it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: financial chart",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: financial chart?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A red line falling below a green line may indicate loss visually. Accessible presentation names series, labels important values, explains the period and conclusion, provides underlying data, and avoids assuming that “up” is always good. Alternative text should convey the decision-relevant relationship, not every pixel."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Colour-only state: hue carries success, error, or selection. Pixel-inventory alternative: appearance is described without information or purpose. Visual-order dependence: non-visual reading separates labels, values, and actions. Plain-language deletion: brevity removes risks or conditions needed for informed choice."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Placeholder accessibility: sample copy passes while real data and translation break layout. Separate accessible version: a neglected alternative receives different content or outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve meaning across sensory and language conditions",
+      "mood": "curious",
+      "text": "What changes when we look at preserve meaning across sensory and language conditions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Readable content uses clear structure, descriptive headings, meaningful link text, plain language appropriate to the audience, and explanations for necessary clinical terms. Text must survive zoom, reflow, custom spacing, translation, and high contrast. Instructions do not depend on “the green button on the right,” and error identification is specific enough to recover."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Accessible content needs governance. Build required fields, status semantics, alternatives, heading rules, contrast tokens, reflow behaviour, and translation tolerance into the content model and design system. Editorial workflows should prevent publication when essential alternatives are absent. Procurement must cover third-party charts, media, and documents."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Test content changes as product changes."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve meaning beyond one visual treatment",
+      "mood": "curious",
+      "text": "What changes when we look at preserve meaning beyond one visual treatment?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Visual simplification cannot remove uncertainty or clinical distinction. Text alternatives depend on purpose; decorative images are ignored, informative diagrams have equivalent explanation, and charts expose underlying values. Content is tested at 400% zoom, high contrast, translated length, screen-reader navigation, and custom text spacing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a weather alert. A red warning card is prominent to some readers but ambiguous to others and silent to a screen reader if the status is only visual. Pair colour with words and structure; make the warning readable at zoom; ensure it is announced at the right time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Test whether people understand the risk and next action, not merely whether the palette passes a contrast checker."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find one interface where status depends on colour, position, or icon. Describe the meaning aloud without referencing appearance. If that is difficult, the information model—not only the styling—needs work."
+    }
+  ]
+}

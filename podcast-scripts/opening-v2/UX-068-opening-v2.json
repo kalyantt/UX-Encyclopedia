@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-068",
+  "title": "The Overall Evaluation Criterion",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "The Overall Evaluation Criterion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An Overall Evaluation Criterion (OEC) is the metric or interpretable combination of metrics used to decide whether a treatment is beneficial in a controlled experiment. It should be measurable and attributable during the experiment while being predictive of longer-term objectives."
+    },
+    {
+      "speaker": "host",
+      "act": "The OEC is a decision rule, not a magic score",
+      "mood": "curious",
+      "text": "What changes when we look at the oec is a decision rule, not a magic score?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The tension is fundamental. Long-term value may take months or occur offline; experiment decisions need timely, sensitive measures. Teams therefore use surrogate measures based on a causal belief. That belief must be validated over time. A sensitive click measure is useless if it has a weak relationship to enduring value."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A perfect long-term outcome is operationally useless if no experiment can detect it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An OEC can be a single metric, a composite, or a primary outcome interpreted with guardrails. Whatever the form, retain components so trade-offs remain visible. A mathematically improved composite can conceal that one group experienced serious harm."
+    },
+    {
+      "speaker": "host",
+      "act": "Construct the criterion",
+      "mood": "thinking",
+      "text": "What changes when we look at construct the criterion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. State the long-term objective and value exchange for each affected party. 2. Draw the behavioural and causal model from lesson 67. 3. Identify short-term measures expected to predict the objective. 4. Test measurability, attribution, sensitivity, timeliness, robustness, and gameability. 5. Define guardrails and non-compensable stop conditions. 6."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Specify population, unit, horizon, minimum meaningful effect, and decision rule. 7. Back-test against past changes and continue validating the surrogate relationship."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask how the criterion could be gamed. Time spent can rise because content is engaging or navigation is confusing. Revenue can rise through higher prices while lifetime value falls. “No-result searches” can decline if the system returns irrelevant results. Constrain activity with quality and downstream outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: a reading product",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: a reading product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Time spent is sensitive and easy to move, but harder stopping and confusing navigation can increase it. A stronger criterion might combine meaningful reading completion and return with comprehension or satisfaction evidence, while guarding against accidental autoplay, late-night overuse, and cancellation difficulty. The criterion reflects durable value, not maximum consumption."
+    },
+    {
+      "speaker": "host",
+      "act": "Resolve conflicting signals",
+      "mood": "thinking",
+      "text": "What changes when we look at resolve conflicting signals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write conflict rules before results arrive. If the primary improves and a guardrail crosses its threshold, stop or investigate. If the primary is neutral but a severe harm improves, the change may still deserve consideration under a different objective—but do not call it a primary win."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If segments move in opposite directions, examine mechanism and consequence rather than hiding them in the average."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The OEC should be stable enough to compare experiments, yet revisable when strategy or evidence changes. Version changes and preserve historical interpretation. Loyalty to a misleading metric is not scientific consistency."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Single-number worship: component conflict and affected groups disappear. Short-horizon capture: immediate conversion substitutes for enduring value. Post-hoc criterion: metrics are chosen after seeing which ones moved. Compensating harm: serious safety or equity failures are averaged away. Surrogate faith: the link to long-term outcome is assumed forever."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Denominator gaming: eligibility changes make performance look better."
+    },
+    {
+      "speaker": "host",
+      "act": "Make the criterion govern real trade-offs",
+      "mood": "thinking",
+      "text": "What changes when we look at make the criterion govern real trade-offs?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The criterion is decomposed into measurable dimensions while preserving tension: appropriateness, completion, elapsed time, comprehension, effort, equity, safety, and operational sustainability. No single proxy owns the outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team records whose perspective each measure represents and where optimisation could create harm—for example, reducing average wait by excluding complex referrals."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The OEC is governance expressed as measurement. It answers whose value counts, which time horizon matters, and what harm is unacceptable. Designers should participate because an optimisation criterion shapes the experience more persistently than an individual screen."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Publish the assumptions internally, monitor incentives, and give safety, accessibility, and ethics owners authority over relevant stop conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a bus ticket app. The team considers the overall evaluation criterion for a change to seat selection. More purchases alone is too narrow if passengers cannot board with the resulting ticket. A stronger criterion links successful booking to valid tickets, manageable support demand, and an experience that works for people with different access needs."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a product whose apparent goal is engagement. Invent one design that improves its likely OEC while harming users. What component, guardrail, or decision rule would expose the manipulation?"
+    }
+  ]
+}

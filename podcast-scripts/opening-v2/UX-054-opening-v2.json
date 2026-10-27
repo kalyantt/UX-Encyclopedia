@@ -1,0 +1,186 @@
+{
+  "lesson": "UX-054",
+  "title": "System Metrics and Evangelism",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "System Metrics and Evangelism."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "System metrics should connect usage to outcomes: consistency, accessibility, defect reduction, delivery confidence, maintenance cost, and customer experience. Adoption and coverage are useful diagnostics, but they do not prove the system helped people use the product better."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evangelism means making the system’s value visible through examples, support, documentation, stories, and evidence. Listen to friction in adoption; it may reveal a missing capability, weak documentation, or a governance problem rather than resistance to change."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect system activity to product outcomes",
+      "mood": "thinking",
+      "text": "What changes when we look at connect system activity to product outcomes?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A design system has a causal chain, whether or not the team writes it down. Investment produces foundations, components, guidance, tooling, support, and governance. Teams discover and adopt them. Repeated decisions and defects should then decrease, delivery should become more predictable, and customer experience should become more coherent and accessible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metrics are useful when they test links in this chain; a download count by itself tests almost nothing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attribution requires care. A reduction in support contacts after the new status family may result from clinic staffing, policy changes, or better notifications rather than the component alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team uses before-and-after evidence, comparable journeys, qualitative reports, and defect tracing to make a bounded claim: the system contributed to improvement through named mechanisms. It does not claim that the library “increased conversion” without a defensible link."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evangelism then becomes evidence-sharing rather than promotion. A useful case study starts with the product problem, shows the old repeated work, explains the shared decision, reports benefits and costs, and names the conditions under which another team should adopt it. Negative findings are included."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If a migration was expensive or a pattern failed in a particular domain, hiding that information makes future adoption less intelligent."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: misleading adoption",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: misleading adoption?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A company reports that 80% of screens use its button component. Teams still override focus states, invent new action hierarchy, and remain on five incompatible versions. The headline adoption figure conceals poor fidelity and high fragmentation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Measuring supported-version coverage, overrides, defects, and task outcomes reveals whether reuse is creating value or merely a recognisable aesthetic."
+    },
+    {
+      "speaker": "host",
+      "act": "Measure customer and team value",
+      "mood": "thinking",
+      "text": "What changes when we look at measure customer and team value?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Adoption alone is ambiguous. A component can be widely used because it is mandatory while teams work around it. Combine coverage and reuse with implementation time, defects, accessibility, consistency, upgrade effort, support themes, contribution flow, documentation success, and product-team satisfaction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Connect system measures to customer outcomes where possible: fewer interaction inconsistencies, reliable keyboard behaviour, clearer errors, faster remediation, and more coherent cross-product journeys. Use audits and sampled journeys rather than claiming causality from component count."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evangelism should demonstrate solved work. Share before-and-after evidence, migration paths, office hours, and transparent roadmaps. Listen to resistance as research; it may reveal missing capability or misaligned incentives. Sustainable adoption comes from trust in quality and support, not internal marketing alone."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid vanity metrics. Pair internal efficiency measures with customer-facing quality and guardrails so the system does not optimise shipping speed at the expense of usable, inclusive interaction."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Measure the theory of value, not just uptake. Coverage and component adoption can show whether the system is used; delivery measures can show whether it reduces duplication or rework; quality measures can track accessibility defects, consistency, and regression; customer and operational measures can reveal whether common patterns improve real journeys."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Segment metrics by team, product, and component maturity so aggregate adoption does not hide areas where the system creates friction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Evangelism is product enablement. Show working examples, migration guides, decision records, office hours, support channels, and evidence from teams using the system. Listen for resistance as diagnostic evidence: people may be protecting legitimate context, missing a capability, or unable to navigate weak documentation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A system earns trust through useful service and transparent improvement, not internal marketing alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Adoption vanity metric: use of a library is presented as proof of better experience. Quality without baseline: improvements cannot be compared to prior defects or effort. Broadcast-only enablement: teams are told to adopt without support or feedback paths. Metric gaming: teams replace components to improve coverage while degrading task fit."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A system team celebrates thousands of component installs. Customers still encounter inconsistent error states. Adoption is not the same as quality."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance keeps a system coherent. Measurement tests whether that coherence matters. Module 10 widens the lens from product systems to services and operations."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Define one metric that would show a system improved product quality, not just design or engineering speed."
+    }
+  ]
+}

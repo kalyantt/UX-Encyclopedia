@@ -10,8 +10,8 @@ from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.2.zip"
-PREFIX = "UX-Encyclopedia-Offline-V7.2/"
+OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.3.zip"
+PREFIX = "UX-Encyclopedia-Offline-V7.3/"
 
 
 def source(name: str) -> str:

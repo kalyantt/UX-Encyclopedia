@@ -1,0 +1,217 @@
+{
+  "lesson": "UX-090",
+  "title": "Design for Long-Term Value",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Design for Long-Term Value."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Long-term value exists when a product repeatedly enables meaningful progress while sustaining the people, operations, partners, infrastructure, and social conditions required to deliver it. It is not retention at any cost. Continued use may reflect value, lock-in, dependency, lack of alternatives, or obstructed exit."
+    },
+    {
+      "speaker": "host",
+      "act": "Long-term value is a system relationship",
+      "mood": "curious",
+      "text": "What changes when we look at long-term value is a system relationship?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Examine the full relationship:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "discovery and acquisition; onboarding and initial commitment; repeated use and changing expertise; notifications, habits, and attention; service operations and partner work; failure, support, and recovery; policy, price, model, and feature change; renewal, migration, data portability, and exit; maintenance, security, accessibility, and retirement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Short-term optimisation often excludes costs outside the metric window. A faster referral can increase rejection downstream. A verification target can reward superficial confirmation. A personalised default can narrow choice. A frictionless subscription can create later cancellation harm."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a value-and-burden model",
+      "mood": "thinking",
+      "text": "What changes when we look at build a value-and-burden model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each actor and horizon, record:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "desired progress and realised benefit; effort, money, time, attention, data, risk, and lost options; operational work and maintenance; distribution across groups and contexts; reversibility, recourse, and exit; dependency and feedback loop; evidence and uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use horizons such as immediate, repeated use, seasonal or annual change, and retirement. The purpose is not to predict every future. It is to reveal costs the current metric makes invisible and decide what to monitor."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Value should be mutual but not falsely symmetrical. Organisations need viable economics and operations; people need a product that serves their goal without exploitation. Partners and staff should not subsidise an attractive user experience through hidden unsustainable labour."
+    },
+    {
+      "speaker": "host",
+      "act": "Pair outcomes with diagnostics and guardrails",
+      "mood": "curious",
+      "text": "What changes when we look at pair outcomes with diagnostics and guardrails?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A balanced measurement system distinguishes:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "outcome: the meaningful change sought; input or driver: behaviour the team believes contributes to it; diagnostic: explains where and how performance changes; guardrail: reveals unacceptable harm or degradation; countermetric: resists gaming by showing the opposing cost."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "outcome: patients reach viable appointments without avoidable information failure; service outcome: consequential directory facts remain current when used; diagnostics: owner coverage, source age, conflict, verification time, channel, clinic type; guardrails: access incidents, patient rerouting, coordinator backlog, confirmation without evidence, clinic withdrawal, inequity by size or region; qualitative checks: patient confidence calibration, clinic workload, staff workaround, and recovery experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Metrics require interpretation. A fall in reports might mean quality improved or reporting became harder. Longer verification time might mean worse efficiency or more responsible checking. Triangulate behaviour, outcome, operations, research, and incidents."
+    },
+    {
+      "speaker": "host",
+      "act": "Design change as part of the relationship",
+      "mood": "thinking",
+      "text": "What changes when we look at design change as part of the relationship?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Products change terms, features, algorithms, prices, data use, and service levels. Surprise can destroy accumulated trust even when the new state is locally usable. For material changes:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "explain what changes, why, when, and who is affected; distinguish required service change from optional adoption; preserve meaningful choice and migration time where possible; show data, permission, and outcome implications; provide rollback, export, support, or recourse; monitor downstream burden and unintended exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not use a broad terms update to legitimise a relationship the person would not recognise."
+    },
+    {
+      "speaker": "host",
+      "act": "Include maintenance and retirement in the product case",
+      "mood": "curious",
+      "text": "What changes when we look at include maintenance and retirement in the product case?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every feature creates future work: content and data upkeep, accessibility regression, dependency updates, security, support, monitoring, training, policy, and eventual removal. Initial build cost is often the smallest part of its lifetime burden."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define ownership and service level before expansion. A feature without a credible maintenance path is borrowing quality from future users and teams. Retirement should preserve active cases, records, communication, and alternatives; it is not merely deleting code."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription growth",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: subscription growth?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Hiding cancellation can improve short-term retention while increasing support, chargebacks, resentment, regulatory risk, and negative word of mouth. Durable value measures willing renewal, successful use, transparent change, cancellation completion, save-offer acceptance without coercion, and return after fair exit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A person who can leave may trust the relationship enough to return."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Quarterly tunnel vision: immediate activation or conversion becomes the complete value model. Retention equivalence: continued use is assumed to mean benefit rather than lock-in or dependency. Externalised burden: staff, partner, environmental, community, or future-team cost disappears."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Goodhart pressure: targets change behaviour until the measure no longer represents the outcome. Equity lag: average benefit hides delayed burden on lower-capacity groups. Maintenance denial: expansion is funded while upkeep, incident response, and retirement are not. Change surprise: a material shift invalidates the relationship people understood."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No exit design: leaving, exporting, or recovering is intentionally difficult."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners identify which metric can improve while the real experience deteriorates. They negotiate longer observation windows, countermetrics, segment views, qualitative review, and maintenance budgets."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They connect ethical agency to product economics: coercion, hidden burden, and fragile operations are not external concerns; they are evidence that value is being overstated."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also recognise when to stop scaling. A promising intervention should remain bounded until the organisation can sustain its benefits across representative contexts and time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a repair marketplace. A new reminder raises bookings this month but also increases cancellations and no-shows. Long-term value requires looking at successful repairs, provider workload, repeat trust, and the cost of reminders. The best short-term conversion tactic may be a poor product decision if it damages the service people return to."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a product tactic that improves conversion, engagement, retention, or automation. Trace what happens after the measured event: support, repeated attention, staff work, trust, exclusion, renewal, and exit. Ask which cost falls outside the dashboard and who pays it. That externalised burden is part of the design even when the interface never shows it."
+    }
+  ]
+}

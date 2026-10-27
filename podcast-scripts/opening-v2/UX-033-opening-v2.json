@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-033",
+  "title": "Personas That Earn Their Keep",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Personas That Earn Their Keep."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Personas are evidence-based behavioural archetypes. They consolidate patterns in goals, motivations, skills, constraints, contexts, and decision strategies so a team can design for recognisable needs rather than an imaginary average user. Demographics matter only when they materially affect the activity or access needs."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A useful persona has a clear purpose: support prioritisation, scenario writing, content decisions, or evaluation. It includes evidence and limitations, avoids stereotype, and is updated when learning changes. It should never replace direct contact with real people."
+    },
+    {
+      "speaker": "host",
+      "act": "Use and governance",
+      "mood": "thinking",
+      "text": "What changes when we look at use and governance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "In planning, each proposed direction states which strategy it supports and who may be burdened. In critique, designers walk the same scenario with all three strategies. In recruitment, the model supplies behavioral criteria but not a quota claiming population prevalence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "In measurement, the team looks for observable conditions such as assisted action or comparison behavior rather than attempting to infer a persona identity from private data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The archetypes carry a version, evidence date, source studies, owner, and expiry trigger. If transfer rules, audience, or service channels change, the model is reviewed. New evidence can split a strategy or show that a situational job model is more appropriate. Personas never overrule a real participant who contradicts them; the contradiction is material for revising the model."
+    },
+    {
+      "speaker": "host",
+      "act": "Model behaviour that changes design",
+      "mood": "curious",
+      "text": "What changes when we look at model behaviour that changes design?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Create personas only when stable differences in goals, knowledge, behaviour, context, capability, or constraints lead to different product decisions. Base them on multiple evidence sources and show range within groups. Avoid demographic decoration and fictional precision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Include scenario, desired outcome, current strategies, triggers, barriers, information needs, capability demands, and relevant relationship to the service. Connect each element to evidence. If a distinction does not affect priorities, content, workflow, or evaluation, it may not deserve a persona."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use personas in scenarios, critiques, roadmap decisions, recruitment, and measurement. Maintain provenance and review when audience or product changes. Retire personas that teams cannot use. They are decision models, not empathy posters or substitutes for continued contact with people."
+    },
+    {
+      "speaker": "host",
+      "act": "Build personas around consequential behavioural patterns",
+      "mood": "thinking",
+      "text": "What changes when we look at build personas around consequential behavioural patterns?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each persona states evidence, population boundary, variation, scenarios, accessibility and context, and decisions it should influence. It avoids averages that erase edge conditions and stereotypes that treat structural exclusion as personal deficit. When a scenario or behavioural spectrum is more precise, the team does not force a persona."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Personas have owners and review triggers. Product teams test whether they actually change requirements, content, workflow, and evaluation. If no decision depends on the distinction, the artifact is decoration."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep personas alive through decisions and evidence",
+      "mood": "curious",
+      "text": "What changes when we look at keep personas alive through decisions and evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Teams attach personas to scenario reviews, recruitment gaps, and design trade-offs. If no roadmap decision changes when a persona is applied, it is retired or rebuilt. New evidence can split, merge, or invalidate an archetype. This governance prevents memorable characters from hardening into stereotypes while preserving the behavioral patterns that improve product judgment."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Ask what decision a persona changes. If it cannot affect priority, scope, language, workflow, or evaluation, it is probably a presentation artefact rather than a design tool."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build personas from meaningful behavioural differences, not a wish to make research memorable. Define the decision they will support, identify recurring goal and strategy patterns, and show the contexts, capabilities, constraints, and triggers that distinguish one archetype from another. Include evidence, uncertainty, and the boundary of applicability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A persona is useful when it helps a team choose what to prioritise or evaluate differently."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep the persona connected to scenarios, research clips, journey evidence, and real recruitment criteria. Avoid a polished document that becomes an authority detached from people. Revisit it when the product, market, or evidence changes. In many situations, a concise behavioural segment or job-oriented model will be clearer than a traditional persona profile."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Demographic costume: name, photo, and lifestyle details stand in for behaviour. Fictional authority: a persona is invented or embellished beyond evidence. Average-user collapse: distinct strategies and access needs are combined into one character. Museum persona: the artefact is displayed but never used in a decision or test."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a budgeting app. Research reveals two recurring strategies: some people reconcile every transaction weekly; others check only when a bill is due. A persona model records these behaviours, triggers, and constraints rather than inventing names and photographs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The team uses the distinction to decide whether to prioritise scheduled review or urgent balance clarity, then checks both paths with real participants."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Insights reveal the behaviour worth designing for. Personas preserve that behaviour as a reusable decision tool. lesson 34 places it into a specific situation through scenario."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Spot a demographic-only persona and explain which goal, behaviour, and constraint are missing."
+    }
+  ]
+}

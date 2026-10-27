@@ -7,1221 +7,1221 @@ export const editorialPodcastVersions={
     "note": "Conversational episode reviewed against the revised lesson."
   },
   "UX-001": {
-    "src": "assets/audio/editorial-drafts/UX-001-editorial-draft.m4a",
-    "transcript": "podcast-UX-001-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-001-opening-v2.m4a",
+    "transcript": "podcast-UX-001-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-002": {
-    "src": "assets/audio/editorial-drafts/UX-002-editorial-draft.m4a",
-    "transcript": "podcast-UX-002-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-002-opening-v2.m4a",
+    "transcript": "podcast-UX-002-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-003": {
-    "src": "assets/audio/editorial-drafts/UX-003-editorial-draft.m4a",
-    "transcript": "podcast-UX-003-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-003-opening-v2.m4a",
+    "transcript": "podcast-UX-003-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-004": {
-    "src": "assets/audio/editorial-drafts/UX-004-editorial-draft.m4a",
-    "transcript": "podcast-UX-004-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-004-opening-v2.m4a",
+    "transcript": "podcast-UX-004-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-005": {
-    "src": "assets/audio/editorial-drafts/UX-005-editorial-draft.m4a",
-    "transcript": "podcast-UX-005-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-005-opening-v2.m4a",
+    "transcript": "podcast-UX-005-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-006": {
-    "src": "assets/audio/editorial-drafts/UX-006-editorial-draft.m4a",
-    "transcript": "podcast-UX-006-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-006-opening-v2.m4a",
+    "transcript": "podcast-UX-006-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-008": {
-    "src": "assets/audio/editorial-drafts/UX-008-editorial-draft.m4a",
-    "transcript": "podcast-UX-008-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-008-opening-v2.m4a",
+    "transcript": "podcast-UX-008-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-009": {
-    "src": "assets/audio/editorial-drafts/UX-009-editorial-draft.m4a",
-    "transcript": "podcast-UX-009-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-009-opening-v2.m4a",
+    "transcript": "podcast-UX-009-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-010": {
-    "src": "assets/audio/editorial-drafts/UX-010-editorial-draft.m4a",
-    "transcript": "podcast-UX-010-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-010-opening-v2.m4a",
+    "transcript": "podcast-UX-010-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-011": {
-    "src": "assets/audio/editorial-drafts/UX-011-editorial-draft.m4a",
-    "transcript": "podcast-UX-011-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-011-opening-v2.m4a",
+    "transcript": "podcast-UX-011-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-012": {
-    "src": "assets/audio/editorial-drafts/UX-012-editorial-draft.m4a",
-    "transcript": "podcast-UX-012-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-012-opening-v2.m4a",
+    "transcript": "podcast-UX-012-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-013": {
-    "src": "assets/audio/editorial-drafts/UX-013-editorial-draft.m4a",
-    "transcript": "podcast-UX-013-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-013-opening-v2.m4a",
+    "transcript": "podcast-UX-013-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-014": {
-    "src": "assets/audio/editorial-drafts/UX-014-editorial-draft.m4a",
-    "transcript": "podcast-UX-014-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-014-opening-v2.m4a",
+    "transcript": "podcast-UX-014-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-015": {
-    "src": "assets/audio/editorial-drafts/UX-015-editorial-draft.m4a",
-    "transcript": "podcast-UX-015-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-015-opening-v2.m4a",
+    "transcript": "podcast-UX-015-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-016": {
-    "src": "assets/audio/editorial-drafts/UX-016-editorial-draft.m4a",
-    "transcript": "podcast-UX-016-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-016-opening-v2.m4a",
+    "transcript": "podcast-UX-016-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-017": {
-    "src": "assets/audio/editorial-drafts/UX-017-editorial-draft.m4a",
-    "transcript": "podcast-UX-017-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-017-opening-v2.m4a",
+    "transcript": "podcast-UX-017-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-018": {
-    "src": "assets/audio/editorial-drafts/UX-018-editorial-draft.m4a",
-    "transcript": "podcast-UX-018-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-018-opening-v2.m4a",
+    "transcript": "podcast-UX-018-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-019": {
-    "src": "assets/audio/editorial-drafts/UX-019-editorial-draft.m4a",
-    "transcript": "podcast-UX-019-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-019-opening-v2.m4a",
+    "transcript": "podcast-UX-019-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-020": {
-    "src": "assets/audio/editorial-drafts/UX-020-editorial-draft.m4a",
-    "transcript": "podcast-UX-020-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-020-opening-v2.m4a",
+    "transcript": "podcast-UX-020-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-021": {
-    "src": "assets/audio/editorial-drafts/UX-021-editorial-draft.m4a",
-    "transcript": "podcast-UX-021-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-021-opening-v2.m4a",
+    "transcript": "podcast-UX-021-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-022": {
-    "src": "assets/audio/editorial-drafts/UX-022-editorial-draft.m4a",
-    "transcript": "podcast-UX-022-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-022-opening-v2.m4a",
+    "transcript": "podcast-UX-022-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-023": {
-    "src": "assets/audio/editorial-drafts/UX-023-editorial-draft.m4a",
-    "transcript": "podcast-UX-023-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-023-opening-v2.m4a",
+    "transcript": "podcast-UX-023-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-024": {
-    "src": "assets/audio/editorial-drafts/UX-024-editorial-draft.m4a",
-    "transcript": "podcast-UX-024-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-024-opening-v2.m4a",
+    "transcript": "podcast-UX-024-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-025": {
-    "src": "assets/audio/editorial-drafts/UX-025-editorial-draft.m4a",
-    "transcript": "podcast-UX-025-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-025-opening-v2.m4a",
+    "transcript": "podcast-UX-025-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-026": {
-    "src": "assets/audio/editorial-drafts/UX-026-editorial-draft.m4a",
-    "transcript": "podcast-UX-026-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-026-opening-v2.m4a",
+    "transcript": "podcast-UX-026-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-027": {
-    "src": "assets/audio/editorial-drafts/UX-027-editorial-draft.m4a",
-    "transcript": "podcast-UX-027-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-027-opening-v2.m4a",
+    "transcript": "podcast-UX-027-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-028": {
-    "src": "assets/audio/editorial-drafts/UX-028-editorial-draft.m4a",
-    "transcript": "podcast-UX-028-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-028-opening-v2.m4a",
+    "transcript": "podcast-UX-028-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-029": {
-    "src": "assets/audio/editorial-drafts/UX-029-editorial-draft.m4a",
-    "transcript": "podcast-UX-029-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-029-opening-v2.m4a",
+    "transcript": "podcast-UX-029-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-030": {
-    "src": "assets/audio/editorial-drafts/UX-030-editorial-draft.m4a",
-    "transcript": "podcast-UX-030-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-030-opening-v2.m4a",
+    "transcript": "podcast-UX-030-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-031": {
-    "src": "assets/audio/editorial-drafts/UX-031-editorial-draft.m4a",
-    "transcript": "podcast-UX-031-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-031-opening-v2.m4a",
+    "transcript": "podcast-UX-031-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-032": {
-    "src": "assets/audio/editorial-drafts/UX-032-editorial-draft.m4a",
-    "transcript": "podcast-UX-032-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-032-opening-v2.m4a",
+    "transcript": "podcast-UX-032-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-033": {
-    "src": "assets/audio/editorial-drafts/UX-033-editorial-draft.m4a",
-    "transcript": "podcast-UX-033-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-033-opening-v2.m4a",
+    "transcript": "podcast-UX-033-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-034": {
-    "src": "assets/audio/editorial-drafts/UX-034-editorial-draft.m4a",
-    "transcript": "podcast-UX-034-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-034-opening-v2.m4a",
+    "transcript": "podcast-UX-034-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-035": {
-    "src": "assets/audio/editorial-drafts/UX-035-editorial-draft.m4a",
-    "transcript": "podcast-UX-035-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-035-opening-v2.m4a",
+    "transcript": "podcast-UX-035-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-036": {
-    "src": "assets/audio/editorial-drafts/UX-036-editorial-draft.m4a",
-    "transcript": "podcast-UX-036-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-036-opening-v2.m4a",
+    "transcript": "podcast-UX-036-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-037": {
-    "src": "assets/audio/editorial-drafts/UX-037-editorial-draft.m4a",
-    "transcript": "podcast-UX-037-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-037-opening-v2.m4a",
+    "transcript": "podcast-UX-037-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-038": {
-    "src": "assets/audio/editorial-drafts/UX-038-editorial-draft.m4a",
-    "transcript": "podcast-UX-038-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-038-opening-v2.m4a",
+    "transcript": "podcast-UX-038-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-039": {
-    "src": "assets/audio/editorial-drafts/UX-039-editorial-draft.m4a",
-    "transcript": "podcast-UX-039-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-039-opening-v2.m4a",
+    "transcript": "podcast-UX-039-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-040": {
-    "src": "assets/audio/editorial-drafts/UX-040-editorial-draft.m4a",
-    "transcript": "podcast-UX-040-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-040-opening-v2.m4a",
+    "transcript": "podcast-UX-040-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-041": {
-    "src": "assets/audio/editorial-drafts/UX-041-editorial-draft.m4a",
-    "transcript": "podcast-UX-041-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-041-opening-v2.m4a",
+    "transcript": "podcast-UX-041-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-042": {
-    "src": "assets/audio/editorial-drafts/UX-042-editorial-draft.m4a",
-    "transcript": "podcast-UX-042-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-042-opening-v2.m4a",
+    "transcript": "podcast-UX-042-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-043": {
-    "src": "assets/audio/editorial-drafts/UX-043-editorial-draft.m4a",
-    "transcript": "podcast-UX-043-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-043-opening-v2.m4a",
+    "transcript": "podcast-UX-043-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-044": {
-    "src": "assets/audio/editorial-drafts/UX-044-editorial-draft.m4a",
-    "transcript": "podcast-UX-044-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-044-opening-v2.m4a",
+    "transcript": "podcast-UX-044-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-045": {
-    "src": "assets/audio/editorial-drafts/UX-045-editorial-draft.m4a",
-    "transcript": "podcast-UX-045-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-045-opening-v2.m4a",
+    "transcript": "podcast-UX-045-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-046": {
-    "src": "assets/audio/editorial-drafts/UX-046-editorial-draft.m4a",
-    "transcript": "podcast-UX-046-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-046-opening-v2.m4a",
+    "transcript": "podcast-UX-046-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-047": {
-    "src": "assets/audio/editorial-drafts/UX-047-editorial-draft.m4a",
-    "transcript": "podcast-UX-047-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-047-opening-v2.m4a",
+    "transcript": "podcast-UX-047-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-048": {
-    "src": "assets/audio/editorial-drafts/UX-048-editorial-draft.m4a",
-    "transcript": "podcast-UX-048-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-048-opening-v2.m4a",
+    "transcript": "podcast-UX-048-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-049": {
-    "src": "assets/audio/editorial-drafts/UX-049-editorial-draft.m4a",
-    "transcript": "podcast-UX-049-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-049-opening-v2.m4a",
+    "transcript": "podcast-UX-049-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-050": {
-    "src": "assets/audio/editorial-drafts/UX-050-editorial-draft.m4a",
-    "transcript": "podcast-UX-050-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-050-opening-v2.m4a",
+    "transcript": "podcast-UX-050-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-051": {
-    "src": "assets/audio/editorial-drafts/UX-051-editorial-draft.m4a",
-    "transcript": "podcast-UX-051-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-051-opening-v2.m4a",
+    "transcript": "podcast-UX-051-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-052": {
-    "src": "assets/audio/editorial-drafts/UX-052-editorial-draft.m4a",
-    "transcript": "podcast-UX-052-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-052-opening-v2.m4a",
+    "transcript": "podcast-UX-052-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-053": {
-    "src": "assets/audio/editorial-drafts/UX-053-editorial-draft.m4a",
-    "transcript": "podcast-UX-053-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-053-opening-v2.m4a",
+    "transcript": "podcast-UX-053-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-054": {
-    "src": "assets/audio/editorial-drafts/UX-054-editorial-draft.m4a",
-    "transcript": "podcast-UX-054-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-054-opening-v2.m4a",
+    "transcript": "podcast-UX-054-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-055": {
-    "src": "assets/audio/editorial-drafts/UX-055-editorial-draft.m4a",
-    "transcript": "podcast-UX-055-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-055-opening-v2.m4a",
+    "transcript": "podcast-UX-055-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-056": {
-    "src": "assets/audio/editorial-drafts/UX-056-editorial-draft.m4a",
-    "transcript": "podcast-UX-056-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-056-opening-v2.m4a",
+    "transcript": "podcast-UX-056-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-057": {
-    "src": "assets/audio/editorial-drafts/UX-057-editorial-draft.m4a",
-    "transcript": "podcast-UX-057-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-057-opening-v2.m4a",
+    "transcript": "podcast-UX-057-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-058": {
-    "src": "assets/audio/editorial-drafts/UX-058-editorial-draft.m4a",
-    "transcript": "podcast-UX-058-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-058-opening-v2.m4a",
+    "transcript": "podcast-UX-058-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-059": {
-    "src": "assets/audio/editorial-drafts/UX-059-editorial-draft.m4a",
-    "transcript": "podcast-UX-059-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-059-opening-v2.m4a",
+    "transcript": "podcast-UX-059-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-060": {
-    "src": "assets/audio/editorial-drafts/UX-060-editorial-draft.m4a",
-    "transcript": "podcast-UX-060-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-060-opening-v2.m4a",
+    "transcript": "podcast-UX-060-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-061": {
-    "src": "assets/audio/editorial-drafts/UX-061-editorial-draft.m4a",
-    "transcript": "podcast-UX-061-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-061-opening-v2.m4a",
+    "transcript": "podcast-UX-061-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-062": {
-    "src": "assets/audio/editorial-drafts/UX-062-editorial-draft.m4a",
-    "transcript": "podcast-UX-062-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-062-opening-v2.m4a",
+    "transcript": "podcast-UX-062-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-063": {
-    "src": "assets/audio/editorial-drafts/UX-063-editorial-draft.m4a",
-    "transcript": "podcast-UX-063-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-063-opening-v2.m4a",
+    "transcript": "podcast-UX-063-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-064": {
-    "src": "assets/audio/editorial-drafts/UX-064-editorial-draft.m4a",
-    "transcript": "podcast-UX-064-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-064-opening-v2.m4a",
+    "transcript": "podcast-UX-064-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-065": {
-    "src": "assets/audio/editorial-drafts/UX-065-editorial-draft.m4a",
-    "transcript": "podcast-UX-065-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-065-opening-v2.m4a",
+    "transcript": "podcast-UX-065-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-066": {
-    "src": "assets/audio/editorial-drafts/UX-066-editorial-draft.m4a",
-    "transcript": "podcast-UX-066-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-066-opening-v2.m4a",
+    "transcript": "podcast-UX-066-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-067": {
-    "src": "assets/audio/editorial-drafts/UX-067-editorial-draft.m4a",
-    "transcript": "podcast-UX-067-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-067-opening-v2.m4a",
+    "transcript": "podcast-UX-067-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-068": {
-    "src": "assets/audio/editorial-drafts/UX-068-editorial-draft.m4a",
-    "transcript": "podcast-UX-068-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-068-opening-v2.m4a",
+    "transcript": "podcast-UX-068-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-069": {
-    "src": "assets/audio/editorial-drafts/UX-069-editorial-draft.m4a",
-    "transcript": "podcast-UX-069-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-069-opening-v2.m4a",
+    "transcript": "podcast-UX-069-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-070": {
-    "src": "assets/audio/editorial-drafts/UX-070-editorial-draft.m4a",
-    "transcript": "podcast-UX-070-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-070-opening-v2.m4a",
+    "transcript": "podcast-UX-070-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-071": {
-    "src": "assets/audio/editorial-drafts/UX-071-editorial-draft.m4a",
-    "transcript": "podcast-UX-071-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-071-opening-v2.m4a",
+    "transcript": "podcast-UX-071-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-072": {
-    "src": "assets/audio/editorial-drafts/UX-072-editorial-draft.m4a",
-    "transcript": "podcast-UX-072-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-072-opening-v2.m4a",
+    "transcript": "podcast-UX-072-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-073": {
-    "src": "assets/audio/editorial-drafts/UX-073-editorial-draft.m4a",
-    "transcript": "podcast-UX-073-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-073-opening-v2.m4a",
+    "transcript": "podcast-UX-073-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-074": {
-    "src": "assets/audio/editorial-drafts/UX-074-editorial-draft.m4a",
-    "transcript": "podcast-UX-074-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-074-opening-v2.m4a",
+    "transcript": "podcast-UX-074-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-075": {
-    "src": "assets/audio/editorial-drafts/UX-075-editorial-draft.m4a",
-    "transcript": "podcast-UX-075-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-075-opening-v2.m4a",
+    "transcript": "podcast-UX-075-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-076": {
-    "src": "assets/audio/editorial-drafts/UX-076-editorial-draft.m4a",
-    "transcript": "podcast-UX-076-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-076-opening-v2.m4a",
+    "transcript": "podcast-UX-076-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-077": {
-    "src": "assets/audio/editorial-drafts/UX-077-editorial-draft.m4a",
-    "transcript": "podcast-UX-077-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-077-opening-v2.m4a",
+    "transcript": "podcast-UX-077-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-078": {
-    "src": "assets/audio/editorial-drafts/UX-078-editorial-draft.m4a",
-    "transcript": "podcast-UX-078-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-078-opening-v2.m4a",
+    "transcript": "podcast-UX-078-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-079": {
-    "src": "assets/audio/editorial-drafts/UX-079-editorial-draft.m4a",
-    "transcript": "podcast-UX-079-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-079-opening-v2.m4a",
+    "transcript": "podcast-UX-079-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-080": {
-    "src": "assets/audio/editorial-drafts/UX-080-editorial-draft.m4a",
-    "transcript": "podcast-UX-080-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-080-opening-v2.m4a",
+    "transcript": "podcast-UX-080-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-081": {
-    "src": "assets/audio/editorial-drafts/UX-081-editorial-draft.m4a",
-    "transcript": "podcast-UX-081-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-081-opening-v2.m4a",
+    "transcript": "podcast-UX-081-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-082": {
-    "src": "assets/audio/editorial-drafts/UX-082-editorial-draft.m4a",
-    "transcript": "podcast-UX-082-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-082-opening-v2.m4a",
+    "transcript": "podcast-UX-082-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-083": {
-    "src": "assets/audio/editorial-drafts/UX-083-editorial-draft.m4a",
-    "transcript": "podcast-UX-083-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-083-opening-v2.m4a",
+    "transcript": "podcast-UX-083-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-084": {
-    "src": "assets/audio/editorial-drafts/UX-084-editorial-draft.m4a",
-    "transcript": "podcast-UX-084-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-084-opening-v2.m4a",
+    "transcript": "podcast-UX-084-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-085": {
-    "src": "assets/audio/editorial-drafts/UX-085-editorial-draft.m4a",
-    "transcript": "podcast-UX-085-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-085-opening-v2.m4a",
+    "transcript": "podcast-UX-085-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-086": {
-    "src": "assets/audio/editorial-drafts/UX-086-editorial-draft.m4a",
-    "transcript": "podcast-UX-086-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-086-opening-v2.m4a",
+    "transcript": "podcast-UX-086-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-087": {
-    "src": "assets/audio/editorial-drafts/UX-087-editorial-draft.m4a",
-    "transcript": "podcast-UX-087-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-087-opening-v2.m4a",
+    "transcript": "podcast-UX-087-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-088": {
-    "src": "assets/audio/editorial-drafts/UX-088-editorial-draft.m4a",
-    "transcript": "podcast-UX-088-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-088-opening-v2.m4a",
+    "transcript": "podcast-UX-088-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-089": {
-    "src": "assets/audio/editorial-drafts/UX-089-editorial-draft.m4a",
-    "transcript": "podcast-UX-089-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-089-opening-v2.m4a",
+    "transcript": "podcast-UX-089-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-090": {
-    "src": "assets/audio/editorial-drafts/UX-090-editorial-draft.m4a",
-    "transcript": "podcast-UX-090-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-090-opening-v2.m4a",
+    "transcript": "podcast-UX-090-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-091": {
-    "src": "assets/audio/editorial-drafts/UX-091-editorial-draft.m4a",
-    "transcript": "podcast-UX-091-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-091-opening-v2.m4a",
+    "transcript": "podcast-UX-091-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-092": {
-    "src": "assets/audio/editorial-drafts/UX-092-editorial-draft.m4a",
-    "transcript": "podcast-UX-092-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-092-opening-v2.m4a",
+    "transcript": "podcast-UX-092-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-093": {
-    "src": "assets/audio/editorial-drafts/UX-093-editorial-draft.m4a",
-    "transcript": "podcast-UX-093-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-093-opening-v2.m4a",
+    "transcript": "podcast-UX-093-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-094": {
-    "src": "assets/audio/editorial-drafts/UX-094-editorial-draft.m4a",
-    "transcript": "podcast-UX-094-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-094-opening-v2.m4a",
+    "transcript": "podcast-UX-094-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-095": {
-    "src": "assets/audio/editorial-drafts/UX-095-editorial-draft.m4a",
-    "transcript": "podcast-UX-095-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-095-opening-v2.m4a",
+    "transcript": "podcast-UX-095-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-096": {
-    "src": "assets/audio/editorial-drafts/UX-096-editorial-draft.m4a",
-    "transcript": "podcast-UX-096-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-096-opening-v2.m4a",
+    "transcript": "podcast-UX-096-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-097": {
-    "src": "assets/audio/editorial-drafts/UX-097-editorial-draft.m4a",
-    "transcript": "podcast-UX-097-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-097-opening-v2.m4a",
+    "transcript": "podcast-UX-097-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-098": {
-    "src": "assets/audio/editorial-drafts/UX-098-editorial-draft.m4a",
-    "transcript": "podcast-UX-098-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-098-opening-v2.m4a",
+    "transcript": "podcast-UX-098-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-099": {
-    "src": "assets/audio/editorial-drafts/UX-099-editorial-draft.m4a",
-    "transcript": "podcast-UX-099-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-099-opening-v2.m4a",
+    "transcript": "podcast-UX-099-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-100": {
-    "src": "assets/audio/editorial-drafts/UX-100-editorial-draft.m4a",
-    "transcript": "podcast-UX-100-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-100-opening-v2.m4a",
+    "transcript": "podcast-UX-100-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-101": {
-    "src": "assets/audio/editorial-drafts/UX-101-editorial-draft.m4a",
-    "transcript": "podcast-UX-101-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-101-opening-v2.m4a",
+    "transcript": "podcast-UX-101-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-102": {
-    "src": "assets/audio/editorial-drafts/UX-102-editorial-draft.m4a",
-    "transcript": "podcast-UX-102-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-102-opening-v2.m4a",
+    "transcript": "podcast-UX-102-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-103": {
-    "src": "assets/audio/editorial-drafts/UX-103-editorial-draft.m4a",
-    "transcript": "podcast-UX-103-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-103-opening-v2.m4a",
+    "transcript": "podcast-UX-103-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-104": {
-    "src": "assets/audio/editorial-drafts/UX-104-editorial-draft.m4a",
-    "transcript": "podcast-UX-104-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-104-opening-v2.m4a",
+    "transcript": "podcast-UX-104-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-105": {
-    "src": "assets/audio/editorial-drafts/UX-105-editorial-draft.m4a",
-    "transcript": "podcast-UX-105-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-105-opening-v2.m4a",
+    "transcript": "podcast-UX-105-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-106": {
-    "src": "assets/audio/editorial-drafts/UX-106-editorial-draft.m4a",
-    "transcript": "podcast-UX-106-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-106-opening-v2.m4a",
+    "transcript": "podcast-UX-106-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-107": {
-    "src": "assets/audio/editorial-drafts/UX-107-editorial-draft.m4a",
-    "transcript": "podcast-UX-107-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-107-opening-v2.m4a",
+    "transcript": "podcast-UX-107-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-108": {
-    "src": "assets/audio/editorial-drafts/UX-108-editorial-draft.m4a",
-    "transcript": "podcast-UX-108-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-108-opening-v2.m4a",
+    "transcript": "podcast-UX-108-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-109": {
-    "src": "assets/audio/editorial-drafts/UX-109-editorial-draft.m4a",
-    "transcript": "podcast-UX-109-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-109-opening-v2.m4a",
+    "transcript": "podcast-UX-109-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-110": {
-    "src": "assets/audio/editorial-drafts/UX-110-editorial-draft.m4a",
-    "transcript": "podcast-UX-110-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-110-opening-v2.m4a",
+    "transcript": "podcast-UX-110-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-111": {
-    "src": "assets/audio/editorial-drafts/UX-111-editorial-draft.m4a",
-    "transcript": "podcast-UX-111-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-111-opening-v2.m4a",
+    "transcript": "podcast-UX-111-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-112": {
-    "src": "assets/audio/editorial-drafts/UX-112-editorial-draft.m4a",
-    "transcript": "podcast-UX-112-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-112-opening-v2.m4a",
+    "transcript": "podcast-UX-112-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-113": {
-    "src": "assets/audio/editorial-drafts/UX-113-editorial-draft.m4a",
-    "transcript": "podcast-UX-113-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-113-opening-v2.m4a",
+    "transcript": "podcast-UX-113-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-114": {
-    "src": "assets/audio/editorial-drafts/UX-114-editorial-draft.m4a",
-    "transcript": "podcast-UX-114-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-114-opening-v2.m4a",
+    "transcript": "podcast-UX-114-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-115": {
-    "src": "assets/audio/editorial-drafts/UX-115-editorial-draft.m4a",
-    "transcript": "podcast-UX-115-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-115-opening-v2.m4a",
+    "transcript": "podcast-UX-115-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-116": {
-    "src": "assets/audio/editorial-drafts/UX-116-editorial-draft.m4a",
-    "transcript": "podcast-UX-116-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-116-opening-v2.m4a",
+    "transcript": "podcast-UX-116-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-117": {
-    "src": "assets/audio/editorial-drafts/UX-117-editorial-draft.m4a",
-    "transcript": "podcast-UX-117-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-117-opening-v2.m4a",
+    "transcript": "podcast-UX-117-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-118": {
-    "src": "assets/audio/editorial-drafts/UX-118-editorial-draft.m4a",
-    "transcript": "podcast-UX-118-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-118-opening-v2.m4a",
+    "transcript": "podcast-UX-118-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-119": {
-    "src": "assets/audio/editorial-drafts/UX-119-editorial-draft.m4a",
-    "transcript": "podcast-UX-119-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-119-opening-v2.m4a",
+    "transcript": "podcast-UX-119-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-120": {
-    "src": "assets/audio/editorial-drafts/UX-120-editorial-draft.m4a",
-    "transcript": "podcast-UX-120-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-120-opening-v2.m4a",
+    "transcript": "podcast-UX-120-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-121": {
-    "src": "assets/audio/editorial-drafts/UX-121-editorial-draft.m4a",
-    "transcript": "podcast-UX-121-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-121-opening-v2.m4a",
+    "transcript": "podcast-UX-121-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-122": {
-    "src": "assets/audio/editorial-drafts/UX-122-editorial-draft.m4a",
-    "transcript": "podcast-UX-122-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-122-opening-v2.m4a",
+    "transcript": "podcast-UX-122-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-123": {
-    "src": "assets/audio/editorial-drafts/UX-123-editorial-draft.m4a",
-    "transcript": "podcast-UX-123-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-123-opening-v2.m4a",
+    "transcript": "podcast-UX-123-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-124": {
-    "src": "assets/audio/editorial-drafts/UX-124-editorial-draft.m4a",
-    "transcript": "podcast-UX-124-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-124-opening-v2.m4a",
+    "transcript": "podcast-UX-124-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-125": {
-    "src": "assets/audio/editorial-drafts/UX-125-editorial-draft.m4a",
-    "transcript": "podcast-UX-125-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-125-opening-v2.m4a",
+    "transcript": "podcast-UX-125-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-126": {
-    "src": "assets/audio/editorial-drafts/UX-126-editorial-draft.m4a",
-    "transcript": "podcast-UX-126-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-126-opening-v2.m4a",
+    "transcript": "podcast-UX-126-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-127": {
-    "src": "assets/audio/editorial-drafts/UX-127-editorial-draft.m4a",
-    "transcript": "podcast-UX-127-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-127-opening-v2.m4a",
+    "transcript": "podcast-UX-127-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-128": {
-    "src": "assets/audio/editorial-drafts/UX-128-editorial-draft.m4a",
-    "transcript": "podcast-UX-128-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-128-opening-v2.m4a",
+    "transcript": "podcast-UX-128-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-129": {
-    "src": "assets/audio/editorial-drafts/UX-129-editorial-draft.m4a",
-    "transcript": "podcast-UX-129-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-129-opening-v2.m4a",
+    "transcript": "podcast-UX-129-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-130": {
-    "src": "assets/audio/editorial-drafts/UX-130-editorial-draft.m4a",
-    "transcript": "podcast-UX-130-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-130-opening-v2.m4a",
+    "transcript": "podcast-UX-130-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-131": {
-    "src": "assets/audio/editorial-drafts/UX-131-editorial-draft.m4a",
-    "transcript": "podcast-UX-131-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-131-opening-v2.m4a",
+    "transcript": "podcast-UX-131-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-132": {
-    "src": "assets/audio/editorial-drafts/UX-132-editorial-draft.m4a",
-    "transcript": "podcast-UX-132-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-132-opening-v2.m4a",
+    "transcript": "podcast-UX-132-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-133": {
-    "src": "assets/audio/editorial-drafts/UX-133-editorial-draft.m4a",
-    "transcript": "podcast-UX-133-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-133-opening-v2.m4a",
+    "transcript": "podcast-UX-133-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-134": {
-    "src": "assets/audio/editorial-drafts/UX-134-editorial-draft.m4a",
-    "transcript": "podcast-UX-134-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-134-opening-v2.m4a",
+    "transcript": "podcast-UX-134-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-135": {
-    "src": "assets/audio/editorial-drafts/UX-135-editorial-draft.m4a",
-    "transcript": "podcast-UX-135-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-135-opening-v2.m4a",
+    "transcript": "podcast-UX-135-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-136": {
-    "src": "assets/audio/editorial-drafts/UX-136-editorial-draft.m4a",
-    "transcript": "podcast-UX-136-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-136-opening-v2.m4a",
+    "transcript": "podcast-UX-136-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-137": {
-    "src": "assets/audio/editorial-drafts/UX-137-editorial-draft.m4a",
-    "transcript": "podcast-UX-137-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-137-opening-v2.m4a",
+    "transcript": "podcast-UX-137-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-138": {
-    "src": "assets/audio/editorial-drafts/UX-138-editorial-draft.m4a",
-    "transcript": "podcast-UX-138-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-138-opening-v2.m4a",
+    "transcript": "podcast-UX-138-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-139": {
-    "src": "assets/audio/editorial-drafts/UX-139-editorial-draft.m4a",
-    "transcript": "podcast-UX-139-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-139-opening-v2.m4a",
+    "transcript": "podcast-UX-139-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-140": {
-    "src": "assets/audio/editorial-drafts/UX-140-editorial-draft.m4a",
-    "transcript": "podcast-UX-140-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-140-opening-v2.m4a",
+    "transcript": "podcast-UX-140-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-141": {
-    "src": "assets/audio/editorial-drafts/UX-141-editorial-draft.m4a",
-    "transcript": "podcast-UX-141-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-141-opening-v2.m4a",
+    "transcript": "podcast-UX-141-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-142": {
-    "src": "assets/audio/editorial-drafts/UX-142-editorial-draft.m4a",
-    "transcript": "podcast-UX-142-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-142-opening-v2.m4a",
+    "transcript": "podcast-UX-142-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-143": {
-    "src": "assets/audio/editorial-drafts/UX-143-editorial-draft.m4a",
-    "transcript": "podcast-UX-143-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-143-opening-v2.m4a",
+    "transcript": "podcast-UX-143-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-144": {
-    "src": "assets/audio/editorial-drafts/UX-144-editorial-draft.m4a",
-    "transcript": "podcast-UX-144-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-144-opening-v2.m4a",
+    "transcript": "podcast-UX-144-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-145": {
-    "src": "assets/audio/editorial-drafts/UX-145-editorial-draft.m4a",
-    "transcript": "podcast-UX-145-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-145-opening-v2.m4a",
+    "transcript": "podcast-UX-145-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-146": {
-    "src": "assets/audio/editorial-drafts/UX-146-editorial-draft.m4a",
-    "transcript": "podcast-UX-146-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-146-opening-v2.m4a",
+    "transcript": "podcast-UX-146-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-147": {
-    "src": "assets/audio/editorial-drafts/UX-147-editorial-draft.m4a",
-    "transcript": "podcast-UX-147-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-147-opening-v2.m4a",
+    "transcript": "podcast-UX-147-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-148": {
-    "src": "assets/audio/editorial-drafts/UX-148-editorial-draft.m4a",
-    "transcript": "podcast-UX-148-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-148-opening-v2.m4a",
+    "transcript": "podcast-UX-148-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-149": {
-    "src": "assets/audio/editorial-drafts/UX-149-editorial-draft.m4a",
-    "transcript": "podcast-UX-149-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-149-opening-v2.m4a",
+    "transcript": "podcast-UX-149-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-150": {
-    "src": "assets/audio/editorial-drafts/UX-150-editorial-draft.m4a",
-    "transcript": "podcast-UX-150-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-150-opening-v2.m4a",
+    "transcript": "podcast-UX-150-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-151": {
-    "src": "assets/audio/editorial-drafts/UX-151-editorial-draft.m4a",
-    "transcript": "podcast-UX-151-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-151-opening-v2.m4a",
+    "transcript": "podcast-UX-151-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-152": {
-    "src": "assets/audio/editorial-drafts/UX-152-editorial-draft.m4a",
-    "transcript": "podcast-UX-152-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-152-opening-v2.m4a",
+    "transcript": "podcast-UX-152-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-153": {
-    "src": "assets/audio/editorial-drafts/UX-153-editorial-draft.m4a",
-    "transcript": "podcast-UX-153-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-153-opening-v2.m4a",
+    "transcript": "podcast-UX-153-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-154": {
-    "src": "assets/audio/editorial-drafts/UX-154-editorial-draft.m4a",
-    "transcript": "podcast-UX-154-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-154-opening-v2.m4a",
+    "transcript": "podcast-UX-154-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-155": {
-    "src": "assets/audio/editorial-drafts/UX-155-editorial-draft.m4a",
-    "transcript": "podcast-UX-155-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-155-opening-v2.m4a",
+    "transcript": "podcast-UX-155-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-156": {
-    "src": "assets/audio/editorial-drafts/UX-156-editorial-draft.m4a",
-    "transcript": "podcast-UX-156-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-156-opening-v2.m4a",
+    "transcript": "podcast-UX-156-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-157": {
-    "src": "assets/audio/editorial-drafts/UX-157-editorial-draft.m4a",
-    "transcript": "podcast-UX-157-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-157-opening-v2.m4a",
+    "transcript": "podcast-UX-157-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-158": {
-    "src": "assets/audio/editorial-drafts/UX-158-editorial-draft.m4a",
-    "transcript": "podcast-UX-158-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-158-opening-v2.m4a",
+    "transcript": "podcast-UX-158-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-159": {
-    "src": "assets/audio/editorial-drafts/UX-159-editorial-draft.m4a",
-    "transcript": "podcast-UX-159-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-159-opening-v2.m4a",
+    "transcript": "podcast-UX-159-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-160": {
-    "src": "assets/audio/editorial-drafts/UX-160-editorial-draft.m4a",
-    "transcript": "podcast-UX-160-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-160-opening-v2.m4a",
+    "transcript": "podcast-UX-160-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-161": {
-    "src": "assets/audio/editorial-drafts/UX-161-editorial-draft.m4a",
-    "transcript": "podcast-UX-161-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-161-opening-v2.m4a",
+    "transcript": "podcast-UX-161-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-162": {
-    "src": "assets/audio/editorial-drafts/UX-162-editorial-draft.m4a",
-    "transcript": "podcast-UX-162-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-162-opening-v2.m4a",
+    "transcript": "podcast-UX-162-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-163": {
-    "src": "assets/audio/editorial-drafts/UX-163-editorial-draft.m4a",
-    "transcript": "podcast-UX-163-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-163-opening-v2.m4a",
+    "transcript": "podcast-UX-163-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-164": {
-    "src": "assets/audio/editorial-drafts/UX-164-editorial-draft.m4a",
-    "transcript": "podcast-UX-164-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-164-opening-v2.m4a",
+    "transcript": "podcast-UX-164-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-165": {
-    "src": "assets/audio/editorial-drafts/UX-165-editorial-draft.m4a",
-    "transcript": "podcast-UX-165-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-165-opening-v2.m4a",
+    "transcript": "podcast-UX-165-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-166": {
-    "src": "assets/audio/editorial-drafts/UX-166-editorial-draft.m4a",
-    "transcript": "podcast-UX-166-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-166-opening-v2.m4a",
+    "transcript": "podcast-UX-166-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-167": {
-    "src": "assets/audio/editorial-drafts/UX-167-editorial-draft.m4a",
-    "transcript": "podcast-UX-167-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-167-opening-v2.m4a",
+    "transcript": "podcast-UX-167-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-168": {
-    "src": "assets/audio/editorial-drafts/UX-168-editorial-draft.m4a",
-    "transcript": "podcast-UX-168-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-168-opening-v2.m4a",
+    "transcript": "podcast-UX-168-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-169": {
-    "src": "assets/audio/editorial-drafts/UX-169-editorial-draft.m4a",
-    "transcript": "podcast-UX-169-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-169-opening-v2.m4a",
+    "transcript": "podcast-UX-169-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-170": {
-    "src": "assets/audio/editorial-drafts/UX-170-editorial-draft.m4a",
-    "transcript": "podcast-UX-170-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-170-opening-v2.m4a",
+    "transcript": "podcast-UX-170-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-171": {
-    "src": "assets/audio/editorial-drafts/UX-171-editorial-draft.m4a",
-    "transcript": "podcast-UX-171-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-171-opening-v2.m4a",
+    "transcript": "podcast-UX-171-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-172": {
-    "src": "assets/audio/editorial-drafts/UX-172-editorial-draft.m4a",
-    "transcript": "podcast-UX-172-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-172-opening-v2.m4a",
+    "transcript": "podcast-UX-172-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-173": {
-    "src": "assets/audio/editorial-drafts/UX-173-editorial-draft.m4a",
-    "transcript": "podcast-UX-173-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-173-opening-v2.m4a",
+    "transcript": "podcast-UX-173-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-174": {
-    "src": "assets/audio/editorial-drafts/UX-174-editorial-draft.m4a",
-    "transcript": "podcast-UX-174-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-174-opening-v2.m4a",
+    "transcript": "podcast-UX-174-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-175": {
-    "src": "assets/audio/editorial-drafts/UX-175-editorial-draft.m4a",
-    "transcript": "podcast-UX-175-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-175-opening-v2.m4a",
+    "transcript": "podcast-UX-175-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-176": {
-    "src": "assets/audio/editorial-drafts/UX-176-editorial-draft.m4a",
-    "transcript": "podcast-UX-176-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-176-opening-v2.m4a",
+    "transcript": "podcast-UX-176-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-177": {
-    "src": "assets/audio/editorial-drafts/UX-177-editorial-draft.m4a",
-    "transcript": "podcast-UX-177-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-177-opening-v2.m4a",
+    "transcript": "podcast-UX-177-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-178": {
-    "src": "assets/audio/editorial-drafts/UX-178-editorial-draft.m4a",
-    "transcript": "podcast-UX-178-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-178-opening-v2.m4a",
+    "transcript": "podcast-UX-178-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-179": {
-    "src": "assets/audio/editorial-drafts/UX-179-editorial-draft.m4a",
-    "transcript": "podcast-UX-179-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-179-opening-v2.m4a",
+    "transcript": "podcast-UX-179-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-180": {
-    "src": "assets/audio/editorial-drafts/UX-180-editorial-draft.m4a",
-    "transcript": "podcast-UX-180-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-180-opening-v2.m4a",
+    "transcript": "podcast-UX-180-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-181": {
-    "src": "assets/audio/editorial-drafts/UX-181-editorial-draft.m4a",
-    "transcript": "podcast-UX-181-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-181-opening-v2.m4a",
+    "transcript": "podcast-UX-181-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-182": {
-    "src": "assets/audio/editorial-drafts/UX-182-editorial-draft.m4a",
-    "transcript": "podcast-UX-182-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-182-opening-v2.m4a",
+    "transcript": "podcast-UX-182-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-183": {
-    "src": "assets/audio/editorial-drafts/UX-183-editorial-draft.m4a",
-    "transcript": "podcast-UX-183-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-183-opening-v2.m4a",
+    "transcript": "podcast-UX-183-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-184": {
-    "src": "assets/audio/editorial-drafts/UX-184-editorial-draft.m4a",
-    "transcript": "podcast-UX-184-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-184-opening-v2.m4a",
+    "transcript": "podcast-UX-184-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-185": {
-    "src": "assets/audio/editorial-drafts/UX-185-editorial-draft.m4a",
-    "transcript": "podcast-UX-185-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-185-opening-v2.m4a",
+    "transcript": "podcast-UX-185-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-186": {
-    "src": "assets/audio/editorial-drafts/UX-186-editorial-draft.m4a",
-    "transcript": "podcast-UX-186-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-186-opening-v2.m4a",
+    "transcript": "podcast-UX-186-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-187": {
-    "src": "assets/audio/editorial-drafts/UX-187-editorial-draft.m4a",
-    "transcript": "podcast-UX-187-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-187-opening-v2.m4a",
+    "transcript": "podcast-UX-187-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-188": {
-    "src": "assets/audio/editorial-drafts/UX-188-editorial-draft.m4a",
-    "transcript": "podcast-UX-188-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-188-opening-v2.m4a",
+    "transcript": "podcast-UX-188-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-189": {
-    "src": "assets/audio/editorial-drafts/UX-189-editorial-draft.m4a",
-    "transcript": "podcast-UX-189-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-189-opening-v2.m4a",
+    "transcript": "podcast-UX-189-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-190": {
-    "src": "assets/audio/editorial-drafts/UX-190-editorial-draft.m4a",
-    "transcript": "podcast-UX-190-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-190-opening-v2.m4a",
+    "transcript": "podcast-UX-190-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-191": {
-    "src": "assets/audio/editorial-drafts/UX-191-editorial-draft.m4a",
-    "transcript": "podcast-UX-191-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-191-opening-v2.m4a",
+    "transcript": "podcast-UX-191-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-192": {
-    "src": "assets/audio/editorial-drafts/UX-192-editorial-draft.m4a",
-    "transcript": "podcast-UX-192-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-192-opening-v2.m4a",
+    "transcript": "podcast-UX-192-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-193": {
-    "src": "assets/audio/editorial-drafts/UX-193-editorial-draft.m4a",
-    "transcript": "podcast-UX-193-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-193-opening-v2.m4a",
+    "transcript": "podcast-UX-193-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-194": {
-    "src": "assets/audio/editorial-drafts/UX-194-editorial-draft.m4a",
-    "transcript": "podcast-UX-194-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-194-opening-v2.m4a",
+    "transcript": "podcast-UX-194-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-195": {
-    "src": "assets/audio/editorial-drafts/UX-195-editorial-draft.m4a",
-    "transcript": "podcast-UX-195-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-195-opening-v2.m4a",
+    "transcript": "podcast-UX-195-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-196": {
-    "src": "assets/audio/editorial-drafts/UX-196-editorial-draft.m4a",
-    "transcript": "podcast-UX-196-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-196-opening-v2.m4a",
+    "transcript": "podcast-UX-196-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-197": {
-    "src": "assets/audio/editorial-drafts/UX-197-editorial-draft.m4a",
-    "transcript": "podcast-UX-197-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-197-opening-v2.m4a",
+    "transcript": "podcast-UX-197-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-198": {
-    "src": "assets/audio/editorial-drafts/UX-198-editorial-draft.m4a",
-    "transcript": "podcast-UX-198-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-198-opening-v2.m4a",
+    "transcript": "podcast-UX-198-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-199": {
-    "src": "assets/audio/editorial-drafts/UX-199-editorial-draft.m4a",
-    "transcript": "podcast-UX-199-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-199-opening-v2.m4a",
+    "transcript": "podcast-UX-199-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-200": {
-    "src": "assets/audio/editorial-drafts/UX-200-editorial-draft.m4a",
-    "transcript": "podcast-UX-200-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-200-opening-v2.m4a",
+    "transcript": "podcast-UX-200-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-201": {
-    "src": "assets/audio/editorial-drafts/UX-201-editorial-draft.m4a",
-    "transcript": "podcast-UX-201-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-201-opening-v2.m4a",
+    "transcript": "podcast-UX-201-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-202": {
-    "src": "assets/audio/editorial-drafts/UX-202-editorial-draft.m4a",
-    "transcript": "podcast-UX-202-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-202-opening-v2.m4a",
+    "transcript": "podcast-UX-202-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-203": {
-    "src": "assets/audio/editorial-drafts/UX-203-editorial-draft.m4a",
-    "transcript": "podcast-UX-203-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-203-opening-v2.m4a",
+    "transcript": "podcast-UX-203-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   },
   "UX-204": {
-    "src": "assets/audio/editorial-drafts/UX-204-editorial-draft.m4a",
-    "transcript": "podcast-UX-204-editorial-draft.html",
-    "version": "Draft recording",
+    "src": "assets/audio/opening-v2/UX-204-opening-v2.m4a",
+    "transcript": "podcast-UX-204-opening-v2.html",
+    "version": "Opening v2",
     "note": "Offline two-voice draft; dialogue and pronunciation review pending."
   }
 };

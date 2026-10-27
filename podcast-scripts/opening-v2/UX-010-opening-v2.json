@@ -1,0 +1,191 @@
+{
+  "lesson": "UX-010",
+  "title": "Recognition Beats Recall",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Recognition Beats Recall."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recognition is generally easier than recall. Recall asks a person to produce information from memory with few cues. Recognition presents cues that help them identify the right item. Interfaces should externalise information when possible: visible options, recent history, meaningful labels, previews, examples, and progressive disclosure reduce unnecessary memory load."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This principle does not mean every option should always be visible. Long undifferentiated lists can create a different burden. The aim is to give enough cues at the point of decision so people can identify the right action without relying on fragile memory."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked example: recall versus recognition",
+      "mood": "thinking",
+      "text": "Can you walk me through recall versus recognition?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare an empty command field labelled “Enter payee” with a search field showing recent recipients and recognisable account hints. Annotate the mental work each interaction requires."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism: cues narrow a memory search",
+      "mood": "curious",
+      "text": "How does cues narrow a memory search actually work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recall requires a person to generate an item with limited external support. Recognition presents candidates and asks whether one matches stored knowledge. The advantage depends on cue quality. A useful cue overlaps with how the person encoded the information and contains attributes that discriminate among alternatives."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A thumbnail helps only if the objects look different; a recent date helps only if recency is meaningful; an account suffix helps only if the person knows it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recognition can also produce false familiarity. Similar names, outdated history, reused icons, or a default highlighted by the system may feel known without being correct. High-consequence recognition should therefore support verification: show enough independent attributes, the current context, and the consequence before action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This resembles signal detection—designers must balance misses against false matches according to their costs rather than maximise effortless acceptance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "External memory extends beyond lists. Persistent state, annotations, history, previews, examples, breadcrumbs, and comparison views let the environment hold information that working memory would otherwise carry. The interface becomes part of the cognitive system. But externalisation introduces privacy, staleness, and clutter."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A recent clinic name on a shared screen may expose health information; a remembered choice may no longer be valid; a huge history may bury the useful cue."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Ask what the person is trying to recognise, which attributes distinguish it, how current those attributes are, and who else can see them. Then test both correct identification and plausible confusions. “Visible” is not the success condition. The cue succeeds when representative people can identify the right object for the right reason and verify it before consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Put it to work",
+      "mood": "thinking",
+      "text": "What would you do with that in a real product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Show current state, recent choices, examples, and meaningful defaults. Preserve entered information after an error. Use labels that name a real-world object or outcome rather than internal system terminology. Evaluate whether users can recover a choice after time away from the product."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Externalising memory is not just convenience; it changes operational risk. In finance, healthcare, and administration, a visible review trail can prevent a person from acting on a false memory. The right cue may be a safety control, not a usability enhancement."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recognition works when a cue is specific enough to distinguish one meaningful option from another. “Document 1” and “Document 2” are visible but not recognisable. A recipient’s name plus masked account detail, last-used date, or recent context may allow a person to distinguish safely."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In contrast, an enormous list of weakly labelled choices can increase search and decision effort."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Design cues around the question a person is trying to answer: Which item is mine? What did I do last time? What will this action affect? Have I already completed this? Useful cues include meaningful names, previews, examples, recent activity, currently selected state, history, and a visible relationship to the person’s goal."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In complex work, breadcrumbs, audit trails, and persistent identifiers let people resume without reconstructing a past decision from memory."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Sometimes recall is appropriate. A confirmation field can help detect a sensitive error; a memorised secret may support a security boundary; expert users may prefer a command they can recall quickly. The point is not to eliminate memory, but to avoid asking it to carry information the system could safely and appropriately provide."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Always consider privacy: displaying a cue that helps recognition can also expose sensitive information to someone nearby."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Generic labels: visible items cannot be distinguished without opening each one. Lost state: a person returns after interruption and must reconstruct where they were. Hidden consequences: a choice is recognisable but its effect is not. Overexposed cues: helpful identifiers reveal more personal or financial data than the situation warrants."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "False familiarity: a familiar icon or label suggests a consequence that the product does not actually perform."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A banking app asks a person to type the exact name of a saved payee. A better version shows recent payees, masked account clues, and search suggestions. One design makes the person retrieve information; the other lets them recognise it."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attention is scarce (lesson 9), so designs should not spend it making people remember information the system already knows. lesson 11 applies the same idea to choices, defaults, and framing."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find an interface that makes you remember something it could show you. Describe the cue that would turn recall into recognition."
+    }
+  ]
+}

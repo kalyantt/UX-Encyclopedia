@@ -1,0 +1,227 @@
+{
+  "lesson": "UX-086",
+  "title": "Product Principles That Survive Trade-offs",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Product Principles That Survive Trade-offs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Product principles describe how a product creates value and behaves when legitimate requirements conflict. They connect evidence and strategy to repeated choices. A principle is not:"
+    },
+    {
+      "speaker": "host",
+      "act": "A principle is a durable decision rule",
+      "mood": "curious",
+      "text": "What changes when we look at a principle is a durable decision rule?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "an aspiration such as “delight users”; a generic quality such as “be accessible” without operational meaning; an aesthetic preference such as “use clean layouts”; a feature disguised as doctrine, such as “everything needs a dashboard”; a slogan that every option can claim."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A strong principle names what must be preserved, the tension it resolves, and behaviour that can be observed. It should make at least one plausible option harder to choose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Useful structure:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When [recurring tension], prioritise [commitment] over [tempting alternative], because [evidence/value]. We will see this in [observable behaviours], unless [bounded exception]."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Build trust” is weak. “Show the source state before a person commits; do not convert missing evidence into reassuring certainty” can guide copy, data models, ranking, and operations."
+    },
+    {
+      "speaker": "host",
+      "act": "Derive principles from repeated evidence and strategy",
+      "mood": "thinking",
+      "text": "What changes when we look at derive principles from repeated evidence and strategy?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with patterns that recur across journeys, roles, and decisions:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "user needs and harms observed repeatedly; service promises the organisation can legitimately make; strategic choices about where the product creates distinctive value; legal, ethical, safety, and accessibility boundaries; lessons from incidents, support, and operational failure; capabilities or constraints likely to persist beyond one feature."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Separate three layers:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Values: broad beliefs such as dignity or transparency. Principles: decision rules translating those beliefs into trade-offs. Standards and patterns: specific requirements and reusable implementation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Values without principles do not decide. Principles without standards are interpreted inconsistently. Standards without rationale become cargo cults."
+    },
+    {
+      "speaker": "host",
+      "act": "Test a principle against contested decisions",
+      "mood": "curious",
+      "text": "What changes when we look at test a principle against contested decisions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For each candidate, use real dilemmas:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Can two opposing options both claim compliance? If yes, sharpen it. 2. Does it conflict with another principle? Define priority or context. 3. What cost does following it create? If none, it may not be a real trade-off. 4. What evidence or strategic commitment supports it? 5. What observable behaviour would demonstrate or violate it? 6."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "What boundary or exception is legitimate? 7. Who can approve an exception, and how will it be reviewed?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A principle that makes the product impossible may ignore operational reality. A principle ignored whenever delivery is difficult is not a principle. The work is to state a durable commitment while acknowledging bounded trade-offs."
+    },
+    {
+      "speaker": "host",
+      "act": "Make principles operational",
+      "mood": "thinking",
+      "text": "What changes when we look at make principles operational?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Embed principles into work:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "opportunity and concept reviews use them to compare alternatives; design-system guidance links them to patterns and content; acceptance criteria express observable requirements; research plans test whether behaviour achieves the principle’s outcome; architecture and data models preserve required states and authority; metrics and incident review reveal violations; exception logs capture conscious trade-offs and their consequences."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not use principles as a veto wielded only by design. Cross-functional teams should understand their evidence and apply them together. Disagreement about application is a product decision to resolve, not proof that the principle failed."
+    },
+    {
+      "speaker": "host",
+      "act": "Manage conflict, exceptions, and change",
+      "mood": "curious",
+      "text": "What changes when we look at manage conflict, exceptions, and change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Principles can conflict. “Minimise interruption” may oppose “confirm consequential disclosure.” Define precedence by context: confirmation wins before irreversible sensitive transfer; streamlined defaults win for reversible low-risk sorting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Record exceptions with decision, rationale, affected people, risk, owner, duration, and review date. Repeated exceptions reveal that the principle is unrealistic, implementation is underfunded, or strategy is changing. Silent exceptions create a gap between published virtue and actual product behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Review principles when a new audience, market, channel, regulation, operating model, major incident, or strategic change alters the underlying evidence. Stability is useful; permanence is not the goal."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: account recovery",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: account recovery?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A principle might state, “When evidence is uncertain, preserve a person’s ability to recover without weakening protection for everyone.” It guides identity proof, alternate channels, support authority, delay, and appeal. “Make recovery easy” would not resolve the tension between access and account takeover."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Poster principle: attractive wording cannot decide a real trade-off. Feature principle: a preferred solution is made permanent without preserving its underlying outcome. Evidence-free import: another company’s principle is copied without this product’s context. No cost: the principle never requires saying no or accepting a trade-off."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Rule overload: too many overlapping statements prevent recall and prioritisation. Hidden conflict: teams choose whichever principle supports their existing preference. Silent exception: delivery violates the rule without rationale, owner, or review. Design-only ownership: the principle has no expression in policy, data, operations, or metrics."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners use principles to distribute sound judgement, not centralise approval. They make evidence and trade-offs legible, negotiate conflicts with product and engineering, and ensure principles survive roadmap pressure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They are willing to retire a beloved principle when the underlying context changes—and equally willing to defend one when short-term revenue or convenience threatens a durable user outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The strongest test is counterfactual: name a decision the team would make differently because this principle exists."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a credit-card dispute flow. A principle such as “show the real state” changes a concrete trade-off: the app should distinguish “report submitted” from “refund approved,” even if the latter wording would feel more reassuring. A useful principle helps a team choose when speed, confidence, and accuracy pull in different directions."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a company’s published design or product principles. Choose one and inspect three product moments where speed, revenue, privacy, accessibility, or recovery creates tension. Can the principle predict what the product should do? If both the helpful and harmful design can claim it, rewrite it as a sharper decision rule."
+    }
+  ]
+}

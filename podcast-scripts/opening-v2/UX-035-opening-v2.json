@@ -1,0 +1,202 @@
+{
+  "lesson": "UX-035",
+  "title": "Journey Maps and Blueprints",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Journey Maps and Blueprints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Journey maps describe the customer’s stages, goals, touchpoints, questions, emotions, and pain points over time. Service blueprints add frontstage and backstage activity, systems, teams, policies, and dependencies. Together they reveal where a visible experience is created or broken."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map a real journey with enough evidence to expose handoffs and failure points. Do not turn a map into a decorative timeline. Use it to identify ownership, missing information, conflicting incentives, and opportunities that no single screen can solve."
+    },
+    {
+      "speaker": "host",
+      "act": "Map around a decision, not an attractive timeline",
+      "mood": "thinking",
+      "text": "What changes when we look at map around a decision, not an attractive timeline?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The map reveals uncertainty after submission; the blueprint traces it to a supplier-to-clinic ownership gap. This converts an emotional “pain point” into a designable service dependency. The team adds alternative routes, abandonment, waiting, helper involvement, and recovery rather than presenting one happy path. Each priority becomes an owned hypothesis and measure."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn the map into governed change",
+      "mood": "curious",
+      "text": "What changes when we look at turn the map into governed change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Each failure point receives an opportunity, hypothesis, accountable owner, affected measure, and next evidence. The “no results” ambiguity belongs partly to supplier integration and product state; clinic operations own unresolved cases; content owns the explanation only after the underlying distinctions exist."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This prevents the map from assigning every pain point to the design team."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The blueprint also tests proposed change. Adding alternative clinics creates new backstage eligibility checks, data freshness obligations, demand shifts, and recovery work. The team overlays the future concept on the current map and asks where workload, risk, and information move."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A frontstage simplification is rejected if it merely transfers complexity to staff or patients outside the measured channel."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The map is versioned with scenario, evidence period, assumptions, and last validation. It is an operational model, not a permanent mural."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose the map’s perspective and boundary",
+      "mood": "thinking",
+      "text": "What changes when we look at choose the map’s perspective and boundary?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A journey map centres the person’s actions, goals, questions, emotions, touchpoints, and evidence across time. A service blueprint connects that journey to frontstage staff, backstage work, systems, policy, capacity, and support. Define scenario and scope so one map does not pretend to represent every audience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ground moments in research and label assumptions. Add channels only where they affect progress; the map is not a list of brand contacts. Identify transitions, waiting, repeated information, failures, and recovery. Emotion should be evidence-based and tied to cause, not a decorative curve."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the map to make decisions: prioritise opportunity, assign system ownership, design research, or prototype a handoff. Maintain links to source evidence and measurable outcome. A workshop artefact that never changes scope, responsibility, or roadmap is not a useful map."
+    },
+    {
+      "speaker": "host",
+      "act": "Diagnose the break before proposing the fix",
+      "mood": "curious",
+      "text": "What changes when we look at diagnose the break before proposing the fix?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For the ambiguous “no results” state, the patient-facing moment is only the surface. The supplier response collapses several conditions, the clinic has no obligation to reconcile all of them, and support cannot see which one occurred."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The intervention ladder therefore starts upstream: improve state distinctions and observability; assign reconciliation ownership; define recovery and escalation; then present an explanation and next action that match each state. Each layer has a different owner and measure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team prioritises with three linked tests. Severity asks what progress or safety is threatened. Leverage asks whether changing one backstage dependency improves several moments or audiences. Feasibility and displacement ask what work, risk, or demand the intervention moves elsewhere."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Offering instant transfers may improve perceived control while increasing clinic review queues; hiding the delay would improve neither the service nor the truthfulness of the map."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The most valuable blueprint question is often “who can fix this?” A map without ownership and operational reality produces insight but not change."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose the map boundary deliberately. A journey map may begin before someone discovers a service and continue through support, renewal, or recovery. At each stage, show goal, action, touchpoint, information, emotion or confidence, barrier, and evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A service blueprint adds the visible staff or interface action, backstage work, support systems, data, policy, and dependencies that produce the experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The value lies in relationships. A customer’s repeated question may be caused by unclear content, but also by an upstream eligibility rule, delayed data, an incentive conflict, or a staff handoff. Use the map to identify ownership and hypotheses, then test them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep it current enough to inform a decision; a beautiful, static map becomes harmful when it replaces observation of how the service now works."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Decorative timeline: stages are plausible but unsupported by evidence. Frontstage-only map: visible screens are mapped while policy and operations stay invisible. Emotion without cause: a curve is drawn without linked behaviours or conditions. No action path: insights do not lead to owners, hypotheses, or changes."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A returns journey may show frustration at waiting, while the blueprint exposes warehouse inspection and payment settlement. Only the second view can reveal the owner and intervention behind the visible delay."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Scenarios focus on one situated interaction. Journeys connect many interactions. lesson 36 teaches how to communicate the resulting research story without losing its evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Map one service failure and identify the backstage cause that a customer cannot see."
+    }
+  ]
+}

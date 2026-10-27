@@ -1,0 +1,258 @@
+{
+  "lesson": "UX-200",
+  "title": "Launch, Rollout, Rapid Response, and Recovery",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Launch, Rollout, Rapid Response, and Recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before release, decide the scope of exposure, eligibility rules, feature-flag strategy, monitoring, support preparation, customer communication, ownership, and rollback route. The plan should be specific enough that an unfamiliar on-call person can answer: who is affected, what is changing, how will we know it is safe, who can pause it, and what happens if it fails?"
+    },
+    {
+      "speaker": "host",
+      "act": "Turn a release into an operating plan",
+      "mood": "curious",
+      "text": "What changes when we look at turn a release into an operating plan?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define three classes of measure:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outcome signals: the intended progress, such as completed renewal, reduced time to resolve, or fewer avoidable contacts. Diagnostic signals: information that explains the journey, such as step-level error rates, payment-verification failures, latency, route changes, and reasons for contact."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Guardrails: signals that must not worsen, such as duplicate charges, inaccessible-path failure, cancellation errors, complaint rate, disproportionate impact on a segment, or excessive operational load."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metrics alone are insufficient. Create an active listening plan: frontline staff need a way to tag emerging issues, researchers need to know which qualitative signals require follow-up, and product, design, engineering, operations, and support need a shared incident channel during high-risk periods."
+    },
+    {
+      "speaker": "host",
+      "act": "Use staged exposure to buy learning time",
+      "mood": "thinking",
+      "text": "What changes when we look at use staged exposure to buy learning time?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When the infrastructure and risk profile allow it, stage the rollout. Start with internal users or a small eligible cohort, then expand deliberately. Staging is not a ritual; it is a way to make an unexpected failure smaller, more observable, and easier to reverse."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Eligibility matters. Do not choose the easiest users merely to improve initial metrics if they hide the environments in which the service will later fail. Include known complexity intentionally: an existing subscriber, a slow connection, a keyboard-only user, a person with an account exception, a customer in a different market."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If it is not safe to expose those cases yet, the team has learned something important about readiness."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each stage, specify a decision: continue, adapt, pause, or roll back. The decision owner must have actual authority and access to the relevant evidence. Waiting for a senior approval while people are being harmed turns recovery into a governance failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Stages should expand meaningful uncertainty boundaries, not merely traffic percentage. A release can move from familiar clinics to low-capacity clinics, from one attribute to several, from manual routing to integrated routing, or from one region/policy environment to another. Each expansion needs evidence relevant to what changed."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the recovery path before the failure",
+      "mood": "curious",
+      "text": "What changes when we look at design the recovery path before the failure?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Every important journey needs a safe state. What should happen if payment is uncertain, data is stale, an integration times out, an automated rule conflicts with a person’s circumstance, or the person cannot complete the task through the primary channel? A release plan should answer this in product behaviour, not only in an incident document."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recovery includes clear status, preservation of effort, a way to correct or undo a mistake, an understandable human-support path, and information that lets staff see the same state as the customer."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "In billing, this may mean preventing duplicate submission, showing “we are checking your payment” rather than a misleading success message, retaining the chosen plan, and routing the issue to an agent who can verify the transaction without asking the customer to repeat the whole story."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The organisation also needs recovery capacity: a feature flag, rollback procedure, data correction method, communications template, support staffing plan, incident owner, and a way to find everyone affected. A polished screen cannot compensate for an organisation that cannot repair what it changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Rollback is not always enough. Reverting code may not recall notifications, undo disclosed data, restore an overwritten source, or repair a patient journey. Distinguish:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "containment: stop new exposure or action; fallback: continue the essential service through a safer route; technical rollback: restore a prior system version; data correction: repair state and provenance; customer/service recovery: help the affected person complete their goal; remediation: address loss, harm, or unequal burden; learning: change tests, governance, capacity, or design so recurrence is less likely."
+    },
+    {
+      "speaker": "host",
+      "act": "Run incidents as learning, not blame",
+      "mood": "thinking",
+      "text": "What changes when we look at run incidents as learning, not blame?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When a guardrail is crossed, first stabilise the service and reduce harm. Then communicate in plain language: what people may experience, what they should do now, what the organisation is doing, and when they can expect an update. Avoid vague reassurance if uncertainty remains."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "After stabilisation, investigate the system rather than locating a single person to blame. What assumptions made the issue invisible? Which scenario was not represented? Did the metric omit a critical signal? Did a handoff lose context? Was rollback too slow?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Convert the answer into an enduring improvement: a better test case, monitoring rule, service recovery, decision record, or operational protocol."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a severity model based on consequence, reach, reversibility, sensitivity, duration, and affected vulnerability—not public visibility. Preserve an incident timeline, versions, decisions, and evidence. Provide psychologically safe reporting while keeping institutional accountability. “Blameless” should prevent scapegoating, not erase ownership."
+    },
+    {
+      "speaker": "host",
+      "act": "Decide after launch",
+      "mood": "curious",
+      "text": "What changes when we look at decide after launch?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "At each gate, compare outcome, diagnostics, guardrails, qualitative evidence, operational capacity, and unresolved risk. Possible decisions are:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "continue within current scope; adapt and repeat the stage; narrow population, function, or authority; expand one defined boundary; pause for investigation or capacity; roll back or retire; remediate affected people before any further release."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Record what the stage established and did not establish. Do not let a smooth first cohort justify expansion to materially different contexts."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: subscription renewal",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: subscription renewal?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A renewal redesign should stage exposure across new and existing plans, markets, payment methods, account exceptions, accessibility conditions, and support contexts."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Outcome is successful informed renewal; diagnostics include payment and route state; guardrails include duplicate charge, cancellation obstruction, inaccessible failure, complaint, and disproportionate segment impact. Recovery must find affected customers and correct billing—not merely restore the old page."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Big-bang exposure: every user and dependency receives the change before the team can learn or contain. Easy-cohort theatre: early users exclude exactly the conditions likely to fail later. Dashboard delay: outcome looks healthy while diagnostic or harm signals arrive too late."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Feature flag as recovery: code can be disabled but data, communication, and affected journeys cannot be repaired. Support as fallback: an unprepared queue is treated as universal recovery. Rollback ambiguity: nobody knows which state, data, or people a reversal covers. Incident scapegoating: one operator is blamed while system assumptions and incentives remain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Expansion inertia: passing one stage makes the next automatic rather than evidential."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask a simple question of any release plan: “If this harms someone at 2 a. m. , what happens next?” If the answer is unclear, the product is not ready—not because it lacks polish, but because it lacks recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners make rollout a product and service design problem. They insist that pause authority is reachable, difficult cohorts are represented before broad exposure, monitoring includes silent abandonment and unequal harm, and recovery can restore the person’s outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They protect teams from launch theatre in which communication celebrates a release before evidence can justify expansion."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A redesigned subscription flow is released to every customer on a Friday afternoon. A billing edge case appears for existing annual subscribers. Support cannot identify the affected cohort, the team cannot disable the new route without a full rollback, and the dashboard shows conversion before it shows failed renewals. The pre-launch usability test was sound."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The service was still unprepared to learn and recover in public. Launch is not the end of design. It is a change to a living system, with customers, staff, revenue, data, policies, and dependencies exposed to the new behaviour."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 199 separated problem, concept, usability, and outcome validation. Launch is where outcome validation becomes real—and where the team accepts responsibility for the experience after its assumptions meet the world. M17 will apply this complete discipline to consumer, enterprise, service, and high-stakes cases."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take a recent launch plan or make one for a familiar feature. Add a rollout ladder, three measures (outcome, diagnostic, guardrail), one accessibility or equity check, a pause owner, a rollback trigger, and the recovery journey a customer would experience. Notice which of these were absent from the original plan."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "lesson": "UX-027",
+  "title": "Continuous Interviewing",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Continuous Interviewing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Continuous interviewing relies on a steady cadence of conversations about real past behaviour. Ask people to reconstruct a specific event: what triggered it, what they did first, what options they considered, what information they used, and what made the activity difficult. Follow evidence rather than hypothetical preference."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Listening is a design skill. Avoid leading questions, solution pitches, and filling silence. Probe contradictions gently. Capture language people use naturally; it often improves content, labels, and problem framing."
+    },
+    {
+      "speaker": "host",
+      "act": "Make each conversation comparable and decision-relevant",
+      "mood": "thinking",
+      "text": "What changes when we look at make each conversation comparable and decision-relevant?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team captures evidence and interpretation separately, debriefs after each session, and updates patterns across cases. A rolling recruitment matrix prevents the cadence from becoming a stream of accessible enthusiasts. Interview evidence shapes opportunity hypotheses; it does not establish prevalence or causal impact without complementary data."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked contrast: preference versus behavior",
+      "mood": "curious",
+      "text": "What changes when we look at worked contrast: preference versus behavior?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Continuous interviewing also reveals change. If later episodes show people using an equivalence label as a quality ranking, the team revisits content and the conceptual model. The programme follows evidence over time instead of accumulating quotes that support the launch story."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve quality at cadence",
+      "mood": "thinking",
+      "text": "What changes when we look at preserve quality at cadence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recruit from the relevant behaviour and context rather than whoever is easiest to schedule. Use a rolling guide tied to current decisions while preserving stable questions where comparison matters. Ask for recent concrete episodes, artefacts, workarounds, consequence, and alternatives; avoid pitching future features."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Debrief immediately, tag evidence, and update assumptions without declaring a theme from one conversation. Sample deliberately for contrast and revisit gaps. Regular sessions improve sensitivity, but they do not estimate prevalence or replace observation and quantitative evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Share contact across the trio while retaining skilled moderation and ethical handling. Track participant burden, consent, privacy, accessibility, incentives, and repeated recruitment. The cadence should deepen organisational judgement, not turn customers into an endless validation panel."
+    },
+    {
+      "speaker": "host",
+      "act": "Maintain comparability without scripting the conversation",
+      "mood": "curious",
+      "text": "What changes when we look at maintain comparability without scripting the conversation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Immediate debrief separates observation, participant interpretation, and researcher inference. A rolling matrix tracks context and missing perspectives. Patterns are reviewed across sessions, including negative cases. Interview evidence explains meaning and mechanism; service events and quantitative evidence are added when prevalence or operational truth matters."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The practice includes consent, recording limits, compensation, accessibility, and participant fatigue. Continuous contact should not continuously extract from the same convenient people."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a comparable evidence stream without scripting people",
+      "mood": "thinking",
+      "text": "What changes when we look at build a comparable evidence stream without scripting people?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recruitment rotates across referral state, outcome, access strategy, confidence, channel, and underserved groups. Convenience participants can make continuous interviewing continuously biased. The team tracks saturation by decision question and behavioral pattern, not by a claim that it has “heard enough users.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "After every session, evidence is added to the shared repository with source and boundaries, then connected to the live decision map. A single striking episode can trigger a safety response but does not automatically establish prevalence. Continuous interviewing gains power from comparable accumulation and timely influence, not from frequency alone."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An interview programme needs operational discipline: recruiting, consent, incentives, note quality, synthesis, and a reliable loop from customer story to decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The strongest interview material concerns a concrete past event. Establish the setting, trigger, sequence, tools, people involved, information consulted, alternatives considered, emotions, interruptions, workarounds, and outcome. Ask for examples and artefacts when appropriate. “Would you use this?”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "usually collects speculation; “Tell me about the last time this happened” gives the researcher material to inspect."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interviewing is not passive note-taking. The researcher follows ambiguity, distinguishes what someone did from how they explain it, checks their own interpretation, and makes room for unexpected directions. The interview guide provides coverage, but it should not prevent the participant from teaching the researcher how the activity actually works."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capture exact language carefully; words often reveal categories and expectations that a product has failed to represent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Leading premise: the question tells participants what problem or solution to agree with. Hypothetical preference: imagined future behaviour is treated as evidence of demand. Feature pitch: the session becomes a demo, so participants try to be helpful rather than honest. Context loss: quotes are retained without the situation, constraint, or outcome that gives them meaning."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Asking “Would you use automatic budgeting?” invites aspiration. Reconstructing the last overspend, how it was noticed, and what action followed reveals real cues, workarounds, and constraints."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outcomes identify the change the team seeks. Interviews reveal the current behaviour and opportunity space that precede it. lesson 28 maps those opportunities."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Write three questions about a recent real behaviour, not a hypothetical preference."
+    }
+  ]
+}

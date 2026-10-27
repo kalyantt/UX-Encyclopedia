@@ -1,0 +1,197 @@
+{
+  "lesson": "UX-050",
+  "title": "Foundations and Components",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Foundations and Components."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Foundations include shared decisions such as colour, type, spacing, elevation, motion, accessibility, and content principles. Components package recurring interface behaviour. Patterns describe how components work together for a task. A robust system documents purpose, variants, states, constraints, examples, and implementation guidance."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design tokens can make foundational decisions portable across platforms, but tokens do not replace judgement. Components should encode proven behaviour and make the accessible, consistent path easier than the ad hoc path."
+    },
+    {
+      "speaker": "host",
+      "act": "From foundation to component contract",
+      "mood": "thinking",
+      "text": "What changes when we look at from foundation to component contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Foundations are the variables and rules that make a family of interfaces coherent: type scale, spacing, colour roles, elevation, motion, breakpoints, icon principles, and interaction states. Tokens give these decisions durable names. Components combine them into reusable behaviour. Patterns explain how components cooperate to solve a larger recurring problem."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Confusing these layers makes systems brittle: a token named blue-500 exposes appearance, while status-info-background records purpose and can change across themes without changing meaning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A component contract states more than props. It includes purpose, when to use it, when not to, content limits, supported states, responsive behaviour, keyboard and screen-reader behaviour, error and loading conditions, data dependencies, analytics events, and examples with realistic language. The code, design asset, documentation, and tests must express the same contract."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If the design asset allows a state that the code cannot render, the system already contains drift."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: destructive action",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: destructive action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A reusable delete dialog may look consistent yet be unsafe if every product supplies different consequences. A stronger contract distinguishes removal, revocation, cancellation, and permanent deletion; requires the affected object and consequence in the confirmation; defines undo or recovery expectations; and blocks generic success copy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The component is reusable because its behaviour and meaning are stable, not because its rectangle is stable."
+    },
+    {
+      "speaker": "host",
+      "act": "Build from decisions upward",
+      "mood": "thinking",
+      "text": "What changes when we look at build from decisions upward?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Foundations include colour, typography, spacing, elevation, motion, iconography, grids, language, accessibility, and interaction principles. Express recurring values as tokens with semantic names such as text-danger or surface-selected, not names tied to one current appearance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A component is a behavioural contract, not a rectangle. Define anatomy, variants, states, content, keyboard and assistive-technology behaviour, responsive rules, error and loading, theming, and prohibited use. Compose components into patterns for meaningful tasks while keeping domain logic in products where appropriate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test foundations and components in combinations with real content, zoom, translation, themes, and edge states. Small token changes can affect the entire estate; system leverage magnifies both quality and mistakes. Version and communicate changes accordingly."
+    },
+    {
+      "speaker": "host",
+      "act": "Specify behavior before variants multiply",
+      "mood": "curious",
+      "text": "What changes when we look at specify behavior before variants multiply?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Each component contract covers anatomy, allowed content, states, interaction, keyboard and screen-reader behavior, responsive change, internationalisation, data conditions, and when not to use it. Variants represent meaningful product differences, not every local styling request."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A “clinic option” may compose comparison data, availability, selection, and warnings; it should not absorb unrelated promotional cards because their rectangles look similar."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Component APIs shape product behaviour. Decisions about variants, defaults, and escape hatches determine whether the system supports thoughtful design or forces misleading uniformity."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Foundations express durable decisions at a lower level of abstraction: semantic colour roles, typography scale, spacing, grid, elevation, motion, focus, iconography, and content principles. Tokens give these decisions portable names so implementations can adapt without exposing raw values everywhere."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Components then combine structure, semantics, interaction, state, and content slots into a reusable behaviour. Patterns describe how components collaborate to support a task."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Document a component as a contract: purpose, when to use or avoid it, anatomy, variants, states, accessibility behaviour, content guidance, responsive behaviour, code API, and examples of real use. Test it under real content, loading, error, empty, permission, and localisation states."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Version changes carefully because a small token or component decision can affect many customer journeys."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Token cargo cult: a large naming system is created without semantic meaning or governance. Happy-state component: documentation omits error, loading, disabled, and empty behaviour. Design-code drift: visual assets and implementation evolve separately. Variant explosion: every local exception becomes a permanent component option."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A “button” is not one thing. It has hierarchy, label rules, loading, disabled, focus, hover, error, success, mobile, keyboard, and assistive-technology behaviour. A component that names only its default state is unfinished."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A date picker is not complete when it matches the visual library. It must support typing, calendar selection, localisation, min and max constraints, unavailable dates, errors, keyboard movement, announcements, zoom, and mobile input. If the domain needs ranges or uncertain dates, the system may need a pattern rather than another variant."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The component contract makes those decisions visible before dozens of products invent incompatible answers. Systems exist to scale quality. Foundations and components provide the building blocks. lesson 51 ensures content is treated as part of those blocks rather than pasted in afterwards."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "List the states a button needs beyond default. Which states become important in a high-risk or slow operation?"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "lesson": "UX-098",
+  "title": "UX Value, Product Risk, and What Not to Digitise",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "UX Value, Product Risk, and What Not to Digitise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An organisation replaces a staffed help desk with an app. Routine requests become faster, but people with unusual problems can no longer explain what happened to a person who can help. Did the service improve? This lesson asks who gains value, who inherits the risk, and when digitising a step is the wrong intervention."
+    },
+    {
+      "speaker": "host",
+      "act": "Value depends on the whole intervention",
+      "mood": "curious",
+      "text": "What changes when we look at value depends on the whole intervention?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "UX creates value when it helps people achieve worthwhile outcomes with appropriate effort, confidence, access, and recovery. Product choices also create risk: a feature can be undesirable, unusable, infeasible, unviable, unsafe, inaccessible, or operationally unsustainable. Good UX work makes these risks explicit before a team scales a solution."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Not every problem should be digitised, automated, or solved through a new screen. Some situations need a human route, a policy change, clearer service operations, better information upstream, or no intervention at all."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluate the full value exchange: what improves for people, the organisation, partners, and staff; what work or risk is shifted; and which groups may be excluded. A product outcome is strong only when the system can keep its promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect UX work to risk and value",
+      "mood": "thinking",
+      "text": "What changes when we look at connect ux work to risk and value?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map value for the person, organisation, staff, partners, and society where relevant. Then map uncertainty and consequence across desirability, usability, accessibility, viability, feasibility, privacy, safety, ethics, operations, and adoption. UX research and design create value by reducing consequential uncertainty and shaping an experience people can use and trust."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Not every manual step is waste. Human judgement, empathy, discretion, negotiation, and accountability may be central to the service. Digitisation can support them, remove repetition, or increase access; it can also standardise an exception badly, exclude people without the channel, create surveillance, or shift unpaid work onto customers."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Compare four options: improve the current process, support human work, automate a bounded step, or redesign the service and policy. For each, identify who benefits, who bears error, what is reversible, what evidence is needed, and who can provide recourse."
+    },
+    {
+      "speaker": "host",
+      "act": "Value is an exchange, not a feature benefit",
+      "mood": "curious",
+      "text": "What changes when we look at value is an exchange, not a feature benefit?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A value proposition usually describes what the organisation hopes people will gain. A responsible assessment also asks what they must contribute: time, attention, money, personal data, learning, emotional labour, and acceptance of risk. It asks what staff and partners must do to keep the promise, and which costs are shifted outside the product team's dashboard."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Map value at four levels. User value is meaningful progress and reduced burden. Service value is the organisation's ability to deliver a reliable outcome. Operational value includes manageable work, good information, and fewer avoidable exceptions. Public or ecosystem value includes access, fairness, safety, and effects on partners or communities."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "These levels can reinforce one another, but they can also conflict."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Next, distinguish uncertainty from consequence. A team may be highly uncertain about a harmless preference and only slightly uncertain about a catastrophic failure. Those questions do not deserve the same research or governance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Plot desirability, usability, accessibility, feasibility, viability, safety, privacy, ethical, and operational risks by both uncertainty and consequence. Work first on assumptions that are both consequential and weakly supported."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare the counterfactuals",
+      "mood": "thinking",
+      "text": "What changes when we look at compare the counterfactuals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Build or do nothing” is a false choice. Compare the proposed product with improving the existing service, changing policy, training staff, removing a requirement, integrating data, or communicating earlier. Include maintenance and failure over time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A prototype can make automation look cheap because it excludes monitoring, appeals, incident response, model or rule changes, and the people who handle exceptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The best decision may still be digital. The standard is not technological minimalism; it is proportional intervention. Use technology where it expands access, reduces avoidable work, improves consistency, or makes state understandable. Preserve human contact where empathy, negotiation, discretion, accountability, or complex sense-making determines the outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Digitisation as strategy: replacing a channel is treated as proof of improved outcome. Manual-work contempt: human judgement, care, discretion, and accountability are classified as inefficiency. Cost transfer: organisational savings depend on more user effort, staff exception work, or unequal exclusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility fallback: assisted access exists but is hidden, slower, or lower quality. Prototype economics: monitoring, support, appeals, maintenance, and retirement disappear from feasibility. Automation authority drift: a bounded aid silently becomes a consequential decision-maker."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Feature delivery is not value delivery. Ask whether the proposed intervention is the smallest responsible change that improves a real outcome—and whether a non-digital route would do better."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A bereavement service proposes an automated chatbot to reduce calls. Research shows that people need clear document guidance but also discretionary help across several accounts. The team digitises checklist, status, and secure document reuse while preserving a named human route."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The best product decision is not maximum digitisation; it is the allocation of technology and human authority that protects the outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 97 established human-centred design as evidence practice. This lesson adds the strategic judgment that prevents teams from treating a digital feature as the automatic answer to every opportunity."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a recent digital feature. List its user value, business value, operational cost, excluded group, and one non-digital alternative. Which option would you investigate first?"
+    }
+  ]
+}

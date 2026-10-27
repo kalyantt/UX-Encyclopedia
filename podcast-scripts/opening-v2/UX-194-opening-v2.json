@@ -1,0 +1,196 @@
+{
+  "lesson": "UX-194",
+  "title": "Reliable, Safe, and Trustworthy AI Is a System Property",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Reliable, Safe, and Trustworthy AI Is a System Property."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An AI-enabled product is trustworthy only in relation to an intended use, affected people, operating conditions, and consequences. The property emerges from model, data, content, interface, human judgement, policy, organisation, infrastructure, security, and governance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A high benchmark score cannot compensate for absent recourse; transparent prose cannot compensate for an unsafe action boundary."
+    },
+    {
+      "speaker": "host",
+      "act": "Trustworthiness belongs to the sociotechnical system",
+      "mood": "curious",
+      "text": "What changes when we look at trustworthiness belongs to the sociotechnical system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Translate broad qualities into use-case requirements:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Validity: the system addresses the intended decision rather than an attractive proxy. Reliability: it performs consistently enough across relevant conditions, groups, time, and dependencies. Safety: foreseeable harms are identified, prevented or contained, and recoverable to an acceptable residual level."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Security and resilience: the system resists misuse, unauthorised access, manipulation, outage, and dependency failure while degrading safely. Privacy: collection and use are proportionate, permitted, minimised, protected, and controllable. Fairness with harmful bias managed: burdens, errors, access, and benefit are examined across affected groups and structural conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Transparency and explainability: people receive the source, scope, uncertainty, role, and reason needed for their decision or recourse. Accountability: named people and institutions have authority and obligation to investigate, restrict, correct, communicate, and remedy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These qualities interact. More explanation can expose private data. A conservative threshold can reduce one harm while disproportionately withholding benefit. Human review can improve judgement or create delay and inconsistency. Trustworthiness is not a checklist score; it is explicit trade-off and evidence under accountability."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a requirements-and-evidence case",
+      "mood": "thinking",
+      "text": "What changes when we look at build a requirements-and-evidence case?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each quality, define:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. the concrete claim for this intended use; 2. affected people and possible harm; 3. design and operational controls; 4. evidence that the controls work; 5. limitations and residual risk; 6. monitoring signal and trigger; 7. accountable owner and intervention authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence must cover the combined workflow. Reliability includes source freshness and human fallback, not only model output. Privacy includes generated inferences and logs, not only training data. Accessibility includes changing states, explanations, and escalation channels. Safety includes normal use, misuse, edge cases, compound failures, and recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Test normal, edge, misuse, and compound conditions",
+      "mood": "curious",
+      "text": "What changes when we look at test normal, edge, misuse, and compound conditions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Test plans should include more than representative happy paths:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "ordinary and boundary inputs; groups and contexts poorly represented in development data; incomplete, stale, conflicting, and malicious sources; over-reliant and under-reliant human behaviour; inaccessible interface and alternate channels; high load, latency, outage, and staff absence; permission escalation and data exfiltration attempts; partial action and inconsistent external state; multiple controls failing together; recovery, communication, appeal, and remediation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A fallback is dependable only if tested under the condition that invokes it. Human review measured during a quiet pilot may fail during the same peak that degrades the model or source systems."
+    },
+    {
+      "speaker": "host",
+      "act": "Trust is an outcome of conduct",
+      "mood": "thinking",
+      "text": "What changes when we look at trust is an outcome of conduct?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not optimise reported trust. Design for appropriate reliance: people use the system when evidence supports it, verify when consequence or uncertainty demands it, and reject or escalate when outside scope. Calibrated scepticism is healthy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trust can be earned through capable performance, honest boundaries, inspectable evidence, meaningful control, reliable recovery, and accountable remedy over time. Friendly language may support comprehension but cannot manufacture these conditions."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: credit decision support",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: credit decision support?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A valid scoring model can still be untrustworthy if historical data reflects unequal access, adverse decisions lack meaningful explanation, reviewers rubber-stamp outputs, appeals cannot alter records, monitoring ignores rejected applicants, or a vendor update shifts outcomes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The assurance case must follow the whole decision and those affected, including people who never become customers."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Model-quality substitution: benchmark performance is treated as product trustworthiness. Checklist assurance: broad principles are marked complete without use-case requirements or evidence. Transparency compensation: explanation is used to excuse unsafe authority or weak recourse. Fallback fiction: human review exists on paper but lacks capacity under failure conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Single-error testing: compound outage, overload, and misuse are omitted. Fairness average: aggregate parity hides concentrated exclusion or lower-quality fallback. Diffuse accountability: many teams contribute, but nobody can pause or remedy. Trust marketing: confidence and adoption replace appropriate reliance and outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners make assurance a cross-functional product decision without dissolving ownership into a committee. They define decision rights, evidence gates, residual-risk acceptance, independent challenge, incident authority, and retirement. They keep affected people and frontline operations inside the review, not merely technical and compliance functions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also recognise limits: no assurance case proves permanent safety. It explains why use is currently justified, under which conditions, what remains uncertain, and how the organisation will detect and respond when those conditions change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a medical-information assistant. A model can score well on benchmark questions yet fail when sources are stale, users over-trust confident wording, or escalation is unavailable. Reliability and safety depend on retrieval, interface framing, human authority, monitoring, fallback, and remedy across the whole service."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Evaluate those together before making a high-stakes promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Pick an AI feature that publishes a trust or safety claim. Ask what system boundary the claim covers: model, interface, workflow, or real outcome. Look for evidence about failure, human capacity, recourse, accessibility, privacy, and change over time. What untested dependency could make the visible claim false for the person using it?"
+    }
+  ]
+}

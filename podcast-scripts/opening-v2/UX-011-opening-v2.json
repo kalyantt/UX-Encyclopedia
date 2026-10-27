@@ -1,0 +1,196 @@
+{
+  "lesson": "UX-011",
+  "title": "Decisions Are Designed",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Decisions Are Designed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choice architecture is the arrangement of options, defaults, framing, order, effort, and feedback that shapes decisions. People use shortcuts when attention is limited, so defaults and presentation can strongly influence outcomes. That influence can help people make an informed, beneficial choice or push them toward a business outcome they did not intend."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good decision design makes the options comparable, names material consequences, uses defaults that are appropriate and reversible, and gives people enough time and clarity for consequential choices. It reduces cognitive load without obscuring alternatives. A conversion increase alone cannot tell you whether a decision was informed."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked example: neutral choice versus pressured choice",
+      "mood": "thinking",
+      "text": "Can you walk me through neutral choice versus pressured choice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Show two subscription selections. The neutral version makes price, renewal, cancellation, and plan differences visible. The pressured version buries the alternative and frames refusal as a loss. Highlight the design mechanisms, not the brand."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism: presentation changes the choice environment",
+      "mood": "curious",
+      "text": "How does presentation changes the choice environment actually work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "People rarely calculate every option from first principles. They use defaults, familiar categories, social signals, loss avoidance, relative comparison, and stopping rules that conserve attention. The order and framing of information therefore influence which evidence is considered and when search ends."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A default can communicate a recommendation, describe the majority, or merely reduce input; people may not know which role it plays."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Choice architecture is unavoidable, but manipulation is not. A responsible design aligns prominence with the person's goal, makes material alternatives comparably visible, explains recommendations, and uses friction in proportion to consequence. It does not exploit fatigue, hide refusal, manufacture scarcity, or make one path easy only because it benefits the organisation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Symmetry is not always fairness—a dangerous option may deserve a warning—but asymmetry requires a defensible reason."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Audit a decision in layers. First, identify eligibility: which options are actually available and why? Next, comparability: what attributes materially differ? Then influence: what is defaulted, ordered, emphasised, prefilled, or delayed? Finally, consequence: when does commitment occur, what is reversible, and where is recourse?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Include the option not to decide now when delay is legitimate."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Testing must go beyond selection. Ask participants to state what they chose, why, what it costs, what happens next, and how they would reverse it. Follow later behaviour where possible; regret, cancellation, missed obligations, and support contact can reveal that a “successful” choice was not informed or sustainable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior judgement treats decision design as product policy with an evidence trail, not as a conversion technique owned only by interface teams."
+    },
+    {
+      "speaker": "host",
+      "act": "Put it to work",
+      "mood": "thinking",
+      "text": "What would you do with that in a real product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For every decision, identify the consequence, reversibility, default, and exit path. Give more clarity and friction to high-stakes, irreversible choices; remove friction from harmless exploration. Test comprehension directly: ask people what they chose, what it costs, and what happens next."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Defaults are product policy expressed as UI. Senior designers surface who benefits, who bears risk, and what metric may be distorting the decision. They pair conversion with guardrails such as reversal, complaint, support contact, and accurate understanding."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Decision support should be proportional. A low-risk, reversible choice may benefit from a good default and a fast path. A choice involving recurring payment, health, access, privacy, identity, or someone else’s welfare needs clearer comparison, a chance to inspect material information, and a workable way to reconsider."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Extra friction is not automatically respectful; it is useful only when it helps someone avoid a meaningful mistake or understand a real commitment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Compare alternatives on the dimensions that matter rather than the dimensions easiest for the business to promote. Make prices, renewal terms, eligibility rules, data use, limitations, and cancellation or reversal paths legible before commitment. Explain why a default exists when it is not obvious."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Where a choice is mandatory, distinguish that honestly from an optional choice rather than disguising a requirement as consent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Test understanding, not only clicks. Ask people to explain the difference between options in their own words, predict a consequence, and find the route to change their mind. Pair behavioural metrics with guardrails: reversals, refunds, support contacts, complaints, failed completion, and evidence of confusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A well-designed choice leaves people able to describe and defend their own decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Asymmetric effort: agreeing is one tap; declining requires several hidden steps. Obscured material terms: essential cost or consequence appears only after a commitment. Manipulative framing: the language shames refusal or exaggerates loss. Inappropriate default: a setting favours the organisation while presenting itself as neutral."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "No recovery: people cannot easily revise a decision that was meant to be reversible."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A subscription screen makes the annual plan large and selected, hides the monthly option behind a text link, and labels cancellation with uncertain language. The interface has not removed choice. It has designed the conditions under which the choice is made."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recognition (lesson 10) reduces needless work. That power becomes dangerous when it turns into steering. lesson 12 completes the module by showing how a respectful system handles inevitable error and changed minds."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Inspect a subscription decision. Identify the default, the easiest path, the hidden cost, and the effect each may have on a hurried person."
+    }
+  ]
+}

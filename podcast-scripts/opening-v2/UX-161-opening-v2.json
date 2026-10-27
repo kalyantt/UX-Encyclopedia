@@ -1,0 +1,208 @@
+{
+  "lesson": "UX-161",
+  "title": "Sustainable and Equitable Services",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Sustainable and Equitable Services."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good services consider who can access, understand, use, recover from, and leave the service—and who bears environmental, financial, time, and dignity costs. Equity means inspecting how a policy or channel distributes benefit and burden, not simply applying the same path to everyone."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design multiple viable routes where circumstances differ, reduce unnecessary demands, and involve affected people in defining quality. Consider sustainability across the service system: travel, materials, energy, staff effort, repeat contacts, and preventable failure. Make trade-offs explicit rather than hiding them behind a single efficiency metric."
+    },
+    {
+      "speaker": "host",
+      "act": "Examine who benefits, who pays, and whether the model endures",
+      "mood": "thinking",
+      "text": "What changes when we look at examine who benefits, who pays, and whether the model endures?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An equitable service distributes access, burden, risk, and benefit fairly rather than giving everyone an identical route. A sustainable service can continue socially, operationally, financially, and environmentally without exhausting people or shifting hidden costs. These concerns belong in core service design, not a later ethics review."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team models burden across actors. Self-service may reduce organisational cost while transferring data entry and coordination to patients. A 24-hour clinic promise may depend on coordinator overtime. Repeated notifications may increase infrastructure and attention cost without improving progress."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Options are evaluated against whole-life operation, maintenance, staffing, exclusion, and environmental effects."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Equity interventions are tested for unintended consequences and given owners, measures, and review dates. Assisted routes share the same service state and standards rather than becoming a neglected fallback. The final artifact is a distributional impact and sustainability register carried into prototyping and delivery."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: digital-only billing",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: digital-only billing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Removing paper may reduce cost and material use while excluding customers with low digital access and increasing support demand. A sustainable decision considers channel mix, accessibility, fraud, delivery reliability, and actual environmental lifecycle rather than one visible input."
+    },
+    {
+      "speaker": "host",
+      "act": "Examine distribution across time",
+      "mood": "thinking",
+      "text": "What changes when we look at examine distribution across time?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sustainability asks whether the service can continue delivering value within human, financial, technical, and environmental limits. Equity asks how benefits, burdens, delay, risk, and access are distributed. Analyse them together: a low-cost digital channel may exclude some people; a high-touch workaround may depend on invisible staff labour that cannot scale."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map resources and externalities across the service lifecycle: devices, energy, travel, data, procurement, maintenance, staff capacity, customer time, and disposal or decommissioning. Avoid simplistic comparisons without system boundaries. The largest leverage may be policy, frequency, channel, or prevention rather than interface efficiency."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test changes across groups and horizons. Who saves time now? Who supplies unpaid help? Does automation reduce repetitive work or concentrate more difficult cases? What happens when funding, volume, climate, or supplier conditions change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define minimum service standards, protected routes, capacity thresholds, and recovery. Monitor unequal abandonment, waiting, cost, staff burden, and environmental impact. A sustainable service does not achieve efficiency by making the least powerful people absorb its hidden costs."
+    },
+    {
+      "speaker": "host",
+      "act": "Perform a distributional and whole-life review",
+      "mood": "curious",
+      "text": "What changes when we look at perform a distributional and whole-life review?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Equity analysis examines mechanisms rather than using identity as a conclusion. Language, disability access, digital connection, geography, clinic capacity, work schedule, and helper availability can alter delay and recovery. Quantitative distribution identifies possible differences; lived and operational evidence explains them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unknown data is not treated as absence, and small high-consequence groups are not discarded for low statistical power."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sustainability includes staff capacity, maintenance, supplier dependence, financial model, data lifecycle, energy and material use, and the ability to keep an alternative channel healthy. A concierge pilot that relies on expert overtime is not sustainable evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A digital-only route may lower transaction cost while increasing devices, support, exclusion, and hidden family labour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team maintains an impact register with affected group or actor, mechanism, evidence, severity, mitigation, owner, measure, and review trigger. Trade-offs are made explicitly by accountable leaders and revisited after launch. Assisted routes share the same service records and standards so they do not become second-class fallbacks."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: paperless billing",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: paperless billing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Removing paper may reduce material use and cost while excluding customers with limited digital access, increasing fraud exposure, and shifting printing elsewhere. A whole-life assessment compares channel mix, actual resource use, service reliability, and equitable access."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not frame equity as an edge case. A service’s “average” experience can conceal systematic barriers for people with less power, time, money, or access."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assess service value by how benefit and burden are distributed. Ask who can access, understand, complete, recover from, and leave the service; who absorbs time, travel, data, financial, environmental, or dignity costs; and whether one channel’s efficiency transfers work or harm elsewhere. Design multiple viable routes and include affected people in defining what quality means."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Digital-only efficiency: a fast default route excludes people without device, connectivity, language, payment, or confidence. Hidden burden shift: automation reduces one metric while moving work to staff, customers, or the environment. Equal treatment claim: identical paths ignore unequal resources and exposure to risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Unmeasured externality: sustainability or equity cost is outside the team’s success model."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A service makes digital-only booking fast for most customers. People without stable connectivity, language access, payment options, or device familiarity are pushed into slower and more expensive routes. Efficiency for one group has created exclusion for another."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "M11 has expanded UX from screens to service ecosystems, research, policy, measurement, and fairness. M12 moves into prototypes, critique, and evaluation—how teams learn before committing to costly change."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a service. Identify one group for whom the default route is difficult, one burden shifted to staff or the environment, and one alternative service route."
+    }
+  ]
+}

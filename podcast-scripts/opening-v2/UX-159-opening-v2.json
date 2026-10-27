@@ -1,0 +1,194 @@
+{
+  "lesson": "UX-159",
+  "title": "Policies and Capacity Are Experience Design",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Policies and Capacity Are Experience Design."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Policies determine eligibility, priority, evidence requirements, timing, exceptions, and recovery. Capacity determines queues, wait times, availability, and staff workload. Both shape what people can do and how fair, understandable, and reliable a service feels."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make these constraints visible enough for people to plan and recover. Test policy language with affected users and staff. When a rule creates repeated exceptions, treat that as design evidence rather than a support problem to hide."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Service design can change the interface, the process, the policy, the capacity, or the promise; choose the leverage point that actually reduces harm."
+    },
+    {
+      "speaker": "host",
+      "act": "Treat rules and queues as designed behaviour",
+      "mood": "thinking",
+      "text": "What changes when we look at treat rules and queues as designed behaviour?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Policy determines eligibility, evidence, priority, authority, and recovery. Capacity determines how much work can be completed and how long people wait. Interfaces express these systems but cannot compensate indefinitely for contradictory rules or insufficient resources. Designing experience therefore includes making policy effects and queue assumptions visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: permit application",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: permit application?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A faster form can increase demand into an unchanged review bottleneck, lengthening total time. Policy simplification, triage authority, and staffing may create more experience value than another front-end optimisation."
+    },
+    {
+      "speaker": "host",
+      "act": "Make rules and queues visible",
+      "mood": "thinking",
+      "text": "What changes when we look at make rules and queues visible?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Policies determine eligibility, evidence, priority, discretion, timing, price, and recovery. Translate each consequential rule into scenarios and ask who benefits, who is burdened, how exceptions work, and whether staff can explain and apply it consistently. A clear interface cannot rescue an unjust or incoherent rule."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capacity determines whether the promise is deliverable. Model arrival volume, handling time, skills, schedules, dependencies, peaks, abandonment, and rework. Self-service can reduce simple contacts while concentrating complex emotional work in a smaller team. Measure total demand and difficulty, not only channel deflection."
+    },
+    {
+      "speaker": "host",
+      "act": "Design for variability",
+      "mood": "curious",
+      "text": "What changes when we look at design for variability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use honest status and expectations. Provide prioritisation and escalation aligned to consequence. Give staff appropriate discretion with guidance and auditability; rigid rules often force hidden workarounds, while unlimited discretion creates unequal treatment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before changing a channel or policy, simulate volumes and exceptions. Define what happens when capacity is exceeded: queue, callback, alternate provider, deferred decision, or protected urgent route. Recovery is a capacity commitment, not just content."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Review recurring failure demand as evidence that policy, information, or process needs redesign. Do not optimise staff to process the same preventable confusion faster."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse a rule and a queue before designing around them",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse a rule and a queue before designing around them?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Priority rules are experience design because they distribute waiting and risk. Clinical urgency, service breach, vulnerability, and chronological fairness can conflict. The team states the rule, makes it auditable, and checks whether digital access gives some people an unintended advantage. Exceptions have authority and evidence rather than depending on personal relationships."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The interface communicates what the service can honour: realistic ranges, current responsibility, changed expectation, and escalation. It does not make unavailable capacity appear as a search failure or use reassuring copy to conceal a policy decision. Product, operations, and policy changes are evaluated together."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: building permit",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: building permit?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Digitising an application can shorten submission while increasing review backlog. Removing redundant evidence, clarifying decision authority, triaging by real risk, and adding specialist capacity may improve total service time more than another interface optimisation."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not use transparency to excuse a harmful policy. Explaining a constraint is necessary; it does not remove responsibility to examine whether the constraint is justified."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Policy determines eligibility, evidence, authority, timing, exception, and recourse; capacity determines whether the promise can be kept. Make both visible in service design. If an interface offers a slot, outcome, or response time that operations cannot supply, the problem is not merely expectation setting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Work with policy and operational owners to identify which rules are necessary, which are legacy, and how exceptions are handled."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "UI promise gap: the digital route commits to an outcome the service cannot deliver. Hidden policy: a material rule appears only after someone has invested effort. Capacity blindness: a new feature shifts work to staff without staffing or tooling. No exception authority: frontline people can see a failure but cannot resolve it."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A service promises same-day support, but staffing capacity makes that impossible during peak demand. The app keeps displaying the promise, and frontline staff absorb the conflict. The policy and capacity model have become the experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 158 researched the service system. lesson 159 identifies two often-hidden design levers. lesson 160 measures whether service quality improves for customers and staff together."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a service rule you encounter. Identify who benefits, who is burdened, the capacity assumption behind it, and one alternative that could change the experience."
+    }
+  ]
+}

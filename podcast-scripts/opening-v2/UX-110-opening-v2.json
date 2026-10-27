@@ -1,0 +1,176 @@
+{
+  "lesson": "UX-110",
+  "title": "Principles, Heuristics, Guidelines, and Patterns",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Principles, Heuristics, Guidelines, and Patterns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These forms of guidance are related but not interchangeable. Principles are durable value-based decision rules, such as preserving control in consequential actions. Heuristics are broad prompts for inspection, such as visibility of system status. Guidelines are more specific recommendations for a context or platform."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Patterns are reusable arrangements that solve a recurring interaction problem under known forces."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use guidance to improve judgement, not to end it. A pattern can be familiar yet wrong for the user’s model; a guideline can conflict with an access need; a heuristic can expose a problem without prescribing the solution. Start with the goal, context, evidence, and constraint, then use the appropriate guidance as a hypothesis or review lens."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Record exceptions. When a team repeatedly breaks a principle or pattern, it may reveal a new context, a poor rule, or a hidden organisational incentive."
+    },
+    {
+      "speaker": "host",
+      "act": "Use the right level of guidance",
+      "mood": "thinking",
+      "text": "What changes when we look at use the right level of guidance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Principles express durable values and direction, such as preserve user control. Heuristics support evaluation across many interfaces. Guidelines give contextual recommendations. Patterns capture reusable problem–context–solution trade-offs. Standards and requirements may create mandatory conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Name the level so advice is not treated as law or optional inspiration incorrectly."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Apply guidance through the current task, audience, platform, domain, and consequence. Multiple principles can conflict: visibility with simplicity, consistency with domain fit, automation with control. Make the trade-off and evidence explicit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use heuristics to find candidate issues, then describe the affected task and consequence. Use patterns only when their assumptions match. Test guidelines with realistic content, accessibility, and failure. Record justified exceptions and feed repeated learning back into the guidance system."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Govern sources, versions, owners, examples, and deprecation. A large library becomes unusable when teams cannot determine authority or applicability. Good guidance improves reasoning; it does not replace it."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate applicability",
+      "mood": "curious",
+      "text": "What changes when we look at evaluate applicability?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Problem: people cannot tell whether a consequential asynchronous action committed. Context: distributed systems, possible interruption, one valid reservation, anxious occasional users. Forces: immediacy, truthfulness, privacy, accessibility, consistency, and operational recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Solution: explicit pending state, durable retrieval, idempotent retry, final confirmation, and escalation. Consequences: more state complexity and monitoring, but lower duplicate risk and uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Heuristic evaluation can flag “poor visibility of state,” but the finding is incomplete until it names the affected actor, scenario, evidence, severity, and consequence. Similarly, platform guidelines are starting evidence, not proof that the design works in healthcare, under stress, with this content."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose the right kind of design knowledge",
+      "mood": "thinking",
+      "text": "What changes when we look at choose the right kind of design knowledge?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A principle such as preserve care continuity guides trade-offs across the service. A heuristic asks whether system state is visible. A guideline recommends showing source and update time for distributed status. A pattern defines the state family and recovery. An accessibility standard supplies testable obligations. Each has different authority, evidence, and exception handling."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team evaluates applicability before use: user and task, consequence, platform, domain, content, state, access, and operating constraints. Conflicts are resolved against outcome and evidence. Pattern libraries include when not to use an approach; guideline exceptions record rationale; heuristic findings still require contextual validation."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: confirmation dialog",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: confirmation dialog?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Always confirm deletion” is a brittle rule. Consequence, reversibility, frequency, and scope determine whether undo, staged removal, typed confirmation, or no interruption is appropriate. The pattern encodes forces rather than a universal screenshot."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Treat “best practice” as a request for evidence. Ask what problem the practice addresses, what trade-off it makes, and what outcome would show it is appropriate here."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a destructive delete action. A general principle says prevent avoidable errors; a heuristic asks whether consequences are visible; a guideline recommends confirmation for high-cost actions; a pattern offers undo or a review step. The team chooses based on reversibility and context instead of treating any one source of advice as a universal rule."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example “Keep users in control” is a principle. “Support undo and exit” can be a guideline. An undo toast is a pattern for reversible action in a suitable time window. For deleting a regulated record, that pattern may not fit; the service may need permission, explanation, confirmation, retention, and audit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team preserves the principle while choosing a different implementation from context and consequence. M03 has now connected human models to real work, delivery artifacts, requirements, and reusable guidance. M04 moves from designing with assumptions to learning with evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a familiar interface pattern. Name the problem it solves, the forces it assumes, and one context where it would be a poor choice."
+    }
+  ]
+}

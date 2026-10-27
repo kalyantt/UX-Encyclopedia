@@ -1,0 +1,166 @@
+{
+  "lesson": "UX-132",
+  "title": "Search Results, Facets, and Recovery",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Search Results, Facets, and Recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search is an interaction system: query formulation, interpretation, indexing, ranking, result explanation, filtering, sorting, no-result recovery, and learning from behaviour. People arrive with varied vocabulary and uncertain intent. A result page should help them refine, compare, and recover rather than punish an imperfect first query."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make result labels and filters reflect language people understand. Show useful attributes, distinguish exact from related matches where it matters, and explain active filters. Zero results are a conversation turn: offer spelling help, broader categories, related terms, or a route to human support—not a dead end."
+    },
+    {
+      "speaker": "host",
+      "act": "Make retrieval transparent enough to correct",
+      "mood": "thinking",
+      "text": "What changes when we look at make retrieval transparent enough to correct?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search quality depends on indexing, query interpretation, ranking, result representation, and recovery. Facets are not decorative filters: each requires reliable metadata, understandable values, meaningful counts, and rules for missing data. A result page should give enough evidence to judge relevance without exposing information the person is not authorised to see."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The result contract includes title, object type, care episode, status, date meaning, matched evidence, and source. Ranking is evaluated on successful downstream resolution, not clicks alone. A recent message may attract a click but be less useful than the current appointment record."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sensitive snippets and cross-role results obey permission before ranking, avoiding a leak through titles or counts."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Zero-result recovery diagnoses spelling, vocabulary mismatch, incompatible facets, missing permission, and absence of content differently. The interface preserves the query, explains what was searched, offers a reversible broadening step, and hands context to support when necessary. lesson 133 now examines the metadata and taxonomy that make those behaviours trustworthy."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: ecommerce facets",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: ecommerce facets?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A “waterproof” facet is misleading when suppliers use inconsistent claims and missing values disappear from results. The interface may appear sophisticated while making comparison less reliable. Facet design begins with metadata provenance and definitions, not the sidebar component."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the result set as an evidence surface",
+      "mood": "thinking",
+      "text": "What changes when we look at design the result set as an evidence surface?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Clarify query, scope, sort, result count, and applied constraints. Each result should help a person predict relevance through distinctive title, snippet, type, source, date, status, and domain metadata. Highlight matches carefully without destroying readability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Facets represent dimensions people use to narrow decisions. Derive them from the content model and seeking behaviour, show counts where reliable, support multiple selection with clear logic, and keep active filters visible. Do not offer fields with inconsistent or missing metadata as if they were dependable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Rank with relevance, authority, freshness, personal or task context, and diversity as appropriate. Explain sponsored or personalised influence. Provide alternate sorts when the decision requires recency, price, distance, or another explicit dimension."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For zero and weak results, preserve the query, explain scope, suggest spelling, synonyms, removed filters, broader categories, or authoritative support. Analyse reformulation and downstream task success. Clicking a result is not proof that search succeeded."
+    },
+    {
+      "speaker": "host",
+      "act": "Define a result and facet contract",
+      "mood": "curious",
+      "text": "What changes when we look at define a result and facet contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ranking varies by intent. An exact referral identifier favours the authoritative record. A clinic exploration query balances specialty suitability, location, access evidence, and availability without presenting a clinical recommendation. A problem query such as why was my request returned may combine current case state with governed support content."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "One relevance formula cannot serve all three equally."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every facet has a metadata contract: concept definition, allowed values, multi-selection logic, missing-state treatment, count meaning, source, and owner. Unknown accessibility data stays visible rather than disappearing from the denominator. Applied filters are inspectable and reversible; counts update predictably; narrow results explain the active constraints."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: research repository",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: research repository?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A search for onboarding may need a known study, all research about first use, or an answer to a current question. Results require method, audience, date, product area, and evidence status. Facets are trustworthy only when repository metadata is complete and governed."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search promises more than ranking: it depends on metadata, permissions, governance, and a recovery service. Senior teams measure successful resolution and harmful false confidence, not clicks alone, and refuse facets whose source data cannot support the claim."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an online parts catalogue. A search for a replacement battery returns hundreds of items. Useful results expose compatibility, stock, and uncertainty; facets narrow by device model without erasing the original query. When no exact match exists, explain why and offer a recovery route rather than a blank “no results” screen."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Run one exact, one exploratory, and one problem-oriented query in the same product. Compare the evidence in each result, then deliberately produce zero results and assess the recovery."
+    }
+  ]
+}

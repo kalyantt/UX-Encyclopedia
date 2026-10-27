@@ -1,0 +1,150 @@
+{
+  "lesson": "UX-020",
+  "title": "Assumptions Are Design Material",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Assumptions Are Design Material."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Every product decision contains assumptions: that a problem exists, that a segment has it, that a solution will help, that people will understand it, that the organisation can deliver it, and that benefits outweigh harm. Assumptions are not failures; invisible assumptions are."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make them explicit and rank them by impact and uncertainty. A high-impact, weakly evidenced assumption is a learning priority. Convert it into a hypothesis with a predicted behaviour and a method of testing. This changes discovery from defending ideas into reducing the risk attached to them."
+    },
+    {
+      "speaker": "host",
+      "act": "Convert belief into a testable risk",
+      "mood": "thinking",
+      "text": "What changes when we look at convert belief into a testable risk?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team ranks by consequence and uncertainty rather than debating confidence. A low-confidence colour preference is not as important as a moderately uncertain assumption that the original appointment remains protected."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Tests are selected to reduce decision risk: service rehearsal for acknowledgement, comprehension testing for promise, data audit for availability, and clinical review for safety boundaries. Results update the assumption log and the product decision; they do not merely mark a test complete."
+    },
+    {
+      "speaker": "host",
+      "act": "Turn belief into a testable statement",
+      "mood": "curious",
+      "text": "What changes when we look at turn belief into a testable statement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Separate assumptions about people, problem, value, usability, feasibility, viability, data, operations, accessibility, and ethics. Write each with actor, context, expected behaviour or condition, and consequence if false. “People want AI” is weak; “Support agents can detect unsupported claims before sending under normal workload” can be investigated."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Rate uncertainty and consequence, then test the riskiest combination. Make assumptions visible in opportunity maps, scenarios, prototypes, and decision records. Distinguish evidence, inference, and inherited organisational belief."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Update status after learning: strengthened, weakened, conditional, or invalidated. Record which contexts differ. Assumption management protects teams from turning repeated language into fact and lets new evidence reopen the right decision."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Separate desirability, viability, feasibility, usability, and ethical assumptions. A solution can be wanted but impossible to support; technically possible but harmful; easy to use but strategically unnecessary."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assumptions exist at several levels: the problem is important, a defined group experiences it, the team understands the context, a proposed intervention will help, people can use it, the organisation can operate it, and the intervention will not create unacceptable harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Mapping these layers prevents a team from spending months refining a solution while the problem or value proposition remains untested."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write assumptions in falsifiable language. Instead of “users need faster approvals,” try “people abandon the request because they cannot predict the approval time; showing a realistic status and next step will reduce avoidable contacts.” Rank each statement by impact, uncertainty, reversibility, and affected people."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Some assumptions need research; some need a prototype; some need an operational or policy check. Record what was learned so an old belief does not re-enter scope as fact."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assumption laundering: a stakeholder belief becomes a requirement through repetition. Solution fixation: only assumptions that support the preferred idea are examined. Low-risk learning: teams test easy details while the consequential unknown remains untouched. No disconfirmation: a study is designed to collect approval rather than challenge the claim."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team may assume guest checkout increases conversion. The deeper risks include fraud, order retrieval, communication consent, and support. Testing only button completion validates a narrow surface while leaving the service assumption untouched."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 19 begins with a decision. Assumptions identify what must be learned before making it. lesson 21 selects a method appropriate to that uncertainty."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "List five assumptions behind a product feature you use. Mark the one that would cause the most damage if false."
+    }
+  ]
+}

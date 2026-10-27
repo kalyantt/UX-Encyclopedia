@@ -1,0 +1,222 @@
+{
+  "lesson": "UX-088",
+  "title": "Influence With Evidence, Not Just Taste",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Influence With Evidence, Not Just Taste."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design influence is the ability to change how a product organisation understands and acts on user, service, and system evidence. It can result in adopting a recommendation, narrowing scope, running a test, delaying commitment, funding an operational dependency, or explicitly accepting risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Success is a more informed decision and an accountable learning path—not personal agreement with the designer."
+    },
+    {
+      "speaker": "host",
+      "act": "Influence improves decisions; it does not win debates",
+      "mood": "curious",
+      "text": "What changes when we look at influence improves decisions; it does not win debates?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin by understanding the decision environment:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "What exact decision is open? Who owns it, contributes, approves, implements, and bears consequence? When does it become expensive or impossible to change? Which constraints are fixed, assumed, negotiable, or political? What evidence does each participant possess or trust? What outcome or risk matters to them? What would change their view?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Influence arrives too late when research is presented after budget, architecture, contracts, or public commitments have hardened. Design the evidence path alongside the product decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Match evidence to the claim",
+      "mood": "thinking",
+      "text": "What changes when we look at match evidence to the claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Different methods support different claims:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "an interview can reveal meaning, expectation, experience, and reported behaviour; contextual observation can reveal actual work, workaround, timing, and hidden constraints; usability testing can reveal whether people understand and operate a design under tested conditions; analytics can show recorded behaviour, distribution, and sequence but not cause by itself; support and incident records reveal failure and recovery but reflect who reached the channel; experiments can estimate causal effect under their design and population; operational simulation can test queue, role, and capacity assumptions; technical evidence can establish feasibility, performance, security, and dependency behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not use one kind of evidence to make another claim. Three usability failures can establish a serious mechanism without estimating market prevalence. A funnel drop can identify where behaviour changes without explaining why. A preferred prototype can support comprehension or value under study conditions without proving retention."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "State the chain explicitly: observation → interpretation → implication → recommendation. Name alternative explanations and limits. Credibility grows when a team can see what is known, inferred, disputed, and still unknown."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a decision narrative",
+      "mood": "curious",
+      "text": "What changes when we look at build a decision narrative?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A concise decision brief can contain:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. decision and deadline; 2. intended outcome and affected people; 3. current evidence and its strength; 4. mechanism explaining the problem; 5. options, including doing less or addressing policy/process; 6. trade-offs, risks, dependencies, and distribution of burden; 7. recommendation and rationale; 8. uncertainty that could overturn it; 9."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "next evidence step or release condition; 10. owner and observable outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Lead with the decision, not the chronology of research. A story makes evidence memorable, but it must remain traceable and representative of the pattern being claimed. Use one case to illuminate a mechanism, then show distribution and counterevidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose an artifact that exposes the mechanism",
+      "mood": "thinking",
+      "text": "What changes when we look at choose an artifact that exposes the mechanism?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the smallest representation that makes the relevant relationship visible:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "journey fragment for sequence and lived consequence; service blueprint for backstage dependency and ownership; task flow for interaction complexity; evidence table for pattern, variation, and counterexample; annotated prototype for cause-and-effect in the design; metric view for scale and distribution; decision matrix for option trade-offs; clip for direct context, with consent and representative framing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid decorative artefacts or volume. Ten weak charts can obscure one decisive service dependency. Tailor detail to the audience while keeping the underlying evidence accessible."
+    },
+    {
+      "speaker": "host",
+      "act": "Work with objections and power",
+      "mood": "curious",
+      "text": "What changes when we look at work with objections and power?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An objection may reveal missing evidence, a hidden dependency, conflicting incentives, or a decision already made elsewhere. Ask what constraint or consequence sits behind it. Distinguish productive disagreement from delay tactics or power that excludes affected people."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Invite challenge before the final forum. Pre-wire critical evidence with decision owners and implementers, not to manipulate approval but to discover what the brief omits. Record dissent and the evidence that would resolve it. Do not erase a minority harm merely because most stakeholders accept the recommendation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When leadership chooses against evidence, document the decision, risk, owner, and monitoring. Influence includes making consequences accountable even when design does not control the outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: button disagreement",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: button disagreement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Make the button bigger” may be a hypothesis about discoverability, hierarchy, or conversion. Ask which action fails and inspect attention, comprehension, task sequence, competing content, and device conditions. A larger button is one intervention. Evidence might instead show that the label is ambiguous or the action appears before people are ready to commit."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Taste escalation: preferences are argued without outcome or decision criteria. User-as-veto: “the user said” closes discussion beyond what the evidence supports. Data dumping: research volume arrives without a decision, implication, or action. Selective evidence: supporting clips appear while contradictions and limitations are hidden."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "False certainty: uncertainty is removed to make the recommendation persuasive. Business translation erasure: human outcomes matter only after conversion into revenue. Late influence: evidence arrives after commitment has made change impractical. Consensus theatre: dissent and accepted risk vanish from the final record."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners increase the organisation’s capacity to reason with evidence. They know when to tell a vivid story, when to quantify distribution, when to expose a service map, and when to recommend a bounded test. They recognise power: who may speak, whose evidence is discounted, and who bears a choice without attending the meeting."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They do not perform neutrality. They make a recommendation, distinguish values from facts, show trade-offs, and state what would change their mind."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a school-portal redesign. A designer argues for replacing a confusing grade label. The stronger case combines student interviews, task errors, support tickets, and a small test of clearer wording. It states what is known, what is still uncertain, and the decision at stake."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Evidence supports influence when it helps colleagues act, not when it is used as decoration around a preference."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Watch a product presentation or read a case study. Find the moment evidence becomes a recommendation. Is the claim supported by the method? Are alternatives and counterevidence visible? Can you identify the decision owner, accepted trade-off, and what would change the recommendation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Persuasion without those elements may be confident storytelling rather than evidence-led influence."
+    }
+  ]
+}

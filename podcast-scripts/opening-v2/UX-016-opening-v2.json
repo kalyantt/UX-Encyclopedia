@@ -1,0 +1,162 @@
+{
+  "lesson": "UX-016",
+  "title": "Metaphors: Helpful Until They Aren’t",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Metaphors: Helpful Until They Aren’t."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interface metaphors borrow a familiar domain to help people form an initial model: desktop, inbox, card, cart, folder, timeline. They work when relevant relationships transfer. They fail when designers force the new system to imitate superficial details of the old one or when the borrowed rules produce false expectations."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a metaphor as a teaching aid, not a substitute for a coherent conceptual model. Ask which parts of the analogy are intended to transfer, where it breaks, and how the interface reveals the difference before it causes harm. Direct language and visible system state are often better than a decorative metaphor."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit what the metaphor transfers",
+      "mood": "thinking",
+      "text": "What changes when we look at audit what the metaphor transfers?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "List expectations carried from the source domain: objects, actions, limits, ownership, reversibility, and social meaning. Decide which the product supports and where the mapping breaks. A “trash” suggests recoverability; “wallet” suggests possession and transfer; “assistant” suggests competence and relationship."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use metaphor to accelerate orientation, then teach actual behaviour through labels, structure, status, and examples. Do not extend it into awkward rules merely for purity. Test what people predict in edge cases. Retire or constrain a metaphor when its false expectations outweigh its learning value."
+    },
+    {
+      "speaker": "host",
+      "act": "Metaphors in language and AI",
+      "mood": "curious",
+      "text": "What changes when we look at metaphors in language and ai?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Evaluate a metaphor under stress: multiple simultaneous referrals, delegated access, a rejected request, uncertain timing, and irreversible action. Ask participants what they predict, not whether the design feels intuitive. A metaphor is valuable only while its useful predictions exceed its false ones."
+    },
+    {
+      "speaker": "host",
+      "act": "Use metaphor to transfer a useful relationship",
+      "mood": "thinking",
+      "text": "What changes when we look at use metaphor to transfer a useful relationship?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metaphors age as products gain capability. A desktop trash can does not naturally explain retention policy, shared ownership, or cloud recovery. The team keeps familiar surface language where it reduces learning, but exposes the actual model when consequences differ."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It tests prediction and recovery, especially with people whose cultural or technical background may not include the assumed source domain."
+    },
+    {
+      "speaker": "host",
+      "act": "Document the metaphor’s valid and invalid predictions",
+      "mood": "curious",
+      "text": "What changes when we look at document the metaphor’s valid and invalid predictions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metaphors are tested across culture, expertise, language, and assistive technology. They can support initial learning while the underlying conceptual model remains explicit. When product capability outgrows the metaphor, the team preserves useful language but stops forcing new behaviour into a misleading analogy."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Legacy metaphors can hide product strategy. A “file” model may make permission, ownership, versioning, and collaboration harder to design clearly. Retire a metaphor when it prevents the better system from being understood."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metaphors borrow a familiar domain to make an unfamiliar system easier to approach: a desktop, a shopping cart, a notebook, a queue, or a conversation. They can supply useful expectations about objects and actions, especially during early learning. But every metaphor carries limits."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Digital objects can be copied, searched, shared, versioned, and automated in ways physical objects cannot; extending the comparison too far can create false expectations."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a metaphor as a bridge, not a constraint. Identify which parts of the familiar model transfer usefully and where the system must explain its difference. Prefer plain language and visible outcomes when the metaphor obscures consequential behaviour. Test whether people predict the result correctly rather than asking whether they recognise the image or phrase."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Decorative metaphor: a visual reference adds style without making action or outcome clearer. False transfer: people assume physical-world rules that do not apply digitally. Mixed metaphors: different parts of the product teach incompatible ways of thinking. Metaphor lock-in: the team preserves an outdated comparison even after it blocks a better conceptual model."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A “wallet” can suggest personal possession, yet a digital wallet may store credentials rather than money and allow an issuer to revoke them. The metaphor helps entry only if the product makes those authority limits visible."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 15 defined the conceptual model. Metaphor can help a person enter that model, but task analysis in lesson 17 will test whether the actual workflow supports the goal."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Identify a product metaphor and the moment it stops helping. What expectation does it create, and what would explain the product more honestly?"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "lesson": "UX-120",
+  "title": "Opportunity-Solution Trees: Keep the Why Visible",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Opportunity-Solution Trees: Keep the Why Visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An opportunity-solution tree links a desired outcome to customer opportunities, possible solutions, and the assumptions behind them. It makes reasoning visible: why this work exists, which need it addresses, what alternatives were considered, and what must be true for a choice to work."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An opportunity is not a solution request. It describes an unmet need, pain, desire, constraint, or desired progress grounded in evidence. Branch widely before selecting a solution; then identify desirability, usability, feasibility, viability, ethical, and data assumptions. Test the riskiest assumption first."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The tree is a living map, not a decorative workshop artifact. Prune branches when evidence resolves them; add branches when new customer evidence changes the opportunity space."
+    },
+    {
+      "speaker": "host",
+      "act": "Maintain traceability from outcome to test",
+      "mood": "thinking",
+      "text": "What changes when we look at maintain traceability from outcome to test?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team avoids selecting only easy opportunities or treating the tree as a roadmap. It compares consequence, frequency, strategic value, inequity, and tractability, then tests several solution paths. Guardrails and disconfirming evidence stay attached so local optimisation cannot replace the outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked contrast: a tree can hide weak reasoning",
+      "mood": "curious",
+      "text": "What changes when we look at worked contrast: a tree can hide weak reasoning?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Visual hierarchy creates rhetorical confidence. Evidence links, cross-connections, contradictions, and written selection rationale keep the tree honest."
+    },
+    {
+      "speaker": "host",
+      "act": "Failure modes in practice",
+      "mood": "thinking",
+      "text": "What changes when we look at failure modes in practice?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Solution-labelled need: “notification” appears as an opportunity. Tree as causality: diagram position is mistaken for proven mechanism. One-child branches: the existing backlog is merely redrawn. Scoring camouflage: multiplied numbers hide strategic and ethical judgment. Permanent map: learning accumulates elsewhere while the tree stays frozen."
+    },
+    {
+      "speaker": "host",
+      "act": "Build each layer with evidence",
+      "mood": "curious",
+      "text": "What changes when we look at build each layer with evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Place a measurable customer and business outcome at the top. Under it, map needs, pains, and desires expressed from the person’s perspective. Link opportunities to evidence and separate them from solutions. Add several solution approaches, then list assumptions and experiments beneath the candidates."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The tree is a thinking aid, not proof of causality. Branch structure can imply independence or completeness that evidence does not support. Record cross-links, contradictions, affected groups, and confidence. One solution may address several opportunities; one opportunity may have service, policy, content, and interface responses."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose a branch by consequence, reach, strategic fit, current satisfaction, uncertainty, and leverage. Test the assumption that can invalidate the branch, then update the tree. Do not use votes or score multiplication to hide value judgement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Review whether delivered work changed the outcome and whether guardrails held. Prune stale beliefs but preserve decision history. The tree keeps “why” visible only when evidence and learning continuously reshape it."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep the tree evidence-bearing and dynamic",
+      "mood": "thinking",
+      "text": "What changes when we look at keep the tree evidence-bearing and dynamic?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Branches are not mutually exclusive by default. One case may experience transport, timing, and status uncertainty together. The tree can show relationships or maintain a separate system map rather than forcing a false hierarchy. The team chooses a useful level of granularity: broad enough to influence strategy, specific enough to test."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Prioritisation combines customer consequence, frequency or reach, inequity, strategic relevance, present evidence, tractability, and learning value. A frequent minor inconvenience does not automatically outrank a rare safety failure. Opportunities outside the product team’s direct authority remain visible with the service owner required to act."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Several solutions are generated under a chosen opportunity, including content, data, policy, operations, human service, and interface options. Assumptions are attached to each. Test results update the solution, opportunity, or outcome branch; the tree is not protected from evidence simply because stakeholders approved it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: abandoned applications",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: abandoned applications?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Applicants need autosave” may conceal several opportunities: they lack documents, are interrupted, do not understand eligibility, or fear the consequence of submission. Autosave helps one mechanism. An evidence-bearing tree prevents it becoming the universal answer."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An opportunity tree encodes the team’s present interpretation, not objective reality. Senior leaders keep evidence and guardrails attached, prevent roadmap commitments from masquerading as opportunities, and revisit branches when the outcome or context changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a grocery app. The outcome is fewer abandoned weekly orders. One opportunity is uncertainty about substitutions; solutions might include clearer preferences, real-time approval, or better inventory promises."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The tree keeps that opportunity visible so the team can compare approaches and notice when a polished feature no longer addresses the original problem."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Take one feature request and rewrite it as the underlying struggle. Generate three mechanisms that could address the struggle, including one that requires no new interface."
+    }
+  ]
+}

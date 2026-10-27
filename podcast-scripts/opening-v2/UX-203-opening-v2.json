@@ -1,0 +1,284 @@
+{
+  "lesson": "UX-203",
+  "title": "Service Case: Policy, Staff, Capacity, and Recovery",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Service Case: Policy, Staff, Capacity, and Recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin by stating what a person should be able to achieve from their point of view. “Manage an appointment” is too vague. A stronger promise is: “A person can understand their options, choose a workable time or request appropriate help, preserve the information already supplied, and know what will happen next.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Define the service promise",
+      "mood": "curious",
+      "text": "What changes when we look at define the service promise?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test the promise across circumstances: urgent and routine care, limited digital access, language support, proxy booking, mobility constraints, a missed appointment, and no available slot. A service is defined as much by its response to these cases as by the normal route."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The promise must be deliverable. If the interface says “choose another time” while capacity rules make alternatives unavailable, wording cannot repair the contradiction. The design problem includes the rule and the process that fulfil the promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Map frontstage and backstage together",
+      "mood": "thinking",
+      "text": "What changes when we look at map frontstage and backstage together?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a journey showing what the resident does, thinks, needs, and experiences. Beneath it, map the staff actions, systems, policies, records, queues, suppliers, and decisions that produce each moment. Add evidence: contact reasons, waiting time, failure demand, staff workarounds, abandonment, accessibility issues, and repeated information."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Look for lines of dependency. The online status depends on scheduling data; the call-centre answer depends on permissions and training; a clinic decision depends on policy and capacity. A visible failure may be several steps away from its cause."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include time. Services unfold before and after a touchpoint: preparation, waiting, reminders, travel, follow-up, and consequences of delay. A confirmation that arrives after someone has arranged transport may technically be timely for the organisation and unusable for the person."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the handoffs",
+      "mood": "curious",
+      "text": "What changes when we look at design the handoffs?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A person should not become the integration layer between systems. When they move from web to phone or from a general agent to a specialist, preserve identity, task state, information already supplied, and the reason for transfer where privacy permits. Explain what will carry over and what must be repeated."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For staff, provide the context needed to continue the journey: the resident’s goal, current status, prior attempts, relevant evidence, and available actions. Do not flood them with an undifferentiated history. Handoff quality depends on shared meaning as well as shared data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Name ownership at every transition. “The clinic will contact you” is not a handoff model. Who receives the case? What makes it visible? What is the expected response time? What happens when the queue exceeds capacity? How can the resident tell that the service still holds responsibility?"
+    },
+    {
+      "speaker": "host",
+      "act": "Treat policy and capacity as design material",
+      "mood": "thinking",
+      "text": "What changes when we look at treat policy and capacity as design material?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Policies shape eligibility, priority, evidence, timing, discretion, and recovery. Make the rationale and consequence understandable, then test whether the rule creates avoidable exclusion or staff workarounds. Frontline staff often reveal where policy and lived situations diverge; involve them early enough to reshape the service."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capacity is also part of UX. A self-service route may reveal hidden demand or push complex work to a smaller team. Model volumes, handling time, exception rates, skills, and peaks before promising faster service. Measure both customer and staff outcomes. Reduced website contacts can look successful while unresolved cases, emotional labour, and rework rise elsewhere."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Digital should be one coherent route, not the only legitimate route. Channel strategy must reflect context, capability, privacy, urgency, and the type of support required. Consistency does not mean every channel looks the same; it means the service recognises the same person, rules, status, and promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the appointment-change target service",
+      "mood": "curious",
+      "text": "What changes when we look at build the appointment-change target service?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research reframes “add more appointment slots online” as:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When a resident’s appointment is no longer workable, they need to understand permitted options, preserve their place and information, and obtain timely help before the appointment. Current channels expose different capacity and policy states, so people repeat work, lose confidence, or miss care while staff reconstruct the same case."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team maps objects and states: appointment, clinical priority, change request, offered slot, temporary hold, transport/access need, proxy authority, evidence, queue, staff decision, notification, and appeal. “Cancelled” is separated from “change requested,” “original retained,” “alternative held,” and “change confirmed.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This prevents people from surrendering a viable appointment merely to see alternatives."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The target journey works like this:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. The service identifies the appointment and explains whether browsing alternatives affects it. 2. The resident states timing, access, transport, communication, and proxy needs only where relevant. 3. Available slots show source time, location, accessibility, and uncertainty; absence of online slots is not presented as absence of all help. 4."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A reversible hold protects an option while the resident checks consequences. 5. Policy rules distinguish self-service change, staff review, and clinically authorised reprioritisation. 6. If no suitable slot exists, the person joins an owned request queue without losing the original appointment. 7."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Web, phone, clinic, and support share task state, prior attempts, evidence, and next action subject to privacy. 8. Notifications state requested, held, confirmed, or more-information-needed—not generic “updated.” 9. A failure preserves choices and routes to a role with authority. 10. Outcome and repeated failure update capacity planning, policy, content, and channel design."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The backstage blueprint names scheduling system, referral record, clinic capacity release, transport coordination, interpreter booking, call-centre permissions, clinical exceptions, identity/proxy verification, notification, support, and governance. Each handoff has owner, input, output, service level, overflow state, and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Capacity modelling includes contact volume, handling time by case type, arrival pattern, staff skill, absence, exception rate, abandoned contact, callback, and failure demand. If self-service reveals unmet need, the service does not call the resulting queue a UX success. It decides whether to add capacity, change policy, narrow the promise, or communicate honest constraints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The artifact is a service promise and operating blueprint: person outcome, channels, objects/states, frontstage/backstage, policies, roles, volumes, service levels, measures, failure demand, recovery, and governance."
+    },
+    {
+      "speaker": "host",
+      "act": "Design recovery as a primary journey",
+      "mood": "thinking",
+      "text": "What changes when we look at design recovery as a primary journey?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Recovery begins by recognising that the expected route failed. Explain what happened in language the person can use, preserve their effort, provide a viable next action, and set an honest expectation. Give staff enough authority to resolve common failures rather than repeatedly apologising for a policy they cannot change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Capture recurring failures as evidence for systemic improvement. Tag the cause, not merely the contact channel. Review where demand reflects unclear information, a broken process, unavailable capacity, inaccessible interaction, or a rule that does not fit real circumstances."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Good recovery restores progress today and reduces the chance that others need the same recovery tomorrow."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For example, when an offered slot disappears after selection, the service preserves the original appointment, retains preferences, explains the inventory change, prioritises an equivalent search, and offers callback. Staff see the attempted slot and cause. If the failure recurs, it becomes a scheduling/capacity problem with an owner—not thousands of isolated “website contacts.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Measure the service without rewarding channel shift",
+      "mood": "curious",
+      "text": "What changes when we look at measure the service without rewarding channel shift?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "outcome: resident reaches a clinically and practically workable appointment; diagnostics: time to alternative, request state, repeat contact, handoff completeness, no-slot context, and resolution cause; guardrails: missed care, original appointment lost, inaccessible channel failure, proxy breakdown, unequal wait, unsafe reprioritisation, staff overload; staff/service measures: queue age, case complexity, authority, rework, emotional load, policy exception, and recovery success; countermetrics: online completion beside total resolution and repeat demand."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A reduction in calls can mean better self-service or silent abandonment. Combine telemetry with case review, staff observation, patient follow-up, and segment outcomes."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Digital-channel frame: website completion replaces service resolution. Person as integration: the resident repeats identity, history, and request across teams. Policy concealment: interface language softens a rule without changing its exclusion. Capacity denial: no available service is presented as user error or generic dead end."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Channel dumping: self-service shifts complex cases to an unfunded queue. Status ambiguity: request, hold, review, and confirmation are collapsed. Staff heroics: informal workarounds sustain the promise but disappear from the operating model. Contact deflection metric: lower calls look successful while abandonment and harm rise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recovery without learning: staff repair cases but causes never reach product, policy, or capacity owners."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Every promise made by an interface creates operational responsibility. A senior designer asks not only whether the message is clear, but whether staff, systems, policy, and capacity can keep the promise under normal pressure and during failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners negotiate the promise with policy and capacity rather than designing aspirational copy around unavailable service. They recognise frontline discretion as evidence, protect staff from impossible demand, and ensure alternate channels form one system instead of a hierarchy where non-digital users receive worse treatment."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A resident needs to change a hospital appointment. The website shows no suitable slot, the telephone queue begins from the start each time, call-centre staff cannot see the online attempt, and clinic staff are measured on utilisation rather than whether the new appointment is workable. The digital screen is functioning as specified."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "The service is not helping the resident make progress. Service design treats the experience as the outcome of an interconnected system: channels, people, policy, technology, information, capacity, incentives, governance, and recovery. Improving one touchpoint can make the whole service worse if it shifts cost or hides demand elsewhere."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 202 focused on role-based work inside an enterprise tool. This case enlarges the boundary to the service that surrounds every tool and channel. lesson 204 applies the combined course to a high-stakes context where failure can affect rights, care, safety, or livelihood."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Map a service across digital, human, and operational touchpoints. Mark one repeated-information handoff, one policy constraint, one capacity bottleneck, one staff workaround, and one recovery route. Then identify a change that improves the customer and staff experience without merely moving demand to another channel."
+    }
+  ]
+}

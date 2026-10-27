@@ -1,0 +1,218 @@
+{
+  "lesson": "UX-092",
+  "title": "Frame a Complex Problem",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Frame a Complex Problem."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A frame describes how people, context, present behaviour, system conditions, and consequence relate. It is not neutral: whatever the frame includes becomes designable, while excluded factors become background or “constraints.” Treat framing as an explicit hypothesis open to challenge."
+    },
+    {
+      "speaker": "host",
+      "act": "A problem frame is a provisional causal model",
+      "mood": "curious",
+      "text": "What changes when we look at a problem frame is a provisional causal model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A robust frame includes:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "people: relevant groups, variation, and affected non-users; context and trigger: when, where, and under which conditions the situation occurs; desired progress: what people are trying to achieve; current behaviour: actions, workarounds, delay, abandonment, and service response; barrier or mechanism: what appears to prevent progress; consequence: effect on people, service, organisation, and equity; evidence: observations and strength, not general belief; boundary: journey, channel, policy, population, and time included or excluded; constraints: legal, ethical, operational, technical, economic, and temporal; uncertainty: competing explanations and assumptions; outcome: what meaningful change would indicate improvement; guardrails: what must not worsen."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid including the intervention: “People need an AI navigator” is a solution claim. “Patients cannot distinguish authoritative eligibility from uncertain service information when comparing clinics” leaves room for data, content, policy, workflow, or interface responses."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose a useful altitude",
+      "mood": "thinking",
+      "text": "What changes when we look at choose a useful altitude?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Frames can be too broad, too narrow, or wrongly located."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Too broad: “Healthcare referrals are confusing.” It cannot guide a tractable decision. Too narrow: “The source badge needs stronger contrast.” It assumes the visible element is the causal lever. Internal-only: “Increase referral conversion by 10%.” It lacks human progress and permits harmful shortcuts. Symptom-only: “Patients call support.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Calls may be recovery from an upstream failure. Actor-blaming: “Clinics do not maintain data.” The system may make ownership impossible or unrewarded."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use nested frames. A strategic frame might address viable referral completion; an opportunity frame might address dependable clinic information at choice; a design frame might address distinguishing source states. Each should trace upward to outcome and downward to evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Generate competing frames",
+      "mood": "curious",
+      "text": "What changes when we look at generate competing frames?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Interface frame: patients cannot distinguish evidence types in clinic comparison, so they commit using inappropriate certainty. 2. Information-governance frame: consequential clinic facts lack field-level ownership, lifecycle, and conflict states, so no interface can represent dependable truth. 3."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Service-continuity frame: hold, referral sent, provider received, and appointment accepted are separate states without shared reconciliation, so patients receive false completion. 4. Incentive frame: teams optimise referral transfer while the patient outcome and recovery burden are outside ownership. 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Context frame: patients under health and time pressure cannot perform the verification work the service assumes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "These can coexist. The question is which best explains the observed consequence and which the organisation can responsibly address. Each implies different research and decision rights."
+    },
+    {
+      "speaker": "host",
+      "act": "Include power and distribution",
+      "mood": "thinking",
+      "text": "What changes when we look at include power and distribution?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Framing decides whose problem counts. A business may describe cancellation as retention loss; a customer may describe it as agency. A service may describe “non-compliance”; a patient may face inaccessible transport or conflicting care responsibilities. Examine who defines normal behaviour, controls data, has alternatives, and bears recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Segment responsibly. Do not invent personas from demographics alone. Identify contexts or capabilities that materially change the mechanism. Ask whether the proposed boundary makes a low-frequency severe harm disappear."
+    },
+    {
+      "speaker": "host",
+      "act": "Define outcomes without prescribing outputs",
+      "mood": "curious",
+      "text": "What changes when we look at define outcomes without prescribing outputs?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An outcome describes meaningful progress, not feature adoption. Pair human and organisational/service outcomes:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "patient reaches a suitable, practically viable appointment; staff spend less avoidable effort verifying or repairing stale facts; clinic information is current and attributable at point of use; differences in access, clinic capacity, or channel do not create unacceptable outcome gaps."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Guardrails prevent shortcut success: referral conversion must not rise through hidden uncertainty, reduced choice, coercive defaults, or transfer of work to unsupported clinics."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep the frame alive",
+      "mood": "thinking",
+      "text": "What changes when we look at keep the frame alive?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Version the frame when evidence changes actor, mechanism, boundary, or outcome. Record what changed and why. Do not rewrite history so the first hypothesis appears correct. A changing frame demonstrates learning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Socialise it with people who can reveal missing conditions: patients, coordinators, clinics, clinicians, engineering, data, accessibility, support, governance, and policy. Shared framing does not require identical priorities; it makes disagreements inspectable."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: checkout redesign",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: checkout redesign?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Redesign checkout” may conceal fee surprise, inventory uncertainty, address requirements, payment failure, or a valid decision not to buy. A useful frame names the affected context and consequence while preserving alternatives."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Returning customers cannot compare final delivery cost before committing address data, so time-sensitive purchases are abandoned” can guide research without assuming a new progress indicator or larger button."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Solution frame: a feature is written as the need. Altitude mismatch: the statement is too broad to act on or too narrow to question cause. Internal metric only: conversion or efficiency replaces human progress. Symptom relocation: support contact or error message is framed without upstream cause. Actor blame: system, policy, incentive, and access conditions disappear."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Single-cause certainty: competing mechanisms are removed before research. Equity boundary: severe minority contexts are excluded by average scope. Frozen diagnosis: evidence can confirm but never revise the frame."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners frame at multiple levels and understand that framing is an exercise of power. They resist both boundless systems language and premature UI scope. They state value judgements, distinguish evidence from causal inference, define counterevidence, and choose a boundary the organisation can influence without pretending adjacent causes do not exist."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a public-benefits application. Low completion could mean confusing forms, missing documents, distrust, limited device access, or ineligibility. The team writes competing explanations and identifies whose outcomes matter before choosing a solution. A narrow frame such as “reduce fields” would conceal the service and policy questions that determine success."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Read a brief or roadmap item and circle every solution noun: dashboard, assistant, redesign, notification, personalisation. Replace each with the situation and progress it assumes. Then ask which upstream policy, data, incentive, or service condition the current wording excludes. The missing condition may be the real design problem."
+    }
+  ]
+}

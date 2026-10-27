@@ -1,0 +1,193 @@
+{
+  "lesson": "UX-141",
+  "title": "Test Words as Product Behaviour",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Test Words as Product Behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content can be tested like any other interface behaviour. Ask people to find information, explain a message, predict a consequence, choose an action, or recover from an error. Observe before explaining. The question is not whether they “like the copy”; it is whether the content supports the intended understanding and action."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test labels in context, especially at decision points, high-stakes states, and places where internal language may differ from customer language. Pair comprehension evidence with search terms, support contacts, error rates, and task outcomes."
+    },
+    {
+      "speaker": "host",
+      "act": "Test the inference and action the words create",
+      "mood": "thinking",
+      "text": "What changes when we look at test the inference and action the words create?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content testing asks whether people can find, understand, trust, and act on information in context. Preference questions such as “Which wording do you like?” are weak evidence when the product needs correct interpretation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The method should match the risk: cloze tests probe immediate comprehension, highlighting reveals important or confusing text, teach-back exposes mental models, and task-based prototypes show behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Variants change one meaningful factor when possible. A quantitative experiment may compare downstream recovery only after both versions are safe and interpretable; higher clicks are not automatically better if they reflect alarm or misunderstanding. Small qualitative tests identify mechanisms, while operational and analytics evidence show whether those effects repeat at scale."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content is retested with translations, assistive technology, stress, missing data, and channel constraints. The findings update the message, state model, and sometimes service policy. lesson 142 defines the operations needed to keep validated content intact after launch."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: consent",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: consent?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A consent checkbox can achieve high completion because people ignore it. Testing must ask what participants believe they authorised, for whom, for how long, and how to withdraw—not whether they successfully ticked the box."
+    },
+    {
+      "speaker": "host",
+      "act": "Test the prediction created by words",
+      "mood": "thinking",
+      "text": "What changes when we look at test the prediction created by words?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Identify the decision language should support: find, understand, choose, act, or recover. Use realistic content and ask participants to explain meaning, predict consequence, locate information, and complete the task. Preference can follow; it cannot replace comprehension and behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use cloze or highlighting carefully for salience and terminology, comparison for competing frames, usability sessions for contextual action, search logs for findability, and field experiments for outcome. Match method to uncertainty. A/B tests can show behaviour change but not whether a more persuasive phrase reduced informed choice."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include stressful states, long values, translation, assistive technology, and people with different domain knowledge. Record where wording exposes a deeper interaction, policy, or service issue. Measure error, reversal, support, and delayed outcome beside conversion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Maintain traceability from hypothesis through version, evidence, decision, and later performance. Words are product behaviour because they alter expectation and action; they deserve the same design and validation discipline as code."
+    },
+    {
+      "speaker": "host",
+      "act": "Select the test that matches the content risk",
+      "mood": "curious",
+      "text": "What changes when we look at select the test that matches the content risk?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analysis captures confident wrong interpretation, overlooked evidence, hesitation, action, emotional effect, and differences by context. A/B testing may compare safe variants at scale, but higher clicks can reflect alarm or pressure. Operational evidence such as repeat contact and failed recovery complements qualitative testing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "One method explains mechanism; another estimates recurrence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Content tests can disprove assumptions outside writing. If no accurate sentence can explain when an appointment is protected, the policy or state model needs revision. Findings update content, component, event, or service and retain links to the source evidence and decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: privacy permission",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: privacy permission?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A high acceptance rate does not demonstrate comprehension. Ask people what data they authorised, for which purpose, recipient, period, and how to withdraw; then observe whether the refusal route is equally usable."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not wait for a full usability study. Small comprehension checks during design can prevent expensive ambiguity from reaching production."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test content inside a realistic task and state. Ask what people think a label, instruction, permission, result, or error means; what they predict will happen; and what action they take next. Compare alternative wording only when the decision and context are controlled enough to support a claim. Pair observed comprehension with behavioural and support evidence after release."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Readability-only review: grammar and brevity are judged without task comprehension. Context-free test: a sentence is assessed outside the state and decision it must support. Preference as proof: participants’ stated liking is treated as evidence of understanding. No post-release check: wording changes ship without monitoring consequence or support burden."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A team changes “Delete” to “Remove” because it sounds friendlier. In testing, people no longer know whether the action is reversible. A small word has changed a consequential decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 140 ensured content is available across conditions. lesson 141 tests whether it works. lesson 142 moves from a successful message to the operating system needed to keep content correct over time."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Show one product message to another person for five seconds. Ask what happened and what they would do next. Compare their answer with the intended meaning."
+    }
+  ]
+}

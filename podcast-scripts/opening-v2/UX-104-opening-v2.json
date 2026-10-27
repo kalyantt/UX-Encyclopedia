@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-104",
+  "title": "Motor Performance, Target Size, and Movement",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Motor Performance, Target Size, and Movement."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interaction is embodied. Distance, target size, spacing, hand position, device, motion, and time pressure affect whether an action can be performed accurately. Small or tightly packed targets increase accidental activation; controls far from the visual focus or current hand position add movement and attention cost."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design targets around the task and consequence. Frequent, time-sensitive, or high-risk actions need forgiving hit areas, separation from destructive neighbours, and clear feedback. Mobile controls should account for thumb reach and one-handed use; desktop tools can support denser precision when their users have pointer control and repeated practice."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Visual size is not always the same as interactive target size—expand the hit area without necessarily enlarging the visual object."
+    },
+    {
+      "speaker": "host",
+      "act": "Design from movement conditions",
+      "mood": "thinking",
+      "text": "What changes when we look at design from movement conditions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Movement time and error depend on target size, distance, direction, device, posture, fatigue, tremor, and environment. Fitts’ Law explains a useful relationship for pointing but not every motor task. Screen edges can be fast targets; crowded small controls increase error; drag, hover, and multi-touch impose additional capability demands."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Provide adequate target area and spacing, visible focus, keyboard access, and alternatives to path-based gestures. Place frequent or sequential actions to reduce movement without placing destructive controls where slips are likely. Allow undo and tolerance rather than demanding precision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test touch, pointer, keyboard, zoom, one-handed use, assistive input, and realistic motion. Measure error and recovery as well as speed. Larger controls can still fail when labels or consequences are unclear."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A mobile list puts delete beside open in two small icons. Increasing targets alone leaves a slip hazard. The redesign separates the destructive action, supplies a labelled menu, supports swipe with an equivalent route, and offers undo. Motor design and consequence design work together."
+    },
+    {
+      "speaker": "host",
+      "act": "Why size, distance, and path matter",
+      "mood": "curious",
+      "text": "What changes when we look at why size, distance, and path matter?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Fitts’s law models selection time as a function of target distance and effective width: a farther, smaller target generally requires more precise movement. The relationship is useful for comparing alternatives, not for calculating a universally correct button size."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Real performance also depends on input device, posture, visual perception, tremor, fatigue, attention, and the consequence of touching a neighbour by mistake."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Target size means the interactive area, not merely the visible icon. Spacing matters because a large target beside another consequential target can still produce error. Repeated controls benefit from stable placement. Moving through a narrow menu or drag path adds steering demand."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Gestures may reduce visible clutter but increase recall and fine-motor demand, so every essential gesture needs an operable alternative."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team tests with touch, mouse, keyboard, switch, voice, and zoom, including one-handed and interrupted use. It records missed targets, accidental activation, correction, fatigue, and total journey effort. These results are interpreted with hierarchy and comprehension: faster activation is not success when the wrong action became easier."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: map controls",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: map controls?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Small overlapping zoom and location controls may look unobtrusive but become difficult under motion, magnification, or tremor. Increasing target area, separating competing actions, and providing named keyboard controls improves access without requiring the map to dominate the task."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate movement across the complete task",
+      "mood": "curious",
+      "text": "What changes when we look at evaluate movement across the complete task?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Movement efficiency is balanced with safety. Frequent coordinator navigation receives stable shortcuts and nearby controls. Rejection and bulk state change remain separated, scoped, and reviewable. Larger or more prominent targets do not intentionally pressure patients toward the service’s preferred outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Testing includes touch, pointer, keyboard, switch, voice, magnification, one-handed posture, fatigue, and motion. Measures include errors, correction, effort, speed, and consequence. The team checks whether improvements for one input method create barriers for another and carries results into component and product standards."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: industrial control",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: industrial control?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Frequently used controls need efficient reach, but emergency actions also need separation, guarded activation, and clear state. Fitts’s law cannot decide the risk trade-off without task and error analysis."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Motor access is shaped by device, environment, fatigue, and workflow as well as disability. Component standards can provide a strong floor, but teams must test composition and repeated journeys. Efficiency goals should include physical effort and error consequence, not clicks alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person tries to dismiss a paid-app trial on a moving bus. The close control is a tiny low-contrast icon beside a much larger “continue” button. The difficulty is not indecision; the interface has made a precise physical movement disproportionately costly."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Use a familiar mobile product with your non-dominant hand while moving slowly. Notice which targets become difficult, which errors are recoverable, and whether important actions move between screens."
+    }
+  ]
+}

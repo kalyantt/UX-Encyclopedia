@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-025",
+  "title": "Discovery Is a Habit",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Discovery Is a Habit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Continuous discovery means maintaining regular contact with customers while product decisions are being made. A product trio—product, design, and engineering—shares responsibility for learning, not merely consuming a research report. Repeated exposure to real behaviour prevents teams from substituting internal confidence for evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The cadence matters more than a grand research event. Small, recurring conversations and observations keep opportunities current, reveal changing context, and let teams test decisions while they are still cheap to change."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked contrast: rhythm versus ritual",
+      "mood": "thinking",
+      "text": "What changes when we look at worked contrast: rhythm versus ritual?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Two teams both run a weekly interview. Team A recruits whoever is available, asks for feedback on the current prototype, clips positive reactions, and keeps the roadmap unchanged. Team B begins with an open decision, samples a relevant recent behavior, reconstructs an episode, compares it with operational evidence, and updates one assumption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The calendar is identical; only Team B has continuous discovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a decision-linked cadence",
+      "mood": "curious",
+      "text": "What changes when we look at build a decision-linked cadence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Maintain regular contact with customers and frontline evidence, but connect every activity to a current uncertainty or outcome. Combine interviews with observation, support, analytics, experiments, and operational data. A weekly ritual can still produce noise if participants, questions, and decisions never change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Keep a shared opportunity and evidence repository showing claims, sources, confidence, contradictions, decisions, and expiry. Review emerging evidence frequently and reserve deeper studies for questions that cannot be answered responsibly in lightweight sessions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Protect recruitment quality, consent, participant burden, accessibility, and researcher expertise as cadence grows. Continuous discovery means the organisation can learn continuously—not that every team improvises research without standards."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect weekly learning to the live decision",
+      "mood": "thinking",
+      "text": "What changes when we look at connect weekly learning to the live decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Recruitment, consent, accessibility, secure evidence handling, debrief, and synthesis are built into the operating model. The sample rotates across successful, failed, abandoned, and assisted journeys. Findings update the opportunity map and delivery work immediately, while deeper longitudinal or specialist studies remain available when the cadence cannot answer the risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Protect continuity without turning discovery into ritual",
+      "mood": "curious",
+      "text": "What changes when we look at protect continuity without turning discovery into ritual?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery and delivery share the same backlog of uncertainty. Before implementation locks a state model, the team tests whether patients and staff interpret it consistently. During rollout, they watch real exceptions. After release, outcomes and guardrails update the model. This keeps learning inside the work instead of creating a parallel research theatre."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Discovery is an operating-model choice. Protect time, participant access, decision ownership, and a place where learning changes priorities—or research becomes a ritual without consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Continuous discovery is an operating system for product decisions, not a permanent stream of interviews detached from delivery. Product, design, and engineering share a live understanding of the outcome, opportunity space, assumptions, experiments, and evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Regular contact works because it makes surprise normal: teams encounter behaviour that challenges their internal story before a roadmap or implementation hardens."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create a sustainable cadence. Maintain a recruiting path, keep a small set of recurring questions, schedule learning close to decision points, and preserve evidence where future team members can find it. Mix customer contact with support, operational, analytics, and market signals."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The cadence should vary with risk and change; a high-consequence or fast-moving service needs closer learning than a stable, low-risk internal utility."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research as ceremony: regular sessions occur but no decisions refer to them. Single-discipline ownership: research becomes a handoff rather than a shared practice. Recency bias: the latest conversation outweighs an accumulated evidence base. Contact without synthesis: the team meets people often but never updates its opportunity model."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A subscription team that interviews only during redesigns learns too late that cancellation reasons and billing confusion have shifted. A small regular cadence can detect changed behaviour before a roadmap commitment hardens."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Practice check A useful cadence should answer: which live decision will this evidence inform, who needs to observe or review it, how will it be stored, and what happens if the assumption weakens? If the team cannot answer those questions, another interview may create activity rather than learning. Module 4 established trustworthy evidence. This module makes learning continuous."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 26 shifts the team’s focus from shipping outputs to changing outcomes."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Notice one product that appears to learn from customers continuously. What signals suggest learning is built into its product practice?"
+    }
+  ]
+}

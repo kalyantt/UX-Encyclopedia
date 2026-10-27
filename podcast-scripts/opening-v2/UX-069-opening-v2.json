@@ -1,0 +1,172 @@
+{
+  "lesson": "UX-069",
+  "title": "Primary, Diagnostic, and Guardrail Metrics",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Primary, Diagnostic, and Guardrail Metrics."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A primary metric determines whether the change achieved the intended result. Preselecting it prevents teams from declaring success using whichever of many outcomes happens to look positive."
+    },
+    {
+      "speaker": "host",
+      "act": "Metric roles answer different questions",
+      "mood": "curious",
+      "text": "What changes when we look at metric roles answer different questions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Diagnostic metrics test the behavioural chain and help explain why the primary moved or did not move. They can include exposure, intermediate action, state transition, segment, performance, and service operations. Diagnostics support interpretation; they should not become a fishing expedition for wins."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Guardrail metrics protect qualities the team is not trying to optimise but refuses to damage. Organisational guardrails may include latency, crashes, support burden, and revenue. Human guardrails may include errors, unwanted contact, accessibility, safety, privacy, trust, cancellation, and unequal outcomes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trustworthiness checks determine whether the experiment and data are believable: sample-ratio mismatch, assignment/exposure anomalies, missing events, logging differences, bots, carryover, and interference. They are not product outcomes. A positive primary result is unusable when randomisation or telemetry is broken."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "One metric can play different roles in different experiments. Appointment latency may be primary for a scheduling intervention and a guardrail for a comprehension change."
+    },
+    {
+      "speaker": "host",
+      "act": "Design a metric tree",
+      "mood": "thinking",
+      "text": "What changes when we look at design a metric tree?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Begin with the OEC and causal chain. Place the primary metric at the decision level. Under it, map expected drivers and countervailing paths. For each node define direction, unit, population, window, expected timing, and what movement would mean."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep the tree selective. More metrics increase the chance of random movement and contradictory stories. Classify exploratory measures explicitly and use appropriate statistical treatment. Define guardrail thresholds from consequence and baseline variability—not after an attractive result appears."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Add segment views where the mechanism or harm may differ, but do not turn dozens of slices into unplanned significance hunting. Pre-specify critical segments, especially groups exposed to unequal risk."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: search redesign",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: search redesign?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Primary success might be successful search sessions or downstream task completion. Query reformulation, result click, quick return, and zero-result rate are diagnostics. Latency, crashes, offensive results, accessibility, and overall site success are guardrails. Click-through alone is dangerous: irrelevant but sensational results can raise it."
+    },
+    {
+      "speaker": "host",
+      "act": "Interpret patterns, not isolated arrows",
+      "mood": "thinking",
+      "text": "What changes when we look at interpret patterns, not isolated arrows?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If the primary is neutral and exposure is low, the idea may not have received a fair test. If proximal diagnostics move but the outcome does not, the assumed causal link may be weak. If the primary improves and a guardrail worsens, apply the pre-agreed rule. If only a subgroup changes, ask whether this was predicted, powered, and consequential."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not require every diagnostic to move. Their purpose is to discriminate explanations. Preserve null results and unexpected paths; they improve the behavioural model."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric soup: many measures have no assigned role or hierarchy. Primary switching: the winner is chosen after results are visible. Guardrail decoration: harms are monitored without thresholds or authority. Diagnostic promotion: a local click becomes proof of value. Trust-check neglect: broken assignment or logging is analysed as product behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Aggregate safety: subgroup harm disappears inside overall improvement."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a metric set that can explain movement",
+      "mood": "thinking",
+      "text": "What changes when we look at build a metric set that can explain movement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "He predefines how trade-offs will be interpreted. A primary improvement with a safety or equity guardrail breach does not pass. A flat primary with improved comprehension may indicate the mechanism changed but follow-up is too short—or the causal model is wrong. Metrics support judgment when they are read together, not when a single number is crowned after the result."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric architecture distributes decision rights. Name who owns the primary, who can stop on safety or accessibility guardrails, and who investigates data-quality failures. Guardrails require operational response; a dashboard no one watches is not protection. Review the tree as the product and its incentives evolve."
+    },
+    {
+      "speaker": "host",
+      "act": "Give every metric a role in the decision system",
+      "mood": "thinking",
+      "text": "What changes when we look at give every metric a role in the decision system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Definitions include denominator, eligibility, event source, time window, segmentation, missingness, and owner. The team inspects distributions and cohorts rather than averages alone. When the primary improves but a guardrail worsens, the result is a trade-off to investigate—not success with an inconvenient footnote."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a checkout. The primary measure is completed, valid orders. Diagnostic measures show where shoppers drop out or retry payment. Guardrails watch accidental subscriptions, refund requests, support contact, and accessibility failures. When conversion rises but refunds rise too, the metric roles stop the team from calling the experiment a straightforward win."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find an experiment case study reporting one success metric. Build the missing diagnostic and guardrail tree. What rival explanation remains plausible because the case did not report those measures?"
+    }
+  ]
+}

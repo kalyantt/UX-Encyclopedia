@@ -1,0 +1,182 @@
+{
+  "lesson": "UX-056",
+  "title": "Good Services Are Findable and Understandable",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Good Services Are Findable and Understandable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good services are findable, understandable, usable, and responsive. People should be able to discover the service, understand what it offers and costs, know what will happen next, and get help when the normal path fails. Clarity at entry prevents avoidable support and distrust later."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design expectations honestly. Explain eligibility, timing, price, limitations, and recovery before people commit. Use the same service principles across the app, emails, staff scripts, and help content so channels do not contradict one another."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the promise before the transaction",
+      "mood": "thinking",
+      "text": "What changes when we look at design the promise before the transaction?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Findability concerns more than search ranking. People must recognise that a service exists, that it is intended for their situation, where the trustworthy entry point is, and what alternative exists if it is not suitable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Understandability means they can form a sufficiently accurate model of eligibility, effort, evidence, time, cost, consequences, and next steps before committing. These qualities reduce misdirected demand as well as confusion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team uses a comprehension protocol rather than asking whether the page is clear. Participants explain in their own words what the service does, whether they qualify, what will happen after submission, what remains uncertain, and what they would do if their situation changes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Wrong confident answers are treated as more serious than hesitation because they can produce consequential action. Search logs and support contacts reveal missing vocabulary; incomplete applications show where the promise and required evidence diverge."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: cancelling a subscription",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: cancelling a subscription?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A cancellation route is not findable merely because a help article exists. People must locate it from the account they are trying to change, understand the effective date, remaining access, refunds, stored data, and reactivation conditions, and receive evidence that the request took effect. Discoverability and comprehension are part of fulfilling the service promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Design discovery and comprehension together",
+      "mood": "thinking",
+      "text": "What changes when we look at design discovery and comprehension together?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People often begin outside the service: search engines, referrals, letters, staff, or a life event. Use the language they know, publish authoritative entry points, and distinguish similar services by eligibility, outcome, cost, and next step. Avoid requiring people to understand organisational structure before they can begin."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "At entry, explain what the service does, who it is for, what is needed, how long it may take, what it costs, and what happens after submission. Keep status and ownership understandable throughout. When rules are complex, layer explanation and show examples without concealing material exceptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test findability from the person’s starting vocabulary and comprehension through realistic decisions. Search rank and page views do not prove people found the right service or understood its promise."
+    },
+    {
+      "speaker": "host",
+      "act": "Translate service principles into observable tests",
+      "mood": "curious",
+      "text": "What changes when we look at translate service principles into observable tests?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "He tests discovery from a GP message, web search, clinic call, translated letter, and assisted route. He tests comprehension before sign-in and at consequential transitions. The service explains eligibility, cost where relevant, waiting, data use, alternatives, and recovery without requiring people to understand the organisation chart. Claims across channels must agree."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Service clarity is often a policy decision. If a policy cannot be explained plainly, the issue may be its complexity or fairness rather than the copy."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Findability is the ability to discover that a service exists and decide whether it is relevant. Understandability is the ability to form a correct expectation about what it does, for whom, at what cost, with what timing, evidence, limitations, and next steps."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These qualities are established before a person reaches the “main” interface, through search, referrals, marketing, eligibility content, staff conversation, and prior experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design the service promise as a contract. State material conditions early enough to influence a decision. Use plain language and consistent terminology across channels; show progress and ownership after someone begins; and make support, complaint, and recovery routes credible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test comprehension by asking people to explain what they think will happen, not merely whether they can find the call to action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery without fit: people can find the service but cannot tell whether they are eligible or it meets their need. Late limitation: material cost or constraint appears after a person has invested effort. Channel contradiction: email, app, help centre, and staff provide different explanations. Opaque waiting: people cannot tell who owns the next step or when to expect it."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A service has a cancellation policy, but a customer can only find it after searching several help pages and signing in. The policy exists; access to it does not."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 55 identified the whole service. This lesson defines what a person should be able to understand within it. lesson 57 separates visible service moments from the backstage work that enables them."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Try to find a service’s cancellation path. Assess how understandable its terms, consequence, and next step are."
+    }
+  ]
+}

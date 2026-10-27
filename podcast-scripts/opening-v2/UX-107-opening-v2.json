@@ -1,0 +1,151 @@
+{
+  "lesson": "UX-107",
+  "title": "From Goal to Workflow: Model the Work, Not the Happy Path",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "From Goal to Workflow: Model the Work, Not the Happy Path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A workflow models the real sequence people and systems follow to achieve a goal: triggers, actions, decisions, information needs, handoffs, exceptions, and completion. Unlike a screen flow, it begins with the person’s goal and includes work that occurs before, between, and after screens."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Model variations deliberately. What changes for a first-time user, an experienced user, a person with missing information, a delegated task, or a failed action? Exceptions often reveal the product’s real conceptual model and the hidden operations required to sustain it. They also expose where policies—not interface controls—are creating friction."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use workflows to decide what the interface must make visible, preserve, automate, or hand off. A workflow is successful when it helps a team see an actionable constraint, not when it contains every possible arrow."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the workflow from real episodes",
+      "mood": "thinking",
+      "text": "What changes when we look at build the workflow from real episodes?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define the outcome and follow several cases through trigger, preparation, decisions, actions, information, tools, other people, waiting, and consequence. Include successful, failed, interrupted, exceptional, and recovered cases. Mark what is formal procedure, observed practice, and assumption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Represent branching and loops. Happy paths imply work is linear and under one person’s control; real workflows include unavailable data, permission, handoff, parallel activity, and changed goals. Identify which actor owns each transition and what state must travel."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Analyse cognitive and capability demands: what must be noticed, remembered, compared, inferred, or physically performed? Preserve checks that support safety while removing avoidable re-entry and coordination. Do not automate a workaround until its purpose is understood."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the model to compare concepts, derive requirements, expose operational dependencies, and select evaluation scenarios. Validate it with the people who perform and experience the work. A workflow map earns its place when it changes system scope or decision—not when it documents the intended screens."
+    },
+    {
+      "speaker": "host",
+      "act": "Find leverage in the workflow",
+      "mood": "curious",
+      "text": "What changes when we look at find leverage in the workflow?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Look for repeated entry, invisible waiting, uncertain ownership, batching, avoidable handoffs, and recovery that depends on memory. Do not automatically remove human work. Clinic triage is a consequential judgment; the opportunity is to give it complete evidence and expose its progress, not hide or prematurely automate it."
+    },
+    {
+      "speaker": "host",
+      "act": "Model variation, responsibility, and state",
+      "mood": "thinking",
+      "text": "What changes when we look at model variation, responsibility, and state?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The model includes alternate and abandoned paths, repeated loops, interruptions, channel switching, delegated help, and parallel activity. Each transition names who acts, what evidence permits it, and which state results. Unknown, delayed, and conflicting state are modelled rather than hidden under an error branch."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Current and target workflows remain separate. Workarounds are interpreted before removal; some preserve safety or coordination. The target workflow is tested against ordinary and high-consequence scenarios, then linked to requirements, service blueprint, and measures. Its purpose is to support decisions, not document every click."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: expense approval",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: expense approval?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A happy path from form to approval hides returned evidence, delegated authority, budget exceptions, parallel review, absence, audit, and reimbursement. Workflow modelling exposes the work the interface must support."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Ask who performs each step and who absorbs a failure. If the workflow ends at “contact support,” it has stopped exactly where service design becomes important."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A clinic’s booking flow has a neat five-step diagram. It omits the patient who cannot find a suitable slot, needs a referral, loses connection, calls support, or arrives late. The happy path is a useful sketch; it is not the work."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example “Resolve a damaged shipment” includes recognising evidence, checking contract, contacting carrier, deciding remedy, obtaining approval, updating customer, and recording outcome. Cases branch when evidence conflicts or authority is absent. Mapping exposes that agents use private notes to preserve context."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The design response includes shared case state and escalation, not merely a shorter form. Evaluation uses ambiguous and interrupted cases because those define the real work. lesson 13 separated goals, tasks, and actions. This lesson scales that distinction into real work over time. lesson 108 compares the artifacts used to communicate that work in design and delivery."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Map a real task you performed this week. Add the trigger, handoffs, recovery path, and the information you had to remember. Circle the first step a screen-only flow would miss."
+    }
+  ]
+}

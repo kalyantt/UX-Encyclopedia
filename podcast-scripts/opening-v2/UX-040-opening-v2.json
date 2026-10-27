@@ -1,0 +1,176 @@
+{
+  "lesson": "UX-040",
+  "title": "Search and Information Scent",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Search and Information Scent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Information scent is the set of cues that helps people predict where a path will lead. Labels, summaries, result snippets, filters, metadata, and previews let a person decide whether to continue without opening every option. Search supports known-item and exploratory finding when navigation is not enough."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design search as a recovery and discovery system: tolerate varied vocabulary, handle ambiguity, show useful result context, expose filters carefully, and help people reformulate a failed query. Analyse zero-result searches and repeated searches as evidence of content and IA gaps."
+    },
+    {
+      "speaker": "host",
+      "act": "Design search as a sequence of judgments",
+      "mood": "thinking",
+      "text": "What changes when we look at design search as a sequence of judgments?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search is not a box followed by ranked links. A person must express an imperfect need, interpret the system’s response, distinguish promising results, refine the query, and recover when the vocabulary or data does not match."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Information scent is the evidence—labels, descriptions, metadata, previews, and context—that helps them predict the value behind each choice before paying the cost of opening it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Zero results are treated as diagnostic evidence. The system distinguishes no matching record, spelling or synonym mismatch, filter conflict, missing permission, and unavailable service. Recovery offers a broadened query, removed filter, related task route, or support handoff with the query context preserved. It never invents a confident result merely to avoid an empty state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluation uses known-item, exploratory, and problem-oriented tasks. The team examines query reformulation, result selection, successful destination, false positives, zero-result recovery, and downstream outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ranking relevance is segmented by role and intent because a clinically authoritative document and a recent informal message can contain the same phrase but should not carry the same weight."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: searching a workplace policy library",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: searching a workplace policy library?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An employee searching “parent leave” may need eligibility, duration, manager process, or a form. Title matching alone returns a pile of policies. Useful scent includes audience, effective date, jurisdiction, summary, and task; synonyms connect everyday language to “parental leave” without concealing the official document."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the search conversation",
+      "mood": "thinking",
+      "text": "What changes when we look at design the search conversation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search begins with a need that may be specific, exploratory, repeated, or poorly articulated. Support query entry with language, examples, spelling, synonyms, and scoped suggestions without hijacking intent. Preserve and display active scope."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Rank by relevance to the task, authority, freshness, and context rather than text match alone. Results need titles, snippets, metadata, and cues that let people predict value before committing. Filters and facets should use the domain and show result counts and active constraints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design zero results and poor results as recovery: explain scope, suggest corrections or broader terms, expose navigation, and provide support for consequential needs. Analyse queries, reformulations, exits, result selection, and successful downstream outcomes. Search quality is measured after the click."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Search logs are behavioural research at scale, but they require interpretation. A popular query can signal demand, confusion, broken navigation, or a policy people are trying to escape."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Search begins before a query. People form an information need, choose terms from their own vocabulary, inspect suggestions or results, evaluate scent, and reformulate if needed. Design for known-item search, exploratory browsing, troubleshooting, and recovery from navigation failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Helpful systems tolerate synonyms, spelling variation, partial knowledge, and ambiguous terms while respecting permissions and sensitive contexts."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Result quality is not just ranking. A result should show enough title, snippet, source, date, type, status, and relationship to help a person judge relevance. Facets and filters should reveal meaningful dimensions without creating a second maze. When no result is useful, offer query help, adjacent routes, human support, or an explanation that lets the person recover."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Analyse failed, repeated, abandoned, and reformulated searches as evidence about language, content gaps, and IA."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Keyword literalism: the system only understands its internal vocabulary. Low-scent results: titles and snippets do not reveal what a destination contains. Filter maze: refinement controls create more work than they remove. Silent zero results: the system offers no route forward or learning signal."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person searches “refund” and sees results titled “Help centre,” “Account,” and “Policies.” They cannot predict which result contains the answer. Search exists, but scent is weak."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Navigation supports browsing; search supports directed finding. lesson 41 explains why the words and content inside these systems are themselves interface."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Search for an ambiguous term. Inspect how the product helps you understand results, narrow the meaning, or recover."
+    }
+  ]
+}

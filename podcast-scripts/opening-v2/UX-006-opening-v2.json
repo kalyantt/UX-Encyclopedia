@@ -1,0 +1,184 @@
+{
+  "lesson": "UX-006",
+  "title": "The UX quality lens",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "The UX quality lens."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A new checkout increases conversion. The team celebrates. Then support reports that customers did not understand the recurring charge. Both observations are true. This lesson gives you a way to judge a design across outcomes, usability, inclusion, agency, and the service that must honor its promise."
+    },
+    {
+      "speaker": "host",
+      "act": "What this moment reveals",
+      "mood": "curious",
+      "text": "What changes when we look at what this moment reveals?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Good UX balances multiple dimensions: people can achieve outcomes; the system is understandable and accessible; it respects agency; it works in real contexts; and it creates value without using deception or avoidable harm."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "There is no universal score. The weights change with the task. A game can prioritize exploration. A financial transfer must prioritize clarity, safety, and informed control. A useful designer makes the trade-offs explicit rather than letting a single metric decide silently."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This lens matters because digital products make it cheap to measure and optimise a narrow action. A test can tell a team which variant caused more people to click or buy. It cannot, by itself, decide whether people understood the offer, freely chose it, were harmed later, or received a service capable of keeping its promise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measurement answers the question it was set up to answer; it does not supply the missing question."
+    },
+    {
+      "speaker": "host",
+      "act": "Follow the mechanism",
+      "mood": "thinking",
+      "text": "Can we follow the mechanism step by step?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Six-part UX quality lens: inspect a proposed change through each of these dimensions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outcome: does it help people finish what matters? Usability: can they use it effectively and recover from mistakes? Context: does it hold up in real conditions? Inclusion: can diverse people perceive, operate, and understand it? Agency and trust: are choices clear, voluntary, and honest? Service value: can the wider system deliver the promise?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Show the shorter sign-up flow as green on completion but amber on agency and trust. The lens is a conversation tool, not a decorative score."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "How to make trade-offs responsibly"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For each proposed change, name the benefit, the people who receive it, the people who may bear a cost, and the evidence needed before release. Then consider reversibility: can a person undo the action, understand the consequence, get help, or choose an alternative?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These questions are especially important where a design uses defaults, urgency, scarcity, hidden costs, or friction to steer choices."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid treating “the metric went up” as a complete success statement. Pair behavioural data with task evidence, support contacts, complaint patterns, accessibility review, and direct user understanding. A quality decision makes the trade-off visible enough for a team to debate it honestly."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Read metrics as evidence, not permission"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metrics are valuable because they reveal patterns at scale, but they are proxies. Conversion may rise because an offer became clearer, because the audience changed, or because people were steered into something they did not intend. Reduced time-on-task may indicate efficiency, or it may mean people abandoned before finding what they needed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A designer must connect the number back to the human activity and seek disconfirming evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Set a balanced measurement plan before a change ships. Include a primary outcome measure, guardrail measures that catch likely harms, and qualitative evidence about comprehension and confidence. For a consent choice, a primary metric might be completion; guardrails could include reversal, complaint, support contact, and accurate understanding."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The exact measures vary, but the principle is stable: success should not be defined so narrowly that the team cannot see the damage it creates."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ethical quality is not an extra after the commercial decision. It is part of what makes a product sustainable and worthy of trust. A system that makes choices difficult to understand or leave may produce short-term numbers while teaching people that the product is not on their side."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Declaring success from one dashboard metric. Calling a trade-off “necessary” without naming who bears the cost. Treating accessibility, ethics, and operations as later reviews instead of design constraints. Using the quality lens as a checklist without talking to real users."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use this lens in review sessions: whose outcome improved, what cost moved elsewhere, what evidence supports the claim, and what harm or exclusion could the metric conceal?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners make value conflicts explicit and assign ownership to the resulting risk. They prevent a balanced framework from becoming a checklist where strengths cancel severe harm, distinguish diagnostic metrics from permission to proceed, and record when new evidence should reopen the decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Consider a subscription cancellation flow. A team can make it hard to find, add confusing language, or force unnecessary calls; that may protect a short-term retention number. But it damages agency, trust, support load, and long-term customer value. A quality lens exposes this before it becomes a dark pattern. The alternative is not simply “make everything easy.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "It is to make important choices understandable, reversible where possible, and aligned with the person's intent."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The first module has moved from an individual attempt to a whole system of value and consequence. Module 2 explains the human limits that make this quality lens necessary in the first place."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "When a flow seems frictionless, ask: Whose friction disappeared—and did it reappear somewhere else as confusion, risk, work, or loss of choice?"
+    }
+  ]
+}

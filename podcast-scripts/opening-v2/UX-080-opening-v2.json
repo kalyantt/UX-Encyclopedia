@@ -1,0 +1,242 @@
+{
+  "lesson": "UX-080",
+  "title": "Human Control and Automation",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Human Control and Automation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Human-centred AI does not require choosing between “manual” and “fully automated.” A system can provide high automation—fast retrieval, calculation, monitoring, drafting, or execution—while also providing high human control through goals, constraints, review, correction, override, and recourse."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automation expands what can be done; control preserves the person’s ability to direct and contest it."
+    },
+    {
+      "speaker": "host",
+      "act": "Control and automation are separate dimensions",
+      "mood": "curious",
+      "text": "What changes when we look at control and automation are separate dimensions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Control is not the number of buttons. It is the person’s effective ability to shape a consequential outcome with adequate information, time, authority, and recovery. Conversely, manual work is not automatically empowering. Forcing a patient to compare fifty unstructured clinic records creates labour, not agency."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat automation as a set of roles rather than one level:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Inform: organise or surface evidence without recommending an option. Suggest: propose an interpretation, draft, or next step that a person can change. Recommend: rank alternatives and explain the relevant basis. Execute with approval: prepare an action, then require meaningful confirmation. Execute within limits: act under explicit constraints with status, pause, and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Act autonomously: select and execute without case-by-case approval."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "One product can use several roles. Authority should be assigned per action, not described vaguely as “AI-assisted.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Match authority to the consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at match authority to the consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "More automation is reasonable when the action is low consequence, frequent, time-sensitive, well bounded, observable, and easy to reverse. More direct human authority is needed when harm is serious, input is ambiguous, value depends on personal preference, mistakes are hard to detect, outcomes are contested, or recovery is slow."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assess five properties:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Consequence: what can be lost—health, money, privacy, opportunity, dignity, or time? 2. Reversibility: can the action be undone fully, quickly, and without hidden residue? 3. Detectability: will the affected person or operator know that the system is wrong? 4. Time horizon: is intervention possible before the consequence, or only afterward? 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Competence and capacity: does the human reviewer have the knowledge, evidence, time, and authority to disagree?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "These properties prevent “human in the loop” from becoming theatre. A nurse asked to approve hundreds of opaque recommendations in seconds is not an independent safeguard. The workflow has transferred liability to a person without transferring the conditions for judgement."
+    },
+    {
+      "speaker": "host",
+      "act": "Write a delegation contract",
+      "mood": "curious",
+      "text": "What changes when we look at write a delegation contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Before designing controls, state the relationship between person and system:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "the person’s goal and the system’s assigned task; data it may read and sources it may not use; decisions it may recommend and actions it may execute; constraints, thresholds, monetary or clinical limits, and duration; cases that require clarification, approval, or expert escalation; how progress, uncertainty, and source status are shown; how the person pauses, corrects, revokes, or reverses the action; what is recorded, who can inspect it, and who owns remediation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The contract must be expressed through behaviour, not buried in terms. A person should be able to answer, “What is it doing now? What will happen next? What still requires me? What can I change? Who helps if this goes wrong?”"
+    },
+    {
+      "speaker": "host",
+      "act": "Design intervention before consequence",
+      "mood": "thinking",
+      "text": "What changes when we look at design intervention before consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Controls must appear at the moment they can still change the outcome. A cancel link after private data has already been transferred is recovery at best, not approval. A notification that an autonomous agent completed twelve actions is an audit summary, not ongoing control."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For delegated sequences, provide:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "plan preview before execution; scope and permission boundaries; checkpoints for consequential branches; visible progress and current state; pause or stop that takes effect predictably; an audit trail written for affected people as well as operators; partial-failure handling and safe rollback; escalation to a person who can change the outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid excessive interruption. Confirmation fatigue causes people to approve without reading. Group low-risk reversible steps under a clear constraint; reserve friction for material commitment, changed scope, new data access, unusual uncertainty, or irreversible action."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate the joint human–AI system",
+      "mood": "curious",
+      "text": "What changes when we look at evaluate the joint human–ai system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Model accuracy alone cannot show whether authority is well designed. Test the combined workflow:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "appropriate acceptance and rejection; detection of wrong or unsupported output; time and cognitive load to review; frequency and success of correction, override, pause, and recovery; performance under high volume, interruption, and time pressure; differences between novice and expert reviewers; outcomes for people affected by accepted recommendations; cases where people defer despite contradictory evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Review accepted actions as well as overrides. Overrides reveal visible disagreement; silent automation bias lives among outputs people accepted without sufficient scrutiny."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: expense approval",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: expense approval?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An AI system can extract receipt fields and flag policy mismatches. Automatically rejecting reimbursement is more consequential and harder for an employee to diagnose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A sound delegation contract lets the system prepare the claim, approve clearly bounded low-risk cases under an auditable policy, and route ambiguous or adverse decisions to an authorised reviewer with evidence and appeal. Adding a manager click to every case would create review overload without improving judgement."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Opaque authority: people cannot tell whether the system informed, recommended, decided, or acted. Human-in-the-loop theatre: the reviewer lacks time, evidence, competence, independence, or authority. Late control: correction appears only after an irreversible or privacy-sensitive action. Confirmation fatigue: frequent low-value prompts train people to approve reflexively."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Automation bias: fluent or ranked output receives less scrutiny than equivalent human advice. Automation burden: the product saves machine time by creating monitoring and cleanup work for people. No partial recovery: stopping a sequence leaves hidden actions or inconsistent state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Responsibility laundering: the organisation blames either the user or the model for a boundary it designed."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners allocate decision rights, not just interface controls. They involve domain, legal, privacy, security, operations, accessibility, and affected-user expertise in defining prohibited actions and escalation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They fund reviewer capacity, set maximum queue and response conditions, audit whether overrides produce retaliation or extra work, and ensure vendors cannot expand authority through a model update."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The success metric is not “percentage automated.” It is better joint performance: improved outcome and access, lower avoidable workload, appropriate reliance, fewer severe errors, timely intervention, and effective remedy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an expense-approval assistant. The system may suggest a category, but a human remains responsible for unusual or consequential decisions. Show the evidence behind the suggestion, the uncertainty, and a way to correct it. A review step is meaningful only if the reviewer has time, information, authority, and a usable override."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Observe an automated product action. Before it happens, can you see its scope, evidence, and consequence? Can you alter the goal rather than merely accept the output? After it happens, can you identify what changed and reverse it? If the only control is “turn AI off,” the product has not designed the relationship at the level where authority is exercised."
+    }
+  ]
+}

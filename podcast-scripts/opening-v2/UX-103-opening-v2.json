@@ -1,0 +1,181 @@
+{
+  "lesson": "UX-103",
+  "title": "Novices, Experts, Learning, and Shortcuts",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Novices, Experts, Learning, and Shortcuts."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Skill changes what people notice, remember, and need from an interface. Novices need a legible conceptual model, safe exploration, useful feedback, and help at the moment of action. Experienced people benefit from predictability, acceleration, customisation, and reduced repetition."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Expertise is often task-specific; someone can be an expert in finance and a novice in a particular financial product."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Progressive disclosure is not merely hiding options. It is revealing capability when it becomes meaningful while keeping advanced paths discoverable. Preserve a stable underlying model so people can learn rather than relearn. Shortcuts should accelerate an understood action, not become the only way to work efficiently."
+    },
+    {
+      "speaker": "host",
+      "act": "Support progression rather than two fixed types",
+      "mood": "thinking",
+      "text": "What changes when we look at support progression rather than two fixed types?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Expertise is task- and domain-specific. A person can know the domain and be new to the tool, or know the interface and face an unfamiliar case. Study knowledge, frequency, goals, errors, and strategies rather than labelling people globally."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Novices benefit from conceptual clarity, visible actions, examples, safe defaults, and recovery. Experts benefit from stable structure, compact density, keyboard and bulk action, custom views, and control. Build accelerators that remain discoverable through menus, hints, command search, and gradual exposure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not make onboarding carry all learning. Provide contextual explanation at need, progressive capability, and reference support. Avoid wizard steps that slow every repeated task or shortcuts that bypass necessary consequence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A professional editor shows formatting in menus with shortcut hints. Repeated users learn commands without losing the visible route. Complex publishing remains previewable and reversible. Evaluation compares first use, repeated performance, error, and recovery; one average task time would conceal the needs of both groups."
+    },
+    {
+      "speaker": "host",
+      "act": "How expertise changes interaction",
+      "mood": "curious",
+      "text": "What changes when we look at how expertise changes interaction?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Novices rely on recognition, visible choices, examples, feedback, and conceptual explanation. With practice, several small steps become one meaningful unit, and skilled users can focus on unusual cases rather than reconstructing the procedure. Expertise therefore changes information density, preferred controls, tolerance for repetition, and the value of acceleration."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "It does not remove the need for visible state or recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Learning has costs. A shortcut is worth teaching when the action is frequent, meaning remains stable, and the saved effort accumulates. A domain term is worth learning when it helps people communicate and make safer decisions. Requiring users to learn internal codes or workarounds merely transfers organisational debt."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team observes performance across several sessions because first-use completion cannot reveal whether the model becomes learnable."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: professional editing software",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: professional editing software?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A visible menu supports discovery, a command palette supports search by name, and keyboard shortcuts accelerate repetition. All three should invoke the same action and feedback. Hiding essential capability behind shortcuts serves experts at the cost of learnability; forcing experts through a wizard serves novices by taxing every future use."
+    },
+    {
+      "speaker": "host",
+      "act": "Create a progression model for each task",
+      "mood": "curious",
+      "text": "What changes when we look at create a progression model for each task?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Progressive disclosure follows knowledge and consequence. The first patient view shows the service promise and current state, then reveals clinic detail as comparison begins. It does not defer the effect on the existing appointment. Staff can choose dense views and saved filters, but the product does not unpredictably rearrange itself based on guessed expertise."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Adaptation remains explicit and reversible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Shortcut design starts from the command contract: name, scope, permission, effect, feedback, and recovery. A visible menu teaches the action and shows the shortcut. Command search supports recall by concept. High-risk clinical decisions retain review even for experts, because expertise does not make the consequence reversible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluation follows learning across sessions. The team measures first-use mental model, repeated performance, error, help, discovery of accelerators, and ability to recover after absence. It also observes expert workarounds; some reveal valuable capability, while others reveal dangerous normalisation of system debt."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: accounting software",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: accounting software?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A novice benefits from labelled actions and examples; a bookkeeper benefits from batch rules and stable shortcuts. Both need the same ledger semantics, audit, and undo. An “expert mode” that hides state is not expertise support."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not equate expert with privileged or novice with incapable. Training can be a burden imposed by organisational complexity, and power users can normalise unsafe workarounds. Invest in learnability where knowledge is durable and in redesign where the system merely asks people to memorise its defects."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a photo editor. A new user needs visible labels and safe defaults; an expert may need keyboard shortcuts and reusable presets. One interface can support both through progressive disclosure without forcing everyone through beginner prompts forever. Test learning over repeated use, not only first-session completion."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a product with shortcuts or an advanced mode. Check whether it accelerates a stable mental model or simply hides undocumented complexity."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "lesson": "UX-188",
+  "title": "AI Metaphors: Supertool, Teammate, Agent, or Control Centre",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "AI Metaphors: Supertool, Teammate, Agent, or Control Centre."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "People understand a new system by mapping it to something familiar. A tool, teammate, agent, and control centre each imply different initiative, attention, competence, memory, authority, and responsibility. These implications affect reliance before a person has enough experience to judge the product."
+    },
+    {
+      "speaker": "host",
+      "act": "A metaphor is an operational model",
+      "mood": "curious",
+      "text": "What changes when we look at a metaphor is an operational model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metaphors are therefore design hypotheses, not branding decoration. Select one from the actual division of work:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Supertool: extends a person’s direct capability. The person initiates and remains author or operator. Appropriate for transforming, drafting, comparing, visualising, and exploring. Teammate: contributes bounded specialist work inside a shared process."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It requires explicit roles, handoffs, evidence, review, and accountability; it must not simulate moral or professional personhood. Agent: receives a goal and can plan or act across systems. It requires scope, permissions, constraints, checkpoints, state, interruption, audit, and recovery. Control centre: helps a person supervise multiple processes or agents."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It prioritises status, exceptions, dependencies, intervention, history, and system health rather than conversation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A product may use several relationships by task. The transition must be visible. A writing feature behaves like a supertool while drafting, but becomes agentic when it sends the message, spends money, books an appointment, or changes an external record."
+    },
+    {
+      "speaker": "host",
+      "act": "Derive the metaphor from authority",
+      "mood": "thinking",
+      "text": "What changes when we look at derive the metaphor from authority?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the decision-system map from lesson 187 to answer:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Who establishes the goal? 2. Who selects the inputs and sources? 3. Who interprets ambiguous evidence? 4. Who chooses among alternatives? 5. Who may commit an external action? 6. Who monitors progress and exceptions? 7. Who can stop, reverse, and remedy? 8. Who remains accountable to the affected person?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If the human supplies each case and directly manipulates the output, supertool may fit. If the system completes a bounded contribution that a human integrates, teammate can be useful if the roles remain concrete. If it pursues a goal across time or tools, describe delegation explicitly; a cheerful chat bubble cannot carry the safety requirements of agency."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If one person supervises many automated cases, a control-centre view may be more honest than hundreds of conversational threads."
+    },
+    {
+      "speaker": "host",
+      "act": "Language, personality, and anthropomorphism",
+      "mood": "curious",
+      "text": "What changes when we look at language, personality, and anthropomorphism?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Conversational language can reduce formulation effort, but human-like cues import assumptions of understanding, intention, emotion, confidentiality, memory, and responsibility. Review names, pronouns, avatars, typing indicators, apologies, enthusiasm, confidence, and social pressure as functional interface elements."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use concrete claims:"
+    },
+    {
+      "speaker": "host",
+      "act": "Make agentic delegation observable",
+      "mood": "thinking",
+      "text": "What changes when we look at make agentic delegation observable?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When a system can act, show before execution:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "goal and success condition; resources, accounts, and data it may access; allowed and prohibited actions; constraints, limits, and duration; plan and checkpoints; actions requiring approval; consequence of cancellation or partial completion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "During execution, show meaningful state, changed assumptions, new permissions, and exceptions. Let the person pause, narrow, redirect, or stop. Afterward, provide an audit of attempted, completed, failed, reversed, and unresolved actions. “Done” is unacceptable when external state is only assumed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Confirmation must name the consequence. “Send this referral and attached medical information to North Clinic” is stronger than “Continue?” For repeated low-risk actions, allow reusable boundaries; do not create confirmation fatigue."
+    },
+    {
+      "speaker": "host",
+      "act": "Test prediction, not preference",
+      "mood": "curious",
+      "text": "What changes when we look at test prediction, not preference?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not ask whether people like the avatar or find the assistant friendly. Before use, ask them to predict what the system knows, remembers, may access, may decide, and may do without approval. Repeat after ordinary success, an ambiguous case, and a failure. Observe whether they detect a role transition and use the appropriate control."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A metaphor passes when it supports accurate behaviour across cases. It fails when people grant excess authority, overestimate memory or competence, misunderstand accountability, or cannot tell when the system starts acting."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: travel planning",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: travel planning?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Generating itinerary alternatives is a supertool interaction. Comparing trade-offs may feel collaborative but still leaves the traveller in control. Holding a fare or booking a non-refundable ticket is agentic. A sound interface visibly changes mode, presents price and constraints, identifies the account and card, requires appropriate approval, and records the booking."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Keeping the same casual chat surface hides a material authority transition."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metaphor by marketing: the most capable-sounding relationship is chosen before work and authority are mapped. Chat sameness: drafting, recommending, and acting look identical. Personhood inflation: warmth implies understanding, empathy, confidentiality, or responsibility. Invisible mode change: a tool becomes an agent without explicit delegation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Theatrical state: typing or thinking animation replaces inspectable progress. Control-centre chat: high-volume supervision is reduced to sequential conversation and hides exceptions. Accountability displacement: “the AI decided” obscures organisational responsibility."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners govern metaphor across product, marketing, support, legal copy, and operations. They treat authority transitions as design-system primitives with standard language, permission, status, approval, audit, and recovery patterns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also challenge organisational metaphors: calling a model a “coworker” can weaken review and accountability inside the team, not only among users."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The more autonomous or consequential the system, the less it can depend on charm and inference. Explicit scope, evidence, state, control, and accountable ownership must do the work."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a spreadsheet assistant. Calling it a “teammate” might imply shared judgement and accountability it does not possess. A supertool metaphor suggests direct control; an agent metaphor suggests delegated action. The interface must match its actual authority, visibility, and reversibility so people do not infer capabilities from branding alone."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Inspect an AI interface’s name, avatar, pronouns, verbs, animation, default action, and confirmations. What relationship does it imply? Compare that with what the product can access and do. Find the moment where its authority changes. If the visual and verbal relationship stays the same, identify the misconception most likely to follow."
+    }
+  ]
+}

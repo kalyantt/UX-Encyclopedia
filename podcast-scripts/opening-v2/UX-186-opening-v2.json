@@ -1,0 +1,208 @@
+{
+  "lesson": "UX-186",
+  "title": "Storyboard Human–AI Handoffs Before Building",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Storyboard Human–AI Handoffs Before Building."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A human–AI storyboard is a sequence of frames showing how a situation changes. Each frame should contain more than a screen:"
+    },
+    {
+      "speaker": "host",
+      "act": "Storyboard decisions, not a model demo",
+      "mood": "curious",
+      "text": "What changes when we look at storyboard decisions, not a model demo?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "actor, goal, and physical or organisational context; available evidence and its source state; human action or judgement; AI contribution: retrieve, classify, predict, generate, recommend, or act; uncertainty, assumption, and excluded information; authority and permission at that moment; visible system state and explanation; downstream service action and affected people; recovery, escalation, and learning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The storyboard is deliberately temporal. A control that exists after commitment cannot replace one needed before it. An explanation shown to the operator cannot help a patient who receives the outcome. A human review frame means little unless the preceding frames show the reviewer’s evidence, workload, and authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Draw backstage frames whenever they change frontstage safety or value: directory updates, clinical-rule ownership, model retrieval, coordinator queues, provider responses, audit logging, and incident handling. The unit of design is the joint system across time."
+    },
+    {
+      "speaker": "host",
+      "act": "Start with the current story",
+      "mood": "thinking",
+      "text": "What changes when we look at start with the current story?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before drawing an AI future, storyboard how several real cases work now. Include:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. a routine case that succeeds; 2. an exception that staff resolve through informal knowledge; 3. a case that fails or reaches support; 4. a person poorly served by the normal channel."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the future sequence frame by frame",
+      "mood": "curious",
+      "text": "What changes when we look at build the future sequence frame by frame?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use these prompts:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "1. Trigger: what event creates the need, and who experiences it? 2. Intent: what progress is the person trying to make—not what feature do they want? 3. Consent and input: what is supplied, inferred, retrieved, or excluded, and under what permission? 4. Interpretation: what meaning does the system propose, and how can the person correct it? 5."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Eligibility and evidence: which authoritative rules and records constrain the options? 6. AI contribution: what variable inference adds value beyond rules or retrieval? 7. Presentation: what does the recipient believe the output means? 8. Judgement: who compares, approves, rejects, or asks for help? 9. Action: what changes in another system or in the world? 10."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Confirmation: how is completion distinguished from request, attempt, or partial failure? 11. Outcome: who benefits or bears consequence, including non-users? 12. Recovery and learning: how can the result be corrected, appealed, investigated, and improved?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Label every transfer of data, work, attention, or responsibility. A handoff is successful only when the receiving actor has enough context, capacity, authority, and a clear next action. “Escalate to human” is incomplete unless the storyboard identifies which human, what they receive, how long it takes, and what they can change."
+    },
+    {
+      "speaker": "host",
+      "act": "Draw failure and alternative stories",
+      "mood": "thinking",
+      "text": "What changes when we look at draw failure and alternative stories?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A single happy path hides the design work. Create branches for at least:"
+    },
+    {
+      "speaker": "host",
+      "act": "Mark authority visually",
+      "mood": "curious",
+      "text": "What changes when we look at mark authority visually?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Give every AI contribution an authority label from lesson 80: inform, suggest, recommend, execute with approval, execute within limits, or autonomous. Add a separate label for the human or institution accountable for the outcome. These are not interchangeable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use visible symbols for uncertain evidence, permission boundaries, irreversible action, and human judgement. The exact graphic style matters less than consistency. A review should reveal at a glance where a model output crosses into a consequential action and whether a meaningful control exists before it."
+    },
+    {
+      "speaker": "host",
+      "act": "Use storyboards to choose prototypes",
+      "mood": "thinking",
+      "text": "What changes when we look at use storyboards to choose prototypes?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For each prototype, connect technical and experience evaluation. Supply the actual kind of evidence and uncertainty the model will produce. Observe whether people form the intended mental model, detect important errors, act appropriately, preserve agency, and complete the service outcome. A perfectly scripted AI output cannot test recovery or calibrated reliance."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: complaint-response assistant",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: complaint-response assistant?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“AI drafts a reply” expands into customer data selection, intent classification, policy retrieval, evidence marking, agent editing, compensation authority, disclosure, sending, customer reaction, appeal, and quality review. Storyboarding reveals that reliable policy retrieval and unsupported-claim highlighting may create more value than autonomous prose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It also shows the affected customer, who never sees the agent tool but bears its consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Magic-box frame: input enters and a polished answer appears without sources, judgement, or operations. Screen-only story: backstage actors, queues, policies, and downstream systems are absent. Happy-path certainty: no ambiguity, disagreement, outage, or partial action is shown. Handoff by label: “human review” appears without evidence, workload, authority, or response time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "User-only scope: people affected by an output but absent from the interface disappear. Authority drift: a recommendation becomes an action between frames without an explicit decision. Decorative artifact: the storyboard communicates a pitch but does not change requirements or evaluation."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners use the storyboard to negotiate responsibility before implementation. Product, design, research, engineering, data, clinical/domain, security, privacy, legal, accessibility, operations, and support review the same sequence and name their assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The output is not consensus theatre: unresolved authority, capacity, data, or recovery becomes a risk, experiment, dependency, or stop condition with an owner."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They keep the storyboard alive. When the model, source, permission, workflow, or policy changes, the team updates affected frames and reruns the relevant evaluation instead of assuming the old relationship remains valid."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a travel assistant. It proposes rebooking a cancelled flight. Storyboard what information it reads, what it may suggest, what needs explicit approval, and what happens when the fare changes before purchase. The handoff includes a human who can understand, correct, and stop the action—not a vague “human in the loop” label."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Watch an AI product demo and pause immediately before and after the “magic” output. List the people, evidence, permissions, service actions, and failures that the demo omitted. Which omission could most change whether the feature is valuable or safe? That missing frame is where design should begin."
+    }
+  ]
+}

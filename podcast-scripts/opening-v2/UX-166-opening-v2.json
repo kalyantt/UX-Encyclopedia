@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-166",
+  "title": "Evaluation Strategy: What, With Whom, Where, and Why",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Evaluation Strategy: What, With Whom, Where, and Why."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "List the claims the design depends on. Classify them so that method choice follows uncertainty:"
+    },
+    {
+      "speaker": "host",
+      "act": "Strategy begins with claims",
+      "mood": "curious",
+      "text": "What changes when we look at strategy begins with claims?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "problem and value: the service addresses meaningful progress; comprehension and usability: people understand and can act; accessibility and inclusion: people with varied capabilities and circumstances can participate; technical feasibility: integrations, state, security, and performance behave reliably; operational viability: staff, policies, capacity, and handoffs can fulfil the promise; outcome: the service improves the real-world result without unacceptable harm; durability: benefit persists over time and changing conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For every claim, record consequence if wrong, present evidence, confidence, gap, method, population, context, decision threshold, owner, and residual limitation. This is an evaluation matrix, not a catalogue of methods."
+    },
+    {
+      "speaker": "host",
+      "act": "Select people and setting deliberately",
+      "mood": "thinking",
+      "text": "What changes when we look at select people and setting deliberately?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "“Representative users” is incomplete. Recruit by behaviour, role, knowledge, access need, language, device, prior experience, risk, and context that could change the interaction. Include populations most affected by failure, even when they are statistically smaller or harder to recruit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Setting is part of the method. Controlled sessions support focused comparison. Remote sessions reveal personal devices and environments. Field evaluation exposes interruptions, workarounds, social relationships, tools, and physical constraints. Simulation is appropriate when real exposure is unsafe, but its limits must be named."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose realistic tasks and data. A clinical flow populated with generic names and instant responses may remove the very uncertainty under study. Protect privacy and wellbeing; realism does not justify collecting unnecessary sensitive information."
+    },
+    {
+      "speaker": "host",
+      "act": "Combine methods by contribution",
+      "mood": "curious",
+      "text": "What changes when we look at combine methods by contribution?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Triangulation does not mean doing everything. Methods should resolve different parts of a consequential uncertainty:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "expert and accessibility inspection remove predictable defects; moderated testing diagnoses interpretation and recovery; unmoderated studies compare stable tasks across a broader sample; technical tests validate state, performance, and assistive-technology behaviour; service rehearsal exposes roles and handoffs; pilots reveal operational capacity and real context; telemetry shows what happens at scale; interviews, support data, and field observation help explain why; outcome studies examine whether task success produces meaningful progress."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Plan analysis and decision use before collecting data. If no owner or threshold exists, more evidence can create a larger report without changing the service."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: warehouse picking",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: warehouse picking?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A lab test can compare navigation and scanning, but it cannot reproduce noise, gloves, shared devices, time pressure, stock discrepancies, or supervisor coordination. Field observation plus instrumented trials may be necessary. A faster prototype path that increases mis-picks is not a successful outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Method-first planning: “five usability tests” exists before a decision. Coverage illusion: one convenient group stands for all relevant contexts. Realism mismatch: artificial data removes the mechanism being evaluated. Usability reduction: easy interaction is mistaken for useful or safe service."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metric leakage: a proxy becomes the goal without validating its relationship to outcomes. Research without authority: findings cannot change release, policy, or capacity."
+    },
+    {
+      "speaker": "host",
+      "act": "Build an evaluation portfolio around risk",
+      "mood": "thinking",
+      "text": "What changes when we look at build an evaluation portfolio around risk?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Early expert review catches known interaction and accessibility issues cheaply. Moderated prototype work examines mental model, consequence, and recovery. Unmoderated testing can compare defined behaviour across more conditions. Technical spikes test event and integration risk. Service rehearsal tests roles and handoffs."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A limited pilot measures real operation; production metrics and follow-up research test sustained outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Participants match the claim. Patients can evaluate understanding and burden; coordinators expose queue work; clinicians assess suitability and safety; disabled participants evaluate real access; logs reveal scale; leaders decide policy or investment. Proxies and convenient colleagues are not interchangeable with affected people."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The strategy sequences methods so weak concepts do not consume expensive evaluation and critical uncertainty is not deferred until launch. It includes ethics, privacy, stop conditions, adverse-event monitoring, and what remains unproven after each stage. Evidence accumulates into a decision case rather than separate reports."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: automated expense approval",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: automated expense approval?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Interface testing can show whether employees understand a decision, but historical validation, fairness analysis, manager workflow, audit, appeal, and live monitoring are separate evaluation responsibilities. The strategy connects them before automation scales."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners allocate evidence effort by consequence and reversibility. They resist universal “validated” labels and state exactly which claims are supported. They negotiate stop conditions before organisational momentum makes stopping impossible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also maintain an evidence coverage map over time, because new populations, policy, devices, and operating conditions invalidate old confidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a benefits claim. A lab usability test may reveal confusing language; a field visit may reveal document-access constraints; an accessibility evaluation may expose keyboard failures; an experiment may estimate a change's effect on completion. Pick methods according to the claim and risk. One evaluation format cannot answer every question."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Read a product claim such as “users completed the task 20% faster.” Ask who, which task, where, compared with what, and whether faster completion represents the desired real-world outcome."
+    }
+  ]
+}

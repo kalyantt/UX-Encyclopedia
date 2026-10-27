@@ -1,0 +1,329 @@
+{
+  "lesson": "UX-204",
+  "title": "High-Stakes Case: Evidence, Safety, Access, and Accountability",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "High-Stakes Case: Evidence, Safety, Access, and Accountability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The first senior-level question is not “is this usable?” It is “what can happen if this is misunderstood, unavailable, wrong, delayed, or impossible to use?” Completion can be useful evidence, but it is not a sufficient outcome measure when a person can complete a harmful action or fail to complete a necessary one."
+    },
+    {
+      "speaker": "host",
+      "act": "Start with consequence, not completion",
+      "mood": "curious",
+      "text": "What changes when we look at start with consequence, not completion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Map the consequence for every important decision. Separate reversible inconvenience from lost money, loss of care, legal exposure, loss of liberty, disclosure of sensitive information, or a change that is difficult to undo. Then ask who bears each cost. The organisation may save handling time while a person spends hours recovering from an error."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This is how apparently efficient systems can externalise risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The inclusivity literature frames exclusion as a mismatch between a person's capability and the demands of a product or environment. In a high-stakes service, capability is not a fixed personal trait. It changes with stress, illness, fatigue, device access, connection quality, language, privacy, time, and prior knowledge."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Designing only for the calm, well-equipped, experienced user creates a false picture of quality."
+    },
+    {
+      "speaker": "host",
+      "act": "Build an evidence case",
+      "mood": "thinking",
+      "text": "What evidence would make that decision defensible?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evidence should be proportionate to risk. A low-risk preference may be explored with a lightweight test. A consequential eligibility, medical, financial, or safety decision needs a stronger chain of evidence before broad release."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build that chain deliberately:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task evidence: observe or interview people doing the real work, including the documents, interruptions, informal help, and workarounds that do not appear in a happy-path prototype. Domain evidence: involve policy, operational, clinical, legal, security, and accessibility specialists early enough to change the design—not merely to approve it at the end."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Edge evidence: recruit people whose contexts expose demanding conditions: screen-reader and keyboard users, people with limited literacy or language support, people using older devices, people under time pressure, and people who must use a proxy or support worker. Operational evidence: map what happens when the interface cannot decide."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Who receives an exception, how long it takes, what information they need, and whether the person can understand the status while they wait. Outcome evidence: track not just conversion but error correction, appeals, support contact reasons, time to resolution, abandonment by segment, inaccessible-path failures, and unequal outcomes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Triangulation matters because any single measure can look reassuring. A usability session can miss a rare but severe failure. Analytics can count behaviour without explaining it. Expert review can find known problems but not reveal the practical burden created by a new policy. When sources disagree, do not average them into false confidence; investigate the disagreement."
+    },
+    {
+      "speaker": "host",
+      "act": "Frame and model the benefits decision system",
+      "mood": "curious",
+      "text": "What changes when we look at frame and model the benefits decision system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team frames the problem:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When people seek urgent-care support under deadline, policy categories, evidence requirements, inaccessible document handling, and inconsistent case status make it difficult to understand eligibility and recover from missing or disputed information. Incorrect or delayed action can remove care, income, privacy, or appeal opportunity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The service must support a correct, explainable, accessible, and contestable decision—not merely a completed form."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The domain/state model separates application, claim, policy rule and version, applicant statement, supporting evidence, evidence quality/status, verification request, provisional assessment, human review, decision, notice, correction, appeal, deadline, payment/care entitlement, and remedy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Critical states include draft saved, submitted, received, evidence unreadable, evidence missing, clarification requested, under review, provisional decision, decided, notice delivered, correction open, appeal lodged, paused, reversed, and remedied. Each has owner, deadline effect, permitted action, communication, audit, and recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Design safeguards as a system",
+      "mood": "thinking",
+      "text": "What safeguards does the whole system need?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Safeguards are not simply warning dialogs. They work in layers. The first layer prevents a foreseeable mistake through clear language, sensible defaults, constrained choices, and information placed at the moment it changes a decision. The second makes a consequential action visible: show what will happen, what evidence supports the decision, and what remains uncertain."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The third supports recovery: let people correct data, save work, return with documents, contact a human, appeal a decision, and understand the next step."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For a benefits service, this may mean showing a plain-language explanation beside a policy term, retaining uploaded information after a connection failure, identifying when a person needs another route rather than presenting a dead end, and showing a dated status that distinguishes “received,” “under review,” “more evidence needed,” and “decided.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The right level of confirmation depends on harm. Requiring repeated confirmation for ordinary actions produces alert fatigue; failing to make an irreversible action legible removes meaningful consent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "If automation is involved, make its role specific. Is it retrieving information, classifying a document, recommending a next step, or making a decision? What is it allowed to do automatically? Who can override it? What happens when confidence is low or input does not fit the expected categories?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A person needs recourse, not a decorative explanation of a system they cannot challenge."
+    },
+    {
+      "speaker": "host",
+      "act": "Accessibility is a reliability requirement",
+      "mood": "curious",
+      "text": "What changes when we look at accessibility is a reliability requirement?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility cannot be left as a compliance pass after the main experience is designed. It is a way of testing whether the service remains operable when the expected channel, input method, or perception is unavailable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test real flows with keyboard use, screen readers, zoom and reflow, voice input where relevant, reduced motion, error messaging, form recovery, and documents people must download or upload."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Include the support route as part of the journey: a telephone number that is impossible to find, a long wait, or an agent unable to see the person's state is an accessibility failure at service level."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conformance is valuable, but it is not proof that a person can successfully complete a meaningful task. A technically labelled control can still be placed in the wrong sequence, use incomprehensible wording, or lead to a policy rule with no understandable explanation. Evaluate the whole task, including the handoffs around the interface."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility must preserve deadline and outcome. If a document upload is inaccessible, the alternate route must not take longer, require extra proof, or lose application priority. If a person uses a proxy, authority, privacy, and the applicant’s own agency must remain visible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test supported decision-making rather than assuming independent digital completion is the only valid success."
+    },
+    {
+      "speaker": "host",
+      "act": "Governance continues after launch",
+      "mood": "thinking",
+      "text": "What changes when we look at governance continues after launch?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "High-stakes work needs named accountability. Record the decision owner, domain owner, operational owner, accessibility owner, and escalation path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Agree in advance which signals trigger investigation or a pause: a rise in reversed decisions, an accessibility-path failure, a concerning disparity, a safety incident, a sudden support surge, or evidence that people are misunderstanding a critical rule."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Controlled experiments require particular restraint here. Randomisation, exposure, and measurement can be useful, but the team must ask whether it is acceptable to give one group a worse, less safe, or less accessible experience in order to learn. Define guardrails before observing the result, monitor them while the change runs, and preserve a rapid rollback route."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A statistically detectable lift is not automatically a responsible decision if it is paired with meaningful harm for a smaller group."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate the whole decision and remedy",
+      "mood": "curious",
+      "text": "What changes when we look at evaluate the whole decision and remedy?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "correct and explainable outcome under a defensible reference; false positive, false negative, abstention, and unresolved case; completion, abandonment, deadline preservation, and time to entitlement; comprehension of rule, evidence, status, consequence, and next action; accessibility task success across channels; correction, appeal, reversal, and remedy; caseworker workload, disagreement, automation bias, and queue age; privacy/security incidents and inappropriate access; distribution by relevant capability, language, channel, proxy, device, geography, and case complexity; silent non-use and people absent from digital telemetry."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Review accepted decisions as well as appeals. Appeals reveal only harms that people recognise and have capacity to contest. Independent sampling and outcome follow-up are necessary to find quiet errors."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Completion as safety: a submitted form is treated as a correct and fair outcome. Policy behind prose: plain language is offered without authoritative source, scope, or appeal. Missing-as-negative: absent or unreadable evidence becomes ineligibility. Accessibility delay: alternate channels exist but lose deadline, priority, privacy, or dignity."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Human-review theatre: caseworkers lack time, evidence, independence, or authority. Explanation without recourse: the system describes a decision people cannot correct or appeal. Average fairness: aggregate quality hides severe group or context failures. Appeal-only monitoring: people unable to contest remain invisible."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Experiment externalisation: institutional uncertainty is imposed on those least able to absorb harm. Diffuse accountability: model, policy, interface, and operations teams each own a component but nobody owns remedy."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Do not ask only whether a system works under expected conditions. Ask how it fails, who is least able to absorb that failure, whether they can recognise it, and whether a real person with authority can put it right. That is the difference between optimising a flow and accepting accountability for an experience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners know that high-stakes design includes the decision not to automate, the budget for accessible alternatives and human judgement, and institutional acceptance of residual risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They protect dissent, demand evidence proportional to consequence, and keep remedy central: a system that learns from harm but cannot repair the affected person’s outcome is not accountable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: an emergency-benefits service. A person needs timely support while facing document, language, and device barriers. A defensible design case maps evidence, eligibility rules, staff capacity, accessibility, consent, appeal, and failure recovery. Release decisions weigh speed against exclusion and harm, with named owners able to pause or repair the service."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "This capstone connects the encyclopedia’s central ideas. lesson 1 defined an experience as a person's attempt to make progress."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research modules showed how to understand that attempt; IA, interaction, content, and accessibility showed how design can support it; service design revealed the people and operations around it; analytics and experimentation made outcomes visible; and human-centred AI added uncertainty, automation, and recourse. In a consequential context, those are not separate disciplines."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They are one duty of care."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a high-stakes service you have used or can responsibly observe. Create a one-page risk-and-evidence review: 1. Name the decision and the worst plausible consequence of being wrong or delayed. 2. List three conditions that make the task harder than the happy path. 3. Identify one prevention safeguard, one recovery path, and one human escalation route. 4."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Specify a leading signal, a harm guardrail, and the person accountable for acting on each. 5. Write down the evidence you would require before scaling the service."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "lesson": "UX-145",
+  "title": "Choose the Interaction Medium",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Choose the Interaction Medium."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose an interface medium from the work to be done: context, input capability, attention, privacy, movement, frequency, precision, environmental conditions, consequence, and recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Desktop supports dense comparison and precision; mobile supports portability and in-the-moment capture; voice can help hands-busy tasks but struggles with privacy and repair; automation can reduce repetition but needs appropriate oversight."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Do not start with a device category. Start with the task and identify the conditions under which people perform it. A multi-device system may need continuity rather than parity: the same goal can require different priorities, controls, and information at different moments."
+    },
+    {
+      "speaker": "host",
+      "act": "Choose by information, action, and context",
+      "mood": "thinking",
+      "text": "What changes when we look at choose by information, action, and context?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Medium includes screen, voice, conversation, paper, notification, staff interaction, ambient display, and combinations across time. Each offers different privacy, persistence, bandwidth, expressiveness, accessibility, and error-recovery properties. The medium should fit the moment in the service, not merely the device the product team owns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team scores candidate media against task complexity, urgency, privacy, environment, ability, connectivity, persistence, evidence, and recovery. It designs transitions explicitly: the notification deep-links to the correct care episode; a call agent sees the same request state; a printed preparation list carries an identifier and update route."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cross-channel continuity is part of the interaction, not an integration afterthought."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: boarding pass",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: boarding pass?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A phone wallet is convenient and dynamic, paper is robust to battery and connectivity, and an airport display supports shared awareness. A resilient service lets these media reinforce one authoritative journey rather than demanding a single “digital-first” channel."
+    },
+    {
+      "speaker": "host",
+      "act": "Compare media against the work",
+      "mood": "thinking",
+      "text": "What changes when we look at compare media against the work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Touch, pointer, keyboard, voice, camera, gesture, notification, conversation, and ambient output differ in precision, privacy, discoverability, speed, accessibility, social acceptability, and environmental dependence. Start with context: hands and eyes available, noise, mobility, expertise, frequency, urgency, consequence, and need for discretion."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Voice is useful when hands or eyes are occupied but weak for private, dense, or easily misheard information. Camera input can reduce entry while introducing permission, lighting, accuracy, and privacy demands. Keyboard accelerates repeated expert work; touch needs larger targets and alternatives to precise gestures."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Notifications interrupt and therefore need strong relevance and control."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Combine media with visible state and fallback. A voice instruction may produce a screen confirmation; document capture should allow manual correction; gesture must have an equivalent control. Test in the real environment, not only a quiet lab."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose the least demanding medium that preserves understanding, agency, and recovery. Novelty is not a benefit if people cannot predict or correct the result."
+    },
+    {
+      "speaker": "host",
+      "act": "Design the handoff between media",
+      "mood": "curious",
+      "text": "What changes when we look at design the handoff between media?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cross-channel handoffs preserve identity, state, and intent. The SMS deep-link opens the correct care episode after authentication. A support agent sees the same request identifier, authoritative event, and prior attempts. A printed preparation sheet states its effective date and route to current information."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The user is not made to retell the case simply because the organisation changed systems."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The medium decision also includes operating cost and failure. Voice transcription may mishear clinic names; email can be forwarded; paper may expose household privacy; notifications can arrive out of order; live support may be unavailable. The service rehearses each failure and provides an equivalent path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Channel consistency means coherent promise and outcome, not identical content or interaction."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: confirming a flight change",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: confirming a flight change?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A push notification can announce disruption but is a poor place to compare complex alternatives. The app or web can support review, a staffed route can handle visa or accessibility exceptions, and a printable confirmation provides durable evidence. The designed experience is the transition among them."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Channel strategy determines privacy, accessibility, operational burden, evidence, and exclusion. Senior designers optimise continuity and resilience rather than declaring one medium primary because that channel belongs to their team."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A warehouse worker wears gloves, carries items, and moves through noise. A mobile form with small fields may be technically available, but it is not necessarily the right interaction medium for the task."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Follow one service event across notification, product, email, and human support. Check whether identity, state, promise, and next action remain coherent in every medium."
+    }
+  ]
+}

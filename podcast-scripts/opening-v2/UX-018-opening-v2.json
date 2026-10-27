@@ -1,0 +1,182 @@
+{
+  "lesson": "UX-018",
+  "title": "Requirements as Evidence",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Requirements as Evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Requirements are evidence-backed statements about what a product or service must enable. They may concern user goals, business outcomes, information, content, accessibility, quality, operations, policy, and technical constraints. A requirement becomes useful when it is specific enough to guide trade-offs and testable enough to challenge."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Trace requirements back to observations, research, regulation, strategy, or known system constraints. Separate facts from interpretations and solutions. Then define quality criteria: effective completion, understandable content, safe recovery, accessibility, performance, trust, or service feasibility. This keeps a backlog from becoming a list of unexamined UI requests."
+    },
+    {
+      "speaker": "host",
+      "act": "Make a requirement testable and traceable",
+      "mood": "thinking",
+      "text": "What changes when we look at make a requirement testable and traceable?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write actor and context, necessary capability or quality, reason, evidence, acceptance condition, owner, priority, dependencies, and uncertainty. Separate need from one proposed solution. “Users need to know whether payment succeeded” permits several responses; “show a green toast” prematurely fixes one."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Link requirements to research, policy, standard, technical constraint, or product decision. Resolve conflicts explicitly and version changes. Include content, data, accessibility, performance, privacy, service, and recovery requirements—not only functions. Validate through inspection, prototype, test, and field outcome according to the claim."
+    },
+    {
+      "speaker": "host",
+      "act": "Resolve conflicts rather than hiding them",
+      "mood": "curious",
+      "text": "What changes when we look at resolve conflicts rather than hiding them?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Requirements can be functional (“allow a person to request another option”), informational (“show who owns the next action”), content-related, data-related, operational, accessibility-focused, or quality-based. A complete set describes the conditions under which the capability remains useful."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Allow rescheduling” is incomplete without eligibility, saved state, downstream notification, preparation updates, error recovery, and a way to know the old appointment was released."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Use outcome language with caution. “Reduce support calls” is a business outcome, but calls may reveal necessary reassurance or genuine failures. Eliminating the contact route could hit the metric while worsening care. Pair the measure with human and service guardrails: correct status comprehension, unresolved cases, missed appointments, and equitable access."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep each requirement connected to its reason",
+      "mood": "thinking",
+      "text": "What changes when we look at keep each requirement connected to its reason?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Conflicts are explicit: a shorter flow may reduce burden while omitting safety evidence; personalisation may conflict with minimisation; immediate feedback may conflict with distributed truth. The team preserves the decision and guardrail rather than hiding the trade-off inside implementation detail."
+    },
+    {
+      "speaker": "host",
+      "act": "Keep requirement, rationale, and verification connected",
+      "mood": "curious",
+      "text": "What changes when we look at keep requirement, rationale, and verification connected?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "He distinguishes outcome requirements, user and service capabilities, constraints, and quality attributes. Policy or technical statements are challenged for authority, date, and interpretation. Conflicts become explicit: privacy may limit sharing while continuity requires enough transferable state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team records the trade-off and accountable decision rather than quietly allowing the loudest constraint to win."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Requirements remain versioned hypotheses until validated in operation. Acceptance combines functional behavior, comprehension, accessibility, failure handling, and service ownership. When evidence changes, the rationale and affected design can be traced. This prevents a backlog item from outliving the assumption that created it and becoming “what users need” by repetition."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Requirements are a negotiation surface. Make trade-offs explicit: which people, outcomes, risks, and system limits are being prioritised, and what evidence would justify changing that decision?"
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Requirements translate evidence and constraints into qualities the product must satisfy. They can concern users, tasks, content, data, functionality, performance, accessibility, security, operations, policy, and the experience itself. A feature request is not automatically a requirement; it may be a proposed solution to an untested problem."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Preserve the source, rationale, priority, and validation method so the team can tell a proven need from an assumption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write requirements in a form that enables decisions and verification. Describe the relevant context, the capability or quality needed, any constraint, and how the team will know it has been met. Connect requirements to scenarios and acceptance criteria, but avoid reducing human needs to a checklist."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "As new evidence arrives, revise or retire requirements transparently rather than allowing old assumptions to become permanent scope."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Solution masquerade: “build a dashboard” is recorded as a need without a desired outcome. Orphan requirement: nobody can trace the statement to evidence, policy, or a real constraint. Untestable quality: words such as intuitive or simple have no context or observable condition. Frozen assumption: an early belief remains in scope after research contradicts it."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“Users need a dashboard” is a proposed solution disguised as a requirement. A better requirement names who needs to make which decision, with which information, under which constraints, and how the team will know it works."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Task analysis exposed the work people do. This lesson converts that evidence into a defensible design brief. Module 4 begins the research discipline needed to strengthen that evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Rewrite a feature request as a user need plus a testable quality requirement. Remove the proposed UI until the underlying outcome is clear."
+    }
+  ]
+}

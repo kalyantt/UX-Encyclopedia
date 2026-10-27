@@ -1,0 +1,217 @@
+{
+  "lesson": "UX-083",
+  "title": "AI Value and Model Evaluation",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "AI Value and Model Evaluation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Technical measures are useful only when tied to a decision. In binary classification:"
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluation translates performance into consequence",
+      "mood": "curious",
+      "text": "What changes when we look at evaluation translates performance into consequence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "a true positive correctly identifies the condition; a false positive says it is present when it is not; a false negative misses it when it is present; a true negative correctly rejects it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Precision asks: of the cases predicted positive, how many were correct? Recall asks: of the real positive cases, how many were found? Improving one can worsen the other when a threshold changes. Accuracy can be misleading when one class is common."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A system that predicts “no urgent case” 99% of the time may look accurate in a population where urgent cases are rare and still fail at the task that matters."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The right trade depends on consequence. A false positive fraud alert may inconvenience and alarm; a false negative may permit theft. Neither error can be assigned an abstract universal cost. Different people, contexts, and downstream actions change it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For ranking and generation, evaluation needs other constructs: relevance, groundedness, factual support, completeness, diversity, usefulness, harmful content, latency, consistency, and task success."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Human judgement can be necessary, but rubrics, blinded comparisons, reviewer training, disagreement analysis, and representative scenarios are needed to keep “looks good” from becoming the metric."
+    },
+    {
+      "speaker": "host",
+      "act": "Evaluate four connected layers",
+      "mood": "thinking",
+      "text": "What changes when we look at evaluate four connected layers?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "1. Model and component: Does classification, retrieval, ranking, or generation perform under defined cases? 2. Interaction: Can people understand, correct, verify, refuse, and recover from the output? 3. Workflow and service: Can staff, systems, policies, and escalation support the volume and edge cases? 4."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Outcome and impact: Does the system improve meaningful progress without unacceptable harm or inequity?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A component can pass while the product fails. Accurate recommendations may increase poor choices if the interface hides alternatives. A usable interface may fail when a support queue cannot respond. Shorter booking time may coexist with worse referral completion if the system favours clinics with convenient data rather than suitable service."
+    },
+    {
+      "speaker": "host",
+      "act": "Define an evaluation contract",
+      "mood": "curious",
+      "text": "What changes when we look at define an evaluation contract?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For every intended use, specify:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "scenario, population, context, and excluded use; input quality and authoritative reference; expected output or acceptable range; consequential error types and severity; technical metric and threshold; coverage and abstention target; interaction safeguard and human role; operational response and capacity; user/service outcome and guardrails; segment analysis and minimum sample; owner, review point, and stop condition."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Thresholds should arise from acceptable consequences, baseline performance, reviewer capacity, and reversibility—not from whichever metric makes a slide look strongest. Report uncertainty around estimates; a result based on a small or unrepresentative sample is not stable evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Calibration, coverage, and selective prediction",
+      "mood": "thinking",
+      "text": "What changes when we look at calibration, coverage, and selective prediction?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A calibrated system’s stated likelihoods correspond reasonably to observed outcomes within the relevant setting. But calibration can vary by group and change after deployment. It also does not make a harmful action acceptable; it helps people set thresholds and understand uncertainty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Coverage measures how much of the task population the system attempts. Accuracy can rise when a system abstains on hard cases, so report performance together with coverage and the burden created by fallback. A safe system that handles 60% of cases may be valuable if the remaining 40% receive a well-resourced alternative."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It is not valuable if abstention silently pushes already underserved people into a failing queue."
+    },
+    {
+      "speaker": "host",
+      "act": "Offline, prototype, pilot, and production evidence",
+      "mood": "curious",
+      "text": "What changes when we look at offline, prototype, pilot, and production evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Offline tests are fast and repeatable but cannot recreate human adaptation or operations. Prototype studies reveal comprehension and control but use artificial stakes. A limited pilot reveals workflow and context but must have safeguards and stop authority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Production monitoring reveals scale, drift, and longer outcomes but should not become uncontrolled experimentation on affected people."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use each stage to retire uncertainty before expanding exposure. Pre-register primary success and guardrail measures where practical. Preserve a holdout or comparison strategy, account for selection and exposure, and investigate novelty effects. An uplift during launch may disappear after people learn the system—or may reflect staff compensating for it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: document drafting",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: document drafting?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For an AI writing assistant, exact-match accuracy may be irrelevant. Evaluation could combine task time, substantive edit distance, unsupported claims, privacy leakage, accessibility of output, author control, and final-document quality judged blind. Faster first drafts are not valuable if verification and correction take longer than writing from scratch."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Benchmark substitution: an offline score stands in for product value. Metric without consequence: accuracy is reported without false-positive and false-negative outcomes. Average blindness: aggregate performance hides a weak group, context, or rare severe failure. Contaminated test set: evaluation cases overlap training data or reflect the development team’s assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Coverage omission: abstained and failed cases disappear from the headline metric. Model-only quality: comprehension, workflow, recourse, and downstream outcome are excluded. Moving goalposts: metrics are selected after results are known. Unfunded fallback: safe abstention overloads a human service and becomes harm elsewhere."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners negotiate acceptable performance with affected users, domain owners, operations, safety, legal, and leadership. They make disagreement and uncertainty visible, require evidence proportional to consequence, and resist shipping thresholds set solely by technical convenience."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They ask whether the intervention improves the whole system compared with a serious alternative, not whether the model beats a benchmark."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They also publish limitations alongside performance: intended use, excluded cases, data boundaries, known weaknesses, evaluation conditions, monitoring, and recourse. Evaluation is a decision record, not marketing copy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a document-classification tool. Accuracy on a held-out dataset is useful but incomplete. Evaluate which errors cost staff time, which expose sensitive files, whether people can detect and correct mistakes, and whether the workflow actually improves. Compare the whole service against a non-AI baseline, not the model against an abstract benchmark."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a public claim that an AI system is “90% accurate” or “better than humans.” Ask: on what task, data, population, time period, and reference? Which errors are combined? What coverage was attempted? What action follows the output? What alternative was tested? If those answers are absent, the number describes less than it appears to."
+    }
+  ]
+}

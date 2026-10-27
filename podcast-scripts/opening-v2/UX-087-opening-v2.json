@@ -1,0 +1,228 @@
+{
+  "lesson": "UX-087",
+  "title": "Discovery and Delivery Are One System",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Discovery and Delivery Are One System."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery reduces uncertainty about problems, people, value, behaviour, alternatives, risks, and which intervention is worth pursuing. Delivery reduces uncertainty about building, integrating, operating, securing, supporting, and maintaining that intervention."
+    },
+    {
+      "speaker": "host",
+      "act": "Discovery and delivery reduce different uncertainty",
+      "mood": "curious",
+      "text": "What changes when we look at discovery and delivery reduce different uncertainty?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "They are not departments or sequential gates. Both involve learning and commitment:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "discovery may build prototypes and operational simulations; delivery may reveal feasibility, policy, content, accessibility, and service evidence; release creates behavioural and outcome evidence that changes the opportunity model; incidents and support reveal journeys discovery did not represent."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The connection is the decision. Each increment should state which outcome it serves, which assumption it addresses, what is being committed, and what evidence will challenge or extend it."
+    },
+    {
+      "speaker": "host",
+      "act": "Work at multiple horizons",
+      "mood": "thinking",
+      "text": "What changes when we look at work at multiple horizons?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A healthy product team works across horizons without building a long speculative design queue:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Now: deliver and validate the smallest coherent increment, resolve implementation discoveries, protect quality and recovery. Next: reduce the highest-risk uncertainty likely to affect the next decision before it becomes expensive. Later: explore opportunity branches and systemic dependencies without prematurely specifying solutions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Discovery should be far enough ahead to influence commitment and close enough to incorporate delivery reality. The correct distance depends on reversibility, consequence, dependency lead time, regulation, and cost of learning. A high-stakes data model may require earlier cross-functional discovery than reversible interface copy."
+    },
+    {
+      "speaker": "host",
+      "act": "Organise around assumptions and decisions",
+      "mood": "curious",
+      "text": "What changes when we look at organise around assumptions and decisions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "For an increment, maintain:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "opportunity and desired outcome; affected people and service boundary; product principles and non-negotiable constraints; assumption inventory: value, usability, accessibility, feasibility, viability, safety, data, operations, and ethics; evidence strength and consequence if wrong; next decision and decision owner; cheapest responsible learning method; delivery dependency and lead time; release measure, guardrail, and recovery plan."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Prioritise assumptions by uncertainty and consequence, not ease of testing. An uncertain visual preference is less important than an untested directory ownership model that can invalidate the service."
+    },
+    {
+      "speaker": "host",
+      "act": "Shape increments around learning and coherence",
+      "mood": "thinking",
+      "text": "What changes when we look at shape increments around learning and coherence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The smallest increment must still make sense as a service. A field stored but not visible, an alert without an owner, or a correction without propagation cannot test value. Slice vertically enough that a real actor can complete a meaningful step and the team can observe outcome and failure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define before release:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "what is real and what remains simulated or manual; intended population and excluded conditions; expected behaviour and outcome; instrumentation and qualitative follow-up; operational support and capacity; accessibility, security, privacy, and safety checks; fallback, rollback, and incident route; threshold for expand, revise, pause, or stop."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Avoid calling every release an experiment. If exposure is not controlled, the hypothesis is vague, or the team cannot interpret the outcome, it is a release with monitoring—not reliable causal evidence."
+    },
+    {
+      "speaker": "host",
+      "act": "Build cross-functional contact before handoff",
+      "mood": "curious",
+      "text": "What changes when we look at build cross-functional contact before handoff?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Product, design, research, engineering, content, data, operations, accessibility, security, and policy do not need to attend every meeting. They must enter while their knowledge can alter the decision. Use focused working sessions around the current uncertainty, not ceremonial sign-offs after design."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pairing and shared observation shorten interpretation distance. Engineers watching fieldwork notice system constraints; researchers in delivery review identify when a ticket contradicts evidence; operations can test whether a fallback is viable. The goal is shared ownership with clear decision rights, not consensus on every choice."
+    },
+    {
+      "speaker": "host",
+      "act": "Treat released behaviour as discovery input",
+      "mood": "thinking",
+      "text": "What changes when we look at treat released behaviour as discovery input?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "After release, combine telemetry, outcome measures, support, incidents, accessibility feedback, operations, and targeted research. Update the opportunity map and assumption record. Ask not only “Did adoption rise?” but “Did the mechanism work, for whom, under which conditions, and what burden moved elsewhere?”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Keep a distinction between observation and causal claim. A reduction in stale records after launch may come from seasonal staffing, provider incentives, or the new flow. Use comparison or stronger evaluation where the decision requires it."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: payment fees",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: payment fees?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A team building checkout learns that customers misunderstand a fee. Discovery tests clearer timing and alternatives while engineering maps where the amount becomes final. Delivery reveals that one payment provider supplies the fee too late. The team changes provider logic, content, and fallback together before visual design hardens."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research and implementation both reshape the solution."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Throw-over-the-wall discovery: a finished concept reaches delivery after key expertise can influence it. Delivery-only velocity: tickets move while problem relevance and outcome remain untested. Endless discovery: exploration has no decision, evidence threshold, or commitment path. Design inventory: future screens accumulate faster than evidence and engineering learning."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Research as disruption: new evidence is resisted because the plan treats learning as complete. Horizontal slice: components ship without a meaningful user/service outcome to evaluate. Experiment label: ordinary rollout is described as causal learning without valid design. Lost thread: release cannot be traced to opportunity, principle, assumption, and intended outcome."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Senior practitioners design the operating system around decision latency and risk. They schedule critical expertise before choices harden, protect room for evidence to change scope, and prevent continuous discovery from becoming continuous stakeholder interruption."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They negotiate which uncertainties deserve research, technical spikes, operational simulation, controlled experiment, or responsible release."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "They also make stopping legitimate. A delivery discovery that invalidates value, safety, or operational viability is progress if it prevents a poor system from reaching people."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a courier app. Discovery finds that failed deliveries often begin with incomplete building access details. Delivery work adds an address prompt, but rollout reveals drivers cannot see the answer at the right moment. Research, implementation, operations, and measurement form one loop."
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A validated concept is not complete until the shipped system works in context."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Inspect a current delivery board. Pick five items and ask which opportunity, assumption, principle, and outcome each serves. Then inspect the discovery plan and ask which upcoming delivery decision it can still change. If neither side can answer, the organisation has two work streams rather than one learning system."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-071",
+  "title": "Why Experiments Lie",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Why Experiments Lie."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before launch, threats include a vague hypothesis, variants that differ in several mechanisms, underpowered design, wrong randomisation unit, predictable assignment, unrepresentative eligibility, and a primary metric weakly tied to value."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit the experiment as a causal system",
+      "mood": "curious",
+      "text": "What changes when we look at audit the experiment as a causal system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "During execution, watch for:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "sample-ratio mismatch (SRM), where observed assignment counts differ implausibly from configuration; treatment and control implementation differences beyond the intended change; inconsistent triggering or exposure; missing, duplicated, or variant-specific events; bots, internal traffic, and identity failures; interference, leakage, or users switching variants; outages, seasonality, campaigns, policy shifts, and concurrent experiments; novelty, learning, and carryover effects."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "During analysis, threats include repeated peeking and stopping, outcome switching, unadjusted multiple comparisons, selective segments, inappropriate independence assumptions, outlier handling chosen after results, and confusing statistical with practical significance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "After analysis, teams can still overgeneralise, ignore concentrated harm, mistake a proxy for value, or tell a causal mechanism the experiment did not test."
+    },
+    {
+      "speaker": "host",
+      "act": "Trust checks precede product interpretation",
+      "mood": "thinking",
+      "text": "What changes when we look at trust checks precede product interpretation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use A/A tests to evaluate platform false-positive behaviour, assignment, and metric variance. Monitor SRM and other invariants independently of outcome. Reconcile critical events against source-of-truth operational data. Compare logging schemas and event volumes by variant. Validate exposure and eligibility. Inspect time series for implementation changes and novelty."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pre-specify primary metrics, guardrails, decision thresholds, duration, exclusions, and planned segments. Report confidence intervals, absolute effects, baselines, and practical significance. Preserve reproducible queries, code versions, experiment configuration, and anomalies."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Twyman’s Law offers a useful posture: any figure that looks unusually interesting or different is usually wrong. It is not a reason to dismiss discovery; it is a reason to investigate surprising wins as rigorously as losses."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: checkout “lift”",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: checkout “lift”?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A new checkout logs completion on button press while control logs confirmed payment. It reports a 4% lift. Order reconciliation removes the gain. The experiment process did not fail by rejecting the result; its quality system succeeded. Without source reconciliation, statistical machinery would have made a logging defect persuasive."
+    },
+    {
+      "speaker": "host",
+      "act": "A valid estimate can support a bad decision",
+      "mood": "thinking",
+      "text": "What changes when we look at a valid estimate can support a bad decision?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Even perfect randomisation cannot rescue a gameable OEC. A prompt can increase clicks by making the old path harder. Short-term activity may rise through novelty and later reverse. Aggregate improvement may hide harm to a smaller population. Interference may make treatment beneficial only while few users receive it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The causal estimate must still be interpreted through product, ethical, and operational judgement."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "SRM dismissal: imbalance is treated as ordinary noise. Variant-specific telemetry: the treatment changes measurement as well as experience. Peeking and stopping: chance determines experiment duration. Multiplicity fishing: one favourable result is selected from many tests. Novelty permanence: initial curiosity is projected into durable behaviour."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Proxy win: target movement replaces user value. Clean-story pressure: inconvenient anomalies disappear from the decision record."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit the path from assignment to claim",
+      "mood": "thinking",
+      "text": "What changes when we look at audit the path from assignment to claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "He checks whether patients can encounter both variants across devices, whether staff behavior changes because they know the experiment, whether clinic capacity creates spillovers, and whether late outcomes are censored. A lift in “transfer requests” may reflect easier accidental activation; a reduction in support contacts may hide people who gave up."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Guardrails and qualitative follow-up test these explanations."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team keeps an experiment log with hypothesis, pre-specified analysis, implementation checks, deviations, null findings, and decision. Results are reported with effect size, uncertainty interval, population, duration, and limitations. A clean number is not automatically credible; credibility comes from the design and the inspectable chain behind it."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Create authority to invalidate results even when they support an executive preference. Separate experimentation platform health from team performance so people are rewarded for finding defects. High-stakes or surprising results deserve replication, longer follow-up, independent review, and mechanism evidence. An organisation that only celebrates wins will manufacture them."
+    },
+    {
+      "speaker": "host",
+      "act": "Audit the path from assignment to conclusion",
+      "mood": "thinking",
+      "text": "What changes when we look at audit the path from assignment to conclusion?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A higher transfer-submission rate could reflect better comprehension, hidden consequences, or unsuitable requests. The team reviews appropriate resolution and safety guardrails, segments only with justified hypotheses, and reports uncertainty and practical effect."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Stopping rules and exclusions are defined in advance; surprising findings are treated as new hypotheses unless independently confirmed."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a donation page. A test appears to lift donations, but the variant ran mostly during a campaign while the control saw quieter days. Before trusting the result, examine assignment, exposure, sample ratio, instrumentation, repeated peeking, and whether one large gift drove the average. A clean-looking dashboard can still reflect a broken comparison."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "When you see an unusually large experiment lift, write five non-product explanations. What invariant, source-of-truth comparison, or follow-up would test each one?"
+    }
+  ]
+}

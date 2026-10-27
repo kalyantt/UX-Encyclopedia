@@ -1,0 +1,187 @@
+{
+  "lesson": "UX-047",
+  "title": "Visual Hierarchy and Layout",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Visual Hierarchy and Layout."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Visual hierarchy uses size, position, contrast, typography, spacing, grouping, and density to guide attention and communicate priority. Layout turns these signals into a stable spatial system. A strong hierarchy supports scanning, makes task order visible, and lets people distinguish primary content from supporting detail."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Design for the information people need now, not for the desire to display everything. Test hierarchy in a glance or blur test: does the main task, state, and action remain evident when detail disappears?"
+    },
+    {
+      "speaker": "host",
+      "act": "Make the next judgment perceptible",
+      "mood": "thinking",
+      "text": "What changes when we look at make the next judgment perceptible?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Visual hierarchy directs attention through differences in position, size, weight, contrast, grouping, alignment, and whitespace. These cues should express semantic priority and relationship. When everything is emphasised, nothing is prioritised; when visual order disagrees with reading or focus order, the interface presents different structures to different users."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team examines the page in grayscale, at narrow and wide widths, at 200% and 400% zoom, with long translation, with CSS disabled, and through screen-reader and keyboard order. It also uses a five-second exposure to see what people believe is primary. These checks reveal whether hierarchy is carried by robust structure or by a fragile visual trick."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Responsive hierarchy is allowed to change composition while preserving meaning. A comparison table may become grouped records on a phone, but clinic names, criteria, unknown values, and selection actions retain their relationships. DOM order follows the logical sequence; visual reordering does not create an inaccessible parallel experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: emergency information",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: emergency information?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "On a travel booking page, a gate change must outrank promotional content at the moment it affects action. A slim banner placed above a colourful sale card may technically contain the information yet lose the attention competition. Hierarchy is measured by what people notice and do, not by whether the element exists."
+    },
+    {
+      "speaker": "host",
+      "act": "Build hierarchy from reading and action",
+      "mood": "thinking",
+      "text": "What changes when we look at build hierarchy from reading and action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prioritise what a person needs to orient, decide, act, and verify. Use position, grouping, scale, weight, contrast, alignment, and whitespace consistently; when every element competes, nothing leads. Preserve relationships rather than applying visual emphasis to isolated components."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test hierarchy with real content, long values, errors, translation, zoom, and different viewport sizes. Inspect the page in grayscale and through keyboard or screen-reader order; visual hierarchy cannot contradict semantic structure. Density can support expert comparison when alignment and grouping are strong."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Simplicity means reduced interpretive effort, not maximum empty space."
+    },
+    {
+      "speaker": "host",
+      "act": "Make visual emphasis match decision priority",
+      "mood": "curious",
+      "text": "What changes when we look at make visual emphasis match decision priority?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "He tests hierarchy under realistic content rather than ideal mock data. Long clinic names, missing accessibility fields, warnings, translated text, browser zoom, and narrow screens reveal whether the layout still communicates relationships. Responsive design may change arrangement, but should not change the meaning or hide a constraint."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Proximity must not falsely associate a warning with the wrong clinic."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team governs emphasis as a scarce resource. If every stakeholder request becomes a banner, badge, or bold label, no signal remains strong. Senior designers negotiate a hierarchy tied to user consequence and service goals, and monitor whether real behavior shows the intended information was noticed and understood."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Density is not inherently bad. Expert work may require high information density; the design problem is preserving structure, control, and recoverability at that density."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hierarchy is an argument about what matters now. Establish a primary task, critical state, supporting information, and secondary paths; then use size, placement, contrast, spacing, grouping, alignment, typography, and motion consistently to express that order."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Density is not inherently poor: a familiar professional workflow may need more visible information than a first-use consumer task. The question is whether the density supports scanning, comparison, and action without obscuring priority."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Layout also communicates relationship. Proximity can imply grouping; alignment can imply sequence; repeated treatment can imply equivalence. Test these signals with representative content, long translations, zoom, small screens, and different states. A layout that works only with short placeholder copy or a single happy-path screenshot has not yet demonstrated hierarchy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Everything primary: strong contrast is applied to every element, flattening priority. Decorative whitespace: space is added without improving grouping or scan path. False grouping: proximity suggests a relationship that does not exist. Placeholder illusion: hierarchy collapses when real names, errors, or translated content arrive."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "On a dense dashboard, the most important alert, the user’s next action, and decorative metrics all receive equal visual emphasis. People spend time deciding where to look before they can decide what to do."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example On a medical-results page, the most visually prominent element was a promotional card while an abnormal result appeared in the same style as ordinary metadata. The redesign prioritises result, interpretation, urgency, and next action; secondary history remains available for comparison. Semantic heading and reading order match the visual structure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hierarchy is judged by whether people notice and correctly act on consequential information, not by aesthetic balance alone. Feedback tells people what happened; hierarchy helps them find it. lesson 48 tests whether these priorities survive across devices and contexts."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Blur a screen or view it from a distance. Identify whether its main hierarchy survives and whether that hierarchy matches the user’s next task."
+    }
+  ]
+}

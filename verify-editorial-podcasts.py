@@ -1,5 +1,6 @@
 """Check coverage, freshness, and decodability of offline podcast recordings."""
 
+import argparse
 import json
 import subprocess
 from pathlib import Path
@@ -14,14 +15,24 @@ FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--opening-v2", action="store_true")
+    args = parser.parse_args()
     missing = []
     stale = []
     broken = []
     total_bytes = 0
     for number in range(1, 205):
         lesson = f"UX-{number:03d}"
-        script = (ROOT / "podcast-scripts" / "UX-007-editorial-v1.json") if lesson == "UX-007" else SCRIPTS / f"{lesson}-editorial-draft.json"
-        audio = (ROOT / "assets" / "audio" / "UX-007-editorial-v1.m4a") if lesson == "UX-007" else AUDIO / f"{lesson}-editorial-draft.m4a"
+        if lesson == "UX-007":
+            script = ROOT / "podcast-scripts" / "UX-007-editorial-v1.json"
+            audio = ROOT / "assets" / "audio" / "UX-007-editorial-v1.m4a"
+        elif args.opening_v2:
+            script = ROOT / "podcast-scripts" / "opening-v2" / f"{lesson}-opening-v2.json"
+            audio = ROOT / "assets" / "audio" / "opening-v2" / f"{lesson}-opening-v2.m4a"
+        else:
+            script = SCRIPTS / f"{lesson}-editorial-draft.json"
+            audio = AUDIO / f"{lesson}-editorial-draft.m4a"
         if not script.is_file():
             broken.append(f"{lesson}: missing script")
             continue

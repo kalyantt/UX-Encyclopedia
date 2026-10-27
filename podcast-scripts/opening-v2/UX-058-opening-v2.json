@@ -1,0 +1,192 @@
+{
+  "lesson": "UX-058",
+  "title": "Service Blueprints",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Service Blueprints."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A service blueprint connects customer actions and touchpoints to frontstage staff actions, backstage processes, supporting systems, evidence, and ownership. It makes dependencies and handoffs visible so a team can improve the service rather than only its surface."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use blueprints to rehearse failure: missing information, no availability, exception handling, escalation, and recovery. Include ownership and evidence of state, or the map will not support implementation."
+    },
+    {
+      "speaker": "host",
+      "act": "Build the blueprint from evidence to intervention",
+      "mood": "thinking",
+      "text": "What changes when we look at build the blueprint from evidence to intervention?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A blueprint begins with a specific scenario and time boundary, not a generic customer lifecycle. Across that timeline, it aligns customer goals and actions, tangible evidence, frontstage interaction, backstage work, supporting systems, and policies. Lines of interaction and visibility clarify where contact occurs and what remains unseen."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Adding clocks, ownership, information objects, capacity, and measures turns the diagram from a picture into a model that can support decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A blueprint review ends with decisions. The team ranks breakdowns by customer consequence, frequency, inequality, staff burden, and ability to intervene. Each selected point becomes a hypothesis with an owner and evidence plan—for example, “reconciliation within four hours will reduce unresolved transfers without creating unsafe duplicate work.”"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The blueprint remains linked to measures and is updated when the service changes; otherwise it becomes a workshop fossil."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: insurance claim",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: insurance claim?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A claim journey map shows anxiety during “processing.” Blueprinting separates document validation, fraud review, assessor allocation, external evidence, payment approval, and settlement. Each queue has a different owner and recovery path. The interface can then communicate meaningful state, while operations gain the missing escalation rules that make the communication true."
+    },
+    {
+      "speaker": "host",
+      "act": "Build a blueprint that can change decisions",
+      "mood": "thinking",
+      "text": "What changes when we look at build a blueprint that can change decisions?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose a scenario and time boundary. Map customer actions, frontstage interactions, backstage work, support processes, systems, evidence, policies, and metrics along a shared timeline. Add handoffs, waiting, failure points, ownership, and capacity rather than producing a decorative swimlane."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use evidence to distinguish observed reality from assumption. Bring customers, frontline staff, operations, policy, technology, and partners into validation. Mark where the service promise depends on fragile manual work, duplicated data, unavailable authority, or an incentive that conflicts with the customer outcome."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Turn the blueprint into priorities: a changed rule, shared record, staff tool, clearer handoff, capacity intervention, or recovery path. Assign owners and expected outcomes. Maintain it around consequential changes; an obsolete blueprint is a historical picture, not an operating model."
+    },
+    {
+      "speaker": "host",
+      "act": "Use the blueprint as a causal model",
+      "mood": "curious",
+      "text": "What changes when we look at use the blueprint as a causal model?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Future-state blueprints include new work and failure, not only smoother frontstage steps. The alternative-clinic feature adds eligibility checks, data freshness, demand shifts, reconciliation, and support. The team compares value with displaced cost and prototypes risky links."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The blueprint is versioned and revisited after implementation so it remains an operational learning model."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A blueprint is a negotiation tool. Use it to reveal where policies, data, incentives, or authority prevent a better experience."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Build a blueprint around a representative journey. Across the top, show customer goals, actions, touchpoints, and evidence. Below the line of interaction, show frontstage actions; below the line of visibility, show backstage processes and support systems."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Add information flows, policies, time, capacity, responsible teams, and failure or escalation routes where they shape the outcome. The exact notation is less important than making dependencies inspectable."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use the blueprint for operational rehearsal. What happens if information is missing, a payment is pending, inventory changes, a staff member is unavailable, or the person changes channels? Who owns the next state, what can the customer see, and what information follows them? Convert priority breakdowns into service hypotheses, owners, and tests."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Keep the blueprint linked to live evidence instead of treating it as a one-time workshop artefact."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pretty process map: a generic flow omits real variation, data, and ownership. No line of visibility: teams cannot tell what customers expect to see or understand. Happy-path blueprint: recovery, escalation, and capacity constraints are missing. Unowned dependency: a failure is visible but no role can change it."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A journey map says customers wait anxiously after submitting a claim. A blueprint reveals the missing dependency: no team owns status updates between intake and assessment."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A passport-renewal blueprint connects application, evidence checks, payment, appointment, production, delivery, and exception support. It reveals that the “processing” status covers three different queues with different owners and recovery. The redesign separates those states, changes handoff data, and assigns escalation—not merely new status copy."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The blueprint created value because it exposed an operational decision the interface alone could not show. Frontstage and backstage identify the layers. Blueprinting connects them into a changeable operating model. lesson 59 brings the people who hold that model into co-creation."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Add backstage steps and owners to the journey map you made in lesson 35."
+    }
+  ]
+}

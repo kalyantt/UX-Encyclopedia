@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-182",
+  "title": "Evaluate and Govern Accessibility Over Time",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Evaluate and Govern Accessibility Over Time."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Point-in-time audits provide evidence only for a defined version and scope. Products change through code, design systems, content, experiments, localisation, data, third parties, operating systems, browsers, assistive technologies, and policy. Sustainable accessibility requires governance at planning, design, build, release, operation, and procurement."
+    },
+    {
+      "speaker": "host",
+      "act": "Accessibility quality has a lifecycle",
+      "mood": "curious",
+      "text": "What changes when we look at accessibility quality has a lifecycle?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a layered control system:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "prevent: inclusive requirements, accessible components, authoring constraints, training, procurement clauses, and design review; detect: automated tests, manual checks, assistive-technology evaluation, disabled-user research, monitoring, and reporting routes; contain: rollback, feature flags, equivalent routes, support instructions, and risk communication; repair: triage by human consequence, ownership, service levels, and verification; learn: analyse recurring causes and improve systems, not only pages."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The target is meaningful access to outcomes plus accurate conformance evidence. Defect count alone is gameable: fewer reports can mean weaker detection."
+    },
+    {
+      "speaker": "host",
+      "act": "Assign responsibility across the organisation",
+      "mood": "thinking",
+      "text": "What changes when we look at assign responsibility across the organisation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Leadership owns policy, budget, risk appetite, and accountability. Product owns scope and priority. Design owns interaction and visual requirements. Content owns structure and meaning. Engineering owns semantic implementation and tests. Quality teams validate journeys. Procurement governs vendors. Support provides accessible reporting and workarounds."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility specialists advise and independently challenge. Disabled people provide essential lived evidence but should not be made responsible for quality assurance."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Use a responsibility map for recurring tasks: who is accountable, responsible, consulted, and informed. Give critical barriers stop-ship or rapid-containment authority. Exceptions need affected task, people, consequence, workaround, evidence, owner, deadline, risk accepter, and re-test—not “known issue.”"
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: ecommerce platform",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: ecommerce platform?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A checkout team repairs focus in one modal, but dozens of merchant themes implement their own overlays. Sustainable governance requires platform primitives, theme requirements, testing tools, marketplace enforcement, upgrade paths, and customer reporting. Page-by-page remediation cannot outrun a system that recreates barriers."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "thinking",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "One-time audit: later releases invalidate evidence. Automation-only assurance: detectable rules stand in for task access. Champion dependency: quality disappears when one specialist leaves. Vendor gap: contracts and integrations bypass requirements. Exception graveyard: known barriers have no containment or deadline."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Reporter burden: disabled customers repeatedly prove impact without status or remedy. Issue-count success: weak detection looks like improvement."
+    },
+    {
+      "speaker": "host",
+      "act": "Create a control loop from change to repair",
+      "mood": "curious",
+      "text": "What changes when we look at create a control loop from change to repair?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance defines policy, decision rights, standards, tools, training, procurement, severity, service level, escalation, and reporting. A critical blocked care task receives rapid mitigation and accountable communication. Repeated defects trigger systemic action such as component repair, linting, documentation, training, or ownership change rather than endless local tickets."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Metrics include critical-flow coverage, open severity, recurrence, time to detect and repair, old-version exposure, exception age, automated-test limits, customer reports, and successful resolution. An improving scan score can coexist with inaccessible journeys, so the scorecard joins technical and lived evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team monitors dependency, browser, assistive-technology, policy, content, and service changes. Disabled participants are not recruited only for periodic audits; they influence ongoing evaluation and governance with compensation and follow-through. Public accessibility information is accurate about known limitations and support."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: checkout regression",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: checkout regression?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A third-party payment update can change focus and error behaviour without the product team editing its own code. Dependency monitoring, representative-flow regression, supplier obligations, and a fallback route make accessibility operational over time."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility maturity is the ability to prevent, detect, repair, and learn. Senior practitioners put accessibility into investment planning, performance expectations, procurement, design systems, release governance, incident management, and public accountability."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "W3C’s organisational guidance treats planning, implementation, and sustaining as recurring work; this is a capability, not a launch phase."
+    },
+    {
+      "speaker": "host",
+      "act": "Maintain an accessibility control system",
+      "mood": "thinking",
+      "text": "What changes when we look at maintain an accessibility control system?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Governance defines severity, owner, response time, temporary mitigation, validation, and communication. Metrics include critical-path coverage, recurrence, time to repair, escape-hatch use, and customer impact. A passing launch cannot protect against later content, dependency, or component changes without this lifecycle."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a customer portal. An accessibility audit finds a modal focus trap and a PDF that cannot be read. Fixing them once is not enough if future releases recreate the defects. Assign owners, acceptance criteria, regression tests, content guidance, and a route for users to report barriers and receive timely help."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find an accessibility statement. Does it give a current scope, known limitations, accessible reporting route, and response process? Imagine a regression tomorrow: can you tell who would detect, contain, and own it?"
+    }
+  ]
+}

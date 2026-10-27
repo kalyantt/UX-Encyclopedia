@@ -1,0 +1,178 @@
+{
+  "lesson": "UX-148",
+  "title": "Creation Flows: Compose, Save, Preview, Recover",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Creation Flows: Compose, Save, Preview, Recover."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Creation flows support composing, revising, previewing, saving, publishing, and recovering work. They must make state clear: draft versus published, saved versus unsaved, private versus shared, and reversible versus permanent. These distinctions are especially important when people create high-effort or consequential content."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Preserve work wherever possible, communicate save status honestly, offer preview when the final presentation differs from the editor, and support undo or version history for meaningful change. Do not use auto-save as an excuse to hide state; people still need to know what others can see and how to recover a prior version."
+    },
+    {
+      "speaker": "host",
+      "act": "Protect work from intention to durable record",
+      "mood": "thinking",
+      "text": "What changes when we look at protect work from intention to durable record?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Creation is a lifecycle: start, compose, validate, save, preview, submit or publish, revise, and sometimes withdraw. A good flow makes the current durability and visibility of work clear. “Saved” must distinguish local draft, server draft, submitted request, and accepted record."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: publishing an article",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: publishing an article?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A CMS should distinguish autosaved draft, scheduled version, reviewed version, and public version. A reassuring “saved” indicator is misleading if collaborators or readers still see another state."
+    },
+    {
+      "speaker": "host",
+      "act": "Model the object lifecycle",
+      "mood": "thinking",
+      "text": "What changes when we look at model the object lifecycle?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Define new, draft, saving, saved, conflicted, preview, scheduled, published, failed, archived, and restored states as relevant. Show current state and ownership. Autosave reduces effort only when people understand what is stored, where, and whether a failure occurred."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Support composition with meaningful structure, realistic preview, version or revision history, and safe collaboration. Preserve work across navigation, timeout, network loss, and validation. Distinguish preview from the final environment when permissions, responsive layout, or dynamic data may differ."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Before publication, reveal audience, timing, irreversible effects, missing requirements, and conflicts. After action, provide status and routes to edit, unpublish, duplicate, or recover according to policy. For simultaneous editing, communicate presence, merge behaviour, and overwritten change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test long-lived work, not a five-minute happy path. Return days later, switch device, lose connection, encounter stale content, and make a mistake. Creation quality is measured by confidence and recoverability as much as initial ease."
+    },
+    {
+      "speaker": "host",
+      "act": "Define the lifecycle before designing the form",
+      "mood": "curious",
+      "text": "What changes when we look at define the lifecycle before designing the form?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Submission is idempotent. A network timeout triggers verification before retry; a request identifier and history provide evidence. Cross-device conflicts show changed fields and actor, while privacy limits what can remain locally. Withdrawal and revision are designed as lifecycle transitions, not improvised support cases."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: publishing content",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: publishing content?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A CMS can have local edits, autosaved draft, submitted review, approved version, scheduled publication, public version, and later correction. One green “saved” message hides who can see what and which version will publish."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Draft loss is often an operational failure as much as a UI failure: session expiry, permissions, offline behavior, and version conflicts must be designed together."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Model creation as a lifecycle: new, incomplete, saved draft, shared draft, submitted, published, revised, conflicted, archived, and restored. Explain which transitions are automatic, which require confirmation, who can see each state, and what happens under interruption, offline work, permission change, or simultaneous editing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Preserve user effort, but make visibility and version consequences unambiguous."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Silent autosave: work is preserved but people cannot tell what changed or who can see it. Draft disappearance: session, network, or permission failure erases high-effort work. Preview mismatch: the editor gives no reliable sense of final presentation or consequence. Version collision: collaborators overwrite work without intelligible comparison or recovery."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a job application form. A candidate drafts a long answer, previews it, and loses it when the connection drops. A resilient creation flow saves progress, shows what is stored, supports revision, and distinguishes draft from submitted state. The design should also explain what can still be changed after submission."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 147 covered operations on existing sets. lesson 148 protects the act of creating new value. lesson 149 distinguishes the feedback that helps people predict, observe, and interpret system state."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Open an editor or form. Identify its draft state, save evidence, sharing state, undo path, and what happens if connectivity disappears."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "lesson": "UX-156",
+  "title": "Accessibility Quality in a Design System",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Accessibility Quality in a Design System."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility quality in a design system means components encode accessible structure, interaction, content expectations, and states from the start. Tokens support contrast and spacing; component contracts define focus, names, roles, keyboard behaviour, errors, and motion; documentation explains how product teams preserve those qualities in context."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test components in realistic compositions, not only in isolation. A component can be correct alone and fail in a form, dialog, responsive layout, or custom workflow. Make accessibility requirements part of contribution review, release criteria, and regression checks."
+    },
+    {
+      "speaker": "host",
+      "act": "Provide a strong floor without promising automatic compliance",
+      "mood": "thinking",
+      "text": "What changes when we look at provide a strong floor without promising automatic compliance?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A system can encode accessible defaults—semantic structure, focus treatment, keyboard behaviour, contrast roles, target size, motion preferences, labels, error association, and tested interaction states. This removes repeated risk. It cannot guarantee the accessibility of product content, workflow, composition, data, or custom extension."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Teams need clear responsibility at both levels."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Documentation includes failure examples: icon-only status, colour-only urgency, live regions that announce every refresh, inaccessible interactive cards, and tables that lose header relationships on small screens. Escape hatches are reviewed and measured."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Defects in shared code receive severity and response appropriate to their distribution because one flaw can reach every product."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: modal dialog",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: modal dialog?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A library can supply focus containment and escape behaviour, but a product can still create an inaccessible flow by opening nested dialogs, using an unclear title, or requiring a decision without necessary context. Component quality and journey quality need separate tests."
+    },
+    {
+      "speaker": "host",
+      "act": "Encode accessible defaults and obligations",
+      "mood": "thinking",
+      "text": "What changes when we look at encode accessible defaults and obligations?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Foundations protect contrast, typography, spacing, motion, and focus. Components encode semantics, names, roles, states, keyboard interaction, target size, announcements, error behaviour, zoom and responsive rules."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Documentation must also state what the consuming team supplies: meaningful labels, heading order, alternative text, focus destination, timing, and task-level testing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test in layers. Automate stable code rules, run unit and interaction tests, inspect semantics, use keyboard and assistive technology, validate themes and forced colours, zoom and reflow, and test components in representative compositions. Include disabled people in research on high-impact patterns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Version accessibility changes carefully. Fixes can alter focus, DOM order, size, or content and require migration. Communicate impact and verify downstream products. Track exceptions and defects back to shared causes; a system should prevent recurrence rather than merely distribute patches."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assign accessibility ownership but keep responsibility distributed. System teams provide a strong path; product teams remain accountable for journey, content, configuration, and third parties. Measure shipped task quality, not only library conformance."
+    },
+    {
+      "speaker": "host",
+      "act": "Split responsibility without creating a gap",
+      "mood": "curious",
+      "text": "What changes when we look at split responsibility without creating a gap?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Testing forms a pyramid: static analysis and automated checks on every change; contract and interaction tests for components; keyboard, screen reader, zoom, high contrast, and motion review; product-flow regression; and research with disabled people for real understanding and action. Shared defects receive severity proportional to their reach and a supported remediation path."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Escape hatches are visible and governed. Teams record why they override, who is affected, temporary mitigation, owner, and expiry. Trends feed the roadmap. Accessibility metrics include critical-path coverage, recurrence, old-version exposure, exception age, and customer impact—not only automated pass rate."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: dialog systems",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: dialog systems?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A component can manage focus and escape correctly, yet a product can open nested dialogs, omit necessary context, or demand an irreversible decision. The system raises the floor; journey design determines whether the experience is accessible."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The system should make the accessible path the easy path. If product teams must repeatedly add custom fixes, the system has not solved the shared problem."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Make the accessible path the default path. System components should document semantics, keyboard operation, focus, target size, labels, announcements, contrast, motion, responsive behaviour, and known limits. Combine automated checks with manual interaction, assistive-technology testing, and evaluation of complete product journeys."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A component can meet isolated criteria while a flow fails at state change, composition, or recovery."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Accessibility badge: a component is marked compliant without task or assistive-technology evaluation. API escape hatch: teams can easily remove semantics or focus behaviour to achieve a visual goal. Composition blind spot: accessible pieces form an inaccessible dialog, menu, or flow."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "No remediation owner: known barriers persist because a system team and product team each assume the other will fix them."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A system’s button component has good contrast in its default state, but loses focus visibility, announces an unclear label, and cannot be reached by keyboard inside a modal. The system has spread the defect efficiently."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "M10 now connects the design system’s product purpose, foundations, change process, and access quality. M11 extends systems thinking beyond software into people, operations, policy, and service."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose one system component. List its states, input methods, accessible name, focus behaviour, error handling, and the context where it is most likely to fail."
+    }
+  ]
+}

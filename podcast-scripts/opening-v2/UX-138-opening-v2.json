@@ -1,0 +1,161 @@
+{
+  "lesson": "UX-138",
+  "title": "Plain Language Is Interaction Design",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Plain Language Is Interaction Design."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plain language makes an intended meaning easier to find and act on. It uses familiar words, direct structure, concrete consequences, and task-appropriate detail. It is not simplistic language or a ban on technical terms; it is matching language to the audience, moment, and decision."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Write the action, state, consequence, and next step explicitly. Put the important meaning where people need it, not buried after a friendly introduction. Use a specialised term when it is necessary, then explain it in place. Test clarity with real people rather than assuming an internal review can predict comprehension."
+    },
+    {
+      "speaker": "host",
+      "act": "Simplify the task model, not only the sentence",
+      "mood": "thinking",
+      "text": "What changes when we look at simplify the task model, not only the sentence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plain language helps the intended audience find what they need, understand it, and use it. It depends on information order, explicit actors and actions, familiar words, concrete consequences, and manageable sentence structure. Short words alone are not enough. Replacing a precise term with a vague friendly phrase can reduce comprehension."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team tests language through teach-back: participants explain what happened, who acts next, what remains uncertain, and what they would do after the stated time. Reading scores can flag dense prose, but they cannot detect a missing consequence or a familiar word used inaccurately."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Subject experts review truth; content designers protect audience comprehension; neither review substitutes for user evidence."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plain language also exposes structural problems. If a policy requires four nested exceptions before a person can know eligibility, rewriting may not be sufficient. The team can change sequence, reveal a decision table, request policy simplification, or provide assisted help. lesson 139 adds voice and situational tone without weakening this clarity."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: security alert",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: security alert?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Anomalous authentication activity was detected” is less useful than “Someone signed in to your account from a new device.” The message must still identify time, location evidence, what the system did, and how to secure the account; simplicity does not mean omitting necessary action."
+    },
+    {
+      "speaker": "host",
+      "act": "Simplify the decision, not the truth",
+      "mood": "thinking",
+      "text": "What changes when we look at simplify the decision, not the truth?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start with audience, goal, prior knowledge, emotional state, and consequence. Put the main point and action first, use familiar concrete words, active constructions, short sentences, descriptive headings, and one idea per paragraph. Explain necessary domain terms at the moment of use."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plain language does not mean removing material detail. Layer complexity: a concise summary, examples, and access to full terms or evidence. Preserve precise distinctions where they change eligibility, cost, rights, or safety. “Friendly” language can be dangerously vague."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Treat labels as controls. A specific action such as “Submit application” creates a better prediction than “Continue.” Error and confirmation language must state actual system status. Test with representative people using realistic tasks; readability formulas cannot reveal incorrect mental models."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Measure comprehension, successful action, error, support, and unequal burden. If content remains difficult because the underlying policy is incoherent, make that finding visible rather than rewriting around it."
+    },
+    {
+      "speaker": "host",
+      "act": "Edit from consequence outward",
+      "mood": "curious",
+      "text": "What changes when we look at edit from consequence outward?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Domain terms are handled deliberately. A precise clinical or legal term may remain, followed by a familiar explanation and example. Synonyms help search but do not collapse distinct states. Active voice identifies responsibility when known; passive voice is not banned, but it must not hide who made a decision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Numbers, dates, ranges, and deadlines use formats the audience can interpret."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Evaluation uses teach-back and task performance. Participants explain the state, predict what happens next, and choose an action. Reading scores can flag complex sentences, but cannot detect a missing condition or false promise. Translations and assistive technology are tested in context because a clear source sentence can become ambiguous or reordered elsewhere."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: insurance denial",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: insurance denial?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "“Coverage criteria were not met” is grammatically simple but operationally vague. A useful message identifies the decision, relevant rule, evidence used, what remains covered, appeal route, deadline, and accountable help at the level privacy allows."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Plain language can expose policy and service complexity that writing alone cannot solve. Senior content practitioners challenge the rule, sequence, data, or ownership when accurate explanation remains unreasonably difficult, while preserving necessary domain precision."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "“Your request could not be processed due to an authentication anomaly.” A person does not need a technical diagnosis first. They need to know what happened, what it means for their task, what to do next, and where to get help."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find a sentence that controls a consequential action. Rewrite it to name actor, action, object, current state, and consequence; then check what organisational ambiguity the original wording concealed."
+    }
+  ]
+}

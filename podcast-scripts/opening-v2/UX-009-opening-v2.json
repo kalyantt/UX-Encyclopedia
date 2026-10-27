@@ -1,0 +1,196 @@
+{
+  "lesson": "UX-009",
+  "title": "Attention Is a Scarce Resource",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Attention Is a Scarce Resource."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attention is finite. Interfaces compete not only with their own content but with the person's environment, interruptions, memory load, time pressure, and emotional state. A design that repeatedly steals focus increases error risk and makes the product feel demanding rather than supportive."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Salience can direct attention through position, contrast, size, motion, novelty, and language. But salience is a budget, not a free resource. If every item is urgent, nothing is. Motion and interruption deserve particular care because they can pull attention away from an active task even when they are not relevant to it."
+    },
+    {
+      "speaker": "host",
+      "act": "Worked example: attention budget",
+      "mood": "thinking",
+      "text": "Can you walk me through attention budget?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Show a fixed attention budget divided among a primary task, system status, optional promotion, notification, and environmental distraction. The key visual lesson: adding a new demand takes capacity from an existing one."
+    },
+    {
+      "speaker": "host",
+      "act": "Mechanism: every switch has a resumption cost",
+      "mood": "curious",
+      "text": "How does every switch has a resumption cost actually work?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Attention can be sustained, divided, switched, or captured, but none is free. Dividing attention usually means rapid switching between tasks rather than parallel, lossless processing. Each switch requires the person to suspend a goal, encode where they were, orient to the new demand, and later reconstruct the original state."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Complex or unfamiliar work suffers more because its intermediate state is fragile."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Salience helps allocate attention but can create attentional tunnelling: a strong signal dominates while related evidence is missed. Repeated alarms create habituation; unpredictable, low-value interruptions teach people to dismiss the channel that a later critical message depends on. Long monitoring tasks create vigilance problems even when the display is simple."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "These mechanisms require different responses: remove competition, improve state representation, change alert policy, support resumption, or redesign the human role."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When prioritising, distinguish urgency from importance and actionability. An important event that requires no immediate response may belong in persistent status. An urgent event without a clear action creates anxiety rather than control. A non-urgent promotion should not borrow warning treatments."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Define alert tiers with entry conditions, channels, persistence, ownership, and expiry; otherwise visual design becomes a negotiation repeated on every screen."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Measure the cost around the interruption. Completion alone hides longer resumption, missed constraints, duplicated actions, and reduced confidence. Observe the next several actions, ask the person to explain their restored goal, and compare performance with and without the competing demand."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The objective is not an interruption-free product; it is attention spent in proportion to the person's task and consequence."
+    },
+    {
+      "speaker": "host",
+      "act": "Put it to work",
+      "mood": "thinking",
+      "text": "What would you do with that in a real product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Protect task-critical moments: payment, deletion, publication, recovery, and form completion. Delay nonessential prompts, preserve progress across interruptions, and use notifications only when they are actionable. Ask whether each alert changes the next decision; if not, it probably does not deserve immediate attention."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attention conflicts often reveal incentive conflicts. A growth request, compliance message, support announcement, and user task may all compete for the same surface. Make the cost visible, assign a priority by context, and measure whether the interruption harms completion, comprehension, or trust."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "thinking",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "People do not inspect a screen like a camera records a scene. They sample what seems relevant to their current goal and what has been signalled as important by position, contrast, prior expectation, and change."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "A message can technically be present yet fail to enter the person’s working understanding because it is outside the task path, competes with a stronger signal, arrives too late, or looks like material they have learned to ignore."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "This is why adding another banner is rarely a neutral decision. It changes the priority relationship on the page. The cost can appear as missed requirements, a skipped warning, an accidental choice, slow completion, or a vague feeling that the product is noisy and unsafe."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The same interruption has different consequences in browsing, payment, health, administration, or a time-critical recovery flow."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Start by naming the primary task for this moment. Then classify every competing element: required to complete the task, required to make an informed decision, useful but deferrable, or purely organisational demand. Put critical information where a person can act on it; do not rely on colour, animation, or repeated exposure alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "When an interruption is unavoidable, preserve progress, explain why it is happening, and give the person a clear route back."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Competing primaries: two large calls to action make neither decision clear. Late information: a rule appears only after people have invested effort they cannot recover. Interruptive growth: requests for ratings, upgrades, or permissions appear in an active, high-stakes task. Invisible change: meaningful status updates are too subtle, brief, or detached from the next action."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Alert fatigue: frequent low-value messages make a rare critical warning easier to miss."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A person is halfway through an urgent transfer when an interstitial asks them to rate the app. The prompt may help a business metric, but it consumes attention at the exact moment the task needs it most."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 8 made the screen legible. This lesson decides what deserves the person's focus. lesson 10 will reduce attention demand further by replacing memory work with visible cues."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Find the primary action on three home screens. Time yourself. Then list every element that tried to pull your attention away from it."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "lesson": "UX-167",
+  "title": "Moderated or Unmoderated: Choose by Learning Risk",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Moderated or Unmoderated: Choose by Learning Risk."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "In moderated evaluation, a researcher introduces the study, observes in real time, probes interpretation, adapts follow-up, manages technology, and responds to distress or unexpected situations. This is valuable when mental models, ambiguity, emotion, accessibility, complex context, or novel system behaviour matter."
+    },
+    {
+      "speaker": "host",
+      "act": "What moderation changes",
+      "mood": "curious",
+      "text": "What changes when we look at what moderation changes?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Moderation also changes behaviour. Participants may seek approval, explain more than they would naturally, avoid criticism, or succeed because the moderator rescues them. Skilled moderation uses neutral prompts and a consistent assistance ladder, and reports interventions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "In unmoderated evaluation, participants complete tasks independently, usually remotely and asynchronously. Instructions and instrumentation must carry the study. It offers scheduling flexibility, geographic reach, consistent task presentation, and larger structured samples at lower marginal cost."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "It is useful for stable flows with clear success criteria, comparative benchmarks, first-click or navigation studies, and directional performance patterns."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "But researchers cannot clarify ambiguity, confirm environment reliably, probe unexpected behaviour, or protect participants immediately. A larger sample does not repair a poorly specified task or an unobservable mental model."
+    },
+    {
+      "speaker": "host",
+      "act": "Use a mode decision matrix",
+      "mood": "thinking",
+      "text": "What changes when we look at use a mode decision matrix?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Assess:"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "need to understand reasoning rather than only behaviour; task and prototype stability; ambiguity of instructions and success criteria; sensitivity, distress, or safety risk; need for adaptive probing; accessibility support and technology complexity; importance of natural environment; need for breadth, comparison, or statistical precision; ability to verify participants and data quality; consequence of misinterpreting the result."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Choose a hybrid when questions differ. Moderated exploration can develop valid tasks and explanations; unmoderated work can examine a stable pattern more broadly; follow-up interviews can diagnose selected recordings. Sequence is more important than declaring one mode superior."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: benefits application",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: benefits application?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "An unmoderated study finds abandonment on an eligibility question. Possible causes include distrust, unclear language, ineligibility, missing documents, interruption, or fear of consequences. Moderated work can diagnose these explanations and protect participants."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Once wording and routes stabilise, unmoderated comparison may estimate directional differences, but it still cannot represent people who lack device access or never reach recruitment."
+    },
+    {
+      "speaker": "host",
+      "act": "Operational quality",
+      "mood": "thinking",
+      "text": "What changes when we look at operational quality?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Pilot both modes. For moderated sessions, calibrate moderators, scripts, assistance, consent, recording, note-taking, and safeguarding. For unmoderated work, test task comprehension without coaching, prototype resilience, device requirements, privacy, incentives, fraud checks, exclusion rules, and handling of partial data."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Report mode effects. Home context may be more natural but uncontrolled; lab attention may be artificial; think-aloud can slow action; asynchronous tasks may be interrupted. These are properties of evidence, not nuisances to hide."
+    },
+    {
+      "speaker": "host",
+      "act": "Where this can go wrong",
+      "mood": "curious",
+      "text": "What changes when we look at where this can go wrong?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Speed default: unmoderated scale replaces diagnosis and care. Moderator dependence: participants succeed because of subtle coaching. Task ambiguity: independent participants solve different imagined problems. False scale: sample size is mistaken for representativeness or causal explanation. Unsafe independence: sensitive or consequential tasks lack support and debriefing."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Hybrid duplication: two modes ask the same question without complementary value."
+    },
+    {
+      "speaker": "host",
+      "act": "Design each mode for its actual evidence",
+      "mood": "thinking",
+      "text": "What changes when we look at design each mode for its actual evidence?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Unmoderated studies need a self-contained scenario, stable prototype, realistic content, reliable instrumentation, accessible task delivery, and a recovery plan for technical problems. They support broader conditions and natural timing but cannot explain every hesitation or safely manage serious misunderstanding. Open text is not a replacement for observation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Analysis acknowledges mode effects. A moderator may increase persistence; remote unmoderated participants may abandon because of study technology; lab conditions may remove interruption. The decision report states what the method can and cannot support and chooses the next evidence accordingly."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: destructive account action",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: destructive account action?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "An unmoderated test can measure whether people find deletion, but moderated work is better for understanding consequence and emotional response. Neither should expose participants to actual irreversible loss merely to increase realism."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Senior practitioners budget for evidence quality, not session count. They ask who each mode systematically excludes: unmoderated platforms may exclude assistive technology, older devices, low bandwidth, limited literacy, or people uncomfortable recording. Moderated scheduling can exclude shift workers or carers."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Mitigate through alternative participation routes rather than describing exclusion as participant failure."
+    },
+    {
+      "speaker": "host",
+      "act": "Match observation depth to the risk",
+      "mood": "curious",
+      "text": "What changes when we look at match observation depth to the risk?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "The team combines methods deliberately: moderated work discovers why “request received” is misread; unmoderated testing estimates how often a revised explanation supports correct choice. Safety, privacy, accessibility, recruitment, technical failure, and analysis limits are planned for both."
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "<! -- Editorial: manual revision; curated product example --"
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Illustrative scenario: a complex loan comparison. An unmoderated test can scale a straightforward task, but it may not reveal why people misunderstand rate assumptions or feel pressured. Moderation lets the researcher probe reasoning without coaching. The choice depends on the learning risk, participant access, task complexity, and what the team can responsibly infer."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Watch an unmoderated research clip or product recording. List three plausible explanations for the same visible hesitation. Which one could a moderator probe, and which requires evidence outside a session?"
+    }
+  ]
+}

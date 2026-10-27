@@ -49,9 +49,9 @@ for(const [id,lesson] of Object.entries(course.reading)){
   const title=course.chapters[id].match(/^#\s+UX-\d{3}\s+[—–-]\s+(.+)$/m)?.[1]
     ||course.chapters[id].match(/^title:\s*(.+)$/m)?.[1]
     ||id;
+  const spokenTitle=id==='UX-001'?'What is UX?':/[!?]$/.test(title)?title:`${title}.`;
   const turns=[
-    {speaker:'guide',act:'Before we begin',mood:'warm',text:`Today we're talking about ${title}. By the end, you'll know why this matters, how to use it, and what to notice in a real product.`},
-    {speaker:'host',mood:'curious',text:'What is the problem we are trying to understand?'},
+    {speaker:'host',act:'Before we begin',mood:'curious',text:spokenTitle},
     ...groups(lesson.opening).map(text=>({speaker:'guide',mood:'clear',text})),
   ];
   for(const [sectionIndex,section] of lesson.sections.entries()){

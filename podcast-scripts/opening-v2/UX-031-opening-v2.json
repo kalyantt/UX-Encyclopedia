@@ -1,0 +1,177 @@
+{
+  "lesson": "UX-031",
+  "title": "From Notes to Themes",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "From Notes to Themes."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Synthesis turns dispersed evidence into a useful model. Start by preserving traceability: observations, quotes, artefacts, and context should remain connected to any later interpretation. Code notes for relevant behaviours, needs, barriers, and conditions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Cluster related evidence, then test whether a tentative theme explains more than one case without erasing important differences."
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Themes are provisional explanations, not vote counts. Name the underlying pattern, the evidence supporting it, the exceptions, and the design implication. A good theme helps a team decide what to investigate or change next."
+    },
+    {
+      "speaker": "host",
+      "act": "Preserve the chain from episode to pattern",
+      "mood": "thinking",
+      "text": "What changes when we look at preserve the chain from episode to pattern?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A theme explains a recurring relationship, such as “people delay changing an impractical appointment because they cannot predict whether the original slot is protected.” It is not a topic like “trust.” The team records scope, variation, confidence, exceptions, and decision implication."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Quantitative data can assess distribution; it does not automatically replace the qualitative mechanism."
+    },
+    {
+      "speaker": "host",
+      "act": "The theme card as a decision artifact",
+      "mood": "curious",
+      "text": "What changes when we look at the theme card as a decision artifact?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Collaborators may disagree. One analyst sees a trust theme; another sees missing status semantics. They return to cases and ask which explanation predicts behavior in negative cases. Analytic debate is resolved through fit and usefulness, not seniority or dot count."
+    },
+    {
+      "speaker": "host",
+      "act": "Analyse without erasing context",
+      "mood": "thinking",
+      "text": "What changes when we look at analyse without erasing context?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Prepare and familiarise: verify recordings or notes, label participants and situations, and record sampling limits. Break material into meaningful observations while preserving enough context to interpret them. Code inductively from evidence, deductively from research questions, or combine both transparently."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Group by shared mechanism rather than similar words. Compare cases, seek contradictions, and distinguish frequency from significance. A rare severe barrier may matter more than a common preference. Maintain links from theme to excerpts, participant, context, and analytic decisions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Collaborative synthesis can broaden interpretation but needs facilitation and source access. Do not let voting turn popularity into truth. Revise themes as evidence accumulates, then state scope and uncertainty. The goal is a defensible explanation that can guide a decision, not a colourful wall of clusters."
+    },
+    {
+      "speaker": "host",
+      "act": "Build themes that explain variation",
+      "mood": "curious",
+      "text": "What changes when we look at build themes that explain variation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A theme states a relationship and its conditions, not a topic. “When status lacks an accountable actor and expected time, patients create verification work” can guide design and measurement; “trust” cannot. The team retains negative cases, scope, confidence, and traceable source links, then asks what decision the pattern changes."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "thinking",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Synthesis is vulnerable to confirmation bias. Invite disconfirming cases, retain raw evidence, and distinguish a recurring pattern from a convenient story."
+    },
+    {
+      "speaker": "host",
+      "act": "Look more closely",
+      "mood": "curious",
+      "text": "What should we look at more closely?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Synthesis is a sequence of moves, not a moment of inspiration. Prepare material, immerse in it, attach descriptive codes, compare cases, cluster related patterns, test alternative explanations, and write a theme with its evidence and limits. Work from actual notes, recordings, artefacts, and context rather than a summary alone."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Preserve links so a stakeholder can travel from a theme back to the people and situations that informed it."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Look for both convergence and variation. A theme that applies to many people may be important; an outlier may reveal an excluded group, an operational exception, or a mistaken assumption. Compare across role, context, time, and task."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Ask whether the pattern is caused by the current interface, a policy, an upstream data problem, or an unmet need that exists independently of the product."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Failure modes to watch"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Sticky-note vote: frequency is treated as the only measure of importance. Premature label: a cluster gets a clever name before its mechanism is understood. Lost provenance: a theme cannot be traced back to source material. Erased variation: a minority pattern is forced into the dominant story."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Several comments about delivery tracking may form topics such as “notifications.” A useful theme explains that conflicting carrier and retailer states make customers distrust both and contact support."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Module 4 taught calibrated evidence; Module 5 made it continuous. This lesson turns accumulated learning into a shared pattern. lesson 32 separates observation from the insight that follows."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Cluster five app-store reviews into tentative themes. What context would you need before treating a cluster as an insight?"
+    }
+  ]
+}

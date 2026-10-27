@@ -1,0 +1,207 @@
+{
+  "lesson": "UX-128",
+  "title": "Content Models: Types, Attributes, and Relationships",
+  "voices": {
+    "guide": "af_heart",
+    "host": "am_michael"
+  },
+  "editorial_note": "Opening revised to lead with the lesson itself. Remaining dialogue is an automated editorial draft; review spoken wording and meaning before final publication.",
+  "turns": [
+    {
+      "speaker": "host",
+      "act": "Before we begin",
+      "mood": "curious",
+      "text": "Content Models: Types, Attributes, and Relationships."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A content model defines the meaningful things in an information system, their attributes, and their relationships. It answers questions such as: what is an event, destination, policy, product, person, or alert; which fields describe it; what other things can it relate to; and which source owns the truth?"
+    },
+    {
+      "speaker": "host",
+      "act": "Why it happens",
+      "mood": "curious",
+      "text": "Why does that happen?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Models separate content from a page layout. That makes content reusable across search, navigation, notifications, apps, services, and future interfaces. It also reveals missing fields, ambiguous terms, and dependencies before a design team creates screens around unstable assumptions."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Start from user tasks and the information needed to complete them. Name content types in language the organisation can sustain, keep attributes purposeful, and model relationships explicitly. Do not build a giant ontology for its own sake; model only the structure needed to support a real experience and change safely."
+    },
+    {
+      "speaker": "host",
+      "act": "Model meaning independently of the current page",
+      "mood": "thinking",
+      "text": "What changes when we look at model meaning independently of the current page?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A content model defines reusable types, their attributes, relationships, validation, and lifecycle. It should describe the domain well enough that web pages, notifications, support views, search, and future channels can compose the same trusted information differently."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Starting with page templates often bakes a temporary layout into the data and forces later channels to scrape meaning from prose."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "For every attribute the team specifies purpose, value type, allowed absence, provenance, effective date, sensitivity, permissions, localisation, and owner. “Wheelchair accessible” cannot be a timeless boolean: access may differ by entrance and can become stale. Unknown is distinct from no."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Relationships are named in both directions so the team can ask what preparation applies after a reschedule and which request produced an appointment."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The model is validated through content instances and queries, not diagram elegance. Can it represent two simultaneous offers, a withdrawn request, a changed clinic entrance, a helper with limited permission, and a notification generated from stale state? Breaks become model revisions. The next lesson decides how these objects should be organised for different tasks."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: event publishing",
+      "mood": "curious",
+      "text": "What changes when we look at transfer example: event publishing?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Modelling an “event page” as one rich-text block makes reuse impossible. Modelling event, venue, session, speaker, ticket condition, access feature, and cancellation state lets a calendar, reminder, search result, and check-in tool share meaning while presenting different detail."
+    },
+    {
+      "speaker": "host",
+      "act": "Model meaning independently of pages",
+      "mood": "thinking",
+      "text": "What changes when we look at model meaning independently of pages?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Identify stable content or domain types such as product, policy, event, person, location, eligibility rule, or lesson. For each, define required and optional attributes, allowed values, relationships, lifecycle, owner, permissions, and validation. Use names grounded in domain and audience rather than current interface containers."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Relationships create capability: a policy applies to regions and products; an event belongs to a journey; a lesson depends on concepts. Model cardinality, direction, and effective dates. Avoid stuffing relationships into rich text where search, reuse, or governance cannot interpret them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Test the model with real and edge content, translation, missing values, historical change, and multiple channels. Prototype authoring as well as consumption; a theoretically elegant schema can impose impossible editorial work. Balance structure with legitimate variation."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Document semantics and examples. Version changes, migrate consumers, and monitor workarounds. A content model succeeds when it supports consistent creation, retrieval, display, reuse, and change—not when its diagram looks complete."
+    },
+    {
+      "speaker": "host",
+      "act": "Validate the model against content and queries",
+      "mood": "curious",
+      "text": "What changes when we look at validate the model against content and queries?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Attributes have semantics and operational cost. “Distance” needs origin, mode, calculation time, and accessibility assumptions. “Available” needs the inventory source, freshness, and whether it describes a slot, a clinic’s willingness to review, or a confirmed booking."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The model distinguishes unknown, not applicable, not collected, and verified false because interfaces and decisions should not collapse them."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Relationships are named as verbs with direction and constraints: a transfer request concerns a referral, proposes one clinic, may generate an offer, and can result in an appointment; it is not itself an appointment. These distinctions support search, status, permissions, notifications, analytics, and audit."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A rich-text field cannot reliably carry relationships the product must compute or govern."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "The team writes competency questions before implementation. Can the model find the authoritative preparation after rescheduling? Can it show which event justified a patient message? Can it distinguish two offers without implying two bookings? Can it hide clinical details while allowing a helper to track logistics? Failed questions drive revision."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A schema that stores data but cannot support the service decision is not a successful content model."
+    },
+    {
+      "speaker": "host",
+      "act": "Transfer example: learning platform",
+      "mood": "thinking",
+      "text": "What changes when we look at transfer example: learning platform?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "thinking",
+      "text": "Course, module, lesson, exercise, attempt, credential, and learner progress are distinct but related objects. Treating a course page as one document makes adaptive sequencing, reuse, accessibility alternatives, and progress history fragile. Modelling the relationships enables several interfaces without duplicating meaning."
+    },
+    {
+      "speaker": "host",
+      "act": "The harder decision",
+      "mood": "curious",
+      "text": "Where does the harder design decision appear?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "When a content problem keeps returning as a UI exception, inspect the model. The missing answer is often a relationship, status, ownership rule, or lifecycle state—not another component."
+    },
+    {
+      "speaker": "host",
+      "act": "Product example",
+      "mood": "curious",
+      "text": "Can we see that in a concrete product situation?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "A travel site has destination pages, hotel cards, advice articles, booking rules, and local alerts. Each team writes its own page structure. Soon the same fact appears in five places, updates drift, and search cannot tell a policy from a recommendation."
+    },
+    {
+      "speaker": "host",
+      "act": "Connect the lessons",
+      "mood": "thinking",
+      "text": "How does this connect to what we have already learned?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "Worked example A course platform models lesson as title plus body. It later needs prerequisites, concepts, difficulty, estimated effort, exercises, sources, versions, and relationships to learning outcomes. Adding these as formatted prose prevents sequencing and retrieval."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "A content model turns them into governed attributes and relations, while allowing the teaching narrative to remain flexible. Author testing ensures the structure supports real production rather than becoming schema bureaucracy. lesson 127 inspected the current information landscape. lesson 128 gives it durable structure."
+    },
+    {
+      "speaker": "guide",
+      "mood": "clear",
+      "text": "lesson 129 decides how that structure should be organised for people."
+    },
+    {
+      "speaker": "host",
+      "act": "Try it yourself",
+      "mood": "warm",
+      "text": "What should I notice the next time I use a product?"
+    },
+    {
+      "speaker": "guide",
+      "mood": "warm",
+      "text": "Choose a product list, such as jobs, events, or recipes. Name three content types, five attributes, and two relationships required to help a person find and act on an item."
+    }
+  ]
+}
