@@ -10,8 +10,8 @@ from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.3.zip"
-PREFIX = "UX-Encyclopedia-Offline-V7.3/"
+OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.4.zip"
+PREFIX = "UX-Encyclopedia-Offline-V7.4/"
 
 
 def source(name: str) -> str:
@@ -31,8 +31,8 @@ def scripts() -> dict[str, str]:
     pet = source("reading-pet.mjs")
     pet = replace_once(
         pet,
-        "import {createIndex,findPassages,plain} from './pet-search.mjs?v=20261001b';",
-        "const {createIndex,findPassages,plain}=window.petSearch;",
+        "import {createIndex,findPassages} from './pet-search.mjs?v=20261001b';",
+        "const {createIndex,findPassages}=window.petSearch;",
         "pet import",
     )
     pet = pet.replace("export function mountPet", "function mountPet")
@@ -87,7 +87,7 @@ def scripts() -> dict[str, str]:
         count=1,
     )
     reader = re.sub(
-        r"import\('\./reading-pet\.mjs\?v=20261021v6'\)\.then\(\(\{mountPet\}\)=>mountPet\(library,\(\)=>currentId\)\)\.catch\(error=>console\.warn\('Reading companion unavailable',error\)\)",
+        r"import\('\./reading-pet\.mjs\?v=20261027v7'\)\.then\(\(\{mountPet\}\)=>mountPet\(library,\(\)=>currentId\)\)\.catch\(error=>console\.warn\('Reading companion unavailable',error\)\)",
         "try{window.mountPet(library,()=>currentId)}catch(error){console.warn('Reading companion unavailable',error)}",
         reader,
         count=1,
@@ -123,7 +123,7 @@ def page() -> str:
     tags = "".join(f'<script src="assets/{name}"></script>' for name in ordered)
     html = replace_once(
         html,
-        '<script src="course-reader.js?v=editorial-all13"></script>',
+        '<script src="course-reader.js?v=editorial-all14"></script>',
         tags + '<script src="assets/offline-course-reader.js"></script>',
         "course reader script",
     )
