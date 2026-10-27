@@ -10,8 +10,8 @@ from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.1.zip"
-PREFIX = "UX-Encyclopedia-Offline-V7.1/"
+OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.2.zip"
+PREFIX = "UX-Encyclopedia-Offline-V7.2/"
 
 
 def source(name: str) -> str:
@@ -95,7 +95,7 @@ def scripts() -> dict[str, str]:
     if "import(" in reader or "export " in audio or "import " in audio:
         raise ValueError("Offline JavaScript still contains module loading")
 
-    return {
+    generated = {
         "offline-pet-search.js": search,
         "offline-reading-pet.js": pet,
         "offline-podcast-versions.js": versions,
@@ -104,6 +104,10 @@ def scripts() -> dict[str, str]:
         "offline-lesson-audio.js": audio,
         "offline-course-reader.js": reader,
     }
+    # Classic scripts share a global lexical scope under file://. Keep each
+    # transformed module private and communicate only through explicit window
+    # exports, avoiding duplicate top-level const declarations.
+    return {name: f"(()=>{{\n{content}\n}})();\n" for name, content in generated.items()}
 
 
 def page() -> str:
