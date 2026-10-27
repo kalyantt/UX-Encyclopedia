@@ -10,8 +10,8 @@ from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.zip"
-PREFIX = "UX-Encyclopedia-Offline/"
+OUTPUT = ROOT.parent / "UX-Encyclopedia-Offline-V7.1.zip"
+PREFIX = "UX-Encyclopedia-Offline-V7.1/"
 
 
 def source(name: str) -> str:
@@ -71,6 +71,12 @@ def scripts() -> dict[str, str]:
         "audio previews import",
     )
     audio = audio.replace("export function mountAudio", "function mountAudio")
+    audio = replace_once(
+        audio,
+        r"/(?:course-editorial-preview|course-podcast-v1)\.html$/",
+        r"/\.html$/",
+        "offline lesson-page detection",
+    )
     audio += "\nwindow.mountAudio=mountAudio;\n"
 
     reader = source("course-reader.js")
@@ -110,11 +116,11 @@ def page() -> str:
         "offline-lesson-audio.js",
         "offline-reading-pet.js",
     )
-    tags = "".join(f'<script src="{name}"></script>' for name in ordered)
+    tags = "".join(f'<script src="assets/{name}"></script>' for name in ordered)
     html = replace_once(
         html,
         '<script src="course-reader.js?v=editorial-all13"></script>',
-        tags + '<script src="offline-course-reader.js"></script>',
+        tags + '<script src="assets/offline-course-reader.js"></script>',
         "course reader script",
     )
     html = replace_once(
@@ -122,6 +128,13 @@ def page() -> str:
         '<div class="rail-footer"><a href="course.html">← Earlier course</a></div>',
         '<div class="rail-footer"><span>Offline edition · all lessons and audio included</span></div>',
         "course footer",
+    )
+    html = html.replace('href="index.html"', 'href="#UX-001"')
+    html = html.replace('href="course-reader.css?v=20261024v11"', 'href="assets/course-reader.css"')
+    html = html.replace('href="reading-pet.css?v=20261021v6"', 'href="assets/reading-pet.css"')
+    html = html.replace(
+        'src="course-204-data-editorial-preview.js?v=editorial-all1"',
+        'src="assets/course-204-data-editorial-preview.js"',
     )
     return html
 
@@ -142,7 +155,7 @@ def main() -> int:
     readme = """UX Encyclopedia — offline podcast edition
 
 1. Extract the entire ZIP to a folder. Do not open files inside the ZIP preview.
-2. Open index.html in a current Chrome, Edge, or Safari browser.
+2. Double-click "Open UX Encyclopedia.html" in a current Chrome, Edge, or Safari browser.
 3. Read, navigate, answer questions, and play the lesson recordings without internet.
 
 Keep the assets folder alongside the HTML files. All 204 lesson recordings and
@@ -153,20 +166,18 @@ This is an offline copy of the current editorial preview, not a hand-reviewed
 final publication. Browser-local practice progress may not transfer between
 devices or browsers. No original source books are included.
 """
-    home = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>UX Encyclopedia — Offline Edition</title><style>body{font:20px/1.6 Georgia,serif;background:#f5f3ed;color:#243a30;max-width:700px;margin:12vh auto;padding:24px}h1{font-size:clamp(40px,7vw,70px);line-height:1.05}a{display:inline-block;background:#2d493d;color:white;padding:14px 24px;border-radius:8px;text-decoration:none}small{display:block;margin-top:24px;color:#5a6b61}</style></head><body><p>204 lessons · 17 chapters · audio included</p><h1>The UX Encyclopedia</h1><p>Read and listen offline. Everything you need is in this folder.</p><a href="course-podcast-v1.html#UX-001">Open the course →</a><small>Keep this folder together after extracting it.</small></body></html>"""
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with ZipFile(OUTPUT, "w", allowZip64=True) as archive:
-        archive.writestr(PREFIX + "README.txt", readme, compress_type=ZIP_DEFLATED)
-        archive.writestr(PREFIX + "index.html", home, compress_type=ZIP_DEFLATED)
-        archive.writestr(PREFIX + "course-podcast-v1.html", html, compress_type=ZIP_DEFLATED)
+        archive.writestr(PREFIX + "assets/README.txt", readme, compress_type=ZIP_DEFLATED)
+        archive.writestr(PREFIX + "Open UX Encyclopedia.html", html, compress_type=ZIP_DEFLATED)
         for name, content in generated.items():
-            archive.writestr(PREFIX + name, content, compress_type=ZIP_DEFLATED)
+            archive.writestr(PREFIX + "assets/" + name, content, compress_type=ZIP_DEFLATED)
         for name in (
             "course-reader.css",
             "reading-pet.css",
             "course-204-data-editorial-preview.js",
         ):
-            archive.write(ROOT / name, PREFIX + name, compress_type=ZIP_DEFLATED)
+            archive.write(ROOT / name, PREFIX + "assets/" + name, compress_type=ZIP_DEFLATED)
         for name in sorted(audio):
             archive.write(ROOT / name, PREFIX + name, compress_type=ZIP_STORED)
     print(f"Created {OUTPUT} ({OUTPUT.stat().st_size / 1024**2:.1f} MiB; {len(audio)} audio files)")
